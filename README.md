@@ -65,9 +65,10 @@ Key design decisions:
 ## Authoring content
 
 Bundled studies are human-readable JSON seeds in `src/content/<category>/` —
-SAN moves plus structured annotations; positions are computed, never
-hand-written. See `docs/content-authoring.md` for the schema, the chess
-correctness rules, and the pedagogical voice guide.
+SAN moves plus structured annotations; positions, IDs, and move relationships
+are computed, never hand-written. See [`CONTENT_AUTHORING.md`](CONTENT_AUTHORING.md)
+for the full format, a complete example study, the validation layers
+(`npm run validate:content`), and the pedagogical voice guide.
 
 ## Credits & licensing
 

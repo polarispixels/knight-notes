@@ -17,6 +17,7 @@ import type {
   VisualAnnotation,
 } from '../../domain/study/types'
 import { createEngine, STARTING_FEN } from '../chess/engine'
+import { validateSeed } from './validateSeed'
 
 export interface AnnotationSeed {
   type: AnnotationType
@@ -32,7 +33,14 @@ export interface MoveSeed {
   annotations?: AnnotationSeed[]
   visual?: VisualAnnotation[]
   /** Alternative lines replacing THIS move. */
-  variations?: MoveSeed[][]
+  variations?: MoveSeedInput[][]
+}
+
+/** A move in authoring form: a bare SAN string, or an object when it carries metadata. */
+export type MoveSeedInput = string | MoveSeed
+
+function asMoveSeed(input: MoveSeedInput): MoveSeed {
+  return typeof input === 'string' ? { san: input } : input
 }
 
 export interface StudySeed {
@@ -51,12 +59,18 @@ export interface StudySeed {
   initialFen?: string
   rootAnnotations?: AnnotationSeed[]
   rootVisual?: VisualAnnotation[]
-  line: MoveSeed[]
+  line: MoveSeedInput[]
 }
 
 export class SeedError extends Error {}
 
 export function seedToStudy(seed: StudySeed): Study {
+  const schemaErrors = validateSeed(seed)
+  if (schemaErrors.length > 0) {
+    throw new SeedError(
+      `Study "${(seed as { id?: string })?.id ?? '?'}" has invalid authoring data:\n  ${schemaErrors.join('\n  ')}`,
+    )
+  }
   const nodes: Study['nodes'] = {}
   let counter = 0
   const newId = () => `n${counter++}`
@@ -71,9 +85,9 @@ export function seedToStudy(seed: StudySeed): Study {
     visualAnnotations: seed.rootVisual,
   }
 
-  function buildLine(moves: MoveSeed[], startParentId: string): void {
+  function buildLine(moves: MoveSeedInput[], startParentId: string): void {
     let parentId = startParentId
-    for (const moveSeed of moves) {
+    for (const moveSeed of moves.map(asMoveSeed)) {
       const parent = nodes[parentId]
       const engine = createEngine(parent.fen)
       const moveNumber = engine.moveNumber()

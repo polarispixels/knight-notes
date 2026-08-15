@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { seedToStudy, type StudySeed } from '../seed'
+import { validateSeed } from '../validateSeed'
 import { getNode, mainlineIds, variationsAt } from '../../../domain/study/traversal'
 
 const SEED: StudySeed = {
@@ -83,5 +84,90 @@ describe('seedToStudy', () => {
     expect(() =>
       seedToStudy({ id: 'bad', title: 'Bad', type: 'game', line: [{ san: 'e5' }] }),
     ).toThrow(/bad.*e5/i)
+  })
+})
+
+describe('seedToStudy: string-move shorthand', () => {
+  it('accepts plain SAN strings interchangeably with move objects', () => {
+    const study = seedToStudy({
+      id: 'shorthand',
+      title: 'Shorthand',
+      type: 'opening',
+      line: [
+        'e4',
+        'e5',
+        { san: 'Nf3', annotations: [{ type: 'principle', body: 'Develop with a threat.' }] },
+        { san: 'Nc6', variations: [['d6', 'd4']] },
+      ],
+    })
+    const line = mainlineIds(study)
+    expect(line).toHaveLength(5)
+    expect(getNode(study, line[3]).moveFromParent?.san).toBe('Nf3')
+    const afterNf3 = line[3]
+    const [d6] = variationsAt(study, afterNf3)
+    expect(d6.moveFromParent?.san).toBe('d6')
+    expect(getNode(study, d6.children[0]).moveFromParent?.san).toBe('d4')
+  })
+})
+
+describe('validateSeed', () => {
+  const valid = {
+    id: 'ok-study',
+    title: 'OK',
+    type: 'trap',
+    summary: 'A fine study.',
+    line: ['e4', 'e5'],
+  }
+
+  it('accepts a valid seed', () => {
+    expect(validateSeed(valid)).toEqual([])
+  })
+
+  it('reports missing and malformed required fields', () => {
+    const errors = validateSeed({ id: 'Bad ID!', type: 'saga', line: [] })
+    expect(errors.join('\n')).toMatch(/id/)
+    expect(errors.join('\n')).toMatch(/title/)
+    expect(errors.join('\n')).toMatch(/type/)
+    expect(errors.join('\n')).toMatch(/line/)
+  })
+
+  it('reports bad enums and annotation shapes with their location', () => {
+    const errors = validateSeed({
+      ...valid,
+      difficulty: 'grandmaster',
+      line: [
+        'e4',
+        {
+          san: 'e5',
+          classification: 'brilliant',
+          importance: 'cosmic',
+          annotations: [{ type: 'sermon', body: '' }],
+          visual: [{ type: 'square', square: 'z9' }],
+        },
+      ],
+    })
+    const all = errors.join('\n')
+    expect(all).toMatch(/difficulty/)
+    expect(all).toMatch(/classification/)
+    expect(all).toMatch(/importance/)
+    expect(all).toMatch(/sermon/)
+    expect(all).toMatch(/body/)
+    expect(all).toMatch(/z9/)
+    expect(all).toMatch(/line\[1\]/)
+  })
+
+  it('reports malformed variations and FENs', () => {
+    const errors = validateSeed({
+      ...valid,
+      initialFen: 'not a fen',
+      line: ['e4', { san: 'e5', variations: [[42]] }],
+    })
+    const all = errors.join('\n')
+    expect(all).toMatch(/initialFen/)
+    expect(all).toMatch(/variations/)
+  })
+
+  it('is enforced by seedToStudy before conversion', () => {
+    expect(() => seedToStudy({ id: 'x', type: 'nope', line: [] } as never)).toThrow(/type/)
   })
 })
