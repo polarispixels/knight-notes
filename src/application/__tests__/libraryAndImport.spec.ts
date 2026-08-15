@@ -6,7 +6,7 @@ import { createBundledRepository } from '../../infrastructure/content/bundledStu
 import { createLocalRepository } from '../../infrastructure/storage/localStudyRepository'
 import { CompositeStudyRepository } from '../../infrastructure/content/compositeStudyRepository'
 import { provideRepository, getRepository } from '../repositoryProvider'
-import { useLibraryStore } from '../library/libraryStore'
+import { useLibraryStore, FEATURED_STUDY_ID } from '../library/libraryStore'
 import { CATEGORIES, categoryOf } from '../library/categories'
 import { importPgn } from '../import/importPgn'
 import { pgnToStudy } from '../../infrastructure/chess/pgn/toStudy'
@@ -64,5 +64,36 @@ describe('importPgn', () => {
 
   it('propagates parse errors', async () => {
     await expect(importPgn('not chess')).rejects.toThrow()
+  })
+})
+
+describe('library ordering and featured study', () => {
+  it('orders summaries by catalogCode, then title; uncoded last', async () => {
+    const a = branchingStudy('zz-coded')
+    a.catalogCode = 'G001'
+    a.title = 'Zebra Opening'
+    const b = branchingStudy('aa-coded')
+    b.catalogCode = 'TR001'
+    b.title = 'Aardvark Trap'
+    const c = branchingStudy('uncoded')
+    c.title = 'Anonymous Study'
+    provideRepository(createBundledRepository([c, b, a]))
+    const library = useLibraryStore()
+    await library.load()
+    expect(library.filtered.map((s) => s.id)).toEqual(['zz-coded', 'aa-coded', 'uncoded'])
+  })
+
+  it('exposes the featured study when present', async () => {
+    const opera = branchingStudy(FEATURED_STUDY_ID)
+    provideRepository(createBundledRepository([opera, branchingStudy('other')]))
+    const library = useLibraryStore()
+    await library.load()
+    expect(library.featured?.id).toBe(FEATURED_STUDY_ID)
+  })
+
+  it('has no featured study when absent', async () => {
+    const library = useLibraryStore()
+    await library.load()
+    expect(library.featured).toBeNull()
   })
 })

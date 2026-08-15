@@ -1,12 +1,22 @@
 {
   "id": "fried-liver-attack",
+  "catalogCode": "TR001",
   "title": "The Fried Liver Attack",
   "subtitle": "Two Knights Defense",
   "type": "trap",
   "difficulty": "beginner",
   "summary": "White sacrifices a knight to drag Black's king into the center, exploiting the weak f7 square before Black can castle.",
-  "tags": ["Two Knights Defense", "Italian Game", "king safety"],
-  "concepts": ["f7 weakness", "king safety", "double attack", "sacrifice for initiative"],
+  "tags": [
+    "Two Knights Defense",
+    "Italian Game",
+    "king safety"
+  ],
+  "concepts": [
+    "f7 weakness",
+    "king safety",
+    "double attack",
+    "sacrifice for initiative"
+  ],
   "rootAnnotations": [
     {
       "type": "historical",
@@ -15,12 +25,24 @@
     }
   ],
   "line": [
-    { "san": "e4" },
-    { "san": "e5" },
-    { "san": "Nf3" },
-    { "san": "Nc6" },
-    { "san": "Bc4" },
-    { "san": "Nf6" },
+    {
+      "san": "e4"
+    },
+    {
+      "san": "e5"
+    },
+    {
+      "san": "Nf3"
+    },
+    {
+      "san": "Nc6"
+    },
+    {
+      "san": "Bc4"
+    },
+    {
+      "san": "Nf6"
+    },
     {
       "san": "Ng5",
       "classification": "interesting",
@@ -31,7 +53,12 @@
           "body": "f7 is defended only by the king, since Black hasn't castled. Attacking it a second time already threatens ideas Black must answer carefully."
         }
       ],
-      "visual": [{ "type": "square", "square": "f7" }]
+      "visual": [
+        {
+          "type": "square",
+          "square": "f7"
+        }
+      ]
     },
     {
       "san": "d5",
@@ -43,7 +70,9 @@
         }
       ]
     },
-    { "san": "exd5" },
+    {
+      "san": "exd5"
+    },
     {
       "san": "Nxd5",
       "classification": "mistake",
@@ -66,11 +95,21 @@
               }
             ]
           },
-          { "san": "Bb5+" },
-          { "san": "c6" },
-          { "san": "dxc6" },
-          { "san": "bxc6" },
-          { "san": "Be2" }
+          {
+            "san": "Bb5+"
+          },
+          {
+            "san": "c6"
+          },
+          {
+            "san": "dxc6"
+          },
+          {
+            "san": "bxc6"
+          },
+          {
+            "san": "Be2"
+          }
         ]
       ]
     },
@@ -86,11 +125,20 @@
         }
       ],
       "visual": [
-        { "type": "square", "square": "f7" },
-        { "type": "arrow", "from": "g5", "to": "f7" }
+        {
+          "type": "square",
+          "square": "f7"
+        },
+        {
+          "type": "arrow",
+          "from": "g5",
+          "to": "f7"
+        }
       ]
     },
-    { "san": "Kxf7" },
+    {
+      "san": "Kxf7"
+    },
     {
       "san": "Qf3+",
       "classification": "critical",
@@ -103,9 +151,20 @@
         }
       ],
       "visual": [
-        { "type": "arrow", "from": "f3", "to": "f7" },
-        { "type": "arrow", "from": "f3", "to": "d5" },
-        { "type": "square", "square": "d5" }
+        {
+          "type": "arrow",
+          "from": "f3",
+          "to": "f7"
+        },
+        {
+          "type": "arrow",
+          "from": "f3",
+          "to": "d5"
+        },
+        {
+          "type": "square",
+          "square": "d5"
+        }
       ]
     },
     {
@@ -117,7 +176,12 @@
           "body": "Walking the king to e6 is the only way to hold onto the knight on d5 — the king itself defends it. It looks terrifying, but it's the critical try; anything else just drops the piece."
         }
       ],
-      "visual": [{ "type": "square", "square": "e6" }]
+      "visual": [
+        {
+          "type": "square",
+          "square": "e6"
+        }
+      ]
     },
     {
       "san": "Nc3",

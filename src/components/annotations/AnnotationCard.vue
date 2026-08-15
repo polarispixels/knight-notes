@@ -5,6 +5,7 @@ defineProps<{ annotation: Annotation }>()
 
 const TYPE_LABELS: Record<string, string> = {
   commentary: 'Commentary',
+  question: 'Before you continue',
   'key-idea': 'Key idea',
   'critical-position': 'Critical position',
   principle: 'Principle',
@@ -40,6 +41,9 @@ const TYPE_LABELS: Record<string, string> = {
 .annotation.type-key-idea,
 .annotation.type-critical-position {
   border-left-color: var(--good);
+}
+.annotation.type-question .annotation-body {
+  font-style: italic;
 }
 .annotation-head {
   display: flex;

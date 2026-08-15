@@ -1,0 +1,322 @@
+{
+  "id": "capablanca-tartakower-1924",
+  "catalogCode": "G003",
+  "title": "Capablanca vs Tartakower",
+  "subtitle": "New York 1924 — the classic rook endgame",
+  "type": "game",
+  "difficulty": "intermediate",
+  "summary": "No sacrifices, no mating attack — Capablanca wins with quiet accumulation and then the most instructive rook endgame ever played, giving up pawns to activate his rook and march his king up the board.",
+  "tags": ["Dutch Defense", "rook endgame", "positional play"],
+  "concepts": [
+    "rook activity",
+    "king activation",
+    "passed pawns",
+    "endgame planning",
+    "conversion of an advantage"
+  ],
+  "metadata": {
+    "white": "José Raúl Capablanca",
+    "black": "Savielly Tartakower",
+    "event": "New York International",
+    "site": "New York, USA",
+    "date": "1924.03.23",
+    "result": "1-0",
+    "eco": "A80",
+    "opening": "Dutch Defense",
+    "historicalContext": "Played in round 6 of the great New York 1924 tournament. The endgame that closes this game has been reprinted in nearly every endgame manual since — it is the standard demonstration that in rook endings, piece activity is worth more than pawns."
+  },
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "A different kind of masterpiece",
+      "body": "Unlike the Opera Game or the Game of the Century, nothing here is sacrificed for a mating attack. Capablanca simply improves his position, trades into a rook endgame — and then shows why he was called 'the Chess Machine.' Watch for the moment his king stops hiding and joins the fight."
+    }
+  ],
+  "line": [
+    { "san": "d4" },
+    {
+      "san": "e6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Tartakower keeps his options open before committing to the Dutch setup with his next move."
+        }
+      ]
+    },
+    { "san": "Nf3" },
+    {
+      "san": "f5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The Dutch Defense",
+          "body": "Black stakes a claim to the e4 square and dreams of a kingside attack. The cost is a slightly loosened king position and a backward e-pawn — long-term targets Capablanca will remember.",
+          "concepts": ["pawn structure"]
+        }
+      ]
+    },
+    { "san": "c4" },
+    { "san": "Nf6" },
+    { "san": "Bg5" },
+    { "san": "Be7" },
+    { "san": "Nc3" },
+    { "san": "O-O" },
+    { "san": "e3" },
+    { "san": "b6" },
+    { "san": "Bd3" },
+    { "san": "Bb7" },
+    { "san": "O-O" },
+    { "san": "Qe8" },
+    { "san": "Qe2" },
+    {
+      "san": "Ne4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black occupies the square the Dutch is built around and offers to simplify. Trades favor the side with fewer weaknesses — and that is not Black here."
+        }
+      ]
+    },
+    { "san": "Bxe7" },
+    { "san": "Nxc3" },
+    { "san": "bxc3" },
+    { "san": "Qxe7" },
+    { "san": "a4" },
+    {
+      "san": "Bxf3",
+      "annotations": [
+        {
+          "type": "mistake",
+          "title": "Giving up the good bishop",
+          "body": "Trading the strong light-squared bishop for the knight concedes the long diagonal and leaves Black with no active pieces to compensate for his structural weaknesses. Small, quiet concessions like this are what positional players punish.",
+          "concepts": ["minor piece trades"]
+        }
+      ]
+    },
+    { "san": "Qxf3" },
+    { "san": "Nc6" },
+    { "san": "Rfb1" },
+    { "san": "Rae8" },
+    { "san": "Qh3" },
+    { "san": "Rf6" },
+    { "san": "f4", "annotations": [
+      {
+        "type": "strategy",
+        "body": "Capablanca fixes the f5 pawn on a light square and takes space. His plan is patient: restrain, improve every piece, and only then open the position."
+      }
+    ] },
+    { "san": "Na5" },
+    { "san": "Qf3" },
+    { "san": "d6" },
+    { "san": "Re1" },
+    { "san": "Qd7" },
+    {
+      "san": "e4",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "The break comes at the right moment",
+          "body": "Only now, with his pieces better placed, does White open the center. Whatever Black does, files and diagonals will open toward a position where White's pieces are the more active ones.",
+          "concepts": ["pawn breaks"]
+        }
+      ]
+    },
+    { "san": "fxe4" },
+    { "san": "Qxe4" },
+    { "san": "g6" },
+    { "san": "g3" },
+    { "san": "Kf8" },
+    { "san": "Kg2" },
+    { "san": "Rf7" },
+    { "san": "h4" },
+    { "san": "d5" },
+    { "san": "cxd5" },
+    { "san": "exd5" },
+    {
+      "san": "Qxe8+",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Choosing the endgame",
+          "body": "Capablanca happily trades everything. A beginner counts material and sees equality; a master sees that after the trades White's rook will be more active, Black's pawns on d5, c7, and g6 are weak, and White's king is one step closer to the action. The advantage survives the simplification — that is what makes it real.",
+          "concepts": ["transition to the endgame"]
+        }
+      ]
+    },
+    { "san": "Qxe8" },
+    { "san": "Rxe8+" },
+    { "san": "Kxe8" },
+    {
+      "san": "h5",
+      "annotations": [
+        {
+          "type": "strategy",
+          "body": "The h-pawn advances not to promote, but to pry open a path for the rook. Every White move from here on serves activity."
+        }
+      ]
+    },
+    { "san": "Rf6" },
+    { "san": "hxg6" },
+    { "san": "hxg6" },
+    { "san": "Rh1" },
+    { "san": "Kf8" },
+    {
+      "san": "Rh7",
+      "importance": "important",
+      "visual": [
+        { "type": "arrow", "from": "h1", "to": "h7" },
+        { "type": "square", "square": "c7" }
+      ],
+      "annotations": [
+        {
+          "type": "principle",
+          "title": "The rook belongs on the seventh",
+          "body": "A rook on the seventh rank attacks pawns on their starting squares and cuts the enemy king off. Capablanca will not be evicted from h7 for the rest of the game — this single move is the foundation of everything that follows.",
+          "concepts": ["rook on the seventh rank"]
+        }
+      ]
+    },
+    { "san": "Rc6" },
+    { "san": "g4" },
+    { "san": "Nc4" },
+    { "san": "g5" },
+    { "san": "Ne3+" },
+    { "san": "Kf3" },
+    { "san": "Nf5" },
+    {
+      "san": "Bxf5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Into the pure rook endgame. Black's rook is tied to defending c7, and White's is the most active piece on the board. Now comes the part of this game that made it immortal."
+        }
+      ]
+    },
+    { "san": "gxf5" },
+    {
+      "san": "Kg3",
+      "classification": "critical",
+      "importance": "critical",
+      "visual": [
+        { "type": "arrow", "from": "g3", "to": "h4" },
+        { "type": "arrow", "from": "h4", "to": "g5" },
+        { "type": "square", "square": "c3" }
+      ],
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White's c3 pawn hangs, and f4 is loose behind it. Why is Capablanca calmly moving his king instead of defending anything?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The king becomes a fighting piece",
+          "body": "As pieces leave the board, the king changes roles: it no longer needs protecting, and it is too strong to leave at home. Capablanca has calculated that his king reaching g5 and f6 is worth more than the pawns Black will grab. In rook endgames, activity is the currency — pawns are just the price.",
+          "concepts": ["king activation", "activity over material"]
+        }
+      ]
+    },
+    { "san": "Rxc3+" },
+    {
+      "san": "Kh4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Straight past the checks. Black wins a pawn and gives back the only thing that mattered: time. The White king walks up the board while the Black rook chases pawns."
+        }
+      ]
+    },
+    { "san": "Rf3" },
+    {
+      "san": "g6",
+      "classification": "critical",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Another pawn offered",
+          "body": "White does not defend f4 — he pushes past it. The g-pawn and the h7 rook now form a net around Black's king, and the pawn is only two squares from promotion. Count what each side's moves accomplish: Black is capturing, White is building.",
+          "concepts": ["passed pawns"]
+        }
+      ]
+    },
+    { "san": "Rxf4+" },
+    { "san": "Kg5" },
+    { "san": "Re4" },
+    {
+      "san": "Kf6",
+      "importance": "critical",
+      "visual": [{ "type": "square", "square": "f6" }],
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The king arrives",
+          "body": "Two pawns down, Capablanca has the game completely won. The king on f6 shields the g-pawn, attacks f5, and helps threaten mate on the back rank — Black must give constant checks or make concessions, and he cannot do both.",
+          "concepts": ["king activity", "mating net"]
+        }
+      ]
+    },
+    { "san": "Kg8" },
+    { "san": "Rg7+" },
+    { "san": "Kh8" },
+    {
+      "san": "Rxc7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Now the harvest. With Black's king shut in the corner by the g-pawn and the rook stuck giving checks, White simply collects everything Black left undefended."
+        }
+      ]
+    },
+    { "san": "Re8" },
+    { "san": "Kxf5" },
+    { "san": "Re4" },
+    { "san": "Kf6" },
+    { "san": "Rf4+" },
+    { "san": "Ke5" },
+    {
+      "san": "Rg4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The rook must babysit the g-pawn forever — a passed pawn on the seventh paralyzes a rook even when it never promotes."
+        }
+      ]
+    },
+    { "san": "g7+" },
+    { "san": "Kg8" },
+    { "san": "Rxa7" },
+    { "san": "Rg1" },
+    { "san": "Kxd5" },
+    { "san": "Rc1" },
+    { "san": "Kd6" },
+    { "san": "Rc2" },
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "strategy",
+          "body": "The final phase: the king personally escorts the d-pawn home. Black's rook can check or blockade, but not both, and the g7 pawn still pins his king to the corner."
+        }
+      ]
+    },
+    { "san": "Rc1" },
+    { "san": "Rc7" },
+    { "san": "Ra1" },
+    { "san": "Kc6" },
+    { "san": "Rxa4" },
+    {
+      "san": "d6",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Resignation — and the lesson",
+          "body": "Tartakower resigned: the d-pawn promotes by force. Add up what won this game — no combination, no attack, just an active rook, an active king, and the willingness to spend pawns on activity. That is endgame strategy: improve your worst piece, and remember the king is a piece.",
+          "concepts": ["conversion of an advantage"]
+        }
+      ]
+    }
+  ]
+}

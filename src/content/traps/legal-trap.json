@@ -1,12 +1,22 @@
 {
   "id": "legal-trap",
+  "catalogCode": "TR002",
   "title": "Légal's Trap",
   "subtitle": "Philidor Defense",
   "type": "trap",
   "difficulty": "beginner",
   "summary": "White offers the queen to expose a hidden mating net, punishing Black for grabbing material instead of finishing development.",
-  "tags": ["Philidor Defense", "Italian Game", "mating attack"],
-  "concepts": ["pins", "sacrifice", "checkmate patterns", "king safety"],
+  "tags": [
+    "Philidor Defense",
+    "Italian Game",
+    "mating attack"
+  ],
+  "concepts": [
+    "pins",
+    "sacrifice",
+    "checkmate patterns",
+    "king safety"
+  ],
   "rootAnnotations": [
     {
       "type": "historical",
@@ -15,11 +25,21 @@
     }
   ],
   "line": [
-    { "san": "e4" },
-    { "san": "e5" },
-    { "san": "Nf3" },
-    { "san": "d6" },
-    { "san": "Bc4" },
+    {
+      "san": "e4"
+    },
+    {
+      "san": "e5"
+    },
+    {
+      "san": "Nf3"
+    },
+    {
+      "san": "d6"
+    },
+    {
+      "san": "Bc4"
+    },
     {
       "san": "Bg4",
       "annotations": [
@@ -29,10 +49,20 @@
           "body": "This looks like a standard pin of the knight to the queen, but the black king is on e8, not on the d1-h5 diagonal. It is only a relative pin — the knight is free to move if something bigger is at stake."
         }
       ],
-      "visual": [{ "type": "arrow", "from": "g4", "to": "d1" }]
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "g4",
+          "to": "d1"
+        }
+      ]
     },
-    { "san": "Nc3" },
-    { "san": "g6" },
+    {
+      "san": "Nc3"
+    },
+    {
+      "san": "g6"
+    },
     {
       "san": "Nxe5",
       "classification": "sacrifice",
@@ -44,7 +74,12 @@
           "body": "White ignores the 'pin' and grabs a pawn, apparently hanging the queen to Bxd1. But the real point is a forced mate — the queen is worth less than what follows it."
         }
       ],
-      "visual": [{ "type": "square", "square": "e5" }]
+      "visual": [
+        {
+          "type": "square",
+          "square": "e5"
+        }
+      ]
     },
     {
       "san": "Bxd1",
@@ -69,7 +104,9 @@
               }
             ]
           },
-          { "san": "Qxg4" }
+          {
+            "san": "Qxg4"
+          }
         ]
       ]
     },
@@ -83,7 +120,13 @@
           "body": "With the queen gone, White's remaining pieces do the real work. This check forces the king into the open, since nothing can capture or block on f7."
         }
       ],
-      "visual": [{ "type": "arrow", "from": "c4", "to": "f7" }]
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "c4",
+          "to": "f7"
+        }
+      ]
     },
     {
       "san": "Ke7",
@@ -107,10 +150,23 @@
         }
       ],
       "visual": [
-        { "type": "square", "square": "e7" },
-        { "type": "square", "square": "d7" },
-        { "type": "square", "square": "f6" },
-        { "type": "arrow", "from": "c3", "to": "d5" }
+        {
+          "type": "square",
+          "square": "e7"
+        },
+        {
+          "type": "square",
+          "square": "d7"
+        },
+        {
+          "type": "square",
+          "square": "f6"
+        },
+        {
+          "type": "arrow",
+          "from": "c3",
+          "to": "d5"
+        }
       ]
     }
   ]

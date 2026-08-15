@@ -12,6 +12,7 @@ hand-written. A seed with an illegal move fails the test suite and cannot ship.
 ```jsonc
 {
   "id": "opera-game",              // kebab-case, matches filename
+  "catalogCode": "G001",           // optional editorial code; drives library ordering (G games, O openings, GB gambits, TR traps, TA tactics, E endgames)
   "title": "The Opera Game",
   "subtitle": "Morphy vs Duke Karl & Count Isouard, Paris 1858",  // optional
   "type": "game",                  // game|opening|variation|gambit|trap|tactic|endgame|pattern
@@ -49,7 +50,9 @@ hand-written. A seed with an illegal move fails the test suite and cannot ship.
 }
 ```
 
-Annotation types: `commentary` `key-idea` `critical-position` `principle` `warning` `historical` `mistake` `strategy` `tactic`.
+Annotation types: `commentary` `question` `key-idea` `critical-position` `principle` `warning` `historical` `mistake` `strategy` `tactic`.
+
+The `question` type builds anticipation before a critical moment: place it on the move *preceding* the big one ("What would you expect Black to do here?"), with the answer annotated on the critical move itself.
 
 ## Chess correctness (non-negotiable)
 - Every SAN must be legal in sequence from the start position. Use exact SAN

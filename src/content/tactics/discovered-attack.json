@@ -1,24 +1,45 @@
 {
   "id": "discovered-attack",
+  "catalogCode": "TA003",
   "title": "Discovered Attack",
   "subtitle": "Two threats in one move",
   "type": "pattern",
   "difficulty": "beginner",
   "summary": "Moving one piece out of the way can unleash an attack from a piece behind it — while the moving piece creates a threat of its own. This is what makes discovered attacks, and especially discovered checks, so hard to defend.",
-  "tags": ["discovered attack", "discovered check", "knight fork", "tactics"],
-  "concepts": ["discovered attack", "double threat", "forcing moves", "zwischenzug"],
+  "tags": [
+    "discovered attack",
+    "discovered check",
+    "knight fork",
+    "tactics"
+  ],
+  "concepts": [
+    "discovered attack",
+    "double threat",
+    "forcing moves",
+    "zwischenzug"
+  ],
   "initialFen": "q2k4/1pp1pppp/8/3N4/8/8/PPP2PPP/3R2K1 w - - 0 1",
   "rootAnnotations": [
     {
       "type": "key-idea",
       "title": "Two threats at once",
       "body": "White's rook on d1 is aimed straight at Black's king on d8, but the knight on d5 is standing in the way. The moment that knight steps aside, the rook's attack switches on — and if the knight's new square makes a threat of its own, Black is facing two problems that can't both be answered.",
-      "concepts": ["discovered attack", "double threat"]
+      "concepts": [
+        "discovered attack",
+        "double threat"
+      ]
     }
   ],
   "rootVisual": [
-    { "type": "arrow", "from": "d1", "to": "d8" },
-    { "type": "square", "square": "d5" }
+    {
+      "type": "arrow",
+      "from": "d1",
+      "to": "d8"
+    },
+    {
+      "type": "square",
+      "square": "d5"
+    }
   ],
   "line": [
     {
@@ -31,7 +52,9 @@
         }
       ]
     },
-    { "san": "h6" },
+    {
+      "san": "h6"
+    },
     {
       "san": "Nb6+",
       "classification": "critical",
@@ -49,9 +72,20 @@
         }
       ],
       "visual": [
-        { "type": "arrow", "from": "d1", "to": "d8" },
-        { "type": "arrow", "from": "d5", "to": "b6" },
-        { "type": "square", "square": "a8" }
+        {
+          "type": "arrow",
+          "from": "d1",
+          "to": "d8"
+        },
+        {
+          "type": "arrow",
+          "from": "d5",
+          "to": "b6"
+        },
+        {
+          "type": "square",
+          "square": "a8"
+        }
       ]
     },
     {

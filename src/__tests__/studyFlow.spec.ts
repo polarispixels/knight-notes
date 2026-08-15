@@ -159,3 +159,28 @@ describe('review fixes', () => {
     expect(wrapper.find('[data-test="return-mainline"]').exists()).toBe(false)
   })
 })
+
+describe('featured study card', () => {
+  it('shows a Start-here card when the featured study exists and opens it', async () => {
+    const opera = branchingStudy('opera-game')
+    opera.title = 'The Opera Game'
+    provideRepository(
+      new CompositeStudyRepository(
+        createBundledRepository([opera, branchingStudy()]),
+        createLocalRepository(`test-db-${Math.random().toString(36).slice(2)}`),
+      ),
+    )
+    const { wrapper, router } = await makeApp('/')
+    const card = wrapper.find('[data-test="featured-card"]')
+    expect(card.text()).toContain('Start here')
+    expect(card.text()).toContain('The Opera Game')
+    await card.find('[data-test="featured-start"]').trigger('click')
+    await flushPromises()
+    expect(router.currentRoute.value.path).toBe('/study/opera-game')
+  })
+
+  it('shows no featured card when the featured study is absent', async () => {
+    const { wrapper } = await makeApp('/')
+    expect(wrapper.find('[data-test="featured-card"]').exists()).toBe(false)
+  })
+})

@@ -1,12 +1,24 @@
 {
   "id": "italian-game",
+  "catalogCode": "O001",
   "title": "The Italian Game",
   "subtitle": "Giuoco Piano and the Two Knights Defense",
   "type": "opening",
   "difficulty": "beginner",
   "summary": "One of the oldest openings in chess: both sides develop naturally toward the center while White's bishop takes aim at the fragile f7 square, setting up a classic fight between quiet development and early tactics.",
-  "tags": ["Italian Game", "Giuoco Piano", "Two Knights Defense", "e4 openings"],
-  "concepts": ["development", "center control", "king safety", "opening principles", "piece activity"],
+  "tags": [
+    "Italian Game",
+    "Giuoco Piano",
+    "Two Knights Defense",
+    "e4 openings"
+  ],
+  "concepts": [
+    "development",
+    "center control",
+    "king safety",
+    "opening principles",
+    "piece activity"
+  ],
   "metadata": {
     "eco": "C50-C54",
     "opening": "Italian Game"
@@ -19,8 +31,12 @@
     }
   ],
   "line": [
-    { "san": "e4" },
-    { "san": "e5" },
+    {
+      "san": "e4"
+    },
+    {
+      "san": "e5"
+    },
     {
       "san": "Nf3",
       "classification": "theory",
@@ -32,7 +48,9 @@
         }
       ]
     },
-    { "san": "Nc6" },
+    {
+      "san": "Nc6"
+    },
     {
       "san": "Bc4",
       "classification": "theory",
@@ -42,12 +60,22 @@
           "type": "key-idea",
           "title": "Aiming at f7",
           "body": "The bishop targets f7, the weakest square in Black's camp because it is defended only by the king. Nearly every Italian Game idea, from quiet buildup to sharp sacrifices, starts from this diagonal.",
-          "concepts": ["weak squares", "piece activity"]
+          "concepts": [
+            "weak squares",
+            "piece activity"
+          ]
         }
       ],
       "visual": [
-        { "type": "arrow", "from": "c4", "to": "f7" },
-        { "type": "square", "square": "f7" }
+        {
+          "type": "arrow",
+          "from": "c4",
+          "to": "f7"
+        },
+        {
+          "type": "square",
+          "square": "f7"
+        }
       ]
     },
     {
@@ -84,7 +112,12 @@
                 "body": "White eyes f7 a second time, now with the knight. A beginner playing Black must know the correct reply or risk material to the Fried Liver Attack."
               }
             ],
-            "visual": [{ "type": "square", "square": "f7" }]
+            "visual": [
+              {
+                "type": "square",
+                "square": "f7"
+              }
+            ]
           },
           {
             "san": "d5",
@@ -96,7 +129,9 @@
               }
             ]
           },
-          { "san": "exd5" },
+          {
+            "san": "exd5"
+          },
           {
             "san": "Na5",
             "classification": "theory",
@@ -108,10 +143,18 @@
               }
             ]
           },
-          { "san": "Bb5+" },
-          { "san": "c6" },
-          { "san": "dxc6" },
-          { "san": "bxc6" },
+          {
+            "san": "Bb5+"
+          },
+          {
+            "san": "c6"
+          },
+          {
+            "san": "dxc6"
+          },
+          {
+            "san": "bxc6"
+          },
           {
             "san": "Be2",
             "annotations": [
@@ -147,9 +190,15 @@
               }
             ]
           },
-          { "san": "Nf6" },
-          { "san": "O-O" },
-          { "san": "O-O" },
+          {
+            "san": "Nf6"
+          },
+          {
+            "san": "O-O"
+          },
+          {
+            "san": "O-O"
+          },
           {
             "san": "Re1",
             "annotations": [
@@ -159,11 +208,15 @@
               }
             ]
           },
-          { "san": "d6" }
+          {
+            "san": "d6"
+          }
         ]
       ]
     },
-    { "san": "Nf6" },
+    {
+      "san": "Nf6"
+    },
     {
       "san": "d4",
       "classification": "theory",
@@ -176,8 +229,12 @@
         }
       ]
     },
-    { "san": "exd4" },
-    { "san": "cxd4" },
+    {
+      "san": "exd4"
+    },
+    {
+      "san": "cxd4"
+    },
     {
       "san": "Bb4+",
       "classification": "theory",
@@ -199,8 +256,12 @@
         }
       ]
     },
-    { "san": "Bxd2+" },
-    { "san": "Nbxd2" },
+    {
+      "san": "Bxd2+"
+    },
+    {
+      "san": "Nbxd2"
+    },
     {
       "san": "d5",
       "classification": "theory",

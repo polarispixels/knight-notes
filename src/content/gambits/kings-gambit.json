@@ -1,12 +1,23 @@
 {
   "id": "kings-gambit",
+  "catalogCode": "GB001",
   "title": "The King's Gambit",
   "subtitle": "A Romantic-era pawn sacrifice for the center and the f-file",
   "type": "gambit",
   "difficulty": "intermediate",
   "summary": "White sacrifices the f-pawn on move two to seize the center and rip open the f-file for a rook, trading long-term material for a fast attack -- at the real risk of leaving the king exposed for the rest of the game.",
-  "tags": ["King's Gambit", "e4 openings", "gambit"],
-  "concepts": ["gambit play", "development", "open files", "king safety", "initiative"],
+  "tags": [
+    "King's Gambit",
+    "e4 openings",
+    "gambit"
+  ],
+  "concepts": [
+    "gambit play",
+    "development",
+    "open files",
+    "king safety",
+    "initiative"
+  ],
   "metadata": {
     "eco": "C30-C39",
     "opening": "King's Gambit"
@@ -19,8 +30,12 @@
     }
   ],
   "line": [
-    { "san": "e4" },
-    { "san": "e5" },
+    {
+      "san": "e4"
+    },
+    {
+      "san": "e5"
+    },
     {
       "san": "f4",
       "classification": "theory",
@@ -55,10 +70,18 @@
               }
             ]
           },
-          { "san": "Nf3" },
-          { "san": "d6" },
-          { "san": "Bc4" },
-          { "san": "Nc6" }
+          {
+            "san": "Nf3"
+          },
+          {
+            "san": "d6"
+          },
+          {
+            "san": "Bc4"
+          },
+          {
+            "san": "Nc6"
+          }
         ]
       ]
     },
@@ -97,12 +120,18 @@
               }
             ]
           },
-          { "san": "h4" }
+          {
+            "san": "h4"
+          }
         ]
       ]
     },
-    { "san": "exd5" },
-    { "san": "Nf6" },
+    {
+      "san": "exd5"
+    },
+    {
+      "san": "Nf6"
+    },
     {
       "san": "Bc4",
       "classification": "theory",
@@ -113,7 +142,13 @@
           "body": "As in the Italian Game, the bishop heads straight for f7, keeping pressure on the position while Black's king is still in the center."
         }
       ],
-      "visual": [{ "type": "arrow", "from": "c4", "to": "f7" }]
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "c4",
+          "to": "f7"
+        }
+      ]
     },
     {
       "san": "Nxd5",

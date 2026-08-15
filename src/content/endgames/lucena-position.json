@@ -1,31 +1,57 @@
 {
   "id": "lucena-position",
+  "catalogCode": "E002",
   "title": "The Lucena Position",
   "subtitle": "Building a bridge to shelter the king",
   "type": "endgame",
   "difficulty": "intermediate",
   "summary": "The Lucena position is the single most important rook-endgame technique: with the pawn one square from queening and the king already in front of it, White builds a 'bridge' with the rook to shield the king from checks and force promotion.",
-  "tags": ["rook endgame", "Lucena position", "building a bridge", "promotion technique"],
-  "concepts": ["building a bridge", "rook endgame technique", "cutting off the king", "checking distance"],
+  "tags": [
+    "rook endgame",
+    "Lucena position",
+    "building a bridge",
+    "promotion technique"
+  ],
+  "concepts": [
+    "building a bridge",
+    "rook endgame technique",
+    "cutting off the king",
+    "checking distance"
+  ],
   "initialFen": "1K1k4/1P6/8/8/8/8/r7/2R5 w - - 0 1",
   "rootAnnotations": [
     {
       "type": "key-idea",
       "title": "What makes this a Lucena position",
       "body": "White's king already stands on the queening square, the pawn is one step from promoting, and Black's king is cut off on the far side of the board — it can never approach to help. Black's only resource is checking with the rook from behind. This exact skeleton, with a non-rook-pawn, is always a win if White knows the technique.",
-      "concepts": ["cutting off the king"]
+      "concepts": [
+        "cutting off the king"
+      ]
     },
     {
       "type": "principle",
       "title": "The problem to solve",
       "body": "White's king must step aside so the pawn can promote, but every square it tries leads to a check along a rank from Black's rook — and each further check would push the king away from the pawn. 'Building the bridge' means placing White's own rook on the fourth rank so it can block those checks the instant they come.",
-      "concepts": ["building a bridge", "checking distance"]
+      "concepts": [
+        "building a bridge",
+        "checking distance"
+      ]
     }
   ],
   "rootVisual": [
-    { "type": "square", "square": "b8" },
-    { "type": "square", "square": "b7" },
-    { "type": "arrow", "from": "a2", "to": "a8" }
+    {
+      "type": "square",
+      "square": "b8"
+    },
+    {
+      "type": "square",
+      "square": "b7"
+    },
+    {
+      "type": "arrow",
+      "from": "a2",
+      "to": "a8"
+    }
   ],
   "line": [
     {
@@ -83,12 +109,21 @@
           "type": "key-idea",
           "title": "Building the bridge",
           "body": "This is the move that gives the whole technique its name. The rook takes up a post on the fourth rank, exactly far enough from the eventual checking squares to block them the moment they're needed — like a bridge the king will walk across to safety.",
-          "concepts": ["building a bridge"]
+          "concepts": [
+            "building a bridge"
+          ]
         }
       ],
       "visual": [
-        { "type": "square", "square": "d4" },
-        { "type": "arrow", "from": "d4", "to": "d8" }
+        {
+          "type": "square",
+          "square": "d4"
+        },
+        {
+          "type": "arrow",
+          "from": "d4",
+          "to": "d8"
+        }
       ]
     },
     {
@@ -121,9 +156,15 @@
         }
       ]
     },
-    { "san": "Kb6" },
-    { "san": "Rb1+" },
-    { "san": "Kc6" },
+    {
+      "san": "Kb6"
+    },
+    {
+      "san": "Rb1+"
+    },
+    {
+      "san": "Kc6"
+    },
     {
       "san": "Rc1+",
       "annotations": [
@@ -134,7 +175,9 @@
         }
       ]
     },
-    { "san": "Kb5" },
+    {
+      "san": "Kb5"
+    },
     {
       "san": "Rb1+",
       "annotations": [
@@ -154,12 +197,21 @@
           "type": "critical-position",
           "title": "The bridge is complete",
           "body": "The rook interposes on b4, blocking the check while staying protected by the king. Black's rook can no longer give a useful check without simply being captured — Rxb4+ Kxb4 trades down to a king-and-pawn endgame that is an elementary win, and any other rook move lets the b-pawn queen immediately.",
-          "concepts": ["building a bridge"]
+          "concepts": [
+            "building a bridge"
+          ]
         }
       ],
       "visual": [
-        { "type": "square", "square": "b4" },
-        { "type": "arrow", "from": "b7", "to": "b8" }
+        {
+          "type": "square",
+          "square": "b4"
+        },
+        {
+          "type": "arrow",
+          "from": "b7",
+          "to": "b8"
+        }
       ]
     }
   ]

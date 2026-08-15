@@ -1,12 +1,26 @@
 {
   "id": "immortal-game",
+  "catalogCode": "G004",
   "title": "The Immortal Game",
   "subtitle": "Anderssen vs Kieseritzky, London 1851",
   "type": "game",
   "difficulty": "intermediate",
   "summary": "Adolf Anderssen sacrifices a bishop, both rooks, and his queen to deliver checkmate with just three minor pieces — the single most famous demonstration of attacking chess from the Romantic era.",
-  "tags": ["King's Gambit", "Adolf Anderssen", "romantic chess", "classic game", "smothered mate"],
-  "concepts": ["king safety", "sacrifice", "development", "attack", "discovered ideas", "material vs initiative"],
+  "tags": [
+    "King's Gambit",
+    "Adolf Anderssen",
+    "romantic chess",
+    "classic game",
+    "smothered mate"
+  ],
+  "concepts": [
+    "king safety",
+    "sacrifice",
+    "development",
+    "attack",
+    "discovered ideas",
+    "material vs initiative"
+  ],
   "metadata": {
     "white": "Adolf Anderssen",
     "black": "Lionel Kieseritzky",
@@ -23,11 +37,21 @@
     }
   ],
   "line": [
-    { "san": "e4" },
-    { "san": "e5" },
-    { "san": "f4" },
-    { "san": "exf4" },
-    { "san": "Bc4" },
+    {
+      "san": "e4"
+    },
+    {
+      "san": "e5"
+    },
+    {
+      "san": "f4"
+    },
+    {
+      "san": "exf4"
+    },
+    {
+      "san": "Bc4"
+    },
     {
       "san": "Qh4+",
       "classification": "interesting",
@@ -37,7 +61,9 @@
           "type": "key-idea",
           "title": "An early queen sortie",
           "body": "Bringing the queen out this soon breaks a normal opening principle, but it exploits the fact that 2.f4 already weakened White's kingside dark squares. The check costs Black nothing and forces White to respond before any development can start.",
-          "concepts": ["king safety"]
+          "concepts": [
+            "king safety"
+          ]
         }
       ]
     },
@@ -49,7 +75,9 @@
           "type": "principle",
           "title": "The real price of the King's Gambit",
           "body": "Nothing can block the check and the queen can't be captured, so the king has to move — permanently giving up the right to castle. This is the trade-off of the King's Gambit: accept a weakened, uncastled king in exchange for faster development and open lines.",
-          "concepts": ["king safety"]
+          "concepts": [
+            "king safety"
+          ]
         }
       ]
     },
@@ -62,15 +90,27 @@
           "type": "key-idea",
           "title": "A second pawn offered",
           "body": "Rather than developing, Black offers another pawn to lure White's bishop away from the dangerous c4-f7 diagonal. It's an aggressive, committal try typical of this era: steer the attacking piece away at the cost of material.",
-          "concepts": ["sacrifice"]
+          "concepts": [
+            "sacrifice"
+          ]
         }
       ]
     },
-    { "san": "Bxb5" },
-    { "san": "Nf6" },
-    { "san": "Nf3" },
-    { "san": "Qh6" },
-    { "san": "d3" },
+    {
+      "san": "Bxb5"
+    },
+    {
+      "san": "Nf6"
+    },
+    {
+      "san": "Nf3"
+    },
+    {
+      "san": "Qh6"
+    },
+    {
+      "san": "d3"
+    },
     {
       "san": "Nh5",
       "importance": "notable",
@@ -79,16 +119,30 @@
           "type": "tactic",
           "title": "Threatening a knight fork",
           "body": "Nh5 threatens ...Ng3+, forking White's king and the rook on h1. White has to spend a move dealing with this before pursuing any plan of his own.",
-          "concepts": ["fork"]
+          "concepts": [
+            "fork"
+          ]
         }
       ]
     },
-    { "san": "Nh4" },
-    { "san": "Qg5" },
-    { "san": "Nf5" },
-    { "san": "c6" },
-    { "san": "g4" },
-    { "san": "Nf6" },
+    {
+      "san": "Nh4"
+    },
+    {
+      "san": "Qg5"
+    },
+    {
+      "san": "Nf5"
+    },
+    {
+      "san": "c6"
+    },
+    {
+      "san": "g4"
+    },
+    {
+      "san": "Nf6"
+    },
     {
       "san": "Rg1",
       "classification": "interesting",
@@ -98,15 +152,27 @@
           "type": "key-idea",
           "title": "A rook move that looks like nothing",
           "body": "Rg1 doesn't develop or threaten anything directly — its purpose only becomes clear a few moves later, when g4-g5 traps Black's wandering queen. Anderssen is already planning several moves ahead while Black keeps grabbing pawns.",
-          "concepts": ["attack"]
+          "concepts": [
+            "attack"
+          ]
         }
       ]
     },
-    { "san": "cxb5" },
-    { "san": "h4" },
-    { "san": "Qg6" },
-    { "san": "h5" },
-    { "san": "Qg5" },
+    {
+      "san": "cxb5"
+    },
+    {
+      "san": "h4"
+    },
+    {
+      "san": "Qg6"
+    },
+    {
+      "san": "h5"
+    },
+    {
+      "san": "Qg5"
+    },
     {
       "san": "Qf3",
       "importance": "notable",
@@ -115,15 +181,27 @@
           "type": "key-idea",
           "title": "One move, several jobs",
           "body": "Qf3 keeps an eye on the queenside, guards key central squares, and prepares Bxf4 to start regaining material. It's the move that turns White's lead in development into a concrete plan.",
-          "concepts": ["development"]
+          "concepts": [
+            "development"
+          ]
         }
       ]
     },
-    { "san": "Ng8" },
-    { "san": "Bxf4" },
-    { "san": "Qf6" },
-    { "san": "Nc3" },
-    { "san": "Bc5" },
+    {
+      "san": "Ng8"
+    },
+    {
+      "san": "Bxf4"
+    },
+    {
+      "san": "Qf6"
+    },
+    {
+      "san": "Nc3"
+    },
+    {
+      "san": "Bc5"
+    },
     {
       "san": "Nd5",
       "classification": "sacrifice",
@@ -133,10 +211,17 @@
           "type": "key-idea",
           "title": "Ignoring the rook completely",
           "body": "Nd5 offers the rook on g1 to be captured and doesn't even defend it. Anderssen has calculated that the mating attack ahead is worth far more than a rook — from here, the sacrifices stop being about tempo and start being about a forced mate.",
-          "concepts": ["sacrifice"]
+          "concepts": [
+            "sacrifice"
+          ]
         }
       ],
-      "visual": [{ "type": "square", "square": "g1" }]
+      "visual": [
+        {
+          "type": "square",
+          "square": "g1"
+        }
+      ]
     },
     {
       "san": "Qxb2",
@@ -147,7 +232,9 @@
           "type": "warning",
           "title": "Grabbing more, defending nothing",
           "body": "Every pawn Black's queen collects is a free tempo for Anderssen, and the queen keeps drifting further from its own king. Material is piling up for Black, but so is the danger.",
-          "concepts": ["material vs initiative"]
+          "concepts": [
+            "material vs initiative"
+          ]
         }
       ]
     },
@@ -159,11 +246,15 @@
           "type": "key-idea",
           "title": "A quiet move in the middle of chaos",
           "body": "Bd6 doesn't capture or check anything, but it cuts the black king off from safety and takes away key defensive squares before the mating attack even begins. It's the calmest, most far-sighted move of the whole game.",
-          "concepts": ["attack"]
+          "concepts": [
+            "attack"
+          ]
         }
       ]
     },
-    { "san": "Bxg1" },
+    {
+      "san": "Bxg1"
+    },
     {
       "san": "e5",
       "importance": "important",
@@ -172,11 +263,15 @@
           "type": "key-idea",
           "title": "Cutting the queen's road home",
           "body": "This pawn push closes the f6-a1 diagonal, stopping Black's queen from ever coming back to defend its own king. It also opens the e-file and clears squares for the coming knight and bishop maneuvers.",
-          "concepts": ["attack"]
+          "concepts": [
+            "attack"
+          ]
         }
       ]
     },
-    { "san": "Qxa1+" },
+    {
+      "san": "Qxa1+"
+    },
     {
       "san": "Ke2",
       "classification": "interesting",
@@ -186,7 +281,9 @@
           "type": "key-idea",
           "title": "The king joins the attack",
           "body": "With so much material gone, White's king is safer marching up the board than sitting still — nothing Black has left can get near it. This move is the essence of the whole game: Anderssen doesn't need his rooks or his queen, because every remaining piece is doing exactly what's needed to mate.",
-          "concepts": ["king safety"]
+          "concepts": [
+            "king safety"
+          ]
         }
       ]
     },
@@ -209,11 +306,15 @@
           "type": "key-idea",
           "title": "Clearing the path to the king",
           "body": "Nxg7+ forces the king to move again, driving it to d8 — directly into the mating net Anderssen has been building since Bd6.",
-          "concepts": ["attack"]
+          "concepts": [
+            "attack"
+          ]
         }
       ]
     },
-    { "san": "Kd8" },
+    {
+      "san": "Kd8"
+    },
     {
       "san": "Qf6+",
       "classification": "sacrifice",
@@ -223,11 +324,16 @@
           "type": "key-idea",
           "title": "The last sacrifice",
           "body": "White gives up the queen, his last major piece, because Black's knight has no way to avoid capturing it on f6 — which seals off one of the king's own escape squares. Every option left for Black now works against him.",
-          "concepts": ["sacrifice"]
+          "concepts": [
+            "sacrifice"
+          ]
         }
       ]
     },
-    { "san": "Nxf6", "classification": "forced" },
+    {
+      "san": "Nxf6",
+      "classification": "forced"
+    },
     {
       "san": "Be7#",
       "importance": "critical",
@@ -236,14 +342,32 @@
           "type": "key-idea",
           "title": "Mate with three minor pieces",
           "body": "Anderssen mates having sacrificed a bishop, both rooks, and the queen — checkmating with just two knights and a bishop. The knight on d5 covers both c7 and e7, so the king can neither capture the bishop nor flee there; the knight on g7 covers e8; and Black's own pawn and bishop block d7 and c8. There is nowhere left to go.",
-          "concepts": ["discovered ideas", "king safety"]
+          "concepts": [
+            "discovered ideas",
+            "king safety"
+          ]
         }
       ],
       "visual": [
-        { "type": "square", "square": "d8" },
-        { "type": "arrow", "from": "d5", "to": "c7" },
-        { "type": "arrow", "from": "d5", "to": "e7" },
-        { "type": "arrow", "from": "g7", "to": "e8" }
+        {
+          "type": "square",
+          "square": "d8"
+        },
+        {
+          "type": "arrow",
+          "from": "d5",
+          "to": "c7"
+        },
+        {
+          "type": "arrow",
+          "from": "d5",
+          "to": "e7"
+        },
+        {
+          "type": "arrow",
+          "from": "g7",
+          "to": "e8"
+        }
       ]
     }
   ]

@@ -1,12 +1,22 @@
 {
   "id": "noahs-ark-trap",
+  "catalogCode": "TR003",
   "title": "Noah's Ark Trap",
   "subtitle": "Ruy Lopez, Steinitz Defense Deferred",
   "type": "trap",
   "difficulty": "intermediate",
   "summary": "Black's queenside pawns roll forward and permanently trap White's light-squared bishop after a careless recapture in the center.",
-  "tags": ["Ruy Lopez", "Spanish Game", "pawn structure"],
-  "concepts": ["trapped piece", "pawn chains", "piece activity", "tempo"],
+  "tags": [
+    "Ruy Lopez",
+    "Spanish Game",
+    "pawn structure"
+  ],
+  "concepts": [
+    "trapped piece",
+    "pawn chains",
+    "piece activity",
+    "tempo"
+  ],
   "rootAnnotations": [
     {
       "type": "historical",
@@ -15,15 +25,33 @@
     }
   ],
   "line": [
-    { "san": "e4" },
-    { "san": "e5" },
-    { "san": "Nf3" },
-    { "san": "Nc6" },
-    { "san": "Bb5" },
-    { "san": "a6" },
-    { "san": "Ba4" },
-    { "san": "d6" },
-    { "san": "d4" },
+    {
+      "san": "e4"
+    },
+    {
+      "san": "e5"
+    },
+    {
+      "san": "Nf3"
+    },
+    {
+      "san": "Nc6"
+    },
+    {
+      "san": "Bb5"
+    },
+    {
+      "san": "a6"
+    },
+    {
+      "san": "Ba4"
+    },
+    {
+      "san": "d6"
+    },
+    {
+      "san": "d4"
+    },
     {
       "san": "b5",
       "annotations": [
@@ -44,13 +72,25 @@
         }
       ],
       "visual": [
-        { "type": "square", "square": "a2" },
-        { "type": "square", "square": "c2" }
+        {
+          "type": "square",
+          "square": "a2"
+        },
+        {
+          "type": "square",
+          "square": "c2"
+        }
       ]
     },
-    { "san": "Nxd4" },
-    { "san": "Nxd4" },
-    { "san": "exd4" },
+    {
+      "san": "Nxd4"
+    },
+    {
+      "san": "Nxd4"
+    },
+    {
+      "san": "exd4"
+    },
     {
       "san": "Qxd4",
       "classification": "blunder",
@@ -73,13 +113,29 @@
           "body": "Every pawn move gains a tempo on the queen while extending the chain that will seal the bishop's diagonal. This is the key idea of the whole trap."
         }
       ],
-      "visual": [{ "type": "arrow", "from": "c7", "to": "c5" }]
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "c7",
+          "to": "c5"
+        }
+      ]
     },
-    { "san": "Qd5" },
-    { "san": "Be6" },
-    { "san": "Qc6+" },
-    { "san": "Bd7" },
-    { "san": "Qd5" },
+    {
+      "san": "Qd5"
+    },
+    {
+      "san": "Be6"
+    },
+    {
+      "san": "Qc6+"
+    },
+    {
+      "san": "Bd7"
+    },
+    {
+      "san": "Qd5"
+    },
     {
       "san": "c4",
       "classification": "critical",
@@ -92,11 +148,28 @@
         }
       ],
       "visual": [
-        { "type": "square", "square": "b3" },
-        { "type": "square", "square": "a2" },
-        { "type": "square", "square": "c2" },
-        { "type": "arrow", "from": "b5", "to": "a4" },
-        { "type": "arrow", "from": "b5", "to": "c4" }
+        {
+          "type": "square",
+          "square": "b3"
+        },
+        {
+          "type": "square",
+          "square": "a2"
+        },
+        {
+          "type": "square",
+          "square": "c2"
+        },
+        {
+          "type": "arrow",
+          "from": "b5",
+          "to": "a4"
+        },
+        {
+          "type": "arrow",
+          "from": "b5",
+          "to": "c4"
+        }
       ]
     }
   ]

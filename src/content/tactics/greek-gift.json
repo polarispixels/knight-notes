@@ -1,30 +1,55 @@
 {
   "id": "greek-gift",
+  "catalogCode": "TA001",
   "title": "The Greek Gift Sacrifice",
   "subtitle": "Bxh7+: sacrificing the bishop to drag the king into the open",
   "type": "tactic",
   "difficulty": "intermediate",
   "summary": "White sacrifices the light-squared bishop on h7 to pull the black king out of safety, then follows up with Ng5+ and Qh5 to build a mating attack.",
-  "tags": ["Greek Gift", "Bxh7+", "kingside attack", "sacrifice", "French structure"],
-  "concepts": ["sacrifice", "king safety", "attacking with three pieces", "opening the h-file", "calculation"],
+  "tags": [
+    "Greek Gift",
+    "Bxh7+",
+    "kingside attack",
+    "sacrifice",
+    "French structure"
+  ],
+  "concepts": [
+    "sacrifice",
+    "king safety",
+    "attacking with three pieces",
+    "opening the h-file",
+    "calculation"
+  ],
   "initialFen": "r1bq1rk1/pppnbppp/4p3/3p4/3P4/3BPN2/PPP2PPP/R1BQ1RK1 w - - 0 10",
   "rootAnnotations": [
     {
       "type": "key-idea",
       "title": "The three-attacker rule",
       "body": "The Greek Gift only works when White can throw three pieces at the black king: the bishop on the b1-h7 diagonal, a knight that can jump to g5 with check, and a queen that can swing to h5 or the h-file. Here the diagonal is open, g5 is undefended (Black has no knight on f6), and Black's h-pawn hasn't moved — every condition is met.",
-      "concepts": ["sacrifice", "attacking with three pieces"]
+      "concepts": [
+        "sacrifice",
+        "attacking with three pieces"
+      ]
     },
     {
       "type": "principle",
       "title": "Why Black is vulnerable",
       "body": "Black developed the queen's knight to d7 instead of the king's knight to f6, leaving g5 and h7 without a defender. That single move is the real cause of what follows — the sacrifice is just the punishment.",
-      "concepts": ["king safety"]
+      "concepts": [
+        "king safety"
+      ]
     }
   ],
   "rootVisual": [
-    { "type": "arrow", "from": "d3", "to": "h7" },
-    { "type": "square", "square": "g5" }
+    {
+      "type": "arrow",
+      "from": "d3",
+      "to": "h7"
+    },
+    {
+      "type": "square",
+      "square": "g5"
+    }
   ],
   "line": [
     {
@@ -36,12 +61,21 @@
           "type": "key-idea",
           "title": "Giving up the bishop for the initiative",
           "body": "This isn't really a sacrifice in the losing-material sense — it's an investment. The bishop buys a tempo (forcing the king to move), rips open the black king's shelter, and hands the attack to the knight and queen that follow.",
-          "concepts": ["sacrifice"]
+          "concepts": [
+            "sacrifice"
+          ]
         }
       ],
       "visual": [
-        { "type": "arrow", "from": "d3", "to": "h7" },
-        { "type": "square", "square": "g8" }
+        {
+          "type": "arrow",
+          "from": "d3",
+          "to": "h7"
+        },
+        {
+          "type": "square",
+          "square": "g8"
+        }
       ]
     },
     {
@@ -58,15 +92,25 @@
       "san": "Ng5+",
       "importance": "important",
       "visual": [
-        { "type": "arrow", "from": "f3", "to": "g5" },
-        { "type": "square", "square": "h7" }
+        {
+          "type": "arrow",
+          "from": "f3",
+          "to": "g5"
+        },
+        {
+          "type": "square",
+          "square": "h7"
+        }
       ],
       "annotations": [
         {
           "type": "key-idea",
           "title": "The second attacker arrives — and clears a path",
           "body": "The knight both checks the king and vacates f3, opening the d1-h5 diagonal for the queen. This is the mechanical heart of the Greek Gift: bishop removes the pawn shield, knight harasses the king and clears the queen's road.",
-          "concepts": ["attacking with three pieces", "opening the h-file"]
+          "concepts": [
+            "attacking with three pieces",
+            "opening the h-file"
+          ]
         }
       ]
     },
@@ -95,7 +139,11 @@
               }
             ],
             "visual": [
-              { "type": "arrow", "from": "d3", "to": "g6" }
+              {
+                "type": "arrow",
+                "from": "d3",
+                "to": "g6"
+              }
             ]
           }
         ]
@@ -106,16 +154,29 @@
       "classification": "critical",
       "importance": "critical",
       "visual": [
-        { "type": "square", "square": "h7" },
-        { "type": "arrow", "from": "h5", "to": "h7" },
-        { "type": "arrow", "from": "g5", "to": "h7" }
+        {
+          "type": "square",
+          "square": "h7"
+        },
+        {
+          "type": "arrow",
+          "from": "h5",
+          "to": "h7"
+        },
+        {
+          "type": "arrow",
+          "from": "g5",
+          "to": "h7"
+        }
       ],
       "annotations": [
         {
           "type": "critical-position",
           "title": "The third attacker completes the picture",
           "body": "Now White threatens Qh7#: the knight on g5 guards h7 and covers f7 and h8's escape square (h8 is x-rayed by the queen once it lands), so the black king has nowhere to run. This is the point of the whole combination — bishop, knight, and queen all converge on one square.",
-          "concepts": ["attacking with three pieces"]
+          "concepts": [
+            "attacking with three pieces"
+          ]
         },
         {
           "type": "principle",

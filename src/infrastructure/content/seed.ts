@@ -38,6 +38,7 @@ export interface MoveSeed {
 export interface StudySeed {
   id: string
   slug?: string
+  catalogCode?: string
   title: string
   subtitle?: string
   type: StudyType
@@ -128,6 +129,7 @@ export function seedToStudy(seed: StudySeed): Study {
     rootNodeId: rootId,
     nodes,
   }
+  if (seed.catalogCode) study.catalogCode = seed.catalogCode
   if (seed.subtitle) study.subtitle = seed.subtitle
   if (seed.difficulty) study.difficulty = seed.difficulty
   if (seed.summary) study.summary = seed.summary

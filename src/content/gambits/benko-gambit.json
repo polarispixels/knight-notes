@@ -1,12 +1,25 @@
 {
   "id": "benko-gambit",
+  "catalogCode": "GB002",
   "title": "The Benko Gambit",
   "subtitle": "A pawn for permanent pressure on the queenside",
   "type": "gambit",
   "difficulty": "intermediate",
   "summary": "Black offers a queenside pawn, sometimes two, in exchange for open a- and b-files, a monster fianchettoed bishop, and pressure that can last the entire game -- even into an endgame, unlike most gambits.",
-  "tags": ["Benko Gambit", "Volga Gambit", "d4 openings", "Fianchetto Variation"],
-  "concepts": ["gambit play", "long-term compensation", "open files", "fianchetto", "queenside pressure", "pawn structure"],
+  "tags": [
+    "Benko Gambit",
+    "Volga Gambit",
+    "d4 openings",
+    "Fianchetto Variation"
+  ],
+  "concepts": [
+    "gambit play",
+    "long-term compensation",
+    "open files",
+    "fianchetto",
+    "queenside pressure",
+    "pawn structure"
+  ],
   "metadata": {
     "eco": "A57-A59",
     "opening": "Benko Gambit"
@@ -19,11 +32,21 @@
     }
   ],
   "line": [
-    { "san": "d4" },
-    { "san": "Nf6" },
-    { "san": "c4" },
-    { "san": "c5" },
-    { "san": "d5" },
+    {
+      "san": "d4"
+    },
+    {
+      "san": "Nf6"
+    },
+    {
+      "san": "c4"
+    },
+    {
+      "san": "c5"
+    },
+    {
+      "san": "d5"
+    },
     {
       "san": "b5",
       "classification": "sacrifice",
@@ -36,7 +59,9 @@
         }
       ]
     },
-    { "san": "cxb5" },
+    {
+      "san": "cxb5"
+    },
     {
       "san": "a6",
       "classification": "theory",
@@ -48,7 +73,9 @@
         }
       ]
     },
-    { "san": "bxa6" },
+    {
+      "san": "bxa6"
+    },
     {
       "san": "Bxa6",
       "classification": "theory",
@@ -59,9 +86,17 @@
           "body": "Recapturing with the bishop, not a future ...Nxa6 or the c8-pawn structure, is the whole point: the bishop lands on a6 already eyeing f1 along the long light diagonal and the rook on a8 is already staring down the open a-file."
         }
       ],
-      "visual": [{ "type": "arrow", "from": "a6", "to": "f1" }]
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "a6",
+          "to": "f1"
+        }
+      ]
     },
-    { "san": "Nc3" },
+    {
+      "san": "Nc3"
+    },
     {
       "san": "d6",
       "annotations": [
@@ -71,7 +106,9 @@
         }
       ]
     },
-    { "san": "Nf3" },
+    {
+      "san": "Nf3"
+    },
     {
       "san": "g6",
       "classification": "theory",
@@ -103,9 +140,17 @@
           "body": "This bishop is the single most important piece in the Benko. From g7 it presses b2 and d4 for the entire game and supports tactics like ...Nb4 or a future exchange sacrifice on a1 or c3, all built on the pressure already generated on the queenside."
         }
       ],
-      "visual": [{ "type": "arrow", "from": "g7", "to": "a1" }]
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "g7",
+          "to": "a1"
+        }
+      ]
     },
-    { "san": "Bg2" },
+    {
+      "san": "Bg2"
+    },
     {
       "san": "O-O",
       "importance": "notable",
@@ -117,10 +162,24 @@
         }
       ],
       "visual": [
-        { "type": "arrow", "from": "a8", "to": "a2" },
-        { "type": "arrow", "from": "b8", "to": "b2" },
-        { "type": "square", "square": "a2" },
-        { "type": "square", "square": "b2" }
+        {
+          "type": "arrow",
+          "from": "a8",
+          "to": "a2"
+        },
+        {
+          "type": "arrow",
+          "from": "b8",
+          "to": "b2"
+        },
+        {
+          "type": "square",
+          "square": "a2"
+        },
+        {
+          "type": "square",
+          "square": "b2"
+        }
       ]
     }
   ]

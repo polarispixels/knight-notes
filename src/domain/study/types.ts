@@ -32,6 +32,7 @@ export type ImportanceLevel = 'normal' | 'notable' | 'important' | 'critical'
 
 export type AnnotationType =
   | 'commentary'
+  | 'question'
   | 'key-idea'
   | 'critical-position'
   | 'principle'
@@ -93,6 +94,8 @@ export type StudySource = 'bundled' | 'local'
 export interface Study {
   id: string
   slug: string
+  /** Optional human-friendly catalog code (e.g. "G001") used for library ordering. */
+  catalogCode?: string
   title: string
   subtitle?: string
   type: StudyType
@@ -113,6 +116,7 @@ export interface Study {
 export interface StudySummary {
   id: string
   slug: string
+  catalogCode?: string
   title: string
   subtitle?: string
   type: StudyType
