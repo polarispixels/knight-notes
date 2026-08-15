@@ -1,0 +1,88 @@
+/* KnightNotes — interactive chess textbook. Calm, minimal, readable. */
+
+:root {
+  --paper: #f6f2ea;
+  --surface: #fffdf8;
+  --ink: #29241c;
+  --ink-soft: #6f6657;
+  --line: #e4dccb;
+  --accent: #7a5a2b;
+  --accent-soft: #f0e6d2;
+  --danger: #a33c3c;
+  --good: #3e6b48;
+
+  --board-light: #f0dcc0;
+  --board-dark: #ab8563;
+  --board-last-move: rgba(205, 165, 60, 0.42);
+  --board-highlight: #b33a3a;
+  --board-arrow: #2f6b46;
+
+  --font-serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+  --font-ui: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --radius: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 0;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+button {
+  font-family: var(--font-ui);
+  cursor: pointer;
+}
+
+/* Restrained default button */
+.btn {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  color: var(--ink);
+  padding: 0.45rem 0.9rem;
+  font-size: 0.92rem;
+  transition: border-color 120ms ease, background 120ms ease;
+}
+.btn:hover:not(:disabled) {
+  border-color: var(--accent);
+}
+.btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.btn.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+.btn.primary:hover:not(:disabled) {
+  filter: brightness(1.08);
+}

@@ -1,0 +1,117 @@
+{
+  "id": "legal-trap",
+  "title": "Légal's Trap",
+  "subtitle": "Philidor Defense",
+  "type": "trap",
+  "difficulty": "beginner",
+  "summary": "White offers the queen to expose a hidden mating net, punishing Black for grabbing material instead of finishing development.",
+  "tags": ["Philidor Defense", "Italian Game", "mating attack"],
+  "concepts": ["pins", "sacrifice", "checkmate patterns", "king safety"],
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "Named after Sire de Légal",
+      "body": "This trap is named for the 18th-century French master Sire de Légal, said to have sprung it on an overconfident opponent. It shows that a pin is only as strong as what's actually behind the pinned piece."
+    }
+  ],
+  "line": [
+    { "san": "e4" },
+    { "san": "e5" },
+    { "san": "Nf3" },
+    { "san": "d6" },
+    { "san": "Bc4" },
+    {
+      "san": "Bg4",
+      "annotations": [
+        {
+          "type": "warning",
+          "title": "A pin with nothing behind it",
+          "body": "This looks like a standard pin of the knight to the queen, but the black king is on e8, not on the d1-h5 diagonal. It is only a relative pin — the knight is free to move if something bigger is at stake."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g4", "to": "d1" }]
+    },
+    { "san": "Nc3" },
+    { "san": "g6" },
+    {
+      "san": "Nxe5",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Offering the queen",
+          "body": "White ignores the 'pin' and grabs a pawn, apparently hanging the queen to Bxd1. But the real point is a forced mate — the queen is worth less than what follows it."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e5" }]
+    },
+    {
+      "san": "Bxd1",
+      "classification": "blunder",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "mistake",
+          "title": "The greedy capture",
+          "body": "Taking the queen looks winning, but it walks straight into a forced mate. Black should have recaptured the knight instead of grabbing material — see the alternative line."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "dxe5",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The safe, correct choice",
+                "body": "Simply recapturing the knight is right. After 6.Qxg4 White has only won a pawn for the trouble — a small, normal edge instead of a forced loss."
+              }
+            ]
+          },
+          { "san": "Qxg4" }
+        ]
+      ]
+    },
+    {
+      "san": "Bxf7+",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Dragging the king out",
+          "body": "With the queen gone, White's remaining pieces do the real work. This check forces the king into the open, since nothing can capture or block on f7."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c4", "to": "f7" }]
+    },
+    {
+      "san": "Ke7",
+      "classification": "forced",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The only legal move",
+          "body": "Kxf7 runs into the knight on e5, which guards f7; that same knight also covers d7, and f8 is occupied by Black's own bishop. Ke7 is forced."
+        }
+      ]
+    },
+    {
+      "san": "Nd5#",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The mating net",
+          "body": "The knight from c3 delivers mate: it covers e7, d7, and f6, the bishop on f7 covers e6 and e8, and Black's own queen and bishop block the rest. There is no escape."
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "e7" },
+        { "type": "square", "square": "d7" },
+        { "type": "square", "square": "f6" },
+        { "type": "arrow", "from": "c3", "to": "d5" }
+      ]
+    }
+  ]
+}

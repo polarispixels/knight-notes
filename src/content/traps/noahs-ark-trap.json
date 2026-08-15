@@ -1,0 +1,103 @@
+{
+  "id": "noahs-ark-trap",
+  "title": "Noah's Ark Trap",
+  "subtitle": "Ruy Lopez, Steinitz Defense Deferred",
+  "type": "trap",
+  "difficulty": "intermediate",
+  "summary": "Black's queenside pawns roll forward and permanently trap White's light-squared bishop after a careless recapture in the center.",
+  "tags": ["Ruy Lopez", "Spanish Game", "pawn structure"],
+  "concepts": ["trapped piece", "pawn chains", "piece activity", "tempo"],
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "One of chess's oldest traps",
+      "body": "The Noah's Ark Trap is among the oldest recorded opening traps, arising from the Ruy Lopez. Its name comes from the slow, inexorable advance of Black's queenside pawns that eventually swallow the bishop."
+    }
+  ],
+  "line": [
+    { "san": "e4" },
+    { "san": "e5" },
+    { "san": "Nf3" },
+    { "san": "Nc6" },
+    { "san": "Bb5" },
+    { "san": "a6" },
+    { "san": "Ba4" },
+    { "san": "d6" },
+    { "san": "d4" },
+    {
+      "san": "b5",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Gaining a tempo, starting the wave",
+          "body": "Kicking the bishop to b3 is normal, but this pawn is also the first step of a chain, a6 and b5, that will later fence in that same bishop."
+        }
+      ]
+    },
+    {
+      "san": "Bb3",
+      "annotations": [
+        {
+          "type": "warning",
+          "title": "A bishop with no home",
+          "body": "White hasn't touched the a2 or c2 pawns, so this bishop's only retreat squares along its diagonal are already blocked by its own pawns. If Black ever controls a4 and c4, the bishop will have nowhere to go."
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "a2" },
+        { "type": "square", "square": "c2" }
+      ]
+    },
+    { "san": "Nxd4" },
+    { "san": "Nxd4" },
+    { "san": "exd4" },
+    {
+      "san": "Qxd4",
+      "classification": "blunder",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "mistake",
+          "title": "The natural recapture that loses time",
+          "body": "Recapturing with the queen looks obvious, but it puts the queen in front of Black's pawns, which will chase it around while the a6-b5 pawns quietly finish trapping the bishop on b3."
+        }
+      ]
+    },
+    {
+      "san": "c5",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The wave keeps rolling",
+          "body": "Every pawn move gains a tempo on the queen while extending the chain that will seal the bishop's diagonal. This is the key idea of the whole trap."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c7", "to": "c5" }]
+    },
+    { "san": "Qd5" },
+    { "san": "Be6" },
+    { "san": "Qc6+" },
+    { "san": "Bd7" },
+    { "san": "Qd5" },
+    {
+      "san": "c4",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The ark closes",
+          "body": "The bishop on b3 is trapped. It can't retreat to a2 or c2 — its own pawns are still there — and a4 and c4 are both controlled by the pawn on b5. Every square is covered; the bishop is lost."
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "b3" },
+        { "type": "square", "square": "a2" },
+        { "type": "square", "square": "c2" },
+        { "type": "arrow", "from": "b5", "to": "a4" },
+        { "type": "arrow", "from": "b5", "to": "c4" }
+      ]
+    }
+  ]
+}

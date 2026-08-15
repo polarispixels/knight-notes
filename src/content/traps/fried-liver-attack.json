@@ -1,0 +1,134 @@
+{
+  "id": "fried-liver-attack",
+  "title": "The Fried Liver Attack",
+  "subtitle": "Two Knights Defense",
+  "type": "trap",
+  "difficulty": "beginner",
+  "summary": "White sacrifices a knight to drag Black's king into the center, exploiting the weak f7 square before Black can castle.",
+  "tags": ["Two Knights Defense", "Italian Game", "king safety"],
+  "concepts": ["f7 weakness", "king safety", "double attack", "sacrifice for initiative"],
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "A trap as old as the Italian Game",
+      "body": "The Fried Liver Attack arises from the Two Knights Defense and has been known since the 17th century. It punishes Black for grabbing a pawn on d5 with the wrong piece before castling."
+    }
+  ],
+  "line": [
+    { "san": "e4" },
+    { "san": "e5" },
+    { "san": "Nf3" },
+    { "san": "Nc6" },
+    { "san": "Bc4" },
+    { "san": "Nf6" },
+    {
+      "san": "Ng5",
+      "classification": "interesting",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Targeting f7",
+          "body": "f7 is defended only by the king, since Black hasn't castled. Attacking it a second time already threatens ideas Black must answer carefully."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "f7" }]
+    },
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "principle",
+          "title": "Counter in the center",
+          "body": "Black strikes back at the center immediately, attacking the bishop on c4 and gaining space, rather than passively defending f7."
+        }
+      ]
+    },
+    { "san": "exd5" },
+    {
+      "san": "Nxd5",
+      "classification": "mistake",
+      "annotations": [
+        {
+          "type": "mistake",
+          "title": "Recapturing with the wrong piece",
+          "body": "This natural-looking recapture is the losing mistake. It leaves f7 defended only by the king and lets White's knight on g5 crash in with a winning sacrifice."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Na5",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Sidestepping the sacrifice",
+                "body": "Instead of recapturing, the knight jumps to a5, attacking the bishop and avoiding the f7 tactics entirely. This is the correct, well-tested reply — Black gives back the pawn but keeps a safe position."
+              }
+            ]
+          },
+          { "san": "Bb5+" },
+          { "san": "c6" },
+          { "san": "dxc6" },
+          { "san": "bxc6" },
+          { "san": "Be2" }
+        ]
+      ]
+    },
+    {
+      "san": "Nxf7",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The point of the sacrifice",
+          "body": "The knight forks the queen on d8 and the rook on h8, and it's defended by nothing. Black is forced to recapture with the king, since ignoring it loses even more material."
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "f7" },
+        { "type": "arrow", "from": "g5", "to": "f7" }
+      ]
+    },
+    { "san": "Kxf7" },
+    {
+      "san": "Qf3+",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "A double attack",
+          "body": "The queen checks the king along the f-file and simultaneously eyes the knight on d5 along the f3-e4-d5 diagonal. Black must deal with both threats at once."
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "f3", "to": "f7" },
+        { "type": "arrow", "from": "f3", "to": "d5" },
+        { "type": "square", "square": "d5" }
+      ]
+    },
+    {
+      "san": "Ke6",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Defending the knight with the king",
+          "body": "Walking the king to e6 is the only way to hold onto the knight on d5 — the king itself defends it. It looks terrifying, but it's the critical try; anything else just drops the piece."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e6" }]
+    },
+    {
+      "san": "Nc3",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Piling on d5",
+          "body": "White brings another piece toward the knight and the exposed king rather than rushing. With the king stuck in the center, White has full compensation for the sacrificed piece and a dangerous initiative."
+        }
+      ]
+    }
+  ]
+}

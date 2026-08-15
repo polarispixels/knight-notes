@@ -6,10 +6,13 @@ import type { StudyRepository } from '../repository'
  * repository. Reads prefer local; writes always go to local.
  */
 export class CompositeStudyRepository implements StudyRepository {
-  constructor(
-    private readonly bundled: StudyRepository,
-    private readonly local: StudyRepository,
-  ) {}
+  private readonly bundled: StudyRepository
+  private readonly local: StudyRepository
+
+  constructor(bundled: StudyRepository, local: StudyRepository) {
+    this.bundled = bundled
+    this.local = local
+  }
 
   async list() {
     const [bundledList, localList] = await Promise.all([this.bundled.list(), this.local.list()])
