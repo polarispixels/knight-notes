@@ -1,0 +1,217 @@
+{
+  "id": "italian-game",
+  "title": "The Italian Game",
+  "subtitle": "Giuoco Piano and the Two Knights Defense",
+  "type": "opening",
+  "difficulty": "beginner",
+  "summary": "One of the oldest openings in chess: both sides develop naturally toward the center while White's bishop takes aim at the fragile f7 square, setting up a classic fight between quiet development and early tactics.",
+  "tags": ["Italian Game", "Giuoco Piano", "Two Knights Defense", "e4 openings"],
+  "concepts": ["development", "center control", "king safety", "opening principles", "piece activity"],
+  "metadata": {
+    "eco": "C50-C54",
+    "opening": "Italian Game"
+  },
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "One of the oldest openings",
+      "body": "The Italian Game has been analyzed since the 16th century. Both sides develop a knight and a bishop toward the center on the first moves, aiming the bishop at the opponent's weakest point: f7 for White, f2 for Black."
+    }
+  ],
+  "line": [
+    { "san": "e4" },
+    { "san": "e5" },
+    {
+      "san": "Nf3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "principle",
+          "title": "Attack the center immediately",
+          "body": "Nf3 develops with tempo, attacking e5 and preparing to castle. It is the most natural developing move available in almost any king's-pawn opening."
+        }
+      ]
+    },
+    { "san": "Nc6" },
+    {
+      "san": "Bc4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Aiming at f7",
+          "body": "The bishop targets f7, the weakest square in Black's camp because it is defended only by the king. Nearly every Italian Game idea, from quiet buildup to sharp sacrifices, starts from this diagonal.",
+          "concepts": ["weak squares", "piece activity"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "c4", "to": "f7" },
+        { "type": "square", "square": "f7" }
+      ]
+    },
+    {
+      "san": "Bc5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Giuoco Piano: the \"quiet game\"",
+          "body": "Black mirrors White's development, aiming the bishop at f2. This symmetrical setup is called the Giuoco Piano, Italian for \"quiet game\" -- though, as the main line shows, it can turn sharp once the center opens."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nf6",
+            "classification": "theory",
+            "annotations": [
+              {
+                "type": "strategy",
+                "title": "Two Knights Defense",
+                "body": "Instead of mirroring the bishop, Black develops a second knight and leaves White's bishop on c4 for now. This is more provocative than the Giuoco Piano and invites immediate tactics against f7."
+              }
+            ]
+          },
+          {
+            "san": "Ng5",
+            "classification": "theory",
+            "importance": "important",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The aggressive try",
+                "body": "White eyes f7 a second time, now with the knight. A beginner playing Black must know the correct reply or risk material to the Fried Liver Attack."
+              }
+            ],
+            "visual": [{ "type": "square", "square": "f7" }]
+          },
+          {
+            "san": "d5",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Striking back in the center",
+                "body": "Rather than defending passively, Black counters in the center at once. This is the critical, correct response to 4.Ng5 -- ignoring the threat with quiet development is much worse."
+              }
+            ]
+          },
+          { "san": "exd5" },
+          {
+            "san": "Na5",
+            "classification": "theory",
+            "annotations": [
+              {
+                "type": "principle",
+                "title": "Attacking the attacker",
+                "body": "Na5 hits the c4 bishop instead of recapturing on d5 right away. Grabbing the pawn with Nxd5 instead walks into 6.Nxf7!, the Fried Liver Attack, forking the queen and rook."
+              }
+            ]
+          },
+          { "san": "Bb5+" },
+          { "san": "c6" },
+          { "san": "dxc6" },
+          { "san": "bxc6" },
+          {
+            "san": "Be2",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black has accepted some structural damage -- doubled c-pawns are coming -- in exchange for a big lead in development and the bishop pair. This is a fully playable, sharper alternative to the calm Giuoco Piano."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "c3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Preparing d4",
+          "body": "c3 prepares to build a full pawn center with d4 and gives the queen a square on a4 or b3 later. This is the classical main line of the Giuoco Piano."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "d3",
+            "classification": "theory",
+            "annotations": [
+              {
+                "type": "strategy",
+                "title": "The Giuoco Pianissimo",
+                "body": "Instead of racing for d4, White plays the modest d3, keeping the position closed and postponing the central fight. This \"even quieter game\" is popular from club level to the World Championship because it sidesteps memorized theory while keeping a pleasant, flexible position."
+              }
+            ]
+          },
+          { "san": "Nf6" },
+          { "san": "O-O" },
+          { "san": "O-O" },
+          {
+            "san": "Re1",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White finishes development and prepares plans like c3/Nbd2 or a slow kingside buildup, aiming for a long positional squeeze rather than immediate tactics."
+              }
+            ]
+          },
+          { "san": "d6" }
+        ]
+      ]
+    },
+    { "san": "Nf6" },
+    {
+      "san": "d4",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "principle",
+          "title": "Seizing the full center",
+          "body": "This is the point of c3: White claims d4 as well as e4, offering a pawn exchange that opens the center while both kings are still uncastled."
+        }
+      ]
+    },
+    { "san": "exd4" },
+    { "san": "cxd4" },
+    {
+      "san": "Bb4+",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The only good check",
+          "body": "With the center opened, Black needs a way to slow White down before development is completed. Bb4+ is forcing: White must block or move the king, and it is the reason 4...Nf6 is preferred over an immediate ...Bb4+."
+        }
+      ]
+    },
+    {
+      "san": "Bd2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Bd2 is the simplest response, offering to trade dark-squared bishops rather than allowing the sharper 7.Nc3 Nxe4, which leads into the heavily analyzed Moller Attack."
+        }
+      ]
+    },
+    { "san": "Bxd2+" },
+    { "san": "Nbxd2" },
+    {
+      "san": "d5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "A balanced isolated-pawn structure",
+          "body": "Black strikes back in the center immediately. After an eventual exd5 Nxd5, both sides end up with an isolated d-pawn and roughly symmetrical chances -- a fair outcome from an opening where White pushed for more."
+        }
+      ]
+    }
+  ]
+}

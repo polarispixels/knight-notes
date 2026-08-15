@@ -1,0 +1,158 @@
+{
+  "id": "queens-gambit",
+  "title": "The Queen's Gambit",
+  "subtitle": "Queen's Gambit Declined, Accepted, and the Slav",
+  "type": "opening",
+  "difficulty": "beginner",
+  "summary": "White offers the c-pawn to lure a Black pawn away from the center. It isn't a true sacrifice -- the pawn is nearly impossible for Black to keep -- but the resulting structures define an enormous share of classical chess.",
+  "tags": ["Queen's Gambit", "Queen's Gambit Declined", "Queen's Gambit Accepted", "Slav Defense", "d4 openings"],
+  "concepts": ["center control", "pawn structure", "development", "opening principles", "piece activity"],
+  "metadata": {
+    "eco": "D06-D69",
+    "opening": "Queen's Gambit"
+  },
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "Not really a gambit",
+      "body": "Despite the name, White is not really sacrificing anything. If Black tries to hold the c4 pawn, White regains it quickly with an advantage, so the \"gambit\" is really just a way to challenge Black's center and open lines for development."
+    }
+  ],
+  "line": [
+    { "san": "d4" },
+    { "san": "d5" },
+    {
+      "san": "c4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Challenging the center",
+          "body": "c4 attacks d5, Black's central pawn. Black must decide whether to defend it (2...e6 or 2...c6) or grab it (2...dxc4) and hand the center over to White for a move."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }]
+    },
+    {
+      "san": "e6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "The Queen's Gambit Declined",
+          "body": "e6 defends d5 solidly and is the most classical reply. Its downside is well known: the pawn on e6 blocks Black's own light-squared bishop, which can stay a problem piece for the rest of the game."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "dxc4",
+            "classification": "theory",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Queen's Gambit Accepted",
+                "body": "Black grabs the pawn. It cannot be held for free: any attempt to defend it with an early ...b5 opens lines that White exploits, and simply developing lets White recapture on c4 with tempo."
+              }
+            ]
+          },
+          {
+            "san": "Qa4+",
+            "classification": "theory",
+            "importance": "notable",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "Regaining the pawn with check",
+                "body": "With d7 and c6 empty, Qa4+ hits the king along the a4-e8 diagonal. Black must block, and after the block White simply takes back on c4, regaining the pawn with a developing move already made."
+              }
+            ],
+            "visual": [
+              { "type": "arrow", "from": "a4", "to": "e8" },
+              { "type": "square", "square": "c4" }
+            ]
+          },
+          { "san": "Nc6" },
+          {
+            "san": "Qxc4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Material is level again and White's queen is already developed, illustrating why holding onto the c4 pawn is not a realistic plan for Black."
+              }
+            ]
+          },
+          { "san": "Nf6" },
+          { "san": "Nf3" }
+        ],
+        [
+          {
+            "san": "c6",
+            "classification": "theory",
+            "annotations": [
+              {
+                "type": "strategy",
+                "title": "The Slav Defense",
+                "body": "c6 also defends d5, but unlike 2...e6 it leaves the light-squared bishop free to develop actively to f5 or g4 before Black plays ...e6. This is the main practical reason many strong players prefer the Slav to the Queen's Gambit Declined."
+              }
+            ]
+          },
+          { "san": "Nf3" },
+          { "san": "Nf6" },
+          { "san": "Nc3" }
+        ]
+      ]
+    },
+    { "san": "Nc3" },
+    { "san": "Nf6" },
+    {
+      "san": "Bg5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Pinning the knight",
+          "body": "Bg5 pins the f6 knight to the queen on d8, adding pressure to d5 and preparing to double Black's pawns with a later Bxf6 if Black is careless."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g5", "to": "d8" }]
+    },
+    { "san": "Be7" },
+    {
+      "san": "e3",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Freeing the last piece",
+          "body": "e3 lets the f1 bishop out next move -- but it already left the pawn chain via g5, so unlike many d4 openings, White's own light-squared bishop was never trapped behind this pawn."
+        }
+      ]
+    },
+    { "san": "O-O" },
+    { "san": "Nf3" },
+    {
+      "san": "h6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "principle",
+          "title": "A useful prophylactic move",
+          "body": "h6 asks the question: does the bishop want to trade on f6, doubling Black's pawns but giving up the bishop pair, or retreat? Either way Black gains information and a little space before continuing development."
+        }
+      ]
+    },
+    {
+      "san": "Bh4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The main tabiya",
+          "body": "This position has been reached in thousands of grandmaster games. White keeps the pin alive and typically continues with Rc1 and a slow buildup against d5 and the queenside, while Black looks for ...b6, ...Bb7, or the classical ...Ne4 break."
+        }
+      ]
+    }
+  ]
+}

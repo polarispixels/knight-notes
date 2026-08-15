@@ -1,0 +1,139 @@
+{
+  "id": "kings-gambit",
+  "title": "The King's Gambit",
+  "subtitle": "A Romantic-era pawn sacrifice for the center and the f-file",
+  "type": "gambit",
+  "difficulty": "intermediate",
+  "summary": "White sacrifices the f-pawn on move two to seize the center and rip open the f-file for a rook, trading long-term material for a fast attack -- at the real risk of leaving the king exposed for the rest of the game.",
+  "tags": ["King's Gambit", "e4 openings", "gambit"],
+  "concepts": ["gambit play", "development", "open files", "king safety", "initiative"],
+  "metadata": {
+    "eco": "C30-C39",
+    "opening": "King's Gambit"
+  },
+  "rootAnnotations": [
+    {
+      "type": "strategy",
+      "title": "A pawn for the center and the f-file",
+      "body": "2.f4 offers a pawn so that, after ...exf4, White can meet e5 with a full center (d4/e4) and use the open f-file against f7. It was the favorite weapon of the Romantic era. The cost is real: White's king cannot castle kingside until the f-file is resolved, so any slow or inaccurate play can leave it dangerously exposed."
+    }
+  ],
+  "line": [
+    { "san": "e4" },
+    { "san": "e5" },
+    {
+      "san": "f4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The gambit pawn",
+          "body": "White offers the f-pawn to divert Black's e-pawn, aiming to answer ...exf4 with d4, building a big center while the f-file stands open for a rook."
+        }
+      ]
+    },
+    {
+      "san": "exf4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Accepting is the most direct test of the gambit: Black banks the extra pawn and dares White to prove enough compensation. This is the King's Gambit Accepted."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bc5",
+            "classification": "theory",
+            "annotations": [
+              {
+                "type": "strategy",
+                "title": "King's Gambit Declined",
+                "body": "Black ignores the offer and develops naturally instead, keeping a healthy structure and sidestepping the sharp theoretical battles of the Accepted lines. It is a calm, practical way to meet the gambit without memorizing forcing variations."
+              }
+            ]
+          },
+          { "san": "Nf3" },
+          { "san": "d6" },
+          { "san": "Bc4" },
+          { "san": "Nc6" }
+        ]
+      ]
+    },
+    {
+      "san": "Nf3",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "principle",
+          "title": "Stopping ...Qh4+",
+          "body": "Before anything else, White must prevent 3...Qh4+, which would drag the king to e2 and cost the right to castle. Nf3 covers h4 and develops at the same time -- nearly every King's Gambit Accepted line starts here."
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The Modern Defense",
+          "body": "Rather than clinging to the extra pawn with 3...g5, Black strikes back in the center immediately. This is considered Black's most reliable answer: it returns the pawn but neutralizes White's central and attacking ideas."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "g5",
+            "classification": "theory",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Holding the extra pawn",
+                "body": "The old main line: Black defends f4 and hangs on to the extra pawn. It leads to razor-sharp positions like the Kieseritzky and Muzio Gambits, where both kings can come under fire -- rewarding preparation and punishing the unprepared on either side."
+              }
+            ]
+          },
+          { "san": "h4" }
+        ]
+      ]
+    },
+    { "san": "exd5" },
+    { "san": "Nf6" },
+    {
+      "san": "Bc4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Eyeing f7 again",
+          "body": "As in the Italian Game, the bishop heads straight for f7, keeping pressure on the position while Black's king is still in the center."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c4", "to": "f7" }]
+    },
+    {
+      "san": "Nxd5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black recaptures and centralizes the knight. Material is now roughly level for the moment (White is still missing the f-pawn), but White's pieces are far more active than in a normal opening at this stage."
+        }
+      ]
+    },
+    {
+      "san": "O-O",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Development finished, compensation banked",
+          "body": "Castling completes development and finally tucks the king away -- the single most important task in any gambit. White is a pawn down but ahead in development with open lines toward f7; the whole opening was played to reach exactly this kind of position quickly."
+        }
+      ]
+    }
+  ]
+}

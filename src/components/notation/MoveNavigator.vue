@@ -6,7 +6,7 @@ defineEmits<{ start: []; previous: []; next: []; end: [] }>()
 <template>
   <div class="navigator" role="toolbar" aria-label="Move navigation">
     <button class="btn" data-test="nav-start" :disabled="!canPrevious" title="Beginning (Home)" @click="$emit('start')">
-      ⏮
+      «
     </button>
     <button class="btn" data-test="nav-previous" :disabled="!canPrevious" title="Previous (←)" @click="$emit('previous')">
       ← Previous
@@ -15,7 +15,7 @@ defineEmits<{ start: []; previous: []; next: []; end: [] }>()
       Next →
     </button>
     <button class="btn" data-test="nav-end" :disabled="!canNext" title="End (End)" @click="$emit('end')">
-      ⏭
+      »
     </button>
   </div>
 </template>

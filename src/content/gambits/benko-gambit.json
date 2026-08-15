@@ -1,0 +1,127 @@
+{
+  "id": "benko-gambit",
+  "title": "The Benko Gambit",
+  "subtitle": "A pawn for permanent pressure on the queenside",
+  "type": "gambit",
+  "difficulty": "intermediate",
+  "summary": "Black offers a queenside pawn, sometimes two, in exchange for open a- and b-files, a monster fianchettoed bishop, and pressure that can last the entire game -- even into an endgame, unlike most gambits.",
+  "tags": ["Benko Gambit", "Volga Gambit", "d4 openings", "Fianchetto Variation"],
+  "concepts": ["gambit play", "long-term compensation", "open files", "fianchetto", "queenside pressure", "pawn structure"],
+  "metadata": {
+    "eco": "A57-A59",
+    "opening": "Benko Gambit"
+  },
+  "rootAnnotations": [
+    {
+      "type": "strategy",
+      "title": "A positional gambit, not a tactical one",
+      "body": "Unlike the King's Gambit, Black is not trying to attack the king quickly. The Benko trades a queenside pawn for lasting structural assets: open files for the rooks and a powerful bishop on the long diagonal. This compensation does not evaporate -- it is just as real in a simplified endgame as in the middlegame, which is unusual for a gambit and is exactly why it has been trusted at every level, including the World Championship."
+    }
+  ],
+  "line": [
+    { "san": "d4" },
+    { "san": "Nf6" },
+    { "san": "c4" },
+    { "san": "c5" },
+    { "san": "d5" },
+    {
+      "san": "b5",
+      "classification": "sacrifice",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The gambit pawn",
+          "body": "Black offers a queenside pawn at once. The point is not to win it back quickly -- it's to blast open the a- and b-files and develop the light-squared bishop with tempo before White can consolidate the extra material."
+        }
+      ]
+    },
+    { "san": "cxb5" },
+    {
+      "san": "a6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Re-offering material",
+          "body": "Black is often willing to give up a second pawn here rather than recapture immediately with a piece. Opening the a-file before White finishes developing is worth more than the pawn."
+        }
+      ]
+    },
+    { "san": "bxa6" },
+    {
+      "san": "Bxa6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Developing with a threat",
+          "body": "Recapturing with the bishop, not a future ...Nxa6 or the c8-pawn structure, is the whole point: the bishop lands on a6 already eyeing f1 along the long light diagonal and the rook on a8 is already staring down the open a-file."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "a6", "to": "f1" }]
+    },
+    { "san": "Nc3" },
+    {
+      "san": "d6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black solidifies the center before finishing development, keeping options open for ...e6, ...Nbd7, or ...Qa5 depending on how White sets up."
+        }
+      ]
+    },
+    { "san": "Nf3" },
+    {
+      "san": "g6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Preparing the real point of the opening",
+          "body": "g6 sets up the fianchetto that gives the Benko its long-term power: a dark-squared bishop bearing down the entire a1-h8 diagonal."
+        }
+      ]
+    },
+    {
+      "san": "g3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White mirrors the fianchetto, aiming to neutralize the long diagonal and finish development safely -- the main modern try against the Benko."
+        }
+      ]
+    },
+    {
+      "san": "Bg7",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The engine of Black's compensation",
+          "body": "This bishop is the single most important piece in the Benko. From g7 it presses b2 and d4 for the entire game and supports tactics like ...Nb4 or a future exchange sacrifice on a1 or c3, all built on the pressure already generated on the queenside."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g7", "to": "a1" }]
+    },
+    { "san": "Bg2" },
+    {
+      "san": "O-O",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Compensation that outlasts the middlegame",
+          "body": "Black is down a pawn but both rooks are already aimed at White's queenside without having moved, the bishop pair is gone but the surviving g7-bishop is excellent, and simple plans like ...Qa5, ...Rfb8, and doubling on the a-file give lasting pressure. This is why the Benko is famous for holding up even when the game is simplified into an endgame."
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "a8", "to": "a2" },
+        { "type": "arrow", "from": "b8", "to": "b2" },
+        { "type": "square", "square": "a2" },
+        { "type": "square", "square": "b2" }
+      ]
+    }
+  ]
+}
