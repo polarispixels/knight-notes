@@ -1,0 +1,102 @@
+{
+  "id": "back-rank-mate",
+  "title": "Back-Rank Mate",
+  "subtitle": "When the king's own pawns become its prison",
+  "type": "pattern",
+  "difficulty": "beginner",
+  "summary": "Unmoved kingside pawns can trap a king on the back rank. This study shows the deflection that removes the only defender and the mate that follows.",
+  "tags": ["back rank", "mating pattern", "deflection"],
+  "concepts": ["back-rank weakness", "luft", "deflection", "king safety"],
+  "initialFen": "5rk1/ppq2ppp/8/8/B7/8/1PPQ1PPP/4R1K1 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "The pawn shield becomes a prison",
+      "body": "Black's f7, g7, and h7 pawns are still on their starting squares. They look like protection, but they also block every escape square along the king's own rank — g7 and h7 belong to the pawns, and f8/h8 are only safe if nothing attacks them. A rook or queen that reaches the back rank uncontested delivers mate on the spot.",
+      "concepts": ["back-rank weakness"]
+    },
+    {
+      "type": "principle",
+      "title": "One weak move is enough",
+      "body": "Black's rook on f8 is currently the only piece guarding the back rank. Overload it, deflect it, or remove it, and the whole rank collapses. That is the entire back-rank lesson in one sentence.",
+      "concepts": ["deflection"]
+    }
+  ],
+  "rootVisual": [
+    { "type": "square", "square": "f7" },
+    { "type": "square", "square": "g7" },
+    { "type": "square", "square": "h7" }
+  ],
+  "line": [
+    {
+      "san": "Qb4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Lining up the shot",
+          "body": "The queen steps onto the a3-f8 diagonal, attacking the rook on f8 — Black's only defender of the back rank. Nothing recaptures on f8 except the king, and the king can't reach it in time."
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "d2", "to": "f8" }
+      ]
+    },
+    {
+      "san": "a6",
+      "annotations": [
+        {
+          "type": "warning",
+          "title": "A quiet move that ignores the real danger",
+          "body": "This looks harmless, but Black needed to deal with the threat against f8 right now — by moving the rook, or defending it. A move like this is exactly how back-rank disasters happen in real games: nothing looks urgent until it's too late."
+        }
+      ]
+    },
+    {
+      "san": "Qxf8+",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Deflecting the only defender",
+          "body": "The queen gives itself up for the rook, but that's not the point — capturing on f8 is check, and it strips away the one piece guarding the back rank. Kxf8 is forced; nothing else can answer the check."
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "f8" }
+      ]
+    },
+    {
+      "san": "Kxf8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Forced",
+          "body": "The king has no alternative — nothing else can capture on f8 or block the check, so this is the only legal reply."
+        }
+      ]
+    },
+    {
+      "san": "Re8#",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The mating point",
+          "body": "The rook on e8 is defended by the bishop on a4 along the a4-e8 diagonal, so Kxe8 is illegal. The king's other squares are all covered: e7 and g8 are attacked by the rook along the rank, and f7/g7 are blocked by Black's own pawns. That's checkmate.",
+          "concepts": ["back-rank weakness"]
+        },
+        {
+          "type": "strategy",
+          "title": "Luft would have saved Black",
+          "body": "A single move like ...h6 earlier in the game — creating 'luft', or breathing room, for the king — would have given the king an escape square on h7 and defused this entire combination. Making luft before it's needed is one of the most useful habits in chess.",
+          "concepts": ["luft"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "a4", "to": "e8" },
+        { "type": "square", "square": "e8" }
+      ]
+    }
+  ]
+}

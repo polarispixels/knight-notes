@@ -1,0 +1,128 @@
+{
+  "id": "greek-gift",
+  "title": "The Greek Gift Sacrifice",
+  "subtitle": "Bxh7+: sacrificing the bishop to drag the king into the open",
+  "type": "tactic",
+  "difficulty": "intermediate",
+  "summary": "White sacrifices the light-squared bishop on h7 to pull the black king out of safety, then follows up with Ng5+ and Qh5 to build a mating attack.",
+  "tags": ["Greek Gift", "Bxh7+", "kingside attack", "sacrifice", "French structure"],
+  "concepts": ["sacrifice", "king safety", "attacking with three pieces", "opening the h-file", "calculation"],
+  "initialFen": "r1bq1rk1/pppnbppp/4p3/3p4/3P4/3BPN2/PPP2PPP/R1BQ1RK1 w - - 0 10",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "The three-attacker rule",
+      "body": "The Greek Gift only works when White can throw three pieces at the black king: the bishop on the b1-h7 diagonal, a knight that can jump to g5 with check, and a queen that can swing to h5 or the h-file. Here the diagonal is open, g5 is undefended (Black has no knight on f6), and Black's h-pawn hasn't moved — every condition is met.",
+      "concepts": ["sacrifice", "attacking with three pieces"]
+    },
+    {
+      "type": "principle",
+      "title": "Why Black is vulnerable",
+      "body": "Black developed the queen's knight to d7 instead of the king's knight to f6, leaving g5 and h7 without a defender. That single move is the real cause of what follows — the sacrifice is just the punishment.",
+      "concepts": ["king safety"]
+    }
+  ],
+  "rootVisual": [
+    { "type": "arrow", "from": "d3", "to": "h7" },
+    { "type": "square", "square": "g5" }
+  ],
+  "line": [
+    {
+      "san": "Bxh7+",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Giving up the bishop for the initiative",
+          "body": "This isn't really a sacrifice in the losing-material sense — it's an investment. The bishop buys a tempo (forcing the king to move), rips open the black king's shelter, and hands the attack to the knight and queen that follow.",
+          "concepts": ["sacrifice"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "d3", "to": "h7" },
+        { "type": "square", "square": "g8" }
+      ]
+    },
+    {
+      "san": "Kxh7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Declining is worse in practice",
+          "body": "Black could try Kh8 instead, but then the bishop simply retreats (or even gets trapped and won later) while White is already up a clean pawn with a wrecked black kingside. Taking is the natural try and the one that tests the sacrifice."
+        }
+      ]
+    },
+    {
+      "san": "Ng5+",
+      "importance": "important",
+      "visual": [
+        { "type": "arrow", "from": "f3", "to": "g5" },
+        { "type": "square", "square": "h7" }
+      ],
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The second attacker arrives — and clears a path",
+          "body": "The knight both checks the king and vacates f3, opening the d1-h5 diagonal for the queen. This is the mechanical heart of the Greek Gift: bishop removes the pawn shield, knight harasses the king and clears the queen's road.",
+          "concepts": ["attacking with three pieces", "opening the h-file"]
+        }
+      ]
+    },
+    {
+      "san": "Kg8",
+      "variations": [
+        [
+          {
+            "san": "Kg6",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Running is more dangerous than it looks",
+                "body": "Walking the king up the board feels brave, but it steps onto the very diagonal the bishop just vacated — the queen can reoccupy it with check."
+              }
+            ]
+          },
+          {
+            "san": "Qd3+",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The queen inherits the bishop's diagonal",
+                "body": "Qd3+ checks along the same d3-h7 line the bishop used, and the king has no good answer: blocking with ...f5 permanently wrecks Black's kingside, while ...Kxg5 grabs the knight but leaves the king dangerously exposed to further checks. Either way, White's attack keeps rolling."
+              }
+            ],
+            "visual": [
+              { "type": "arrow", "from": "d3", "to": "g6" }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Qh5",
+      "classification": "critical",
+      "importance": "critical",
+      "visual": [
+        { "type": "square", "square": "h7" },
+        { "type": "arrow", "from": "h5", "to": "h7" },
+        { "type": "arrow", "from": "g5", "to": "h7" }
+      ],
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The third attacker completes the picture",
+          "body": "Now White threatens Qh7#: the knight on g5 guards h7 and covers f7 and h8's escape square (h8 is x-rayed by the queen once it lands), so the black king has nowhere to run. This is the point of the whole combination — bishop, knight, and queen all converge on one square.",
+          "concepts": ["attacking with three pieces"]
+        },
+        {
+          "type": "principle",
+          "title": "When the sacrifice is unsound",
+          "body": "If Black's knight were still on f6 guarding g5 and h7, or if the h-pawn had already moved to h6, Bxh7+ would just lose a piece for nothing. Always check the three conditions before playing this sacrifice: open diagonal, undefended g5, and an unmoved h-pawn."
+        }
+      ]
+    }
+  ]
+}

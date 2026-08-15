@@ -1,0 +1,79 @@
+{
+  "id": "discovered-attack",
+  "title": "Discovered Attack",
+  "subtitle": "Two threats in one move",
+  "type": "pattern",
+  "difficulty": "beginner",
+  "summary": "Moving one piece out of the way can unleash an attack from a piece behind it — while the moving piece creates a threat of its own. This is what makes discovered attacks, and especially discovered checks, so hard to defend.",
+  "tags": ["discovered attack", "discovered check", "knight fork", "tactics"],
+  "concepts": ["discovered attack", "double threat", "forcing moves", "zwischenzug"],
+  "initialFen": "q2k4/1pp1pppp/8/3N4/8/8/PPP2PPP/3R2K1 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "Two threats at once",
+      "body": "White's rook on d1 is aimed straight at Black's king on d8, but the knight on d5 is standing in the way. The moment that knight steps aside, the rook's attack switches on — and if the knight's new square makes a threat of its own, Black is facing two problems that can't both be answered.",
+      "concepts": ["discovered attack", "double threat"]
+    }
+  ],
+  "rootVisual": [
+    { "type": "arrow", "from": "d1", "to": "d8" },
+    { "type": "square", "square": "d5" }
+  ],
+  "line": [
+    {
+      "san": "h3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A quiet waiting move",
+          "body": "White isn't in a hurry — the discovery is available whenever it's needed, so this simply improves the position and waits for the moment to strike."
+        }
+      ]
+    },
+    { "san": "h6" },
+    {
+      "san": "Nb6+",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The discovery fires",
+          "body": "The knight jumps to b6, clearing the d-file. Instantly the rook on d1 gives check along the d-file to the king on d8 — a discovered check. At the same moment, the knight itself attacks the queen on a8. Black is in check, and whatever answers the check cannot also save the queen."
+        },
+        {
+          "type": "principle",
+          "title": "Why discovered checks are the deadliest tactic",
+          "body": "In an ordinary discovered attack, the opponent can sometimes ignore the new threat if they have something more urgent to do. A discovered check removes that option entirely: the rules force an immediate response to the check, so the second threat — here, the hanging queen — simply cannot be defended in time."
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "d1", "to": "d8" },
+        { "type": "arrow", "from": "d5", "to": "b6" },
+        { "type": "square", "square": "a8" }
+      ]
+    },
+    {
+      "san": "Ke8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The only legal move",
+          "body": "Every other square is either occupied by a black pawn or covered by White's king and rook — the king has no choice but to step to e8, leaving the queen to its fate."
+        }
+      ]
+    },
+    {
+      "san": "Nxa8",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Cashing in",
+          "body": "White simply collects the queen. The whole point of the discovered check was to create a moment where Black legally could not protect it — that is the power of combining a check with a second threat."
+        }
+      ]
+    }
+  ]
+}

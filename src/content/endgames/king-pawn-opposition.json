@@ -1,0 +1,128 @@
+{
+  "id": "king-pawn-opposition",
+  "title": "King and Pawn: The Opposition",
+  "subtitle": "Why the extra move can turn a win into a draw",
+  "type": "endgame",
+  "difficulty": "beginner",
+  "summary": "In king-and-pawn endings the side that controls the key squares in front of the pawn wins. Opposition — forcing the enemy king to give way — is the tool that lets the stronger king fight its way onto those squares.",
+  "tags": ["king and pawn endgame", "opposition", "key squares", "outflanking"],
+  "concepts": ["opposition", "key squares", "outflanking", "zugzwang", "king activity"],
+  "initialFen": "4k3/8/4K3/4P3/8/8/8/8 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "Key squares, not just the pawn",
+      "body": "With the pawn on e5, the squares d6, e6, and f6 are the 'key squares': if the White king reaches any one of them, the pawn queens by force, no matter what Black does. Right now White's king already sits on e6 — one of them — but Black's king blocks the direct path forward. The technique from here is about escorting the pawn home without ever giving that key square back.",
+      "concepts": ["key squares"]
+    },
+    {
+      "type": "principle",
+      "title": "What the opposition actually does",
+      "body": "Two kings facing each other with one empty square between them are 'in opposition'. Whoever is NOT forced to move has the advantage, because their opponent must give ground. The stronger side's whole plan is to arrange for the other king to run out of useful waiting moves first — that moment is zugzwang, and it's what forces the win.",
+      "concepts": ["opposition", "zugzwang"]
+    }
+  ],
+  "rootVisual": [
+    { "type": "square", "square": "d6" },
+    { "type": "square", "square": "e6" },
+    { "type": "square", "square": "f6" }
+  ],
+  "line": [
+    {
+      "san": "Kf6",
+      "importance": "critical",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Outflank instead of pushing forward",
+          "body": "Kf7 isn't available yet — it's right next to the black king on e8, and kings can never stand adjacent to each other. So White steps sideways instead, aiming to go around the black king rather than through it. This is outflanking: when the direct route is blocked, shift to a different file and let the opponent's king struggle to cover two sides at once.",
+          "concepts": ["outflanking", "king activity"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Kf5",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "The wrong king move throws the win away",
+                "body": "This looks similar to Kf6 but retreats a rank instead of advancing — and it gives up control of the key square e6 for nothing in return. It turns a completely winning position into a draw."
+              }
+            ]
+          },
+          {
+            "san": "Ke7",
+            "classification": "critical",
+            "annotations": [
+              {
+                "type": "critical-position",
+                "title": "The only move that holds",
+                "body": "Remarkably, this is Black's single saving move — every other king move here still loses. By stepping right in front of the pawn and taking the opposition, Black shuts the White king out completely: it can never approach without either allowing ...Kxe5 or being met by a mirroring king move that maintains the blockade. The position is now a textbook draw.",
+                "concepts": ["opposition", "key squares"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Kd7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Covering the other side",
+          "body": "Black rushes back to try to contest d6 and d7, but this abandons the kingside — exactly what outflanking is designed to exploit."
+        }
+      ]
+    },
+    {
+      "san": "Kf7",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Slipping around",
+          "body": "Now that Black's king has committed to the queenside, White's king continues forward on the kingside completely unopposed. The e-pawn will have a clear road once the king has finished shepherding it."
+        }
+      ]
+    },
+    {
+      "san": "Kc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Too late",
+          "body": "Black's king tries to run back toward the pawn, but it is now on the wrong side of the board to catch it."
+        }
+      ]
+    },
+    {
+      "san": "e6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The pawn advances with the king's blessing",
+          "body": "White's king no longer needs to babysit the pawn from directly behind — it's already ahead of the action on the kingside, so the pawn is free to push."
+        }
+      ]
+    },
+    { "san": "Kb5" },
+    { "san": "e7" },
+    { "san": "Ka4" },
+    {
+      "san": "e8=Q",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Promotion",
+          "body": "The pawn queens with check. Black's king was never able to get back in time — the whole game was decided several moves earlier, the instant White chose to outflank rather than retreat.",
+          "concepts": ["key squares", "outflanking"]
+        }
+      ]
+    }
+  ]
+}

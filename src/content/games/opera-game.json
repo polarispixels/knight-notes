@@ -1,0 +1,209 @@
+{
+  "id": "opera-game",
+  "title": "The Opera Game",
+  "subtitle": "Morphy vs Duke Karl & Count Isouard, Paris 1858",
+  "type": "game",
+  "difficulty": "beginner",
+  "summary": "Paul Morphy's most famous game: a whirlwind attack against two amateur opponents that sacrifices two minor pieces, a rook, and the queen to force a picture-perfect back-rank mate in seventeen moves. A textbook lesson in the value of rapid development.",
+  "tags": ["Philidor Defense", "Paul Morphy", "classic game", "development", "back-rank mate"],
+  "concepts": ["development", "pins", "back-rank weakness", "sacrifice", "king safety"],
+  "metadata": {
+    "white": "Paul Morphy",
+    "black": "Duke Karl of Brunswick & Count Isouard",
+    "event": "Paris Opera House",
+    "date": "1858",
+    "result": "1-0",
+    "historicalContext": "Morphy, then the strongest player in the world, played this consultation game against two amateur aristocrats during a night at the opera. It has since become the single most-taught game in chess for illustrating rapid development and attacking a king that never castled."
+  },
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "A lesson played in a theater box",
+      "body": "Paul Morphy was in Paris for a performance of the Barber of Seville when the Duke of Brunswick and Count Isouard invited him to a consultation game between the acts. Morphy split his attention between the stage and the board and still produced what is arguably the most instructive short game ever recorded."
+    }
+  ],
+  "line": [
+    { "san": "e4" },
+    { "san": "e5" },
+    { "san": "Nf3" },
+    { "san": "d6" },
+    { "san": "d4" },
+    {
+      "san": "Bg4",
+      "classification": "interesting",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A pin before development is finished",
+          "body": "Bg4 pins White's knight to the queen, but Black hasn't developed a single piece toward the kingside yet. Morphy punishes exactly this kind of premature aggression all game long: a piece that leaves the back rank without support becomes a target.",
+          "concepts": ["development", "pins"]
+        }
+      ]
+    },
+    { "san": "dxe5" },
+    { "san": "Bxf3" },
+    { "san": "Qxf3" },
+    { "san": "dxe5" },
+    { "san": "Bc4" },
+    { "san": "Nf6" },
+    {
+      "san": "Qb3",
+      "classification": "interesting",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "One move, two targets",
+          "body": "Qb3 attacks both b7 and f7 at once. Black cannot defend both pawns with one move, so this is less about winning a pawn and more about forcing Black into a purely defensive reply while White keeps developing.",
+          "concepts": ["double attack"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "b3", "to": "b7" },
+        { "type": "arrow", "from": "b3", "to": "f7" }
+      ]
+    },
+    {
+      "san": "Qe7",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The point of Qb3 pays off",
+          "body": "Qe7 covers f7 and prepares ...Qb4+ tricks if White ever grabs the b7 pawn. But it costs Black dearly: the queen now sits on the exact square its own dark-squared bishop needs, so that bishop is stuck at home for the rest of the game."
+        }
+      ]
+    },
+    {
+      "san": "Nc3",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "principle",
+          "title": "Development over material",
+          "body": "b7 is still hanging, but Morphy ignores it. Chasing the pawn with Qxb7 would drag his queen offside and cost precious time — in a position this open, time matters far more than a single pawn.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    { "san": "c6" },
+    { "san": "Bg5" },
+    {
+      "san": "b5",
+      "classification": "mistake",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "warning",
+          "title": "Overextending while behind in development",
+          "body": "Black has only two minor pieces off the back rank (and one of those was already traded) yet lashes out on the queenside instead of finishing development. This is exactly what a fast-developing attacker wants: more open lines and more targets."
+        }
+      ]
+    },
+    {
+      "san": "Nxb5",
+      "classification": "sacrifice",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The first sacrifice",
+          "body": "Morphy gives up a knight for a pawn to rip open lines toward Black's king. With Black still undeveloped, material is temporarily irrelevant — what matters is who gets there first.",
+          "concepts": ["sacrifice"]
+        }
+      ]
+    },
+    { "san": "cxb5" },
+    {
+      "san": "Bxb5+",
+      "classification": "sacrifice",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A second sacrifice, and a pin that will decide the game",
+          "body": "White is now down two pieces for two pawns, but look at the diagonal: this check pins whatever piece blocks it on d7 to the black king on e8. That pin is the mechanism behind everything that follows.",
+          "concepts": ["pins", "sacrifice"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "b5", "to": "e8" },
+        { "type": "square", "square": "d7" }
+      ]
+    },
+    { "san": "Nbd7" },
+    { "san": "O-O-O" },
+    { "san": "Rd8" },
+    {
+      "san": "Rxd7",
+      "classification": "critical",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Cashing in the pin",
+          "body": "The knight on d7 is pinned to the king by the bishop on b5 and can't recapture without exposing the king to further attack, so Morphy simply takes it. Black has no good way to avoid losing material here.",
+          "concepts": ["pins"]
+        }
+      ]
+    },
+    { "san": "Rxd7" },
+    {
+      "san": "Rd1",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Doubling up on a piece that can't be defended",
+          "body": "The rook on d7 is still pinned to the king along the b5-e8 diagonal, and its only defender — the knight on f6 — is itself pinned to the queen on e7 by the bishop on g5. Rd1 adds a second attacker to a piece with no real defense.",
+          "concepts": ["pins"]
+        }
+      ]
+    },
+    { "san": "Qe6" },
+    {
+      "san": "Bxd7+",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Removing the guard, with check",
+          "body": "Qe6 unpinned the knight on f6, so simply grabbing the rook would let Black recapture safely. Morphy takes with check first, forcing the recapture to happen with the king already under fire and setting up the final blow.",
+          "concepts": ["pins"]
+        }
+      ]
+    },
+    { "san": "Nxd7", "classification": "forced" },
+    {
+      "san": "Qb8+",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The point of the whole combination",
+          "body": "White gives up the queen to drag the only defending knight away from d8. It looks reckless, but it is completely forced and completely calculated: after Black's only legal reply, the d-file is undefended and the king has nowhere to run.",
+          "concepts": ["sacrifice", "back-rank weakness"]
+        }
+      ]
+    },
+    { "san": "Nxb8", "classification": "forced" },
+    {
+      "san": "Rd8#",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Mate with a rook and a bishop",
+          "body": "This is what all four sacrifices were for. The rook checks along the back rank, the king can't capture because the bishop on g5 covers d8 along the long diagonal, and every other escape square is blocked by Black's own pieces or covered by White's. Morphy delivers mate using only two of his eight original pieces.",
+          "concepts": ["back-rank weakness"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "e8" },
+        { "type": "arrow", "from": "g5", "to": "d8" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "id": "game-of-the-century",
+  "title": "The Game of the Century",
+  "subtitle": "Donald Byrne vs Bobby Fischer, New York 1956",
+  "type": "game",
+  "difficulty": "advanced",
+  "summary": "Thirteen-year-old Bobby Fischer sacrifices his queen against a strong master and grinds out a win with a dazzling sequence of checks and flawless technique — the game that announced his arrival as a world-class talent.",
+  "tags": ["Grunfeld Defense", "Bobby Fischer", "queen sacrifice", "classic game", "windmill"],
+  "concepts": ["queen sacrifice", "discovered check", "king safety", "piece coordination", "material imbalance", "endgame technique"],
+  "metadata": {
+    "white": "Donald Byrne",
+    "black": "Robert James Fischer",
+    "event": "Rosenwald Memorial, New York",
+    "date": "1956",
+    "result": "0-1",
+    "historicalContext": "Fischer was thirteen years old and playing in his first major invitational when he faced Donald Byrne, one of the strongest players in the United States. The moment it was published, commentator Hans Kmoch dubbed it 'The Game of the Century' — Fischer's combination starting on move 17 is still used to teach piece coordination today."
+  },
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "A 13-year-old announces himself",
+      "body": "Bobby Fischer was thirteen when he played this game against Donald Byrne, an experienced US master, at the 1956 Rosenwald Memorial in New York. It remains one of the deepest combinations ever played by a junior against a strong titled opponent."
+    }
+  ],
+  "line": [
+    { "san": "Nf3" },
+    { "san": "Nf6" },
+    { "san": "c4" },
+    { "san": "g6" },
+    { "san": "Nc3" },
+    { "san": "Bg7" },
+    { "san": "d4" },
+    { "san": "O-O" },
+    { "san": "Bf4" },
+    { "san": "d5" },
+    { "san": "Qb3" },
+    { "san": "dxc4" },
+    { "san": "Qxc4" },
+    { "san": "c6" },
+    { "san": "e4" },
+    { "san": "Nbd7" },
+    { "san": "Rd1" },
+    { "san": "Nb6" },
+    { "san": "Qc5" },
+    { "san": "Bg4" },
+    { "san": "Bg5" },
+    {
+      "san": "Na4",
+      "classification": "interesting",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The only good square",
+          "body": "Na4 looks like a knight on the rim, but it keeps Black's initiative alive: it attacks c3 and lines up tactics against White's queen. A quieter developing move here would let White simply consolidate the extra space.",
+          "concepts": ["piece coordination"]
+        }
+      ]
+    },
+    { "san": "Qa3" },
+    { "san": "Nxc3" },
+    { "san": "bxc3" },
+    {
+      "san": "Nxe4",
+      "classification": "sacrifice",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Trading pieces to open the center",
+          "body": "This looks like a simple exchange, but Fischer is really giving up a knight for a rook's worth of long-term compensation: it blasts open the center and the e-file while White's king is still stuck in the middle, unable to castle safely.",
+          "concepts": ["sacrifice", "king safety"]
+        }
+      ]
+    },
+    {
+      "san": "Bxe7",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Grabbing a pawn, missing the danger",
+          "body": "White wins a pawn and sets his sights on the rook on f8, but every move spent collecting material here is a move not spent getting the king to safety."
+        }
+      ]
+    },
+    {
+      "san": "Qb6",
+      "classification": "critical",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "A move that buys time",
+          "body": "White's bishop is one move from winning the rook on f8, but Qb6 creates enough threats of its own that Byrne can't spare the tempo to collect it — he has to play a purely defensive move instead.",
+          "concepts": ["piece coordination"]
+        }
+      ]
+    },
+    { "san": "Bc4" },
+    { "san": "Nxc3" },
+    { "san": "Bc5" },
+    {
+      "san": "Rfe8+",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A check first, in no rush to save the queen",
+          "body": "White is attacking Fischer's queen, but Fischer doesn't move it — he brings his last piece into the attack with check instead, driving the king to f1 before springing the real point of the combination next move.",
+          "concepts": ["piece coordination"]
+        }
+      ]
+    },
+    { "san": "Kf1" },
+    {
+      "san": "Be6",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The most famous queen sacrifice in chess",
+          "body": "Be6 offers the queen on b6 for nothing, and Byrne can simply take it. But saving the queen was never the point — Fischer's remaining pieces, two bishops, a knight, and a rook, are about to overwhelm White's king far faster than an extra queen can compensate for.",
+          "concepts": ["queen sacrifice", "piece coordination"]
+        },
+        {
+          "type": "critical-position",
+          "title": "The move White can't play",
+          "body": "Greedily grabbing the bishop with Bxe6 instead of Bxb6 allows a forced mate: 18.Bxe6 Qb5+ 19.Kg1 Ne2+ 20.Kf1 Ng3+ 21.Kg1 Qf1+ 22.Rxf1 Ne2# — a smothered mate. White is forced into taking the queen on b6 instead, walking straight into the windmill.",
+          "concepts": ["discovered check"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "b6" }, { "type": "square", "square": "e6" }]
+    },
+    { "san": "Bxb6" },
+    {
+      "san": "Bxc4+",
+      "classification": "interesting",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The windmill begins",
+          "body": "This capture is check, but more importantly the bishop now sits on the c4-f1 diagonal, aimed straight at White's king. Every time Black's knight steps off that diagonal, it will uncover a discovered check from this bishop — Black is about to harvest material for free, one tempo at a time.",
+          "concepts": ["discovered check"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c4", "to": "f1" }]
+    },
+    { "san": "Kg1", "classification": "forced" },
+    { "san": "Ne2+" },
+    { "san": "Kf1", "classification": "forced" },
+    {
+      "san": "Nxd4+",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "A discovered check nets a pawn",
+          "body": "The knight steps off e2, uncovering check from the bishop on c4 while simultaneously grabbing the d4 pawn — material and a check in the same move. This is the windmill mechanism: alternate a direct knight check with a discovered bishop check, and the king can never stop it.",
+          "concepts": ["discovered check"]
+        }
+      ]
+    },
+    { "san": "Kg1", "classification": "forced" },
+    { "san": "Ne2+" },
+    {
+      "san": "Kf1",
+      "classification": "forced"
+    },
+    {
+      "san": "Nc3+",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Retreating with the last check",
+          "body": "This check is discovered too, but this time the knight lands on a completely safe square. The windmill is over — Black tucks the knight away and only now, next move, goes back to actually win the bishop on b6.",
+          "concepts": ["discovered check"]
+        }
+      ]
+    },
+    { "san": "Kg1", "classification": "forced" },
+    {
+      "san": "axb6",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Counting the material",
+          "body": "Add it up: Black gave up a queen and got a rook, two bishops, and a pawn in return. Not equal on paper, but the coordination of Black's pieces against White's exposed king makes this a completely winning material balance in practice.",
+          "concepts": ["material imbalance"]
+        }
+      ]
+    },
+    { "san": "Qb4" },
+    { "san": "Ra4" },
+    { "san": "Qxb6" },
+    { "san": "Nxd1" },
+    { "san": "h3" },
+    { "san": "Rxa2" },
+    { "san": "Kh2" },
+    { "san": "Nxf2" },
+    { "san": "Re1" },
+    { "san": "Rxe1" },
+    { "san": "Qd8+" },
+    { "san": "Bf8" },
+    { "san": "Nxe1" },
+    {
+      "san": "Bd5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "From combination to conversion",
+          "body": "The tactics are over for now. Fischer's task for the rest of the game is simply to convert an overwhelming material and positional advantage — no more fireworks needed, just careful technique.",
+          "concepts": ["endgame technique"]
+        }
+      ]
+    },
+    { "san": "Nf3" },
+    { "san": "Ne4" },
+    { "san": "Qb8" },
+    { "san": "b5" },
+    { "san": "h4" },
+    { "san": "h5" },
+    { "san": "Ne5" },
+    { "san": "Kg7" },
+    { "san": "Kg1" },
+    {
+      "san": "Bc5+",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The final hunt begins",
+          "body": "Down a rook, a bishop, and more, White's king now has to run from checks with no defenders left to call on. Fischer mates entirely with pieces flooding in from every direction.",
+          "concepts": ["piece coordination"]
+        }
+      ]
+    },
+    { "san": "Kf1" },
+    { "san": "Ng3+" },
+    { "san": "Ke1" },
+    { "san": "Bb4+" },
+    { "san": "Kd1" },
+    { "san": "Bb3+" },
+    { "san": "Kc1" },
+    { "san": "Ne2+" },
+    { "san": "Kb1" },
+    { "san": "Nc3+" },
+    { "san": "Kc1" },
+    {
+      "san": "Rc2#",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A pure mate to finish",
+          "body": "White's king has been driven from f1 all the way to c1, hounded the whole way by Black's minor pieces, and Rc2 delivers mate with the rook controlling the second rank while the king has no squares and no blocks. Thirteen-year-old Fischer defeated a master with a mating attack built entirely from a queen sacrifice twenty-four moves earlier.",
+          "concepts": ["piece coordination"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "c1" }, { "type": "square", "square": "c2" }]
+    }
+  ]
+}
