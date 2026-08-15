@@ -129,3 +129,33 @@ describe('import flow', () => {
     expect(wrapper.text()).toContain("We couldn't parse this PGN.")
   })
 })
+
+describe('review fixes', () => {
+  it('distinguishes a storage failure from a parse failure on import', async () => {
+    provideRepository({
+      list: async () => [],
+      get: async () => null,
+      save: async () => {
+        throw new Error('quota exceeded')
+      },
+      delete: async () => {},
+    })
+    const { wrapper } = await makeApp('/import')
+    await wrapper.find('[data-test="pgn-input"]').setValue('1. e4 e5 2. Nf3')
+    await wrapper.find('[data-test="import-submit"]').trigger('click')
+    await settle()
+    expect(wrapper.text()).toContain("couldn't be saved")
+    expect(wrapper.text()).not.toContain("couldn't parse")
+  })
+
+  it('returns to the main line with Escape', async () => {
+    const { wrapper } = await makeApp('/study/fixture-italian')
+    const bc4 = wrapper.findAll('[data-test="move"]').find((n) => n.text().includes('Bc4'))!
+    await bc4.trigger('click')
+    await wrapper.find('[data-test="variation-option"]').trigger('click')
+    expect(wrapper.find('[data-test="return-mainline"]').exists()).toBe(true)
+    window.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape', bubbles: true }))
+    await flushPromises()
+    expect(wrapper.find('[data-test="return-mainline"]').exists()).toBe(false)
+  })
+})

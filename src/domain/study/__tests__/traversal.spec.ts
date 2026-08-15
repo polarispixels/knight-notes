@@ -9,6 +9,9 @@ import {
   mainlineIds,
   variationsAt,
   moveRows,
+  sanPathTo,
+  nodeAtSanPath,
+  moveLabel,
 } from '../traversal'
 
 function node(
@@ -161,5 +164,32 @@ describe('moveRows', () => {
       { number: 30, whiteNodeId: undefined, blackNodeId: 'b1' },
       { number: 31, whiteNodeId: 'w2', blackNodeId: undefined },
     ])
+  })
+})
+
+describe('sanPath helpers', () => {
+  it('round-trips a node through its SAN path', () => {
+    const s = fixture()
+    expect(sanPathTo(s, 'n5')).toEqual(['e4', 'e5', 'Nf3', 'Nf6'])
+    expect(nodeAtSanPath(s, ['e4', 'e5', 'Nf3', 'Nf6'])).toBe('n5')
+    expect(sanPathTo(s, 'root')).toEqual([])
+    expect(nodeAtSanPath(s, [])).toBe('root')
+  })
+  it('returns null for a path that no longer exists', () => {
+    expect(nodeAtSanPath(fixture(), ['e4', 'c5'])).toBeNull()
+  })
+})
+
+describe('moveLabel', () => {
+  it('formats white and black moves with numbers', () => {
+    const s = fixture()
+    expect(moveLabel(getNode(s, 'n3'))).toBe('2. Nf3')
+    expect(moveLabel(getNode(s, 'n4'))).toBe('2… Nc6')
+    expect(moveLabel(getNode(s, 'root'))).toBeNull()
+  })
+  it('prefers the move-recorded number for FEN starts', () => {
+    const s = fixture()
+    s.nodes.n1.moveFromParent!.moveNumber = 30
+    expect(moveLabel(getNode(s, 'n1'))).toBe('30. e4')
   })
 })

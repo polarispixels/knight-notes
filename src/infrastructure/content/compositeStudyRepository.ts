@@ -15,13 +15,27 @@ export class CompositeStudyRepository implements StudyRepository {
   }
 
   async list() {
-    const [bundledList, localList] = await Promise.all([this.bundled.list(), this.local.list()])
+    // A broken local store (private mode, blocked storage) must never
+    // take the bundled catalog down with it.
+    const [bundledList, localList] = await Promise.all([
+      this.bundled.list(),
+      this.local.list().catch((e) => {
+        console.error('Local study storage unavailable:', e)
+        return []
+      }),
+    ])
     const localIds = new Set(localList.map((s) => s.id))
     return [...bundledList.filter((s) => !localIds.has(s.id)), ...localList]
   }
 
   async get(id: string): Promise<Study | null> {
-    return (await this.local.get(id)) ?? (await this.bundled.get(id))
+    let local: Study | null = null
+    try {
+      local = await this.local.get(id)
+    } catch (e) {
+      console.error('Local study storage unavailable:', e)
+    }
+    return local ?? (await this.bundled.get(id))
   }
 
   async save(study: Study) {

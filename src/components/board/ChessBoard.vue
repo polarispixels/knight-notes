@@ -38,11 +38,13 @@ const pieces = computed(() => {
     for (const ch of ranks[r]) {
       if (/\d/.test(ch)) {
         file += parseInt(ch, 10)
-      } else {
+      } else if (PIECE_FILES[ch] && file < 8) {
         const square = `${FILES[file]}${8 - r}`
         const { x, y } = toXY(square)
         result.push({ square, piece: PIECE_FILES[ch], x, y })
         file++
+      } else {
+        file++ // unknown character in a malformed FEN: skip, don't crash
       }
     }
   }

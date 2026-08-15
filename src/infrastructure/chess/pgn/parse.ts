@@ -29,6 +29,7 @@ const RESULT_RE = /^(1-0|0-1|1\/2-1\/2|\*)$/
 const MOVE_NUMBER_RE = /^\d+\.*$/
 const SAN_RE =
   /^(O-O-O|O-O|[KQRBN][a-h1-8]?[a-h1-8]?x?[a-h][1-8]|[a-h]x?[a-h]?[1-8](=[QRBN])?|[a-h][1-8](=[QRBN])?)[+#]?$/
+const EVAL_TOKEN_RE = /^(\+-|-\+|\+\/?=|=\/?\+|=|∞|N|D|RR|TN)$/
 const SUFFIX_NAGS: Record<string, number> = {
   '!': 1,
   '?': 2,
@@ -113,9 +114,13 @@ function parseLine(tokens: Token[], pos: { i: number }, depth: number): PgnMoveN
       if (RESULT_RE.test(text) || MOVE_NUMBER_RE.test(text) || text === '...' || text === '.') {
         continue
       }
+      // Standalone evaluation glyphs some tools emit (+=, -+, ∞, N …).
+      if (EVAL_TOKEN_RE.test(text)) continue
       // Handle glued move numbers like "1.e4" or "3...Nf6".
-      const unglued = text.replace(/^\d+\.{1,3}/, '')
+      let unglued = text.replace(/^\d+\.{1,3}/, '')
       if (unglued === '') continue
+      // Normalize digit-zero castling ("0-0", "0-0-0") to letter-O SAN.
+      if (/^0-0(-0)?[+#]?[!?]{0,2}$/.test(unglued)) unglued = unglued.replace(/0/g, 'O')
       // Split a trailing !/? suffix annotation off the SAN.
       const suffixMatch = /^(.*?)([!?]{1,2})$/.exec(unglued)
       const san = suffixMatch ? suffixMatch[1] : unglued

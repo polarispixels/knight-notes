@@ -75,3 +75,29 @@ describe('useStudyKeyboard', () => {
     expect(handlers.next).not.toHaveBeenCalled()
   })
 })
+
+describe('useStudyKeyboard: focused controls', () => {
+  it('leaves Space to a focused button instead of advancing', () => {
+    const handlers = {
+      next: vi.fn(), previous: vi.fn(), toStart: vi.fn(),
+      toEnd: vi.fn(), flip: vi.fn(), escape: vi.fn(),
+    }
+    const wrapper = mount(
+      defineComponent({
+        setup() {
+          useStudyKeyboard(handlers)
+          return () => h('div')
+        },
+      }),
+      { attachTo: document.body },
+    )
+    const button = document.createElement('button')
+    document.body.appendChild(button)
+    press(' ', button)
+    expect(handlers.next).not.toHaveBeenCalled()
+    press('ArrowRight', button) // arrows still work with a button focused
+    expect(handlers.next).toHaveBeenCalledTimes(1)
+    button.remove()
+    wrapper.unmount()
+  })
+})

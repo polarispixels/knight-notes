@@ -29,7 +29,7 @@ useStudyKeyboard({
   toStart: () => session.toStart(),
   toEnd: () => session.toEnd(),
   flip: () => session.flip(),
-  escape: () => {},
+  escape: () => session.returnToMainLine(),
 })
 </script>
 

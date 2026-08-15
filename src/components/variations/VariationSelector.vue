@@ -1,14 +1,12 @@
 <script setup lang="ts">
 import type { StudyNode } from '../../domain/study/types'
+import { moveLabel } from '../../domain/study/traversal'
 
 defineProps<{ variations: StudyNode[]; onMainLine: boolean }>()
 defineEmits<{ select: [nodeId: string]; returnToMainLine: [] }>()
 
 function label(node: StudyNode): string {
-  const move = node.moveFromParent
-  if (!move) return ''
-  const number = move.moveNumber ?? Math.ceil(node.ply / 2)
-  return `${number}${move.side === 'black' ? '…' : '.'} ${move.san}`
+  return moveLabel(node) ?? ''
 }
 
 function description(node: StudyNode): string | null {

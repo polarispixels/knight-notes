@@ -77,6 +77,39 @@ export function variationsAt(study: Study, nodeId: string): StudyNode[] {
     .map((childId) => getNode(study, childId))
 }
 
+/**
+ * Content-stable locator for a node: the SAN sequence from the root.
+ * Survives re-generation of synthetic node ids when content is edited.
+ */
+export function sanPathTo(study: Study, nodeId: string): string[] {
+  return pathToNode(study, nodeId)
+    .map((id) => getNode(study, id).moveFromParent?.san)
+    .filter((san): san is string => san !== undefined)
+}
+
+/** Resolve a SAN path back to a node id, or null if the line no longer exists. */
+export function nodeAtSanPath(study: Study, sans: string[]): string | null {
+  let currentId = study.rootNodeId
+  for (const san of sans) {
+    const node = study.nodes[currentId]
+    if (!node) return null
+    const child = node.children.find(
+      (childId) => study.nodes[childId]?.moveFromParent?.san === san,
+    )
+    if (!child) return null
+    currentId = child
+  }
+  return currentId
+}
+
+/** Display label for a node's move, e.g. "2. Nf3" / "2… Nc6"; null at the root. */
+export function moveLabel(node: StudyNode): string | null {
+  const move = node.moveFromParent
+  if (!move) return null
+  const number = move.moveNumber ?? Math.ceil(node.ply / 2)
+  return `${number}${move.side === 'black' ? '…' : '.'} ${move.san}`
+}
+
 export interface MoveRow {
   number: number
   whiteNodeId?: string

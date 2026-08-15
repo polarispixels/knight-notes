@@ -3,31 +3,42 @@ import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 import type { StudyType } from '../domain/study/types'
 import { importPgn } from '../application/import/importPgn'
+import { PgnParseError } from '../infrastructure/chess/pgn/parse'
 
 const router = useRouter()
 const pgn = ref('')
 const type = ref<StudyType>('game')
 const error = ref<string | null>(null)
+const errorDetail = ref<string | null>(null)
 const importing = ref(false)
 
 const TYPE_OPTIONS: { value: StudyType; label: string }[] = [
   { value: 'game', label: 'Game' },
   { value: 'opening', label: 'Opening' },
+  { value: 'variation', label: 'Variation' },
   { value: 'gambit', label: 'Gambit' },
   { value: 'trap', label: 'Trap' },
   { value: 'tactic', label: 'Tactic' },
   { value: 'endgame', label: 'Endgame' },
+  { value: 'pattern', label: 'Pattern' },
 ]
 
 async function submit() {
   error.value = null
+  errorDetail.value = null
   importing.value = true
   try {
     const study = await importPgn(pgn.value, type.value)
     router.push(`/study/${study.id}`)
   } catch (e) {
     console.error('PGN import failed:', e)
-    error.value = "We couldn't parse this PGN. Check the notation and try again."
+    if (e instanceof PgnParseError) {
+      error.value = "We couldn't parse this PGN. Check the notation and try again."
+      errorDetail.value = e.message
+    } else {
+      error.value =
+        "The PGN was read, but the study couldn't be saved. Your browser storage may be full or blocked."
+    }
   } finally {
     importing.value = false
   }
@@ -76,6 +87,7 @@ async function submit() {
 
     <div v-if="error" class="import-error" role="alert">
       <p class="error-title">{{ error }}</p>
+      <p v-if="errorDetail" class="error-detail">{{ errorDetail }}</p>
     </div>
   </section>
 </template>
@@ -137,5 +149,11 @@ async function submit() {
 }
 .error-title {
   margin: 0;
+}
+.error-detail {
+  margin: 0.3rem 0 0;
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  font-family: ui-monospace, Menlo, Consolas, monospace;
 }
 </style>

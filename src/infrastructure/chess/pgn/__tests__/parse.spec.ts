@@ -113,3 +113,14 @@ describe('parsePgn: errors', () => {
     expect(() => parsePgn('   ')).toThrow(PgnParseError)
   })
 })
+
+describe('parsePgn: compatibility', () => {
+  it('normalizes digit-zero castling to letter-O', () => {
+    const parsed = parsePgn('1. 0-0 0-0-0 2. 0-0+')
+    expect(parsed.moves.map((m) => m.san)).toEqual(['O-O', 'O-O-O', 'O-O+'])
+  })
+  it('skips standalone evaluation tokens', () => {
+    const parsed = parsePgn('1. e4 += e5 =+ 2. Nf3 +- Nc6 ∞ 3. Bb5 N *')
+    expect(parsed.moves.map((m) => m.san)).toEqual(['e4', 'e5', 'Nf3', 'Nc6', 'Bb5'])
+  })
+})

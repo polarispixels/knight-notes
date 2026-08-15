@@ -23,10 +23,17 @@ function isEditable(target: EventTarget | null): boolean {
 export function useStudyKeyboard(handlers: StudyKeyboardHandlers): void {
   function onKeydown(event: KeyboardEvent) {
     if (isEditable(event.target)) return
-    if (event.metaKey || event.ctrlKey || event.altKey) return
+    if (event.metaKey || event.ctrlKey || event.altKey || event.shiftKey) return
+    // Space must keep activating a focused button/link (accessibility);
+    // only unfocused Space advances the study.
+    const onInteractive =
+      event.target instanceof HTMLElement && event.target.closest('button, a, [role="button"]')
     switch (event.key) {
-      case 'ArrowRight':
       case ' ':
+        if (onInteractive) return
+        handlers.next()
+        break
+      case 'ArrowRight':
         handlers.next()
         break
       case 'ArrowLeft':

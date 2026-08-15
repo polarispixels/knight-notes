@@ -6,8 +6,10 @@ import {
   mainlineEndId,
   mainlineIds,
   nextNodeId,
+  nodeAtSanPath,
   pathToNode,
   prevNodeId,
+  sanPathTo,
   variationsAt,
 } from '../../domain/study/traversal'
 import { getPref, setPref } from '../../infrastructure/storage/preferences'
@@ -22,6 +24,10 @@ export const useSessionStore = defineStore('session', () => {
   const currentNodeId = ref<string>('')
   const orientation = ref<'white' | 'black'>(getPref('orientation', 'white'))
   const error = ref<string | null>(null)
+  /** Variation choices per branch node, so Next re-enters a selected line. */
+  const selectedChildren = ref<Record<string, string>>({})
+  /** Monotonic token so a stale loadStudy can't overwrite a newer one. */
+  let loadSeq = 0
 
   const currentNode = computed<StudyNode | null>(() =>
     study.value ? getNode(study.value, currentNodeId.value) : null,
@@ -46,10 +52,14 @@ export const useSessionStore = defineStore('session', () => {
     if (!study.value) return []
     const path = activePath.value
     const tail: string[] = []
-    let next = nextNodeId(study.value, currentNodeId.value)
+    let next = nextNodeId(
+      study.value,
+      currentNodeId.value,
+      selectedChildren.value[currentNodeId.value],
+    )
     while (next !== null) {
       tail.push(next)
-      next = nextNodeId(study.value, next)
+      next = nextNodeId(study.value, next, selectedChildren.value[next])
     }
     return [...path, ...tail]
   })
@@ -65,26 +75,43 @@ export const useSessionStore = defineStore('session', () => {
 
   function setCurrent(nodeId: string) {
     currentNodeId.value = nodeId
-    if (study.value) setPref(`lastPos:${study.value.id}`, nodeId)
+    // Persist the SAN path, not the synthetic node id: ids are regenerated
+    // when content changes, but the move sequence stays meaningful.
+    if (study.value) setPref(`lastPos:${study.value.id}`, sanPathTo(study.value, nodeId))
   }
 
   async function loadStudy(id: string) {
+    const seq = ++loadSeq
     error.value = null
     study.value = null
-    const loaded = await getRepository().get(id)
-    if (!loaded) {
+    selectedChildren.value = {}
+    let loaded: Study | null
+    try {
+      loaded = await getRepository().get(id)
+    } catch (e) {
+      console.error(`Failed to load study "${id}":`, e)
+      if (seq === loadSeq) error.value = 'Could not load this study.'
+      return
+    }
+    if (seq !== loadSeq) return
+    if (!loaded || !loaded.nodes?.[loaded.rootNodeId]) {
       error.value = 'Study not found.'
       return
     }
     study.value = loaded
     setPref('lastStudy', id)
-    const savedPos = getPref<string | null>(`lastPos:${id}`, null)
-    currentNodeId.value = savedPos && loaded.nodes[savedPos] ? savedPos : loaded.rootNodeId
+    const savedPath = getPref<string[] | null>(`lastPos:${id}`, null)
+    const restored = Array.isArray(savedPath) ? nodeAtSanPath(loaded, savedPath) : null
+    currentNodeId.value = restored ?? loaded.rootNodeId
   }
 
   function next() {
     if (!study.value) return
-    const target = nextNodeId(study.value, currentNodeId.value)
+    const target = nextNodeId(
+      study.value,
+      currentNodeId.value,
+      selectedChildren.value[currentNodeId.value],
+    )
     if (target) setCurrent(target)
   }
 
@@ -106,14 +133,19 @@ export const useSessionStore = defineStore('session', () => {
     if (study.value && study.value.nodes[nodeId]) setCurrent(nodeId)
   }
 
-  /** Jump into an alternative line at the current position. */
+  /** Jump into an alternative line; Next keeps following it from now on. */
   function selectVariation(childNodeId: string) {
+    if (!study.value) return
+    const child = study.value.nodes[childNodeId]
+    if (!child?.parentId) return
+    selectedChildren.value = { ...selectedChildren.value, [child.parentId]: childNodeId }
     goTo(childNodeId)
   }
 
   /** Walk back to the nearest ancestor on the study's main line. */
   function returnToMainLine() {
     if (!study.value) return
+    selectedChildren.value = {}
     const mainline = new Set(mainlineIds(study.value))
     let id = currentNodeId.value
     while (!mainline.has(id)) {

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import type { StudyNode } from '../../domain/study/types'
+import { moveLabel } from '../../domain/study/traversal'
 
 const props = defineProps<{ node: StudyNode | null }>()
 
@@ -17,10 +18,9 @@ const CLASSIFICATION_LABELS: Record<string, string> = {
 
 const display = computed(() => {
   const move = props.node?.moveFromParent
-  if (!move) return null
-  const number = move.moveNumber ?? Math.ceil((props.node!.ply ?? 1) / 2)
+  if (!props.node || !move) return null
   return {
-    text: `${number}${move.side === 'black' ? '…' : '.'} ${move.san}`,
+    text: moveLabel(props.node),
     classification: move.classification && move.classification !== 'normal'
       ? CLASSIFICATION_LABELS[move.classification]
       : null,

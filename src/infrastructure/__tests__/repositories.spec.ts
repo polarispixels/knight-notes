@@ -3,7 +3,7 @@ import 'fake-indexeddb/auto'
 import type { Study } from '../../domain/study/types'
 import { toSummary } from '../../domain/study/summary'
 import type { StudyRepository } from '../repository'
-import { createBundledRepository } from '../content/bundledStudyRepository'
+import { createBundledRepository, convertSeeds } from '../content/bundledStudyRepository'
 import { createLocalRepository } from '../storage/localStudyRepository'
 import { CompositeStudyRepository } from '../content/compositeStudyRepository'
 import { getPref, setPref } from '../storage/preferences'
@@ -94,5 +94,37 @@ describe('preferences', () => {
     setPref('orientation', 'black')
     expect(getPref('orientation', 'white')).toBe('black')
     expect(getPref('missing-key', 42)).toBe(42)
+  })
+})
+
+describe('CompositeStudyRepository: storage resilience', () => {
+  const failing: StudyRepository = {
+    list: async () => {
+      throw new Error('idb unavailable')
+    },
+    get: async () => {
+      throw new Error('idb unavailable')
+    },
+    save: async () => {
+      throw new Error('idb unavailable')
+    },
+    delete: async () => {
+      throw new Error('idb unavailable')
+    },
+  }
+
+  it('still serves bundled studies when local storage fails', async () => {
+    const repo = new CompositeStudyRepository(createBundledRepository([makeStudy('opera')]), failing)
+    expect((await repo.get('opera'))?.id).toBe('opera')
+    expect((await repo.list()).map((s) => s.id)).toEqual(['opera'])
+  })
+})
+
+describe('bundled seed isolation', () => {
+  it('skips a broken seed without dropping the healthy ones', () => {
+    const good = { id: 'good', title: 'Good', type: 'game', summary: 's', line: [{ san: 'e4' }] }
+    const bad = { id: 'bad', title: 'Bad', type: 'game', line: [{ san: 'Ke5' }] }
+    const studies = convertSeeds([good, bad] as never)
+    expect(studies.map((s) => s.id)).toEqual(['good'])
   })
 })

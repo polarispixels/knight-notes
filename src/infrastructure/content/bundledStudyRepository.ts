@@ -24,6 +24,23 @@ export function createBundledRepository(studies: Study[]): StudyRepository {
 }
 
 /**
+ * Converts seeds to canonical Studies, isolating failures: one broken
+ * seed must never take the whole application down. (The test suite keeps
+ * broken seeds from shipping; this is defense in depth.)
+ */
+export function convertSeeds(seeds: StudySeed[]): Study[] {
+  const studies: Study[] = []
+  for (const seed of seeds) {
+    try {
+      studies.push(seedToStudy(seed))
+    } catch (e) {
+      console.error(`Skipping broken bundled study "${seed?.id}":`, e)
+    }
+  }
+  return studies
+}
+
+/**
  * Loads the StudySeed files bundled in src/content and converts them to
  * canonical Studies (moves replayed through the engine — see seed.ts).
  */
@@ -32,5 +49,5 @@ export function loadBundledStudies(): Study[] {
     eager: true,
     import: 'default',
   })
-  return Object.values(modules).map(seedToStudy)
+  return convertSeeds(Object.values(modules))
 }
