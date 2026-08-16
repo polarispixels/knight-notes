@@ -30,6 +30,9 @@ jobs:
       # SPA fallback: GitHub Pages serves 404.html for unknown paths, so
       # deep links like /study/opera-game keep working on refresh.
       - run: cp dist/index.html dist/404.html
+      # Publish the authoring guide at /docs/CONTENT_AUTHORING.md so
+      # external agents can fetch the always-current format spec.
+      - run: cp CONTENT_AUTHORING.md dist/docs/CONTENT_AUTHORING.md
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
