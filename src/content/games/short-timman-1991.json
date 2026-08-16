@@ -1,0 +1,183 @@
+{
+  "id": "short-timman-1991",
+  "catalogCode": "G020",
+  "title": "Short vs Timman",
+  "subtitle": "Tilburg 1991 — the king walk",
+  "type": "game",
+  "difficulty": "intermediate",
+  "summary": "With both queens still on the board, Nigel Short marches his own king from g1 to g5, straight through the middle of the position, and it is completely safe — because by the time the walk begins, Timman has no piece left on the board that can geometrically reach a single square along the way.",
+  "tags": ["Alekhine's Defense", "king walk", "king safety", "Nigel Short", "mating attack"],
+  "concepts": ["king activity", "restriction", "space", "mating nets", "king safety"],
+  "metadata": {
+    "white": "Nigel Short",
+    "black": "Jan Timman",
+    "event": "Interpolis Tournament",
+    "site": "Tilburg, Netherlands",
+    "date": "1991.10.21",
+    "result": "1-0",
+    "eco": "B04",
+    "opening": "Alekhine's Defense, Modern Variation",
+    "historicalContext": "Round 4 of the 1991 Interpolis tournament in Tilburg. This is simply known as 'the king walk' — one of the most famous single moments in modern chess, and a standing rebuttal to anyone who treats 'never walk your king out with queens on' as an unconditional rule rather than a description of what usually happens."
+  },
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "A rule broken on purpose",
+      "body": "Every beginner is taught to keep the king tucked away while queens are on the board — and for good reason, since a wandering king is normally a free target for checks. Short's king walks anyway, four squares deep into the position, with Black's queen still on the board the entire time. It works not because the rule is wrong, but because Short first made sure the rule's actual reason — the danger of a check — no longer applied."
+    },
+    {
+      "type": "key-idea",
+      "title": "Techniques you will see in this game",
+      "body": "King Activity, with a caveat: the King Activity lesson teaches that a king becomes a fighting piece once queens and other attackers leave the board — here queens never leave, so this game is the exception that proves what the rule is actually protecting against. A king is safe wherever nothing can check it, whatever phase of the game it is. Restriction and Space: every White move before the walk removes one more of Black's pieces from having any say in what happens near the king. Mating nets: the walk is not sightseeing — it ends with the king itself helping deliver mate.",
+      "concepts": ["king activity", "restriction", "mating nets"]
+    }
+  ],
+  "line": [
+    "e4",
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Alekhine's Defense",
+          "body": "Black invites White's pawns forward, planning to attack the resulting overextended center later with pieces. It is a provocative opening — Black spends the middlegame reacting to White's space rather than contesting the center directly."
+        }
+      ]
+    },
+    "e5", "Nd5", "d4", "d6", "Nf3", "g6", "Bc4", "Nb6", "Bb3", "Bg7", "Qe2", "Nc6", "O-O", "O-O", "h3", "a5", "a4", "dxe5", "dxe5", "Nd4", "Nxd4",
+    {
+      "san": "Qxd4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black's queen comes out early to win a pawn's worth of central influence back. It looks natural, but it starts a pattern that lasts the whole game: White keeps finding ways to make this queen move again, and every one of those tempo-gaining moves is a move Black doesn't spend developing anything else."
+        }
+      ]
+    },
+    "Re1", "e6", "Nd2", "Nd5", "Nf3", "Qc5", "Qe4", "Qb4", "Bc4", "Nb6", "b3", "Nxc4", "bxc4", "Re8", "Rd1", "Qc5", "Qh4", "b6", "Be3",
+    {
+      "san": "Qc6",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The queen finds a home — and stops mattering",
+          "body": "After six moves of being chased, Black's queen finally lands somewhere safe. But safe is not the same as active: from c6 it shares no rank, file, or diagonal with any square in the h2-g3-f4-g5 corridor White's king is about to walk through. This queen will sit on this exact square for the rest of the game, a bystander to everything that follows."
+        }
+      ]
+    },
+    "Bh6",
+    {
+      "san": "Bh8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Retreating the only defender that matters",
+          "body": "The fianchetto bishop — Black's only piece that can ever control a dark square near a White king — is pushed to the rim rather than traded immediately. It buys a couple of moves, but the outcome below is the same either way."
+        }
+      ]
+    },
+    "Rd8", "Bb7", "Rad1",
+    {
+      "san": "Bg7",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Two White rooks are already deep in Black's position, and now Black offers to trade off the dark-squared bishop rather than keep dodging. What does Black actually lose by letting this trade happen?"
+        }
+      ]
+    },
+    "R8d7", "Rf8",
+    {
+      "san": "Bxg7",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The last dark-square attacker leaves the board",
+          "body": "This is the move that makes everything else in this game possible. Once this trade happens, no piece Black owns can ever again threaten a dark square: the remaining bishop is light-squared and geometrically cannot touch a dark square for the rest of the game, no matter where it goes. White's king is about to walk exclusively on dark squares — h2, g3, f4, g5 — and this single trade is what removes the only piece that could ever have made that walk dangerous.",
+          "concepts": ["restriction"]
+        }
+      ]
+    },
+    "Kxg7",
+    {
+      "san": "R1d4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White centralizes the second rook rather than rushing — there is no reason to hurry when Black has no counterplay left to worry about."
+        }
+      ]
+    },
+    "Rae8",
+    {
+      "san": "Qf6+",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Locking the position down",
+          "body": "Check, and it pins Black's king to a permanently passive existence on the back rank while occupying one of the most powerful squares on the board. From f6 the queen also watches g7, e7, and the approach to h8 — the walk hasn't started yet, but the position is already fully under control."
+        }
+      ]
+    },
+    "Kg8", "h4",
+    {
+      "san": "h5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black's last try for any activity at all — and it does nothing, because there is no piece left to use whatever the pawn move might open up."
+        }
+      ]
+    },
+    {
+      "san": "Kh2",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White is about to march the king from g1 toward the center of the board while both queens are still on it. In almost any other position this loses on the spot to a check. Why is this king safe?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Technique Connection — King Activity",
+          "body": "Every reason has already been established on the board: the dark-squared bishop — the one piece that could ever check a king standing on h2, g3, f4, or g5 — was traded off eight moves ago. Black's queen has sat on c6 since move 22 and cannot reach any square in the king's path. And Black's rooks, wherever they shuffle between c8, e8, and f8, are either on the wrong file entirely or, in the case of the f8-rook, blocked by Black's own f7-pawn from ever seeing down to f4. The King Activity lesson teaches this technique for the endgame, once the attacking pieces are gone — here the attacking pieces are still on the board, but they have all been walled off from the squares that matter. The principle is the same either way: a king is safe wherever nothing can reach it, not wherever the clock says it should be safe.",
+          "concepts": ["king activity", "restriction"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "g1", "to": "h2" },
+        { "type": "arrow", "from": "h2", "to": "g3" },
+        { "type": "arrow", "from": "g3", "to": "f4" },
+        { "type": "arrow", "from": "f4", "to": "g5" }
+      ]
+    },
+    "Rc8", "Kg3", "Rce8",
+    {
+      "san": "Kf4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The White king now stands in the exact center of the board, on a square that would be suicidal in almost any other middlegame position. Black's rook on f8 sits on the right file to attack it in principle — and is completely blocked by its own f7-pawn, unable to see past its own front line."
+        }
+      ]
+    },
+    "Bc8",
+    {
+      "san": "Kg5",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What this game demonstrated",
+          "body": "Timman resigned here, facing 35.Kh6 followed by Qg7#, with the king itself sealing off Black's last escape square. Nothing about this walk was reckless — every step was made safe by a specific, checkable fact about Black's position established moves earlier: a traded bishop, a stranded queen, and rooks blocked by their own pawns. King Activity is not really a rule about the endgame; it's a rule about when nothing can hurt your king. Usually that only happens once the attackers are traded off the board. Here, Short arranged for it to happen while they were still on it.",
+          "concepts": ["king activity", "restriction", "mating nets"]
+        }
+      ]
+    }
+  ]
+}

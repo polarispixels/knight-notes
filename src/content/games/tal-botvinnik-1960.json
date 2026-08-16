@@ -1,0 +1,306 @@
+{
+  "id": "tal-botvinnik-1960",
+  "catalogCode": "G015",
+  "title": "Botvinnik vs Tal",
+  "subtitle": "World Championship 1960, Game 6, Moscow — the intuitive knight sacrifice",
+  "type": "game",
+  "difficulty": "advanced",
+  "summary": "Tal, playing Black, hurls a knight into White's kingside for no immediate return and lets the position explode into chaos that no one at the board — possibly including Tal himself — could calculate to the end. Both queens fall within a few moves, and what decides the game afterward isn't the sacrifice's point count but which side's remaining pieces were actually doing something.",
+  "tags": ["King's Indian Defense", "World Chess Championship", "piece sacrifice", "classic game", "Mikhail Tal", "dynamic play"],
+  "concepts": [
+    "dynamic compensation",
+    "piece sacrifice",
+    "removal of the defender",
+    "zwischenzug",
+    "passed pawns",
+    "king activity"
+  ],
+  "metadata": {
+    "white": "Mikhail Botvinnik",
+    "black": "Mikhail Tal",
+    "event": "World Chess Championship 1960",
+    "site": "Moscow, USSR",
+    "date": "1960.03.26",
+    "result": "0-1",
+    "eco": "E69",
+    "opening": "King's Indian Defense, Fianchetto Variation, Classical Main Line",
+    "historicalContext": "Game 6 of the 1960 World Championship match, in which the 23-year-old Tal challenged the reigning champion Mikhail Botvinnik. Tal went on to win the match 12½–8½, becoming the youngest world champion to that point. This game is remembered above all for 21...Nf4!!, a knight sacrifice so audacious that spectators reportedly grew loud enough for the game to be moved to a quieter room."
+  },
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "A note on the colors",
+      "body": "Botvinnik had White in this game; Tal, the challenger, played Black and delivered the sacrifice this game is remembered for. It's easy to assume the attacking player had White, so it's worth saying plainly: the fireworks came from the Black side of the board."
+    },
+    {
+      "type": "key-idea",
+      "title": "Techniques you will see in this game",
+      "body": "Removal of the Defender — a White rook quietly abandons the file it was guarding, and two moves later a pawn falls for free. The Zwischenzug — rather than saving an attacked queen, Black inserts one more threat first and comes out of the resulting scramble ahead. Passed Pawns — the sacrifice itself never gets 'repaid' move for move; what actually wins the game is a queenside pawn that promotes untouched forty moves later. King Activity — once the queens leave the board, Tal's own king stops hiding and marches up the center to escort that pawn home."
+    },
+    {
+      "type": "commentary",
+      "title": "Counting points vs. counting activity",
+      "body": "If you tally material after the smoke clears from moves 21–25, Black is not up a piece, or even fully compensated in the tidy way a calculated sacrifice usually is. Later engine-assisted analysis (ChessBase's Dorian Rogozenco among others) found that Botvinnik's actual defense wasn't necessarily the most precise available — a reminder that 'this move worked' and 'this move was objectively best' are different claims. What Tal was actually counting wasn't points; it was which pieces could do something and which couldn't. That distinction is the whole lesson of this game."
+    }
+  ],
+  "line": [
+    "c4",
+    "Nf6",
+    "Nf3",
+    "g6",
+    "g3",
+    "Bg7",
+    "Bg2",
+    "O-O",
+    "d4",
+    "d6",
+    "Nc3",
+    "Nbd7",
+    "O-O",
+    "e5",
+    "e4",
+    "c6",
+    "h3",
+    "Qb6",
+    "d5",
+    "cxd5",
+    "cxd5",
+    "Nc5",
+    "Ne1",
+    "Bd7",
+    "Nd3",
+    "Nxd3",
+    "Qxd3",
+    "Rfc8",
+    {
+      "san": "Rb1",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A quiet defensive move worth remembering",
+          "body": "White's rook steps in front of the b-pawn. It looks routine — but keep an eye on this rook. Its whole job right now is guarding b2, and what happens when a guard leaves its post is one of the oldest tactical ideas in chess."
+        }
+      ]
+    },
+    "Nh5",
+    "Be3",
+    "Qb4",
+    "Qe2",
+    "Rc4",
+    "Rfc1",
+    "Rac8",
+    "Kh2",
+    {
+      "san": "f5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Opening the position toward both kings",
+          "body": "Black challenges the e4 pawn and cracks the position open. With pieces already massed on the queenside and kingside alike, this is less a plan than an invitation — Black is betting that Black's own pieces will be faster to exploit whatever opens up."
+        }
+      ]
+    },
+    "exf5",
+    "Bxf5",
+    {
+      "san": "Ra1",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White's rook, which had been sitting on b1 guarding the b2 pawn since move 15, steps away. What did that pawn just lose?"
+        }
+      ]
+    },
+    {
+      "san": "Nf4",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "visual": [
+        { "type": "arrow", "from": "h5", "to": "f4" },
+        { "type": "square", "square": "f4" }
+      ],
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The knight sacrifice",
+          "body": "Tal offers the knight for nothing concrete — no forced mate has been calculated, no material comes back on the next move. What the sacrifice buys is the removal of White's g3 pawn, the last real cover in front of White's king, and it hands the initiative to whichever side reacts fastest. That is the entire case for playing it: not a certainty, a bet on activity.",
+          "concepts": ["piece sacrifice", "king safety"]
+        }
+      ]
+    },
+    {
+      "san": "gxf4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Essentially forced",
+          "body": "Declining costs a piece for nothing, so White takes. The kingside pawn cover is gone the moment this pawn leaves g3 — exactly the trade Black was betting on."
+        }
+      ]
+    },
+    {
+      "san": "exf4",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The point of the sacrifice",
+          "body": "Recapturing with the pawn does two things at once: it keeps a dangerous, advanced pawn on f4, and it clears the diagonal in front of Black's fianchettoed bishop on g7, which now bears down on White's king from long range. One piece for two structural gains — this is what 'what the pieces can do' means in practice.",
+          "concepts": ["piece sacrifice"]
+        }
+      ]
+    },
+    "Bd2",
+    {
+      "san": "Qxb2",
+      "importance": "important",
+      "visual": [{ "type": "square", "square": "b2" }],
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Technique Connection — Removal of the Defender",
+          "body": "The b2 pawn was defended by a rook on b1 for six full moves. Once that rook stepped away to a1, nothing else on the board guarded b2 — not the bishop that just retreated to d2, not anything else. Black simply collects the pawn for free, adding to the compensation without spending another piece.",
+          "concepts": ["removal of the defender"]
+        }
+      ]
+    },
+    {
+      "san": "Rab1",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White's rook returns and attacks the queen directly. It looks like Black has to spend a move saving it — does it?"
+        }
+      ]
+    },
+    {
+      "san": "f3",
+      "classification": "critical",
+      "importance": "critical",
+      "visual": [{ "type": "arrow", "from": "f4", "to": "f3" }],
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Technique Connection — The Zwischenzug",
+          "body": "Instead of moving the attacked queen, Black pushes a pawn instead — an in-between move. This f-pawn now threatens to capture on e2, where White's own queen stands, so the attack on Black's queen and the counter-attack on White's queen are both live at once. Whichever queen gets taken first, the other falls the very next move. That is the whole idea of a zwischenzug: answer a threat with a bigger one instead of obeying it.",
+          "concepts": ["zwischenzug"]
+        }
+      ]
+    },
+    {
+      "san": "Rxb2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White captures the queen — the direct, forcing continuation, since nothing stops it."
+        }
+      ]
+    },
+    {
+      "san": "fxe2",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Both queens are gone",
+          "body": "The pawn completes the point of the zwischenzug and captures White's queen in turn. Add up the trades since move 21 — a knight, a pawn, both queens, another pawn — and the material count is close to level, maybe even a shade in White's favor by the numbers. What Black actually has is a safer king, a bishop pair with far more scope, and a White position still trying to untangle itself. The sacrifice was never about the arithmetic.",
+          "concepts": ["dynamic compensation"]
+        }
+      ]
+    },
+    "Rb3",
+    "Rd4",
+    "Be1",
+    "Be5+",
+    "Kg1",
+    "Bf4",
+    "Nxe2",
+    "Rxc1",
+    "Nxd4",
+    "Rxe1+",
+    "Bf1",
+    {
+      "san": "Be4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Two bishops, one dominant pair",
+          "body": "Black's light-squared bishop, which recaptured on f5 back on move 20, now centralizes further. Both of Black's bishops are still on the board and both are far more active than anything White has left — the real, lasting form the sacrifice's compensation took."
+        }
+      ]
+    },
+    "Ne2",
+    "Be5",
+    "f4",
+    "Bf6",
+    "Rxb7",
+    {
+      "san": "Bxd5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The light-squared bishop keeps harvesting central and queenside pawns while White's rook does the same on the other wing — a race between activity and raw material that Black's pieces are clearly winning."
+        }
+      ]
+    },
+    "Rc7",
+    "Bxa2",
+    "Rxa7",
+    "Bc4",
+    "Ra8+",
+    "Kf7",
+    "Ra7+",
+    "Ke6",
+    "Ra3",
+    "d5",
+    "Kf2",
+    "Bh4+",
+    "Kg2",
+    {
+      "san": "Kd6",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Technique Connection — King Activity",
+          "body": "With both queens and most of the heavy material already off the board, Tal's king stops being a target and starts being a piece — it heads toward the center to support the pawns still on the board. This is the same recognition the King Activity lesson teaches: the instant checks and mating nets stop being a real danger, the side that activates its king first usually decides the game.",
+          "concepts": ["king activity"]
+        }
+      ]
+    },
+    "Ng3",
+    "Bxg3",
+    "Bxc4",
+    "dxc4",
+    "Kxg3",
+    "Kd5",
+    "Ra7",
+    {
+      "san": "c3",
+      "importance": "important",
+      "visual": [{ "type": "square", "square": "c3" }],
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Technique Connection — Passed Pawns",
+          "body": "With the last minor pieces traded off, Black's queenside pawns — built move by move from captures on b2, a2, and c4 — are down to a single runner with no White pawn left on the b-, c-, or d-file to ever stop it. White's rook and king are both too far away to blockade it in time. This pawn, not the knight sacrificed twenty-four moves earlier, is what actually wins the game.",
+          "concepts": ["passed pawns"]
+        }
+      ]
+    },
+    "Rc7",
+    {
+      "san": "Kd4",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What this game demonstrated",
+          "body": "Botvinnik resigned here — the pawn on c3 queens next move with the king's support, and there is nothing left to stop it. Look back at the full arc: a knight given away with no calculated payoff, both queens gone within a few moves of each other, and a material count that was never clearly in Black's favor. What decided the game was activity converted patiently into a passed pawn, and a king that knew the instant it was safe to join the fight. Dynamic compensation is a bet, not a certainty — this game is the case where the bet paid off in full.",
+          "concepts": ["dynamic compensation", "passed pawns"]
+        }
+      ]
+    }
+  ]
+}

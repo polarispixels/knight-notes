@@ -1,0 +1,268 @@
+{
+  "id": "aronian-anand-2013",
+  "catalogCode": "G021",
+  "title": "Aronian vs Anand",
+  "subtitle": "Wijk aan Zee 2013 — \"Anand's Immortal\"",
+  "type": "game",
+  "difficulty": "advanced",
+  "summary": "Aronian's speculative knight raid to h7 is met by a bishop and two knights working together — Anand offers a piece back on g4, opens the long diagonal with check, and by move 23 his last three pieces have built an unstoppable mating net around the White king.",
+  "tags": ["Semi-Slav Defense", "Anand's Immortal", "piece sacrifice", "king hunt", "classic game", "Viswanathan Anand", "Wijk aan Zee"],
+  "concepts": [
+    "sacrifice",
+    "king safety",
+    "calculation",
+    "forcing moves",
+    "material imbalance"
+  ],
+  "metadata": {
+    "white": "Levon Aronian",
+    "black": "Viswanathan Anand",
+    "event": "75th Tata Steel Chess Tournament, Group A",
+    "site": "Wijk aan Zee, Netherlands",
+    "date": "2013.01.15",
+    "result": "0-1",
+    "eco": "D45",
+    "opening": "Semi-Slav Defense",
+    "historicalContext": "Played in round 4 of the 2013 Tata Steel tournament, this game earned the nickname 'Anand's Immortal' within days. Magnus Carlsen, playing in the same event, called it 'mind-blowing,' and Chess.com's staff would later rank it among the very best games ever played. It remains a favorite teaching example precisely because the winning idea is not one single trick but three small ones, chained together with only a few moves to spare."
+  },
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "Anand's Immortal",
+      "body": "By 2013 Anand was the reigning world champion but had a reputation, fairly or not, as a player in decline. This game answered that in the most dramatic way possible: a five-time world champion producing one of the sharpest combinations of the entire decade. It's tempting to imagine Anand calculating every branch from move 15 to the finish, and commentators have often framed games like this as a matter of recognizing a familiar shape rather than brute-force reading out twenty moves — the mating pattern with a queen, bishop, and knight around a king missing its own dark-squared bishop is a shape strong players have seen before. That doesn't make the concrete calculation any less real; it just means the pattern recognition and the calculation were both doing work here."
+    },
+    {
+      "type": "key-idea",
+      "title": "Techniques you will see in this game",
+      "body": "Watch for The Zwischenzug — Black inserts a check before restoring material balance rather than recapturing immediately. Watch for Removal of the Defender — the recapture that follows doesn't just even the material, it clears White's last minor piece off the board. And watch for Weak Squares — once that piece is gone and the h-pawn has moved, the dark squares around White's own king (f2, g1, h2) become permanently undefendable.",
+      "concepts": ["sacrifice", "king safety", "calculation"]
+    }
+  ],
+  "line": [
+    "d4",
+    "d5",
+    "c4",
+    "c6",
+    "Nf3",
+    "Nf6",
+    "Nc3",
+    "e6",
+    "e3",
+    {
+      "san": "Nbd7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A Semi-Slav structure",
+          "body": "Black keeps the option of ...dxc4 and ...b5, the classic Semi-Slav plan of grabbing a queenside pawn and holding it with tempo moves. Nothing here signals what's coming — this is still a completely normal opening."
+        }
+      ]
+    },
+    "Bd3",
+    "dxc4",
+    "Bxc4",
+    "b5",
+    "Bd3",
+    "Bd6",
+    "O-O",
+    "O-O",
+    "Qc2",
+    "Bb7",
+    "a3",
+    "Rc8",
+    {
+      "san": "Ng5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A direct threat against h7. On its own this is nothing special — Black has several ordinary ways to deal with it."
+        }
+      ]
+    },
+    {
+      "san": "c5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Ignoring the threat",
+          "body": "Anand doesn't defend h7 at all — he opens the position in the center instead, betting that whatever White wins on h7 will cost time and coordination that matters more than a pawn."
+        }
+      ]
+    },
+    {
+      "san": "Nxh7",
+      "classification": "interesting",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "A knight goes hunting",
+          "body": "White grabs the pawn and sends the knight deep into Black's camp. It looks greedy, but the knight isn't actually trapped — it has escape squares, and it will resurface with real effect fourteen moves from now. For the moment, though, it is completely out of the game while Black builds an attack."
+        }
+      ]
+    },
+    {
+      "san": "Ng4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Building threats instead of chasing the knight",
+          "body": "Rather than spend a move on the stray White knight, Anand develops with a threat of his own — this knight eyes f2, h2, and e3, all squares near the White king."
+        }
+      ]
+    },
+    "f4",
+    "cxd4",
+    "exd4",
+    {
+      "san": "Bc5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The bishop joins the attack",
+          "body": "The dark-squared bishop steps onto the long diagonal aimed at White's king. It attacks the d4 pawn directly, and once that pawn is gone the diagonal runs unobstructed all the way to g1."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c5", "to": "g1" }]
+    },
+    {
+      "san": "Be2",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White sidesteps the knight jump ...Nde5 hitting d3, but now leaves the knight on g4 attacked and undefended. Black also still has that other knight, sitting on d7, doing nothing. What can two loose-looking pieces possibly accomplish here?"
+        }
+      ]
+    },
+    {
+      "san": "Nde5",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Two pieces offered at once",
+          "body": "This is the move that made the game famous. The second knight jumps into the center, and now White can win a piece two different ways — fxe5 grabs this knight, or Bxg4 grabs the other one. Taking on e5 is far worse: it opens lines for a forced mating attack. Taking on g4 is the tougher test, and it's what Aronian plays.",
+          "concepts": ["sacrifice", "calculation"]
+        }
+      ]
+    },
+    "Bxg4",
+    {
+      "san": "Bxd4+",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Technique Connection — The Zwischenzug",
+          "body": "Black doesn't rush to recapture the bishop on g4 and restore material balance. Instead comes an in-between check first — the Zwischenzug. The d4 pawn was the only thing blocking the long diagonal, and removing it with tempo forces the king to move before anything else happens. Lesson: 'The Zwischenzug' — a more urgent move played before the expected recapture, because the position won't allow the natural order of moves.",
+          "concepts": ["forcing moves"]
+        }
+      ]
+    },
+    "Kh1",
+    {
+      "san": "Nxg4",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Technique Connection — Removal of the Defender",
+          "body": "Only now does Black recapture — with the other knight. This restores rough material balance, but its real value is bigger: it removes White's last minor piece from the board. From here on, nothing but pawns and a queen stand between Black's attackers and the White king. Lesson: 'Removal of the Defender' — the recapture wasn't chosen for material alone, it specifically eliminated the piece that could have helped defend.",
+          "concepts": ["king safety"]
+        }
+      ]
+    },
+    {
+      "san": "Nxf8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The point of move 13, finally",
+          "body": "Fourteen moves after wandering into Black's position, the stray White knight cashes in — winning the exchange on f8. White is materially fine, maybe even better on paper. But Black's remaining pieces are all pointed at one square: the White king."
+        }
+      ]
+    },
+    {
+      "san": "f5",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Not chasing material either",
+          "body": "The knight on f8 is loose, but Anand doesn't stop to win it back. This pawn move opens a path for the queen to swing toward the kingside and restricts White's pieces, keeping the initiative — the same discipline White showed early on, mirrored back."
+        }
+      ]
+    },
+    {
+      "san": "Ng6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The knight tries to find safety and counter-chances rather than get trapped on f8."
+        }
+      ]
+    },
+    {
+      "san": "Qf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The queen joins the attack and attacks the misplaced knight directly."
+        }
+      ]
+    },
+    {
+      "san": "h3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White tries to win back the knight on g4 with tempo — but notice this also permanently weakens the dark squares next to the king."
+        }
+      ]
+    },
+    {
+      "san": "Qxg6",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The knight on g4 is worth more than it looks",
+          "body": "Black simply collects the trapped knight rather than saving the one on g4. White never actually plays hxg4 in this game — grabbing that knight would strip away the last cover around the king exactly when Black's queen, bishop, and remaining knight are all converging on it."
+        }
+      ]
+    },
+    "Qe2",
+    {
+      "san": "Qh5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The queen repositions toward the h-file, adding a third attacker to the kingside alongside the bishop on d4 and the knight on g4."
+        }
+      ]
+    },
+    "Qd3",
+    {
+      "san": "Be3",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Technique Connection — Weak Squares",
+          "body": "Aronian resigned here. The bishop takes away g1 as an escape square for the king, while the knight on g4 covers f2 and h2 — every square near the king that h3 and the missing bishop had already weakened is now permanently out of reach. Lesson: 'Weak Squares' — once the light lands on a color complex a king can't defend (here, the dark squares f2, g1, h2), no amount of material is enough to hold the position together."
+        },
+        {
+          "type": "key-idea",
+          "title": "What this game demonstrated",
+          "body": "No single sacrifice won this game. A knight incursion on move 13 bought time; a second knight offer on move 16 forced a choice between two losses; a Zwischenzug check on move 17 kept the initiative instead of settling for equal material; and a recapture on move 18 quietly removed White's last defender. Each piece did one small job, and together they built a mating net that a single strong move — Be3 — could finally close.",
+          "concepts": ["sacrifice", "king safety", "calculation"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "g1" },
+        { "type": "square", "square": "f2" },
+        { "type": "square", "square": "h2" }
+      ]
+    }
+  ]
+}

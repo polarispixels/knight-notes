@@ -1,0 +1,232 @@
+{
+  "id": "petrosian-spassky-1966",
+  "catalogCode": "G016",
+  "title": "Petrosian vs Spassky",
+  "subtitle": "World Championship 1966, Game 10, Moscow — two exchange sacrifices",
+  "type": "game",
+  "difficulty": "advanced",
+  "summary": "Petrosian, the most cautious of world champions, gives up the exchange twice in the same game — once purely on evaluation, with no forced way to win the material back, and once fully calculated to regain it with interest. Spassky is squeezed off the board and mated in a King's Indian where White never looked like the side taking risks.",
+  "tags": ["King's Indian Defense", "World Chess Championship", "exchange sacrifice", "classic game", "Tigran Petrosian", "positional sacrifice"],
+  "concepts": [
+    "positional sacrifice",
+    "the exchange",
+    "space",
+    "open files",
+    "fork",
+    "prophylaxis"
+  ],
+  "metadata": {
+    "white": "Tigran Petrosian",
+    "black": "Boris Spassky",
+    "event": "World Chess Championship 1966",
+    "site": "Moscow, USSR",
+    "date": "1966.05.02",
+    "result": "1-0",
+    "eco": "E63",
+    "opening": "King's Indian Defense, Fianchetto Variation",
+    "historicalContext": "Game 10 of the 1966 World Championship match, Petrosian's first defense of the title he had taken from Botvinnik in 1963. Petrosian led 5–4 going in and won this game to move to 6–4; he held on to win the match, and Spassky would only take the crown from him in their 1969 rematch. Grandmaster Vladimir Simagin, watching live, recognized the mating idea behind Petrosian's finish from one of Petrosian's own games a decade earlier — and recalled that his own train of thought was 'interrupted by applause' the moment it appeared on the board again."
+  },
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "Petrosian's reputation, and this game's exception",
+      "body": "Petrosian is remembered as the most defensively minded of world champions — a player who neutralized threats before they existed rather than create them himself. This game shows the other half of that same instinct: prophylaxis isn't passivity, it's noticing exactly what an opponent needs and taking it away first, even at a material cost, before the opponent can use it."
+    },
+    {
+      "type": "key-idea",
+      "title": "Techniques you will see in this game",
+      "body": "Space — an early central push cramps Black's pieces for the entire game before a single tactic is played. Open Files — White seizes the half-open f-file and never lets go of it, right up to the final combination. The Fork — the winning point of the last few moves is a single knight that would attack the king and queen at once. And running through the middle of it all: the difference between a tactical sacrifice, calculated to win material back, and a positional one, played on judgment with no guarantee attached."
+    }
+  ],
+  "line": [
+    "Nf3",
+    "Nf6",
+    "g3",
+    "g6",
+    "c4",
+    "Bg7",
+    "Bg2",
+    "O-O",
+    "O-O",
+    "Nc6",
+    "Nc3",
+    "d6",
+    "d4",
+    "a6",
+    {
+      "san": "d5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Technique Connection — Space",
+          "body": "White claims the center and, in the same move, kicks Black's knight off c6. Black has to retreat to the rim with Na5, a square with almost no influence on the position — the first sign that this game will be fought on cramped terms for Black long before any tactics appear.",
+          "concepts": ["space"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }]
+    },
+    "Na5",
+    "Nd2",
+    "c5",
+    "Qc2",
+    "e5",
+    "b3",
+    "Ng4",
+    "e4",
+    "f5",
+    "exf5",
+    "gxf5",
+    "Nd1",
+    "b5",
+    "f3",
+    "e4",
+    "Bb2",
+    "exf3",
+    "Bxf3",
+    "Bxb2",
+    "Qxb2",
+    "Ne5",
+    "Be2",
+    {
+      "san": "f4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The f-file starts to matter",
+          "body": "Both sides have now traded pawns and pieces around the f-file, and it will stay the central battleground of the entire game — worth watching from here on."
+        }
+      ]
+    },
+    "gxf4",
+    {
+      "san": "Bh3",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black's bishop attacks the rook on f1 along an open diagonal. Ordinary play says White has to deal with this immediately — does it?"
+        }
+      ]
+    },
+    {
+      "san": "Ne3",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "visual": [
+        { "type": "arrow", "from": "h3", "to": "f1" },
+        { "type": "square", "square": "f1" }
+      ],
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The first exchange sacrifice — positional",
+          "body": "Petrosian simply ignores the attack on his rook and develops instead. There is no forced sequence here that wins the rook back — Petrosian is trading it for a bishop and, more importantly, for time and central control, on judgment alone. This is what makes it a genuinely positional sacrifice rather than a tactical one: nothing is calculated to a material payoff, only evaluated as good enough.",
+          "concepts": ["positional sacrifice"]
+        }
+      ]
+    },
+    "Bxf1",
+    {
+      "san": "Rxf1",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White recaptures with the other rook. Down the exchange for a pawn, Petrosian now has the bishop pair, extra central space, and an opponent whose king has lost some of its cover — the entire case for move 21."
+        }
+      ]
+    },
+    "Ng6",
+    "Bg4",
+    {
+      "san": "Nxf4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black's knight recaptures the pawn on f4, sitting right in front of White's rook on f1."
+        }
+      ]
+    },
+    {
+      "san": "Rxf4",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "visual": [{ "type": "arrow", "from": "f1", "to": "f4" }],
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The second exchange sacrifice — tactical",
+          "body": "This looks like the same idea as move 21, but it isn't. Petrosian gives up the rook for the knight having already calculated the follow-up: 25.Be6+ forces Black's rook back to f7, and White's attack collects enough afterward to justify the investment on concrete grounds, not just a feel for the position. Two exchange sacrifices, back to back, and two different reasons for playing them — that contrast is the real subject of this game.",
+          "concepts": ["positional sacrifice"]
+        }
+      ]
+    },
+    "Rxf4",
+    {
+      "san": "Be6+",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Collecting on the calculation",
+          "body": "Check along the long diagonal, forcing Black's rook straight back to f7 — the square it just came from — while White's attack keeps rolling forward with tempo. This is the concrete payoff the previous move was calculated around.",
+          "concepts": ["forcing moves"]
+        }
+      ]
+    },
+    "Rf7",
+    {
+      "san": "Ne4",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A second knight joins the attack",
+          "body": "White's other knight, rerouted from f3 by way of d2 several moves ago, arrives at e4 with a look toward d6 — deep in Black's position."
+        }
+      ]
+    },
+    "Qh4",
+    {
+      "san": "Nxd6",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Technique Connection — The Fork",
+          "body": "The knight captures a central pawn and, from d6, attacks two things at once: the rook that just retreated to f7, and the pawn on b7 behind it. Black cannot save both, and the position is already collapsing under the weight of two sacrifices that both turned out to be sound.",
+          "concepts": ["fork"]
+        }
+      ]
+    },
+    "Qg5+",
+    "Kh1",
+    "Raa7",
+    {
+      "san": "Bxf7+",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop finally cashes in the rook it forced back to f7 twelve moves earlier, with check."
+        }
+      ]
+    },
+    "Rxf7",
+    {
+      "san": "Qh8+",
+      "classification": "critical",
+      "importance": "critical",
+      "visual": [
+        { "type": "square", "square": "h8" },
+        { "type": "arrow", "from": "d6", "to": "f7" }
+      ],
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What this game demonstrated",
+          "body": "Spassky resigned here rather than play 30...Kxh8, which walks into 31.Nxf7+ — a knight fork of the king and the queen on g5, winning the queen outright. Trace the whole game back from this square: a knight offered on move 21 for nothing more than judgment, a second exchange given up on move 24 for a calculated follow-up, and both of them converging on this exact fork. A positional sacrifice buys time and squares with no promise attached; a tactical one is a bet you've already checked the math on. Petrosian played both, in the same game, and knew the difference the whole time.",
+          "concepts": ["fork", "positional sacrifice"]
+        }
+      ]
+    }
+  ]
+}

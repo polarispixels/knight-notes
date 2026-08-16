@@ -1,0 +1,318 @@
+{
+  "id": "lasker-bauer-1889",
+  "catalogCode": "G010",
+  "title": "Lasker vs Bauer",
+  "subtitle": "Amsterdam 1889 — the original double bishop sacrifice",
+  "type": "game",
+  "difficulty": "intermediate",
+  "summary": "A 20-year-old Emanuel Lasker sacrifices both bishops on h7 and g7 to strip Black's king bare, then proves the sacrifice sound with a forcing sequence that ends in a queen fork picking up both of Black's remaining bishops. The game that gave the pattern its name.",
+  "tags": ["Bird's Opening", "Greek Gift", "double bishop sacrifice", "Emanuel Lasker", "classic game", "king hunt"],
+  "concepts": [
+    "greek gift",
+    "removal of the defender",
+    "the fork",
+    "king safety",
+    "sacrifice",
+    "forcing moves"
+  ],
+  "metadata": {
+    "white": "Emanuel Lasker",
+    "black": "Johann Bauer",
+    "event": "Amsterdam Tournament",
+    "site": "Amsterdam, Netherlands",
+    "date": "1889.08.??",
+    "result": "1-0",
+    "eco": "A03",
+    "opening": "Bird's Opening",
+    "historicalContext": "Played in the first round of one of Lasker's first major international tournaments, this game introduced a sacrificial pattern that did not yet have a name: giving up both bishops, one after the other, to tear open a fianchetto-less king's pawn shelter. It has been imitated so often since that the pattern is now simply called the double bishop sacrifice, and every modern player who plays it is, knowingly or not, repeating Lasker's idea from 1889."
+  },
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "The sacrifice that named itself",
+      "body": "Lasker was twenty years old and playing in one of his first strong international events when he produced this combination. No one had codified the double bishop sacrifice before this game; afterward, it became a pattern with a name, taught to every serious student of tactics. The moves that follow are the original, not a copy."
+    },
+    {
+      "type": "key-idea",
+      "title": "Techniques you will see in this game",
+      "body": "Greek Gift — the classic Bxh7+ sacrifice against a castled king, here doubled rather than played alone. Removal of the Defender — White trades off Black's knight before either bishop lands, because that knight alone could refute the whole idea. The Fork — the combination's actual profit arrives four moves later, when a single queen move attacks two separate bishops at once.",
+      "concepts": ["greek gift", "removal of the defender", "the fork"]
+    }
+  ],
+  "line": [
+    "f4",
+    "d5",
+    "e3",
+    "Nf6",
+    "b3",
+    "e6",
+    "Bb2",
+    "Be7",
+    "Bd3",
+    "b6",
+    "Nc3",
+    "Bb7",
+    "Nf3",
+    "Nbd7",
+    "O-O",
+    "O-O",
+    "Ne2",
+    "c5",
+    "Ng3",
+    "Qc7",
+    "Ne5",
+    "Nxe5",
+    "Bxe5",
+    "Qc6",
+    "Qe2",
+    {
+      "san": "a6",
+      "classification": "mistake",
+      "annotations": [
+        {
+          "type": "mistake",
+          "title": "The wrong side of the board",
+          "body": "Black spends a move preparing queenside expansion with ...b5, but the real battle is about to open on the other wing. This single tempo is exactly what lets White's next move land before Black can consolidate the kingside."
+        }
+      ]
+    },
+    {
+      "san": "Nh5",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Technique Connection — Removal of the Defender",
+          "body": "What's happening: White offers to trade knights, inviting Black to capture on h5. Why it matters: Black's knight on f6 is the one piece guarding both h7 and g7 — as long as it stays, neither Bxh7+ nor Bxg7 wins anything, because Black simply recaptures with the knight and the king is never exposed. Which lesson it echoes: this is Removal of the Defender in its purest form — the sacrifice hasn't even started yet, and White is already clearing the one piece that could stop it.",
+          "concepts": ["removal of the defender"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "f6" }]
+    },
+    {
+      "san": "Nxh5",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The defending knight is gone and the king's shelter looks untouched — two bishops, two pawns on h7 and g7, everything still in place. What can White possibly achieve here?"
+        }
+      ]
+    },
+    {
+      "san": "Bxh7+",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Technique Connection — Greek Gift",
+          "body": "What's happening: the bishop that has sat on d3 since move 5 takes the h7 pawn with check, offering itself for nothing more than a pawn. Why it matters: with the f6 knight already gone, nothing else defends h7, so the king has no choice but to open itself up. Which lesson it echoes: this is the textbook Greek Gift sacrifice — but watch closely, because on its own this single bishop is not yet enough to win.",
+          "concepts": ["greek gift"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "d3", "to": "h7" },
+        { "type": "square", "square": "h7" }
+      ]
+    },
+    {
+      "san": "Kxh7",
+      "classification": "forced",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Declining leaves White simply up a piece for a pawn with an ongoing attack, so the king captures. This is the moment the king's journey into the open begins."
+        }
+      ]
+    },
+    "Qxh5+",
+    {
+      "san": "Kg8",
+      "classification": "forced",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The only legal square — Kh8 and Kh6 both stay on the h-file under check, and g6 is covered by the queen diagonally. The king retreats to where it started, but the position around it has already changed."
+        }
+      ]
+    },
+    {
+      "san": "Bxg7",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Why the first sacrifice alone was never enough",
+          "body": "This is the whole point of calling it a double bishop sacrifice rather than two separate ones. If White stopped after Bxh7+, Black's g7 pawn still walls off the king completely — there is no way in. Only by removing both shelter pawns does the king end up with no cover at all, on a board with open lines leading straight to it. One sacrifice is a swindle; both together is a plan.",
+          "concepts": ["greek gift"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "e5", "to": "g7" },
+        { "type": "square", "square": "g7" }
+      ]
+    },
+    {
+      "san": "Kxg7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Both shelter pawns are gone, both bishops are gone, and the king now stands on g7 in the open with nothing but its own pieces for cover — pieces that, as the next moves show, cannot actually get in the way."
+        }
+      ]
+    },
+    {
+      "san": "Qg4+",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The preconditions this pattern actually needs",
+          "body": "Notice what White already had in place before either bishop fell: a queen that could swing to the kingside in one move (Qe2-h5-g4), a rook that could lift along the third rank, and — critically — no black knight left anywhere on the board to jump into the attack's path. Take away any one of those three and this sacrifice does not work, no matter how exposed the king looks.",
+          "concepts": ["king safety"]
+        }
+      ]
+    },
+    "Kh7",
+    {
+      "san": "Rf3",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The rook lift",
+          "body": "The rook swings from f1 toward the h-file, the last piece needed to finish what the bishops started. This only works because nothing black can interpose on h5 or h6 — there is no knight left to block."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f1", "to": "f3" }]
+    },
+    "e5",
+    {
+      "san": "Rh3+",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "tactic",
+          "body": "The rook completes its journey to the h-file, and the king has nowhere to run — only a piece interposing on the h-file can meet this check."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f3", "to": "h3" }]
+    },
+    {
+      "san": "Qh6",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black's queen is the only piece that can block this check. If White simply captures it, what has really been won — and is it enough?"
+        }
+      ]
+    },
+    "Rxh6+",
+    {
+      "san": "Kxh6",
+      "classification": "forced",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Nothing else can recapture, so the king takes the rook. Tally the material so far: White has given up two bishops for two pawns, but just won a queen for a rook in return — the ledger is turning White's way, and the king is still stranded in the open."
+        }
+      ]
+    },
+    {
+      "san": "Qd7",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Technique Connection — The Fork",
+          "body": "What's happening: the queen lands on d7, a square that sits on the same rank as both of Black's remaining bishops — b7 and e7 — attacking both at once. Why it matters: neither bishop is defended, and a single piece cannot be in two places, so Black can only save one. Which lesson it echoes: this is a textbook fork, and it is the actual payoff of everything before it — the sacrifices bought the attack, but the fork banks the profit.",
+          "concepts": ["the fork"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "d7", "to": "b7" },
+        { "type": "arrow", "from": "d7", "to": "e7" }
+      ]
+    },
+    {
+      "san": "Bf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black saves the bishop on e7, the only one that can be saved — the queen's fork leaves no way to protect both."
+        }
+      ]
+    },
+    {
+      "san": "Qxb7",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The fork's harvest",
+          "body": "White collects the second bishop for free. Add it up: two bishops sacrificed for two pawns, a queen won for a rook, and now a whole bishop won outright — White is not just attacking anymore, but comfortably ahead on material as well.",
+          "concepts": ["material imbalance"]
+        }
+      ]
+    },
+    "Kg7",
+    "Rf1",
+    "Rab8",
+    "Qd7",
+    "Rfd8",
+    "Qg4+",
+    "Kf8",
+    "fxe5",
+    "Bg7",
+    {
+      "san": "e6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The pawn that began the whole combination as White's f-pawn has marched all the way to e6, deep in Black's position, tying pieces down to stop it from queening."
+        }
+      ]
+    },
+    "Rb7",
+    "Qg6",
+    "f6",
+    {
+      "san": "Rxf6+",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "One more forcing blow",
+          "body": "White gives up the exchange to rip open the last cover around Black's king, trading a rook for a pawn and a bishop while keeping the attack alive rather than settling for the material already won."
+        }
+      ]
+    },
+    "Bxf6",
+    "Qxf6+",
+    "Ke8",
+    "Qh8+",
+    "Ke7",
+    "Qg7+",
+    "Kxe6",
+    "Qxb7",
+    "Rd6",
+    "Qxa6",
+    "d4",
+    "exd4",
+    "cxd4",
+    "h4",
+    "d3",
+    {
+      "san": "Qxd3",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What this game demonstrated",
+          "body": "Black resigns here, hopelessly down material with the king still unsafe. Trace the chain back: Removal of the Defender cleared the one knight that could have stopped everything before a single sacrifice was played. Greek Gift — doubled, not single — stripped away both shelter pawns, because one alone would have left the king still covered. The Fork, four moves after the king had nowhere left to hide, turned the attack into a material windfall by hitting two undefended bishops with one queen move. Take away any one piece of that chain and there is no combination — just a piece down for nothing.",
+          "concepts": ["greek gift", "removal of the defender", "the fork"]
+        }
+      ]
+    }
+  ]
+}

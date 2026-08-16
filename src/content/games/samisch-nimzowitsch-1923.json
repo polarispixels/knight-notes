@@ -1,0 +1,292 @@
+{
+  "id": "samisch-nimzowitsch-1923",
+  "catalogCode": "G012",
+  "title": "Sämisch vs Nimzowitsch",
+  "subtitle": "Copenhagen 1923 — the Immortal Zugzwang Game",
+  "type": "game",
+  "difficulty": "advanced",
+  "summary": "No mate, no material grab — Nimzowitsch spends twenty-five moves quietly taking away every useful square White's pieces might want, until White simply runs out of moves that don't lose material. This is domination by restriction, the purest zugzwang the middlegame has ever produced.",
+  "tags": ["Queen's Indian Defense", "zugzwang", "restriction", "positional play", "hypermodernism"],
+  "concepts": [
+    "restriction",
+    "outposts",
+    "weak squares",
+    "prophylaxis",
+    "zugzwang",
+    "space"
+  ],
+  "metadata": {
+    "white": "Friedrich Sämisch",
+    "black": "Aron Nimzowitsch",
+    "event": "Copenhagen International",
+    "site": "Copenhagen, Denmark",
+    "date": "1923.03.09",
+    "result": "0-1",
+    "eco": "E17",
+    "opening": "Queen's Indian Defense",
+    "historicalContext": "Nicknamed 'The Immortal Zugzwang Game' almost as soon as it was published, this is the game Nimzowitsch pointed to as proof of the ideas in My System: that a position can be strangled to death without a single sacrifice or checkmate pattern. Some later analysts (notably Andrew Soltis) have argued the final position is not a true textbook zugzwang, since Black still holds a concrete threat in reserve — but the practical point stands regardless: White resigned because every move available made things worse."
+  },
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "Techniques you will see in this game",
+      "body": "Watch for Outposts (the d3 and e3 squares become permanent homes for Black's minor pieces), Weak Squares (White's dark squares around his own king collapse one at a time), Space (used here in reverse — Black doesn't grab territory, he shrinks White's), and Zugzwang (the endgame idea of a wasted move, seen here erupting in the middlegame — compare the endgame study 'Triangulation', which teaches the same mechanism in miniature). There is no fork, pin, or mating net to find. The lesson is that restriction is itself a weapon."
+    },
+    {
+      "type": "commentary",
+      "title": "A quiet kind of violence",
+      "body": "For twenty-five moves nothing is sacrificed and no piece is hunted. Nimzowitsch instead asks a single question of every one of his own moves: what does this take away from White? By move 25, the answer is everything."
+    }
+  ],
+  "line": [
+    "d4",
+    "Nf6",
+    "c4",
+    "e6",
+    "Nf3",
+    {
+      "san": "b6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The Queen's Indian",
+          "body": "Black fianchettoes the light-squared bishop to contest e4 from a distance rather than occupying the center with a pawn — a hypermodern idea Nimzowitsch himself helped invent. The whole game will be fought with pieces reaching for squares, not pawns planting flags."
+        }
+      ]
+    },
+    "g3",
+    "Bb7",
+    "Bg2",
+    "Be7",
+    "Nc3",
+    "O-O",
+    "O-O",
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Only now does Black stake a claim in the center, and only because his pieces are already placed to support it."
+        }
+      ]
+    },
+    "Ne5",
+    "c6",
+    "cxd5",
+    "cxd5",
+    {
+      "san": "Bf4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A natural-looking developing move — and, as it turns out, the last moment White's position looks comfortable."
+        }
+      ]
+    },
+    "a6",
+    "Rc1",
+    {
+      "san": "b5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Space becomes a cage",
+          "body": "Black's queenside pawns are not just gaining ground — b5 and the coming Nc6 shut down c3, c4, and eventually b1 as squares any White piece will ever want to stand on. Space, used this way, isn't about attacking; it's about narrowing the opponent's options one square at a time.",
+          "concepts": ["space", "restriction"]
+        }
+      ]
+    },
+    "Qb3",
+    "Nc6",
+    {
+      "san": "Nxc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White trades off the knight rather than let it sit awkwardly, but every trade in this game only clarifies how much less mobile White's remaining pieces are."
+        }
+      ]
+    },
+    "Bxc6",
+    "h3",
+    "Qd7",
+    {
+      "san": "Kh2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A move that looks like nothing, and mostly is one — but every such 'nothing' move for White is a real one for Black, who keeps improving with every tempo he's handed."
+        }
+      ]
+    },
+    "Nh5",
+    {
+      "san": "Bd2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop retreats from f4 because ...Nf4 was becoming an idea. Notice White is already reacting rather than creating."
+        }
+      ]
+    },
+    "f5",
+    "Qd1",
+    {
+      "san": "b4",
+      "importance": "notable",
+      "visual": [
+        { "type": "square", "square": "c3" },
+        { "type": "square", "square": "b1" }
+      ],
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "The knight's future is decided in advance",
+          "body": "This single pawn move quietly ends the story of White's queenside knight. Once b4 is played, c3 is permanently covered by a black pawn — the knight can never safely stand there again, and its only other retreat, b1, sits undeveloped and passive for the rest of the game. White has not lost the knight. He has lost the use of it.",
+          "concepts": ["restriction", "outposts"]
+        }
+      ]
+    },
+    {
+      "san": "Nb1",
+      "classification": "forced",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Nowhere else to go. A knight on b1 on move 18 of a game it started on b1 is not a coincidence — it is the point."
+        }
+      ]
+    },
+    {
+      "san": "Bb5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The good bishop finds its diagonal",
+          "body": "From b5, this bishop eyes e2 and the queenside light squares that White's own knight can no longer contest. Every Black piece is finding a square that used to belong to White.",
+          "concepts": ["good bishop, bad bishop"]
+        }
+      ]
+    },
+    "Rg1",
+    {
+      "san": "Bd6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Rerouting toward e5 and the long dark diagonal — one more piece claiming one more square that White would rather have kept."
+        }
+      ]
+    },
+    {
+      "san": "e4",
+      "annotations": [
+        {
+          "type": "mistake",
+          "title": "A break that opens more than it closes",
+          "body": "White finally tries to create counterplay, but opening the position only gives Black's already-superior pieces more room to work in. A cramped position sometimes has to sit tight rather than lash out."
+        }
+      ]
+    },
+    "fxe4",
+    {
+      "san": "Qxh5",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Winning a piece, losing the game",
+          "body": "White grabs the knight on h5 — real material, not a trick. But the position behind this pawn grab is about to be exposed as fatally weak. Material and position are not the same currency, and Nimzowitsch is about to prove it."
+        }
+      ]
+    },
+    {
+      "san": "Rxf2",
+      "classification": "sacrifice",
+      "importance": "important",
+      "visual": [
+        { "type": "square", "square": "f2" },
+        { "type": "arrow", "from": "f8", "to": "f2" }
+      ],
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The rook barges in",
+          "body": "Black gives back the exchange to rip open the second rank and drag more pieces into the attack. This is one of the only forcing, sacrificial moments in an otherwise entirely positional game — and it exists purely to accelerate the restriction that follows.",
+          "concepts": ["sacrifice", "open files"]
+        }
+      ]
+    },
+    "Qg5",
+    "Raf8",
+    "Kh1",
+    {
+      "san": "R8f5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Doubling with a purpose",
+          "body": "Both rooks now sit on the f-file, aimed at f2 and f3 and ready to swing along the third rank. Nimzowitsch isn't attacking the king directly yet — he's finishing the cage."
+        }
+      ]
+    },
+    "Qe3",
+    {
+      "san": "Bd3",
+      "classification": "critical",
+      "importance": "critical",
+      "visual": [
+        { "type": "square", "square": "b1" },
+        { "type": "arrow", "from": "d3", "to": "b1" }
+      ],
+      "annotations": [
+        {
+          "type": "question",
+          "body": "This bishop now aims straight at the knight on b1, which is defended only by the rook on e1. What has actually changed in White's position — and why can White still make a legal move here?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Technique Connection — Weak Squares",
+          "body": "What: the bishop lands on d3, adding a second attacker to a knight that already has nowhere to go. Why it matters: White's position isn't just cramped anymore — key squares (b1, c3, e2, f2, g3) have each collapsed into permanent liabilities, and there's no longer a move that doesn't hand one of them away. Which lesson it echoes: this is the 'Weak Squares' idea taken to its logical extreme — not one soft square, but an entire color complex that can no longer be defended.",
+          "concepts": ["weak squares", "restriction"]
+        }
+      ]
+    },
+    {
+      "san": "Rce1",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White shuffles a rook to add a second defender along the e-file, hoping to hold everything together. It's the last quiet move of the game."
+        }
+      ]
+    },
+    {
+      "san": "h6",
+      "classification": "critical",
+      "importance": "critical",
+      "visual": [
+        { "type": "square", "square": "g5" }
+      ],
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The waiting move that ends the game",
+          "body": "h6 attacks nothing and threatens nothing directly — it simply asks White's queen a question (must it now decide between g5 and losing time) and, more importantly, passes the move back to White with every White option now exhausted. This is the move that gives the game its name."
+        },
+        {
+          "type": "key-idea",
+          "title": "Technique Connection — Zugzwang, square by square",
+          "body": "What: walk through White's options after 25...h6 and every single one loses material or the game outright. A king move (Kh2) lets the rook swing to f3 with crushing effect on the pinned-down third rank. A pawn push like g4 does the same — it doesn't create a square for anything, it only opens more lines toward White's own king. The knight on b1 cannot move at all: its only two legal squares, a3 and c3, are both covered by Black's pawn on b4, so it is captured the instant it steps off b1 — and it cannot stay, because Bd3 is already aiming at it with only Re1 standing guard. Even active-looking tries fail outright: Qxe4 hangs the queen to ...dxe4, and Qxh6 hangs it to ...gxh6. Why it matters: this is what a true positional bind looks like at its endpoint — not one weakness but a whole position where activity and passivity both lose. Which lesson it echoes: the same mechanism the 'Triangulation' endgame study teaches with just kings and pawns — a side forced to move when every move worsens its position. Here it happens in a middlegame crawling with pieces.",
+          "concepts": ["zugzwang", "restriction"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What this game demonstrated",
+          "body": "White resigned facing 26.Kh2 (or any other move) Rf3, with no defense to the threats along the third rank. Nothing here was won by force — it was won by patiently deciding, move after move, which square White's next piece would not be allowed to use. The knight on b1 never moved off its home square all game; that immobility was engineered, not accidental. Nimzowitsch called this kind of position a 'strangulation,' and it remains the textbook demonstration that restriction is a complete winning method on its own, with no combination required to cash it in."
+        }
+      ]
+    }
+  ]
+}

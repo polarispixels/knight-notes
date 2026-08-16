@@ -1,0 +1,351 @@
+{
+  "id": "reti-alekhine-1925",
+  "catalogCode": "G014",
+  "title": "Réti vs Alekhine",
+  "subtitle": "Baden-Baden 1925 — tactical geometry across the whole board",
+  "type": "game",
+  "difficulty": "advanced",
+  "tags": ["hypermodernism", "combination", "Baden-Baden 1925", "Alexander Alekhine"],
+  "concepts": [
+    "the zwischenzug",
+    "discovered attack",
+    "the fork",
+    "calculation",
+    "forcing sequences"
+  ],
+  "summary": "Réti, the hypermodern hero who dismantled Capablanca a year earlier, is himself dismantled here — not by a single blow but by a single continuous forcing sequence, as Alekhine keeps two pieces simultaneously infiltrating White's position until every line on the board is working against him at once. Alekhine called it the best combination of his career.",
+  "metadata": {
+    "white": "Richard Réti",
+    "black": "Alexander Alekhine",
+    "event": "Baden-Baden International",
+    "site": "Baden-Baden, Germany",
+    "date": "1925.04.25",
+    "result": "0-1",
+    "eco": "A00",
+    "opening": "Réti Opening (reversed Alekhine's Defense structure)",
+    "historicalContext": "Réti's opening — 1.g3 followed by pressure on Black's advanced e4 pawn, essentially his own hypermodern defense played back at him with colors reversed — earned him a fine position. Alekhine called this his best tournament game and 'the deepest strategical combination with rooks and light pieces ever played.' A minor historical wrinkle: several early published scores disagree on exactly which move Black inserted ...h5 amid a repeated bishop maneuver around moves 16-19, and a contemporary account records a dispute over whether the position had already repeated three times — the move order given here follows the version most consistently reproduced by chess historians."
+  },
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "Techniques you will see in this game",
+      "body": "Watch for The Zwischenzug (White answers an attack on the queen with an in-between capture that creates bigger threats of its own), Discovered Attack (a bishop parked on e6 delivers check twice without ever moving itself, as a knight steps out of its way), and The Fork (the final move of the game, closing out a forty-move combination with one clean blow). None of these appear in isolation — the whole point of this game is that they arrive as a single sustained wave."
+    },
+    {
+      "type": "commentary",
+      "title": "The hypermodern hero, out-calculated",
+      "body": "A year earlier, Réti had shown the chess world that a center can be strangled from a distance without ever touching it with a pawn (see the 'Réti vs Capablanca' study). Here, the same player with the same philosophy runs into an opponent who simply calculates further and sees more. Style is a set of tools, not a team you play for — the King's Indian player, the classicist, and the hypermodernist can all win or lose with the board in front of them. This game is Réti's reminder of that, from the losing side."
+    }
+  ],
+  "line": [
+    {
+      "san": "g3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A reversed defense",
+          "body": "Réti opens with the exact setup Alekhine's Defense hands Black against 1.e4 — only here White gets the extra tempo. It's a deliberate irony: the hypermodernist offers his opponent the chance to overextend, and Alekhine, of all people, obliges."
+        }
+      ]
+    },
+    "e5",
+    "Nf3",
+    {
+      "san": "e4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black pushes past rather than defends the pawn, gaining space at the cost of a pawn that isn't easy to hold. This is the same trade every hypermodern defense offers — territory now, targets later."
+        }
+      ]
+    },
+    "Nd4",
+    "d5",
+    "d3",
+    "exd3",
+    "Qxd3",
+    "Nf6",
+    "Bg2",
+    "Bb4+",
+    "Bd2",
+    "Bxd2+",
+    "Nxd2",
+    "O-O",
+    "c4",
+    "Na6",
+    "cxd5",
+    "Nb4",
+    "Qc4",
+    "Nbxd5",
+    "N2b3",
+    "c6",
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White has a comfortable-looking position: extra space, both bishops with open lines, nothing obviously wrong. What follows over the next dozen moves happens almost entirely without either side realizing how sharp the position has become."
+        }
+      ]
+    },
+    "Re8",
+    "Rfd1",
+    "Bg4",
+    "Rd2",
+    "Qc8",
+    "Nc5",
+    "Bh3",
+    "Bf3",
+    "Bg4",
+    {
+      "san": "Bg2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A repetition, almost",
+          "body": "The bishop shuffles between f3 and g2 while Black's answers with the same maneuver in reverse — the position is edging toward a draw by repetition. Neither side wants it yet, and the position is about to break open instead."
+        }
+      ]
+    },
+    "Bh3",
+    "Bf3",
+    "Bg4",
+    "Bh1",
+    {
+      "san": "h5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Breaking the repetition on Black's terms",
+          "body": "Instead of continuing the bishop shuffle, Black commits the h-pawn forward. It looks like a minor kingside gesture; it's actually the first move of the combination that will decide the game — every pawn move from here is aimed at opening a line toward White's king."
+        }
+      ]
+    },
+    "b4",
+    "a6",
+    "Rc1",
+    "h4",
+    "a4",
+    {
+      "san": "hxg3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Trading rather than pushing further — this rips open the h-file and forces White's own pawn structure in front of his king to take on a permanent hole on h3."
+        }
+      ]
+    },
+    "hxg3",
+    "Qc7",
+    "b5",
+    "axb5",
+    "axb5",
+    {
+      "san": "Re3",
+      "classification": "critical",
+      "importance": "critical",
+      "visual": [
+        { "type": "square", "square": "e3" }
+      ],
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The rook plants itself deep in White's position, on a square nothing currently attacks. Nothing is captured, nothing is forced yet — so what is this rook actually doing there?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The quiet seed of a forty-move combination",
+          "body": "Re3 doesn't win anything by itself. It simply claims a square that will matter enormously once Black's pieces start arriving from other directions — a rook already on the third rank turns every future knight check and every future pawn capture into something more dangerous than it would otherwise be. This is what a genuinely deep combination looks like at its first move: patient, unforced, and only justified by everything that comes after."
+        }
+      ]
+    },
+    "Nf3",
+    {
+      "san": "cxb5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "This pawn capture also attacks White's queen on c4, the first in a chain of forcing moves that will not let up until the game is over."
+        }
+      ]
+    },
+    {
+      "san": "Qxb5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The queen escapes and grabs a pawn in the same move — but it lands on a square Black's other knight is about to attack too."
+        }
+      ]
+    },
+    {
+      "san": "Nc3",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A second consecutive attack on the queen. White has to answer it somehow, and simply retreating gives Black a free tempo to bring even more force to bear."
+        }
+      ]
+    },
+    {
+      "san": "Qxb7",
+      "classification": "critical",
+      "importance": "critical",
+      "visual": [
+        { "type": "arrow", "from": "b7", "to": "a8" },
+        { "type": "arrow", "from": "b7", "to": "c7" }
+      ],
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Technique Connection — The Zwischenzug",
+          "body": "What: instead of simply retreating from Nc3's attack, White's queen captures on b7 — an in-between move that attacks Black's rook on a8 and queen on c7 at the same time. Why it matters: a zwischenzug works because it changes what the opponent has to deal with before they can finish what they started; here it forces an immediate queen trade on White's terms rather than a quiet retreat. Which lesson it echoes: the same idea taught by 'The Zwischenzug' lesson — don't just answer the threat in front of you if a bigger one is available first.",
+          "concepts": ["the zwischenzug"]
+        }
+      ]
+    },
+    "Qxb7",
+    "Nxb7",
+    {
+      "san": "Nxe2+",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The first infiltrator arrives",
+          "body": "The knight that started this chase on c3 now lands on e2 with check, and it will not leave that square for six more moves. It doesn't need to attack anything else — just sitting there, deep in White's camp, is worth more than the pawn it just captured."
+        }
+      ]
+    },
+    "Kh2",
+    {
+      "san": "Ne4",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A second knight joins from the other side of the board",
+          "body": "This is not the same knight — it's the other one, coming from f6, arriving completely independently while the first knight still sits on e2. Two black knights are now converging on White's king from different directions at the same time, which is exactly what makes this combination so hard to defend: there is never just one threat to answer."
+        }
+      ]
+    },
+    "Rc4",
+    {
+      "san": "Nxf2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The second knight collects another pawn and centralizes further. White's rook on d2 can't recapture — it's blocked by Black's own knight still sitting on e2, one of the quiet costs of leaving that knight alive on move 30."
+        }
+      ]
+    },
+    "Bg2",
+    {
+      "san": "Be6",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A third piece joins the attack, gaining a tempo on White's rook while taking up a diagonal that will matter enormously in a few moves' time."
+        }
+      ]
+    },
+    "Rcc2",
+    "Ng4+",
+    "Kh3",
+    {
+      "san": "Ne5+",
+      "classification": "critical",
+      "importance": "critical",
+      "visual": [
+        { "type": "arrow", "from": "e6", "to": "h3" }
+      ],
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Technique Connection — Discovered Attack",
+          "body": "What: the knight steps from g4 to e5 — and the check doesn't come from the knight at all, but from the bishop on e6, whose diagonal to h3 the knight had been blocking the whole time. Why it matters: this is what makes discovered attacks so dangerous — the piece that moves can go somewhere completely different from where the threat appears, so the defender has two things to account for in a single move instead of one. Which lesson it echoes: exactly the mechanism in 'Discovered Attack' — a piece steps aside, and a completely different piece delivers the blow.",
+          "concepts": ["discovered attack"]
+        }
+      ]
+    },
+    "Kh2",
+    {
+      "san": "Rxf3",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The rook finally cashes in",
+          "body": "The rook that quietly took up residence on e3 back on move 26 now captures the knight that has blocked White's own bishop's diagonal all game. Everything Re3 set up sixteen moves earlier is now being collected."
+        }
+      ]
+    },
+    "Rxe2",
+    {
+      "san": "Ng4+",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White finally recaptures the knight that had squatted on e2 since move 30 — but only after it had already done its job, tying down a rook and a king for the better part of a dozen moves."
+        }
+      ]
+    },
+    "Kh3",
+    {
+      "san": "Ne3+",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The same discovery, twice",
+          "body": "Another check from the bishop on e6, not the knight — the exact same discovered-check mechanism as a few moves ago. The bishop never had to move at all; it simply waited for its own knight to step out of the way whenever a check was needed.",
+          "concepts": ["discovered attack"]
+        }
+      ]
+    },
+    "Kh2",
+    {
+      "san": "Nxc2",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A full rook falls. What began as a chase for a couple of pawns thirty moves ago has turned into a straightforward material collapse for White."
+        }
+      ]
+    },
+    {
+      "san": "Bxf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White finally recaptures the rook that had sat on f3 since move 36 — the last piece of housekeeping before the final blow lands."
+        }
+      ]
+    },
+    {
+      "san": "Nd4",
+      "classification": "critical",
+      "importance": "critical",
+      "visual": [
+        { "type": "arrow", "from": "d4", "to": "f3" },
+        { "type": "arrow", "from": "d4", "to": "e2" }
+      ],
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Technique Connection — The Fork",
+          "body": "What: the knight lands on d4 and attacks both the bishop on f3 and the rook on e2 in one move — the same simple fork taught on day one of tactics, closing out a combination that took forty moves to arrive here. Why it matters: even the deepest, longest combinations in chess history usually end the same way ordinary games do — with one piece attacking two undefended targets and nothing able to save both. Which lesson it echoes: 'The Fork,' in its purest form.",
+          "concepts": ["the fork"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What this game demonstrated",
+          "body": "Réti resigned, unable to save both the bishop and the rook. Nothing about this combination was a single flash of brilliance — it was a rook planted on move 26 with no immediate purpose, two knights infiltrating from opposite sides of the board, a bishop delivering checks it never had to move for, and a forty-move chain where every single move kept at least one White piece under attack. Alekhine called it the best combination of his career; the lesson for a student is less about any one trick here and more about the discipline of sustaining multiple simultaneous threats without ever letting the pressure lapse."
+        }
+      ]
+    }
+  ]
+}

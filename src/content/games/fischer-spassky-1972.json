@@ -1,0 +1,265 @@
+{
+  "id": "fischer-spassky-1972",
+  "catalogCode": "G017",
+  "title": "Fischer vs Spassky",
+  "subtitle": "World Championship 1972, Game 6, Reykjavik — a positional masterpiece",
+  "type": "game",
+  "difficulty": "intermediate",
+  "summary": "Fischer, famous for 1.e4, opens with the Queen's Gambit instead and plays the kind of patient, accumulating game usually associated with his opponent — a small structural concession on move 19 grows into total space and a decisive passed pawn, with no single combination doing the work. It was Fischer's first win of the match, and it flipped the score in his favor for good.",
+  "tags": ["Queen's Gambit Declined", "World Chess Championship", "classic game", "Bobby Fischer", "positional chess"],
+  "concepts": [
+    "open files",
+    "passed pawns",
+    "space",
+    "pawn structure",
+    "strategic accumulation",
+    "weak pawns"
+  ],
+  "metadata": {
+    "white": "Bobby Fischer",
+    "black": "Boris Spassky",
+    "event": "World Chess Championship 1972",
+    "site": "Reykjavik, Iceland",
+    "date": "1972.07.23",
+    "result": "1-0",
+    "eco": "D59",
+    "opening": "Queen's Gambit Declined, Tartakower Variation",
+    "historicalContext": "Game 6 of the 1972 'Match of the Century.' Fischer, who had opened 1.e4 in essentially every game of his career to that point, surprised Spassky with 1.c4 and a Queen's Gambit Declined — a bet that the specialist could out-play the world's leading QGD expert in his own territory. It worked: this was Fischer's first win of the match and turned a losing position on the scoreboard into a lead he never gave back. Several chess-history sources report that Spassky himself joined the standing ovation for this game afterward, though that anecdote is not universally corroborated in contemporary coverage and is best treated as widely reported rather than certain."
+  },
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "The specialist's own weapon",
+      "body": "Fischer built this game on the exact structure Spassky knew best — the Queen's Gambit Declined main line, right down to trading the dark-squared bishops and opening the c-file early. There is no opening novelty and no early trick. What follows is a demonstration that understanding a structure more deeply than its usual owner can be a weapon on its own."
+    },
+    {
+      "type": "key-idea",
+      "title": "Cross-reference — Queen's Gambit Declined",
+      "body": "This game is a direct, real-world sequel to the Queen's Gambit Declined study. That lesson shows Black locking the c8-bishop behind the ...e6 pawn and freeing it later at the right moment; here, the freeing comes through a direct exchange sequence (8.cxd5 Nxd5 9.Bxe7 10.Nxd5 exd5) that gets the bishop out to e6 fully active almost immediately. Fischer's very next structural decision, 19.Nxe6!, targets and eliminates that exact piece before it can prove the freeing move was worth it — the clearest possible answer to 'why does this matter' from that lesson."
+    },
+    {
+      "type": "commentary",
+      "title": "Techniques you will see in this game",
+      "body": "Open Files — White claims the half-open c-file early, ties Black's rook to defending it, then quietly redeploys to the file that actually wins the game. Passed Pawns — a single central pawn, once the light-squared bishop that could have stopped it is gone, walks to the sixth rank and pins down Black's entire position for the rest of the game. Space — a sequence of central and kingside pawn advances leaves Black's pieces with almost nowhere useful to stand."
+    }
+  ],
+  "line": [
+    "c4",
+    "e6",
+    "Nf3",
+    "d5",
+    "d4",
+    "Nf6",
+    "Nc3",
+    "Be7",
+    "Bg5",
+    "O-O",
+    "e3",
+    "h6",
+    "Bh4",
+    "b6",
+    {
+      "san": "cxd5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The Exchange Variation structure",
+          "body": "White resolves the central tension early rather than maintaining it. This trades away the piece pressure and heads straight for a structural, rather than tactical, middlegame."
+        }
+      ]
+    },
+    "Nxd5",
+    "Bxe7",
+    "Qxe7",
+    {
+      "san": "Nxd5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White trades off a second pair of minor pieces before Black can consolidate."
+        }
+      ]
+    },
+    {
+      "san": "exd5",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The bishop gets out — and becomes a target",
+          "body": "Recapturing with the e-pawn is what actually frees Black's problem piece: the c8-bishop, which the Queen's Gambit Declined study shows getting locked in behind ...e6 in the main line, can now develop to e6 immediately and actively. Fischer's plan for the rest of the game amounts to proving that freedom came at too high a structural price.",
+          "concepts": ["pawn structure"]
+        }
+      ]
+    },
+    {
+      "san": "Rc1",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Technique Connection — Open Files",
+          "body": "Neither side has a pawn missing from a full file yet — White's c-pawn is gone but Black's c-pawn still sits on c7 — so this is a half-open file, not a fully open one: useful for pressure, not yet a highway. White claims it before Black's own rook can, and the c-file will occupy Black's attention for the whole middlegame even after the real breakthrough happens elsewhere.",
+          "concepts": ["open files"]
+        }
+      ]
+    },
+    "Be6",
+    "Qa4",
+    "c5",
+    "Qa3",
+    "Rc8",
+    "Bb5",
+    "a6",
+    "dxc5",
+    "bxc5",
+    "O-O",
+    "Ra7",
+    "Be2",
+    "Nd7",
+    "Nd4",
+    "Qf8",
+    {
+      "san": "Nxe6",
+      "classification": "critical",
+      "importance": "critical",
+      "visual": [
+        { "type": "arrow", "from": "d4", "to": "e6" },
+        { "type": "square", "square": "e6" }
+      ],
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "The structural break",
+          "body": "This is a knight capturing a bishop, not a sacrifice — the piece it removes is exactly the one that got freed back on move 10. After ...fxe6, Black's pawns are doubled and the light squares around Black's king and center are permanently weaker, with no light-squared bishop left to defend them. Nothing dramatic happens for another ten moves, but this is the move the rest of the game is built on.",
+          "concepts": ["weak pawns"]
+        }
+      ]
+    },
+    {
+      "san": "fxe6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Forced — the only recapture. Black's pawn structure is now e6-doubled and permanently weaker on the light squares, with no bishop of that color left to compensate."
+        }
+      ]
+    },
+    {
+      "san": "e4",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Technique Connection — Space",
+          "body": "Multiple annotators single this out as the key move of the game. With Black's light-squared bishop gone, White's own central pawns can advance without being challenged on those same light squares, and this single push begins a central and kingside pawn avalanche — e4, f4, e5, f5, e6 all follow — that steadily takes away Black's usable squares.",
+          "concepts": ["space"]
+        }
+      ]
+    },
+    "d4",
+    "f4",
+    "Qe7",
+    "e5",
+    "Rb8",
+    "Bc4",
+    "Kh8",
+    "Qh3",
+    "Nf8",
+    "b3",
+    "a5",
+    "f5",
+    "exf5",
+    "Rxf5",
+    {
+      "san": "Nh7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A knight with nowhere to go",
+          "body": "Black's pieces are running out of useful squares — this knight retreats to the rim rather than take part in the game. This is what the space advantage from move 20 was for."
+        }
+      ]
+    },
+    {
+      "san": "Rcf1",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "The c-file's job was never to win by itself",
+          "body": "White's other rook abandons the c-file it spent thirteen moves occupying and joins the attack on the f-file instead. The pressure on c5 tied Black's rook to a7 defending it for the whole middlegame — a restraint, not the decisive blow. The actual breakthrough was always going to come from the center and kingside, where the space is.",
+          "concepts": ["open files"]
+        }
+      ]
+    },
+    "Qd8",
+    "Qg3",
+    "Re7",
+    "h4",
+    "Rbb7",
+    {
+      "san": "e6",
+      "classification": "critical",
+      "importance": "critical",
+      "visual": [{ "type": "square", "square": "e6" }],
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Technique Connection — Passed Pawns",
+          "body": "With the bishop that could once have blockaded this square gone since move 19, the pawn simply advances to the sixth rank. It isn't captured, and it doesn't need to be defended by much — Black's rooks and queen now have to spend every remaining move making sure it never reaches the seventh. A pawn doesn't need to promote to win a game; it only needs to freeze the opponent's pieces in place, and this one does exactly that for the rest of the game.",
+          "concepts": ["passed pawns"]
+        }
+      ]
+    },
+    "Rbc7",
+    "Qe5",
+    "Qe8",
+    "a4",
+    "Qd8",
+    "R1f2",
+    "Qe8",
+    "R2f3",
+    {
+      "san": "Qd8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Shuffling because there's nothing else to do",
+          "body": "Black's queen moves back and forth between d8 and e8 for several moves running. This isn't indecision — there is genuinely no active plan available. That is the space advantage cashing out: not a mating attack, just an opponent with no good moves left."
+        }
+      ]
+    },
+    "Bd3",
+    "Qe8",
+    "Qe4",
+    "Nf6",
+    {
+      "san": "Rxf6",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Cashing in the space advantage",
+          "body": "White gives up the exchange to tear open the kingside — with Black's pieces this passive and the e6 pawn pinning down the defense, White has more than enough attackers left to finish the job."
+        }
+      ]
+    },
+    "gxf6",
+    "Rxf6",
+    "Kg8",
+    "Bc4",
+    "Kh8",
+    {
+      "san": "Qf4",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What this game demonstrated",
+          "body": "Spassky resigned here, with no defense against the mating threats along the f-file and the a2-g8 diagonal. Nothing about this win came from a single tactical shot — it came from a chain that started with 19.Nxe6! removing one piece, grew into total space with 20.e4, and locked the game up with 31.e6. Several chess-history accounts report that Spassky applauded along with the audience afterward, in recognition of exactly this kind of game: patient, accumulating, and, in the end, inevitable.",
+          "concepts": ["strategic accumulation", "space", "passed pawns"]
+        }
+      ]
+    }
+  ]
+}

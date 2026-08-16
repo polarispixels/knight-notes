@@ -1,0 +1,453 @@
+{
+  "id": "carlsen-nepomniachtchi-2021",
+  "catalogCode": "G022",
+  "title": "Carlsen vs Nepomniachtchi",
+  "subtitle": "World Chess Championship 2021, Game 6, Dubai — 136 moves",
+  "type": "game",
+  "difficulty": "advanced",
+  "summary": "The longest game in World Championship history: an equal Catalan middlegame that never becomes objectively winning, yet Carlsen keeps trading down into ever-thornier practical problems — a queen for two rooks, then a long queen-versus-rook-and-knight ending — until Nepomniachtchi, defending accurately for seventy straight moves, finally makes the one error that matters.",
+  "tags": ["World Chess Championship", "Catalan Opening", "longest game", "endgame technique", "Magnus Carlsen", "practical resistance", "conversion"],
+  "concepts": [
+    "endgame technique",
+    "king activity",
+    "passed pawns",
+    "rook activity",
+    "practical resistance",
+    "conversion of an advantage"
+  ],
+  "metadata": {
+    "white": "Magnus Carlsen",
+    "black": "Ian Nepomniachtchi",
+    "event": "FIDE World Chess Championship 2021, Game 6",
+    "site": "Dubai, United Arab Emirates",
+    "date": "2021.12.03",
+    "result": "1-0",
+    "eco": "D02",
+    "opening": "Queen's Pawn Game, Catalan-style setup",
+    "historicalContext": "Played over December 3-4, 2021 — the game crossed midnight in Dubai, and Carlsen's winning move landed 17 minutes past the hour. At 136 moves it is the longest game in World Championship history, surpassing the previous record, a 124-move draw between Anatoly Karpov and Viktor Korchnoi in game 5 of their 1978 match. The match had opened with five straight draws; this win is widely regarded as its turning point. Nepomniachtchi's play visibly declined afterward, and Carlsen went on to retain his title 7½–3½."
+  },
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "A draw for seven hours and forty-seven minutes — until it wasn't",
+      "body": "Both players and most commentators agreed the objective evaluation hovered near equal for most of this game — including through the long queen-versus-rook-and-knight ending that fills its second half. Nepomniachtchi defended it correctly for dozens of moves. What finally decided the game wasn't a discovered brilliancy; it was fatigue catching up with precise, accumulated pressure. That combination — objectively drawn, practically brutal — is exactly why this game is worth studying: conversion is often less about finding a winning line than about making the opponent solve one more problem than they have energy left for."
+    },
+    {
+      "type": "key-idea",
+      "title": "Techniques you will see in this game",
+      "body": "Watch for Open Files — once the center pawns are gone, White's rooks operate on the a-, c-, d-, e-, and f-files for the rest of the game, chasing Black's queen and bishop with no fixed target. Watch for Passed Pawns — a connected e-and-f pawn duo becomes the actual winning weapon in the final third of the game, not any single tactic. And watch for King Activity — once queens and most of the pieces are reduced, Carlsen's king stops hiding and marches up the board to help finish the job, the same principle that decides simple endgames decides this one too.",
+      "concepts": ["rook activity", "passed pawns", "king activity"]
+    }
+  ],
+  "line": [
+    "d4",
+    "Nf6",
+    "Nf3",
+    "d5",
+    "g3",
+    "e6",
+    "Bg2",
+    "Be7",
+    "O-O",
+    "O-O",
+    "b3",
+    "c5",
+    "dxc5",
+    "Bxc5",
+    "c4",
+    "dxc4",
+    "Qc2",
+    "Qe7",
+    "Nbd2",
+    "Nc6",
+    "Nxc4",
+    "b5",
+    "Nce5",
+    {
+      "san": "Nb4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A normal Catalan skirmish",
+          "body": "The knight hops in with tempo on White's queen. Nothing unusual yet — this kind of small tactical jab, forcing one useful move out of the opponent, is completely typical middlegame maneuvering in this structure."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b4", "to": "c2" }]
+    },
+    "Qb2",
+    "Bb7",
+    "a3",
+    "Nc6",
+    "Nd3",
+    "Bb6",
+    "Bg5",
+    "Rfd8",
+    "Bxf6",
+    "gxf6",
+    "Rac1",
+    "Nd4",
+    "Nxd4",
+    "Bxd4",
+    "Qa2",
+    "Bxg2",
+    "Kxg2",
+    "Qb7+",
+    "Kg1",
+    "Qe4",
+    "Qc2",
+    "a5",
+    "Rfd1",
+    "Kg7",
+    "Rd2",
+    {
+      "san": "Rac8",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Material is level, both queens are on the board, and this looks like an ordinary rook lift. What is Carlsen about to decide with his next move?"
+        }
+      ]
+    },
+    {
+      "san": "Qxc8",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Queen for two rooks — choosing problems over points",
+          "body": "This isn't a blunder — it's a decision. After the coming ...Rxc8 Rxc8, Carlsen ends up with two rooks and a knight against queen and bishop, a material balance the engines call close to equal but that Carlsen judged gave him the better practical chances: two coordinated rooks are far easier to play with than a single queen trying to hold everything together. 'I felt like we were both risking a bit,' Carlsen said afterward, 'but I thought Black was maybe risking a bit more.'",
+          "concepts": ["material imbalance"]
+        }
+      ]
+    },
+    "Rxc8",
+    {
+      "san": "Rxc8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The point completes: White has two rooks and a knight for the queen. On paper it's close to balanced — in practice, it's the start of a very long day for Black."
+        }
+      ]
+    },
+    "Qd5",
+    "b4",
+    "a4",
+    "e3",
+    "Be5",
+    "h4",
+    "h5",
+    "Kh2",
+    "Bb2",
+    "Rc5",
+    "Qd6",
+    "Rd1",
+    "Bxa3",
+    "Rxb5",
+    "Qd7",
+    "Rc5",
+    "e5",
+    "Rc2",
+    "Qd5",
+    "Rdd2",
+    "Qb3",
+    "Ra2",
+    "e4",
+    "Nc5",
+    "Qxb4",
+    "Nxe4",
+    "Qb3",
+    "Rac2",
+    "Bf8",
+    "Nc5",
+    "Qb5",
+    "Nd3",
+    "a3",
+    "Nf4",
+    "Qa5",
+    "Ra2",
+    "Bb4",
+    "Rd3",
+    "Kh6",
+    "Rd1",
+    "Qa4",
+    "Rda1",
+    "Bd6",
+    "Kg1",
+    "Qb3",
+    "Ne2",
+    "Qd3",
+    "Nd4",
+    "Kh7",
+    "Kh2",
+    "Qe4",
+    "Rxa3",
+    "Qxh4+",
+    "Kg1",
+    "Qe4",
+    "Ra4",
+    "Be5",
+    "Ne2",
+    "Qc2",
+    "R1a2",
+    "Qb3",
+    "Kg2",
+    "Qd5+",
+    "f3",
+    "Qd1",
+    "f4",
+    "Bc7",
+    "Kf2",
+    "Bb6",
+    "Ra1",
+    "Qb3",
+    "Re4",
+    "Kg7",
+    "Re8",
+    "f5",
+    "Raa8",
+    "Qb4",
+    "Rac8",
+    "Ba5",
+    "Rc1",
+    "Bb6",
+    "Re5",
+    "Qb3",
+    "Re8",
+    "Qd5",
+    "Rcc8",
+    "Qh1",
+    "Rc1",
+    "Qd5",
+    "Rb1",
+    "Ba7",
+    {
+      "san": "Re7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Technique Connection — Open Files",
+          "body": "For the next stretch White's rooks simply patrol the open files, herding Black's bishop back and forth across a5, a7, b6, and c5 while the queen has to keep an eye on the back rank. Nothing gets won here directly — the point is that the rooks always have somewhere useful to go and Black's pieces don't. Nothing concrete changes for several moves in a row; Carlsen just keeps asking small questions. That patience is itself the technique.",
+          "concepts": ["rook activity"]
+        }
+      ]
+    },
+    "Bc5",
+    "Re5",
+    "Qd3",
+    "Rb7",
+    "Qc2",
+    "Rb5",
+    "Ba7",
+    "Ra5",
+    "Bb6",
+    "Rab5",
+    "Ba7",
+    "Rxf5",
+    "Qd3",
+    "Rxf7+",
+    "Kxf7",
+    "Rb7+",
+    "Kg6",
+    {
+      "san": "Rxa7",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The imbalance that decides the rest of the game",
+          "body": "White gave back an exchange on f7 but comes out of it having won the bishop. From here the material stays fixed for the remainder of the game: White has a rook, a knight, and pawns against Black's queen and pawns. This exact type of ending has a well-established reputation in endgame theory — with precise defense, it is usually a draw. That reputation is exactly what makes the next seventy moves worth watching: Nepomniachtchi has to find the correct defensive setup over and over, under a clock, for the rest of the night.",
+          "concepts": ["material imbalance", "endgame technique"]
+        }
+      ]
+    },
+    "Qd5",
+    "Ra6+",
+    "Kh7",
+    "Ra1",
+    "Kg6",
+    "Nd4",
+    "Qb7",
+    "Ra2",
+    {
+      "san": "Qh1",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Is this simply a fortress? White is up material, but the rook and knight can't easily make progress while the queen checks from a safe distance. What does Black actually need to do, move after move, to hold a position like this?"
+        }
+      ]
+    },
+    "Ra6+",
+    "Kf7",
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The defender's real job",
+          "body": "There's no single saving move here — the defense is a repeated task: keep the king safe from a mating net, keep giving checks or threatening checks so White can't coordinate rook and knight for one clean move, and never let the queen get pinned down defending one square. Objectively, this can be held. Subjectively, it has to be re-solved correctly on nearly every move, for as long as White keeps trying."
+        }
+      ]
+    },
+    "Qb1",
+    "Rd6",
+    "Kg7",
+    "Rd5",
+    "Qa2+",
+    "Rd2",
+    "Qb1",
+    "Re2",
+    "Qb6",
+    "Rc2",
+    "Qb1",
+    "Nd4",
+    "Qh1",
+    "Rc7+",
+    "Kf6",
+    "Rc6+",
+    "Kf7",
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Another stretch where the position barely changes on the surface — rook and knight shuffle to new squares, the queen checks and retreats, the king edges between f6, f7, and g7. Nothing concrete happens for a dozen moves. Carlsen is still just asking small questions; Nepomniachtchi is still finding the right answers."
+        }
+      ]
+    },
+    "Qb1",
+    "Ng5+",
+    "Kg7",
+    "Ne6+",
+    "Kf7",
+    "Nd4",
+    "Qh1",
+    "Rc7+",
+    "Kf6",
+    "Nf3",
+    "Qb1",
+    "Rd7",
+    "Qb2+",
+    "Rd2",
+    "Qb1",
+    "Ng1",
+    "Qb4",
+    "Rd1",
+    "Qb3",
+    "Rd6+",
+    "Kg7",
+    "Rd4",
+    "Qb2+",
+    "Ne2",
+    "Qb1",
+    {
+      "san": "e4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Technique Connection — Passed Pawns",
+          "body": "After all those repeating checks, this pawn push is the first real sign of progress: the central pawn starts advancing under cover of the rook and knight, with the king soon to follow. This is what finally breaks the pattern — not a new tactic, but a passed pawn beginning its walk, backed by every other piece on the board."
+        }
+      ]
+    },
+    "Qh1",
+    "Rd7+",
+    "Kg8",
+    "Rd4",
+    "Qh2+",
+    {
+      "san": "Ke3",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Technique Connection — King Activity",
+          "body": "Walking the king toward the center while the enemy queen is still giving checks looks dangerous, but with the black rooks and bishop long gone there's nothing left to punish it. This is the same idea that wins simple king-and-pawn endings: once material is reduced enough, the king is too valuable a fighting piece to leave at home, and its activity is worth more than the theoretical risk of a few more checks."
+        }
+      ]
+    },
+    "h4",
+    "gxh4",
+    "Qh3+",
+    "Kd2",
+    "Qxh4",
+    "Rd3",
+    "Kf8",
+    "Rf3",
+    "Qd8+",
+    "Ke3",
+    "Qa5",
+    "Kf2",
+    "Qa7+",
+    "Re3",
+    "Qd7",
+    "Ng3",
+    "Qd2+",
+    "Kf3",
+    "Qd1+",
+    "Re2",
+    "Qb3+",
+    "Kg2",
+    "Qb7",
+    "Rd2",
+    "Qb3",
+    "Rd5",
+    "Ke7",
+    "Re5+",
+    "Kf7",
+    "Rf5+",
+    "Ke8",
+    {
+      "san": "e5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "strategy",
+          "body": "The passed pawn is now two squares from a protected advance, with the king and knight both able to escort it. Black's checks are running out of targets — the king has too much room, and the pawn keeps coming regardless of them."
+        }
+      ]
+    },
+    "Qa2+",
+    "Kh3",
+    {
+      "san": "Qe6",
+      "classification": "mistake",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "mistake",
+          "title": "The decisive error",
+          "body": "After seventy moves of correct defense, this is the move analysts point to as the one that lets the win through. The far more resilient try was 130...Qc2, keeping the queen active on both flanks and continuing to make White prove the win move by move. Qe6 instead ties the queen down defending the advanced pawns directly — and engine analysis afterward showed the position was already a forced win for White from here. It's a small, human choice under exhaustion, not a blunder anyone would call obvious over the board — which is exactly the point about long defenses like this one."
+        }
+      ]
+    },
+    "Kh4",
+    "Qh6+",
+    "Nh5",
+    "Qh7",
+    "e6",
+    "Qg6",
+    "Rf7",
+    "Kd8",
+    "f5",
+    "Qg1",
+    {
+      "san": "Ng7",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What this game demonstrated",
+          "body": "Nepomniachtchi resigned here: the threat of e7+ is unstoppable, and the White king finally has a completely safe hiding spot on g8 once the pawn queens, so no sequence of checks can save Black any longer. Nothing about this game turned on a single brilliant idea. It turned on Carlsen manufacturing one practical problem after another out of a position that was, for most of its length, objectively drawn — open files for the rooks, a passed pawn nursed patiently up the board, and a king that stopped hiding once it was safe to fight. Defensive resistance is a real skill, and Nepomniachtchi showed plenty of it for seventy-odd moves. Conversion, at this level, is often just the discipline to keep asking the question one more time than the opponent can keep answering it correctly.",
+          "concepts": ["passed pawns", "king activity", "conversion of an advantage"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "e6", "to": "e7" },
+        { "type": "square", "square": "g8" }
+      ]
+    }
+  ]
+}

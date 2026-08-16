@@ -1,0 +1,278 @@
+{
+  "id": "rotlewi-rubinstein-1907",
+  "catalogCode": "G011",
+  "title": "Rotlewi vs Rubinstein",
+  "subtitle": "Lodz 1907 — \"Rubinstein's Immortal\"",
+  "type": "game",
+  "difficulty": "advanced",
+  "summary": "A symmetrical opening quietly tilts in Black's favor as Rubinstein claims both open central files and posts two bishops on adjacent diagonals aimed at White's king. The result is 22...Rxc3!!, a combination in which every single Black piece has a job — proof that a great combination is the harvest of coordination, not a lone flash of calculation.",
+  "tags": ["Tarrasch Defense", "Rubinstein's Immortal", "Akiba Rubinstein", "classic game", "queen sacrifice", "combination"],
+  "concepts": [
+    "open files",
+    "removal of the defender",
+    "the overloaded piece",
+    "piece coordination",
+    "combination"
+  ],
+  "metadata": {
+    "white": "Georg Rotlewi",
+    "black": "Akiba Rubinstein",
+    "event": "Lodz Tournament",
+    "site": "Łódź, Poland",
+    "date": "1907.12.26",
+    "result": "0-1",
+    "eco": "D32",
+    "opening": "Tarrasch Defense, Symmetrical Variation",
+    "historicalContext": "Chess historian Hans Kmoch dubbed this 'Rubinstein's Immortal,' and the Austrian master Carl Schlechter called its final combination perhaps the most beautiful of all time. Garry Kasparov later named it Rubinstein's most famous creation. What makes it a model study rather than just a pretty finish is how ordinary the position looks right up until move 22 — nothing here is a swindle."
+  },
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "An unremarkable position explodes",
+      "body": "For nineteen moves this looks like a normal, slightly favorable position for Black — an extra tempo, some open lines, nothing that screams 'forced win.' Then 22...Rxc3!! begins a four-move combination in which every Black piece — both rooks, both bishops, and the knight that started it — takes part. Read the buildup as carefully as the finish; the combination only exists because of it."
+    },
+    {
+      "type": "key-idea",
+      "title": "Techniques you will see in this game",
+      "body": "Open Files — a series of symmetrical pawn trades empties the c- and d-files completely, and Black's rooks get there first. Removal of the Defender — the combination opens by eliminating the one piece guarding a key bishop. The Overloaded Piece — White's queen ends up needed in two places at once and cannot cover both, which is the mechanism that actually loses the game.",
+      "concepts": ["open files", "removal of the defender", "the overloaded piece"]
+    }
+  ],
+  "line": [
+    "d4",
+    "d5",
+    "Nf3",
+    "e6",
+    "e3",
+    "c5",
+    "c4",
+    "Nc6",
+    "Nc3",
+    "Nf6",
+    "dxc5",
+    "Bxc5",
+    "a3",
+    "a6",
+    "b4",
+    "Bd6",
+    "Bb2",
+    "O-O",
+    "Qd2",
+    {
+      "san": "Qe7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A quiet, symmetrical Tarrasch structure so far — both sides have traded a pair of central pawns and developed naturally. Nothing here suggests what is coming."
+        }
+      ]
+    },
+    "Bd3",
+    {
+      "san": "dxc4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The files start to open",
+          "body": "This exchange, completed on the next move, will strip both the c-file and the d-file bare of pawns for both sides. Whoever gets there first with rooks gets the better of it — and Black is about to."
+        }
+      ]
+    },
+    "Bxc4",
+    "b5",
+    "Bd3",
+    {
+      "san": "Rd8",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Technique Connection — Open Files",
+          "body": "What's happening: the d-file has just become completely empty of pawns, and Black's rook claims it immediately. Why it matters: White's own rooks are still on a1 and h1, needing two more moves each just to reach these same files — Black is simply getting there first. Which lesson it echoes: this is Open Files as a strategic asset, not a tactic — years before the combination, this rook is already quietly aimed at the second rank where the game will actually be decided.",
+          "concepts": ["open files"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d8", "to": "d2" }]
+    },
+    "Qe2",
+    {
+      "san": "Bb7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The other bishop heads for the long diagonal toward White's king. Black now has one rook on an open file and a bishop pointed at the enemy king before move 15."
+        }
+      ]
+    },
+    "O-O",
+    "Ne5",
+    "Nxe5",
+    "Bxe5",
+    "f4",
+    "Bc7",
+    "e4",
+    {
+      "san": "Rac8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The second rook takes the newly open c-file. Both of Black's rooks are now on open files aimed at White's back rank — exactly the highways the final combination will use."
+        }
+      ]
+    },
+    {
+      "san": "e5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White gains space and pushes the knight off f6, but this also removes the last piece that was covering g4 and h5 near White's own king — a cost that will matter in two moves."
+        }
+      ]
+    },
+    {
+      "san": "Bb6+",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The second bishop finds its diagonal",
+          "body": "This check lands the dark-squared bishop on the a7-g1 diagonal, running straight through White's king corner. Black now has two bishops on two different diagonals that both point at the same small patch of board around White's king — a pattern worth watching for the rest of the game.",
+          "concepts": ["piece coordination"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b6", "to": "g1" }]
+    },
+    "Kh1",
+    {
+      "san": "Ng4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The knight jumps forward rather than retreating from the e5 pawn. It now covers h2 — a detail that looks minor now but decides the game's very last move."
+        }
+      ]
+    },
+    {
+      "san": "Be4",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A defense prepared one move too early",
+          "body": "This looks purely developing, but it is prophylaxis: White anticipates needing g3 to meet a coming ...Qh4, and g3 would open the long diagonal straight to White's own king for Black's bishop on b7. Placing a piece on e4 blocks that diagonal in advance — a reasonable idea, undone by the fact that this bishop's only defender is about to be removed.",
+          "concepts": ["piece coordination"]
+        }
+      ]
+    },
+    {
+      "san": "Qh4",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White has an extra pawn and no visible weaknesses beyond a slightly awkward king. What could justify Black's next move deliberately allowing the queen to be captured?"
+        }
+      ]
+    },
+    {
+      "san": "g3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "This attacks the queen and, on the surface, looks like it solves everything. It also opens the long diagonal in front of White's own king — the very thing Be4 was played to prevent, except the piece defending that block is about to disappear."
+        }
+      ]
+    },
+    {
+      "san": "Rxc3",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Technique Connection — Removal of the Defender",
+          "body": "What's happening: the rook captures the knight on c3, ignoring that Black's own queen hangs to gxh4. Why it matters: that knight was one of only two pieces defending the bishop on e4 — remove it, and the bishop's survival depends entirely on the queen, which is about to be pulled away. Which lesson it echoes: Removal of the Defender doesn't always look dramatic — here it's disguised as a piece just standing by, and its removal is what makes everything after this move work.",
+          "concepts": ["removal of the defender"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "c8", "to": "c3" },
+        { "type": "square", "square": "e4" }
+      ]
+    },
+    {
+      "san": "gxh4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White grabs the queen, which looks like the position has simply been won outright. It hasn't — Black gave up the queen on purpose, and the bishop on e4 is now defended by exactly one piece."
+        }
+      ]
+    },
+    {
+      "san": "Rd2",
+      "classification": "sacrifice",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Technique Connection — The Overloaded Piece",
+          "body": "What's happening: the second rook attacks White's queen directly along the second rank. Why it matters: that queen has exactly one job left — defending the bishop on e4 — and now it has a second, incompatible job: dealing with a rook attacking it outright. It cannot do both. Which lesson it echoes: this is the Overloaded Piece at its cleanest — capture the rook and the bishop falls with check; move away and the bishop falls anyway. There is no square that does both.",
+          "concepts": ["the overloaded piece"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d2", "to": "e2" }]
+    },
+    {
+      "san": "Qxd2",
+      "classification": "forced",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Capturing looks like the only practical try, but it removes the queen from the e-file for good — the bishop on e4 loses its last defender the instant this move is played."
+        }
+      ]
+    },
+    {
+      "san": "Bxe4+",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The long diagonal, finally clear",
+          "body": "The bishop from b7 — quietly aimed at this exact square since move 14 — captures the undefended bishop with check. The g-file is empty (it was vacated back on move 23), so the diagonal from e4 runs straight through to White's king on h1 with nothing in between.",
+          "concepts": ["piece coordination"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "b7", "to": "h1" },
+        { "type": "square", "square": "e4" }
+      ]
+    },
+    {
+      "san": "Qg2",
+      "classification": "forced",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The only square that blocks the check. This move will turn out to trap the queen in place for the rest of the game — it cannot leave g2 without reopening the same diagonal."
+        }
+      ]
+    },
+    {
+      "san": "Rh3",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "What this game demonstrated",
+          "body": "White resigns here, facing an unstoppable ...Rxh2#. Work through why nothing saves it: the king cannot flee to g1 — Black's other bishop has covered that square since move 19. The king cannot capture a rook that lands on h2 — the knight on g4 guards that square, so Kxh2 would be moving into check. And the queen on g2 cannot capture it either, because g2 is the only square blocking the bishop's check along the long diagonal — the instant the queen moves, discovered check arrives and the king is still in exactly as much trouble. Every defender is doing a job it cannot stop doing, which is the real theme of this whole combination: Open Files got Black's rooks to the second rank years in advance, Removal of the Defender cleared the bishop's guard, and the Overloaded Piece forced White's queen into a position where it could never again do everything asked of it. White's material — a full queen and a knight ahead — never gets the chance to matter.",
+          "concepts": ["open files", "removal of the defender", "the overloaded piece", "combination"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "h2" },
+        { "type": "square", "square": "g1" },
+        { "type": "arrow", "from": "h3", "to": "h2" }
+      ]
+    }
+  ]
+}

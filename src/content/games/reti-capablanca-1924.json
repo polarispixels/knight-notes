@@ -1,0 +1,265 @@
+{
+  "id": "reti-capablanca-1924",
+  "catalogCode": "G013",
+  "title": "Réti vs Capablanca",
+  "subtitle": "New York 1924 — the center controlled from a distance",
+  "type": "game",
+  "difficulty": "intermediate",
+  "summary": "Réti fianchettoes both bishops, never plants a pawn in the center, and still ends up controlling it completely — the game that convinced the chess world hypermodernism wasn't a theory but a weapon, played against the reigning World Champion.",
+  "tags": ["Réti Opening", "English Opening", "hypermodernism", "double fianchetto", "New York 1924"],
+  "concepts": [
+    "influence over occupation",
+    "fianchetto",
+    "open files",
+    "weak squares",
+    "the long diagonal"
+  ],
+  "metadata": {
+    "white": "Richard Réti",
+    "black": "José Raúl Capablanca",
+    "event": "New York International",
+    "site": "New York, USA",
+    "date": "1924.03.22",
+    "result": "1-0",
+    "eco": "A15",
+    "opening": "English Opening (Réti/King's Indian Attack formation)",
+    "historicalContext": "Played in round 5, this win is most often cited as ending Capablanca's roughly eight-year, 63-game unbeaten streak in serious competition, dating back to a loss to Oscar Chajes in New York, 1916 — a run so long that many of Capablanca's contemporaries had started to wonder whether he could be beaten at all. Réti did it without ever occupying the center with a pawn, the clearest practical proof his hypermodern ideas could work were offered."
+  },
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "Techniques you will see in this game",
+      "body": "Watch for The Fianchetto, done twice over (both bishops reach for the long diagonals instead of pawns reaching for the center), Weak Squares (Capablanca's center pawns become targets precisely because nothing challenged them early), and Open Files (once the center cracks, White's rook floods straight down it). This game connects directly to the 'English Opening' study — same philosophy, control before occupation — and to the fianchetto ideas at the heart of the 'King's Indian Defense' study, here played by White instead of Black."
+    },
+    {
+      "type": "commentary",
+      "title": "The World Champion, unbeaten since 1916",
+      "body": "Capablanca's game was built on the idea that classical principles, played essentially without error, were close to unbeatable. Réti doesn't refute those principles here so much as show they have a blind spot: a center can be strong without occupying a single central square, if it's controlled by pieces aimed at it from the flanks."
+    }
+  ],
+  "line": [
+    "Nf3",
+    "Nf6",
+    {
+      "san": "c4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "1.Nf3 c4 — no center pawn in sight",
+          "body": "Two moves in and White hasn't touched a central pawn. This isn't indecision — it's the opening statement of the whole game: control the center with pieces, keep the pawns flexible, decide later exactly how to use them."
+        }
+      ]
+    },
+    "g6",
+    "b4",
+    {
+      "san": "Bg7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black answers in kind, fianchettoing rather than staking a center claim. Both sides are, for now, playing the hypermodern way."
+        }
+      ]
+    },
+    {
+      "san": "Bb2",
+      "importance": "notable",
+      "visual": [
+        { "type": "arrow", "from": "b2", "to": "g7" }
+      ],
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "The first long diagonal claimed",
+          "body": "The bishop on b2 doesn't sit on a central square — it stares straight through d4 and e5 toward Black's king. This is influence, not occupation: no pawn will ever need to defend this bishop's target squares, because the bishop is the one doing the attacking.",
+          "concepts": ["influence over occupation", "fianchetto"]
+        }
+      ]
+    },
+    "O-O",
+    "g3",
+    "b6",
+    {
+      "san": "Bg2",
+      "importance": "notable",
+      "visual": [
+        { "type": "arrow", "from": "g2", "to": "a8" }
+      ],
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "The double fianchetto",
+          "body": "Now both of White's bishops point down long diagonals — Bb2 toward Black's king, Bg2 toward Black's queenside. Neither has moved a central pawn to get there. This is the exact structure the 'English Opening' study is built around: two bishops doing the work two center pawns would normally do, with none of the weaknesses a big pawn center eventually creates.",
+          "concepts": ["fianchetto", "influence over occupation"]
+        }
+      ]
+    },
+    "Bb7",
+    "O-O",
+    "d6",
+    "d3",
+    "Nbd7",
+    "Nbd2",
+    "e5",
+    {
+      "san": "Qc2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White's remaining pieces line up behind the long diagonals rather than in front of them. The position is still calm — the pressure is all potential energy for now."
+        }
+      ]
+    },
+    "Re8",
+    "Rfd1",
+    "a5",
+    "a3",
+    "h6",
+    "Nf1",
+    "c5",
+    "b5",
+    "Nf8",
+    "e3",
+    "Qc7",
+    {
+      "san": "d4",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The center pawn finally moves — because the pieces already own it",
+          "body": "Nineteen moves in, and this is the first central pawn push of the game for White. It isn't a gamble; it's a formality. The long diagonals are already claimed, the pieces are already aimed, and this pawn is simply cashing in an advantage that was built long before it moved.",
+          "concepts": ["influence over occupation"]
+        }
+      ]
+    },
+    {
+      "san": "Be4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Capablanca centralizes his own bishop to contest the long diagonal, trying to answer influence with influence. But White has more pieces pointed at the center than Black does."
+        }
+      ]
+    },
+    "Qc3",
+    "exd4",
+    "exd4",
+    "N6d7",
+    "Qd2",
+    "cxd4",
+    {
+      "san": "Bxd4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The recapture lands right back on the long diagonal — the bishop was always going to end up here, one way or another."
+        }
+      ]
+    },
+    {
+      "san": "Qxc4",
+      "classification": "mistake",
+      "annotations": [
+        {
+          "type": "mistake",
+          "title": "Grabbing a pawn, losing the diagonal",
+          "body": "This looks like simple material, but it walks the queen away from defending g7 at the exact moment White's dark-squared bishop is bearing down on it. A single tempo spent on a pawn is about to cost much more."
+        }
+      ]
+    },
+    {
+      "san": "Bxg7",
+      "classification": "critical",
+      "importance": "critical",
+      "visual": [
+        { "type": "square", "square": "g7" },
+        { "type": "arrow", "from": "b2", "to": "g7" }
+      ],
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Technique Connection — Weak Squares",
+          "body": "What: the bishop that has aimed at g7 since move 4 finally lands there, ripping open Black's king position. Why it matters: g7 was never a weak square by accident — it became one the moment Black fianchettoed and then let the defending bishop leave the diagonal. Which lesson it echoes: this is the payoff of 'Weak Squares' — a target identified early, left unaddressed for twenty moves, and finally collected the instant the defender looked away.",
+          "concepts": ["weak squares"]
+        }
+      ]
+    },
+    "Kxg7",
+    "Qb2+",
+    "Kg8",
+    {
+      "san": "Rxd6",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The center falls, not through it — around it",
+          "body": "White never needed to break through the center with a pawn storm. Once the long diagonals did their work, the d6 pawn simply had no one left to defend it, and the rook picked it up for free. This is the whole game in one move: influence from a distance, cashed in as material once the position cracked.",
+          "concepts": ["open files"]
+        }
+      ]
+    },
+    "Qc5",
+    "Rad1",
+    "Ra7",
+    {
+      "san": "Ne3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White keeps improving the worst-placed piece rather than rushing the attack. A full piece and a pawn's worth of advantage doesn't need to be forced — it needs to be organized."
+        }
+      ]
+    },
+    "Qh5",
+    "Nd4",
+    "Bxg2",
+    "Kxg2",
+    "Qe5",
+    "Nc4",
+    "Qc5",
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The knight muscles into the seventh rank alongside the rooks, forking the loose rook on c7's square and adding one more attacker to a position with too few defenders left."
+        }
+      ]
+    },
+    "Rc7",
+    "Ne3",
+    {
+      "san": "Ne5",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black's knight jumps to e5, hoping to trade off an attacker. What does White have that ignores this offer and finishes the game outright?"
+        }
+      ]
+    },
+    {
+      "san": "R1d5",
+      "classification": "critical",
+      "importance": "critical",
+      "visual": [
+        { "type": "arrow", "from": "d5", "to": "c5" },
+        { "type": "arrow", "from": "d5", "to": "e5" }
+      ],
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "One rook, two targets",
+          "body": "The second rook arrives on d5 and attacks the queen on c5 and the knight on e5 in the same move, along the same rank. Both are already attacked a second time by other White pieces — there is no square that saves everything, and Capablanca resigned rather than watch the material disappear piece by piece."
+        },
+        {
+          "type": "key-idea",
+          "title": "What this game demonstrated",
+          "body": "Réti never occupied a central square with a pawn until move 19, and even then it was a formality — the position had already been won by bishops aimed at the center from b2 and g2 rather than pawns planted on it. The lesson isn't that pawns don't matter; it's that control matters more than occupation, and this was the game that proved it against the strongest classical player alive.",
+          "concepts": ["influence over occupation"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "id": "karpov-kasparov-1985",
+  "catalogCode": "G019",
+  "title": "Karpov vs Kasparov",
+  "subtitle": "World Championship rematch 1985, Game 16 — the octopus knight",
+  "type": "game",
+  "difficulty": "advanced",
+  "summary": "Kasparov offers a pawn on move 8 to plant a knight on d3, deep in White's own camp, and for eighteen moves nothing in Karpov's army can touch it. When White finally pays the price to remove it, a second knight is waiting to fork king and queen — the pawn comes back a queen richer.",
+  "tags": ["Sicilian Defense", "octopus knight", "World Chess Championship", "Garry Kasparov", "Anatoly Karpov", "outposts"],
+  "concepts": ["outposts", "gambit compensation", "space", "the fork", "piece activity", "king safety"],
+  "metadata": {
+    "white": "Anatoly Karpov",
+    "black": "Garry Kasparov",
+    "event": "World Chess Championship (Rematch), Game 16",
+    "site": "Moscow, USSR",
+    "date": "1985.10.15",
+    "result": "0-1",
+    "eco": "B44",
+    "opening": "Sicilian Defense, Taimanov Variation",
+    "historicalContext": "Unlike most games in this collection, White does not win. Kasparov, playing Black against the reigning World Champion in their second match of 1985, produces what Chess Informant's own readers later voted the best game of that publication's first sixty-four issues — the game that gave chess the phrase 'octopus knight.'"
+  },
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "The knight that stayed for eighteen moves",
+      "body": "Kasparov called the knight that lands on d3 an 'octopus' — a single piece reaching into squares all over White's position at once. What makes this game a teaching classic is not that the idea is clever, but that it is provably permanent: from the moment it lands until the moment White finally pays full price to remove it, not one white pawn or minor piece can lay a glove on it."
+    },
+    {
+      "type": "key-idea",
+      "title": "Techniques you will see in this game",
+      "body": "Outposts: the flagship idea of this whole game — a knight on a square no pawn can ever attack, defended well enough by threats and tempo that even the pieces meant to challenge it never get a safe moment to do so. Gambit compensation: Black hands back a pawn on move 8 for exactly this knight and the activity around it, the same trade every true gambit makes. Space, inverted: White's own opening plan (5.Nb5 and 6.c4) is a normal space-grabbing setup — and it is precisely the piece Black plants inside that space which turns the advantage upside down. The Fork: the combination that finally cashes in eighteen moves of restriction for a whole queen.",
+      "concepts": ["outposts", "gambit compensation", "space", "the fork"]
+    }
+  ],
+  "line": [
+    "e4", "c5", "Nf3", "e6", "d4", "cxd4", "Nxd4", "Nc6", "Nb5", "d6",
+    {
+      "san": "c4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A normal space-grabbing setup",
+          "body": "5.Nb5 and 6.c4 together aim at a Maroczy-Bind-style clamp on d5 and b5 — the same idea the Space concept lesson teaches, where White expects to own more of the board for the rest of the game. Watch what Black does with that expectation."
+        }
+      ]
+    },
+    "Nf6", "N1c3", "a6", "Na3",
+    {
+      "san": "d5",
+      "classification": "sacrifice",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The gambit",
+          "body": "Kasparov's home preparation strikes straight at the center White just claimed. After the forced sequence of captures on d5, White ends up a clean pawn ahead with an advanced passed pawn on d5 — and Black gets exactly what a gambit is supposed to buy: not the pawn back immediately, but lasting activity and, in a few moves, a square no White pawn will ever be able to contest again.",
+          "concepts": ["gambit compensation"]
+        }
+      ]
+    },
+    "cxd5", "exd5", "exd5",
+    {
+      "san": "Nb4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The route begins",
+          "body": "One jump from where it started, the knight already eyes d3. Notice what just happened to White's pawns in the captures above: the c-pawn and the e-pawn are both completely gone from the board. That fact will matter enormously in six moves."
+        }
+      ]
+    },
+    "Be2", "Bc5", "O-O", "O-O", "Bf3", "Bf5", "Bg5", "Re8",
+    "Qd2", "b5",
+    {
+      "san": "Rad1",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black is about to plant a knight deep in White's position, on a square defended by nothing but is about to become permanent. Why can nothing evict this knight?"
+        }
+      ]
+    },
+    {
+      "san": "Nd3",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Technique Connection — Outposts",
+          "body": "The knight lands on d3 and stays there for the next eighteen moves. Two things make it untouchable, both verifiable on the board right now: no pawn can ever attack it, because White's c-pawn and e-pawn — the only two pawns that could ever have covered d3 — were both traded off five moves ago and no longer exist. And no minor piece can safely trade it off either, because Black's other knight is quietly heading for e4, ready to fork anything that captures on d3. This is what makes an outpost different from a merely strong square: it is not defended, it is unattackable.",
+          "concepts": ["outposts"]
+        },
+        {
+          "type": "strategy",
+          "title": "What it restricts",
+          "body": "From d3 the knight covers b2, c1, e1, and f2 — the back rank squares next to White's own king and the queenside knight's most natural retreat squares. White's a3-knight, in particular, can never simply hop back through b1 or c2 to challenge it without walking into trouble. One piece is quietly strangling White's coordination on both wings at once.",
+          "concepts": ["outposts", "space"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "d3", "to": "b2" },
+        { "type": "arrow", "from": "d3", "to": "c1" },
+        { "type": "arrow", "from": "d3", "to": "e1" },
+        { "type": "arrow", "from": "d3", "to": "f2" },
+        { "type": "square", "square": "d3" }
+      ]
+    },
+    {
+      "san": "Nab1",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The first attempt to challenge it",
+          "body": "White immediately tries to reroute the a3-knight back toward d2, the one square from which a knight could actually offer a safe trade on d3. It never arrives in time — Black's queenside pawns keep coming, and every White tempo spent maneuvering is a tempo not spent defending."
+        }
+      ]
+    },
+    "h6", "Bh4", "b4", "Na4", "Bd6", "Bg3", "Rc8", "b3", "g5", "Bxd6", "Qxd6", "g3",
+    {
+      "san": "Nd7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The second knight begins its own journey",
+          "body": "While the octopus on d3 holds the position together, Black's other knight quietly repositions from f6, clearing the way to return to f6 later and continue on toward e4 — the square from which the final combination will be launched."
+        }
+      ]
+    },
+    "Bg2", "Qf6", "a3", "a5", "axb4", "axb4", "Qa2", "Bg6",
+    {
+      "san": "d6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White's one real practical try: shove the extra passed pawn as far as it will go, since there is little else left to do. It costs Black nothing but a move to deal with."
+        }
+      ]
+    },
+    "g4", "Qd2", "Kg7", "f3", "Qxd6", "fxg4", "Qd4+", "Kh1",
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The second knight returns to f6, one hop from e4 — the fork square. The octopus has not moved once since it landed eighteen half-moves ago."
+        }
+      ]
+    },
+    "Rf4",
+    {
+      "san": "Ne4",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "The trap is set",
+          "body": "Now both knights are in position: one immovable on d3, one poised on e4. White's queen and rooks are running out of safe squares, and the moment White is finally forced to deal with the knight on d3, the knight on e4 will make that decision extremely expensive.",
+          "concepts": ["outposts"]
+        }
+      ]
+    },
+    {
+      "san": "Qxd3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The price finally gets paid",
+          "body": "After eighteen moves of tolerating it, White captures the knight with the queen — there is no other piece left that can do it. This is the moment the whole maneuver was built around."
+        }
+      ]
+    },
+    {
+      "san": "Nf2+",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Technique Connection — The Fork",
+          "body": "The second knight was never just marking time on e4 — from there it forks the White king on h1 and the queen that just captured on d3. This is the concrete answer to why 'trading it off' failed tactically: the only piece that could ever remove the outpost knight was lured onto the exact square this fork needed to hit.",
+          "concepts": ["the fork"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "e4", "to": "f2" },
+        { "type": "square", "square": "h1" },
+        { "type": "square", "square": "d3" }
+      ]
+    },
+    "Rxf2",
+    {
+      "san": "Bxd3",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The harvest",
+          "body": "Add up the last two moves: White's rook had to capture the checking knight, and Black's bishop recaptures the queen. Two knights for a queen — decisively winning material, and it only became available because the d3 knight had spent eighteen moves making itself impossible to remove any other way.",
+          "concepts": ["gambit compensation", "the fork"]
+        }
+      ]
+    },
+    "Rfd2", "Qe3", "Rxd3", "Rc1", "Nb2", "Qf2", "Nd2", "Rxd1+", "Nxd1",
+    {
+      "san": "Re1+",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What this game demonstrated",
+          "body": "Karpov resigned here facing mate. Trace the whole game backward from this move: a pawn given up on move 8 bought a knight on d3 that no pawn could ever attack and no piece could safely trade — an outpost in the strictest possible sense. That knight cost White eighteen moves of paralysis, and when the price of removing it finally came due, a second knight was exactly where it needed to be to turn the trade into a won queen. The gambit was never really about the pawn; it was about the square.",
+          "concepts": ["outposts", "gambit compensation"]
+        }
+      ]
+    }
+  ]
+}

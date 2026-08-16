@@ -1,0 +1,304 @@
+{
+  "id": "karpov-unzicker-1974",
+  "catalogCode": "G018",
+  "title": "Karpov vs Unzicker",
+  "subtitle": "Nice Olympiad 1974 — a full point without winning a pawn",
+  "type": "game",
+  "difficulty": "intermediate",
+  "summary": "Karpov never sacrifices, never wins a pawn, and barely trades a piece for another of unequal value — he simply parks a bishop on a7, doubles rooks behind it on the open a-file, then opens a second front with f4-f5, and Black's pieces run out of squares one by one until there is nothing left to do but resign.",
+  "tags": ["Ruy Lopez", "Chigorin Defense", "restriction", "space advantage", "positional squeeze", "Anatoly Karpov"],
+  "concepts": ["space", "restriction", "open files", "pawn chains", "weak squares", "prophylaxis", "zugzwang"],
+  "metadata": {
+    "white": "Anatoly Karpov",
+    "black": "Wolfgang Unzicker",
+    "event": "21st Chess Olympiad, Final Group A",
+    "site": "Nice, France",
+    "date": "1974.06.18",
+    "result": "1-0",
+    "eco": "C98",
+    "opening": "Ruy Lopez, Closed, Chigorin Defense",
+    "historicalContext": "Board 1, round 3 of the 1974 Nice Olympiad. Karpov annotated this game himself in his collection Izbrannye partii 1969-77, and it has been reprinted ever since — often under the nickname 'Squeeze Play' — as the model demonstration that a won game does not require a single sacrifice or a single won pawn, only the patient removal of the opponent's options."
+    },
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "No combination anywhere in this game",
+      "body": "Search this game for a sacrifice, a fork, or a mating combination and you will not find one. Karpov himself called the key move 'a strong reply Unzicker had clearly under-estimated' — not because it wins anything, but because it quietly takes away everything Black wanted to do. Watch the clock on Black's pieces: count how many of them are still on their 16th-move squares by move 40."
+    },
+    {
+      "type": "key-idea",
+      "title": "Techniques you will see in this game",
+      "body": "Space: the entire game is White converting a small space advantage into total restriction — the flagship idea here. Pawn Chains: the b4/c3 pawns fix a target and point the whole plan toward the queenside before a single rook moves. Open Files: the a-file is prised open and doubled on, and a bishop later walks straight down it under a rook's protection. Weak Squares: once Black's kingside pawns move, the light squares around his own king become permanent holes that White's pieces occupy at will.",
+      "concepts": ["space", "pawn chains", "open files", "weak squares"]
+    }
+  ],
+  "line": [
+    "e4", "e5", "Nf3", "Nc6", "Bb5", "a6", "Ba4", "Nf6", "O-O", "Be7",
+    "Re1", "b5", "Bb3", "d6", "c3", "O-O", "h3", "Na5", "Bc2", "c5",
+    {
+      "san": "d4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "historical",
+          "title": "The exact position the Ruy Lopez study teaches",
+          "body": "White has just reached the same central break, by the identical move order, that the Ruy Lopez opening study builds toward for eleven moves and then stops at. Everything from here — the whole rest of this game — is Karpov's own treatment of that same Closed Ruy Lopez structure, so this is a good moment to notice how quickly a shared opening plan can turn into two completely different middlegames depending on what each side does with it."
+        }
+      ]
+    },
+    "Qc7", "Nbd2",
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The knight completes a round trip, b8-c6-a5 and now back to c6, having only accomplished forcing the bishop to c2. That kind of small, low-cost provocation is normal in the Ruy Lopez — the real fight is still to come."
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Closing the center sets the whole plan",
+          "body": "Once the center locks, neither side can open it again easily, so both plans get fixed by the pawn structure rather than by calculation. White's chain will point toward the queenside first; Black's response over the next several moves decides how cramped his own pieces will be for the rest of the game.",
+          "concepts": ["pawn chains", "space"]
+        }
+      ]
+    },
+    "Nd8", "a4", "Rb8", "axb5", "axb5",
+    {
+      "san": "b4",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Technique Connection — Pawn Chains",
+          "body": "The pawn chain now runs c3-b4: c3 is the base, b4 the head, and the head always points toward where its owner will attack. This single pawn move does two jobs at once — it permanently rules out Black's freeing try ...c4 followed by ...Nd8-b7-c5, and it quietly reserves the a7 square, on the long diagonal, for a piece Black cannot yet imagine will go there.",
+          "concepts": ["pawn chains"]
+        }
+      ]
+    },
+    {
+      "san": "Nb7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A knight with nowhere left to go",
+          "body": "Every square this knight would like — c5, a5, d6 — is already covered by a White pawn or Black's own pieces. It will not move again for eight moves, and by the end of the game it is fair to call it the single biggest reason Black loses: not because it is attacked, but because it was never doing anything."
+        }
+      ]
+    },
+    "Nf1", "Bd7", "Be3", "Ra8", "Qd2",
+    {
+      "san": "Rfc8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "An open file with only one real owner",
+          "body": "It looks like both sides have equal rights to the a-file — Black has a rook on it too. But White can follow up with Bc2-d3 and Ra1-a2 to bring a second rook behind the first, while Black has no second rook to spare for the same job. An open file only belongs to whoever can actually reinforce it."
+        }
+      ]
+    },
+    "Bd3", "g6", "Ng3", "Bf8",
+    {
+      "san": "Ra2",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Technique Connection — Open Files",
+          "body": "The a-file has no pawns on it for either side, so it belongs to whoever puts more force on it. White brings a second rook up behind the first, exactly the doubling the earlier note anticipated — and this rook, sitting on a2, is about to matter for a reason that has nothing to do with capturing anything.",
+          "concepts": ["open files"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "a1", "to": "a2" },
+        { "type": "square", "square": "a7" }
+      ]
+    },
+    "c4", "Bb1",
+    {
+      "san": "Qd8",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White's rook sits on a2 and the a-file is fully open in front of it, all the way to a7 and a8. There is nothing to capture there and no check available. Why would Karpov spend an entire move putting a bishop on a square that attacks nothing?"
+        }
+      ]
+    },
+    {
+      "san": "Ba7",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The whole game in one move",
+          "body": "The bishop does not attack anything on a7, and it is perfectly safe there: the rook on a2 guards the entire empty file behind it, so ...Rxa7 simply loses the exchange for nothing. But the bishop's real job is not tactical — it takes over the a-file's key square so completely that Black's rooks can never contest it again, and it frees every other White piece to regroup for a second attack elsewhere. White has not won a single pawn. White has only reduced Black's choices — and he will keep doing exactly that for the next twenty moves.",
+          "concepts": ["space", "open files"]
+        },
+        {
+          "type": "strategy",
+          "title": "Technique Connection — Open Files",
+          "body": "This is what an open file is really for beyond winning material: it lets a piece walk deep into enemy territory under another piece's protection. Without the rook on a2 standing guard, Ba7 would just hang.",
+          "concepts": ["open files"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "a2", "to": "a7" },
+        { "type": "square", "square": "b7" }
+      ]
+    },
+    "Ne8", "Bc2", "Nc7", "Rea1", "Qe7", "Bb1", "Be8", "Ne2", "Nd8", "Nh2", "Bg7",
+    {
+      "san": "f4",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Technique Connection — Space",
+          "body": "With the queenside completely locked down and safe, White is free to open a second front. This is what a real space advantage buys: not just more room, but the freedom to attack on one wing while the other stays permanently under control, because Black has no counterplay to punish the switch.",
+          "concepts": ["space"]
+        }
+      ]
+    },
+    "f6",
+    {
+      "san": "f5",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "A second clamp, on the other wing",
+          "body": "White now has a fixed, protected space advantage on both sides of the board at once. Every black minor piece — the knight on b7, the bishop on g7, the bishop on e8 — is boxed in by White's own structure, and Black has not lost a single pawn to get here. This is restriction as a strategy in its own right, not a prelude to something else.",
+          "concepts": ["space"]
+        }
+      ]
+    },
+    "g5",
+    {
+      "san": "Bc2",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Technique Connection — Weak Squares",
+          "body": "Black's last two pawn moves, ...g6 and ...g5, permanently gave up the light squares around his own king — f7, g6, and h5 can never again be guarded by a black pawn. White's bishop starts the long walk toward exactly those squares, because a weak square is only a problem once a piece actually arrives to use it.",
+          "concepts": ["weak squares"]
+        }
+      ]
+    },
+    "Bf7", "Ng3", "Nb7", "Bd1",
+    {
+      "san": "h6",
+      "classification": "mistake",
+      "annotations": [
+        {
+          "type": "mistake",
+          "title": "A small concession that mattered",
+          "body": "Nothing forced this yet, and it costs the g6 square too — one more light square Black's king will never get back. It looks harmless on the move it's played; its price only becomes clear when White's queen arrives on that very square nine moves from now."
+        }
+      ]
+    },
+    "Bh5", "Qe8", "Qd1",
+    {
+      "san": "Nd8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Shuffling because there is nothing else to do",
+          "body": "Compare this knight's square to where it stood ten moves ago. Black's pieces are not maneuvering toward anything anymore — they are marking time, because Space and restriction have already decided the plan and there isn't a second one available."
+        }
+      ]
+    },
+    "Ra3", "Kf8", "R1a2", "Kg8", "Ng4", "Kf8", "Ne3", "Kg8",
+    {
+      "san": "Bxf7+",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Removing the last light-square defender",
+          "body": "The trade looks even on the scoreboard — bishop for knight — but it finishes what ...g6, ...g5, and ...h6 started. After this capture, not one black piece can ever contest a light square near the king again."
+        }
+      ]
+    },
+    {
+      "san": "Nxf7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Forced — it is the only recapture. The knight that arrives on f7 will not stay long."
+        }
+      ]
+    },
+    "Qh5",
+    {
+      "san": "Nd8",
+      "variations": [
+        [
+          {
+            "san": "Nh8",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Karpov's own 'amusing variation'",
+                "body": "Karpov gave this alternative in his own notes to show just how total the restriction had become — the knight retreats to the corner instead, keeping White's queen off g6, and it still loses."
+              }
+            ]
+          },
+          "Ng4",
+          {
+            "san": "Qxh5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black trades queens rather than face the threats — but the queen on h5 was guarded the whole time by the other white knight, still sitting on g3."
+              }
+            ]
+          },
+          "Nxh5", "Kf7", "Bb6", "Rxa3", "Rxa3", "Ra8", "Rxa8",
+          {
+            "san": "Nxa8",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Total zugzwang",
+                "body": "Karpov's own verdict on this position: not one of Black's remaining pieces has a legal, useful move left. Queens are off the board and material is dead level — the win was never about material at all, only about the accumulated cost of every square Black could no longer use.",
+                "concepts": ["space", "zugzwang"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Qg6",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The weak squares finally get used",
+          "body": "g6 has been a hole in Black's position since the pawn left it fifteen moves ago. White's queen simply walks in, and there is no piece left that can challenge her there — the exact debt that ...g6, ...g5, and ...h6 quietly ran up is called in on this move."
+        }
+      ]
+    },
+    "Kf8",
+    {
+      "san": "Nh5",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What this game demonstrated",
+          "body": "Add up the material change across all 44 moves: none. White never won a pawn, rarely even traded a piece for one of lesser value, and still Black had to resign facing mate or total paralysis. White has not won material; White has reduced Black's choices — one pawn chain, one open file, one weakened square at a time — until there was nothing left for Black to do. That is what a space advantage is worth when it is never allowed to be traded away or broken open.",
+          "concepts": ["space", "restriction"]
+        }
+      ]
+    }
+  ]
+}
