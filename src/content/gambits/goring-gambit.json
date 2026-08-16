@@ -1,0 +1,288 @@
+{
+  "id": "goring-gambit",
+  "catalogCode": "GB018",
+  "focus": "white",
+  "title": "The Göring Gambit",
+  "subtitle": "The Scotch's sharper, pawn-hungry cousin",
+  "type": "gambit",
+  "difficulty": "intermediate",
+  "summary": "Where the Scotch Game resolves the center with a single trade, the Göring Gambit keeps giving pawns away -- first on d4, then on c3 -- to fling every piece into the game before Black finishes developing. It is the Scotch's sharpest relative, and it shares its underlying trick with the Danish Gambit: offer the c-pawn too, and recapture with a piece instead of a pawn.",
+  "tags": [
+    "Göring Gambit",
+    "Goering Gambit",
+    "Scotch Game",
+    "Danish Gambit",
+    "gambit",
+    "e4 openings"
+  ],
+  "concepts": [
+    "gambit play",
+    "development",
+    "open lines",
+    "material versus initiative",
+    "transposition",
+    "bishop pair"
+  ],
+  "metadata": {
+    "eco": "C44",
+    "opening": "Scotch Game: Göring Gambit",
+    "historicalContext": "Named for Carl Theodor Göring, a 19th-century German player and theorist. It has never been fashionable at the top level, but it remains a genuine, still-seen club weapon -- distinct from the single-pawn Scotch Gambit because it offers a second pawn on c3 in the same spirit as the Danish Gambit."
+  },
+  "rootAnnotations": [
+    {
+      "type": "strategy",
+      "title": "Cost / compensation / acceptance / decline / risk",
+      "body": "The Göring Gambit spends one, sometimes two pawns to get every minor piece into the game fast while Black is still untangling the center. The cost is concrete and countable; the compensation -- open lines, a lead in development, a real shot at the bishop pair -- is real but not a forced win. This study covers what happens when Black accepts everything on offer, what a sound decline looks like, and where the greedier path leads if White keeps offering pawns."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    {
+      "san": "d4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The same central strike The Scotch Game makes on move three. What happens next is what turns this into a gambit instead."
+        }
+      ]
+    },
+    {
+      "san": "exd4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Practically forced -- declining leaves White simply ahead in the center for nothing. White is now down one pawn."
+        }
+      ]
+    },
+    {
+      "san": "c3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The gambit's first offer",
+          "body": "Instead of recapturing on d4 the way the Scotch Game does, White offers a second pawn to open the position further and clear the way for both bishops. This is the fork in the road: accept and the game becomes a real gambit; decline and White simply gets the Scotch's central structure a move later, at the cost of that extra tempo.",
+          "concepts": ["gambit play"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nxd4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The other fork in the road: The Scotch Game",
+                "body": "Instead of offering a second pawn, White can simply recapture at once. This isn't a sideline of the Göring Gambit at all -- it is the exact position and move order of The Scotch Game. 4.c3 versus 4.Nxd4 is a genuine choice between two different openings that happen to share their first three moves.",
+                "concepts": ["transposition"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "dxc3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Accepting the second pawn -- the main test of the Göring Gambit proper. White is now down two pawns and about to recapture one back immediately with a piece rather than gambling on a third."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nf6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Declining: counterattack instead of grabbing",
+                "body": "Black leaves the c3 pawn alone and develops with a threat of its own against e4."
+              }
+            ]
+          },
+          {
+            "san": "e5",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "body": "The same tempo-gaining idea seen across this whole family of gambits: rather than let the knight simply develop for free, the pawn kicks it while there is still a target.",
+                "concepts": ["gambit play"]
+              }
+            ]
+          },
+          {
+            "san": "Nd5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The knight heads to a strong central outpost instead of retreating passively."
+              }
+            ]
+          },
+          {
+            "san": "cxd4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Only now does White recapture, with e4 no longer under attack. Material is level -- White traded the original d-pawn for Black's wandering one -- but White keeps a broad pawn duo on d4 and e5 as real, lasting compensation for the tempo spent declining the second pawn."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "san": "d3",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "A weaker way to decline",
+                "body": "Advancing instead of capturing or retreating looks like it holds onto extra space, but it achieves nothing concrete. White simply recaptures with a developing move, and Black has spent two pawn moves in the opening for no lasting gain."
+              }
+            ]
+          },
+          {
+            "san": "Bxd3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White regains the pawn immediately while developing a piece -- the cleanest possible refutation of stalling instead of choosing a real plan."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nxc3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The Göring Gambit's defining recapture",
+          "body": "White takes back on c3 with the knight instead of offering yet another pawn. Net material: White is down a single pawn, but every piece White owns except the rooks is either developed or one move from it -- the concrete price of admission for this whole opening.",
+          "concepts": ["gambit play", "development"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "c3" }],
+      "variations": [
+        [
+          {
+            "san": "Bc4",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Offering a third pawn: transposing to The Danish Gambit",
+                "body": "Rather than recapture at once, White develops and dares Black to grab a third pawn. If Black takes it, the resulting pawn structure and bishop placement -- both bishops raking b2-g7 and c4-f7 for three pawns -- is identical to The Danish Gambit's main position, with the one difference that both sides have an extra developed knight (White's on f3, Black's on c6) from the Nf3/Nc6 moves this opening starts with. See that study for how the same defensive resource, Schlechter's ...d5, hands the material back and neutralizes the attack.",
+                "concepts": ["material versus initiative", "transposition"]
+              }
+            ]
+          },
+          {
+            "san": "cxb2",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Grabbing the third pawn. White cannot avoid this recapture -- but the reply is exactly what buys back all the compensation."
+              }
+            ]
+          },
+          {
+            "san": "Bxb2",
+            "classification": "critical",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "critical-position",
+                "title": "The Danish Gambit's bishop pair, one tempo pair richer",
+                "body": "Both bishops now rake the board from b2 and c4, three pawns down, in the same structure as The Danish Gambit -- just with both knights already developed instead of still at home. It is genuinely dangerous against imprecise defense and, with accurate play, not enough -- the same honest verdict that study reaches in full.",
+                "concepts": ["bishop pair", "material versus initiative"]
+              }
+            ],
+            "visual": [
+              { "type": "arrow", "from": "b2", "to": "g7" },
+              { "type": "arrow", "from": "c4", "to": "f7" }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Bb4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The most testing reply",
+          "body": "Black pins the newly arrived knight rather than simply developing elsewhere, aiming to trade it off and blunt White's compensation before it grows.",
+          "concepts": ["gambit play"]
+        }
+      ]
+    },
+    {
+      "san": "Bc4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "body": "The bishop develops toward f7 while the pin on c3 waits -- White simply continues developing rather than resolve the pin immediately.",
+          "concepts": ["development"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c4", "to": "f7" }]
+    },
+    {
+      "san": "d6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Solid: Black opens the c8-bishop's diagonal and prepares to finish development rather than grab further material."
+        }
+      ]
+    },
+    "O-O",
+    "Nf6",
+    {
+      "san": "Qb3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Bc4/Qb3 coordination",
+          "body": "A second piece adds itself to the attacking setup, a common pairing in this whole family of c3-gambits. It doesn't create an immediate concrete threat on its own -- the bishop still blocks the queen's own diagonal to f7 -- but it develops with purpose and keeps Black's king honest before it can castle.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    "Qe7",
+    {
+      "san": "Re1",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The gambit's balance sheet, in full",
+          "body": "White is down one pawn with every piece developed, a rook contesting the e-file, and real pressure building against a Black king still stuck in the center. Black has met every threat so far and has a perfectly sound position, just one that still needs to finish developing and castle before the extra pawn starts to matter. Neither side has anything forced -- this is a genuine, honestly balanced gambit position, not a forced win for either color.",
+          "concepts": ["material versus initiative"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: this gambit's second pawn offer can be taken further still -- 5.Bc4 instead of 5.Nxc3 transposes directly into The Danish Gambit, showing that two very differently named openings can be the exact same position reached from different directions; declining is not the same as avoiding a fight -- 4...Nf6 simply steers the game back toward The Scotch Game's structure instead; and compensation here is measured honestly in pieces developed per pawn spent, never claimed as a forced win -- White's whole case rests on using the lead before Black finishes catching up."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "id": "kings-indian-four-pawns",
+  "catalogCode": "O113",
+  "focus": "black",
+  "title": "King's Indian Defense: Four Pawns Attack",
+  "subtitle": "White's most ambitious center - and its built-in weakness",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "White's most ambitious answer to the King's Indian: grab the whole center in one breath with pawns on c4, d4, e4, and f4, betting that raw space outweighs the time spent building it. This lesson teaches Black's side of the fight - how to survive the extra space, strike back with the prepared ...c5 and ...g5-...Ne4-style counterplay, and punish overextension the moment White's pawns become targets instead of assets.",
+  "tags": ["King's Indian Defense", "Four Pawns Attack", "d4 defenses", "hypermodern", "space"],
+  "concepts": ["space", "overextension", "pawn breaks", "counterattack", "development"],
+  "metadata": {
+    "eco": "E76-E79",
+    "opening": "King's Indian Defense: Four Pawns Attack"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study, The King's Indian Defense, showed White building the center gradually and completing development before deciding how to use it. Here White skips the diplomacy: 5.f4 grabs a fourth pawn abreast before a single minor piece beyond the queenside knight has even moved, wagering that four pawns of space are worth more than the lost tempo. It is the sharpest, most double-edged answer to the King's Indian - genuinely dangerous if White gets to consolidate, and genuinely fragile if Black strikes back at the right moment. This lesson is about finding that moment."
+    }
+  ],
+  "line": [
+    "d4",
+    "Nf6",
+    "c4",
+    "g6",
+    "Nc3",
+    "Bg7",
+    "e4",
+    "d6",
+    {
+      "san": "f4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The maximalist center",
+          "body": "Where the main King's Indian lines develop the kingside knight and bishop before deciding what to do with the center, the Four Pawns Attack decides immediately: a fourth pawn joins c4, d4, and e4, staking out the largest possible pawn front on move five. White grabs first and develops later - a real gamble that the space is worth the lost tempo.",
+          "concepts": ["space", "overextension"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "c4" },
+        { "type": "square", "square": "d4" },
+        { "type": "square", "square": "e4" },
+        { "type": "square", "square": "f4" }
+      ]
+    },
+    "O-O",
+    "Nf3",
+    {
+      "san": "c5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Four pawns abreast look imposing, but they are also four pawns that must each be defended and that can never retreat. Where does Black strike first?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Undermining the base",
+          "body": "Black strikes at d4 from the side rather than head-on. This asks White to commit the center - usually with d5 - before Black commits anything else, keeping the position flexible for a move longer.",
+          "concepts": ["overextension", "pawn breaks"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nxe4",
+            "classification": "blunder",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "The pawn that only looks hanging",
+                "body": "With so much of White's attention on the center, e4 can look like a free target - but the knight on c3 still guards it. This is a simple one-move blunder, useful mainly as a reminder that 'overextended' does not mean 'undefended'; check every capture before playing it.",
+                "concepts": ["overextension"]
+              }
+            ]
+          },
+          "Nxe4"
+        ],
+        [
+          {
+            "san": "Na6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The patient approach",
+                "body": "Instead of striking at d4 immediately, Black develops the queen's knight toward c7, where it will eye the center from the side and support a future ...b5. This delays the confrontation by a move but keeps every option open."
+              }
+            ]
+          },
+          "Be2",
+          "c5",
+          "O-O",
+          {
+            "san": "Nc7",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The point of the maneuver: from c7 the knight supports a future ...b5 and eyes the d5 square, a slower plan than meeting the center head-on but a fully respectable alternative."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Space over structure",
+          "body": "Rather than resolve the tension with a trade on c5, White pushes past - claiming more space, following the pattern of Benoni-type structures, and postponing any decision about the center until later.",
+          "concepts": ["space"]
+        }
+      ]
+    },
+    {
+      "san": "e6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The second lever. Black immediately questions the newly advanced d5 pawn rather than settling into a quiet setup - waiting here only gives White time to consolidate the extra space.",
+          "concepts": ["pawn breaks"]
+        }
+      ]
+    },
+    "Be2",
+    {
+      "san": "exd5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Trading before White is ready",
+          "body": "Black cashes in the tension now rather than later. Once this trade happens, the e-file opens completely - and with it, real pressure on the very pawn (e4) that gives the Four Pawns Attack its name.",
+          "concepts": ["pawn breaks", "overextension"]
+        }
+      ]
+    },
+    {
+      "san": "cxd5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Keeping the lever loaded",
+          "body": "White recaptures away from the center, preserving the e4-f4 pawn duo intact. This choice matters: recapturing the other way removes the very pawn that makes the coming e5 push possible - see the variation.",
+          "concepts": ["space"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "exd5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The safer, tamer recapture",
+                "body": "Trading toward the center instead keeps c4 supporting the queenside but gives up the e4-f4 pawn duo that makes the sharp e5 break possible. White keeps a solid space edge but loses much of the Four Pawns Attack's characteristic bite."
+              }
+            ]
+          },
+          "Re8",
+          "O-O"
+        ]
+      ]
+    },
+    {
+      "san": "Re8",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "With the e-file wide open, e4 is now attacked twice (knight and rook) and defended only once (the c3-knight). Does White retreat under the pressure, prop the pawn up, or use it while it still can move?"
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e8", "to": "e4" }]
+    },
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Answering pressure with more space",
+          "body": "This is the whole point of the four-pawn center: rather than defend e4 passively, White uses the tempo the pawn's own advance buys and pushes straight through. It is a real gamble - the pawn that lands on e5 will need looking after, but for the moment it gains space and disrupts Black's pieces.",
+          "concepts": ["space", "overextension"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e5" }]
+    },
+    "dxe5",
+    {
+      "san": "fxe5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A pawn with two futures",
+          "body": "The recapture leaves White a spearhead pawn on e5 - dangerous if it survives, but also a long-term weakness if Black can attack it enough times. Whether e5 ends the game as an asset or a target is exactly the question this variation is built to answer.",
+          "concepts": ["overextension"]
+        }
+      ]
+    },
+    {
+      "san": "Ng4",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Attacking the overextended pawn",
+          "body": "The knight jumps straight at the e5 pawn - the piece White's whole opening was staked on defending. Black has fewer pawns in the center but more pieces trained on the ones White does have; typical continuations from here include ...Bxe5 ideas after further preparation, ...f6, or simply piling more pieces onto e5 to test whether White's space is an asset or a liability.",
+          "concepts": ["overextension", "counterattack"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a four-pawn center is a bet, not a triumph - every extra pawn White advances is also one more fixed square Black can aim at; the moment to strike is when the attacker is forced to spend the extra pawn's tempo advancing again, as with 10.e5 - passivity would have let the pawns settle instead; and 'overextended' only pays off if the defender can attack faster than the attacker consolidates, exactly the race this position puts on the board.",
+          "concepts": ["overextension", "space", "counterattack"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g4", "to": "e5" }]
+    }
+  ]
+}

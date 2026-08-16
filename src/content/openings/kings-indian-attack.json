@@ -1,0 +1,204 @@
+{
+  "id": "kings-indian-attack",
+  "catalogCode": "O143",
+  "focus": "white",
+  "title": "The King's Indian Attack",
+  "subtitle": "One White setup, almost any Black defense",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "A White system built once and played almost everywhere: the same Nf3-g3-Bg2-O-O-d3-Nbd2-e4 setup answers the French, the Sicilian, and a symmetrical 1...d5 nearly unchanged, trading a fight over central theory for a straightforward kingside attack. Learn why an extra tempo turns a King's Indian Defense structure into a White weapon, and how the same seven moves adapt to whatever Black builds.",
+  "tags": [
+    "King's Indian Attack",
+    "KIA",
+    "Zukertort Opening",
+    "Réti Opening",
+    "King's Indian Defense",
+    "flank openings",
+    "universal system"
+  ],
+  "concepts": [
+    "universal system",
+    "kingside attack",
+    "piece rerouting",
+    "space",
+    "pawn storm",
+    "king safety"
+  ],
+  "metadata": {
+    "eco": "A07-A08",
+    "opening": "King's Indian Attack",
+    "historicalContext": "Strong players have long used the King's Indian Attack specifically to sidestep opponents' prepared theory — since the same setup meets the French, the Sicilian, and 1...d5 with barely a change of plan, deep preparation in any one of those defenses becomes far less useful. Bobby Fischer was among the most famous practitioners, adopting it as a surprise weapon against players who had spent hours preparing against 1.e4 or 1.d4 instead."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The King's Indian Attack is not a reply to any one Black defense — it is a complete White system: Nf3, g3, Bg2, O-O, d3, Nbd2, and e4, played in roughly that order almost regardless of what Black does. Where the Zukertort Opening lesson maps the many roads out of 1.Nf3 and the Réti Opening builds patient pressure on d5 from the flank, the King's Indian Attack sets flank subtlety aside and points a straightforward kingside attack at whatever structure Black has built. This lesson follows the setup against Black's most classical reply, then shows the same seven moves working almost unchanged against French- and Sicilian-style centers."
+    }
+  ],
+  "line": [
+    "Nf3",
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The most classical reply — Black claims the center and, for now, looks no different than in the Réti Opening. Two very different Black setups are shown as variations here, both meeting the identical White plan."
+        }
+      ],
+      "variations": [
+        [
+          "e6",
+          "g3",
+          "d5",
+          "Bg2",
+          "Nf6",
+          "O-O",
+          {
+            "san": "Be7",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Against a French-style center",
+                "body": "Nothing here required touching a king's-pawn opening at all — reaching a French e6/d5 structure and then building the identical Nbd2-e4 setup is exactly why the King's Indian Attack works as a real anti-French weapon by transposition (from 1.e4 e6 2.d3 d5 3.Nd2, the same position arises). White's e4 push meets a genuine central pawn chain here instead of open space, but the plan — kingside expansion regardless of the center — barely changes."
+              }
+            ]
+          },
+          "d3",
+          "O-O",
+          "Nbd2",
+          "c5",
+          "e4"
+        ],
+        [
+          "c5",
+          "g3",
+          "Nc6",
+          "Bg2",
+          "g6",
+          "O-O",
+          {
+            "san": "Bg7",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Against a Sicilian-style center",
+                "body": "Facing 1...c5, the exact same five White moves — g3, Bg2, O-O, d3, Nbd2, and e4 — reach a structure where White's fianchettoed bishop and central space face a Sicilian-style Black setup, without any of the sprawling Open Sicilian theory to memorize. This is precisely why the King's Indian Attack became a favorite surprise weapon against 1...c5."
+              }
+            ]
+          },
+          "d3",
+          "d6",
+          "Nbd2",
+          "Nf6",
+          "e4"
+        ]
+      ]
+    },
+    "g3",
+    "Nf6",
+    "Bg2",
+    {
+      "san": "c5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black expands and prepares ...Nc6 — a setup that will soon look very familiar to anyone who has studied a well-known Black defense."
+        }
+      ]
+    },
+    "O-O",
+    "Nc6",
+    "d3",
+    {
+      "san": "e5",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White has now played g3, Bg2, O-O, and d3 without a single central pawn advance beyond one square. Black has built ...c5, ...Nc6, and now ...e5. Does this position remind you of anything?"
+        },
+        {
+          "type": "key-idea",
+          "title": "A reversed King's Indian Defense",
+          "body": "It should: ...c5, ...Nc6, ...e5, and soon ...Be7 is the King's Indian Defense's own setup, mirrored with colors reversed. Black is essentially playing a King's Indian Defense against White's flank development — but White gets there with an extra tempo, and that tempo is the entire reason the King's Indian Attack can seize the initiative Black usually enjoys in that opening.",
+          "concepts": ["universal system"]
+        }
+      ]
+    },
+    "Nbd2",
+    "Be7",
+    {
+      "san": "e4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The commitment that defines the system",
+          "body": "This is the move every earlier one prepared: with d3 supporting it, e4 is completely safe, and it claims exactly the central space the King's Indian Attack needs before turning toward the kingside. Black's own e5 pawn now blocks the position from opening in the center, which is fine for White — the coming plan lives on the kingside, not in the center.",
+          "concepts": ["space"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e4" }, { "type": "square", "square": "e5" }]
+    },
+    "O-O",
+    {
+      "san": "Re1",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Supporting e4 a second time and stepping off the long diagonal the bishop no longer needs to share. Capturing on d5 right now instead is a tempting-looking shortcut that actually gives away the point of the last seven moves — see the variation."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "exd5",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "Releasing the tension for nothing",
+                "body": "Capturing here trades away exactly the central tension that makes the King's Indian Attack dangerous. The whole point of e4 was to gain space and force Black to keep worrying about the center and a future f4 push — not to hand over an open center where Black's pieces become active for free."
+              }
+            ]
+          },
+          "Nxd5",
+          "Nc4",
+          "b5"
+        ]
+      ]
+    },
+    "Re8",
+    {
+      "san": "Nf1",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "The knight reroutes",
+          "body": "With g3 already occupied by a pawn, this knight can't head to the natural-looking g3 square — instead it swings through f1 toward e3 or h2, aiming for an outpost on d5 or f5, or simply clearing d2 so the other knight can eventually reach c4 or the f-pawn can advance. Piece rerouting like this, not a quick central strike, is how the King's Indian Attack actually builds its attack.",
+          "concepts": ["piece rerouting"]
+        }
+      ]
+    },
+    "b5",
+    {
+      "san": "Ne3",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The attack is nearly ready",
+          "body": "The knight has completed its journey from b1 to a genuinely useful square, eyeing both d5 and f5. From here White's plans are concrete: Nf5 or Nd5 as an outpost, or a well-prepared f4 to crack open the kingside now that development is complete. Black, meanwhile, has been pushing queenside pawns — real counterplay, but slower than White's kingside build-up, since Black's own pieces are less naturally suited to a fast attack on that side of the board."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry forward: the King's Indian Attack is a system, not a reply — the same seven moves met a symmetrical center, a French-style center, and a Sicilian-style center almost without adjustment, as the variations showed; an extra tempo can flip a defense into an attacking weapon, exactly what happened when White's version of the King's Indian Defense structure arrived one move ahead of Black's; and central tension is only worth keeping while you're using it — capturing on d5 too early, before the kingside pieces were ready, would have thrown the whole plan away.",
+          "concepts": ["universal system", "space"]
+        }
+      ]
+    }
+  ]
+}

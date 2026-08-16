@@ -1,0 +1,246 @@
+{
+  "id": "kings-gambit-declined",
+  "catalogCode": "O020",
+  "focus": "black",
+  "title": "King's Gambit Declined",
+  "subtitle": "Classical Variation — keep the center, aim at the hole on f2",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "Black ignores White's f-pawn offer and instead develops the bishop straight at f2, the square 2.f4 permanently weakened. It is the calm, principled way to meet the King's Gambit: no sharp forcing theory to memorize, and White inherits a long-term problem -- a king that cannot simply castle into safety.",
+  "tags": [
+    "King's Gambit Declined",
+    "King's Gambit Declined, Classical",
+    "King's Gambit",
+    "e4 openings"
+  ],
+  "concepts": [
+    "development",
+    "king safety",
+    "open diagonals",
+    "central tension",
+    "prophylaxis"
+  ],
+  "metadata": {
+    "eco": "C30",
+    "opening": "King's Gambit: King's Gambit Declined, Classical Variation"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study showed the Declined only briefly, as one branch among several: develop naturally, sidestep the sharp Accepted theory. This lesson goes further and asks the sharper question the family lesson didn't answer -- what does Black actually get for giving up the extra pawn on offer? The Classical Variation's answer is 2...Bc5: the bishop aims down the same diagonal that 2.f4 just opened, straight at f2 and the square beside White's own king."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    "f4",
+    {
+      "san": "Bc5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Aiming at the hole f4 just left behind",
+          "body": "2.f4 vacated f2 the moment it was played, opening the a7-g1 diagonal all the way to White's king. Bc5 develops onto exactly that diagonal. It isn't a threat yet -- f2 is still defended by the king itself -- but it means White cannot casually castle kingside until this diagonal is dealt with, a problem that will resurface later in the lesson.",
+          "concepts": ["open diagonals"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c5", "to": "g1" }]
+    },
+    {
+      "san": "Nf3",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "principle",
+          "title": "Still guarding h4",
+          "body": "As in the Accepted lines, White's first job is covering h4 against ...Qh4+. The variation below shows exactly what happens when White skips this in favor of natural-looking development instead."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nc3",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "Development without prophylaxis",
+                "body": "A perfectly normal-looking developing move -- and a real error, because nothing yet stops the black queen from using the diagonal 2.f4 opened."
+              }
+            ]
+          },
+          {
+            "san": "Qh4+",
+            "classification": "critical",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The diagonal was always open",
+                "body": "d8-h4 runs through e7, f6, and g5 -- all empty -- and f2 is gone, so this check reaches all the way to White's king with nothing in between. This is the concrete version of the warning on move two: ignore king safety in this opening and Black collects on it immediately.",
+                "concepts": ["open diagonals"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "h4", "to": "e1" }]
+          },
+          {
+            "san": "g3",
+            "classification": "forced",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The only reasonable block",
+                "body": "Ke2 walks straight into more trouble, so White blocks with the g-pawn -- but this only compounds the original problem, carving a second hole into the kingside on top of the one f4 already made.",
+                "concepts": ["king safety"]
+              }
+            ]
+          },
+          {
+            "san": "Qf6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "No forced win, just a lasting edge",
+                "body": "The queen retreats to safety while continuing to eye f4. Black hasn't won material or forced mate -- but White has already played two weakening pawn moves (f4 and g3) before completing a single piece's development, exactly the kind of long-term structural bill this variation is designed to hand White."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "d6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black supports e5 a second time and opens the c8-bishop's diagonal, keeping the center pawn intact rather than trading it off -- the defining structural choice of the Declined."
+        }
+      ]
+    },
+    "Bc4",
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A third defender of e5 and a developing move at once. Compare the two bishops already on the board: Black's points at a permanently weak square near White's own king; White's points at f7, a target that exists in almost every open game and isn't specific to this opening."
+        }
+      ]
+    },
+    {
+      "san": "c3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Preparing d4 without rushing it",
+          "body": "c3 readies the central break d4 with pawn support, the same prophylactic habit the family study highlighted in the Ruy Lopez and other e4 openings: prepare the break before playing it.",
+          "concepts": ["prophylaxis"]
+        }
+      ]
+    },
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black adds pressure on e4 and finishes minor-piece development on the kingside before deciding on anything more committal in the center."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Qe7",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Keeping options flexible",
+                "body": "Instead of developing the knight immediately, Black can keep the queen's options open on e7 -- supporting e5 a fourth time and leaving open the possibility of a future ...f5 counter-thrust on the same wing where White's king lives."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "d3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White keeps the center flexible rather than committing to d4 at once, echoing the closed treatment seen in other King's Gambit lines -- both sides settle in for a longer strategic battle instead of an early tactical resolution."
+        }
+      ]
+    },
+    {
+      "san": "Bg4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A second target",
+          "body": "The bishop pins the knight defending e4, adding pressure to a position where White is already slightly behind on development because of the moves f4 and c3 spent on structure rather than pieces.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    "h3",
+    {
+      "san": "Bxf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black trades the bishop for the knight rather than retreat it, handing White the bishop pair in exchange for the moment of initiative and the small structural favor of provoking h3."
+        }
+      ]
+    },
+    "Qxf3",
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black's king reaches safety immediately -- f8 and g8 have been clear since the bishop and knight developed, so nothing stands in the way."
+        }
+      ]
+    },
+    {
+      "san": "Be3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The diagonal from move two, still unresolved",
+          "body": "Only now can White safely think about O-O. The dark-squared bishop developed to c5 back on move two and never left the a7-g1 diagonal -- had White tried to castle kingside a move earlier, g1 would still have been covered by that bishop through the empty squares on d4, e3, and f2, making O-O illegal outright. Be3 finally blocks the diagonal at e3, the same square Black's bishop has been aiming at for the entire game.",
+          "concepts": ["open diagonals", "king safety"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "g1" }]
+    },
+    {
+      "san": "Bb6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black keeps the bishop rather than trade it -- once White blocks the diagonal, the bishop's job shifts from restraining castling to eyeing d4 and supporting a future ...d5 break."
+        }
+      ]
+    },
+    {
+      "san": "O-O",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry forward: the Declined isn't a passive concession, it's a direct answer to the specific weakness 2.f4 creates on the a7-g1 diagonal; that weakness is a running problem, not a one-move threat -- it shaped when White could castle for eight full moves; and a solid, intact central pawn (Black never traded off e5) is worth exactly as much as the family study's Accepted lines claimed the extra material was worth for White."
+        }
+      ]
+    }
+  ]
+}

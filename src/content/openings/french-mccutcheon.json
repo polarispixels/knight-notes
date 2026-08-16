@@ -1,0 +1,204 @@
+{
+  "id": "french-mccutcheon",
+  "catalogCode": "O064",
+  "focus": "black",
+  "title": "The MacCutcheon Variation",
+  "subtitle": "Pin first, develop later",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "Most French lines against 4.Bg5 ask Black to develop calmly with ...Be7. The MacCutcheon refuses: Black pins White's knight immediately with ...Bb4 and holds the pin all the way to a forcing tactical sequence that hands White doubled pawns and Black a king stuck in the center. It is one of the sharpest, most heavily analyzed corners of French theory — learn it to understand what Black is actually buying with all that risk.",
+  "tags": ["French Defense", "MacCutcheon Variation", "McCutcheon Variation", "McCutcheon Defense", "Winawer complex", "e4 defenses", "Bg5 systems"],
+  "concepts": [
+    "pins",
+    "doubled pawns",
+    "king safety",
+    "forcing lines",
+    "space",
+    "bishop pair"
+  ],
+  "metadata": {
+    "eco": "C12",
+    "opening": "French Defense: MacCutcheon Variation",
+    "historicalContext": "Named for the American amateur John Lindsay MacCutcheon, who played 4...Bb4 against Steinitz in 1885. The spelling 'MacCutcheon' is the standard historical form; 'McCutcheon' is the common modern alias."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study, The French Defense, teaches chain warfare — a patient siege against a fixed structure. The MacCutcheon is the opposite temperament: instead of developing quietly with ...Be7 against 4.Bg5, Black pins the c3-knight at once with ...Bb4 and accepts a forcing, calculated sequence in return. It sits in the same family as the Winawer (which plays ...Bb4 even earlier, before ...Nf6) but reaches its critical tension a move later and by a different route. The central question: is trading the dark-squared bishop for doubled White pawns and a knight outpost on e4 worth walking into one of theory's sharpest tactical dogfights?"
+    }
+  ],
+  "line": [
+    "e4",
+    "e6",
+    "d4",
+    "d5",
+    "Nc3",
+    "Nf6",
+    {
+      "san": "Bg5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The Classical setup — White pins the f6-knight to the queen rather than defending e4 with c3 or Nge2. Most Black replies here are quiet (...Be7). The MacCutcheon is the sharp exception."
+        }
+      ]
+    },
+    {
+      "san": "Bb4",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A pin answered with a pin",
+          "body": "Instead of breaking White's pin on f6, Black adds a second one: Bb4 pins the c3-knight to White's own king. Compare this to the Winawer, which plays ...Bb4 on move 3, before ...Nf6 even appears — the MacCutcheon reaches a related idea one move later, with the extra knight already committed to f6. That single move-order difference is what produces this variation's entire tactical character.",
+          "concepts": ["pins"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b4", "to": "c3" }]
+    },
+    {
+      "san": "e5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Space, and a question to the pinned knight",
+          "body": "White claims kingside space and, since e5 also attacks f6, forces Black to address the pinned knight rather than simply develop around it."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "f6" }]
+    },
+    {
+      "san": "h6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black's knight is pinned and attacked, yet the reply is a pawn move that doesn't touch it. What is h6 actually doing?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Attacking the pinner instead of saving the pinned",
+          "body": "h6 attacks the g5-bishop directly, forcing it to make the decision White would rather delay: retreat and preserve the bishop pair, or resolve the tension immediately with Bxf6. This is the tabiya of the whole variation — from here, every White try (Bd2, Bh4, Bxf6) leads to genuinely different chess.",
+          "concepts": ["forcing lines"]
+        }
+      ]
+    },
+    {
+      "san": "Bd2",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The main retreat: White keeps the bishop pair rather than trading it off with Bxf6, accepting that the tension in the center stays unresolved a little longer."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bh4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Keeping maximum pressure",
+                "body": "Rather than retreat off the pinning diagonal entirely, the bishop sidesteps the h6-pawn's attack while staying on the exact same g5-d8 diagonal, so the pin on f6 never actually loosens."
+              }
+            ]
+          },
+          {
+            "san": "g5",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "A real try, and a real risk",
+                "body": "Black can gain more space and attack the bishop again — but this seriously weakens the kingside Black will likely castle into. It is a legitimate, sharp alternative to the calmer 6...Bxc3, not a mistake in itself, but it is not something to reach for casually: know exactly what you're calculating before you play it.",
+                "concepts": ["king safety"]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "san": "Bxf6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The simplifying alternative",
+                "body": "Rather than retreat, White trades immediately. This avoids the sharpest MacCutcheon theory entirely at the cost of giving up the bishop pair a move earlier than in the main line."
+              }
+            ]
+          },
+          "Qxf6"
+        ]
+      ]
+    },
+    {
+      "san": "Bxc3",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Not cashing in the pin — inflicting damage",
+          "body": "Notice White's own bishop on d2 now sits between Black's bishop and the king, so this isn't really 'winning' the pinned knight anymore — the pin on that diagonal is already blocked. What Black gets instead is simpler and just as valuable: trade the dark-squared bishop for the knight and wreck White's queenside structure before retreating further would make the trade less favorable.",
+          "concepts": ["pins"]
+        }
+      ]
+    },
+    {
+      "san": "bxc3",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Doubled pawns for activity",
+          "body": "White's c-pawns are now doubled — a genuine structural weakness for the endgame. In return, White gets the bishop pair, an open b-file for the rook, and a solid pawn mass in the center (c3 and d4 together control e4 and e5). This is the variation's honest bargain: Black damages White's structure at the cost of the bishop pair; neither side gets something for nothing.",
+          "concepts": ["doubled pawns", "bishop pair"]
+        }
+      ]
+    },
+    {
+      "san": "Ne4",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The fork that defines the position",
+          "body": "One knight move attacks both the bishop on d2 and the newly doubled c3-pawn — Black's reward for the whole sequence. The knight sits on a square nothing can easily challenge: no White pawn can ever kick it from e4 again.",
+          "concepts": ["doubled pawns"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "e4", "to": "d2" },
+        { "type": "arrow", "from": "e4", "to": "c3" }
+      ]
+    },
+    {
+      "san": "Qg4",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Ignoring the fork to counterattack",
+          "body": "White leaves both Bd2 and c3 hanging and swings the queen straight at g7 instead. This is the sharpest, most testing continuation in the whole variation — Black cannot simply grab material and relax; the position demands an exact, concrete answer right now."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "g7" }]
+    },
+    {
+      "san": "Kf8",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "An ugly-looking move that is nonetheless one of the two standard replies (the other, 8...g6, weakens the dark squares instead of giving up castling). Losing the right to castle sounds catastrophic, but Black's king is reasonably safe on f8 behind an intact pawn shield, while the knight fork on Bd2 and c3 is still sitting there uncollected. Three lessons from this line: a pin doesn't have to reach the king to be worth playing — Bb4's real point was structural damage, not a material win; a genuine attacking counter (Qg4) can be worth more than stopping to resolve a material threat first, which is why White leaves the attacked bishop and pawn alone for a move; and 'solid' and 'safe' are not the same thing — Black's position here is objectively sound but requires precise, calculated defense, not comfortable development. From here the game typically continues with Black eventually capturing on d2, White recapturing with the king (Kxd2 is a known idiosyncrasy of this line), and Black striking back in the center with ...c5 — real French chain warfare, just reached by the sharpest possible route.",
+          "concepts": ["king safety", "forcing lines"]
+        }
+      ]
+    }
+  ]
+}

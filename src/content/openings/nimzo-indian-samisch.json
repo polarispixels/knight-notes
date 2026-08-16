@@ -1,0 +1,232 @@
+{
+  "id": "nimzo-indian-samisch",
+  "catalogCode": "O120",
+  "focus": "black",
+  "title": "Nimzo-Indian Defense: Sämisch Variation",
+  "subtitle": "Take the damage now, build a fist in the center",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "White answers the Nimzo-Indian pin the most direct way possible: force the doubled pawns immediately with 4.a3, then spend the bishop pair and a big pawn center on outweighing them. It is the sharpest, most committal main system in the whole opening, and its most famous demonstration — Botvinnik's throttling of Capablanca at AVRO 1938 — is one of chess's classic strategic games.",
+  "tags": [
+    "Nimzo-Indian Defense",
+    "Sämisch Variation",
+    "Samisch Variation",
+    "Indian Game",
+    "d4 defenses",
+    "doubled pawns",
+    "pawn majority"
+  ],
+  "concepts": [
+    "doubled pawns",
+    "the bishop pair",
+    "pawn majority",
+    "queenside pressure",
+    "space"
+  ],
+  "metadata": {
+    "eco": "E24-E29",
+    "opening": "Nimzo-Indian Defense: Sämisch Variation"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study introduced the Sämisch as the most direct of White's replies to the pin: 4.a3 forces the question at once, betting that the bishop pair and a big classical center outweigh the doubled c-pawns from the very start. This lesson goes into the bargain in detail — how White actually builds and uses that center, and how Black actually attacks the queenside weakness rather than just noting that it exists. Where the Rubinstein spends many quiet moves before the same trade happens, the Sämisch puts both sides' whole plan on the table by move five."
+    }
+  ],
+  "line": [
+    "d4",
+    "Nf6",
+    "c4",
+    "e6",
+    "Nc3",
+    "Bb4",
+    {
+      "san": "a3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "No patience, no ambiguity",
+          "body": "White asks the question on move four, before either side has finished developing. Compare this to the family study's Rubinstein branch, where the same trade waits nearly ten moves — here, White is betting the whole game on the center and the bishop pair covering the cost immediately, not gradually.",
+          "concepts": ["doubled pawns"]
+        }
+      ]
+    },
+    {
+      "san": "Bxc3+",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Taking the trophy at once",
+          "body": "Black accepts the invitation immediately — there is nothing to gain by waiting, since White has already committed to a3 and there is no extra tempo left to provoke.",
+          "concepts": ["doubled pawns"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Be7",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Sidestepping the whole bargain",
+                "body": "Black can simply retreat rather than trade — the pin's threat disappears along with the bishop's active post. This avoids any structural damage, but it also concedes everything the pin was fighting for: White gets to play e4 with a genuinely free hand, having spent a3 on a move that turns out useful anyway (it rules out ...Bb4 and ...Nb4 tricks for good). In practice this retreat is rare — most players judge that accepting the trade for real compensation, as the main line does, gives Black more to work with than giving the pin up for free."
+              }
+            ]
+          },
+          "e4",
+          "d6"
+        ]
+      ]
+    },
+    {
+      "san": "bxc3",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The doubled pawns are locked in on move five — the earliest they can possibly appear in this opening. Everything from here is about how each side actually uses the resulting imbalance, not whether it exists.",
+          "concepts": ["doubled pawns"]
+        }
+      ]
+    },
+    {
+      "san": "c5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Striking the weak pawns immediately",
+          "body": "Black doesn't wait to develop before hitting c3 and a3 — pressuring the doubled pawns from the very start is central to Black's whole plan against the Sämisch. Counterplay has to start early, because White's center is about to start moving.",
+          "concepts": ["queenside pressure"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "d5",
+            "annotations": [
+              {
+                "type": "historical",
+                "title": "The exact structure from Botvinnik vs Capablanca",
+                "body": "Striking with the other central pawn first leads, by transposition, to the identical structure reached in the game Botvinnik vs Capablanca (AVRO 1938) — that game arrived here through 4.e3 d5 5.a3 Bxc3+ 6.bxc3, swapping the order of e3 and a3, but the position after the trades is the same one this line reaches. Play through the moves shown here and then follow that game for the full plan: fix the queenside target, march the central majority forward one square at a time, and only then force the pawn home with the tactic that makes the game famous.",
+                "concepts": ["doubled pawns", "pawn majority"]
+              }
+            ]
+          },
+          "e3",
+          "c5",
+          "cxd5",
+          "exd5",
+          "Bd3",
+          "O-O",
+          "Ne2",
+          "b6",
+          "O-O",
+          {
+            "san": "Ba6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "A different diagonal, because the pawn is gone",
+                "body": "In the main line, Ba6 attacks a pawn sitting on c4. Here there is no pawn on c4 at all — the cxd5/exd5 trade back on move seven removed it — so the same bishop move instead attacks White's bishop on d3 directly, along the now-open a6–d3 diagonal. This is exactly the position where Botvinnik's game continues with Bxa6, trading it off rather than allowing the pressure to build."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "e3",
+    "Nc6",
+    "Bd3",
+    "O-O",
+    {
+      "san": "Ne2",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Keeping f3 and f4 open",
+          "body": "The knight develops off the f-file rather than to f3, leaving f2-f3 and a future f3-e4 push (or f4, for a kingside pawn storm) fully available — a small but purposeful choice that shapes the whole middlegame plan.",
+          "concepts": ["space"]
+        }
+      ]
+    },
+    {
+      "san": "b6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "warning",
+          "title": "The move that must not be skipped",
+          "body": "Queenside counterplay has to start now, or White's center simply runs. The natural-looking alternative shown here — a quiet developing move instead — shows what happens when Black is too slow.",
+          "concepts": ["queenside pressure"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "d6",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "A reasonable-looking move that wastes the moment",
+                "body": "This looks like ordinary development — nothing is hanging, nothing is forced. But it does nothing to fix or attack the a3/c3 pawns, and it hands White a free tempo to start the central plan the doubled pawns were supposed to pay for.",
+                "concepts": ["queenside pressure"]
+              }
+            ]
+          },
+          {
+            "san": "e4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The center rolls before the siege begins",
+                "body": "White gets the central expansion a full move earlier than in the main line, with Black's queenside counterplay ( ...b6 and ...Ba6) not even started yet. The doubled pawns are still there, but now there is no pressure on them at all — exactly the outcome White is playing for.",
+                "concepts": ["pawn majority"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "O-O",
+    {
+      "san": "Ba6",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Attacking the pawn, not just noting it",
+          "body": "The bishop leaves the long diagonal to bear down on c4 directly — the first pawn in the weak trio (a3, c3, c4) that Black can actually pressure with a piece right now. This is the standing plan against the Sämisch: fix the queenside pawns, then attack them one at a time faster than White's center can compensate.",
+          "concepts": ["queenside pressure"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "a6", "to": "c4" }]
+    },
+    {
+      "san": "e4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The bargain, laid bare",
+          "body": "White's central majority starts to roll forward — the compensation the doubled pawns were supposed to buy. Black's a6-bishop presses c4 while the queenside pieces mobilize against a3 and c3. Whichever side's plan executes faster decides the game: White's pawns need to become dangerous before Black's pieces finish the siege.",
+          "concepts": ["pawn majority", "queenside pressure"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Two lessons specific to this system: the Sämisch puts its entire bargain on the table almost immediately, so both plans (the central pawn storm and the queenside siege) have to start on move five or six, not develop gradually as in the Rubinstein; and a weakness only matters if it can be attacked faster than the compensation can be used — Black's ...c5 and ...Ba6 exist to make sure the a3/c3 pawns are under fire before White's center becomes a real threat."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e4" }]
+    }
+  ]
+}

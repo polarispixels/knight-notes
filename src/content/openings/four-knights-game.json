@@ -1,0 +1,267 @@
+{
+  "id": "four-knights-game",
+  "catalogCode": "O016",
+  "title": "The Four Knights Game",
+  "subtitle": "Symmetry, and what breaks it",
+  "type": "opening",
+  "difficulty": "beginner",
+  "summary": "Both sides develop every knight before either bishop chooses a diagonal — a rare piece of restraint among 1.e4 e5 openings. The Four Knights teaches how a single move-four decision quietly redirects the whole game toward the Ruy Lopez, the Italian Game, or a genuinely independent fight of its own.",
+  "tags": [
+    "Four Knights Game",
+    "Four Knights Opening",
+    "Ruy Lopez",
+    "Italian Game",
+    "Scotch Game",
+    "e4 openings",
+    "symmetrical development"
+  ],
+  "concepts": [
+    "development",
+    "central tension",
+    "symmetrical structures",
+    "prophylaxis",
+    "outposts",
+    "transpositions"
+  ],
+  "metadata": {
+    "eco": "C46-C49",
+    "opening": "Four Knights Game",
+    "historicalContext": "A fixture of classical-era chess — Akiba Rubinstein and Jose Raul Capablanca both relied on its solid reputation. It fell out of top-level fashion for much of the twentieth century as sharper openings took over, then returned in recent decades as a practical way for strong players to reach a safe, well-understood position without heavy home preparation."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Both sides develop a knight to defend or attack e5 and e4 before either player commits a bishop anywhere. That shared patience is the opening's whole identity, and it raises a real question: is delaying the bishop a genuine strategic choice, or just a placeholder that quietly hands the game to a neighboring opening the student may already know? Watch which fourth-move choices keep the Four Knights independent, and which ones simply transpose."
+    },
+    {
+      "type": "historical",
+      "title": "The classical era's safe harbor",
+      "body": "A fixture of classical-era chess — Akiba Rubinstein and Jose Raul Capablanca both relied on its solid reputation. It fell out of top-level fashion for much of the twentieth century as sharper openings took over, then returned in recent decades as a practical way for strong players to reach a safe, well-understood position without heavy home preparation."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    "Nc3",
+    {
+      "san": "Nf6",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Why it's called Four Knights",
+          "body": "Both sides have now developed a knight toward the center before touching a bishop — the position's whole identity comes from this shared restraint. In the Italian Game or Ruy Lopez, White's bishop comes out on move three; here it waits one move longer, and that single tempo of patience shapes everything that follows.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    {
+      "san": "Bb5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Which family does White choose?",
+          "body": "White finally commits the bishop, and this single move decides which opening the rest of the game will resemble. 4.Bb5 attacks c6 exactly as the Ruy Lopez does — but Black now has an extra developed knight, which unlocks a sharp reply (4...Nd4) unavailable in the Ruy proper and covered in depth in Spanish Variation. Two other common fourth moves send the game straight into a cousin's structure instead — see the alternatives here.",
+          "concepts": ["transpositions"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b5", "to": "c6" }],
+      "variations": [
+        [
+          {
+            "san": "d4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Scotch Four Knights",
+                "body": "White strikes the center immediately instead of developing the bishop first. After the natural exd4 Nxd4, the game transposes straight into Scotch Game structures — the same open center and piece activity, just reached by a different move order.",
+                "concepts": ["transpositions"]
+              }
+            ]
+          },
+          "exd4",
+          "Nxd4"
+        ],
+        [
+          {
+            "san": "Bc4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Italian Four Knights",
+                "body": "White aims the bishop at f7 instead of pressuring c6. After 4...Bc5, the position is a genuine Italian Game — the extra pair of developed knights barely changes the plans, which is why this branch isn't split into its own lesson.",
+                "concepts": ["transpositions"]
+              }
+            ]
+          },
+          "Bc5"
+        ]
+      ]
+    },
+    {
+      "san": "Bb4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black mirrors White exactly, pinning Nc3 the way Bb5 pins Nc6. Is either knight actually threatened right now?"
+        },
+        {
+          "type": "key-idea",
+          "title": "An offer to trade, not a threat",
+          "body": "No — check the diagonals. Bb5's line to e8 is blocked by Black's own d7-pawn, and Bb4's line to e1 is blocked by White's own d2-pawn, so neither bishop pins anything to a king yet. Each bishop simply attacks a knight that is defended by a pawn recapture (bxc3 or dxc6): a fair trade offer, not a won piece. This is the Four Knights in miniature — true symmetry, where White's one extra tempo is the only asymmetry on the board.",
+          "concepts": ["central tension", "symmetrical structures"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nd4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The independent alternative",
+                "body": "Instead of mirroring with 4...Bb4, Black can jump the knight into the center at once, attacking Bb5 and refusing the symmetrical structure entirely. This sharper try earns its own full lesson: Spanish Variation."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White castles rather than resolve the tension on c6. Grabbing the knight instead runs into real trouble, as the alternative here shows."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nxe5",
+            "classification": "mistake",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "A weaker Halloween",
+                "body": "Grabbing e5 here looks like the Halloween Gambit's idea (a knight sacrificed for a huge pawn center), but it's a strictly worse version: Black already has a free developing move in (4...Bb4), and White has spent this tempo on Bb5 rather than on the central buildup the real gambit depends on. After Nxe5 Nxe5, White is simply down a piece for a pawn with no follow-up — try 6.d4 and Black's knight just steps aside with tempo to spare. The Halloween Gambit lesson shows the genuine version, played a move earlier and far more dangerously.",
+                "concepts": ["central tension"]
+              }
+            ]
+          },
+          "Nxe5",
+          "d4",
+          "Nc6"
+        ]
+      ]
+    },
+    "O-O",
+    {
+      "san": "d3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "principle",
+          "title": "Prophylaxis before the pin",
+          "body": "A quiet move that both supports e4 (so neither knight can grab it for free) and clears d2 for the eventual retreat of a chased piece. Nothing is threatened yet — d3 is played precisely so nothing needs to be defended in a hurry later.",
+          "concepts": ["prophylaxis"]
+        }
+      ]
+    },
+    "d6",
+    {
+      "san": "Bg5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "This time, a real pin",
+          "body": "Unlike the two bishop moves back on move four, this pin is genuine: nothing stands between g5 and d8, so Nf6 cannot move without exposing the queen.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g5", "to": "d8" }]
+    },
+    {
+      "san": "Bxc3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black resolves the standoff from move four by trading rather than retreating — giving up the bishop pair in exchange for doubling White's queenside pawns."
+        }
+      ]
+    },
+    "bxc3",
+    {
+      "san": "Qe7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black steps the queen off the g5-d8 diagonal, ending the pin and preparing to finish development."
+        }
+      ]
+    },
+    {
+      "san": "Re1",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "body": "White adds a defender to e4 and eyes the future central break d4, aiming the rook down the same file the queen just vacated.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e1", "to": "e4" }]
+    },
+    {
+      "san": "Nd8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "One step back, two squares forward",
+          "body": "A backward-looking move with a forward purpose: the c6-knight, no longer needed to guard e5 now that the queen does, reroutes toward e6 — a square no White piece can safely challenge.",
+          "concepts": ["outposts"]
+        }
+      ]
+    },
+    {
+      "san": "d4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White claims the full center now that development is essentially complete — the reward for the patient buildup since move six."
+        }
+      ]
+    },
+    {
+      "san": "Ne6",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The knight completes its journey",
+          "body": "The rerouted knight lands on e6, a square nothing can attack, and immediately attacks Bg5 — White must now trade on f6 or retreat, either way handing Black a small decision-making tempo. This is the position both sides have been playing toward: White holds the bishop pair (or trades it for structure) and central space; Black has a flawless pawn structure and a beautifully placed knight.",
+          "concepts": ["outposts", "central tension"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry out of this opening: apparent symmetry can hide a real asymmetry (White's one extra tempo, spent well, is the whole game); a bishop attacking a knight is not automatically a threat — check whether the recapture actually costs anything; and quiet maneuvering moves (Nd8-e6, d3, Re1) earn their keep even though none of them attack anything the moment they're played.",
+          "concepts": ["symmetrical structures", "outposts", "prophylaxis"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e6", "to": "g5" }, { "type": "square", "square": "e6" }]
+    }
+  ]
+}

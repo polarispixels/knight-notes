@@ -1,0 +1,233 @@
+{
+  "id": "grunfeld-fianchetto",
+  "catalogCode": "O109",
+  "focus": "black",
+  "title": "Grünfeld Defense: Fianchetto Variation",
+  "subtitle": "The quiet version of the same argument",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "White answers the Grünfeld's challenge without grabbing the center at all — developing the king's bishop to g2 first and keeping every option open. The result is a slower, more positional battle where Black gets to choose exactly how much central tension to accept, and the two fianchettoed bishops end up staring down the same long diagonal at each other.",
+  "tags": ["Grünfeld Defense", "Fianchetto Variation", "Indian Game", "d4 defenses", "hypermodern", "the long diagonal"],
+  "concepts": [
+    "the long diagonal",
+    "delayed central tension",
+    "structural choices",
+    "big center vs. piece activity",
+    "central undermining"
+  ],
+  "metadata": {
+    "eco": "D90-D94",
+    "opening": "Grünfeld Defense: Fianchetto Variation",
+    "historicalContext": "A quieter alternative to the Exchange Variation's forcing theory, favored by players who want the strategic substance of the Grünfeld's central argument without its sharpest, most heavily analyzed lines."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Grünfeld Defense family study built its whole line around White grabbing the center fast — Nc3, then a Nf3/Qb3 fight over dxc4. This variation shows White declining the race: the king's bishop fianchettoes to g2 before White commits the center one way or the other. That single change of move order shifts everything. Black is no longer answering forcing threats; Black is choosing, freely, between a solid structure and a sharper one — and now two fianchettoed bishops share the exact same long diagonal, a rivalry the family study's lines never produce."
+    }
+  ],
+  "line": [
+    "d4",
+    "Nf6",
+    "c4",
+    "g6",
+    "Nf3",
+    "Bg7",
+    {
+      "san": "g3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "No fight for the center yet",
+          "body": "Compare this to The Grünfeld Defense's third move, Nc3 — that move commits to a fight over the center immediately. g3 commits to nothing except the bishop's diagonal, keeping cxd5, e4, and Nc3 all available for later. This is the entire personality of the variation in one move.",
+          "concepts": ["delayed central tension"]
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black still strikes the center before finishing development — the defining Grünfeld idea survives the different White move order intact.",
+          "concepts": ["central breaks"]
+        }
+      ]
+    },
+    {
+      "san": "cxd5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White finally resolves the tension by capturing. This is the main try, though White could also develop the bishop first and leave the capture for later — the variation below shows what that offers Black.",
+          "concepts": ["delayed central tension"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bg2",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Delaying the capture",
+                "body": "White develops the bishop before touching the center at all, leaving the d5-pawn untaken for now."
+              }
+            ]
+          },
+          {
+            "san": "dxc4",
+            "classification": "theory",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Grabbing the pawn instead of defending it",
+                "body": "With no capture forced on Black yet, taking on c4 is a real, independent try — Black pockets a pawn and dares White to prove compensation, much as in the Queen's Gambit Accepted. White's most natural way to get it back is to develop toward c4 rather than chase it with the queen.",
+                "concepts": ["structural choices"]
+              }
+            ]
+          },
+          "Na3"
+        ]
+      ]
+    },
+    "Nxd5",
+    {
+      "san": "Bg2",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Two bishops, one diagonal",
+          "body": "This is the position's real signature. White's bishop and Black's bishop both live on the a1–h8 diagonal now, contesting the same squares from opposite ends. Whoever controls d4 and e5 more effectively along this line usually controls the resulting middlegame.",
+          "concepts": ["the long diagonal"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g2", "to": "a8" }]
+    },
+    {
+      "san": "c6",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The solid choice",
+          "body": "Rather than provoke a fight for the center immediately, Black plants a pawn that simply supports the knight on d5 and keeps the structure calm. This is the quiet character the whole variation is named for — Black could instead play more actively here, but the point of choosing this system in the first place is usually to avoid forcing lines, not to invite them.",
+          "concepts": ["structural choices", "delayed central tension"]
+        }
+      ]
+    },
+    "O-O",
+    "O-O",
+    "Nc3",
+    {
+      "san": "Nb6",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Sidestepping the Exchange Variation entirely",
+          "body": "Retreating the knight rather than allowing White to kick it with e4 also quietly avoids a structural fork in the road: in The Grünfeld Defense's Exchange Variation, Black's centralized knight trades itself off on c3, letting White recapture bxc3 and build the famous c3-d4-e4 pawn trio. By retreating here instead, that trade never happens — White's center in this line will only ever be two pawns wide, d4 and e4, not three. Same opening, structurally different battlefield.",
+          "concepts": ["big center vs. piece activity", "structural choices"]
+        }
+      ]
+    },
+    {
+      "san": "e4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White claims real central space at last — later than the Exchange Variation, and with a narrower pawn front, but the same underlying question returns: is this center an asset Black must respect, or a target Black can attack?",
+          "concepts": ["big center vs. piece activity"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "d4" },
+        { "type": "square", "square": "e4" }
+      ]
+    },
+    {
+      "san": "Bg4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Pins the knight defending d4 and adds pressure to the center before it can be fully consolidated.",
+          "concepts": ["big center vs. piece activity"]
+        }
+      ]
+    },
+    "h3",
+    {
+      "san": "Bxf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Trading off the well-placed knight rather than retreating and losing the pin's value. What White recaptures with next matters more than it looks.",
+          "concepts": ["central undermining"]
+        }
+      ]
+    },
+    {
+      "san": "Qxf3",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The point of the fianchetto, protected",
+          "body": "White recaptures with the queen rather than the g2-bishop specifically to keep that bishop exactly where the whole variation wants it — bearing down the long diagonal. Recapturing with the bishop instead would have solved this position's central argument by simply abandoning it.",
+          "concepts": ["the long diagonal"]
+        }
+      ]
+    },
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Even in this quieter branch, Black eventually strikes the center directly rather than letting it simply sit. Why not just develop peacefully and let White's space advantage stand?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The same undermining instinct, delayed but not abandoned",
+          "body": "Every Grünfeld structure eventually asks the same question of White's center, whichever move order produced it: is it strong, or is it just a target that hasn't been hit yet? Striking with ...e5 tests that directly, using the same central-undermining logic the family study demonstrated with ...c5 against the Russian System.",
+          "concepts": ["central undermining"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e5", "to": "d4" }]
+    },
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White chooses to push rather than capture, gaining further space instead of resolving the tension outright.",
+          "concepts": ["big center vs. piece activity"]
+        }
+      ]
+    },
+    {
+      "san": "N8d7",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The quiet version, resolved",
+          "body": "White's plans from here: keep the space advantage, complete development, and decide later whether to challenge Black's own coming ...c5 or ...f5 breaks. Black's plans: reroute this knight toward c5 or e5's support, keep the long-diagonal bishop's pressure alive on b2 and beyond, and use the queenside pawn breaks a delayed center always leaves available. The fight is calmer and slower than the Exchange Variation's, but it is recognizably the same argument — pawns versus pieces — just fought on a longer clock.",
+          "concepts": ["big center vs. piece activity", "the long diagonal"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: delaying a commitment (Bg2 before cxd5, or Nb6 before allowing e4) changes the resulting structure just as much as an early forcing move does; the two fianchettoed bishops sharing the a1-h8 diagonal is this variation's real identity, distinct from every other Grünfeld branch; and Black's central-undermining instinct — strike the finished center rather than just develop around it — survives even in this quietest of Grünfeld move orders.",
+          "concepts": ["delayed central tension", "the long diagonal", "central undermining"]
+        }
+      ]
+    }
+  ]
+}

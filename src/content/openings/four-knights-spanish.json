@@ -1,0 +1,204 @@
+{
+  "id": "four-knights-spanish",
+  "catalogCode": "O017",
+  "title": "Spanish Variation",
+  "subtitle": "Four Knights Game — Rubinstein's central jump",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "Instead of mirroring White's bishop move with the drawish 4...Bb4, Black jumps a knight straight into the center. It looks like it just hangs a pawn — it doesn't — and the forcing sequence that follows trades away every knight on the board before move nine, leaving a genuinely different fight than the symmetrical main line.",
+  "tags": [
+    "Four Knights Game",
+    "Spanish Variation",
+    "Rubinstein Variation",
+    "Ruy Lopez",
+    "e4 openings",
+    "forcing sequences"
+  ],
+  "concepts": [
+    "central counterplay",
+    "forcing sequences",
+    "doubled pawns",
+    "piece activity",
+    "calculation"
+  ],
+  "metadata": {
+    "eco": "C48-C49",
+    "opening": "Four Knights Game: Spanish (Ruy Lopez) Variation",
+    "historicalContext": "Named for Akiba Rubinstein, the early-20th-century theoretician who worked out 4...Nd4 as a way to sidestep the Four Knights' drawish reputation with a genuinely independent idea — one only available because both knights are already developed."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Four Knights Game showed how mirroring White's bishop with 4...Bb4 leads to quiet, symmetrical maneuvering where nothing is really threatened. Here Black refuses the mirror entirely: 4...Nd4 attacks the bishop immediately and forces a long, only-move sequence that resolves before either side has castled. The central question is whether meeting development with a tactical strike — instead of more development — actually holds up to calculation."
+    },
+    {
+      "type": "historical",
+      "title": "Rubinstein's contribution",
+      "body": "Named for Akiba Rubinstein, the early-20th-century theoretician who worked out 4...Nd4 as a way to sidestep the Four Knights' drawish reputation with a genuinely independent idea — one only available because both knights are already developed."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    "Nc3",
+    "Nf6",
+    "Bb5",
+    {
+      "san": "Nd4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "This knight jump attacks Bb5 while also stepping away from e5's defense — is White simply winning a pawn?"
+        },
+        {
+          "type": "key-idea",
+          "title": "A central strike, not a blunder",
+          "body": "Black offers a trade of the attacked bishop for the centralized knight, and if White instead grabs the loose e5-pawn, the position turns forcing rather than free — every capture from here is close to forced for several moves, which is exactly the point: Black trades quiet development for concrete calculation.",
+          "concepts": ["central counterplay"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d4", "to": "b5" }]
+    },
+    {
+      "san": "Nxd4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Trading into the tactics",
+          "body": "White accepts the trade rather than retreat the bishop — the critical test of Black's idea.",
+          "concepts": ["forcing sequences"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Ba4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The calmer alternative",
+                "body": "White can simply retreat instead of entering the forced sequence — keeping the bishop's diagonal alive and avoiding any calculation risk. Play continues naturally (5...Bc5, developing normally), and the game stays closer in spirit to the quiet symmetrical main line than to the sharp trade below. Many club players prefer this over memorizing the forcing line move by move."
+              }
+            ]
+          },
+          "Bc5"
+        ]
+      ]
+    },
+    {
+      "san": "exd4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black recaptures toward the center with the pawn rather than losing more time — and this pawn is not finished moving yet."
+        }
+      ]
+    },
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Attacking the other knight",
+          "body": "White pushes past the d4-pawn to hit Nf6, refusing to let Black simply consolidate. Black cannot ignore this — the knight must move, and where it goes determines what happens to White's remaining knight on c3.",
+          "concepts": ["forcing sequences"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e5", "to": "f6" }]
+    },
+    {
+      "san": "dxc3",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The pawn does the fighting",
+          "body": "Rather than retreat the knight and let White consolidate, Black lets the advanced d4-pawn capture Nc3 outright — the pawn from move four's exchange turns out to be worth a whole piece. White's own e5-pawn is still hanging over Nf6, so this isn't free: the position keeps forcing itself forward.",
+          "concepts": ["central counterplay"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "c3" }]
+    },
+    {
+      "san": "exf6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White cashes in the other side of the exchange, capturing the knight White just threatened, rather than recapturing on c3 first."
+        }
+      ]
+    },
+    {
+      "san": "Qxf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black recaptures with the queen, developing it actively while a White pawn still sits on c3 waiting to be dealt with."
+        }
+      ]
+    },
+    {
+      "san": "bxc3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Four knights, zero knights",
+          "body": "The forcing sequence ends here: every knight from the opening's name has been traded off, material is exactly level (both sides down two minor pieces and one pawn apiece), and White has doubled c-pawns in exchange for the bishop pair and a small development lead — Black's queen is already out, but the king still needs to find safety.",
+          "concepts": ["forcing sequences", "doubled pawns"]
+        }
+      ]
+    },
+    {
+      "san": "Be7",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a piece that looks like it's hanging can instead trigger a fully forced sequence — always calculate before assuming a knight jump is just a blunder; recapturing 'the obvious way' is not automatic even in balanced positions (compare the trap in the alternative here, where a tempting extra pawn grab loses the queen outright); and doubled pawns bought with the bishop pair and development are a real, standard trade, not a free concession.",
+          "concepts": ["piece activity", "doubled pawns"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Qxc3",
+            "classification": "blunder",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The second pawn that isn't there for free",
+                "body": "Grabbing another pawn looks natural — the queen is already active on f6, and c3 seems undefended after the earlier trades. It isn't: White's d2-pawn guards c3 directly, and dxc3 simply wins the queen for a pawn. Always check what a target square is defended by before adding a second capture to a plan that already worked once.",
+                "concepts": ["calculation"]
+              }
+            ],
+            "visual": [{ "type": "square", "square": "c3" }, { "type": "arrow", "from": "d2", "to": "c3" }]
+          },
+          {
+            "san": "dxc3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White simply recaptures the queen with the pawn — a decisive material win from a move that looked like it was just continuing the earlier pattern of the position."
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ]
+}

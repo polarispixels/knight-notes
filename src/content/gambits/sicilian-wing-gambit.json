@@ -1,0 +1,207 @@
+{
+  "id": "sicilian-wing-gambit",
+  "catalogCode": "GB020",
+  "focus": "white",
+  "title": "The Wing Gambit",
+  "subtitle": "A flank pawn against the Sicilian's own queenside plan",
+  "type": "gambit",
+  "difficulty": "beginner",
+  "summary": "Instead of the Open Sicilian's slow buildup or the Smith-Morra's central pawn sacrifice, White offers a wing pawn on move two for rapid development and pressure down the open b-file. It is an honest, old-fashioned try, still capable of punishing careless acceptance — but measured against precise defense, it simply does not buy enough.",
+  "tags": ["Wing Gambit", "Sicilian Wing Gambit", "Sicilian Defense", "gambit", "open files", "flank pawn"],
+  "concepts": [
+    "flank pawn sacrifice",
+    "rapid development",
+    "diversion",
+    "open files",
+    "risk and compensation"
+  ],
+  "metadata": {
+    "eco": "B20",
+    "opening": "Sicilian Defense: Wing Gambit",
+    "historicalContext": "A nineteenth and early twentieth-century try against the Sicilian that still sees occasional club-level use today, though modern theory has not been kind to it."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "Tempo bought with a wing pawn, not a center pawn",
+      "body": "The Sicilian Defense study showed why Black plays 1...c5: the pawn buys a half-open c-file and a central pawn majority, and Black spends the whole opening cashing that in with queenside expansion. The Wing Gambit tries to deny Black that plan before it starts, offering a flank pawn for quick development and the open b-file instead. This lesson states the honest verdict up front and then shows why: a wing pawn buys real but modest compensation — nowhere near what the Smith-Morra Gambit gets for a center pawn — and precise defense simply keeps the extra material."
+    },
+    {
+      "type": "historical",
+      "title": "An old try that still gets played",
+      "body": "The Wing Gambit predates modern opening theory and has never been a serious weapon at the top level, but it survives at club level exactly because it is easy to play and punishes players who do not know the calm answer."
+    }
+  ],
+  "line": [
+    "e4",
+    {
+      "san": "c5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "See The Sicilian Defense for the full case for this move. This lesson picks up at White's second move."
+        }
+      ]
+    },
+    {
+      "san": "b4",
+      "classification": "interesting",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The cost: a queenside pawn for tempo and an open file",
+          "body": "White offers a pawn immediately, before developing a single piece. The point is concrete: after a capture on b4, the b-file opens in front of White's queenside rook, and White plans to recapture the tempo with fast, natural development — a3, Bb2 or Nc3, and a queen out to b3 or e2. Declining is possible too, and worth knowing about even briefly (see the variation).",
+          "concepts": ["flank pawn sacrifice"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "b4" }]
+    },
+    {
+      "san": "cxb4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Acceptance is the main test",
+          "body": "Taking the pawn is the critical line and the one that decides the gambit's reputation. A Black player who simply develops instead, ignoring the offer, sidesteps the whole argument — shown briefly in the variation here."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nf6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Declining",
+                "body": "Black can simply develop and attack e4, treating b4 as White's problem rather than a pawn worth grabbing. The gambit only works if Black cooperates by accepting; declining removes its entire point at the cost of nothing concrete for Black."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "a3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Trying to buy the pawn back",
+          "body": "White offers a second pawn, aiming to recapture on b4 with a piece and add more open lines. Black's sharpest reply ignores this second pawn entirely."
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The central counter — comfortable, not just sound",
+          "body": "Rather than grab the second pawn, Black strikes the center immediately. This is considered Black's strongest and simplest answer: it denies White even the small consolation the Nxa3 line offers, and it uses the tempo White spent on wing pawns to seize the center instead. Nothing forced follows — just a comfortable position with an extra pawn and no compensating activity for White to point to.",
+          "concepts": ["diversion", "risk and compensation"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d5", "to": "e4" }],
+      "variations": [
+        [
+          {
+            "san": "bxa3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The other acceptance",
+                "body": "Grabbing the second pawn is also perfectly playable — theory does not condemn it. It simply hands White a full tempo of development (Nxa3) for the trouble, which is exactly the kind of consolation the sharper central counter above denies White altogether."
+              }
+            ]
+          },
+          {
+            "san": "Nxa3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White regains a pawn and develops a piece in the same move — real, if modest, compensation for the material still missing."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "exd5",
+    {
+      "san": "Qxd5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Recaptures toward the center. After this even exchange, Black's material edge is back to exactly the single pawn White offered on move two — the a3-for-d5 skirmish cancelled itself out."
+        }
+      ]
+    },
+    {
+      "san": "Nc3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Develops with tempo on the queen — the first real installment of the compensation this gambit promised.",
+          "concepts": ["rapid development"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c3", "to": "d5" }]
+    },
+    "Qd6",
+    "Nf3",
+    "Nc6",
+    {
+      "san": "Bc4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The familiar diagonal toward f7, developed with a gain of time now that the center has settled.",
+          "concepts": ["rapid development"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c4", "to": "f7" }]
+    },
+    {
+      "san": "e6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Blunts the bishop's diagonal and prepares safe development — the same small precaution the Alapin Variation's own defenders take against the same idea."
+        }
+      ]
+    },
+    "O-O",
+    "Nf6",
+    "Qe2",
+    "Be7",
+    {
+      "san": "d4",
+      "classification": "interesting",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Compensation, but not enough",
+          "body": "Every White piece is developed, the king is safe, and this central strike is the natural conclusion of the whole plan — genuine, real compensation for a single pawn. But that is the honest ceiling of this gambit: a flank pawn bought development and activity, not the durable structural bargain the Smith-Morra Gambit gets for a center pawn and the open c- and d-files together. Black has an extra pawn, no weaknesses worth naming beyond the doubled b-pawns from move two, and a perfectly normal position to defend.",
+          "concepts": ["risk and compensation"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: not every gambit pawn buys the same thing — the Smith-Morra's center pawn opens two files that stay open for the rest of the game, while this flank pawn buys only tempo and activity that can be neutralized by careful defense; the sharpest defense to a gambit is often the calmest one, since Black's central counter (...d5) did more for Black here than grabbing every available pawn would have; and a gambit's honest verdict does not have to be a forced win to be worth learning — this one rewards a well-prepared attacker against careless defense, and loses cleanly against a defender who knows the plan, which is exactly the kind of surprise weapon it is."
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "b4" },
+        { "type": "square", "square": "b7" }
+      ]
+    }
+  ]
+}

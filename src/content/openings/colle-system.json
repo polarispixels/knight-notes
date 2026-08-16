@@ -1,0 +1,249 @@
+{
+  "id": "colle-system",
+  "catalogCode": "O126",
+  "focus": "white",
+  "title": "The Colle System",
+  "subtitle": "One setup, two names, and the pawn break that makes it work",
+  "type": "opening",
+  "difficulty": "beginner",
+  "summary": "The Colle keeps its bishop at home behind e3 and builds every plan around a single, well-prepared lever: e3-e4. It reaches the same triangle of pawns against nearly any Black setup, then differs only in how it supports that break — the classical Koltanowski way with c3, or the sharper Zukertort way with a second fianchetto on b2. Learn the shared skeleton and the two different attacking plans that grow from it.",
+  "tags": [
+    "Colle System",
+    "Colle Opening",
+    "Colle Setup",
+    "Colle-Koltanowski",
+    "Colle-Zukertort",
+    "Queen's Pawn Game",
+    "d4 systems"
+  ],
+  "concepts": [
+    "pawn structure",
+    "central break e3-e4",
+    "kingside attack",
+    "piece harmony before pawn breaks",
+    "outposts",
+    "pawn breaks"
+  ],
+  "metadata": {
+    "eco": "D05",
+    "opening": "Queen's Pawn Game: Colle System",
+    "historicalContext": "Named for the Belgian master Edgar Colle, who scored a string of attacking wins with this setup in the 1920s and 30s, most famously against strong opposition who underestimated its quiet-looking first moves. It remains a favorite of players who want one reliable structure rather than a repertoire of separate defenses to 1...d5."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The overview lesson The Queen's Pawn Game showed the Colle as one of four systems answering 1...d5 or 1...Nf6 with a repeatable setup. This lesson goes deeper: the Colle's entire strategy compresses into one sentence — develop everything quietly behind the e3-pawn, then break with e3-e4 once every piece is ready. What differs is how White supports that break, and the two answers to that question are the named branches this lesson exists to teach: the Koltanowski Variation (c3) and the Zukertort Variation (b3)."
+    }
+  ],
+  "line": [
+    {
+      "san": "d4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Central space, queen-defended from the start."
+        }
+      ]
+    },
+    "d5",
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Development before commitment — unlike the London, the Colle's bishop is not going anywhere yet."
+        }
+      ]
+    },
+    "Nf6",
+    {
+      "san": "e3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The pawn that will move twice",
+          "body": "This looks like a modest developing move, but it is the entire plan in miniature: e3 first supports d4 and opens the f1-bishop's diagonal, and later, once everything else is ready, it advances again to e4. Nothing else in the Colle happens until the pieces behind this pawn are in place.",
+          "concepts": ["central break e3-e4"]
+        }
+      ]
+    },
+    "e6",
+    {
+      "san": "Bd3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The attacking bishop",
+          "body": "This bishop stayed home instead of leaving early like the London's — and for a reason: from d3 it already points at h7, and it will still be pointing there when e4 finally opens the position. Keeping the bishop's diagonal aimed at the enemy king before the attack even starts is a small piece of prophylaxis.",
+          "concepts": ["piece harmony before pawn breaks"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "d3", "to": "h7" }
+      ]
+    },
+    "c5",
+    {
+      "san": "c3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The Colle-Koltanowski System",
+          "body": "The classical way to prepare the break: c3 gives d4 a second defender, so the coming e3-e4 lever will not simply lose a pawn to a central capture. This is the 'plain' Colle — solid, easy to learn, and the version most players meet first. Its cousin, played with b3 instead, follows in the variation here.",
+          "concepts": ["central break e3-e4"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "c3" },
+        { "type": "square", "square": "d4" },
+        { "type": "square", "square": "e3" }
+      ],
+      "variations": [
+        [
+          {
+            "san": "b3",
+            "classification": "theory",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The Colle-Zukertort System",
+                "body": "A genuinely different plan, not just a different pawn move. Instead of supporting d4 with c3, White fianchettoes a second bishop to b2, adding pressure down the long diagonal toward g7 and h8. The Zukertort's attack often arrives through piece pressure and a knight landing on e5 rather than through the direct e3-e4 lever — sharper, and better suited when Black's kingside looks slightly weaker than usual.",
+                "concepts": ["piece placement"]
+              }
+            ]
+          },
+          "Nc6",
+          {
+            "san": "Bb2",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The point of the whole variation: this bishop now eyes the same long diagonal a King's Indian fianchetto would occupy from the other side, giving White pressure that the plain Koltanowski setup does not have."
+              }
+            ],
+            "visual": [
+              { "type": "arrow", "from": "b2", "to": "g7" }
+            ]
+          },
+          "Bd6",
+          "O-O",
+          "O-O",
+          {
+            "san": "Nbd2",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The same developing move the Koltanowski line makes, but the point behind it differs: here it clears the way for the knight to swing toward e5 or g5 in support of the two bishops, rather than to guard the coming e4 push."
+              }
+            ]
+          },
+          "Qc7",
+          {
+            "san": "Ne5",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The Zukertort's real weapon",
+                "body": "The outpost every branch of the Colle family wants — but here it works together with the b2-bishop rather than a central pawn lever. Threats can arrive quickly: Nxf7 ideas, Qh5, or simply doubling on the long diagonal. Compare this to the Koltanowski's patient e3-e4: two systems, two different clocks.",
+                "concepts": ["outposts", "kingside attack"]
+              }
+            ],
+            "visual": [
+              { "type": "square", "square": "e5" }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black completes development and keeps an eye on d4 and e5."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "c4",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The tempting shove that gives up more than it gets",
+                "body": "Chasing the bishop immediately looks active, but it fixes the pawn structure and hands White a clear target on c4 with no real gain — Black's own dark-squared bishop loses scope, and the central tension that was Black's best long-term asset is gone for nothing. A natural-looking move that solves none of Black's actual problems.",
+                "concepts": ["pawn structure"]
+              }
+            ]
+          },
+          {
+            "san": "Bc2",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The bishop simply retreats, still aimed at h7, while Black's advanced c-pawn becomes a long-term weakness rather than a strength."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Nbd2",
+    "Bd6",
+    "O-O",
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Every piece White needs for the plan is now in place — bishop on d3, knight on d2, king castled. What happens if White plays the lever right now?"
+        }
+      ]
+    },
+    {
+      "san": "e4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The lever, finally played",
+          "body": "Seven quiet moves existed for this one. The pawn advances with c3 already supporting d4, so Black cannot simply win it by force; the point is to open the center and the d3-bishop's diagonal at the same time, right when White's pieces are at their most active and Black's are not.",
+          "concepts": ["central break e3-e4"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "e4" }
+      ]
+    },
+    "dxe4",
+    "Nxe4",
+    "Nxe4",
+    {
+      "san": "Bxe4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "What the lever bought",
+          "body": "The position has simplified, but not evenly: White's bishop sits centralized on e4 aiming through the long diagonal toward Black's king, development is a move or two ahead, and Black must spend time solving the same problem the Colle solved seven moves ago. This is what the whole setup was for — not a quick attack, but a small, durable initiative earned by preparation."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a system can commit to its plan in move one (e3) and not reveal the point for seven more moves (e4) — patience is the whole strategy; the Koltanowski and Zukertort branches share a skeleton but attack through genuinely different pieces, c3-and-a-pawn-lever versus b3-and-a-long-diagonal-bishop; and releasing central tension early, as in the ...c4 line, gives away the very asset — tension — that made Black's position flexible in the first place.",
+          "concepts": ["central break e3-e4", "pawn structure"]
+        }
+      ]
+    }
+  ]
+}

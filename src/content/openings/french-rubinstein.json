@@ -1,0 +1,206 @@
+{
+  "id": "french-rubinstein",
+  "catalogCode": "O065",
+  "focus": "black",
+  "title": "The Rubinstein Variation",
+  "subtitle": "Trading the tension away on purpose",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "Where most French lines fight to keep the center tense, the Rubinstein Variation lets Black release it voluntarily on move three. The result is a simple, low-theory position with no fixed pawn chain to defend and almost nothing to memorize — the trade for that simplicity is a small, lasting space edge for White. Learn why some French players choose calm over counterplay, and how to make that calm actually work for you.",
+  "tags": ["French Defense", "Rubinstein Variation", "e4 defenses", "open center", "solid openings"],
+  "concepts": [
+    "central tension",
+    "simplification",
+    "space",
+    "solid development",
+    "piece activity",
+    "open center"
+  ],
+  "metadata": {
+    "eco": "C10",
+    "opening": "French Defense: Rubinstein Variation",
+    "historicalContext": "A low-frequency but genuine part of grandmaster practice, with Viktor Korchnoi and David Bronstein among its notable practitioners — a solid, quieter alternative to the Winawer and Classical main roads for a French player who wants a smaller theoretical burden."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study, The French Defense, builds its whole lesson around chain warfare — a fixed structure both sides fight over for twenty moves. The Rubinstein abandons that fight before it starts: 3...dxe4 releases the central tension on Black's own terms rather than waiting for White to push (Advance) or trade (Exchange). The central question this lesson answers: what does Black actually get for giving up the fight over the center so early, and is 'nothing to attack' the same thing as 'nothing to worry about'?"
+    }
+  ],
+  "line": [
+    "e4",
+    "e6",
+    "d4",
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The usual French challenge. White's three main answers — push, trade, or defend with a piece — are covered in the family study; this line answers with the fourth idea, and it belongs to Black, not White."
+        }
+      ]
+    },
+    {
+      "san": "Nc3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White defends e4 with a piece, keeping options open between the Classical setups (Bg5, or Nge2) covered elsewhere."
+        }
+      ]
+    },
+    {
+      "san": "dxe4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Every other French line keeps the central pawns locked in tension for as long as possible. Why would Black voluntarily trade the one pawn that makes this a French Defense at all?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Solid over sharp — the Rubinstein bargain",
+          "body": "This is closer in spirit to the Caro-Kann's main lines than to the rest of the French: Black trades early and relies on simplicity rather than counterattack. The bad-bishop problem the family study warned about doesn't disappear, but neither does it get worse — and in return, Black avoids memorizing the sharp forcing theory of the Winawer or MacCutcheon entirely. The price, seen over the next few moves, is real: White's recapture arrives with a developing tempo that Black cannot easily answer in kind.",
+          "concepts": ["central tension", "simplification"]
+        }
+      ]
+    },
+    {
+      "san": "Nxe4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White recaptures with a piece rather than a pawn, since no White pawn could reach e4. The knight lands actively in the center — this is the tempo Black paid for simplicity."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e4" }]
+    },
+    {
+      "san": "Nd7",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The variation's defining move",
+          "body": "Rather than challenge the centralized knight immediately, Black develops toward it. Nd7 keeps f6 free for the other knight and, critically, keeps the queen's diagonal to a5 or b6 open for later — small flexibility that a quick ...Nf6 (a different, less patient try) would give up.",
+          "concepts": ["solid development"]
+        }
+      ]
+    },
+    "Nf3",
+    {
+      "san": "Ngf6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Challenging Ne4 at last",
+          "body": "Now Black's other knight comes out and attacks the centralized knight directly — the disambiguation matters here: it must be this knight, since the d7-knight is needed to keep control of the position's key light squares.",
+          "concepts": ["piece activity"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "b6",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "An alternative approach: the fianchetto setup",
+                "body": "Instead of challenging Ne4 immediately, some Rubinstein players prepare a queenside fianchetto first, aiming the bishop at the long diagonal and the e4-square rather than trading knights right away — a genuinely different plan: keep more pieces on the board and trade a little solidity for a little extra piece activity.",
+                "concepts": ["piece activity"]
+              }
+            ]
+          },
+          "Bd3",
+          {
+            "san": "Bb7",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The bishop points at e4 and beyond instead of at nothing — proof that ...Nd7 doesn't commit Black to the immediate knight trade shown in the main line."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nxf6+",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White trades rather than retreat — retreating would simply hand Black a free tempo. The check comes from attacking the still-uncastled king on e8."
+        }
+      ]
+    },
+    {
+      "san": "Nxf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The clean recapture. Development is even, the center is fully open, and neither side has a pawn chain, weak square, or fixed target — exactly the 'nothing to attack' position the Rubinstein is famous for."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "gxf6",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The other recapture",
+                "body": "Legal and playable, but it damages the kingside pawns in front of where Black will likely castle. This is why Nxf6 — recapturing toward the center with the piece — is the normal, preferred choice; gxf6 is a real option only when there's a specific reason to want the half-open g-file.",
+                "concepts": ["piece activity"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Bd3",
+    {
+      "san": "c5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The middlegame break arrives early",
+          "body": "Even without a fixed chain to attack, Black still needs central counterplay, and c5 is it — a direct strike at d4 rather than a slow siege. This is the same base-attacking instinct as the family study's ...c5, just aimed at an isolated pawn instead of a chain.",
+          "concepts": ["piece activity", "open center"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c5", "to": "d4" }]
+    },
+    "O-O",
+    "cxd4",
+    {
+      "san": "Nxd4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White recaptures centrally, and the position now has no pawn tension left anywhere on the board — piece play decides everything from here."
+        }
+      ]
+    },
+    "Be7",
+    "c4",
+    {
+      "san": "O-O",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "What you should have noticed",
+          "body": "Both kings are safe, development is complete, and neither side has a weak pawn or an obvious target — but count the queenside pawns: White still has three (a2, b2, c4) against Black's two (a7, b7), a small, lasting endgame trump left over from the trades on d4. Black's asset is simplicity: no fixed chain to defend, no forcing theory to memorize, and a solid position with few concrete things that can go wrong quickly — though the c8-bishop still has the e6 pawn in front of it, so the family study's 'bad bishop' problem is muted here, not solved. Three lessons: releasing central tension is a choice, not a forced concession — Black traded on move three specifically to sidestep sharper theory, not because dxe4 was somehow necessary; a 'nothing to attack' position still has real, if small, imbalances — here it's a queenside pawn majority, not a structural weakness; and simplicity has a cost that shows up slowly, not immediately — White's small edge is the kind that matters more in an endgame than in the position on the board right now.",
+          "concepts": ["space", "simplification", "central tension"]
+        }
+      ]
+    }
+  ]
+}

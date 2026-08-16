@@ -1,0 +1,198 @@
+{
+  "id": "czech-benoni",
+  "catalogCode": "O107",
+  "focus": "black",
+  "title": "The Czech Benoni",
+  "subtitle": "Locking the center for a wall instead of a battlefield",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "Where the Modern Benoni trades in the center for open lines, the Czech Benoni slams the door shut instead — Black locks the e5-d6 wedge in place immediately and accepts a smaller, safer share of the board. No backward pawn, no weak d6 hole, and none of the Modern Benoni's fireworks: this is the patient, King's Indian-flavored cousin of the family, and it wins its games on a slow-burning kingside storm rather than a quick tactical strike.",
+  "tags": ["Czech Benoni", "Hromádka System", "Hromadka System", "Benoni Defense", "Indian Game", "d4 defenses", "closed centers", "pawn storms"],
+  "concepts": [
+    "permanently locked centers",
+    "piece rerouting before pawn breaks",
+    "space deficit",
+    "opposite-wing play",
+    "pawn storms",
+    "structural solidity vs activity"
+  ],
+  "metadata": {
+    "eco": "A56",
+    "opening": "Czech Benoni Defense",
+    "historicalContext": "The system takes its other name, the Hromádka System, from the Czech master Karel Hromádka, an early-20th-century pioneer of locking the Benoni structure with an immediate ...e5 rather than trading in the center. It remains a specialist's choice — a notch below the Modern Benoni in popularity, but a genuinely distinct weapon for players who want the family's space concession without its tactical volatility."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Benoni Defense family study introduced this idea in a single branch: instead of trading on d5 and opening the center, Black plays ...e5 immediately and locks it shut. That study stopped at the position after 5.e4 to make the contrast with the Modern Benoni. This lesson picks up exactly there and plays the Czech Benoni out on its own terms — the piece rerouting both sides need before their pawns can safely storm forward, and the honest trade at its heart: total structural solidity for a permanent space deficit."
+    }
+  ],
+  "line": [
+    "d4",
+    "Nf6",
+    "c4",
+    "c5",
+    "d5",
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black could recapture the coming wedge pawn with ...e6 and fight for open lines, as the Modern Benoni does. Instead the center gets locked shut before it's even fully formed. What does Black actually get for giving up the open-line dynamism that makes the Benoni family dangerous in the first place?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Trading fireworks for a wall",
+          "body": "Solidity, mostly. With the pawn already on e5, Black will never have a backward d-pawn or a weak d6 square to defend — the two long-term worries of the Modern Benoni. What's given up is the open long diagonal and the piece activity that structure produces; this is a much calmer, more King's Indian-shaped game than its sharper sibling. The two openings share only the d5 wedge and the name.",
+          "concepts": ["permanently locked centers", "structural solidity vs activity"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e5" }]
+    },
+    "Nc3",
+    {
+      "san": "d6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Supports e5 and completes the wedge Black is building around. Notice what this structure never has to worry about: there is no isolated or backward pawn here to nurse for the next thirty moves, unlike the Modern Benoni's d6.",
+          "concepts": ["structural solidity vs activity"]
+        }
+      ]
+    },
+    {
+      "san": "e4",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "This is the position the family study stopped at. From here the real game begins: both sides need to reroute their pieces before either can safely push the pawns their structure points toward.",
+          "concepts": ["permanently locked centers"]
+        }
+      ]
+    },
+    {
+      "san": "Be7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "No fianchetto here",
+          "body": "This is the structural fork in the road. The dark-squared bishop stays on the e7–f6 diagonal rather than heading to g7 — with the long diagonal already blocked by Black's own e5 pawn, a fianchetto would have nothing to aim at. That job falls to the knight instead, as the next few moves show.",
+          "concepts": ["structural solidity vs activity"]
+        }
+      ]
+    },
+    "Nf3",
+    "O-O",
+    {
+      "san": "Be2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Quiet development. Both sides have finished the easy moves; what's left is entirely about maneuvering pieces onto the squares the coming pawn storms need.",
+          "concepts": ["piece rerouting before pawn breaks"]
+        }
+      ]
+    },
+    {
+      "san": "Ne8",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Clearing the runway",
+          "body": "The knight steps off f6 for one reason: it's standing in front of the f-pawn, and Black's whole plan is ...f5. This is the same discipline the Benoni family study demonstrated with ...a6 before ...b5 — a pawn break prepared a move in advance beats the same break played on top of your own piece.",
+          "concepts": ["piece rerouting before pawn breaks"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f6", "to": "e8" }],
+      "variations": [
+        [
+          {
+            "san": "b6",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The fianchetto that doesn't fit",
+                "body": "This looks like sound Benoni technique — it is exactly what the Modern Benoni plays. But there the long diagonal is open; here Black's own pawn sits on e5, permanently in the way. A bishop on b7 in the Czech Benoni bites on granite instead of pressuring anything, and the tempo spent getting it there is a tempo not spent on the kingside plan that actually works in this structure.",
+                "concepts": ["structural solidity vs activity"]
+              }
+            ]
+          },
+          "a4"
+        ]
+      ]
+    },
+    "O-O",
+    {
+      "san": "g6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Prepares a home for the knight on g7, where it will guard the coming f5 push and keep an eye on h5 and e6.",
+          "concepts": ["piece rerouting before pawn breaks"]
+        }
+      ]
+    },
+    {
+      "san": "Ne1",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The same maneuver, the other color",
+          "body": "White clears the f-pawn too — this knight is heading for d3, exactly the reroute The King's Indian Defense uses on the other side of the board with the same piece, for the same reason. Both armies are about to storm opposite wings, and both need this detour first.",
+          "concepts": ["piece rerouting before pawn breaks", "opposite-wing play"]
+        }
+      ]
+    },
+    {
+      "san": "Ng7",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The knight does the bishop's job",
+          "body": "Landing on the square a fianchettoed bishop would normally occupy, this knight supports ...f5 and covers e6 and h5 — real defensive and attacking work that the missing dark-squared bishop can't do from e7. It's a small illustration of a general truth: when one piece can't reach its ideal square, another one often can substitute for it.",
+          "concepts": ["piece rerouting before pawn breaks"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e8", "to": "g7" }]
+    },
+    {
+      "san": "Nd3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White's knight reaches its target square, eyeing b4 and c5 and lending support to the coming queenside expansion — a4, b4, and eventually b5, aimed at the files Black has no pieces posted to defend.",
+          "concepts": ["opposite-wing play"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e1", "to": "d3" }]
+    },
+    "f5",
+    "f3",
+    {
+      "san": "f4",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Two walls, two storms",
+          "body": "The kingside pawn chain locks in Black's favor, gaining space exactly where Black has pieces to use it. From here: White's plan is the queenside minority-style attack — a4, b4, and b5, using the knight now sitting on d3 to support the break and open lines where Black has nothing posted. Black's plan mirrors the King's Indian's kingside storm — ...g5, ...g4, prying open lines in front of White's king with the rooks lifting in behind. Both sides are racing on their own half of the board, just as the family's fianchettoed cousin does.",
+          "concepts": ["opposite-wing play", "pawn storms"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a pawn break wants its own piece out of the way first — ...Ne8 before ...f5 here, just as ...a6 came before ...b5 in the wider Benoni family; the Czech Benoni's bargain is the opposite of the Modern Benoni's — total structural solidity, no backward pawn, no weak squares to defend, paid for with a permanent space deficit and a long-term maneuvering game instead of open-line activity; and when the natural square for a piece is blocked (the fianchetto diagonal, in this case), look for a different piece that can do the same job — here, a knight on g7 instead of a bishop.",
+          "concepts": ["permanently locked centers", "piece rerouting before pawn breaks", "structural solidity vs activity"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "f4" }]
+    }
+  ]
+}

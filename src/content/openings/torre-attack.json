@@ -1,0 +1,204 @@
+{
+  "id": "torre-attack",
+  "catalogCode": "O129",
+  "focus": "white",
+  "title": "The Torre Attack",
+  "subtitle": "Pin first, decide the pawn structure later",
+  "type": "opening",
+  "difficulty": "beginner",
+  "summary": "The Torre pins Black's f6-knight with Bg5 before committing a single central pawn, keeping the choice between c3-and-e3 solidity or a more ambitious c4 setup open for later. Learn why the pin matters even though the knight isn't going anywhere, and the recurring question every Torre player faces: retreat the bishop or trade it for the doubled pawns.",
+  "tags": [
+    "Torre Attack",
+    "Torre System",
+    "Ruth Opening",
+    "Queen's Pawn Game",
+    "d4 systems"
+  ],
+  "concepts": [
+    "pin on Nf6",
+    "piece activity before commitment",
+    "kingside attack",
+    "flexible central pawns",
+    "outposts"
+  ],
+  "metadata": {
+    "eco": "A46, D03",
+    "opening": "Queen's Pawn Game: Torre Attack",
+    "historicalContext": "Named for the Mexican master Carlos Torre, who employed this bishop development in the 1920s, the same period in which he rose briefly to the top ranks of world chess. It is also historically called the Ruth Opening, after Adolf Ruth, an amateur who tried the same idea earlier but never developed its theory."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Queen's Pawn Game showed the Torre as the more patient of the two knight-pinning systems, waiting for ...e6 before playing Bg5 where the immediate Trompowsky Attack pins on move two. This lesson goes deeper: why pinning a piece that can't move anyway is still useful, what changes when Black challenges the bishop with ...h6, and how the Torre keeps its central pawn structure undecided for longer than almost any other system."
+    }
+  ],
+  "line": [
+    {
+      "san": "d4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Central space, queen-defended — the same first move every Queen's Pawn system shares."
+        }
+      ]
+    },
+    "Nf6",
+    "Nf3",
+    {
+      "san": "e6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "This exact move order is what invites the Torre. Black has committed to a solid, ...e6-based setup without yet revealing where the dark-squared bishop or the queenside pawns are going."
+        }
+      ]
+    },
+    {
+      "san": "Bg5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A pin with no urgency, and that's the point",
+          "body": "The knight on f6 can't move without exposing the queen on d8 behind it — but nothing forces Black to move it either, so this isn't a threat in the usual sense. What it does is deny Black a free choice: any plan involving ...Ne4 or a quick ...Nd5 now costs a tempo dealing with the pin first. Unlike the Trompowsky Attack, which pins on move two before Black has played anything beyond 1...Nf6, the Torre waits for ...e6 — a small extra guarantee that the sharpest replies are less dangerous.",
+          "concepts": ["pin on Nf6", "piece activity before commitment"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "g5", "to": "f6" },
+        { "type": "square", "square": "d8" }
+      ]
+    },
+    {
+      "san": "h6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black asks the bishop a direct question: retreat, or trade itself for the knight and double Black's pawns? Both are real options in Torre theory — decide what you'd play before reading on."
+        }
+      ]
+    },
+    {
+      "san": "Bh4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Retreat and keep the pin",
+          "body": "The modern main approach: the bishop steps back but the pin survives, since h4 still eyes the same diagonal through g5 toward the knight and queen. White keeps maximum tension and postpones the structural decision. The alternative — trading immediately with Bxf6 — is a completely respectable, different-flavored choice, shown in the variation here.",
+          "concepts": ["piece activity before commitment"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bxf6",
+            "classification": "theory",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The trading approach",
+                "body": "Giving up the bishop pair to damage Black's structure is a real strategic choice, not a concession — the same logic as the Ruy Lopez Exchange Variation, applied to a knight instead of Black's queenside majority."
+              }
+            ]
+          },
+          {
+            "san": "Qxf6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The standard recapture — material and structure both stay intact, and the queen gets an active square in the bargain."
+              }
+            ],
+            "variations": [
+              [
+                {
+                  "san": "gxf6",
+                  "classification": "interesting",
+                  "annotations": [
+                    {
+                      "type": "warning",
+                      "title": "Doubling on purpose",
+                      "body": "Recapturing with the pawn instead is well known and far from bad: it weakens the kingside shelter, which matters if White can attack quickly, but it also opens the g-file for a rook and gives Black a broad pawn center and the bishop pair. Whether this trade is right depends on how fast White's attack actually arrives — not automatic in either direction.",
+                      "concepts": ["pawn structure"]
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "e3"
+        ]
+      ]
+    },
+    "c5",
+    {
+      "san": "e3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Only now, four moves after the bishop pin, does White commit a central pawn — and even here it's the modest, flexible e3 rather than the more ambitious c4. The Torre can play either; e3 keeps development simple.",
+          "concepts": ["flexible central pawns"]
+        }
+      ]
+    },
+    "Be7",
+    "Nbd2",
+    "O-O",
+    "c3",
+    "Nc6",
+    {
+      "san": "Bd3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The second bishop redeploys toward the same diagonal every kingside-attacking d4 system wants — b1 to h7 — mirroring the London and Colle's own attacking bishop, even though the Torre reached it by a completely different route."
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "d3", "to": "h7" }
+      ]
+    },
+    "b6",
+    {
+      "san": "Ne5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The shared outpost",
+          "body": "Defended by the d4-pawn and exchangeable only at a cost, this knight eyes f7, d7, and g6 exactly as it would in the London or the Colle — proof that the outpost on e5 is a Queen's Pawn family idea, not a single system's trick. From here White can look toward Qc1-h6 or a rook lift, while Black races for queenside counterplay.",
+          "concepts": ["outposts", "kingside attack"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "e5" },
+        { "type": "arrow", "from": "e5", "to": "f7" }
+      ]
+    },
+    "Bb7",
+    {
+      "san": "O-O",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The reward for waiting",
+          "body": "Both sides are fully developed and the central tension on c5/d4 is still unresolved — White kept that decision open for ten moves while the pin on move three quietly denied Black some of its sharpest tries. From here White looks toward f4 or a piece-based kingside build-up; Black seeks play on the queenside or against d4 itself."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a pin doesn't need to threaten anything immediate to be useful — it removes options from the opponent's future moves; the retreat-versus-trade choice on move four is a real fork with two sound answers, not a right one and a wrong one; and the Torre reaches the same e5 outpost and h7-diagonal ideas as the London and Colle, showing that several different move orders in this family arrive at the same underlying plans.",
+          "concepts": ["pin on Nf6", "outposts"]
+        }
+      ]
+    }
+  ]
+}

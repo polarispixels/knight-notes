@@ -1,0 +1,202 @@
+{
+  "id": "sicilian-open",
+  "catalogCode": "O033",
+  "title": "The Open Sicilian",
+  "subtitle": "One trade, every named variation",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "After 3.d4 cxd4 4.Nxd4, White has traded a central pawn for a lead in development and a knight planted on d4 — and every famous Sicilian, from the Najdorf to the Dragon to the Sveshnikov, grows out of exactly this bargain. This lesson studies the structure itself: where the d4-knight belongs, what White gains by trading it for Black's c6-knight instead of retreating, and how the half-open c-file pays Black back for the lost tempo.",
+  "tags": ["Open Sicilian", "Sicilian Defense", "Maroczy Bind", "e4 openings", "Sveshnikov Variation"],
+  "concepts": [
+    "central knight on d4",
+    "piece activity vs structure",
+    "the c-file",
+    "Maroczy Bind",
+    "knight retreats",
+    "tempo"
+  ],
+  "metadata": {
+    "eco": "B32-B99",
+    "opening": "Sicilian Defense: Open Variation"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Sicilian Defense family study built its main line through the Najdorf move order and showed the c-for-d trade once, from one angle. Every other named Sicilian — Dragon, Classical, Sveshnikov, Taimanov, Scheveningen — reaches the same bargain by 4.Nxd4: White accepts a tempo cost for a centralized knight and faster development, Black accepts less central space for the half-open c-file and an extra center pawn. This lesson studies that bargain directly, from the 2...Nc6 move order, and asks the question every Open Sicilian eventually answers: what does White do with the knight on d4 once it gets attacked, and is trading it off ever better than retreating?"
+    }
+  ],
+  "line": [
+    "e4",
+    "c5",
+    "Nf3",
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "This lesson takes the 2...Nc6 door into the Open Sicilian, the most direct route to the structure. Playing ...d6 first instead is just as common and simply reorders the same moves — see The Classical Variation for that path."
+        }
+      ]
+    },
+    "d4",
+    {
+      "san": "cxd4",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The trade, briefly",
+          "body": "The full case for this trade — a flank pawn for a center pawn, a half-open c-file for Black's patience — belongs to The Sicilian Defense lesson. What matters here is that it happens before ...d6 is played, so the d-pawn's eventual square is still Black's choice.",
+          "concepts": ["the c-file"]
+        }
+      ]
+    },
+    "Nxd4",
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Attacks e4 immediately, forcing White's hand on the next move.",
+          "concepts": ["tempo"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "g6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Toward the Accelerated Dragon",
+                "body": "Fianchettoing before committing the other knight or the d-pawn heads straight for the Accelerated Dragon setup — and invites White's sharpest test of it."
+              }
+            ]
+          },
+          {
+            "san": "c4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The Maroczy Bind",
+                "body": "White claims both central light squares with pawns before Black can strike at them, a structure so important it earns its own full treatment — see The Accelerated Dragon lesson for the battle over whether Black's piece activity can outweigh the space.",
+                "concepts": ["Maroczy Bind"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Nc3",
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The pawn attacks the knight on d4 directly. White has three genuinely different answers — retreat quietly, retreat aggressively, or simply trade it off. Which would you choose, and why?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The knight's three futures",
+          "body": "Nb3 tucks the knight away and keeps the position calm — the road this lesson takes. Ndb5 jumps forward instead, aiming back at d6 and c7; that's the Sveshnikov Variation, a sharp, deeply analyzed fight of its own. Nxc6 trades the knight for Black's own, right now, banking a small structural asset instead of relocating. None of the three is a mistake — they're a menu, and which one a player reaches for says a lot about their style.",
+          "concepts": ["knight retreats", "central knight on d4"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e5", "to": "d4" }]
+    },
+    {
+      "san": "Nb3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The calm choice: keep the pieces on, keep the position under control, and let Black's space advantage stay unenforced for now. The variations here show the two roads not taken."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nxc6",
+            "classification": "interesting",
+            "importance": "notable",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Trading for structure",
+                "body": "Instead of moving the attacked knight, White removes the attacker. This isn't a threat or a trick — it's a strategic choice: White gives up the more active minor piece to hand Black a small, permanent structural weakness, betting that in a long game a static asset outlasts a dynamic one.",
+                "concepts": ["piece activity vs structure"]
+              }
+            ],
+            "visual": [{ "type": "square", "square": "c6" }]
+          },
+          {
+            "san": "bxc6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black recaptures toward the center, gaining the bishop pair and a broad pawn front (c6 and d-pawn) at the cost of doubled c-pawns and a permanently weaker queenside. Both sides got exactly what the trade promised."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "san": "Ndb5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Sveshnikov, not taught here",
+                "body": "The knight leaps forward instead of retreating home, eyeing d6 and c7 the instant Black's pieces look away. This move opens one of the most theoretically dense variations in all of chess — the Sveshnikov deserves, and gets, its own dedicated study rather than a quick detour here."
+              }
+            ]
+          },
+          "d6"
+        ]
+      ]
+    },
+    "Be7",
+    "Be2",
+    "O-O",
+    "O-O",
+    {
+      "san": "d6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Only now does Black commit the d-pawn — the flexibility that Nc6-before-d6 bought is spent, but spent on Black's own timetable, having watched where White's pieces settled first."
+        }
+      ]
+    },
+    "Be3",
+    {
+      "san": "Be6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Develops toward the queenside and eyes a4 and c4, discouraging White's bishop from ever landing there."
+        }
+      ]
+    },
+    "Qd2",
+    {
+      "san": "Rc8",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Not every Sicilian is a race",
+          "body": "Both kings castled the same side, so this isn't the opposite-side storm the Dragon or Najdorf lessons showed — it's a slower middlegame where the half-open c-file is Black's clearest asset and White looks for central or kingside space with f4 or Rad1-d4 rerouting ideas. The Sicilian doesn't always mean mutual attack; sometimes it means a long positional squeeze fought over one open file.",
+          "concepts": ["the c-file"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: the knight on d4 has real choices when attacked — retreat calmly (Nb3), retreat sharply (Ndb5), or trade it for structure (Nxc6) — and none of the three is automatically correct; the c-for-d trade pays Black back specifically through the c-file, which becomes the plan itself once both sides castle the same way; and the Open Sicilian is a shared skeleton, not a single opening — the Najdorf, Dragon, Classical, and Sveshnikov are all clothing on this same frame.",
+          "concepts": ["knight retreats", "the c-file", "central knight on d4"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c8", "to": "c3" }]
+    }
+  ]
+}

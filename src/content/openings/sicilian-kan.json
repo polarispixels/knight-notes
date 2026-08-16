@@ -1,0 +1,162 @@
+{
+  "id": "sicilian-kan",
+  "catalogCode": "O042",
+  "focus": "black",
+  "title": "The Kan Variation",
+  "subtitle": "Committing to almost nothing, on purpose",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "The Kan reaches the family study's e6-based Sicilian structure without ever telling White where the queen's knight is going. Black plays ...a6 and ...Qc7 first, keeping the choice between ...Nc6 and ...Nd7 open as long as possible, and lets White's own setup decide which one is better. This lesson goes past the family study's c-file plan into the Kan's real subject: flexibility as a weapon in its own right.",
+  "tags": ["Kan Variation", "Paulsen Variation", "Sicilian Defense", "Open Sicilian", "Hedgehog"],
+  "concepts": [
+    "flexibility",
+    "prophylaxis",
+    "queenside expansion",
+    "hedgehog structure",
+    "deferred development",
+    "small center"
+  ],
+  "metadata": {
+    "eco": "B41-B43",
+    "opening": "Sicilian Defense: Kan Variation",
+    "historicalContext": "Named for the Soviet master Ilya Kan; its ...e6-and-...a6 structure was pioneered decades earlier by the 19th-century German player Louis Paulsen, hence the variation's alternate name."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study reached its Open Sicilian structure through ...d6 and ...Nc6, committing the queen's knight early. The Kan takes a different road: 2...e6 and, after the trade on d4, 4...a6 — a move that develops nothing but permanently rules out Nb5 and says nothing yet about where the queen's knight belongs. This lesson is about that deferred choice: whether the knight ultimately goes to c6 (contesting the center directly) or d7 (the patient Hedgehog approach) depends on what White plays, and delaying the decision is itself the Kan's whole strategy."
+    }
+  ],
+  "line": [
+    "e4",
+    "c5",
+    "Nf3",
+    {
+      "san": "e6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The other main door into the Sicilian's e6 structures, alongside the Taimanov (2...Nc6 first) and the family study's ...d6 setups. All three converge on similar small-center positions; the Kan gets there with the least committed to.",
+          "concepts": ["small center"]
+        }
+      ]
+    },
+    "d4",
+    "cxd4",
+    "Nxd4",
+    {
+      "san": "a6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "This pawn move develops no piece and attacks nothing. What is it actually for?"
+        },
+        {
+          "type": "key-idea",
+          "title": "One move, one permanent guarantee",
+          "body": "a6 rules out Nb5 forever — no jump to b5 hitting d6 or c7, no annoying check on the light squares. That is the entire point of the move, and it is enough: with that resource gone, Black can develop the queenside knight to either c6 or d7 without ever worrying about the square in between. The family study's Sicilian committed to ...Nc6 by move two; the Kan postpones the same decision by roughly ten moves.",
+          "concepts": ["prophylaxis", "flexibility"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "b5" }]
+    },
+    "Nc3",
+    {
+      "san": "Qc7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Still not committing",
+          "body": "The queen develops to a useful square — clearing d8, eyeing the long a7-g1 diagonal down the road, and covering e5 and c5 — without touching the knight on b8 at all. Every Kan move so far has added flexibility rather than spending it.",
+          "concepts": ["flexibility"]
+        }
+      ]
+    },
+    "Be2",
+    "Nf6",
+    "O-O",
+    {
+      "san": "b5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The reward for a6",
+          "body": "Because a6 was already played, this queenside expansion happens in one move instead of two — the exact same payoff the Najdorf's ...a6/...b5 plan demonstrates on the kingside-castling main line, here arriving even faster since the Kan skipped ...d6 and ...Nc6 entirely.",
+          "concepts": ["queenside expansion"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b7", "to": "b5" }]
+    },
+    "Bf3",
+    {
+      "san": "Bb7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop takes up the long diagonal a8-h1 — pressure against e4 and, once the center opens, against White's king as well. This diagonal is one of the Kan's two signature assets, alongside the deferred knight.",
+          "concepts": ["queenside expansion"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b7", "to": "h1" }],
+      "variations": [
+        [
+          {
+            "san": "b4",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "A tempo that doesn't buy much yet",
+                "body": "Pushing the pawn one move earlier gains a tempo on the c3-knight, but Black still hasn't developed the bishop or contested the center. White simply retreats and finishes development with an extra move in hand — a reminder that gaining a tempo only helps if something is ready to use it."
+              }
+            ]
+          },
+          "Na4",
+          "Bb7"
+        ]
+      ]
+    },
+    "Re1",
+    "d6",
+    "a4",
+    {
+      "san": "Nbd7",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The choice, finally made",
+          "body": "Ten moves after 4...a6 first hinted at it, Black finally commits the queen's knight — to d7, not c6. This is the Hedgehog treatment: the knight supports a future ...e5 or ...b4 break without blocking the b7-bishop's diagonal, and the whole army stays coiled just behind the fourth rank, ready to spring once White overextends. Playing ...Nc6 instead is fully sound too and leads to a very different game — see the variation.",
+          "concepts": ["hedgehog structure", "deferred development"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: flexibility is a resource that gets spent, not a permanent property — the Kan's ten quiet moves all preserved the Nc6-or-Nd7 choice, and this move is where that patience finally pays off; a6 alone is worth an entire tempo of counterplay later, since ...b5 needed only one move instead of two; and the same small-center e6 structure the family study reached through ...d6 can be reached through several move orders — Kan, Taimanov, and the family study's own line are dialects of one language, not different languages.",
+          "concepts": ["flexibility", "hedgehog structure", "small center"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nc6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The direct alternative",
+                "body": "Instead of the patient Hedgehog buildup, Black contests d4 and e5 immediately with the knight. This trades a pair of minor pieces and heads toward a more open, simplified game — real, respected chess, just a different personality than the coiled Hedgehog the main line reaches."
+              }
+            ]
+          },
+          "Nxc6",
+          "Bxc6"
+        ]
+      ]
+    }
+  ]
+}

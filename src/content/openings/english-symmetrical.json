@@ -1,0 +1,176 @@
+{
+  "id": "english-symmetrical",
+  "catalogCode": "O135",
+  "title": "The Symmetrical English",
+  "subtitle": "Whoever breaks the mirror first",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "1...c5 answers flank strategy with flank strategy, and for the first several moves neither side commits to anything the other side can attack — the entire opening is a contest over who breaks the mirror first, and when. This lesson goes past the family study's introduction into the Symmetrical English's real depth: the double-fianchetto main line, the Hedgehog's coiled and genuinely sound passivity, and the Maroczy-Bind transposition hiding one tempo away.",
+  "tags": ["Symmetrical English", "English Opening", "c4 openings", "double fianchetto", "Hedgehog", "Maroczy Bind"],
+  "concepts": [
+    "symmetry breaking",
+    "maneuvering play",
+    "fianchetto duel",
+    "Hedgehog",
+    "Maroczy Bind formations",
+    "queenside space"
+  ],
+  "metadata": {
+    "eco": "A30-A39",
+    "opening": "English Opening: Symmetrical Variation"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study used the Symmetrical English only to show that flank openings can mirror each other; this lesson treats it as the enormous, semi-independent body of theory it actually is — double fianchettos, the Hedgehog, and transpositions into Maroczy-Bind-like structures all live here. The central question: in a position with no early weaknesses on either side, who actually benefits from breaking the symmetry, and when?"
+    }
+  ],
+  "line": [
+    "c4",
+    {
+      "san": "c5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black mirrors White's flank strategy pawn for pawn. The position is now genuinely symmetrical, and stays that way for several more moves — which is exactly what makes this opening a different kind of test than the Reversed Sicilian."
+        }
+      ]
+    },
+    "Nf3",
+    "Nf6",
+    {
+      "san": "Nc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Continuing to mirror White's own setup with an extra tempo in hand — but White doesn't have to keep mirroring. An immediate central strike is also possible (see the variation)."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "d4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The Maroczy Bind transposition",
+                "body": "Instead of continuing to mirror, White can strike the center immediately. After the trade on d4, White's most ambitious follow-up is Nc3 and e4, fixing pawns on c4 and e4 that cramp Black exactly like the Sicilian's Maroczy Bind — except reached here a tempo faster than Black could ever get it in the real Sicilian, and without giving Black the ...d5 break that usually cracks the real Bind open."
+              }
+            ]
+          },
+          "cxd4",
+          "Nxd4"
+        ]
+      ]
+    },
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black keeps mirroring the most direct way. A slower, more elastic setup is also fully respected and leads to an entirely different kind of game (see the variation)."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "e6",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The Hedgehog",
+                "body": "Black shelves the mirror altogether and builds a compact shell instead: pawns on b6, d6, and e6, bishops tucked behind on b7 and e7, every piece one useful square from where classical principles would put it. It is a fully sound, deeply respected structure at grandmaster level — but an honest lesson demands an honest price tag: Black accepts real space disadvantage and short-term passivity in exchange for a structure with no weaknesses to attack, and needs precise timing on the counter-breaks ...b5 or ...d5 to ever equalize, not just survive."
+              }
+            ]
+          },
+          "g3",
+          "b6",
+          "Bg2",
+          "Bb7",
+          "O-O",
+          "Be7",
+          "d4",
+          "cxd4",
+          {
+            "san": "Qxd4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The coiled position",
+                "body": "This is the Hedgehog tabiya. Every Black piece is defended, flexible, and hard to attack cleanly — nothing is weak, even though nothing looks active either. White's extra space is real, but space alone doesn't win games; the Hedgehog dares White to find a concrete way to use it before Black finds the moment for ...b5 or ...d5."
+              }
+            ],
+            "visual": [{ "type": "square", "square": "b7" }]
+          },
+          "d6"
+        ]
+      ]
+    },
+    "g3",
+    "g6",
+    "Bg2",
+    "Bg7",
+    "O-O",
+    "O-O",
+    {
+      "san": "d4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "For the first time, someone has to blink. Is opening the center now good for White, or does it just trade a long-term maneuvering edge for a series of forced simplifications?"
+        }
+      ]
+    },
+    {
+      "san": "cxd4",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "body": "Black must take — declining allows d5, clamping the position in White's favor with the mirror already gone. The trade that follows won't obviously favor either side; it just changes the game's character from maneuvering to calculation."
+        }
+      ]
+    },
+    "Nxd4",
+    {
+      "san": "Nxd4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Both knights leave the board on the same square in successive moves — but f6 is still occupied by the other black knight, screening the long diagonal from White's queen."
+        }
+      ]
+    },
+    {
+      "san": "Qxd4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Centralized, but not permanently",
+          "body": "The queen looks powerful in the center, but a queen this early is also a target: a future ...Ne5 or ...Nd7-c5 arriving with tempo forces it to move again, handing Black a free developing move. Centralization is not automatically good — it has to survive contact."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d4" }]
+    },
+    {
+      "san": "d6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Symmetry, broken",
+          "body": "The mirror is gone. White has a slightly freer, more active queen and a small development lead from moving first; Black has a completely sound structure with no weaknesses and the mirror-image fianchetto bishop still on g7. White's practical plans include Qd3 or b3-Bb2, doubling pressure on the long diagonal and center; Black regroups with ...Bd7-c6 or ...Rb8 and ...b5, using the queenside minority precisely because nothing there is fixed yet."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: symmetry is a resource, not a stalemate — someone benefits from breaking it, but only once development supports the break; a piece landing on an apparently strong central square must be checked against every attacker of that square before it's declared safe; and 'sound' structures like the Hedgehog aren't passive by accident — they are a deliberate trade of space for the absence of targets."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g7", "to": "a1" }]
+    }
+  ]
+}

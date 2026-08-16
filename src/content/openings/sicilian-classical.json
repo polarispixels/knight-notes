@@ -1,0 +1,218 @@
+{
+  "id": "sicilian-classical",
+  "catalogCode": "O036",
+  "focus": "black",
+  "title": "The Classical Variation",
+  "subtitle": "Natural development, sharp consequences",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "Black meets the Open Sicilian with the most instinctive setup there is: knights to c6 and f6, bishop to e7, castle. No fianchetto, no early queen sortie, no committal pawn storm — just development. That very naturalness is what modern theory tests hardest, through the Richter-Rauzer pin and the central e5 break, and this lesson studies both.",
+  "tags": ["Classical Variation", "Sicilian Classical", "Richter-Rauzer", "Sicilian Defense", "e4 openings", "Boleslavsky hole"],
+  "concepts": [
+    "natural development",
+    "the pin",
+    "central tension",
+    "Boleslavsky hole",
+    "transpositional flexibility",
+    "automatic recaptures"
+  ],
+  "metadata": {
+    "eco": "B56-B59",
+    "opening": "Sicilian Defense: Classical Variation"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Sicilian Defense family study reached its own tabiya through the Najdorf's ...a6, and The Open Sicilian lesson studied the shared structure through the 2...Nc6 move order in general. The Classical Variation is the version of the Open Sicilian that skips both of those detours: Black just develops, knights before bishops, the way any beginner is taught to open a game. Modern theory's answer to that simplicity is the Richter-Rauzer, a pin that turns Black's most natural move — completing development with ...Nc6 — into a target. This lesson studies that fight, and the older central break that was the Classical's main answer before the Rauzer took over."
+    }
+  ],
+  "line": [
+    "e4",
+    "c5",
+    "Nf3",
+    {
+      "san": "d6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "This lesson reaches the Classical tabiya through the ...d6 door; the same position also arrives via 2...Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 d6 — see The Open Sicilian lesson for that move order. Which door a player uses matters only for what tricks are available along the way, one of which appears in the variation on move six.",
+          "concepts": ["transpositional flexibility"]
+        }
+      ]
+    },
+    "d4",
+    "cxd4",
+    "Nxd4",
+    "Nf6",
+    "Nc3",
+    {
+      "san": "Nc6",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The move that names the variation",
+          "body": "Development, nothing more — the second knight completes the most natural setup available. There's no hidden point and no trap in the move itself; the fight starts with White's reply.",
+          "concepts": ["natural development"]
+        }
+      ]
+    },
+    {
+      "san": "Bg5",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The bishop pins the f6-knight to the queen behind it. What does that pin actually threaten, and what is Black's most natural way to deal with it?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The Richter-Rauzer",
+          "body": "This is the modern main test of the whole Classical Variation, sharp enough that it's usually discussed as its own system. The pin doesn't win material by itself, but it lets White meet ...e6 with Qd2 and O-O-O, launching straight into the same opposite-side race the Dragon lesson's Yugoslav Attack showed — except here Black has no fianchettoed bishop to counterattack with, only central and queenside play.",
+          "concepts": ["the pin", "central tension"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g5", "to": "d8" }],
+      "variations": [
+        [
+          {
+            "san": "Bc4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Sozin setup",
+                "body": "White points the bishop at f7 instead of pinning the knight — the same diagonal the Ruy Lopez and Najdorf lessons' bishops eyed from b3. Against this exact tabiya, one natural-looking reply has a famous punishment.",
+                "concepts": ["automatic recaptures"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "c4", "to": "f7" }]
+          },
+          {
+            "san": "e6",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Not 6...g6",
+                "body": "Theory's warning here is specific: fianchettoing instead of a move like this one invites the exact sequence covered in full in The Magnus Smith Trap — White's e5 push, an automatic pawn recapture, and Bxf7+ deflecting the king away from the queen. Blunting the diagonal with e6 (or developing the queen to b6 first) sidesteps the whole idea by keeping f7 out of reach.",
+                "concepts": ["automatic recaptures"]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "san": "Be2",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The older main line",
+                "body": "Before the Richter-Rauzer took over as theory's main test, this quiet developing move was the Classical's usual battleground — no pin, just a race to finish development and strike in the center."
+              }
+            ]
+          },
+          "e5",
+          {
+            "san": "Nb3",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The Boleslavsky hole, from the Classical's own move order",
+                "body": "Black claims the center and kicks the knight, conceding d5 exactly as the family study's own ...e5 push did — the same structural bargain, reached this time with both knights developed before the pawn break rather than after ...a6. The trade-off doesn't change with the move order: active pieces now, one permanent hole to defend later.",
+                "concepts": ["Boleslavsky hole"]
+              }
+            ]
+          },
+          "Be7",
+          "O-O",
+          "O-O"
+        ]
+      ]
+    },
+    {
+      "san": "e6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Blunts the pin's reach along the back rank and keeps development moving. The alternative, 6...Bd7 first, exists too, but e6 is the move that actually gets played most often here."
+        }
+      ]
+    },
+    "Qd2",
+    {
+      "san": "Be7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Finishes kingside development ahead of castling, unpinning nothing yet — the knight on f6 is still pinned, since the bishop on g5 hasn't moved."
+        }
+      ]
+    },
+    {
+      "san": "O-O-O",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White commits the king to the queenside, exactly as the Yugoslav Attack does against the Dragon — the pieces differ, but the plan is the same family of idea: attack on the wing the king didn't choose.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black castles the other way, and the race is set: White's pawns and pieces will come forward on the kingside, Black's on the queenside, and whoever's attack lands first usually wins."
+        }
+      ]
+    },
+    "f4",
+    {
+      "san": "a6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Prepares ...b5 the same way the Najdorf's own a6 does — taking b5 away from White's pieces and readying the queenside pawns to advance in one motion rather than two.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "Kb1",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Standard prophylaxis in these opposite-castling races: tucks the king off the c-file before Black's queenside pawns and pieces start probing it, the same habit the h3 move showed in the Ruy Lopez lesson — spend a move now so a later threat never gets the chance to exist.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "b5",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The race, in full view",
+          "body": "Both storms are underway. White's f4-pawn and the pieces behind it aim at Black's king; Black's b5-pawn aims at c3 and, eventually, White's king. Calculating who arrives first — not general principles — decides these positions, exactly as in the Dragon and Najdorf's own opposite-castling races.",
+          "concepts": ["central tension"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: the most natural-looking move can still be the sharpest, since ...Nc6 invites the Richter-Rauzer pin precisely because it's such an ordinary developing move; opposite-side castling races share a grammar across very different pawn structures — Dragon, Najdorf, and Classical all reduce to the same question of whose attack lands first; and move order is a resource, not a formality, since reaching this same position by 2...Nc6 first opens tricks that ...d6 first avoids, and vice versa.",
+          "concepts": ["natural development", "central tension", "transpositional flexibility"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "f4", "to": "f5" },
+        { "type": "arrow", "from": "b5", "to": "b4" }
+      ]
+    }
+  ]
+}

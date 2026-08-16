@@ -1,0 +1,241 @@
+{
+  "id": "nimzo-indian-classical",
+  "catalogCode": "O116",
+  "focus": "black",
+  "title": "Nimzo-Indian Defense: Classical Variation",
+  "subtitle": "The queen recapture that refuses the damage",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "White answers the Nimzo-Indian pin by recapturing on c3 with the queen instead of a pawn, so the doubled pawns Black threatened from move three never actually appear. Black responds by playing for quick, active pieces on the long diagonal instead of a structural trophy — Capablanca's and later Kasparov's favored answer to 1.d4.",
+  "tags": [
+    "Nimzo-Indian Defense",
+    "Classical Variation",
+    "Capablanca Variation",
+    "Indian Game",
+    "d4 defenses",
+    "the bishop pair"
+  ],
+  "concepts": [
+    "the bishop pair",
+    "avoiding structural damage",
+    "central restraint",
+    "long diagonal",
+    "prophylaxis"
+  ],
+  "metadata": {
+    "eco": "E32-E39",
+    "opening": "Nimzo-Indian Defense: Classical Variation"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study showed that ...Bxc3+ threatens permanent doubled pawns, and that White's main systems each answer that threat differently. Here White refuses the trade's whole premise: 4.Qc2 recaptures on c3 with the queen instead of a pawn, so the damage Black was threatening from move three simply never happens. That changes what Black is playing for. There is no structural trophy waiting at the end of this line — only the bishop pair for White, if the trade ever comes. Black's compensation has to be piece activity: a fast fianchetto on the long diagonal, or an early central strike, rather than a scar in White's position."
+    }
+  ],
+  "line": [
+    "d4",
+    "Nf6",
+    "c4",
+    "e6",
+    "Nc3",
+    "Bb4",
+    {
+      "san": "Qc2",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Recapturing with the queen, not the pawn",
+          "body": "This is the whole point of the Classical Variation. If Black ever plays ...Bxc3+, White retakes Qxc3 — no doubled pawns, no structural weakness at all. White accepts one real cost (the queen needs a move to reach a useful square and can become a target of its own) in exchange for erasing Black's entire strategic threat before it can be cashed in.",
+          "concepts": ["avoiding structural damage"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "c3" }]
+    },
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "King safety first. With the trade on c3 defanged, Black is in no rush to resolve the bishop's future — but two sharper tries exist right here instead of castling, aiming to fight for the center or the pawn before committing the king.",
+          "concepts": ["central restraint"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "d5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Striking the center immediately",
+                "body": "Black contests d4 and c4 before castling at all. Play often continues toward structures that resemble the Ragozin Defense (where Black pins Nc3 with the bishop only after ...d5 is already on the board) — a useful bridge if you already know that opening: same central battle, different move order into it.",
+                "concepts": ["central restraint"]
+              }
+            ]
+          },
+          "Nf3"
+        ],
+        [
+          {
+            "san": "c5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Hitting d4 before White's setup is finished",
+                "body": "Black challenges the center directly rather than developing further. If White simply grabs the pawn, Black has an immediate way to regain it and open lines.",
+                "concepts": ["central restraint"]
+              }
+            ]
+          },
+          "dxc5",
+          {
+            "san": "Na6",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Regaining the pawn, not chasing it blindly",
+                "body": "The knight heads for c5 rather than grabbing at the pawn directly — Black recovers the pawn in a move or two with easy development, rather than winning it back at the cost of time.",
+                "concepts": ["central restraint"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "a3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Provoking the trade anyway",
+          "body": "Even though Qc2 already defuses the doubled-pawn threat, White still often invites the exchange with a3 — it clarifies the position and, since Qxc3 lands the queen on an active square eyeing the long diagonal and e5, White is happy to see the bishop go. Compare this to the alternative shown here: answering the pin too early, before it has been provoked, gives away the same trade for strictly less.",
+          "concepts": ["avoiding structural damage"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nf3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "A natural developing move instead of provoking anything — and it hands Black a decision the mainline never has to face this early."
+              }
+            ]
+          },
+          {
+            "san": "Bxc3+",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "Trading the bishop pair for nothing",
+                "body": "This is a sharper mistake here than in the family's version of the same idea, because Qc2 means the trade was never going to damage White's structure at all — not now, not later. Cashing it in unprovoked hands White the bishop pair and a free developing recapture, for literally no structural return. Where the family study's early trade at least avoided nothing worse than an equal position, doing it here is simply worse than waiting.",
+                "concepts": ["avoiding structural damage", "the bishop pair"]
+              }
+            ]
+          },
+          {
+            "san": "Qxc3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White recaptures with the queen already centralized and developed, exactly as Qc2 was designed to allow — Black has spent the pin for nothing."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Bxc3+",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Cashing in — this time for a real reason",
+          "body": "Unlike the mistake shown two moves ago, this trade comes after White has spent a tempo on a3. Black doesn't gain a structural concession from it — Qc2 saw to that — but Black does gain the tempo White just spent, and heads straight for active piece play instead.",
+          "concepts": ["avoiding structural damage"]
+        }
+      ]
+    },
+    {
+      "san": "Qxc3",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A queen that earns its trip",
+          "body": "White keeps the bishop pair and a queen already posted actively, eyeing c6, e5, and the long dark diagonal toward g7. This is what Qc2 was for from the start: recapture without damage, on a square the queen actually wants.",
+          "concepts": ["the bishop pair"]
+        }
+      ]
+    },
+    {
+      "san": "b6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Kasparov's setup",
+          "body": "With no structural target to attack, Black plays for pure piece activity — fianchettoing onto the long diagonal to challenge White's center and queen from a distance. Kasparov used exactly this plan repeatedly against Karpov's Classical Variation: no weaknesses to grab, just pressure.",
+          "concepts": ["long diagonal"]
+        }
+      ]
+    },
+    {
+      "san": "Bg5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Pressuring the knight, not pinning it",
+          "body": "With the queen already off d8, this isn't a true pin — but it does put a question to the f6-knight, the piece controlling e4, the square White's whole plan revolves around. Trading it off later removes a defender of e4 before White ever needs to push there.",
+          "concepts": ["prophylaxis"]
+        }
+      ]
+    },
+    "Bb7",
+    {
+      "san": "f3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Preparing the classical center",
+          "body": "f3 supports a coming e4, aiming to build the same broad pawn center that the bishop pair is meant to support in the middlegame — the reward White is playing for after giving up the pin's target altogether.",
+          "concepts": ["central restraint"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f3", "to": "e4" }]
+    },
+    "h6",
+    "Bh4",
+    "d6",
+    "e3",
+    {
+      "san": "Nbd7",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Two different rewards for the same pin",
+          "body": "Neither side has anything to show from the original pin on c3 — no doubled pawns, no lost tempo worth mentioning. White has the bishop pair and central space; Black has a well-placed bishop on the long diagonal and a flexible, solid structure. Both sides now maneuver toward e4 and c5, the two pawn breaks this whole position has been organized around.",
+          "concepts": ["the bishop pair", "long diagonal"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Two lessons specific to this system: a threat is only worth what its execution actually costs the opponent, and Qc2 was designed to make that cost zero — so Black's whole plan had to shift from structure-hunting to piece activity; and the same move (an early ...Bxc3+) can be a genuine mistake in one system and the principled main line in another, depending on what the recapture actually does to the position.",
+          "concepts": ["avoiding structural damage", "the bishop pair"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e4" }]
+    }
+  ]
+}

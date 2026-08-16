@@ -1,0 +1,237 @@
+{
+  "id": "sicilian-kalashnikov",
+  "catalogCode": "O041",
+  "focus": "black",
+  "title": "The Kalashnikov Variation",
+  "subtitle": "The Sveshnikov's hole, conceded a move earlier",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "tags": ["Kalashnikov Variation", "Löwenthal Variation", "Neo-Sveshnikov", "Sicilian Defense", "Sveshnikov Variation", "outposts"],
+  "concepts": ["outposts", "piece activity vs structure", "queenside expansion", "backward pawn", "voluntary weakening"],
+  "summary": "Black plays ...e5 on move four, before the kingside knight has even developed — the same voluntary hole on d5 the Sveshnikov Variation accepts, conceded one full move earlier and without a knight yet on f6 to help control it. This lesson teaches the concrete difference that move order makes: a different knight route to e7, a missing pin, and an even sharper edge on White's central check.",
+  "metadata": {
+    "eco": "B32",
+    "opening": "Sicilian Defense: Kalashnikov Variation",
+    "historicalContext": "Nineteenth-century Hungarian-English master Johann Löwenthal analyzed an early ...e5 against the Sicilian, and his name survives as a historical alias. Modern theory folds that early analysis into the same body of work now known as the Kalashnikov, developed and refined by later generations of Soviet and Russian players."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Sveshnikov Variation studies a deliberate weakening of d5: Black plays ...Nf6 and ...Nc6, and only then ...e5, handing White a permanent outpost in exchange for piece activity and the bishop pair. The Kalashnikov makes the identical structural bet, but ...e5 arrives on move four — before the kingside knight has moved at all. That single move-order difference changes everything downstream: Black's kingside knight develops to e7 instead of f6, so the Sveshnikov's signature Bg5 pin never exists here, and White's central knight check becomes an even sharper immediate threat than in its sibling variation. This lesson teaches those differences explicitly rather than repeating the Sveshnikov's ground."
+    }
+  ],
+  "line": [
+    "e4",
+    "c5",
+    "Nf3",
+    "Nc6",
+    "d4",
+    "cxd4",
+    "Nxd4",
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "No knight has gone to f6 yet, and Black is about to weaken d5 anyway. Isn't this even less justified than the Sveshnikov's version of the same idea?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The same bet, made earlier",
+          "body": "Not less justified — just differently timed. The tempo gained by attacking the centralized knight is exactly the same whether or not ...Nf6 has been played first, and Black is betting, as in the Sveshnikov, that active pieces will outweigh a single hole White has to actually occupy and use. What changes is which pieces are available to help: without a knight already on f6, Black's kingside knight is heading to e7 instead, and that has real consequences for what White can do next.",
+          "concepts": ["voluntary weakening", "outposts"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }]
+    },
+    {
+      "san": "Nb5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "An even sharper version of the jump",
+          "body": "The knight heads for d6 exactly as it does in the Sveshnikov and the Taimanov — but here Black has developed nothing at all yet, not even a knight to f6. Skipping the necessary defense is even more dangerous in this position than in either sibling variation, because Black has fewer pieces in play to help. The variation on Black's reply shows exactly how much this costs when it's ignored.",
+          "concepts": ["outposts"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b5", "to": "d6" }],
+      "variations": [
+        [
+          {
+            "san": "Nb3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The calm alternative",
+                "body": "White can also simply retreat the centralized knight home instead of jumping forward. This avoids the sharp d6 complications entirely and heads for a quieter game — a real option, chosen by players who would rather out-maneuver Black slowly than force matters early."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "d6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Not optional",
+          "body": "This blocks Nd6+ for good — White will never sacrifice a knight for a single pawn and a check. Compare the variation, where Black tries to gain a tempo on the knight instead of dealing with the real threat first."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "a6",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "Attacking the knight instead of the threat",
+                "body": "This looks like it wins a tempo by kicking the b5-knight — but the knight has a far more dangerous square to jump to first, and it doesn't need Black's permission to use it."
+              }
+            ]
+          },
+          {
+            "san": "Nd6+",
+            "importance": "important",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The in-between check",
+                "body": "White jumps in with check before Black's ...axb5 ever happens. No pawn can capture on d6, so only the f8-bishop can respond.",
+                "concepts": ["outposts"]
+              }
+            ]
+          },
+          "Bxd6",
+          {
+            "san": "Qxd6",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Even more costly than in the Sveshnikov",
+                "body": "Material is level — a knight traded for a bishop — but White's queen lands on a square no Black pawn will ever be able to challenge, deep in Black's position. The Sveshnikov punishes this same omission after Black has already developed several pieces; here Black has developed nothing at all, so the lost tempo and the queen's outpost both sting more."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "N1c3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Two knights, two jobs",
+          "body": "The other knight develops normally while the adventurous one stays put on b5 for now, still eyeing d6 and keeping Black's queenside honest.",
+          "concepts": ["outposts"]
+        }
+      ]
+    },
+    {
+      "san": "a6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Now that the immediate check is off the table, Black finally gets to kick the b5-knight."
+        }
+      ]
+    },
+    "Na3",
+    {
+      "san": "b5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Queenside expansion, gaining space and keeping the a3-knight from ever finding a comfortable square again.",
+          "concepts": ["queenside expansion"]
+        }
+      ]
+    },
+    {
+      "san": "Nd5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The other knight claims the outpost",
+          "body": "The c3-knight plants itself on the square Black conceded on move four. Unlike the Sveshnikov, there is no bishop already pinning a piece on f6 to help make this trade favorable — the knight simply occupies the hole and dares Black to remove it.",
+          "concepts": ["outposts"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }]
+    },
+    {
+      "san": "Nge7",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The move that defines the whole variation",
+          "body": "Here is the concrete difference from the Sveshnikov, stated in one move: that lesson's knight would already be sitting on f6, walking into a genuine pin from a bishop on g5. This knight develops to e7 instead — a square the Sveshnikov's move order never allows, because by the time it's reached there, ...Nf6 has already committed the piece elsewhere. There is no knight on f6 here for any bishop to pin, so the Sveshnikov's signature Bg5-then-Bxf6 doubling trade simply doesn't exist in the Kalashnikov. The knight on e7 instead adds a second defender to the d5 outpost and eyes both the c6-knight's support and a future ...Nxd5.",
+          "concepts": ["voluntary weakening", "piece activity vs structure"]
+        }
+      ]
+    },
+    {
+      "san": "c3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Supports the d5-knight so that a future trade there favors White's structure rather than opening the position for Black."
+        }
+      ]
+    },
+    {
+      "san": "Nexd5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Removing the outpost the direct way",
+          "body": "Black trades off the knight that owns d5 rather than trying to live alongside it — a common, practical choice: an occupied outpost only matters while the piece sitting on it stays there."
+        }
+      ]
+    },
+    {
+      "san": "exd5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "White's pawn takes over the square instead",
+          "body": "The trade doesn't remove White's grip on d5 — it just replaces the knight with a pawn, which can never be chased away by a piece at all. Black's remaining knight now needs a new plan: rerouting to fill the gap, pressuring d5 and c4 with pieces, and leaning on queenside space already banked with ...a6 and ...b5. White's plan: keep the space, look for f4-f5 or Nc4-style ideas, and make the extra central pawn count in the long run.",
+          "concepts": ["backward pawn", "piece activity vs structure"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: the Kalashnikov concedes the identical d5 hole the Sveshnikov does, but a move order without ...Nf6 changes the pieces available to defend it — here the knight lands on e7, not f6, and that single fact removes the Sveshnikov's whole Bg5-pin machinery from the position. Timing changes risk, not just structure: without any development at all, Black's version of the 'forgot ...d6' mistake costs even more than the Sveshnikov's. And trading off an outpost knight doesn't erase the outpost — White's pawn on d5 after exd5 controls the square just as firmly, a reminder that a weak square is a property of the position, not of any one piece sitting on it.",
+          "concepts": ["outposts", "voluntary weakening", "backward pawn"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }]
+    },
+    {
+      "san": "Ne7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The c6-knight, its own outpost duty finished, redeploys to replace its traded twin — often heading for g6 next, eyeing f4 and e5 while the queenside majority does the rest of the work."
+        }
+      ]
+    }
+  ]
+}

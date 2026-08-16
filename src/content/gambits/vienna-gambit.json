@@ -1,0 +1,290 @@
+{
+  "id": "vienna-gambit",
+  "catalogCode": "GB019",
+  "focus": "white",
+  "title": "The Vienna Gambit",
+  "subtitle": "The Paulsen Attack, and what happens if Black just takes the pawn",
+  "type": "gambit",
+  "difficulty": "intermediate",
+  "summary": "3.f4 offers a pawn for a King's-Gambit-style attack, but with the knight already on c3 — a small move-order detail that quietly removes some of Black's best defensive resources. This lesson picks up where the family study left off: White's sharpest try against the critical 3...d5, and the far riskier road Black takes by simply grabbing the pawn.",
+  "tags": ["Vienna Gambit", "Vienna Game", "Paulsen Attack", "e4 openings", "gambit", "kingside attack"],
+  "concepts": ["gambit compensation", "the pin", "doubled pawns", "bishop pair", "open files", "central tension"],
+  "metadata": {
+    "eco": "C29",
+    "opening": "Vienna Game: Vienna Gambit",
+    "historicalContext": "The sharp 5.Qf3 try studied here is known as the Paulsen Attack, for Louis Paulsen (1833-1891), one of the strongest players and opening theoreticians of the 19th century, who used it against Joseph Blackburne in Breslau in 1889."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study, The Vienna Game, showed why 2.Nc3 keeps the f-pawn free and tested Black's best reply, 3...d5, using White's calmer 5.Nf3. This lesson goes deeper into two questions that study left open: White's sharpest try against 3...d5 — the Paulsen Attack, 5.Qf3 — and what actually happens when Black accepts the gambit outright with 3...exf4, the move most club players reach for instinctively. Every gambit asks the same question in a new costume: is the pawn worth what you get for it? Here White offers the f-pawn for a half-open f-file and a lead in development against a king that hasn't castled; whether that's enough depends entirely on which reply Black chooses."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    "Nc3",
+    "Nf6",
+    {
+      "san": "f4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The cost and the reward",
+          "body": "This is the Vienna Gambit's defining moment: White offers the f-pawn for a half-open f-file, faster development, and pressure toward a Black king that hasn't castled — the same bargain the King's Gambit makes, but with the c3-knight already developed. That one difference matters: Black's usual King's Gambit resource of ...d5, hitting e4 and opening lines with tempo on a bishop that isn't even there yet, works less well here because White's extra developing move has already been banked."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f4", "to": "e5" }]
+    },
+    {
+      "san": "d5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The central counter the family study endorsed: instead of grabbing the offered pawn, Black strikes back at e4 immediately. This remains the critical test of the whole gambit — see the variation on White's third move for what happens if Black accepts instead."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "exf4",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The tempting, riskier acceptance",
+                "body": "Grabbing the pawn is the move most club players find naturally — and it hands White the single most favorable version of a King's-Gambit-style attack in this whole family. Watch why over the next few moves."
+              }
+            ]
+          },
+          {
+            "san": "e5",
+            "classification": "theory",
+            "importance": "notable",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "No Falkbeer-style counter available",
+                "body": "The pawn push attacks the f6-knight, which must retreat. In a normal King's Gambit, Black could hope to answer a similar thrust with ...d5, hitting back at the center with tempo; here that resource barely exists because Black's own e-pawn is gone (it's the one that just captured on f4) and White's knight is already developed. Black simply loses time."
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "e5", "to": "f6" }]
+          },
+          {
+            "san": "Ng8",
+            "classification": "forced",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The only safe square — the knight retreats all the way home, a full move worse off than where it started."
+              }
+            ]
+          },
+          "Nf3",
+          "d6",
+          "d4",
+          "dxe5",
+          {
+            "san": "Qe2",
+            "importance": "notable",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Attacking down the open e-file",
+                "body": "Black's king is still on e8, and the pawn on e5 now sits in front of it on the newly-opened e-file. White isn't threatening to win it outright yet, but every White piece that lands on the e-file adds pressure Black must keep answering — a direct consequence of accepting the gambit instead of striking back with 3...d5."
+              }
+            ]
+          },
+          {
+            "san": "Nc6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black finally defends the e5 pawn, several moves after White's attack began. The verdict on 3...exf4: not a losing blunder, but a genuinely worse practical choice than meeting the gambit in the center — White gets the improved King's Gambit this whole line is famous for."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "fxe5",
+      "classification": "forced",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Essentially forced — leaving the tension unresolved just hands Black a free tempo against the hanging f4 pawn."
+        }
+      ]
+    },
+    {
+      "san": "Nxe4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black recaptures centrally with the knight, eyeing c3 and taking up an active post — setting the stage for White's key decision."
+        }
+      ]
+    },
+    {
+      "san": "Qf3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Sharper than the family line",
+          "body": "The family study met this exact position with 5.Nf3 — a solid developing move that guards against ...Qh4+ and continues normally. 5.Qf3 is the sharper try: known as the Paulsen Attack, it goes straight after the knight and the long diagonal instead of settling for a quiet, comfortable edge."
+        }
+      ]
+    },
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black defends the knight and prepares to meet White's next idea."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "f5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Guarding e4 instead of trading it away",
+                "body": "Rather than developing toward the forcing line below, Black can simply prop the knight up on e4 with ...f5. Modern analysis treats this as a genuinely awkward practical try for White to meet cleanly — a reminder that even a well-mapped 'main line' keeps being tested."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Bb5",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A pin that sets up the whole sequence",
+          "body": "The bishop pins the c6-knight to the king along the b5–e8 diagonal. This pin doesn't cash in immediately — it just sits there shaping every move that follows, much like 3.Bb5 does in the Ruy Lopez."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b5", "to": "e8" }]
+    },
+    {
+      "san": "Nxc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The other knight",
+          "body": "It's important to see which piece is moving: the c6-knight is pinned and cannot move, so this capture comes from the other knight, still sitting on e4, taking White's undeveloped knight on c3."
+        }
+      ]
+    },
+    {
+      "san": "dxc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White recaptures toward the center, opening the c1-bishop's diagonal. bxc3 was also possible, keeping symmetric doubled pawns on the other wing; dxc3 is more common because it develops a piece's prospects rather than just repairing structure."
+        }
+      ]
+    },
+    {
+      "san": "Qh4+",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The check the position invites",
+          "body": "With the f-pawn long gone and nothing on g3 or f2, the h4–e1 diagonal is wide open, so the queen jumps out with check."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "h4", "to": "e1" }]
+    },
+    {
+      "san": "g3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The natural block, keeping White's own queen active on f3 rather than retreating it to cover the check."
+        }
+      ]
+    },
+    {
+      "san": "Qe4+",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Offering the trade",
+          "body": "Black gives check along the e-file and, in the same move, attacks White's queen on f3 — daring White to avoid the trade. Declining isn't really an option: if White moves the king instead of capturing, Black simply takes the queen on f3 next."
+        }
+      ]
+    },
+    {
+      "san": "Qxe4",
+      "classification": "forced",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The only move that doesn't just lose material outright."
+        }
+      ]
+    },
+    {
+      "san": "dxe4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Material is fully level again — count it through: White's e4 pawn for Black's e5 pawn, knight for knight, queen for queen. What's left is a structural fight, not a material one. Black's pawn now sits actively advanced on e4."
+        }
+      ]
+    },
+    {
+      "san": "Bxc6+",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Cashing in the pin",
+          "body": "Six moves after Bb5 first appeared, the pin finally pays off — the bishop simply takes the knight it's been pinning, with check, since the diagonal to e8 is still completely open."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b5", "to": "e8" }]
+    },
+    {
+      "san": "bxc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black recaptures toward the center, accepting doubled c-pawns (c6 and c7) in exchange for the bishop pair and the open b-file for the rook."
+        }
+      ]
+    },
+    {
+      "san": "Ne2",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "A fair fight, decided by structure",
+          "body": "White develops the last minor piece toward a safer square than c3, avoiding further tactics. Look at the structure: both sides actually have doubled pawns now — White's on c2/c3 from the earlier recapture, Black's on c6/c7 from this one. White's plan is simple development (Bc1, castling) and pressure on Black's weaker pawn; Black's plan is to use the bishop pair and the open b-file for active piece play before an endgame favors the healthier structure. Theory calls this close to equal — a position where whoever calculates and maneuvers better will win, not one decided by the opening itself."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a gambit pawn's value is often temporary — here it converted into a long forcing sequence that ended dead level on material, so the real prize was the tempo and activity gained along the way; a pin doesn't need to win material immediately to be worth playing — Bb5 shaped six moves of play before it ever captured anything; and doubled pawns paired with the bishop pair and open lines are a very different bargain than doubled pawns alone, so judge structural damage together with what it buys, never in isolation."
+        }
+      ]
+    }
+  ]
+}

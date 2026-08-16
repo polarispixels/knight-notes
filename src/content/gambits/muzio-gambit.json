@@ -1,0 +1,216 @@
+{
+  "id": "muzio-gambit",
+  "catalogCode": "GB013",
+  "focus": "white",
+  "title": "Muzio Gambit",
+  "subtitle": "King's Gambit Accepted — a whole knight, not just a pawn",
+  "type": "gambit",
+  "difficulty": "advanced",
+  "summary": "Where every other King's Gambit line risks a pawn, the Muzio risks an entire knight -- White castles straight into an attacked piece and simply lets it be captured, betting everything on the resulting lead in development and open lines toward Black's king. It is the most extreme gambit in mainstream opening theory and an essential name to know, even though almost no one risks it at the board today.",
+  "tags": [
+    "Muzio Gambit",
+    "King's Gambit Accepted",
+    "King's Gambit",
+    "gambit",
+    "piece sacrifice"
+  ],
+  "concepts": [
+    "gambit play",
+    "piece sacrifice",
+    "development",
+    "open files",
+    "king safety",
+    "initiative"
+  ],
+  "metadata": {
+    "eco": "C37",
+    "opening": "King's Gambit Accepted: Muzio Gambit"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study's compensation framework -- cost, compensation, acceptance, decline, risk -- has to be read very differently here. Every other line in that framework spends a single pawn. The Muzio spends a full knight, on purpose, permanently, with no tactical trick that wins it back. This lesson is about being completely honest with that trade: is a two-tempo lead in development and an open kingside really worth a whole minor piece? Play through it, and judge the bargain for yourself."
+    },
+    {
+      "type": "historical",
+      "title": "The most extreme name in the King's Gambit family",
+      "body": "The gambit is named for the Sicilian nobleman credited with an early example of it. It shares its name with the era of The Immortal Game, played in the same swashbuckling spirit as Anderssen's famous attack -- but it commits to the piece sacrifice on move five, several moves before that game's fireworks even began."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    "f4",
+    {
+      "san": "exf4",
+      "classification": "theory"
+    },
+    {
+      "san": "Nf3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "principle",
+          "body": "Guards h4 against ...Qh4+, as always in the Accepted."
+        }
+      ]
+    },
+    {
+      "san": "g5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black defends f4 and prepares to consolidate with ...Bg7 -- the same starting point as the Kieseritzky Gambit."
+        }
+      ]
+    },
+    {
+      "san": "Bc4",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A different fourth move, a different gambit entirely",
+          "body": "Where the Kieseritzky challenges the pawn chain with 4.h4, the Muzio develops toward f7 instead and lets Black push g4 uncontested. That single choice on move four is the fork between a sound positional pawn sacrifice and an all-in piece sacrifice."
+        }
+      ]
+    },
+    {
+      "san": "g4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Attacking the knight",
+          "body": "As in the Kieseritzky, this gains a tempo on f3. But this time White has no h-pawn on h4 to have provoked it, and the knight's retreat squares are worse -- which is exactly what makes the next move possible."
+        }
+      ]
+    },
+    {
+      "san": "O-O",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The knight on f3 is attacked and has no good retreat -- Ne5 isn't as strong here without h4 already played, and the other squares are passive. What would you play?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The sacrifice, in full view",
+          "body": "White castles instead of moving the attacked knight at all. This isn't a trick that wins the piece back by force -- Black is simply allowed to capture it next move. The whole gambit is this one decision: an entire knight, for a rook already on the f-file, a king already safe, and two full tempi of development that Black must now spend surviving instead of developing.",
+          "concepts": ["piece sacrifice"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f1", "to": "f3" }]
+    },
+    {
+      "san": "gxf3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Accepting the piece",
+          "body": "Declining is possible and shown in the variation below, but taking the knight is the critical test of the whole idea -- if Black can simply pocket a full piece and survive, the Muzio has no case at all."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "d5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Declining the piece",
+                "body": "Rather than grab the knight, Black strikes back in the center and offers the extra f4 pawn back for simplification -- a calmer, safer path that avoids the sacrificial complications entirely."
+              }
+            ]
+          },
+          {
+            "san": "Bxd5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White recaptures and keeps the knight on the board along with a lead in development, but without any material deficit to justify -- a much smaller, easier-to-handle edge than the full sacrifice offers if Black lets the position get sharp."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Qxf3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The account, settled honestly",
+          "body": "Count it out: White is down a full knight for a single pawn. There is no hidden tactic that restores the balance -- everything from here on has to be justified by activity alone. The queen recaptures onto the open f-file, directly behind the rook, and both bishops are ready to join in -- White's whole army is already pointed at a king that hasn't moved and has almost no defenders developed.",
+          "concepts": ["piece sacrifice", "open files"]
+        }
+      ]
+    },
+    {
+      "san": "Qf6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The critical defense",
+          "body": "Black's most testing reply -- the queen defends the extra f4 pawn and offers to trade queens, which would leave White searching for compensation in an endgame down a full piece. White has to keep the initiative alive with the queens still on."
+        }
+      ]
+    },
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Gaining tempo instead of trading queens",
+          "body": "This attacks the queen and refuses the trade Black just offered, while opening the c1-bishop's diagonal at the same time. Black's queen has to move again, and White develops another piece into the attack in the process.",
+          "concepts": ["initiative"]
+        }
+      ]
+    },
+    {
+      "san": "Qxe5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The critical test, again",
+          "body": "Taking the pawn is the sternest reply -- declining with a quieter queen move is safer for Black but concedes the extra pawn back voluntarily, undoing some of what the sacrifice was supposed to cost. Accepting keeps Black up a full piece and a pawn, for now."
+        }
+      ]
+    },
+    {
+      "san": "d3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Building, not forcing",
+          "body": "Rather than force matters immediately, White simply continues developing -- the dark-squared bishop and the queenside knight still need to join the attack before any concrete threats materialize. This is the honest character of the whole gambit: the compensation is real but it is a buildup, not a forced sequence, and Black who defends accurately and calmly is doing nothing wrong."
+        }
+      ]
+    },
+    {
+      "san": "Bh6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "What you should have noticed",
+          "body": "Three lessons to take from this line: not every gambit's compensation is a pawn's worth -- the Muzio asks whether development and open lines can be worth an entire piece, and reasonable players have disagreed about the answer for over a century; a sacrifice with no forced follow-up is still a real sacrifice -- White must keep finding good moves, not just deliver a known mating pattern; and this is exactly why the Muzio is a historical showpiece rather than a modern weapon -- accurate defense holds the extra material with correct play, which is precisely what makes it such a clear teaching example of the limits of attacking compensation.",
+          "concepts": ["piece sacrifice"]
+        }
+      ]
+    }
+  ]
+}

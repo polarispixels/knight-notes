@@ -1,0 +1,238 @@
+{
+  "id": "french-winawer",
+  "catalogCode": "O067",
+  "focus": "black",
+  "title": "French Defense: Winawer Variation",
+  "subtitle": "A pawn structure worth a bishop, and a queenside raid worth two pawns",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "Black gives up the bishop pair on purpose, wrecking White's queenside pawns in exchange for it — then, in the most famous branch, dares White's queen to go pawn-hunting on the kingside while Black seizes the center and the initiative. This is one of the most deeply analyzed lines in all of chess, and for good reason: both sides' plans are concrete, sharp, and completely different from anything the calmer French lines produce.",
+  "tags": ["French Defense", "Winawer Variation", "Nimzowitsch Variation", "e4 defenses", "Poisoned Pawn Variation", "doubled pawns", "bishop pair"],
+  "concepts": ["bishop pair", "doubled pawns", "development", "king safety", "counterplay from a cramped position"],
+  "metadata": {
+    "eco": "C15-C19",
+    "opening": "French Defense: Winawer Variation",
+    "historicalContext": "One of the most fought-over lines in chess history, with Botvinnik, Korchnoi, and Kasparov among its most famous adherents on both sides of the board. Its reputation for sharp, near-forced theory has never faded, which is exactly why serious 1.e4 players still need an answer to it."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study, The French Defense, and this lesson's sibling, French Defense: Tarrasch Variation, both showed White avoiding this exact position — 3.Nd2 exists specifically because 3.Nc3 allows what you're about to see. Black meets the knight with an immediate check, and when White interposes with a3, Black trades the dark-squared bishop for the knight rather than retreat. The result: White's queenside pawns are wrecked for the rest of the game, and in return Black accepts a cramped position and, in the sharpest lines, lets White's queen wander deep into Black's own camp to grab pawns. Both sides are gambling on completely different things."
+    }
+  ],
+  "line": [
+    "e4",
+    "e6",
+    "d4",
+    "d5",
+    "Nc3",
+    {
+      "san": "Bb4",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The check the Tarrasch was built to avoid",
+          "body": "The bishop pins the knight to the king and asks a question White cannot ignore. Whatever White plays next defines the whole variation.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    {
+      "san": "e5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White claims space just as in the Advance and Tarrasch — the pin doesn't stop the central push, it just means the pinned knight has already found a job before it can be untangled.",
+          "concepts": ["pawn chains"]
+        }
+      ]
+    },
+    "c5",
+    {
+      "san": "a3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White asks the bishop to declare itself: retreat, or take the knight and accept doubled pawns in return? Look at what each choice actually costs before deciding."
+        },
+        {
+          "type": "key-idea",
+          "title": "Forcing the bargain",
+          "body": "Retreating the bishop (to e7 or a5) keeps it, but gives up the whole point of the check — White simply finishes developing with an extra tempo. Taking on c3 is the real Winawer: it wrecks White's queenside structure permanently, at the cost of the bishop pair.",
+          "concepts": ["bishop pair"]
+        }
+      ]
+    },
+    {
+      "san": "Bxc3+",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Structure over material value",
+          "body": "A bishop for a knight is a fair trade on paper, but the real point is what's left behind: White's queenside pawns will be doubled, and later tripled, along the c-file. Black is paying with the bishop pair to buy a permanent structural target — the same trade of \"a piece for a target\" the family study's siege on d4 made with pawns instead.",
+          "concepts": ["bishop pair", "doubled pawns"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "c3" }]
+    },
+    {
+      "san": "bxc3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Forced — nothing else can recapture on c3. White now has pawns on a3 and c3 doing the job three pawns used to do, and the open b-file is Black's for the taking later.",
+          "concepts": ["doubled pawns"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "c3" }]
+    },
+    {
+      "san": "Ne7",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Not f6 — and not by accident",
+          "body": "The knight heads for e7, not the more natural-looking f6, because f6 is a square White's e5 pawn already controls. From e7 the knight can later support ...Nf5 or reroute toward the queenside, and it keeps the f-pawn completely free for the ...f6 break later.",
+          "concepts": ["counterplay from a cramped position"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nf6",
+            "classification": "blunder",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "Walking straight into what e5 already guards",
+                "body": "A natural developing move — and a piece blunder. e5 doesn't just take a square away from Black's pieces, it actively attacks f6. The knight simply hangs.",
+                "concepts": ["counterplay from a cramped position"]
+              }
+            ]
+          },
+          {
+            "san": "exf6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White wins a full piece for nothing. This is the concrete reason 6...Ne7 goes to e7 and not f6 — not a stylistic preference, a real tactic.",
+                "concepts": ["counterplay from a cramped position"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "e5", "to": "f6" }]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Qg4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The Poisoned Pawn Variation begins",
+          "body": "White's most combative try: the queen swings out immediately and takes direct aim at g7. Quieter alternatives exist (7.Nf3 develops normally and keeps the position calmer, shown in the variation here) — but this is the historically critical test of the whole Winawer.",
+          "concepts": ["king safety"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g4", "to": "g7" }],
+      "variations": [
+        [
+          {
+            "san": "Nf3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The calmer path",
+                "body": "White simply develops instead of grabbing material. The resulting middlegame still revolves around the same structural bargain — doubled c-pawns and the bishop pair — but without the immediate fireworks. Many club players prefer this side of the theory precisely because it demands far less memorized preparation."
+              }
+            ]
+          },
+          "Nbc6"
+        ]
+      ]
+    },
+    {
+      "san": "Qc7",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Ignoring the threat on purpose",
+          "body": "Black does not defend g7 — the pawn is deliberately left for White to take. Instead the queen adds a second attacker to e5 and prepares queenside development. This is the \"poison\": grabbing the pawn is legal and tempting, but it spends moves while Black's position keeps improving.",
+          "concepts": ["counterplay from a cramped position"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c7", "to": "e5" }]
+    },
+    {
+      "san": "Qxg7",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White accepts the invitation. One pawn is now in hand, but the queen is about to spend more time on the rim of the board while Black's pieces head for the center."
+        }
+      ]
+    },
+    {
+      "san": "Rg8",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Attacking the queen with development",
+          "body": "The rook develops and attacks the queen in the same move — the g-file was half-open the instant White captured on g7. White cannot simply stay; the queen must move again.",
+          "concepts": ["development"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g8", "to": "g7" }]
+    },
+    {
+      "san": "Qxh7",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A second pawn falls, and the queen escapes the rook's attack by sliding sideways along the seventh rank. Two pawns are now a real, tangible gain for White — but count the moves the queen has spent doing it: three, with nothing developed."
+        }
+      ]
+    },
+    {
+      "san": "cxd4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The bill comes due",
+          "body": "Black ignores the wayward queen entirely and strikes the center instead, opening the position while White's king is still stuck in the middle and only one White minor piece has moved all game. Add up the account honestly: White is up a pawn on the balance sheet (two grabbed on the kingside against one lost here), but Black has an open g-file bearing down the board, a lead in development, and a central pawn that cramps White's every plan. Theory calls this roughly balanced and ferociously double-edged — not clearly better for either side, and not a position either player should enter without having studied it.",
+          "concepts": ["development", "king safety"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: giving up the bishop pair for a wrecked opposing structure is a real, standing trade — not automatically good or bad, just a different kind of currency than material; grabbing a loose pawn is only free if the moves spent taking it don't cost more than the pawn is worth; and a position can be materially close to balanced while still being wildly unbalanced in every other way that matters.",
+          "concepts": ["bishop pair", "doubled pawns", "development"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "h7" }]
+    }
+  ]
+}

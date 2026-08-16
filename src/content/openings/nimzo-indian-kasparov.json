@@ -1,0 +1,171 @@
+{
+  "id": "nimzo-indian-kasparov",
+  "catalogCode": "O117",
+  "focus": "black",
+  "title": "Nimzo-Indian Defense: Kasparov Variation",
+  "subtitle": "The knight move that keeps three structures on the table",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "White meets the Nimzo-Indian pin with simple development instead of an immediate structural choice: 4.Nf3 delays deciding between the Rubinstein's patient e3, the Sämisch's confrontational a3, or a Queen's-Indian-flavored g3, keeping every option alive for a move longer. This lesson shows what that flexibility actually buys - and the hybrid, transposition-rich positions it can lead to that neither pure system reaches on its own.",
+  "tags": ["Nimzo-Indian Defense", "Kasparov Variation", "4.Nf3 Nimzo-Indian", "Indian Game", "d4 defenses"],
+  "concepts": ["move-order flexibility", "prophylaxis", "central tension", "the fianchetto", "development"],
+  "metadata": {
+    "eco": "E20-E21",
+    "opening": "Nimzo-Indian Defense: Kasparov Variation"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study, The Nimzo-Indian Defense, covered White's two classical answers to the pin on c3: the patient Rubinstein Variation (4.e3) and the direct Sämisch Variation (4.a3), which forces the doubled pawns at once. 4.Nf3 answers neither question yet - it simply develops, keeping e3, a3, and even a kingside fianchetto with g3 all available for later. The tradeoff is real: White commits to nothing concrete, and the position can transpose straight into the Nimzo-Indian Defense: Rubinstein Variation lesson's structures the moment White later plays e3. This lesson focuses on the lines where White instead keeps developing independently - most often with g3 - producing hybrid positions that blend Nimzo-Indian and Queen's Indian ideas."
+    }
+  ],
+  "line": [
+    "d4",
+    "Nf6",
+    "c4",
+    "e6",
+    "Nc3",
+    "Bb4",
+    {
+      "san": "Nf3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Development instead of a decision",
+          "body": "Rather than commit to e3 or a3, White simply develops a piece. This keeps every structural option alive - e3, a3, and even g3 all remain possible next move - at the cost of giving Black an extra move to decide how to meet the pin. Whether that trade favors White depends entirely on what Black does with the free tempo.",
+          "concepts": ["move-order flexibility", "development"]
+        }
+      ]
+    },
+    {
+      "san": "b6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Answering flexibility with flexibility",
+          "body": "Black borrows an idea from the Queen's Indian Defense: fianchetto the other bishop instead of resolving the pin yet. Combined with the bishop already on b4, this sets up a genuine hybrid - pressure on e4 and the long diagonal at once - and it's a big part of why 4.Nf3 earns its own name rather than being folded into the Rubinstein.",
+          "concepts": ["move-order flexibility"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bxc3+",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "Giving up flexibility for nothing",
+                "body": "White hasn't played a3 or committed to any structure yet, so this trade hands over the bishop pair for free - no tempo gained, no extra weakness provoked beyond the one White would happily accept anyway. Patience is mutual in this system: the side that resolves the tension first without being made to usually gets the worse of the bargain.",
+                "concepts": ["move-order flexibility"]
+              }
+            ]
+          },
+          "bxc3",
+          "O-O",
+          "g3"
+        ]
+      ]
+    },
+    {
+      "san": "g3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "An independent path, not just a delay",
+          "body": "White fianchettoes rather than settling into a Rubinstein structure with e3. This is genuinely different chess, not a stalling tactic: the bishop on g2 supports the center from a distance, and if the pin is ever traded off, White recaptures toward an open long diagonal instead of a closed one. The alternative - simply transposing - is shown in the variation.",
+          "concepts": ["the fianchetto", "move-order flexibility"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "e3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Collapsing the flexibility into a known structure",
+                "body": "White can also just play e3 here, and the position transposes directly into the territory covered by the Nimzo-Indian Defense: Rubinstein Variation lesson - same plans, same eventual a3/Bxc3 questions, reached one move order later. This is the honest cost of 4.Nf3's flexibility: it can simply evaporate into a system that didn't need it."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Bb7",
+    "Bg2",
+    "O-O",
+    "O-O",
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black stakes a claim in the center now that both kings are safe - the bishop on b7 and the pin on c3 both bear directly on the coming central play.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "cxd5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White resolves the tension immediately rather than let it sit - a natural try, since maintaining it does nothing extra for White here."
+        }
+      ]
+    },
+    "exd5",
+    {
+      "san": "Bg5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Pressure on the newly fixed pawn",
+          "body": "With d5 now fixed rather than mobile, the pin on f6 gains a fresh point - it discourages Black from easily supporting or advancing the pawn with the knight's help.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    "Nbd7",
+    {
+      "san": "Rc1",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Aiming down the open file",
+          "body": "The rook steps onto the file the c-pawns just vacated, in front of the target the pin on c3 has always threatened to create.",
+          "concepts": ["prophylaxis"]
+        }
+      ]
+    },
+    {
+      "san": "c5",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The hybrid position, fully formed",
+          "body": "Black finally challenges d4, reaching a position that neither the pure Rubinstein nor the pure Queen's Indian reaches on its own: the bishop on b4 still pins the knight, the bishop on b7 presses the long diagonal, and both sides' plans revolve around whether ...Bxc3 or dxc5 comes first. This is what 4.Nf3's flexibility was for - not avoiding a decision forever, but reaching a structure of Black's choosing rather than White's.",
+          "concepts": ["move-order flexibility", "central tension"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Two lessons specific to this system: flexibility is a real asset only if it's used to reach a position your opponent finds unfamiliar - simply delaying the same decision (the e3 transposition) throws the tempo away for nothing; and combining ideas from two openings (the Nimzo-Indian pin and the Queen's Indian fianchetto) is a legitimate strategy in itself, not just an accident of move order.",
+          "concepts": ["move-order flexibility"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "b7", "to": "g2" },
+        { "type": "square", "square": "c3" }
+      ]
+    }
+  ]
+}

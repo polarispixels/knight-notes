@@ -1,0 +1,220 @@
+{
+  "id": "kieseritzky-gambit",
+  "catalogCode": "GB012",
+  "focus": "white",
+  "title": "Kieseritzky Gambit",
+  "subtitle": "King's Gambit Accepted — an outpost on e5 instead of a pawn grab back",
+  "type": "gambit",
+  "difficulty": "advanced",
+  "summary": "White meets Black's attempt to hold the extra f4 pawn with 4.h4 and 5.Ne5, planting a knight deep in the center rather than chasing material. This is the 'sound' main line of the old King's Gambit Accepted main theory -- a real, still-respected pawn sacrifice built on piece activity and an outpost, not on a direct mating attack.",
+  "tags": [
+    "Kieseritzky Gambit",
+    "King's Gambit Accepted",
+    "King's Gambit",
+    "gambit"
+  ],
+  "concepts": [
+    "gambit play",
+    "outposts",
+    "development",
+    "open files",
+    "king safety"
+  ],
+  "metadata": {
+    "eco": "C39",
+    "opening": "King's Gambit Accepted: Kieseritzky Gambit"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study introduced the King's Gambit Accepted's old main line -- 3...g5 to hold the pawn, 4.h4 to challenge it -- and stopped at 4...g4. This lesson picks up exactly there. Rather than retreat passively, White plays 5.Ne5, planting the knight in the center where nothing can easily remove it. The knight is not attacking anything in particular yet; it is simply occupying the best square on the board, betting that piece activity will outweigh Black's extra pawns for a long time to come."
+    },
+    {
+      "type": "historical",
+      "title": "A name from the Immortal Game",
+      "body": "The gambit is named for Lionel Kieseritzky, the same player who sat across from Adolf Anderssen in The Immortal Game, London 1851 -- chess history's most famous demonstration that material can be worth less than attack. That particular game was actually a Bishop's Gambit (3.Bc4, not 3.Nf3), so it isn't literally an example of this exact line -- but it was played in precisely the spirit this gambit is named for, and it's why Kieseritzky's name is attached to King's Gambit theory at all."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    "f4",
+    {
+      "san": "exf4",
+      "classification": "theory"
+    },
+    {
+      "san": "Nf3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "principle",
+          "body": "Guards h4 against ...Qh4+, as in every King's Gambit Accepted line."
+        }
+      ]
+    },
+    {
+      "san": "g5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black defends the extra pawn on f4 with a pawn, the old main try to simply keep the material rather than return it."
+        }
+      ]
+    },
+    {
+      "san": "h4",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "body": "White challenges the pawn chain immediately rather than let Black consolidate it with ...Bg7 and ...h6."
+        }
+      ]
+    },
+    {
+      "san": "g4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Attacking the knight instead of trading",
+          "body": "Black pushes past rather than trading on h4, gaining a tempo on the f3 knight. This is the fork in the road: the knight must move, and where it goes defines two entirely different gambits."
+        }
+      ]
+    },
+    {
+      "san": "Ne5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "An outpost, not a retreat",
+          "body": "Ne5 doesn't just dodge the attacking pawn -- it claims the single best square in the position. No black pawn can ever challenge a knight here (the e- and d-pawns are gone or committed), and from e5 the knight eyes f7, d7, and g6 all at once. The knight cannot simply grab the g4 pawn from f3 (that isn't even a legal knight move); the retreat has to go somewhere, and e5 is the most active option by far -- keeping the knight this active is why the line is judged the sound main branch of the Accepted, unlike the all-in Muzio Gambit that instead sacrifices the whole knight for a direct attack.",
+          "concepts": ["outposts"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e5" }]
+    },
+    {
+      "san": "d6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The direct question",
+          "body": "Black asks the knight to justify itself at once. This is the sterner test of White's idea, compared with the alternative shown in the variation below, where Black instead develops around the knight."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nf6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Developing instead of evicting",
+                "body": "Black leaves the knight on e5 alone for now and develops toward the center and the e4 pawn, planning ...d5 to strike back before White's knight becomes a long-term problem."
+              }
+            ]
+          },
+          {
+            "san": "Bc4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White develops toward f7 -- the same idea as the Italian Game and the King's Gambit family study's Modern Defense line, aiming at the square nearest Black's uncastled king."
+              }
+            ]
+          },
+          "d5",
+          {
+            "san": "exd5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The center opens with White's knight still dominating e5 and the bishop already trained on f7 -- exactly the kind of active, piece-driven compensation this gambit is built around, well before any material is recovered."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nxg4",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Recapturing without retreating meekly",
+          "body": "Rather than fall back passively, the knight scoops up the g4 pawn it was originally attacked by, bringing material back to level -- White has now regained the f-pawn's worth while Black is left holding an advanced pawn on f4 as a lasting souvenir of the opening."
+        }
+      ]
+    },
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black challenges the repositioned knight and continues developing, aiming to trade off White's most active piece."
+        }
+      ]
+    },
+    {
+      "san": "Nxf6+",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White trades rather than retreat again -- the knight has done its job (regaining the pawn and provoking a trade) and a further retreat would only lose more time."
+        }
+      ]
+    },
+    "Qxf6",
+    {
+      "san": "d4",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The full center, finally",
+          "body": "With the knight fight settled, White claims the broad e4-d4 center the whole opening was played to reach. Black's queen is centralized and active, but Black's pawn structure is scattered across f4, and the king is still in the center.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    "Bg7",
+    {
+      "san": "Bd3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops the last minor piece toward the kingside rather than the more common c4/b3 diagonal -- with Black's king still uncastled and the h-file half-open from h4, keeping pieces pointed at that side of the board matters more here than the fight for f7."
+        }
+      ]
+    },
+    {
+      "san": "O-O",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The bargain of the Kieseritzky",
+          "body": "White has a complete pawn center, both minor pieces developed, and open lines toward a kingside where Black has pushed g- and h-pawns rather than castled early. Black is up the f4 pawn, has an actively placed queen, and is only now completing development. Nothing is forced -- this is a real, roughly balanced fight where White's compensation is structural and long-term, not a single tactical blow.",
+          "concepts": ["development", "open files"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry forward: an attacked knight doesn't have to retreat passively -- 5.Ne5 and 6.Nxg4 both used tempo-gaining, active squares instead; an outpost can be worth more than the pawn it doesn't immediately win back, which is why 5.Ne5 is judged sounder than simply grabbing g4 right away; and this gambit's whole case rests on long-term piece activity and an insecure black king, never on a forced sequence -- treat any claim of a forced win in these lines with suspicion."
+        }
+      ]
+    }
+  ]
+}

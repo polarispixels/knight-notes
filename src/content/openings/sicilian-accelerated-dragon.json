@@ -1,0 +1,203 @@
+{
+  "id": "sicilian-accelerated-dragon",
+  "catalogCode": "O034",
+  "focus": "black",
+  "title": "The Accelerated Dragon",
+  "subtitle": "Fianchetto first, decide about d6 later",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "Black fianchettos the king's bishop before playing ...d6 — a small reordering with a real point: it denies White the sharp Yugoslav Attack setups that punish a premature ...d6, forcing the fight onto different ground. White's answer is the Maroczy Bind, a two-pawn wall on c4 and e4 that trades the whole board for a permanent space edge. This lesson is about whether Black's extra piece activity can outweigh that space.",
+  "tags": ["Accelerated Dragon", "Accelerated Fianchetto", "Hyper-Accelerated Dragon", "Sicilian Dragon", "Sicilian Defense", "Maroczy Bind"],
+  "concepts": [
+    "kingside fianchetto",
+    "structure vs piece activity",
+    "Maroczy Bind",
+    "central pawn breaks",
+    "long diagonal pressure",
+    "move-order flexibility"
+  ],
+  "metadata": {
+    "eco": "B34-B39",
+    "opening": "Sicilian Defense: Accelerated Dragon"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Sicilian Dragon lesson's whole middlegame is a race: White's Yugoslav Attack (Be3, f3, Qd2, O-O-O) storms the kingside faster than most defenses can survive if Black is even one tempo slow. The Accelerated Dragon is Black's answer to that danger — fianchetto immediately with 2...Nc6 and 4...g6, and hold ...d6 back until it's actually needed, so the Yugoslav Attack's favorite move orders don't apply. White's honest reply isn't to chase the same attack anyway; it's the Maroczy Bind, a structural clamp that offers no quick attack at all, just a slow strangle. This lesson is about that trade: sharper, faster piece play for Black against a bigger, calmer space edge for White."
+    }
+  ],
+  "line": [
+    "e4",
+    {
+      "san": "c5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The family study, The Sicilian Defense, already covered why 1...c5 is worth playing at all. This lesson assumes that case is made and goes straight to the move-order question that defines the Accelerated Dragon."
+        }
+      ]
+    },
+    "Nf3",
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Develops before committing the d-pawn — the seed of the whole strategy. A regular Dragon plays 2...d6 here instead, and that single difference is what keeps the Yugoslav Attack's sharpest tries out of reach for several moves."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "g6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Hyper-Accelerated Dragon",
+                "body": "Black delays even ...Nc6, fianchettoing on the very first opportunity. The point is subtle move-order insurance: it sidesteps some early tries built around an immediate ...Nc6 (lines with a quick Bb5 or Nb5 aimed at c6 or d6) before Black has given White a target there. In practice it almost always transposes back into the same Accelerated Dragon once both sides finish developing — a recognized name for a real idea, not a separate opening."
+              }
+            ]
+          },
+          "d4",
+          "cxd4",
+          "Nxd4",
+          {
+            "san": "Nc6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Back to the main road: this is the exact position reached by the main line below after 4...g6, just with the knight and the fianchetto played in the other order."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "d4",
+    "cxd4",
+    "Nxd4",
+    {
+      "san": "g6",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Fianchetto, not yet the center",
+          "body": "The bishop aims down the long diagonal exactly as in the regular Dragon, but ...d6 waits. Against most quiet White setups this costs nothing; against the Yugoslav Attack's favorite tries it matters, because several of White's fastest kingside storms depend on meeting an early ...d6 rather than an uncommitted center. White's honest reply to that flexibility is the coming move.",
+          "concepts": ["kingside fianchetto", "move-order flexibility"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g7", "to": "b2" }]
+    },
+    {
+      "san": "c4",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White declines to race and instead grabs a second central pawn. What does this pawn duo actually accomplish, if it isn't attacking anything yet?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The Maroczy Bind",
+          "body": "Pawns on c4 and e4 together control d5 and b5 twice over — the exact squares Black's pieces would love to jump into. There's no immediate threat, but there doesn't need to be: the bind is a long-term strategic clamp, not a tactical one. Black's entire plan from here is finding a way to challenge c4 or d5 with pieces, since the pawns alone can no longer do it.",
+          "concepts": ["Maroczy Bind", "structure vs piece activity"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "d5" },
+        { "type": "square", "square": "b5" }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nc3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Declining the Bind",
+                "body": "White can also just develop normally instead of grabbing the second central pawn. Without c4, Black gets to play ...d5 in one move whenever the position allows it, so this is generally considered less testing than the Maroczy Bind — but it reaches a position closer in spirit to the regular Dragon, and a Yugoslav-style Be3/Qd2/O-O-O setup is still on the table, just without the move-order edge the Bind gets from arriving before Black's center is settled."
+              }
+            ]
+          },
+          "Bg7",
+          "Be2",
+          "Nf6",
+          "O-O"
+        ]
+      ]
+    },
+    {
+      "san": "Bg7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Completes the fianchetto. The bishop's diagonal currently runs into White's own d4-knight, which is exactly the piece Black most wants to remove — trading it off would clear the diagonal all the way to b2."
+        }
+      ]
+    },
+    {
+      "san": "Be3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Reinforces d4 and prepares Qd2, the same developing idea the Dragon lesson's Yugoslav Attack used — but here without f3 or O-O-O to follow, since the Maroczy structure has no matching kingside pawn storm to launch."
+        }
+      ]
+    },
+    "Nf6",
+    {
+      "san": "Nc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Adds a second defender to the bind and eyes d5. White's minor pieces are settling into exactly the squares that make c4 and e4 hard to challenge."
+        }
+      ]
+    },
+    "O-O",
+    "Be2",
+    {
+      "san": "d6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Only now, ten moves in, does the d-pawn finally move — restraining e4-e5 and freeing the c8-bishop, with none of the earlier risk that an immediate ...d6 would have carried against a faster White setup."
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "Bd7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A flexible developing move, keeping options open between ...Qa5, ...Rc8, and ...Rb8-b5-style queenside expansion — all attempts to generate the piece activity that has to make up for the space Black conceded on move five."
+        }
+      ]
+    },
+    "Qd2",
+    {
+      "san": "Rc8",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The bind holds — for now",
+          "body": "White's space advantage is real and durable: c4 and e4 aren't going anywhere, and Black has no simple pawn break to remove them. Black's compensation is just as real: the fianchettoed bishop, the half-open c-file, and pieces that can probe for weaknesses White's pawns can't chase away. Typical plans from here include ...Nxd4 followed by ...Bxc3, trading down toward the long diagonal and damaging White's queenside pawns even though the d4 knight currently blocks that exact idea — the trade has to happen in that order to work.",
+          "concepts": ["Maroczy Bind", "long diagonal pressure"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: move order is a weapon even when the resulting position looks familiar — 2...Nc6 before ...d6 denies White options that exist against the regular Dragon; a structural bind doesn't need a threat to be dangerous, since d5 and b5 are worth controlling permanently, not just for a move; and Black's whole strategy here is trading down the right pieces in the right order (the knight before the bishop) to convert activity into concrete damage against a structure that pawns alone can't create.",
+          "concepts": ["move-order flexibility", "Maroczy Bind", "structure vs piece activity"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c8", "to": "c4" }]
+    }
+  ]
+}

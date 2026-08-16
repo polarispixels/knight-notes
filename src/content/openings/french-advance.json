@@ -1,0 +1,217 @@
+{
+  "id": "french-advance",
+  "catalogCode": "O061",
+  "focus": "white",
+  "title": "French Defense: Advance Variation",
+  "subtitle": "Same chain, three different fights",
+  "type": "variation",
+  "difficulty": "beginner",
+  "summary": "The family study met the Advance with Black's classic siege on d4. This lesson takes White's side of that same structure and shows the choices White actually faces: meet a quieter setup that skips the queen sortie entirely, spring the sharp Milner-Barry Gambit, or exploit the hole that opens on c5 once the queenside pawns vanish. One locked chain, several different games.",
+  "tags": ["French Defense", "Advance Variation", "French Advance", "Wade Variation", "Milner-Barry Gambit", "e4 defenses", "pawn chains"],
+  "concepts": ["pawn chains", "space", "outposts", "development", "the bad bishop"],
+  "metadata": {
+    "eco": "C02",
+    "opening": "French Defense: Advance Variation"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study, The French Defense, used the Advance as its main road: Black plays ...Qb6 and ...Nge7-f5 to besiege d4, and the famous poisoned-pawn trap decides who actually wins it. That story is finished — this lesson does not retell it. Instead it takes White's side of the position: a Black setup that avoids the queen sortie altogether, White's sharpest try against the setup that keeps it, and a target of White's own that appears once the smoke clears."
+    }
+  ],
+  "line": [
+    "e4",
+    "e6",
+    "d4",
+    "d5",
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The same locking move the family study analyzed at length. One detail worth adding here: e5 does not just claim space, it also reaches forward and covers d6 and f6 — two squares Black's minor pieces would otherwise love to use. A fixed pawn is never purely passive.",
+          "concepts": ["pawn chains", "space"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "d6" },
+        { "type": "square", "square": "f6" }
+      ]
+    },
+    "c5",
+    "c3",
+    "Nc6",
+    "Nf3",
+    {
+      "san": "Bd7",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The Wade Variation — a quieter answer",
+          "body": "Instead of ...Qb6, Black develops the problem bishop immediately, before deciding anything else about it. This doesn't fix the bishop's long-term prospects — it's still stuck behind the e6 pawn — but it gets the piece off c8 while d7 is still open, and it prepares ...Rc8 to lean on the c-file once the pawns there start trading. The tradeoff for White: no queen ever sits on b6 or d4, so the tactics that ended the family study's main line simply never arise.",
+          "concepts": ["the bad bishop", "development"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d7", "to": "b5" }],
+      "variations": [
+        [
+          {
+            "san": "Qb6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Or: stick with the family study's road",
+                "body": "Black can still choose the queen sortie the family study covered — but here White has a sharper reply available than the calm 6.Be2 shown there."
+              }
+            ]
+          },
+          {
+            "san": "Bd3",
+            "classification": "interesting",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "historical",
+                "title": "The Milner-Barry Gambit",
+                "body": "Named for P. S. Milner-Barry, a British master better remembered as one of the Bletchley Park codebreakers who worked alongside Alan Turing. Instead of the modest Be2, the bishop heads for h7 and White offers the d4 pawn outright for a large lead in development."
+              },
+              {
+                "type": "warning",
+                "title": "Cost, compensation, and nothing forced",
+                "body": "The cost is concrete: one pawn, if Black takes the invitation. The compensation is real but not a forced win — a huge lead in development, an exposed black queen, and an uncastled king that has spent moves grabbing material instead of finishing its own setup. Black may also simply decline and develop calmly instead; the variation that follows shows the sharpest way Black can accept.",
+                "concepts": ["development"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "d3", "to": "h7" }]
+          },
+          "cxd4",
+          "cxd4",
+          "Bd7",
+          "O-O",
+          {
+            "san": "Nxd4",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "question",
+                "body": "The pawn is finally there for the taking, and this time nothing recaptures it for free the way ...Qd4 did in the family study's trap. Should Black grab it?"
+              }
+            ]
+          },
+          "Nxd4",
+          {
+            "san": "Qxd4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Material even, danger just beginning",
+                "body": "Black has won the pawn back and the material count is level, but the queen is now the only developed black piece and sits in the open. This is the gambit's whole point: not to win the pawn back cheaply, but to trade it for time.",
+                "concepts": ["development"]
+              }
+            ]
+          },
+          {
+            "san": "Nc3",
+            "classification": "critical",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The threat behind the last piece",
+                "body": "White's last minor piece develops with a concrete point: 11.Nb5 next would fork the queen on d4 and the pawn on c7, with mating ideas against the king still stuck on e8. Black must spend a move dealing with this — the queen retreats, or the position gets sharp fast. Nobody is winning by force here; White has bought real problems for Black with a single pawn, and that is exactly what a gambit is supposed to do.",
+                "concepts": ["development"]
+              }
+            ],
+            "visual": [
+              { "type": "arrow", "from": "c3", "to": "b5" },
+              { "type": "square", "square": "d4" }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Be2",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The calm reply: simple development instead of the gambit. White keeps the extra central pawn's worth of space and the chain intact, betting that a small, lasting edge beats an unclear sacrifice.",
+          "concepts": ["pawn chains"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "dxc5",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Trading away the point of 3.e5",
+                "body": "This releases the central tension for nothing. It doesn't lose material, but it gives up the entire reason to play the Advance — a fixed target and a space advantage — in exchange for an open position where Black's pieces develop just as easily as White's.",
+                "concepts": ["pawn chains", "space"]
+              }
+            ]
+          },
+          {
+            "san": "Bxc5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black recaptures with an actively placed bishop and a completely comfortable game — no chain to attack, no space disadvantage to manage. Compare this to the locked positions elsewhere in this lesson: releasing the tension early is rarely a favor to the side that just spent a move building it."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Nge7",
+    "O-O",
+    "Ng6",
+    "Nbd2",
+    "cxd4",
+    "cxd4",
+    "Be7",
+    {
+      "san": "Nb3",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The hole d4 left behind",
+          "body": "The family study was entirely about the target on d4. Here's the other half of the same coin: once both sides' c-pawns disappear, c5 becomes a permanent hole in Black's own camp — no pawn can ever challenge a White piece that lands there. The knight repositions to aim at exactly that square. Pressure in a fixed chain runs in both directions.",
+          "concepts": ["outposts", "space"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "c5" },
+        { "type": "arrow", "from": "b3", "to": "c5" }
+      ]
+    },
+    {
+      "san": "O-O",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "What both sides are actually playing for",
+          "body": "White's plan lives on the queenside and center: Nc5 or a4-a5 to press the hole just noted, and the extra space to maneuver behind it. Black's plan lives on the kingside: complete development, then strike with ...f6 against the head of the chain — the lever the family study kept in reserve. If ...f6 comes and White captures exf6, Black usually recaptures with the rook already on f8, a classic French rook-lift that the queen-sortie main line never produces.",
+          "concepts": ["pawn chains", "space"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: the Advance is not one fight but a menu — Black's setup (queen sortie versus quiet development) changes what White should even be threatening; a gambit's compensation is measured in time and king safety, not in whether the pawn comes back; and a fixed chain creates weaknesses for both armies, not just the side under siege.",
+          "concepts": ["pawn chains", "outposts", "development"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "c5" }]
+    }
+  ]
+}

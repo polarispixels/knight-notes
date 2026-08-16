@@ -1,0 +1,210 @@
+{
+  "id": "trompowsky",
+  "catalogCode": "O130",
+  "focus": "white",
+  "title": "The Trompowsky Attack",
+  "subtitle": "A pin on move two, and the theory that grew around it",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "Where the Torre Attack waits for ...e6 before pinning the f6-knight, the Trompowsky pins it immediately, on move two — sidestepping the King's Indian, Nimzo-Indian, and Grunfeld complexes in a single move while inviting real complications. It is a serious weapon at every level, not just a surprise, and this lesson covers its two main tests: the aggressive ...Ne4 and the solid ...e6.",
+  "tags": [
+    "Trompowsky Attack",
+    "Trompowsky Opening",
+    "Tromp",
+    "Ruth-Trompowsky Attack",
+    "Queen's Pawn Game",
+    "d4 systems"
+  ],
+  "concepts": [
+    "early bishop commitment",
+    "structural damage",
+    "avoiding main-line Indian theory",
+    "tactical complications",
+    "pawn structure"
+  ],
+  "metadata": {
+    "eco": "A45",
+    "opening": "Queen's Pawn Game: Trompowsky Attack",
+    "historicalContext": "Named for the Brazilian master Octavio Trompowsky, who played 2.Bg5 in the 1930s. It remained a rarity for decades until the English grandmaster Julian Hodgson adopted it as a primary weapon in the 1980s and 90s, proving it could trouble strong grandmasters and not only club players."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Queen's Pawn Game introduced the Trompowsky as the most immediate of the two knight-pinning systems — Bg5 on move two, before Black has revealed any other plan. That immediacy is the whole trade-off this lesson explores: White avoids a mountain of Indian-defense theory in one move, but invites Black's sharpest, most central reply, ...Ne4, right away. Unlike the Torre Attack, there is no extra tempo of information to lean on."
+    },
+    {
+      "type": "historical",
+      "title": "A real opening, not just a surprise weapon",
+      "body": "Julian Hodgson's results with the Trompowsky against elite opposition in the 1990s changed its reputation from a club-level trick to a legitimate, well-analyzed try. Treat the lines here as real theory, not as a gimmick that only works once."
+    }
+  ],
+  "line": [
+    {
+      "san": "d4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Central space, queen-defended — the shared first move of every Queen's Pawn system."
+        }
+      ]
+    },
+    "Nf6",
+    {
+      "san": "Bg5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The pin, right now",
+          "body": "No waiting for ...e6, no extra tempo of information — the bishop pins the knight to the queen on move two, before Black has committed to anything else. This is what makes the Trompowsky distinct from its patient cousin, The Torre Attack: it skips essentially all King's Indian, Nimzo-Indian, and Grunfeld theory in a single move, at the cost of meeting Black's sharpest reply immediately rather than one move later.",
+          "concepts": ["early bishop commitment", "avoiding main-line Indian theory"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "g5", "to": "f6" },
+        { "type": "square", "square": "d8" }
+      ]
+    },
+    {
+      "san": "Ne4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The critical test",
+          "body": "Rather than accepting the pin, Black strikes the bishop at once. This is the sharpest, most fully analyzed reply — the solid alternative ...e6 is covered in the variation here.",
+          "concepts": ["tactical complications"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "e6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The solid choice",
+                "body": "Black declines the complications and heads for a structure resembling other Queen's Pawn systems instead."
+              }
+            ]
+          },
+          {
+            "san": "e4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "With no immediate challenge to answer, White simply claims the full center."
+              }
+            ]
+          },
+          "h6",
+          {
+            "san": "Bxf6",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Doubling with tempo",
+                "body": "The trade the catalog remembers this opening for: giving up the bishop for the knight to damage Black's kingside pawns, the same idea The Torre Attack's trading approach uses in its own main line — but here it arrives a full move earlier, since the Trompowsky never delayed for ...e6.",
+                "concepts": ["structural damage"]
+              }
+            ]
+          },
+          {
+            "san": "gxf6",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The trade-off, made concrete",
+                "body": "Black's kingside pawns are now doubled and Black loses the bishop pair — but gains a broad pawn center and an open g-file for the rook. Whether this favors White or Black is genuinely debated; it is a structural bargain, not a punishment.",
+                "concepts": ["pawn structure", "structural damage"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Bf4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop steps aside rather than trade itself for the knight that just attacked it, keeping the long diagonal and denying Black a free tempo."
+        }
+      ]
+    },
+    "c5",
+    {
+      "san": "f3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White finally challenges the knight directly. The obvious response is to retreat it somewhere safe — but the most testing reply does something else first. What?"
+        }
+      ]
+    },
+    {
+      "san": "Qa5+",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The in-between move",
+          "body": "Instead of simply retreating, Black inserts a check first. The point isn't the check itself — White has an easy, forced block — it's that the block costs White a structural commitment: c3 takes away White's most natural developing square for the queenside knight before Black's own knight even has to move. Retreating immediately with ...Nd6 is safe but passive; this line is shown in the variation.",
+          "concepts": ["tactical complications"]
+        },
+        {
+          "type": "warning",
+          "title": "The passive alternative",
+          "body": "Retreating at once with 4...Nd6 is entirely playable — solid, and it avoids any complications — but it also blocks Black's own d-pawn and hands back the tempo the check would have won. A natural-looking move, but a quieter one than the position calls for."
+        }
+      ]
+    },
+    "c3",
+    "Nf6",
+    {
+      "san": "d5",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Cashing in the tempo",
+          "body": "This is what the whole ...Qa5+ / c3 exchange bought Black nothing for, and White everything: with c3 already played, White grabs a huge central space advantage the moment the knight is safely back on f6.",
+          "concepts": ["early bishop commitment"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "d5" }
+      ]
+    },
+    "d6",
+    "e4",
+    "e6",
+    "Nd2",
+    "exd5",
+    {
+      "san": "exd5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "A Benoni with an extra tempo",
+          "body": "White's structure — pawns on c3 and d5 facing Black's c5 and d6 — is a genuine Benoni-type formation: White's d5 pawn cramps Black's position and controls key central squares, while Black looks for eventual ...b5 queenside expansion or pressure against d5 and e4 to compensate for the space conceded. The bishop-pin detour on moves two through five bought this structure a move ahead of a normal Benoni."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: pinning immediately trades safety for information — the Trompowsky meets Black's sharpest try one move earlier than the Torre does; an in-between check can be worth more than the tempo it costs, if it forces a structural concession like c3; and doubled pawns from Bxf6 are a genuine trade-off, not a mistake — the side that accepts them gets real compensation in return.",
+          "concepts": ["early bishop commitment", "pawn structure"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "id": "french-classical",
+  "catalogCode": "O062",
+  "focus": "black",
+  "title": "French Defense: Classical Variation",
+  "subtitle": "Develop first, ask questions about the bishop later",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "Rather than checking on b4 or waiting for White to commit the center, Black simply develops the king's knight and challenges White to find something better than the same pawn chain seen throughout this family. A bishop trade on f6 resolves the tension quickly and leaves Black with a slightly awkward queen but a completely sound, well-understood structure — the calmest of the French's major replies to 3.Nc3.",
+  "tags": ["French Defense", "Classical Variation", "Steinitz Variation", "Burn Variation", "e4 defenses", "pawn chains"],
+  "concepts": ["pawn chains", "attacking the base", "development", "king safety", "counterplay from a cramped position"],
+  "metadata": {
+    "eco": "C11-C14",
+    "opening": "French Defense: Classical Variation"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Against 3.Nc3, Black has a choice: check on b4 and fight for the bishop pair against wrecked White pawns (this lesson's sibling, French Defense: Winawer Variation), or simply develop with 3...Nf6 and meet whatever White does next on its own terms. The Classical Variation is that second, calmer road. White pins the newly developed knight, Black challenges the pin directly, and the game settles into the same e5/d4 chain the family study analyzed — reached this time with an extra pair of minor pieces off the board and Black's queen sitting on an unusual square."
+    }
+  ],
+  "line": [
+    "e4",
+    "e6",
+    "d4",
+    "d5",
+    {
+      "san": "Nc3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The knight develops to its most natural square and defends e4. Two very different questions come next: does Black check the king with ...Bb4 (the Winawer) or simply develop with ...Nf6 (the Classical, this lesson's road)?"
+        }
+      ]
+    },
+    {
+      "san": "Nf6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black attacks e4 with a piece instead of checking with the bishop. White's reply on the next move decides whether the position becomes the Classical (4.Bg5) or the Steinitz (4.e5 immediately, shown in the variation here).",
+          "concepts": ["development"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f6", "to": "e4" }]
+    },
+    {
+      "san": "Bg5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Pinning before pushing",
+          "body": "The bishop pins the knight to the queen on d8 before White commits the center pawn. If White simply pushed 4.e5 right away instead, the position is a different, closely related line — see the Steinitz Variation in the branch here.",
+          "concepts": ["development"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g5", "to": "d8" }],
+      "variations": [
+        [
+          {
+            "san": "e5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Steinitz Variation",
+                "body": "White skips the pin entirely and goes straight for the chain. The knight retreats to d7 exactly as it would in the family study's Advance line, and the position transposes toward the same structural fight — proof that several different move orders lead to the same fixed center."
+              }
+            ]
+          },
+          "Nfd7",
+          "f4",
+          "c5",
+          "Nf3",
+          "Nc6"
+        ]
+      ]
+    },
+    {
+      "san": "Be7",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Challenging the pin directly",
+          "body": "Black offers to trade the pinning bishop rather than let it sit on g5 indefinitely. This is the defining move of the Classical Variation. The other major answer, ...dxe4, is the Burn Variation — shown in the branch here, where Black releases the central tension immediately instead.",
+          "concepts": ["development"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "dxe4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Burn Variation",
+                "body": "Rather than challenge the pin, Black simply removes the central tension by capturing on e4. This trades the fixed-chain middlegame of the main line for faster development and an open center."
+              }
+            ]
+          },
+          "Nxe4",
+          "Be7",
+          "Bxf6",
+          "Bxf6",
+          {
+            "san": "Nf3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White develops the other knight and keeps a small lead in space, but Black has finished untangling with no weaknesses to show for it — a solid, drawish-leaning alternative to the sharper main line."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White declines the trade on f6 and instead attacks the pinned knight with a pawn. Can the knight even move?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The pin was already spent",
+          "body": "Once Black's own bishop landed on e7, it sat on the very diagonal the pin depended on — so the knight isn't really held in place by anything anymore. It retreats freely; the pawn push simply attacks it the normal way a pawn attacks any piece. The chain that follows is the same e5/d4 wall from the family study, arrived at through pieces instead of pawns.",
+          "concepts": ["pawn chains"]
+        }
+      ]
+    },
+    "Nfd7",
+    {
+      "san": "Bxe7",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White cashes in the bishop rather than retreat it. This is the Classical's other defining trade: Black gets the bishop pair back, but only one recapture is possible, and it puts the queen on an unusual square for the rest of the opening.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    {
+      "san": "Qxe7",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The one piece that could recapture",
+          "body": "Neither knight can reach e7, so the queen is the only legal recapture — an odd-looking square for it, but not a weakness by itself. It eyes e5 down the e-file for the moment and simply waits to see where it's needed once the position clarifies.",
+          "concepts": ["counterplay from a cramped position"]
+        }
+      ]
+    },
+    "f4",
+    {
+      "san": "a6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A small prophylactic move: it stops White's remaining knight from ever jumping into b5, where it would eye c7 and, with the king still on e8, a fork on the c7 square is a real idea worth ruling out in advance.",
+          "concepts": ["counterplay from a cramped position"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "c5",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Skipping a6 has a real cost",
+                "body": "Development first looks natural, but it allows a concrete trick."
+              }
+            ]
+          },
+          {
+            "san": "Nb5",
+            "classification": "critical",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The fork that a6 was preventing",
+                "body": "White threatens Nc7+, forking the king on e8 and the rook on a8. Black is not lost — but the only way to stop it is an ugly move that a6 would have made unnecessary.",
+                "concepts": ["king safety"]
+              }
+            ],
+            "visual": [
+              { "type": "arrow", "from": "b5", "to": "c7" },
+              { "type": "square", "square": "c7" }
+            ]
+          },
+          {
+            "san": "Na6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The only knight that can reach c7 in time is dragged to the rim of the board just to cover it — exactly the kind of wasted tempo the calm little move ...a6 was designed to avoid two moves earlier."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Nf3",
+    {
+      "san": "c5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The same base strike seen throughout this family — the Advance, the Tarrasch, and now the Classical all reach for ...c5 against d4 sooner or later. The plan travels with the pawn structure, not with whichever pieces happened to get traded off first.",
+          "concepts": ["attacking the base"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c5", "to": "d4" }]
+    },
+    "Be2",
+    "Nc6",
+    "O-O",
+    {
+      "san": "cxd4",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The chain, minus a pair of bishops",
+          "body": "Black resolves the central tension on his own terms rather than let White choose the moment. What's left is unmistakably a French chain middlegame — White's space on the kingside and the head of the chain (e5) versus Black's pressure on d4 and the eventual ...f6 break — but reached with the light-squared bishops already traded away and Black's queen doing an odd job on e7 instead of the more familiar b6.",
+          "concepts": ["pawn chains", "attacking the base"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: developing first and asking the pin's question later is a completely sound alternative to checking on b4 immediately; a pin is only as strong as what's actually behind the pinned piece, and Black's own bishop neutralized this one the moment it arrived on e7; and no matter which minor pieces get traded along the way, the same two French levers — the base strike and the head strike — keep showing up, because they belong to the pawn structure, not to any one variation.",
+          "concepts": ["pawn chains", "attacking the base", "development"]
+        }
+      ]
+    }
+  ]
+}

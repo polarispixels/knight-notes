@@ -1,0 +1,211 @@
+{
+  "id": "zukertort-opening",
+  "catalogCode": "O142",
+  "focus": "white",
+  "title": "The Zukertort Opening",
+  "subtitle": "1.Nf3 — a move before an opening",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "1.Nf3 is the most non-committal serious first move in chess: it develops, controls the center, and touches no pawn at all. This lesson maps the fork in the road that follows — how the exact same knight move can turn into the Réti Opening, the King's Indian Attack, or a plain transposition into Queen's Gambit or Catalan theory, depending on what comes next.",
+  "tags": [
+    "Zukertort Opening",
+    "Réti-Zukertort Opening",
+    "1.Nf3",
+    "Réti Opening",
+    "King's Indian Attack",
+    "flank openings",
+    "move-order flexibility"
+  ],
+  "concepts": [
+    "move-order flexibility",
+    "transposition",
+    "flexible development",
+    "system-based play",
+    "delayed central commitment",
+    "central tension"
+  ],
+  "metadata": {
+    "eco": "A04-A09",
+    "opening": "Zukertort Opening (1.Nf3)",
+    "historicalContext": "The opening is named for Johannes Zukertort, a leading 19th-century master, more by ECO/database convention than because he played one coherent system starting this way. In practice almost nobody calls a finished game a 'Zukertort' — it becomes a Réti, a King's Indian Attack, or simply transposes into 1.d4 theory. The name survives mainly as a label for the move before those choices are made."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "1.Nf3 develops a piece, guards e5 and d4, and postpones every decision about the pawn center. What comes next decides everything: push c4 and the game becomes the Réti Opening, building flank pressure on Black's center from a distance. Fianchetto with g3 and follow up with e4 regardless of what Black is doing, and the same knight-then-bishop setup becomes the King's Indian Attack, a kingside attacking scheme. Play d4 at any point and 1.Nf3 quietly erases itself, transposing into ordinary Queen's Gambit or Catalan Opening theory. This lesson is a map of that fork in the road, not a deep study of any one destination — those live in their own lessons."
+    },
+    {
+      "type": "strategy",
+      "title": "Why delay at all",
+      "body": "Delaying the central pawns isn't indecision — it's information-gathering. By the time White finally commits to c4, g3-and-e4, or d4, Black has already revealed a piece or two, and White's choice can be made in reply rather than in advance. The cost is that White gives up the sharpest, most theory-heavy tries available to 1.e4 or 1.d4; the reward is rarely walking into an opponent's deep preparation."
+    }
+  ],
+  "line": [
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "principle",
+          "body": "Develops toward the center and covers e5 and d4 without touching a single pawn. Compare 1.e4 or 1.d4: those stake a claim immediately and invite an immediate reply in kind. 1.Nf3 asks Black to commit first."
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black claims the center outright — the most direct and most common test of White's quiet first move. A different reply sends the game down a different fork; two of those forks are shown as variations at White's next move."
+        }
+      ]
+    },
+    {
+      "san": "c4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Three completely normal-looking moves are all available here: 2.c4, 2.g3, and 2.d4. Before reading on, guess what each one is actually trying to accomplish."
+        },
+        {
+          "type": "key-idea",
+          "title": "The move that names the family",
+          "body": "2.c4 is the move that actually earns the name 'Réti' — it challenges d5 from the side instead of matching it, the hypermodern idea of controlling the center with pieces and flank pawns rather than occupying it with a pawn of your own. This exact plan gets the full treatment in the Réti Opening lesson; here, watch just enough of it to see where it leads.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c4", "to": "d5" }],
+      "variations": [
+        [
+          {
+            "san": "g3",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Toward a kingside attack instead",
+                "body": "Fianchettoing immediately, without touching the c-pawn, points somewhere completely different: if White follows up with e4 and d3 in roughly this order regardless of what Black does, the game becomes the King's Indian Attack — a system built around a kingside pawn storm, not queenside pressure on d5. See the King's Indian Attack lesson for the full plan."
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "g2", "to": "a8" }]
+          },
+          "Nf6",
+          "Bg2",
+          "c5",
+          "O-O",
+          "Nc6",
+          "d3",
+          "e5"
+        ],
+        [
+          {
+            "san": "d4",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Erasing the difference",
+                "body": "White can also simply play d4, and 1.Nf3 stops being its own opening at all — the game transposes straight into ordinary 1.d4 theory, the Queen's Gambit complex or, if White later adds g3, the Catalan Opening. There is no shame in this: the point of 1.Nf3 was always flexibility, and sometimes the most flexible choice is to become a completely different, better-known opening."
+              }
+            ]
+          },
+          "Nf6",
+          "c4"
+        ]
+      ]
+    },
+    {
+      "san": "e6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black declines to grab the pawn or dig in with ...c6, instead preparing quiet development. Grabbing the pawn immediately with ...dxc4 is also fully playable — it leads into the specific 'Gambit Accepted' branch that the Réti Opening lesson covers in depth."
+        }
+      ]
+    },
+    {
+      "san": "g3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The second half of the plan: after c4, the bishop still needs a road to press d5. g3 opens it."
+        }
+      ]
+    },
+    "Nf6",
+    {
+      "san": "Bg2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop joins the pressure on d5 from the long diagonal. This piece alone doesn't distinguish the Réti from the King's Indian Attack — the difference came earlier, in whether the c-pawn or the e-pawn advanced."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g2", "to": "a8" }]
+    },
+    "Be7",
+    "O-O",
+    "O-O",
+    {
+      "san": "b3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A second fianchetto",
+          "body": "b3 prepares Bb2, doubling up on the long diagonal and committing firmly to central pressure rather than a kingside pawn storm — the Réti Opening's own structural signature, distinct from the King's Indian Attack's g3-and-e4 plan even though both start with the same fianchetto."
+        }
+      ]
+    },
+    {
+      "san": "c5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black claims queenside space in reply — a natural response once White's plan is out in the open."
+        }
+      ]
+    },
+    {
+      "san": "Bb2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Both fianchettoed bishops now aim down long diagonals. Every piece White has developed since move one has pointed at the center or the queenside — nothing has hinted at a kingside attack, which is exactly the point of this branch."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b2", "to": "g7" }]
+    },
+    "Nc6",
+    {
+      "san": "e3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A modest pawn move that keeps d4 available later without ever needing to play it immediately — patience is the entire hypermodern philosophy in one move."
+        }
+      ]
+    },
+    "b6",
+    {
+      "san": "Nc3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "One family, three destinations",
+          "body": "Every piece is developed and both sides have fianchettoed, yet the center is still just a pair of pawns facing off on the c- and d-files rather than a fixed structure — the Réti's signature patience. From here White can hold the tension, release it with cxd5 at a moment of their own choosing, or, even now, still play d4. The point was never to occupy the center on move two; it was to keep every option alive as long as possible."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry forward: 1.Nf3 is a move-order tool before it is an opening — the same first move leads to entirely different strategies depending on the second; c4 (the Réti), g3-then-e4 (the King's Indian Attack), and d4 (a straight transposition) solve different problems, not variations on one theme; and 'flexible' is not the same as 'vague' — each concrete branch is a real, well-mapped opening with its own full lesson to go deeper into next.",
+          "concepts": ["move-order flexibility", "system-based play"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "id": "nimzo-larsen",
+  "catalogCode": "O139",
+  "focus": "white",
+  "title": "The Nimzo-Larsen Attack",
+  "subtitle": "1.b3 — a diagonal instead of a pawn in the center",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "1.b3 develops a bishop before touching a single central pawn, letting the long diagonal itself apply the first pressure on Black's center. Named for Aron Nimzowitsch's early advocacy and popularized for decades by Bent Larsen — with even Bobby Fischer trying it on occasion — it rewards players who understand pressure and timing over memorized theory. How Black answers in the center, with ...e5 or ...d5, sends the game down genuinely different paths.",
+  "tags": ["Nimzo-Larsen Attack", "Nimzowitsch-Larsen Attack", "Larsen's Opening", "Queen's Fianchetto Opening", "flank opening", "hypermodern", "1.b3", "Réti Opening"],
+  "concepts": [
+    "hypermodern flank control",
+    "long diagonal pressure",
+    "flexible piece-first development",
+    "central tension",
+    "prophylaxis",
+    "space"
+  ],
+  "metadata": {
+    "eco": "A01",
+    "opening": "Nimzo-Larsen Attack (1.b3)",
+    "historicalContext": "Aron Nimzowitsch explored 1.b3 as part of his hypermodern ideas in the 1920s, but it was Bent Larsen who made it a genuine top-level weapon for decades — hence its common English name, Larsen's Opening. Even Bobby Fischer, not otherwise known for flank openings, turned to 1.b3 on occasion, and it remains a serious try today; Magnus Carlsen has used it repeatedly at the very top."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Nimzo-Larsen Attack (1.b3) asks a question most openings never ask: can a diagonal do a pawn's job? Instead of grabbing e4 or d4, White fianchettoes the queen's bishop first, so the long diagonal presses on the center before any pawn does. This lesson follows that idea through its two very different tests — Black answering with the classical ...e5 or the solid ...d5 — and shows why the fianchetto bishop's target changes completely depending on which one Black chooses."
+    },
+    {
+      "type": "historical",
+      "title": "Nimzowitsch, Larsen, and a serious try",
+      "body": "1.b3 carries three names because three eras kept it alive: Nimzowitsch's hypermodern writings gave it a theoretical basis, Larsen adopted it as a lifelong weapon at the top level, and modern grandmasters — Carlsen among them — still reach for it as more than a surprise. Even Fischer, a player defined by classical mastery of the center, tried 1.b3 himself. That pedigree matters: this is not a trick opening, it is a genuine plan."
+    }
+  ],
+  "line": [
+    {
+      "san": "b3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "principle",
+          "title": "Develop the bishop before the pawn decides anything",
+          "body": "White delays every central pawn decision and instead opens a diagonal for the queen's bishop. This is indirect central control: the pressure on the center will come from a piece's line of sight, not from a pawn standing on e4 or d4.",
+          "concepts": ["hypermodern flank control", "flexible piece-first development"]
+        }
+      ]
+    },
+    {
+      "san": "e5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black claims the full classical center. This is the sharper of the opening's two main tests for White's plan — watch what happens if Black instead leaves e5 alone and plays ...d5, in the variation here."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "d5",
+            "classification": "theory",
+            "importance": "notable",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "A different diagonal, a different game",
+                "body": "d5 is a light square; it sits nowhere near the a1–h8 diagonal, so Bb2 never confronts this pawn directly the way it confronted e5. White's plan shifts: instead of piece pressure forcing concrete decisions, the game becomes a slower fight for central space with c4, Nf3, and e3, closer in spirit to a reversed hypermodern setup than to the sharp e5 lines.",
+                "concepts": ["hypermodern flank control", "central tension"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "b2", "to": "h8" }]
+          },
+          "Bb2",
+          "Nf6",
+          "e3",
+          "e6",
+          "Nf3",
+          "Be7",
+          {
+            "san": "c4",
+            "classification": "theory",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Kinship with the Réti Opening",
+                "body": "Fianchetto bishop, e3, Nf3, and now c4 against a d5 center — this structure and its plans are close cousins of the Réti Opening, and games from the two openings regularly transpose into the same positions. Both share the same hypermodern instinct: contest the center with pieces first, decide the pawns later.",
+                "concepts": ["hypermodern flank control"]
+              }
+            ]
+          },
+          "O-O",
+          "Be2",
+          "c5",
+          "O-O",
+          {
+            "san": "Nc6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Both sides are fully developed with a flexible, roughly balanced center. Compare this quiet, maneuvering game to the direct piece-pressure fight after 1...e5 — the same first move, two genuinely different middlegames, depending entirely on how Black answers in the center."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Bb2",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The bishop's diagonal now runs b2–c3–d4–e5, completely unobstructed. Is White already threatening to simply win the e5 pawn next move?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Yes — this one is real",
+          "body": "Unlike a piece that merely eyes a defended pawn, Bb2 threatens a genuinely free capture: nothing currently guards e5. Black must answer the threat immediately — with a developing move that also defends, such as ...Nc6, ...d6, or ...Qe7 — or the pawn is simply gone. This is the whole personality of the opening in one move: development and threat fused into a single diagonal.",
+          "concepts": ["long diagonal pressure", "hypermodern flank control"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "b2", "to": "e5" },
+        { "type": "square", "square": "e5" }
+      ]
+    },
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black meets the threat the natural way, developing and defending in one move. A tempting alternative that looks equally natural — simply developing the kingside knight instead — actually loses the pawn; the variation here shows why.",
+          "concepts": ["long diagonal pressure"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nf6",
+            "classification": "mistake",
+            "importance": "important",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The natural move that misses the point",
+                "body": "This looks like ordinary development — get a piece out, prepare to castle — but it does nothing for e5. Against most openings that would be irrelevant; against 1.b3 it is the only question that matters this early.",
+                "concepts": ["long diagonal pressure"]
+              }
+            ]
+          },
+          {
+            "san": "Bxe5",
+            "annotations": [
+              {
+                "type": "tactic",
+                "body": "A genuinely free pawn — nothing recaptures. Black can win a tempo by attacking the bishop (...Nc6 or ...d6), but tempo is all that comes back.",
+                "concepts": ["long diagonal pressure"]
+              }
+            ]
+          },
+          "Nc6",
+          "Bb2"
+        ]
+      ]
+    },
+    {
+      "san": "e3",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Restraint, not passivity",
+          "body": "A modest pawn move with a precise job: it opens the f1-bishop's diagonal toward b5 and keeps the center flexible rather than fixing it early. Nimzowitsch's own instinct — restrain first, advance later — shows up constantly in this opening's small pawn moves.",
+          "concepts": ["prophylaxis"]
+        }
+      ]
+    },
+    "Nf6",
+    {
+      "san": "Bb5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The second wave of pressure",
+          "body": "e5 currently has exactly one defender, the knight on c6. Bb5 attacks that defender directly, so Bxc6 followed by Bxe5 becomes a real threat again — the same idea as move two, escalated. The mechanism echoes the Ruy Lopez's 3.Bb5, but here there is no equivalent of Black's ...Qd4 rescue: White's e-pawn sits passively on e3, not e4, so there is nothing for a fork to win back. Black needs a second defender of e5, not a clever tactic.",
+          "concepts": ["long diagonal pressure", "central tension"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "b5", "to": "c6" },
+        { "type": "square", "square": "e5" }
+      ]
+    },
+    {
+      "san": "Bd6",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The necessary second defender",
+          "body": "Bd6 develops naturally and, just as importantly, covers e5 a second time. A superficially similar developing move, ...Be7, looks equally sound but leaves e5 with only one real defender — see the variation for the exact way that costs a pawn.",
+          "concepts": ["long diagonal pressure"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Be7",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Development without defense",
+                "body": "This bishop move develops and prepares castling, exactly like Bd6 — but e7 is not on a diagonal to e5, so it adds nothing to the pawn's defense. The knight on c6 is still the only piece holding e5, and Bb5 is aimed straight at it.",
+                "concepts": ["long diagonal pressure"]
+              }
+            ]
+          },
+          "Nf3",
+          "O-O",
+          {
+            "san": "Bxc6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Removing the sole defender."
+              }
+            ]
+          },
+          "dxc6",
+          {
+            "san": "Bxe5",
+            "classification": "critical",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The threat from move four finally lands",
+                "body": "With the knight gone, nothing guards e5, and Bd6 was never played to add a second defender. White simply wins the pawn — the exact idea Bb5 introduced two moves earlier, now cashed in.",
+                "concepts": ["long diagonal pressure"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A third piece joins the pressure on e5 — knight and bishop both bear on the square, matched now by two defenders (the knight on c6 and the bishop on d6). The position is balanced, but every White developing move has doubled as a question about this one pawn.",
+          "concepts": ["long diagonal pressure"]
+        }
+      ]
+    },
+    "O-O",
+    "O-O",
+    {
+      "san": "Re8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black adds weight to the center and prepares a future ...e4 push, the same rook-behind-the-pawn logic White used with Re1 in the Ruy Lopez."
+        }
+      ]
+    },
+    {
+      "san": "c4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The pawn move finally arrives",
+          "body": "Seven moves in, White finally stakes real space with a pawn — and only after the pieces had already done their work. This is the opening's real character: piece pressure first, space-gaining pawn moves second, the opposite order from 1.e4 or 1.d4 systems.",
+          "concepts": ["flexible piece-first development", "space"]
+        }
+      ]
+    },
+    {
+      "san": "a6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black questions the bishop, echoing the Ruy Lopez's own ...a6 — a reminder that Bb5 creates the same kind of small structural decision no matter which opening it appears in."
+        }
+      ]
+    },
+    {
+      "san": "Bxc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White trades rather than retreats, happy to damage Black's structure now that the bishop's central job — pressuring the e5 defender — is finished."
+        }
+      ]
+    },
+    "dxc6",
+    "d3",
+    {
+      "san": "Bg4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black pins the f3-knight, the natural way to generate counterplay against a setup built entirely on quiet piece pressure rather than a broad pawn front.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g4", "to": "d1" }]
+    },
+    {
+      "san": "Nbd2",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "A middlegame both sides can plan in",
+          "body": "White finishes development with a solid, flexible structure: c4-b3-d3-e3 restrains the center while the remaining bishop on b2 stays capped by Black's own e5 pawn for now — a future ...e4 would reopen it toward Black's kingside, so that freeing break is not entirely free. h3 is available to question the pin whenever wanted, and the d2-knight can look to reroute toward e4. Black gave up the c6-knight but kept both bishops and the pair's activity, at the cost of doubled c-pawns — the same trade of imbalances the Ruy Lopez's Exchange Variation makes, reached here from a completely different opening.",
+          "concepts": ["central tension", "space"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons from this game: a diagonal can threaten a pawn just as concretely as another piece can, and the first one (move two) was not a bluff; pressure escalates in waves — each new attacker demands a new defender, and missing one is the whole risk of playing 'natural' developing moves without checking; and White never staked real central space with a pawn until move seven's c4, proving pieces can do that early work instead.",
+          "concepts": ["long diagonal pressure", "flexible piece-first development"]
+        }
+      ]
+    }
+  ]
+}

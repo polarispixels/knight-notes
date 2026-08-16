@@ -1,0 +1,269 @@
+{
+  "id": "sicilian-taimanov",
+  "catalogCode": "O050",
+  "focus": "black",
+  "title": "The Taimanov Variation",
+  "subtitle": "Delay every commitment until White shows a hand",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "Black plays 2...e6 and 4...Nc6 without committing the d-pawn, the g-pawn, or even the kingside knight's square — keeping the option to transpose into Scheveningen, Kan, or Hedgehog structures depending on what White tries. This lesson explains why that flexibility is a weapon in its own right, and walks through the queenside expansion plan that makes the Taimanov a lasting favorite of positional players.",
+  "tags": ["Taimanov Variation", "Sicilian Defense", "Open Sicilian", "Kan Variation", "Scheveningen Variation", "Pin Variation", "flexibility"],
+  "concepts": ["flexibility", "delayed development", "queenside expansion", "Maroczy Bind", "Hedgehog structures"],
+  "metadata": {
+    "eco": "B44, B46-B49",
+    "opening": "Sicilian Defense: Taimanov Variation",
+    "historicalContext": "Named for Soviet grandmaster (and celebrated concert pianist) Mark Taimanov, who helped develop this flexible move order in the 1950s and 60s. Decades later the same e6-Sicilian complex produced one of the most celebrated games in world championship history: Karpov vs Kasparov, game 16 of their 1985 rematch, whose central knight maneuver earned the nickname 'the octopus knight.'"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Open Sicilian lesson studied the c-for-d trade from the 2...Nc6 move order. The Taimanov reaches the same bargain through 2...e6 and 4...Nc6 instead — a small change with a large consequence: Black hasn't committed the kingside knight, the d-pawn, or the king's bishop yet, so the same position can become a Scheveningen, a Kan, or a Hedgehog depending on how White sets up. This lesson teaches that flexibility as a strategy in itself, plus the concrete plan every Taimanov game eventually reaches for: ...Qc7, ...a6, and ...b5 pushing for queenside space and counterplay."
+    }
+  ],
+  "line": [
+    "e4",
+    "c5",
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Standard development, prepping the central trade the family study covered in depth."
+        }
+      ]
+    },
+    {
+      "san": "e6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The other side of the c-pawn",
+          "body": "Where the Open Sicilian lesson developed ...Nc6 first, the Taimanov's defining choice comes here: a small, flexible pawn move that opens the dark bishop's diagonal and prepares ...d5 someday, without yet telling White anything about where the kingside knight or the d-pawn will go.",
+          "concepts": ["flexibility"]
+        }
+      ]
+    },
+    "d4",
+    {
+      "san": "cxd4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The same trade as always — a flank pawn for a center pawn, a half-open c-file banked for later."
+        }
+      ]
+    },
+    "Nxd4",
+    {
+      "san": "Nc6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "This looks identical to the Open Sicilian's main move order, just with the moves reordered — e6 before Nc6 instead of after. Why does the order matter at all?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Delayed development, deliberately",
+          "body": "It matters because Black still hasn't played ...d6 or ...Nf6, and won't commit either for several moves. That keeps the d-pawn's future square open (d6 versus staying on d7 for a while) and the kingside knight's route open (f6 versus e7). The immediate danger of this delay is real — see the variation on White's next move — but the payoff is a position that can meet several different White setups without having shown its own plan first.",
+          "concepts": ["flexibility", "delayed development"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nf6",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The move-order trap",
+                "body": "Developing the other knight instead looks equally natural, but it invites a concrete problem: White's centralized knight can jump into Black's position before the d-pawn is safely on d6.",
+                "concepts": ["delayed development"]
+              }
+            ]
+          },
+          {
+            "san": "Nb5",
+            "importance": "important",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The leap that punishes the delay",
+                "body": "The knight heads for d6, where it would fork the king and disrupt Black's whole position with check. Black has no better answer than blocking the square immediately, a move later than the main line needed to.",
+                "concepts": ["delayed development"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "b5", "to": "d6" }]
+          },
+          "d6"
+        ],
+        [
+          {
+            "san": "Nf6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "A genuinely independent branch rather than a mistake: Black develops the kingside knight immediately and follows up with a pin instead of the queen move."
+              }
+            ]
+          },
+          "Nc3",
+          {
+            "san": "Bb4",
+            "classification": "theory",
+            "importance": "notable",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Pin Variation",
+                "body": "Rather than the patient ...Qc7 setup, Black pins the c3-knight to the king at once, adding pressure to e4 a full move earlier than the main line manages. It's a sharper, more committal way to reach the same family of structures — real theory in its own right, recognized as the Taimanov's Pin Variation, though it gives up some of the flexibility that makes the main line so resilient.",
+                "concepts": ["flexibility"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "b4", "to": "e1" }]
+          },
+          {
+            "san": "Bd2",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Breaking the pin",
+                "body": "White interposes a second piece on the same diagonal — once the knight is no longer the last thing standing between the bishop and the king, it can move freely again. A simple, standard answer to a pin with nothing forcing behind it."
+              }
+            ]
+          },
+          "O-O"
+        ]
+      ]
+    },
+    {
+      "san": "Nc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The calm, most common response. White's other main try, the Maroczy Bind with an early c4, takes a completely different strategic approach — see the variation."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "c4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The Maroczy Bind approach",
+                "body": "Instead of developing normally, White claims both central light squares with pawns before Black can strike at them with ...d5 or ...b5. This trades the sharp piece-play race of the main line for a long positional squeeze — Black answers with patient regrouping rather than immediate queenside expansion.",
+                "concepts": ["Maroczy Bind"]
+              }
+            ]
+          },
+          "Nf6",
+          "Nc3",
+          {
+            "san": "Qc7",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Even against the bind, Black keeps the same flexible development scheme — proof that the Taimanov's core idea travels across very different pawn structures.",
+                "concepts": ["flexibility"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Qc7",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The signature move",
+          "body": "The queen develops to an active square that avoids blocking any pawn or piece, eyes the long b8-h2 diagonal for a future battery with a rook or bishop, and still commits to nothing about where the kingside knight or the bishop will go. This one move is why the Taimanov has a reputation for flexibility beyond every other e6-Sicilian.",
+          "concepts": ["flexibility", "queenside expansion"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c7", "to": "h2" }]
+    },
+    "Be2",
+    {
+      "san": "a6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Clearing the path for ...b5",
+          "body": "Takes b5 away from any White piece and prepares the queenside pawn storm that is the Taimanov's main source of counterplay — the same idea the Najdorf uses one tempo earlier, reached here by a different road.",
+          "concepts": ["queenside expansion"]
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Only now does the kingside knight commit to f6 — five moves later than in most other Sicilians, and on Black's own schedule rather than out of necessity."
+        }
+      ]
+    },
+    "Kh1",
+    {
+      "san": "Be7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Quiet development, keeping the king's path to safety clear."
+        }
+      ]
+    },
+    "Be3",
+    {
+      "san": "d6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The d-pawn finally commits, seven moves after e6 — supporting e5 for good and freeing the c8-bishop's development."
+        }
+      ]
+    },
+    {
+      "san": "f4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "White's space grab",
+          "body": "A common plan even with both kings already castled on the same side: f4 claims central and kingside space and prepares f5, pressing Black to react rather than simply build up.",
+          "concepts": ["Maroczy Bind"]
+        }
+      ]
+    },
+    {
+      "san": "O-O",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Both plans, visible at once",
+          "body": "White's program: f4-f5 to gain space and attack, or Qe1-g3 and central maneuvering to press the d6/e5 complex. Black's program: ...b5 completing the queenside expansion prepared six moves ago, ...Bb7, and a rook to c8 down the half-open file — with the option to trade knights on d4 at any moment to relieve central pressure. Neither side has committed to a single plan; both are still choosing.",
+          "concepts": ["queenside expansion", "flexibility"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: delaying commitment is itself a plan — keeping ...d6, ...Nf6, and ...Be7 unplayed for as long as possible let Black adapt to White's exact setup rather than guess at it in advance; that delay carries a real cost if abused, as the early ...Nf6 mistake showed; and the Taimanov's queenside counterplay (...Qc7, ...a6, ...b5) is the same engine that powers the whole Sicilian family, just reached with maximum flexibility. This structural family has produced real history — see Karpov vs Kasparov for a game built on exactly this kind of position.",
+          "concepts": ["flexibility", "delayed development", "queenside expansion"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b7", "to": "b5" }, { "type": "square", "square": "d4" }]
+    }
+  ]
+}

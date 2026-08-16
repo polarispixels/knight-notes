@@ -1,0 +1,217 @@
+{
+  "id": "sicilian-closed",
+  "catalogCode": "O037",
+  "focus": "white",
+  "title": "The Closed Sicilian",
+  "subtitle": "A King's Indian with an extra tempo, aimed at Black's own kingside",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "White sidesteps the whole Open Sicilian machinery — no d4, no early trade, none of the sharp forcing theory the family study built its lesson around. Instead White fianchettoes, castles kingside just like Black, and grinds forward with f4-f5 and a slow strategic squeeze. This lesson teaches the trade White accepts for that peace of mind: less initial pressure, but a rich middlegame few opponents have studied.",
+  "tags": ["Closed Sicilian", "Closed Sicilian System", "Sicilian Defense", "Anti-Sicilian", "reversed King's Indian", "English Opening"],
+  "concepts": [
+    "kingside fianchetto",
+    "closed center",
+    "same-side attacking plans",
+    "slow maneuvering",
+    "prophylaxis",
+    "pawn storms"
+  ],
+  "metadata": {
+    "eco": "B23-B26",
+    "opening": "Sicilian Defense: Closed Variation",
+    "historicalContext": "A long-time favorite of positional players such as Boris Spassky and Bent Larsen, who used it to keep genuine winning chances against the Sicilian while sidestepping the sharpest, most heavily analyzed theory of the Najdorf and Dragon."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study, The Sicilian Defense, was built entirely around White eventually playing d4 and trading on it — the Open Sicilian. The Closed Sicilian refuses that whole bargain: White never plays d4 at all. Instead White develops exactly as if this were a King's Indian Defense one tempo up, fianchettoing the bishop and castling into the same corner Black's king will occupy. This lesson is about the tradeoff at the heart of every Anti-Sicilian system: White gives up the tempo-for-development edge the Open Sicilian offers, in exchange for a position almost no opponent has prepared specifically against."
+    }
+  ],
+  "line": [
+    "e4",
+    "c5",
+    {
+      "san": "Nc3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Every mainstream Sicilian answer eventually reaches d4. Why would White develop a knight instead?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Declining the whole argument",
+          "body": "Nc3 commits White to a structure where d4 may never be played at all. Rather than fight for the center-pawn-for-flank-pawn trade the Open Sicilian is built on, White treats the position like a King's Indian Attack: fianchetto, castle, and expand slowly on the kingside. This is the first of several ways White can avoid the Open Sicilian (the Alapin's 2.c3 and the Rossolimo's 3.Bb5 are others) — Closed Sicilian players choose this one because it promises the richest, most independent middlegame of the bunch.",
+          "concepts": ["closed center"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nf3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Kopec System",
+                "body": "A quieter cousin: White develops the king's knight first and follows with an early d3, reaching a King's-Indian-Attack-style setup (d3, g3, Bg2, O-O) against whatever Black plays. Popularized by IM Danny Kopec as a low-theory club weapon, it shares the Closed Sicilian's whole philosophy — fianchetto, castle, expand slowly — just with the knight developing before the structural commitment of g3."
+              }
+            ]
+          },
+          "Nc6",
+          "d3"
+        ]
+      ]
+    },
+    "Nc6",
+    {
+      "san": "g3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The move that names the system: a kingside fianchetto instead of a central pawn strike. White is betting on long-term piece pressure rather than an early structural concession from Black.",
+          "concepts": ["kingside fianchetto"]
+        }
+      ]
+    },
+    "g6",
+    {
+      "san": "Bg2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "An unusually symmetric Sicilian",
+          "body": "Watch Black mirror the fianchetto move for move. Nearly every other Sicilian variation is built on asymmetry — that was the family study's whole argument for why 1...c5 fights for a win. Here, for the only time in the Sicilian family, both sides adopt matching setups. The imbalance survives anyway, just in a quieter form: it's a race between two kingside fianchettos pointed at two different targets.",
+          "concepts": ["kingside fianchetto"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g2", "to": "a8" }]
+    },
+    "Bg7",
+    "d3",
+    "d6",
+    {
+      "san": "f4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The plan the whole opening exists for",
+          "body": "This is the point of everything so far: f4 prepares f5, a pawn lever aimed straight at Black's kingside pawn chain and, eventually, Black's own king. White's structure — pawns on e4 and f4, pieces on g2/c3 — is the reversed King's Indian shape the catalog calls this system's signature: the same setup as 1.c4 e5 (the King's English) with an extra developing tempo in hand.",
+          "concepts": ["pawn storms"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f4", "to": "f5" }]
+    },
+    {
+      "san": "e6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Flexible, not committal",
+          "body": "Black keeps the center pawns flexible rather than locking them with ...e5. This holds open a later ...d5 break and doesn't yet concede the d5 square the way a central advance would. Locking the center with ...e5 instead is fully playable too — see the variation for how the resulting structure differs.",
+          "concepts": ["closed center"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "e5",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Locking the center",
+                "body": "Black claims more central space immediately, at the cost of the d5 square for good — White's knight can eventually dream of a permanent home there. This is a real, respected alternative; it trades the flexibility of ...e6 for a firmer grip on e5 and a simpler plan.",
+                "concepts": ["prophylaxis"]
+              }
+            ]
+          },
+          "Nf3",
+          "Nge7",
+          "O-O",
+          "O-O",
+          "Be3"
+        ]
+      ]
+    },
+    "Nf3",
+    {
+      "san": "Nge7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The knight develops to e7 rather than f6, leaving f6 free in case Black ever wants ...f5 as a counter-lever of their own, and staying clear of any future e4-e5 push.",
+          "concepts": ["prophylaxis"]
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Same side, same danger",
+          "body": "Notice both kings land on the kingside. Unlike the Dragon or Najdorf's famous opposite-side castling races, where each side sprints at an undefended enemy king, White here has to attack a target defended by its own king's neighbors — a harder, slower project. That is the honest concession of the whole system: no easy mating race, just a long strategic squeeze that rewards patience over calculation."
+        }
+      ]
+    },
+    {
+      "san": "Be3",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Preparing the trade of dark-squared bishops",
+          "body": "Be3 clears the way for Qd2 and, eventually, Bh6 — offering to trade off Black's fianchettoed bishop, the exact piece defending the dark squares around Black's own king. Losing that bishop is a real long-term problem for Black even though nothing concrete happens for several more moves.",
+          "concepts": ["pawn storms"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }]
+    },
+    {
+      "san": "Rb8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A different file, the same instinct",
+          "body": "The family study's queenside plan ran on the half-open c-file, opened by the cxd4 trade. That trade never happens here — White has never played d4, so the c-file stays closed. Black's queenside play instead runs on the b-file: Rb8 prepares ...b5-b4, hitting the c3-knight and ripping open lines near White's own king.",
+          "concepts": ["prophylaxis"]
+        }
+      ]
+    },
+    {
+      "san": "Qd2",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Both kings sit on the same wing. Is White actually attacking Black's king, or just maneuvering pieces around?"
+        }
+      ]
+    },
+    {
+      "san": "b5",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Two storms, same side of the board",
+          "body": "The answer: both. White's plan is Bh6 to trade the defending bishop, then f5 to lever open lines toward g7 and h7 — a genuine attack, just a slow-building one. Black's b5-b4 answers in kind, hitting c3 and opening the queenside toward White's own king. Because both sides castled kingside, this isn't the clean two-front race of the Najdorf; it's a single shared battlefield where tempo and precision decide who breaks through first.",
+          "concepts": ["same-side attacking plans", "pawn storms"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: avoiding the Open Sicilian has a real cost — White traded the tempo-for-development edge of 3.d4 cxd4 4.Nxd4 for an unfamiliar, slower middlegame; the reversed King's Indian shape (fianchetto, f4-f5, same-side kings) is a genuinely different way to fight for advantage than any structure in the family study; and Black's counterplay changes location, not intent — no c-file this time, but the same appetite for queenside expansion, now running on the b-file instead.",
+          "concepts": ["closed center", "pawn storms", "same-side attacking plans"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "b5", "to": "b4" },
+        { "type": "square", "square": "c3" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "id": "english-four-knights",
+  "catalogCode": "O137",
+  "title": "The Four Knights English",
+  "subtitle": "A pin that restricts more than it threatens",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "Nobody's central pawns move for the first several moves in the Four Knights English — the entire early battle is a single bishop pressuring a single knight, and whether that pressure is a genuine pin or just leverage. This lesson checks the diagonal carefully, shows why forcing the issue with a3 beats letting the tension sit, and asks an honest question about trading development speed for the bishop pair and delayed castling.",
+  "tags": ["Four Knights English", "English Opening", "c4 openings", "King's English", "Four Knights"],
+  "concepts": [
+    "the pin",
+    "central tension",
+    "piece activity",
+    "the bishop pair",
+    "pawn breaks"
+  ],
+  "metadata": {
+    "eco": "A28",
+    "opening": "English Opening: King's English, Four Knights Variation"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Reversed Sicilian study treats 1.c4 e5 2.Nc3 Nf6 3.Nf3 Nc6 as a fork in the road toward the fianchetto systems; this lesson follows the other branch, where White plays e3 instead of g3 and Black pins the c3-knight at once. Nobody's central pawns move for the first several moves — the whole opening is a contest of piece activity, and a single question: is the pressure on c3 a genuine threat, or leverage that's worth more unresolved than resolved?"
+    }
+  ],
+  "line": [
+    "c4",
+    "e5",
+    "Nc3",
+    "Nf6",
+    "Nf3",
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The Four Knights structure is complete a move before either side's other plans commit. From here White can still steer for the fianchetto or take the sharper path shown in the main line (see the variation on White's next move)."
+        }
+      ]
+    },
+    {
+      "san": "e3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The other fork in the road",
+          "body": "Where the Reversed Sicilian study heads for g3 and a fianchetto, this modest pawn move heads somewhere entirely different: it opens the f1-bishop's diagonal and does nothing to stop what's coming next."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "g3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The other fork, revisited",
+                "body": "White could instead transpose straight back into the fianchetto systems — a reminder that this position is a genuine crossroads, not a commitment to any one plan."
+              }
+            ]
+          },
+          "d5"
+        ]
+      ]
+    },
+    {
+      "san": "Bb4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White's knight is attacked, and the bishop sits on the same diagonal as White's king, three squares further back. Is this a genuine pin — must White worry about ever moving the knight — or does something block the line?"
+        }
+      ]
+    },
+    {
+      "san": "Qc2",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Not a true pin — but real pressure anyway",
+          "body": "Check the diagonal: White's own d-pawn still sits on d2, blocking any connection between the bishop and the king. This isn't the Nimzo-Indian's genuine king pin — there, White has already played d4, clearing that square. It's simple pressure on a piece that happens to be important. Qc2 develops the queen off the back rank, adds a second defender to c3, and keeps open the choice of how to recapture if Black ever trades on c3."
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "b4", "to": "e1" },
+        { "type": "square", "square": "d2" }
+      ]
+    },
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black finishes king safety before resolving the tension on c3 — see the variation for what happens when the pin is released too early instead."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bxc3",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Releasing the pressure for nothing",
+                "body": "Trading immediately, before a3 is even played, hands White the bishop pair for free — no forced a3, no lost tempo, nothing gained in exchange. The pressure on c3 is worth more unresolved, restricting White's options, than cashed in for no concession. Compare the main line, where Black waits until a3 forces the issue and White has to spend a move getting there."
+              }
+            ]
+          },
+          "Qxc3"
+        ]
+      ]
+    },
+    {
+      "san": "a3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Forcing the question",
+          "body": "Now White asks the bishop to decide. There's no reason to let the pressure sit forever once a3 is available — Black must retreat or trade."
+        }
+      ]
+    },
+    {
+      "san": "Bxc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Trading, at the right moment",
+          "body": "Taking on c3 now at least costs White a tempo (a3) and hands over the choice of structure. Compare the variation on White's previous move, where Black gives up the same bishop for nothing in return."
+        }
+      ]
+    },
+    "Qxc3",
+    "Re8",
+    {
+      "san": "b4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The bishop pair goes to work",
+          "body": "With no more minor-piece tension to manage, White expands on the queenside exactly as in the fianchetto branches — except here there's no long diagonal for the c1-bishop yet. Instead, the plan is straightforward space plus a pair of bishops that only gets stronger as the position opens."
+        }
+      ]
+    },
+    "d6",
+    {
+      "san": "Bb2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The last minor piece finds its diagonal, adding a second long-range attacker toward e5 and the kingside — the reward for winning the bishop pair peacefully."
+        }
+      ]
+    },
+    {
+      "san": "Be6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Development finished, plans set",
+          "body": "White still hasn't castled — the price of spending early moves on a3, b4, and Bb2 instead of Be2 and O-O — but the bishop pair and queenside space are real, lasting assets, and there's no target yet for Black to attack in the center. Black's Be6 eyes c4 and completes development solidly; the position is roughly balanced but asymmetric in a telling way: White traded time for structure, Black traded structure for time."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: an apparent pin should always be checked against what's actually behind the pinned piece, not assumed from the pattern alone; forcing a decision, as with a3, is often better than letting pressure sit indefinitely, because it converts leverage into a concrete structural gain; and delaying castling isn't automatically careless — it's a real tradeoff between king safety and using those tempi elsewhere, and this branch of the English asks you to make that tradeoff on purpose rather than by habit."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e6", "to": "c4" }]
+    }
+  ]
+}
