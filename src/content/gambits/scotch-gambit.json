@@ -1,0 +1,189 @@
+{
+  "id": "scotch-gambit",
+  "catalogCode": "GB005",
+  "focus": "white",
+  "title": "The Scotch Gambit",
+  "subtitle": "A deliberately deferred recapture",
+  "type": "gambit",
+  "difficulty": "beginner",
+  "summary": "Instead of recapturing on d4 right away, White develops the bishop to c4 first, offering a pawn for a head start in development. It is one of the gentlest introductions to gambit thinking: the investment is small, the compensation is easy to see, and the position can transpose into several different family trees.",
+  "tags": ["Scotch Gambit", "Scotch Game", "e4 openings", "gambit"],
+  "concepts": [
+    "gambit play",
+    "development",
+    "tempo",
+    "transposition",
+    "open lines",
+    "king safety"
+  ],
+  "metadata": {
+    "eco": "C44",
+    "opening": "Scotch Gambit",
+    "historicalContext": "A close cousin of the Scotch Game (3.d4), the Scotch Gambit trades the pawn White would otherwise recapture for a full move of development -- the same trade every gambit in this library makes, just priced at its most modest."
+  },
+  "rootAnnotations": [
+    {
+      "type": "strategy",
+      "title": "The smallest gambit in this library, and the clearest",
+      "body": "The Scotch Game study (id scotch-game) shows this exact idea in a single branch, in passing. This study slows down and asks the investment question directly: why leave a pawn on d4 uncaptured for several moves, and what is bought with the delay? Because the piece sacrificed for that question is small -- one central pawn, briefly -- it is the easiest gambit in this library to evaluate honestly."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    {
+      "san": "d4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The same central question as the Scotch Game",
+          "body": "White strikes the center immediately rather than building slowly. Black's most natural reply is to capture; what White does next is what separates the Scotch Gambit from the plain Scotch Game."
+        }
+      ]
+    },
+    "exd4",
+    {
+      "san": "Bc4",
+      "classification": "interesting",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The cost: leaving d4 uncaptured",
+          "body": "Instead of 4.Nxd4, recovering the pawn at once, White develops a piece toward f7 and leaves the pawn on d4 sitting there -- for now. That pawn is not abandoned; it is postponed. The bishop's diagonal and the extra tempo are worth more this move than the pawn is. This is gambit logic in its smallest, clearest form: material spent for time."
+        },
+        {
+          "type": "commentary",
+          "body": "Black now has a genuine fork in the road, and each branch leads to a different family of positions -- part of why this gambit is such a good teaching tool for transpositions."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c4", "to": "f7" }]
+    },
+    {
+      "san": "Bc5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The other branch: Italian-style structures",
+          "body": "Symmetrical development, mirroring White's bishop. From here the game can head toward genuinely Italian-flavored positions if Black declines further pawns with 5...Nf6, or stay in true gambit territory if Black grabs the pawn White is about to offer next. Either way, the position is one move from deciding which opening family it actually belongs to -- the transposition web this study is named for."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nf6",
+            "classification": "theory",
+            "annotations": [
+              {
+                "type": "strategy",
+                "title": "The sharp branch",
+                "body": "Rather than defend the extra pawn, Black counterattacks e4 directly. This leads to the sharpest positions the Scotch Gambit offers, since White's reply doesn't just develop -- it fights for the initiative right away."
+              }
+            ]
+          },
+          {
+            "san": "e5",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Trading the last central pawn for tempo",
+                "body": "5.e5!? kicks the knight rather than let Black castle in peace -- White is not trying to hold d4 or e4, only to keep forcing Black to react. This is the same currency as before: pawns for time, spent again."
+              }
+            ]
+          },
+          "d5",
+          {
+            "san": "Bb5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The bishop steps aside from the attacked d5-pawn's reach rather than trade it off, keeping the pin-adjacent pressure alive."
+              }
+            ]
+          },
+          "Ne4",
+          {
+            "san": "Nxd4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White finally recaptures the pawn that has been sitting on d4 since move three -- five moves after Black first took it. Development, not material, decided when the recapture happened."
+              }
+            ]
+          },
+          {
+            "san": "Bd7",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Solid if slightly passive -- material is level again and both sides now finish developing in a sharp, roughly balanced middlegame."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "c3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White offers the d4-pawn a second time, preparing to recapture with the c-pawn and rebuild a full center. Declining with 5...Nf6 here transposes toward calmer, Italian Game-like play after 6.cxd4 -- the same transposition the Scotch Game study describes from the other side of the board."
+        }
+      ]
+    },
+    {
+      "san": "dxc3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Accepting the second pawn. Two pawns are now the price of admission -- the next move is where White collects on the investment."
+        }
+      ]
+    },
+    {
+      "san": "Nxc3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The compensation, all at once",
+          "body": "For one pawn White now has three pieces developed and ready to act, open lines in every direction, and Black still has not moved a single piece besides the bishop. Gambits are loans: White must generate threats before Black finishes development and starts collecting on the debt."
+        }
+      ]
+    },
+    {
+      "san": "d6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The sound response: stop grabbing, start developing",
+          "body": "Black declines to look for a third pawn and instead prepares to catch up in development -- the correct plan against almost any gambit. Every extra pawn grabbed is another move not spent developing; Black has already decided one pawn is plenty."
+        }
+      ]
+    },
+    "O-O",
+    "Nf6",
+    {
+      "san": "Re1",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a gambit can be tiny and still teach the whole framework -- one pawn, briefly parked on d4, bought a full tempo and an open diagonal; the same starting moves can transpose into very different families of positions (sharp lines after 4...Nf6, Italian-style calm after 5...Nf6, or the open gambit continuation here), so a single move can decide which game you are actually playing; and compensation fades the moment the opponent finishes catching up -- here Black has now developed just as fast as White, and the extra pawn is starting to matter again."
+        }
+      ]
+    }
+  ]
+}

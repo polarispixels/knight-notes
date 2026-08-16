@@ -1,0 +1,139 @@
+{
+  "id": "connected-passed-pawns",
+  "catalogCode": "E007",
+  "title": "Connected Passed Pawns",
+  "subtitle": "Why two pawns side by side are worth more than the sum of their parts",
+  "type": "endgame",
+  "difficulty": "intermediate",
+  "summary": "Two passed pawns on adjacent files defend each other's advance in a way a single pawn never can. Knowing which one to push — and which one to hold back — is the difference between an easy win and handing a pawn back for nothing.",
+  "tags": [
+    "pawn endgame",
+    "connected passed pawns",
+    "mutual defense",
+    "promotion technique"
+  ],
+  "concepts": [
+    "mutual support",
+    "key squares",
+    "promotion technique"
+  ],
+  "initialFen": "4k3/8/8/2KPP3/8/8/8/8 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "Mutual support",
+      "body": "A pawn on d5 guards c6 and e6; a pawn on e5 guards d6 and f6. Standing side by side, each pawn watches the square directly in front of the other. The defending king can never plant itself on either of those squares — it would simply be captured. That single fact is what makes two connected passers so much harder to stop than one pawn twice as far advanced.",
+      "concepts": ["mutual support"]
+    },
+    {
+      "type": "principle",
+      "title": "Push the one that's behind, not the one that's ahead",
+      "body": "As long as the pawns stay level or only one square apart, whichever one is behind is defending the advance square of the one in front. The moment you race the lead pawn a second square ahead of its partner, it steps outside that protection completely — and so does the partner it left behind. Connected passers are strongest kept close together; a lone runner is just a pawn again. (This same mutual strength is why two connected passed pawns already on the sixth rank are usually strong enough to beat a rook outright — the rook can only stop one of them at a time.)"
+    }
+  ],
+  "rootVisual": [
+    { "type": "square", "square": "d5" },
+    { "type": "square", "square": "e5" },
+    { "type": "arrow", "from": "d5", "to": "e6" },
+    { "type": "arrow", "from": "e5", "to": "d6" }
+  ],
+  "line": [
+    {
+      "san": "e6",
+      "importance": "critical",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Guarded by its neighbor",
+          "body": "e6 looks like it's charging ahead alone, but d5 covers it completely — nothing can capture there without being captured back. Pushing one pawn while its partner stays behind to watch the landing square is exactly the right shape."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e6" }]
+    },
+    "Ke7",
+    {
+      "san": "Kc6",
+      "importance": "important",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Bring the king before racing the pawns",
+          "body": "It's tempting to keep shoving pawns forward, but d5 hasn't got a partner to defend ITS advance the way e6 did. White's king comes up first, so that whichever pawn moves next, something is always covering it."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "d6+",
+            "classification": "blunder",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The wrong pawn moved at the wrong time",
+                "body": "This looks forcing — check! — but the instant d5 steps past e6, nothing defends e6 anymore, and Black's king is standing right next to it."
+              }
+            ]
+          },
+          {
+            "san": "Kxe6",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "The point of the whole trap",
+                "body": "One connected pawn is just a pawn. White has thrown away half of what made this position winning without any compensation at all — a completely avoidable error from playing a check just because it was available."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Kf6",
+    {
+      "san": "Kd7",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Guarding e6 in person",
+          "body": "Now the king itself defends e6, freeing d5 to think about its own advance instead of babysitting its neighbor forever."
+        }
+      ]
+    },
+    {
+      "san": "Ke5",
+      "annotations": [
+        {
+          "type": "question",
+          "title": "The black king is eyeing d5 — should White be worried?",
+          "body": "d5 has no defender left at all right now. Does that actually matter?"
+        }
+      ]
+    },
+    {
+      "san": "e7",
+      "importance": "critical",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Let the other one go",
+          "body": "White doesn't need to save d5 — the point of two connected passers was never that both must survive, only that at least one gets through. With the king already guarding its path to the queening square, e7 is one step from a new queen and Black's king is nowhere near it."
+        }
+      ]
+    },
+    "Kxd5",
+    {
+      "san": "e8=Q",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Black wins back one pawn, but it's the wrong trade by a mile — White queens on the very next move with an untouchable king escort. The whole technique came down to two rules: never advance a pawn past the square its partner is defending, and once a queen is guaranteed, a spare pawn is nothing to mourn."
+        }
+      ]
+    }
+  ]
+}

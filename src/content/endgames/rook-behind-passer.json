@@ -1,0 +1,123 @@
+{
+  "id": "rook-behind-passer",
+  "catalogCode": "E011",
+  "title": "The Rook Belongs Behind the Passed Pawn",
+  "subtitle": "Tarrasch's rule, and what happens when you ignore it",
+  "type": "endgame",
+  "difficulty": "intermediate",
+  "summary": "Siegbert Tarrasch's guideline is one of the most repeated rules in endgame theory: a rook belongs behind a passed pawn — your own to push it, the opponent's to blockade it. This position shows why: a rook that blocks a passed pawn from the front runs out of squares as the pawn and the enemy king advance together.",
+  "tags": [
+    "rook endgame",
+    "Tarrasch's rule",
+    "passed pawn",
+    "rook activity"
+  ],
+  "concepts": [
+    "rook behind the passed pawn",
+    "rook activity",
+    "blockading from the front",
+    "zugzwang"
+  ],
+  "initialFen": "8/7r/5k2/2P5/3K4/8/8/2R5 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "principle",
+      "title": "Tarrasch's rule",
+      "body": "'Rooks belong behind passed pawns — one's own, in order to support their advance, and the opponent's, in order to impede it.' White's rook on c1 already follows the rule: as the pawn advances, the rook's scope down the open file only grows, and it's never in the pawn's way. As a general guideline (not an absolute law — there are well-known exceptions) it holds remarkably often, and this position shows exactly why.",
+      "concepts": [
+        "rook behind the passed pawn"
+      ]
+    }
+  ],
+  "rootVisual": [
+    { "type": "square", "square": "c1" },
+    { "type": "arrow", "from": "c1", "to": "c8" }
+  ],
+  "line": [
+    {
+      "san": "Kd5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Bringing the king up",
+          "body": "With the rook already well placed behind the pawn, White's only remaining job is to walk the king up in support."
+        }
+      ]
+    },
+    {
+      "san": "Rc7",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The natural-looking blockade",
+          "body": "This is most players' instinct: put the rook directly in the pawn's path. It stops the pawn cold for the moment — but notice it also ties the rook to one square on one file, with the enemy king free to come and attack it directly. A rook behind the pawn never has to worry about that."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Rh5+",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "strategy",
+                "title": "Staying active instead of blockading",
+                "body": "Rather than tying itself to the c-file, the rook stays mobile and starts giving checks — the reverse of the front blockade. This won't save the game by itself (a lone rook still can't hold forever against a supported passed pawn), but it puts up real resistance: it costs White a tempo right away, something the front-blockading rook was never able to do even once."
+              }
+            ]
+          },
+          {
+            "san": "Kd6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The contrast",
+                "body": "Compare the two rooks here with the main line at the same moment: there, White's king was already attacking a helpless, cornered rook. Here it has had to spend a move reacting to a check instead. A rook kept behind — active, out of the king's reach — is simply a harder problem than one boxed in ahead of the pawn, even when neither one can fully stop the pawn alone."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Kd6",
+      "importance": "critical",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Attacking the blockader",
+          "body": "This is the difference in action: White's king simply walks up and attacks the rook, something it could never do to a rook sitting safely behind the pawn on c1. The rook has exactly one square left that keeps blockading — everywhere else abandons the c-file, and the pawn runs.",
+          "concepts": [
+            "blockading from the front"
+          ]
+        }
+      ]
+    },
+    {
+      "san": "Rc8",
+      "importance": "critical",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Out of squares",
+          "body": "Forced — c8 is the only square left on the file, and it's also the pawn's own queening square. A rook that started behind the pawn would never be herded into a corner like this; it always had the whole rest of the board behind it to retreat into. This one has nowhere further to go."
+        }
+      ]
+    },
+    {
+      "san": "Kd7",
+      "importance": "critical",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The front rook has run out of squares",
+          "body": "The king attacks the rook again, and this time there is no retreat left on the file at all — c8 was the last one. Any rook move now abandons the blockade outright, and the pawn queens or wins material by force soon after. This is the practical cost of a rook in front of a passed pawn: it isn't just passive, it can be hunted down and out of squares entirely, something that essentially never happens to a rook that stayed behind."
+        }
+      ]
+    }
+  ]
+}

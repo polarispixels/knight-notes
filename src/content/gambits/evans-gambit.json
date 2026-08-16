@@ -1,0 +1,194 @@
+{
+  "id": "evans-gambit",
+  "catalogCode": "GB003",
+  "focus": "white",
+  "title": "The Evans Gambit",
+  "subtitle": "A wing pawn for two tempi and a big center",
+  "type": "gambit",
+  "difficulty": "intermediate",
+  "summary": "White offers the b-pawn to knock Black's bishop off c5 twice, then claims the full center with c3 and d4 -- trading a pawn for tempo, space, and open lines toward f7. Accepted lines are the critical test; declining is considered slightly worse for Black.",
+  "tags": ["Evans Gambit", "Italian Game", "e4 openings", "gambit"],
+  "concepts": [
+    "gambit play",
+    "development",
+    "tempo",
+    "open lines",
+    "central control",
+    "king safety"
+  ],
+  "metadata": {
+    "eco": "C51-C52",
+    "opening": "Evans Gambit",
+    "historicalContext": "Named for the Welsh sea captain William Davies Evans, who introduced it in 1827. Its most famous outing is Anderssen's 'Evergreen Game' against Dufresne (Berlin, 1852), which reached this exact 6.d4 tabiya before Anderssen unleashed one of the deepest combinations in chess history."
+  },
+  "rootAnnotations": [
+    {
+      "type": "strategy",
+      "title": "A pawn spent on tempo, not just space",
+      "body": "4.b4 is a genuine investment: White gives up a pawn to deflect the c5-bishop twice, then builds a full pawn center with c3 and d4 while Black is still deciding where that bishop belongs. The critical test is acceptance -- Black can also decline and stay solid, at the cost (say most theorists) of a slightly worse version of the Italian Game."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    "Bc4",
+    "Bc5",
+    {
+      "san": "b4",
+      "classification": "interesting",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The cost: a wing pawn for two tempi",
+          "body": "White offers the b-pawn. It does nothing for the center by itself -- its whole value is that capturing it drags the bishop off its active diagonal, and the follow-up c3 will kick it again. This is a gambit paid entirely in tempo."
+        }
+      ]
+    },
+    {
+      "san": "Bxb4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Accepting is the sternest test of the gambit. What is White actually buying with this pawn -- and will it still be worth the price several moves from now?"
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bb6",
+            "classification": "theory",
+            "annotations": [
+              {
+                "type": "strategy",
+                "title": "Evans Gambit Declined",
+                "body": "Black keeps the extra tension off the board entirely, sidestepping the sharp theory of the Accepted lines. It is perfectly playable, but most theorists rate it slightly worse than accepting and returning the pawn later -- the bishop is passive on b6 and White still gets a free tempo with a4-a5."
+              }
+            ]
+          },
+          {
+            "san": "a4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Gaining space and preparing a4-a5, which would hit the bishop again and force yet another decision."
+              }
+            ]
+          },
+          "a6",
+          "Nc3"
+        ]
+      ]
+    },
+    "c3",
+    {
+      "san": "Ba5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop retreats to safety while staying on the a5-e1 diagonal, keeping half an eye on a future ...Bxc3 disruption. Black is now up a pawn and has spent no time developing -- White has spent no material building a center and forced every one of Black's last three moves."
+        }
+      ]
+    },
+    {
+      "san": "d4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What did White buy for the pawn?",
+          "body": "Here is the answer: two full tempi (b4 and c3 each forced a bishop move), and now a genuine pawn duo in the center that neither of Black's minor pieces can easily contest. The bishop on c4 already aims at f7; after this move the whole board opens toward Black's uncastled king. That is the compensation -- development, initiative, and open diagonals, purchased with one pawn."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c4", "to": "f7" }]
+    },
+    {
+      "san": "exd4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black grabs a second pawn rather than defend the center with ...d6 immediately. Material is now two pawns for White's development lead -- the position is about to ask exactly how much that lead is worth."
+        }
+      ]
+    },
+    {
+      "san": "O-O",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Castled before Black has moved a single piece",
+          "body": "This is the whole point of paying early: White's king is already safe while Black's is still on e8 with only the a5-bishop developed. The compensation is not abstract -- it is a concrete lead in useful moves that Black must now spend several turns undoing."
+        }
+      ]
+    },
+    {
+      "san": "d6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Declining the third pawn",
+          "body": "Black's critical decision. Grabbing a third pawn with 7...dxc3 is met by 8.Qb3, hitting f7 and b7 at once with a very dangerous initiative -- theory does not rate it highly. Solid instead: d6 blunts White's e4-e5 ideas, opens the c8-bishop, and prepares to finish development without further greed. This is how Black neutralizes a gambit -- not by giving material back outright, but by refusing to take any more of it."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "dxc3",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The Compromised Defense",
+                "body": "Grabbing every pawn on offer. It is playable but considered the riskiest way to meet the Evans -- White's initiative only grows, since every extra pawn Black banks is another move not spent developing."
+              }
+            ]
+          },
+          {
+            "san": "Qb3",
+            "annotations": [
+              {
+                "type": "tactic",
+                "body": "Double attack on f7 and b7 at once. Black must react immediately instead of finishing development -- exactly the kind of position White's gambit was designed to reach."
+              }
+            ]
+          },
+          "Qf6"
+        ]
+      ]
+    },
+    {
+      "san": "cxd4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Settling the account",
+          "body": "White recaptures, and material returns to its natural resting point for this opening: White is down exactly the original gambit pawn, no more. Everything grabbed beyond that has been given back through recaptures. In exchange White has a full center, a fully developed position, and a king that has been safe for two moves already -- the compensation banked at move 6 is still on the books."
+        }
+      ]
+    },
+    "Bb6",
+    "Nc3",
+    "Nf6",
+    {
+      "san": "e5",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons travel beyond this opening. First, a gambit pawn can be spent purely on tempo -- b4 and c3 bought nothing but forced replies. Second, the true price of a gambit is what the opponent is not doing while defending or grabbing pawns: Black is only now completing development on move 10, while White castled on move 7. Third, compensation is not permanent -- if Black had been allowed to consolidate calmly (say, with an early ...d6 and ...Nf6 before White built the center), the extra pawn would simply be an extra pawn. This is why the position White reaches here, not the material count, is the real object of the gambit."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e5" }]
+    }
+  ]
+}

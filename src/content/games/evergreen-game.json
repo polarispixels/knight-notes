@@ -1,0 +1,292 @@
+{
+  "id": "evergreen-game",
+  "catalogCode": "G009",
+  "title": "The Evergreen Game",
+  "subtitle": "Anderssen vs Dufresne, Berlin 1852",
+  "type": "game",
+  "difficulty": "intermediate",
+  "summary": "Adolf Anderssen sacrifices a rook and both bishops in an all-out attack, but the real hero of the game is one quiet move in the middle of the fireworks: 19.Rad1, a developing move that sets up a double check nobody sees coming. Even the wildest attacks need one moment of patience.",
+  "tags": [
+    "Evans Gambit",
+    "Adolf Anderssen",
+    "classic game",
+    "mating attack",
+    "double check"
+  ],
+  "concepts": [
+    "preparatory moves",
+    "mating nets",
+    "discovered check",
+    "sacrifice",
+    "king safety"
+  ],
+  "metadata": {
+    "white": "Adolf Anderssen",
+    "black": "Jean Dufresne",
+    "event": "Casual game",
+    "site": "Berlin, Prussia",
+    "date": "1852",
+    "result": "1-0",
+    "eco": "C52",
+    "opening": "Evans Gambit",
+    "historicalContext": "First published in the Deutsche Schachzeitung later in 1852, this off-hand game between Anderssen and his fellow German master Jean Dufresne earned its nickname decades later, when Wilhelm Steinitz called it 'an evergreen in the laurel crown of the departed chess hero.' The name stuck. It is usually paired with Anderssen's other legendary attacking display, the Immortal Game against Kieseritzky, played the year before — same player, same relentless willingness to give up material for the initiative, but a very different kind of finish."
+  },
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "Anderssen's other masterpiece",
+      "body": "This library also holds Anderssen's Immortal Game, and the two are natural companions. The Immortal Game is chaos from the very first sacrifice — a king hunted across an open board. The Evergreen Game looks similar on the surface, but its real lesson is different: buried in the middle of the attack is a single quiet move, 19.Rad1, that does nothing visible and everything necessary. Read them together and the contrast is the lesson: even the most furious attacks are built on preparation, not just nerve."
+    }
+  ],
+  "line": [
+    { "san": "e4" },
+    { "san": "e5" },
+    { "san": "Nf3" },
+    { "san": "Nc6" },
+    { "san": "Bc4" },
+    { "san": "Bc5" },
+    {
+      "san": "b4",
+      "classification": "sacrifice",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The Evans Gambit",
+          "body": "White offers a wing pawn to lure the bishop off its diagonal and win a free tempo for the central pawns. The whole philosophy of this gambit, and of this game, is that pawns are worth spending if they buy time and open lines toward the enemy king.",
+          "concepts": ["sacrifice"]
+        }
+      ]
+    },
+    { "san": "Bxb4" },
+    { "san": "c3" },
+    { "san": "Ba5" },
+    { "san": "d4" },
+    { "san": "exd4" },
+    {
+      "san": "O-O",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "principle",
+          "title": "A second pawn offered without a second thought",
+          "body": "White still hasn't recaptured on d4 and now spends a move castling instead. Down two pawns for a king already tucked away and a wide-open center to work with — this is Anderssen's whole approach: development and king safety first, pawns whenever convenient."
+        }
+      ]
+    },
+    { "san": "d3" },
+    {
+      "san": "Qb3",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "One move, two targets",
+          "body": "Qb3 attacks both b7 and f7 at once, the same double attack Morphy used in the Opera Game. Black cannot cover both, so the reply is forced to be at least partly defensive.",
+          "concepts": ["double attack"]
+        }
+      ]
+    },
+    { "san": "Qf6" },
+    {
+      "san": "e5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "tactic",
+          "body": "This pawn push gains a tempo by attacking the queen, and it starts opening the position further. Black has to spend yet another move responding to White's initiative instead of developing."
+        }
+      ]
+    },
+    { "san": "Qg6" },
+    { "san": "Re1" },
+    { "san": "Nge7" },
+    {
+      "san": "Ba3",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "A quiet move with a long reach",
+          "body": "Ba3 sits on the a3–f8 diagonal, controlling the exact square Black's king needs to castle. It looks like a modest developing move, but it permanently denies Black a safe home for the king — and this bishop will have the final word in the game, a dozen moves from now.",
+          "concepts": ["restriction", "king safety"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "a3", "to": "f8" }]
+    },
+    { "san": "b5" },
+    { "san": "Qxb5" },
+    { "san": "Rb8" },
+    { "san": "Qa4" },
+    { "san": "Bb6" },
+    { "san": "Nbd2" },
+    { "san": "Bb7" },
+    {
+      "san": "Ne4",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Heading for the kingside",
+          "body": "The knight redirects toward f6, aiming to tear open the pawns in front of Black's uncastled king. Every White piece is now converging on the same target.",
+          "concepts": ["king safety"]
+        }
+      ]
+    },
+    { "san": "Qf5" },
+    {
+      "san": "Bxd3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White regains one of the pawns given up earlier, and this bishop now sits on a diagonal that will matter enormously in a few moves — but not yet."
+        }
+      ]
+    },
+    { "san": "Qh5" },
+    {
+      "san": "Nf6+",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Wrecking the king's cover",
+          "body": "The knight sacrifices itself to tear open the pawns shielding Black's king, whichever way Black recaptures. Material stops mattering the moment the king's shelter is gone.",
+          "concepts": ["sacrifice", "king safety"]
+        }
+      ]
+    },
+    {
+      "san": "gxf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black's king now has almost no pawn cover left at all — the price of grabbing every piece White has offered along the way."
+        }
+      ]
+    },
+    {
+      "san": "exf6",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A pawn worth more than it looks",
+          "body": "This little pawn on f6 will end up controlling e7 and g7 — two of the exact squares the mating net closes around at the end of the game. Remember it.",
+          "concepts": ["mating nets"]
+        }
+      ]
+    },
+    { "san": "Rg8" },
+    {
+      "san": "Rad1",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White has already given up a knight and torn open Black's king with nothing forced yet to show for it. Before playing on, what does White actually need in order to finish this attack?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The quiet move that wins the game",
+          "body": "Rad1 doesn't check, capture, or threaten anything directly — it simply develops White's last piece to the only open file. But look at what's already sitting on that file: the bishop on d3, blocking the rook's own view of Black's king. The instant that bishop moves with check, this rook's check will come with it. Even in the middle of an all-out attack, Anderssen takes one move to finish his preparation before delivering the blow.",
+          "concepts": ["preparatory moves", "discovered check"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d1", "to": "d3" }]
+    },
+    {
+      "san": "Qxf3",
+      "classification": "blunder",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "mistake",
+          "title": "Grabbing a piece, missing the point",
+          "body": "Black wins another piece, but the knight on e7 was the last thing standing between White's rook and the king on the e-file. With that knight gone, White collects it with check next move — and the trap Rad1 quietly set is about to spring.",
+          "concepts": ["king safety"]
+        }
+      ]
+    },
+    {
+      "san": "Rxe7+",
+      "classification": "sacrifice",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Removing the last defender",
+          "body": "This capture strips away Black's last piece near the king. What follows is completely forced.",
+          "concepts": ["combination"]
+        }
+      ]
+    },
+    { "san": "Nxe7" },
+    {
+      "san": "Qxd7+",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Offering the queen because it must be taken",
+          "body": "The king cannot decline this capture — nothing else can legally answer the check — so White gives up the queen to force the king onto exactly the square the next move needs it on.",
+          "concepts": ["sacrifice"]
+        }
+      ]
+    },
+    {
+      "san": "Kxd7",
+      "classification": "forced"
+    },
+    {
+      "san": "Bf5+",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The double check Rad1 was waiting for",
+          "body": "This is the payoff, ten moves in the making. The bishop checks directly along the f5–d7 diagonal, and by leaving d3 it also opens the d-file for the rook that has been sitting on d1 since move 19 — a discovered check from the rook at the same instant. In a double check, the king can't block either piece or capture either piece; it can only move. This is exactly why the quiet move mattered: without Rad1 already in place, this would be a single check instead of an inescapable one.",
+          "concepts": ["discovered check", "preparatory moves"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "f5", "to": "d7" },
+        { "type": "arrow", "from": "d1", "to": "d7" }
+      ]
+    },
+    { "san": "Ke8" },
+    {
+      "san": "Bd7+",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Closing off the last retreat",
+          "body": "The bishop checks again from d7, taking away e8 and leaving the king only one legal square.",
+          "concepts": ["mating nets"]
+        }
+      ]
+    },
+    { "san": "Kf8" },
+    {
+      "san": "Bxe7#",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The mating net, square by square",
+          "body": "This capture is made by White's other bishop — the one posted on a3 back on move 11, exactly for this diagonal. Check the king's every option: e7 is occupied by the checking bishop itself, and it can't be captured because the pawn on f6 defends it; e8 is covered by the bishop still sitting on d7; g8 is blocked by Black's own rook; g7 is covered by that same f6 pawn. Every square Ba3 was placed to influence twelve moves ago is doing its job at the exact moment it matters.",
+          "concepts": ["mating nets", "discovered check"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "e8" },
+        { "type": "square", "square": "g7" },
+        { "type": "square", "square": "g8" },
+        { "type": "arrow", "from": "a3", "to": "e7" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "id": "windmill",
+  "catalogCode": "TA013",
+  "title": "The Windmill",
+  "subtitle": "A rook that harvests material one check at a time",
+  "type": "pattern",
+  "difficulty": "advanced",
+  "summary": "A rook shuttles onto and off a single square, alternating a direct check with a discovered check from a bishop behind it. Every single move in the sequence is check — the king can never do anything but shuffle back and forth while White collects everything in reach.",
+  "tags": [
+    "windmill",
+    "discovered check",
+    "seesaw",
+    "material harvest"
+  ],
+  "concepts": [
+    "windmill",
+    "discovered check",
+    "forced king moves",
+    "material harvest"
+  ],
+  "initialFen": "5rk1/3q1ppp/5B2/8/8/8/PPP5/1K4R1 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "A machine, not a single blow",
+      "body": "White's bishop sits on the a1-h8 diagonal, aimed at h8 — but its own rook, once it lands on g7, blocks that diagonal. That's the engine of a windmill: step the rook onto g7 and it gives direct check down the g-file; step it back off g7 and it uncovers the bishop's check to h8 instead. Two different pieces, one square, an endless alternation of checks — as long as there's material left to grab along the way.",
+      "concepts": [
+        "windmill",
+        "discovered check"
+      ]
+    },
+    {
+      "type": "principle",
+      "title": "Why the king can never fight back",
+      "body": "A windmill works because every move in it is check. Black is never given a turn that isn't spent answering check — never a move to defend a hanging piece, capture the rook, or counterattack. The rook's checking square (g7) is defended by the bishop, so the king can't take it there; everywhere else the rook lands, it's too far from the king to be captured at all. There is no gap in the machine to escape through.",
+      "concepts": [
+        "forced king moves"
+      ]
+    }
+  ],
+  "rootVisual": [
+    {
+      "type": "arrow",
+      "from": "f6",
+      "to": "h8"
+    },
+    {
+      "type": "arrow",
+      "from": "g1",
+      "to": "g7"
+    }
+  ],
+  "line": [
+    {
+      "san": "Rxg7+",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Starting the machine",
+          "body": "The rook captures the g7 pawn and checks the king directly down the g-file. The king can't take back — the bishop on f6 defends g7, so Kxg7 would walk straight into check. Every other square is blocked by Black's own rook on f8 or pawns on f7 and h7. Only one square is left."
+        }
+      ],
+      "visual": [
+        {
+          "type": "square",
+          "square": "g7"
+        },
+        {
+          "type": "arrow",
+          "from": "f6",
+          "to": "g7"
+        }
+      ]
+    },
+    {
+      "san": "Kh8",
+      "classification": "forced",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The only legal square",
+          "body": "f8 is occupied by Black's own rook, f7 and h7 by Black's own pawns, and g7 is defended. h8 is the sole escape — for now, the bishop's diagonal to h8 is still blocked by White's own rook sitting on g7."
+        }
+      ]
+    },
+    {
+      "san": "Rxf7+",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The rook steps off — and the bishop fires",
+          "body": "The rook leaves g7 to grab another pawn on f7. The moment it vacates g7, the bishop's diagonal to h8 opens up — a discovered check, delivered by a completely different piece than the one that just moved. The king, back on h8, is in check again with no move of its own."
+        }
+      ],
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "f6",
+          "to": "h8"
+        },
+        {
+          "type": "square",
+          "square": "f7"
+        }
+      ]
+    },
+    {
+      "san": "Kg8",
+      "classification": "forced",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Back again",
+          "body": "g7 is still covered by the bishop and h7 is still a pawn, so g8 — the only open, unattacked square — is forced. The rook on f7 doesn't reach g8 at all; only the bishop's discovered check mattered here."
+        }
+      ]
+    },
+    {
+      "san": "Rg7+",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The rook returns — direct check again",
+          "body": "No capture this time, just a return trip to g7, and the direct check along the g-file switches back on. The bishop's diagonal is blocked again the instant the rook lands, but that doesn't matter — the rook itself is doing the checking now. This is the alternation that gives the windmill its name: on the square, off the square, on again, each one a different kind of check."
+        }
+      ]
+    },
+    {
+      "san": "Kh8",
+      "classification": "forced",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The same forced reply",
+          "body": "f7 is empty now, but the rook on g7 attacks it along the rank — Kf7 would move into check from the very piece giving this check. g7 stays defended by the bishop, h7 is still a pawn, f8 is still occupied. h8 remains the only square."
+        }
+      ]
+    },
+    {
+      "san": "Rxd7+",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The queen falls too",
+          "body": "The rook swings all the way across the seventh rank — f7 and e7 are both empty now, so nothing blocks the trip — and captures the queen with another discovered check from the bishop. Black's queen never got a chance to do anything about it: every single Black move since move one has been a forced king shuffle. That is what 'no gap in the machine' means in practice."
+        },
+        {
+          "type": "strategy",
+          "title": "The honest tally",
+          "body": "Count what changed hands: two pawns (g7, f7) and a full queen, all captured by a rook that was never once in danger — the bishop defended it whenever it stood on g7, and it was simply too far from the king every other time. White's bishop never moved from f6 and was never attacked. That's the windmill's real power: it isn't one big sacrifice, it's a small, repeatable profit that Black is structurally unable to stop.",
+          "concepts": [
+            "material harvest",
+            "windmill"
+          ]
+        }
+      ],
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "f6",
+          "to": "h8"
+        },
+        {
+          "type": "square",
+          "square": "d7"
+        }
+      ]
+    },
+    {
+      "san": "Kg8",
+      "classification": "forced",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The machine can finally stop",
+          "body": "With nothing left in easy reach and the king boxed in as always, White can simply retreat the rook to safety next move rather than continue. The mechanism is identical to the famous windmill in Torre-Lasker, Moscow 1925, and to the knight-and-bishop version Fischer used against Byrne in the Game of the Century — different pieces, the same relentless idea: alternate the checking piece, and the king is never once given a free move."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "id": "kasparov-topalov-1999",
+  "catalogCode": "G008",
+  "title": "Kasparov vs Topalov",
+  "subtitle": "Wijk aan Zee 1999 — \"Kasparov's Immortal\"",
+  "type": "game",
+  "difficulty": "advanced",
+  "summary": "Kasparov sacrifices a whole rook to drag Black's king across the board, and every single move that follows either checks, captures with a threat, or leaves Black with no other reasonable reply — the textbook case that a king hunt justifies enormous material only while it keeps forcing.",
+  "tags": ["Pirc Defense", "Kasparov's Immortal", "rook sacrifice", "king hunt", "classic game", "Garry Kasparov"],
+  "concepts": [
+    "king safety",
+    "sacrifice",
+    "forcing moves",
+    "material imbalance",
+    "calculation",
+    "king hunt"
+  ],
+  "metadata": {
+    "white": "Garry Kasparov",
+    "black": "Veselin Topalov",
+    "event": "Hoogovens Tournament, Group A",
+    "site": "Wijk aan Zee, Netherlands",
+    "date": "1999.01.20",
+    "result": "1-0",
+    "eco": "B07",
+    "opening": "Pirc Defense",
+    "historicalContext": "Played in round four of the 1999 Wijk aan Zee tournament, this game is known simply as 'Kasparov's Immortal.' Kasparov himself later called it one of the finest games of his career, and it is still cited as one of the deepest forced attacks ever calculated over the board — twenty moves ahead, through material sacrifice, with the opponent's best defense at every step."
+  },
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "A rook sacrifice that never lets go",
+      "body": "Kasparov gives up a whole rook for a single pawn on move 24 and does not regain full material equality for another fourteen moves. What makes the game a model rather than a gamble is discipline: from the sacrifice to the finish, almost every White move either checks the king or leaves Black with no other reasonable reply."
+    },
+    {
+      "type": "commentary",
+      "title": "Forcing, not just checking",
+      "body": "Watch closely around moves 28 and 31 — neither is check, yet both are just as forcing as the checks around them. A king hunt only justifies its cost while the attacker can keep proving, move after move, that the defender has no time to consolidate. The instant that stops being true, the sacrifice was unsound."
+    }
+  ],
+  "line": [
+    "e4",
+    "d6",
+    "d4",
+    "Nf6",
+    "Nc3",
+    "g6",
+    "Be3",
+    "Bg7",
+    "Qd2",
+    "c6",
+    "f3",
+    "b5",
+    "Nge2",
+    "Nbd7",
+    "Bh6",
+    "Bxh6",
+    "Qxh6",
+    "Bb7",
+    "a3",
+    "e5",
+    "O-O-O",
+    "Qe7",
+    "Kb1",
+    "a6",
+    "Nc1",
+    {
+      "san": "O-O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Both kings choose the same corner",
+          "body": "White already castled queenside on move 11, and now Black follows. This will not be the usual race between opposite-wing pawn storms — both kings are about to be fighting over the same side of the board."
+        }
+      ]
+    },
+    "Nb3",
+    "exd4",
+    "Rxd4",
+    "c5",
+    "Rd1",
+    "Nb6",
+    "g3",
+    "Kb8",
+    "Na5",
+    "Ba8",
+    "Bh3",
+    "d5",
+    {
+      "san": "Qf4+",
+      "importance": "notable",
+      "visual": [{ "type": "square", "square": "a7" }],
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The king's forced march begins",
+          "body": "Black's own last move opened this check: with the pawn gone from d6, the f4-b8 diagonal runs all the way to the king. Ka7 is forced, and the black king will not stop moving for the next twenty moves."
+        }
+      ]
+    },
+    "Ka7",
+    "Rhe1",
+    "d4",
+    "Nd5",
+    "Nbxd5",
+    "exd5",
+    {
+      "san": "Qd6",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Material is level, and Black's king looks tucked away behind pawns and pieces on the queenside. White has already sacrificed nothing yet. What could possibly break through here?"
+        }
+      ]
+    },
+    {
+      "san": "Rxd4",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The rook sacrifice",
+          "body": "White gives up a whole rook for a single pawn. It looks reckless measured in points, but the point was never material — it's tearing open the d-file and the long diagonal in front of a king that has nowhere to hide.",
+          "concepts": ["sacrifice", "king safety"]
+        }
+      ]
+    },
+    {
+      "san": "cxd4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Accepting the sacrifice",
+          "body": "Topalov takes the rook. Analysis suggests declining with 24...Kb6!? instead might have led to a difficult but more survivable position for Black — the immortal, forcing game that followed only exists because the sacrifice was accepted."
+        }
+      ]
+    },
+    {
+      "san": "Re7+",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The point of the sacrifice",
+          "body": "The other rook swings to the seventh rank with check, and the whole rank from e7 to a7 is empty — every piece that used to guard it has already moved away. Capturing with 25...Qxe7 is met by a forced win for White as well; the sacrifice bought this rook a route that never existed before.",
+          "concepts": ["king safety"]
+        }
+      ]
+    },
+    {
+      "san": "Kb6",
+      "visual": [{ "type": "arrow", "from": "a7", "to": "b6" }]
+    },
+    "Qxd4+",
+    {
+      "san": "Kxa5",
+      "visual": [{ "type": "arrow", "from": "b6", "to": "a5" }]
+    },
+    "b4+",
+    {
+      "san": "Ka4",
+      "visual": [{ "type": "arrow", "from": "a5", "to": "a4" }]
+    },
+    {
+      "san": "Qc3",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Forcing without a check",
+          "body": "Not a check — but the black king, boxed in by White's own a3 and b4 pawns, has no safe square left if White gets a free move. This is what makes the whole sacrifice sound: the attack never actually needed to check on every move, only to keep forcing a reply. If a quiet move like this hadn't worked, the combination would have run out of steam already.",
+          "concepts": ["forcing moves"]
+        }
+      ]
+    },
+    "Qxd5",
+    "Ra7",
+    "Bb7",
+    "Rxb7",
+    "Qc4",
+    {
+      "san": "Qxf6",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Another quiet move that forces",
+          "body": "Again not a check. Black's knight on f6 has been hanging, undefended, since the queen left e7 back on move 23 — White finally collects it, and the same move aims straight at the rook still sitting undeveloped on h8. Two threats, no check, and still Black has no time to do anything but keep running.",
+          "concepts": ["forcing moves"]
+        }
+      ]
+    },
+    {
+      "san": "Kxa3",
+      "visual": [{ "type": "arrow", "from": "a4", "to": "a3" }]
+    },
+    "Qxa6+",
+    {
+      "san": "Kxb4",
+      "visual": [{ "type": "arrow", "from": "a3", "to": "b4" }]
+    },
+    "c3+",
+    {
+      "san": "Kxc3",
+      "visual": [{ "type": "arrow", "from": "b4", "to": "c3" }],
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The king has now eaten four pawns on its way across the board and stands deep in White's position, but every one of those captures was forced — there was nothing better on offer at any step."
+        }
+      ]
+    },
+    "Qa1+",
+    {
+      "san": "Kd2",
+      "visual": [{ "type": "arrow", "from": "c3", "to": "d2" }]
+    },
+    "Qb2+",
+    {
+      "san": "Kd1",
+      "visual": [{ "type": "arrow", "from": "d2", "to": "d1" }]
+    },
+    {
+      "san": "Bf1",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The quiet move that finishes the job",
+          "body": "The bishop, which has sat on h3 since move 19, returns home — not with a check, but to close the mating net. Grabbing it with 36...Qxf1 loses at once: 37.Qc2+ Ke1 38.Re7+ Qe2 39.Qxe2#. That hidden point is exactly why the bishop can afford to move there unprotected.",
+          "concepts": ["forcing moves", "calculation"]
+        }
+      ]
+    },
+    "Rd2",
+    "Rd7",
+    "Rxd7",
+    {
+      "san": "Bxc4",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Collecting the queen at last",
+          "body": "Fourteen moves after giving up a rook for a pawn, White finally wins the queen outright — the bishop, sitting quietly on c4 since move 30, was never actually safe.",
+          "concepts": ["material imbalance"]
+        }
+      ]
+    },
+    "bxc4",
+    "Qxh8",
+    "Rd3",
+    "Qa8",
+    "c3",
+    "Qa4+",
+    {
+      "san": "Ke1",
+      "visual": [{ "type": "arrow", "from": "d1", "to": "e1" }]
+    },
+    "f4",
+    "f5",
+    "Kc1",
+    "Rd2",
+    {
+      "san": "Qa7",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Resignation — and the lesson",
+          "body": "Topalov resigned here, out of resources against threats to his last rook and king. Count what carried this attack from move 24 to the end: not one reckless swing, but an unbroken chain where every White move — check or not — left Black with only one reasonable answer. That is the discipline a sacrifice this size requires: the instant the chain would have broken, the whole combination would have been just a blunder.",
+          "concepts": ["forcing moves", "calculation"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "open-files",
+  "catalogCode": "C003",
+  "title": "Open Files",
+  "subtitle": "A rook's diagonal is a file — but only if the file leads somewhere",
+  "type": "concept",
+  "difficulty": "beginner",
+  "summary": "Rooks need open lines the way bishops need diagonals: a file with no pawns on it for either side lets a rook see and attack everything along it. This lesson shows seizing the only open file on the board, doubling rooks on it, and driving all the way to the seventh rank — the technique behind Capablanca's most famous rook ending.",
+  "tags": ["open files", "rook activity", "seventh rank", "doubling rooks", "half-open files"],
+  "concepts": ["open files", "half-open files", "doubling rooks", "seventh rank", "contesting a file", "entry squares"],
+  "initialFen": "5rk1/pb1n1ppp/1p1pp3/8/3P4/3B4/PP3PPP/R4RK1 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "Open vs half-open",
+      "body": "A file is open when neither side has a pawn on it — both rooks can, in principle, see from one end of the board to the other. A file is only half-open when one side's pawn is gone but the other's remains: useful, since you can pressure that pawn, but not the same weapon, because the enemy pawn still blocks the file eventually. On this board, the c-file is fully open; the e-file is half-open for White only, since Black still has a pawn on e6.",
+      "concepts": ["open files", "half-open files"]
+    },
+    {
+      "type": "principle",
+      "title": "A file is only as good as its entry squares",
+      "body": "Owning an open file accomplishes nothing by itself — a rook that reaches the far end of a file with no square to invade is just parked there. What makes a file worth fighting for is an undefended square deep in enemy territory, usually the seventh or eighth rank, that the rook can actually occupy. Always look for that entry square before committing to the fight.",
+      "concepts": ["entry squares", "seventh rank"]
+    }
+  ],
+  "line": [
+    {
+      "san": "Rac1",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Seize it first",
+          "body": "With no pawns of either color on the c-file, it belongs to whoever gets a rook there first. White claims it immediately — a rook on an open file is already doing its job just by standing on it, restricting where Black's pieces can safely go.",
+          "concepts": ["open files"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "c1" },
+        { "type": "arrow", "from": "c1", "to": "c8" }
+      ]
+    },
+    {
+      "san": "Rc8",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black opposes the rook head-on. Is this good enough to keep White out?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Contesting the file",
+          "body": "Opposing rooks on the same open file is the standard answer — it offers a trade, and trading is the one sure way to stop a file from being used against you. But contesting only works as well as your reserves, and Black has only this one rook to spend on the fight.",
+          "concepts": ["contesting a file"]
+        }
+      ]
+    },
+    {
+      "san": "Rxc8+",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White accepts the trade without hesitation. With no second rook to recapture and reclaim the file, this exchange settles the fight rather than continuing it."
+        }
+      ]
+    },
+    {
+      "san": "Bxc8",
+      "classification": "forced",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The only recapture",
+          "body": "The bishop is the only piece that can retake on c8. Black is left with no rook at all to contest the file a second time."
+        }
+      ]
+    },
+    {
+      "san": "Rc1",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The second rook takes over",
+          "body": "White's remaining rook returns to c1. This is what doubling is really for — not decoration, but insurance: after the first exchange, White still has a rook for the file and Black does not. The open file, briefly shared, now belongs to White alone.",
+          "concepts": ["doubling rooks", "open files"]
+        }
+      ]
+    },
+    "h6",
+    {
+      "san": "Rc7",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Penetrating to the seventh",
+          "body": "The entry square was there all along — nothing defends c7. Compare Capablanca vs Tartakower: 'a rook on the seventh rank attacks pawns on their starting squares and cuts the enemy king off.' Here it does even better, forking the undefended knight on d7 and the undefended pawn on a7 in a single move — proof that the rank matters only because of what's undefended on it, not because 'seventh rank' is magic on its own.",
+          "concepts": ["seventh rank", "entry squares"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "c1", "to": "c7" },
+        { "type": "square", "square": "c7" },
+        { "type": "square", "square": "d7" },
+        { "type": "square", "square": "a7" }
+      ]
+    },
+    {
+      "san": "Nb8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black saves the piece — the pawn on a7 is the price of not losing both."
+        }
+      ]
+    },
+    {
+      "san": "Rxa7",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three recognition cues: count the pawns on a file before fighting for it — open beats half-open, and half-open beats closed; contest a file only if you can afford to keep contesting it, since losing your last rook there loses the file for good; and never stop at 'I control the file' — look for the actual undefended square it leads to, because that square, not the file itself, is where the material gets won.",
+          "concepts": ["open files", "seventh rank", "entry squares"]
+        }
+      ]
+    }
+  ]
+}

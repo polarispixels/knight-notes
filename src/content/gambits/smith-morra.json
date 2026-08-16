@@ -1,0 +1,159 @@
+{
+  "id": "smith-morra",
+  "catalogCode": "GB006",
+  "focus": "white",
+  "title": "The Smith-Morra Gambit",
+  "subtitle": "A pawn for the open c- and d-files",
+  "type": "gambit",
+  "difficulty": "intermediate",
+  "summary": "Against the Sicilian, White offers a pawn to rip open the c-file and develop every piece with tempo -- Nf3, Bc4, O-O, Qe2, Rd1, Rac1 in short order. The compensation is real and lasts well into the middlegame, but Black has a well-tested consolidation recipe, and objectively the two sides are close to equal.",
+  "tags": ["Smith-Morra Gambit", "Sicilian Defense", "gambit", "open files"],
+  "concepts": [
+    "gambit play",
+    "open files",
+    "rook activity",
+    "development",
+    "prophylaxis versus reaction",
+    "practical chances"
+  ],
+  "metadata": {
+    "eco": "B21",
+    "opening": "Sicilian Defense, Smith-Morra Gambit",
+    "historicalContext": "Named for Pierre Morra and popularized in the United States by Ken Smith, who played almost nothing else against the Sicilian for decades. It remains a favorite practical weapon at club level -- fast, thematic, and full of ways for the defender to go wrong."
+  },
+  "rootAnnotations": [
+    {
+      "type": "strategy",
+      "title": "The pawn buys two open files, not just development",
+      "body": "Most gambits trade a pawn for tempo in general. The Morra is more specific: the pawn buys the c-file and, soon after, the d-file, and White's whole plan is to put a rook on each. The compensation is concrete and durable -- it does not evaporate the moment Black finishes developing, the way a pure tempo-gambit's edge can. Whether it is objectively enough is a separate question this study answers honestly: roughly equal, with practical chances that favor the side who knows the plans."
+    }
+  ],
+  "line": [
+    "e4",
+    "c5",
+    {
+      "san": "d4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White meets the Sicilian's flank challenge with an immediate central strike rather than the slow Open Sicilian buildup."
+        }
+      ]
+    },
+    "cxd4",
+    {
+      "san": "c3",
+      "classification": "interesting",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The cost: a pawn for the c-file",
+          "body": "White offers a second pawn rather than play the quiet 3.Nf3, which would eventually just reach an Open Sicilian a pawn down on tempo. This move commits to the gambit: after the coming recapture, the c-file will be permanently open in front of White's queenside rook."
+        }
+      ]
+    },
+    {
+      "san": "dxc3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Accepting is the main test of the Smith-Morra -- declining with 3...d3 or 3...Nf6 is possible but rare. What does White get back for this pawn, concretely, over the next several moves?"
+        }
+      ]
+    },
+    {
+      "san": "Nxc3",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Compensation begins: a developed knight and an open file",
+          "body": "The recapture does two jobs at once -- it develops a piece with tempo, and it permanently opens the c-file, since neither side's c-pawn will ever return. Every gambit in this library buys something specific; the Morra buys files, and this move is where that purchase is made."
+        }
+      ]
+    },
+    "Nc6",
+    "Nf3",
+    "d6",
+    {
+      "san": "Bc4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The standard developing scheme continues: bishop toward f7, knight already out, castling next. Nothing here is unique to the Morra -- what is unique is how fast it all happens for the price of one pawn."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c4", "to": "f7" }]
+    },
+    "e6",
+    "O-O",
+    "Nf6",
+    {
+      "san": "Qe2",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Clearing d1 for the rook",
+          "body": "Qe2 looks modest, but it is a load-bearing move in the standard scheme -- it gets off the d-file so a rook can use it and keeps an eye on e4 and the long diagonal toward Black's queenside. Nf3, Bc4, O-O, Qe2, Rd1, Rac1: this exact sequence, in roughly this order, is the Morra's default development plan in almost every line."
+        },
+        {
+          "type": "warning",
+          "title": "A standing hazard: the Siberian Trap",
+          "body": "This same queen move, played on autopilot against a Black setup with an early ...Qc7 and a knight swung to g4, walks straight into the Siberian Trap (see that study) -- a mating attack built entirely on a battery aimed at h2 that White's routine development ignores. The Morra's speed cuts both ways: it punishes slow play, but its own standard moves can be punished too if played without checking what they allow."
+        }
+      ]
+    },
+    "Be7",
+    {
+      "san": "Rd1",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The first rook joins the file it was promised",
+          "body": "The rook lands on the file that opened all the way back on move three. It presses the only central pawn Black has left (d6) and supports future breaks like e4-e5. This is the payoff moment for a plan that started six moves ago."
+        }
+      ]
+    },
+    "O-O",
+    "Bg5",
+    {
+      "san": "a6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Black's consolidation recipe",
+          "body": "The standard defensive formula against the Morra is exactly this shape: ...d6 and ...e6 for a solid pawn skeleton, ...Be7 and ...O-O for safety, and a prophylactic move like ...a6 to deny White's pieces the b5-square before finishing development with ...b5 or a timely ...d5 break that can return the pawn for full equality. None of it is flashy -- that is the point. The Morra is dangerous against improvisation, not against a known plan."
+        }
+      ]
+    },
+    {
+      "san": "Rac1",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The compensation engine, fully built",
+          "body": "Both rooks are now exactly where the gambit pawn paid for: one on the open c-file, one on the open d-file, both pointed at Black's position with every minor piece already developed and the king already safe. This is what the Morra actually buys for a pawn -- not a single sharp attack, but a lasting structural advantage in piece activity that persists into the middlegame."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: the Morra's compensation is unusually concrete and durable -- open files don't evaporate the way a tempo-based initiative can, so this gambit ages better into the middlegame than most; Black's defense is a known recipe (d6, e6, Be7, O-O, a6, and a well-timed return of the pawn), not an improvisation, which is exactly why theory rates the whole opening close to equal rather than winning for White; and even a sound-looking automatic sequence like Nf3-Bc4-O-O-Qe2 carries risk if played without checking the opponent's setup, as the Siberian Trap shows on the very same moves."
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "c1" },
+        { "type": "square", "square": "d1" }
+      ]
+    }
+  ]
+}

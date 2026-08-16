@@ -1,0 +1,124 @@
+{
+  "id": "pawn-chains",
+  "catalogCode": "C005",
+  "title": "Pawn Chains",
+  "subtitle": "The structure hands out the plans before a single piece moves",
+  "type": "concept",
+  "difficulty": "intermediate",
+  "summary": "A locked pawn chain fixes more than pawns — it fixes the plans. The chain's owner expands on the wing the chain points toward; the opponent goes after the chain's base, the pawn with the fewest defenders. This lesson shows the same base-attacking logic the French Defense teaches, generalized to a King's-Indian-style locked center, plus the alternative of striking the head instead.",
+  "tags": ["pawn chains", "King's Indian structures", "attacking the base", "wing play", "locked center"],
+  "concepts": ["pawn chains", "attacking the base", "attacking the head", "wing play follows chain direction", "locked centers"],
+  "initialFen": "r4rk1/pppnqpbp/3p2p1/3Pp3/2P1P3/P3B3/1PQ2PPP/R4RK1 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "Base and head, on any diagonal",
+      "body": "A pawn chain is any run of pawns defending each other along one diagonal: each pawn, except the front one, defends the pawn ahead of it. The rear pawn — the base — is defended only by something other than a chain-pawn, or by nothing at all; the front pawn — the head — is the most advanced and usually the most secure, since everything behind it holds it up. The French Defense lesson teaches this with White's own d4–e5 chain and Black's ...c5 strike at the base. Here the chain belongs to Black instead — c7–d6–e5 — and it's White doing the attacking. Same geometry, opposite side.",
+      "concepts": ["pawn chains", "attacking the base"]
+    },
+    {
+      "type": "principle",
+      "title": "Wing play follows chain direction",
+      "body": "The side that owns a locked chain typically attacks on the wing the chain points toward — that's where the extra space and the chain's own support already are. The side attacking the chain usually has the run of the other wing instead, since the position offers it nothing useful in the center. Once a center locks, both sides' plans are already written into the pawn structure; the fight is just who executes faster.",
+      "concepts": ["wing play follows chain direction", "locked centers"]
+    }
+  ],
+  "line": [
+    {
+      "san": "b4",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Attacking the base, queenside-style",
+          "body": "Black's chain runs c7–d6–e5; c7 is the base, since nothing but the chain itself and the queen guard the squares in front of it. White can't reach c7 with a piece easily, so the attack takes the form of a pawn storm instead — b4, and next c5 — aiming to remove or undermine the pawns that hold the base together. The same 'attack the base' logic as the French Defense's ...c5, just delivered by advancing pawns rather than a single strike.",
+          "concepts": ["attacking the base", "pawn chains"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "b2", "to": "b4" },
+        { "type": "square", "square": "c7" }
+      ],
+      "variations": [
+        [
+          {
+            "san": "f4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Attacking the head instead",
+                "body": "White's other option is to go straight after the chain's head, e5, the way the French Defense's ...f6 lever goes after White's head there. It works, but it also rips the position open right where Black's pieces are already aimed — usually a bigger risk than the patient queenside plan the main line follows.",
+                "concepts": ["attacking the head"]
+              }
+            ]
+          },
+          {
+            "san": "exf4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black simply takes, and the position opens exactly where Black's forces already point — the reason most players prefer chipping at the base instead of striking the head."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "f5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Both sides are about to race on opposite wings. What decided which wing belongs to whom?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Wing play follows the chain — for the owner too",
+          "body": "Black's chain points from c7 up through d6 to e5 — straight at the kingside. That's not an accident: it's exactly why Black expands there with ...f5, gaining space and preparing ...f4 on the same side the chain already supports. Both players are now playing the wing their own structure recommends.",
+          "concepts": ["wing play follows chain direction"]
+        }
+      ]
+    },
+    {
+      "san": "c5",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Cracking the base",
+          "body": "This is the point of b4: c5 attacks d6, the middle link holding up the head on e5, and threatens to trade off the base pawn itself. If Black ignores it, cxd6 next either wins the base pawn outright or forces a recapture that reshapes Black's whole chain.",
+          "concepts": ["attacking the base"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "c4", "to": "c5" },
+        { "type": "square", "square": "d6" }
+      ]
+    },
+    {
+      "san": "dxc5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black trades rather than let the tension sit — d6 disappears, but so does White's c-pawn, and for a moment it looks like the base has simply changed address."
+        }
+      ]
+    },
+    {
+      "san": "bxc5",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: identify the chain's base before choosing a plan — it's the pawn with the fewest independent defenders, and it's always the real target; the chain's owner plays the wing the chain points toward, while the attacker goes after the base, usually on the opposite wing, since the structure hands out the plans before a single piece move is made; and attacking the head (the f4 lever, in the variation) is a genuine alternative to attacking the base, not a lesser option — it just trades a slow, safe plan for a faster, sharper one. White now owns an advanced c-pawn and an open b-file; the base is gone, and the position has reshaped around its absence.",
+          "concepts": ["pawn chains", "attacking the base", "attacking the head"]
+        }
+      ]
+    }
+  ]
+}

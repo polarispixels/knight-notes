@@ -1,0 +1,144 @@
+{
+  "id": "albin-countergambit",
+  "catalogCode": "GB007",
+  "focus": "black",
+  "title": "The Albin Countergambit",
+  "subtitle": "A cramping wedge instead of a piece lead",
+  "type": "gambit",
+  "difficulty": "intermediate",
+  "summary": "Black meets the Queen's Gambit with a gambit of its own, offering the e-pawn to plant a cramping pawn on d4. It is a different kind of investment from most gambits in this library -- not development or open lines, but a permanent thorn in White's position -- and it is enterprising rather than sound: correct play neutralizes it.",
+  "tags": ["Albin Countergambit", "Queen's Gambit", "d4 openings", "gambit", "countergambit"],
+  "concepts": [
+    "gambit play",
+    "cramping pawns",
+    "queenside attack",
+    "space",
+    "correct defensive technique"
+  ],
+  "metadata": {
+    "eco": "D08",
+    "opening": "Albin Countergambit",
+    "historicalContext": "A rare example of Black gambiting against a queen-pawn opening rather than simply defending. It has never been considered fully sound at the top level, but it remains a sharp practical weapon -- and it is the source of one of the most famous underpromotion traps in chess, the Lasker Trap."
+  },
+  "rootAnnotations": [
+    {
+      "type": "strategy",
+      "title": "The compensation here is not development -- it is space",
+      "body": "Most gambits in this library buy tempo, open lines, or a lead in piece activity. The Albin buys something different: a pawn wedge on d4 that cramps White's whole queenside for the rest of the game and supports a direct attack if Black castles long. That compensation is real, but it is also the kind that a precise, patient opponent can simply neutralize -- which is exactly why the Albin is considered enterprising, and objectively risky, rather than sound."
+    }
+  ],
+  "line": [
+    "d4",
+    "d5",
+    "c4",
+    {
+      "san": "e5",
+      "classification": "interesting",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The cost: a countergambit instead of a defense",
+          "body": "Rather than defend the center normally, Black offers the e-pawn. The point is not a fast attack in the usual gambit sense -- it is to force open the position for one move so that a pawn can land on d4, cramping White's whole queenside for the rest of the game."
+        }
+      ]
+    },
+    {
+      "san": "dxe5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White accepts -- declining with 3.e3 or similar is possible but gives up the fight for an edge almost entirely. Acceptance is the critical test of the Albin."
+        }
+      ]
+    },
+    {
+      "san": "d4",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The compensation: a wedge, not a lead in development",
+          "body": "This is the entire point of the gambit. The pawn on d4 blocks White's own c-pawn and queen's knight from their natural squares, controls c3 and e3, and will support pieces landing on those squares for the rest of the game. Black is down a pawn with no lead in development to show for it -- the payment here is purely positional and long-term."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d4" }]
+    },
+    {
+      "san": "Nf3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "warning",
+          "title": "Avoiding the tempting refutation that isn't one",
+          "body": "The natural-looking 4.e3, challenging the wedge at once, is a known losing try -- it opens the f8-a3 diagonal at exactly the wrong moment and runs into a forced sequence ending in an underpromoted knight and a lost queen (see the Lasker Trap study for the full combination). Correct is this move: develop first, and deal with d4 with pieces rather than pawns."
+        }
+      ]
+    },
+    "Nc6",
+    {
+      "san": "g3",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The correct treatment",
+          "body": "Theory's preferred plan against the Albin: fianchetto the bishop to g2, where it presses the long diagonal and the base of Black's wedge, and follow up with Nbd2 to blockade and eventually undermine d4. This is patient technique, not a tactical refutation -- it wins the argument slowly rather than trying to punish Black on the spot."
+        }
+      ]
+    },
+    {
+      "san": "Bg4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Black's typical plans",
+          "body": "Bg4 pins the f3-knight, the piece best placed to challenge d4 -- the more solid alternative is 5...Bf5, developing the bishop actively without entering the pin. Either way, Black's follow-up ideas are consistent: pressure the center, develop quickly, and often castle queenside to point every piece at White's king."
+        }
+      ]
+    },
+    "Bg2",
+    {
+      "san": "Qd7",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Preparing to castle long. Once the queen and king are off the d- and e-files, Black's whole army can lean toward the kingside attack this opening is really played for."
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "O-O-O",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The point of the wedge: opposite-side attacking chances",
+          "body": "With both kings castled on opposite wings, the d4-pawn stops being just a structural inconvenience for White and becomes a spearhead: Black's rooks, bishop, and knights all have a natural target down the d- and c-files and the kingside is a legitimate mating attack in some lines. This is the payoff the whole opening was played for."
+        },
+        {
+          "type": "warning",
+          "body": "It is also the moment the gambit's honesty catches up with it: White's fianchetto setup is specifically designed to neutralize exactly this plan, trading down the dangerous pieces and eventually winning the d4-pawn back with an extra pawn and a safer king. Compensation built on a single structural weakness fades once the opponent has organized correctly against it."
+        }
+      ]
+    },
+    {
+      "san": "Qb3",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a gambit's compensation does not have to be development or tempo -- here it is pure space, a wedge that cramps the opponent for the whole game, which is just as legitimate a currency as an extra developed piece; the correct defensive method is patient and structural (Nf3, g3, Bg2, Nbd2) rather than a sharp refutation, which is why the tempting 4.e3 loses outright while the calm main line simply neutralizes Black over time; and the Albin's honest verdict is 'enterprising, not sound' -- White's setup here already targets d4 and Black's attacking chances, and with accurate play White is better. It remains a dangerous practical try precisely because so few opponents know this plan."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d4" }]
+    }
+  ]
+}

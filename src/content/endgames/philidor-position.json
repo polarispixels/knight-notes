@@ -1,0 +1,180 @@
+{
+  "id": "philidor-position",
+  "catalogCode": "E008",
+  "title": "The Philidor Position",
+  "subtitle": "How the defender never lets Lucena happen",
+  "type": "endgame",
+  "difficulty": "intermediate",
+  "summary": "In rook-and-pawn endings the defender doesn't need to fight the pawn — only to know one setup. With the king on the pawn's queening square and the rook parked on the third rank, White holds an effortless draw against any non-rook pawn, switching to checks from behind the instant the pawn tries to cross.",
+  "tags": [
+    "rook endgame",
+    "Philidor position",
+    "third-rank defense",
+    "drawing technique"
+  ],
+  "concepts": [
+    "third-rank defense",
+    "checking distance",
+    "cutting off the king",
+    "drawing technique"
+  ],
+  "initialFen": "4k3/8/r7/3K4/4P3/8/8/7R w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "The recipe: king on the square, rook on the third rank",
+      "body": "Black's king already sits on e8, the pawn's queening square, and Black's rook sits on a6 — Black's own third rank, counting 8-7-6. As long as the rook stays anywhere on that rank, White's king can never cross it, so it can never come around to force the blockading king away. This is the entire technique; nothing more is required.",
+      "concepts": [
+        "third-rank defense",
+        "cutting off the king"
+      ]
+    },
+    {
+      "type": "principle",
+      "title": "Lucena is how you win it; Philidor is how you never let it happen",
+      "body": "In the Lucena position the attacker's king has already reached the queening square and the defender is reduced to helpless checks. Philidor is the position one side wants to reach and the other side must never allow: with the defending king in front of the pawn and the rook actively on the third rank, the Lucena scenario simply never arises. Some endgames are about technique for winning; this one is about knowing how to draw."
+    }
+  ],
+  "rootVisual": [
+    { "type": "square", "square": "e8" },
+    { "type": "square", "square": "a6" },
+    { "type": "arrow", "from": "a6", "to": "h6" }
+  ],
+  "line": [
+    {
+      "san": "e5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "White probes forward",
+          "body": "The pawn can advance freely as far as the fifth rank — it isn't yet on the rook's rank, so nothing is at stake. The real test only comes when it reaches the sixth."
+        }
+      ]
+    },
+    {
+      "san": "Rb6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Shuffling, not retreating",
+          "body": "The rook simply slides along the sixth rank. It doesn't matter which square it sits on — only that it stays somewhere on that rank, still barring the White king from ever crossing it."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Ra8",
+            "classification": "mistake",
+            "importance": "important",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "Passive defense: retreating before being forced",
+                "body": "This is the beginner's instinct — get the rook to safety on the back rank, next to the king. But the rook's whole value in this position was barring the sixth rank. Giving that up voluntarily, before the pawn even threatens it, throws away the draw for nothing: now White's king simply walks across."
+              }
+            ]
+          },
+          "Kd6",
+          "Kf8",
+          {
+            "san": "Kd7",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The king marches in unopposed",
+                "body": "Nothing bars this square anymore. White's king heads straight for the seventh rank, right next to Black's own king and pawn."
+              }
+            ]
+          },
+          {
+            "san": "Ra7+",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "A check, but not a defense",
+                "body": "This is Black's only try — but a single check from a rook that has no follow-up doesn't hold anything back."
+              }
+            ]
+          },
+          {
+            "san": "Kd8",
+            "importance": "critical",
+            "classification": "critical",
+            "annotations": [
+              {
+                "type": "critical-position",
+                "title": "Won, not drawn",
+                "body": "Compare this to the main line: there, the rook's checks never ran out because it had checking distance and a safe haven on the far rank. Here the rook gave up its post too early and has nothing to show for it. White's king dominates the queening square while Black's king is stuck on the wrong side of the board — this is the standard winning technique against passive defense, not the Philidor draw."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "e6",
+      "importance": "critical",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The pawn reaches the rook's rank",
+          "body": "This is the moment the whole defense hinges on. The pawn is now defended by White's king on d5, so Rxe6+?? would simply lose the rook to Kxe6 — capturing is not an option. But the rook's job on the sixth rank is also finished: it can no longer usefully block anything there. This is precisely the trigger described by the technique: keep the rook on the third rank until the pawn advances to it, then switch plans entirely.",
+          "concepts": [
+            "checking distance"
+          ]
+        }
+      ]
+    },
+    {
+      "san": "Rb1",
+      "importance": "critical",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Dropping back to check from behind",
+          "body": "The rook abandons the sixth rank entirely and retreats all the way to the first rank — as far from the action as possible. From here it will check the White king every time it tries to step onto a file the rook can reach, and the king can never approach closely enough to attack it or hide behind its own pawn.",
+          "concepts": [
+            "checking distance"
+          ]
+        }
+      ]
+    },
+    {
+      "san": "Kd6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The king is finally free — but it doesn't matter",
+          "body": "With the sixth rank no longer guarded, White's king can cross it at last. It looks like progress, but the rook is already in position to make sure it never amounts to anything."
+        }
+      ]
+    },
+    {
+      "san": "Rd1+"
+    },
+    {
+      "san": "Kc6"
+    },
+    {
+      "san": "Rc1+"
+    },
+    {
+      "san": "Kb6"
+    },
+    {
+      "san": "Rb1+"
+    },
+    {
+      "san": "Kc5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The pattern repeats forever",
+          "body": "Wherever the king wanders, the rook simply lines up on that file from a safe distance and checks again. The king can't reach the rook to attack it, and it can't hide behind its own pawn — that shelter square is exactly the one square the rook always denies. This is a textbook draw, and nothing White tries can change that."
+        }
+      ]
+    }
+  ]
+}

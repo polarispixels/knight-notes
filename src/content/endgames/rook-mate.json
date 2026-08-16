@@ -1,0 +1,158 @@
+{
+  "id": "rook-mate",
+  "catalogCode": "E004",
+  "title": "King and Rook versus King",
+  "subtitle": "The wall and the ladder mate",
+  "type": "endgame",
+  "difficulty": "beginner",
+  "summary": "A lone rook mates a lone king by building a wall along a rank or file that the king can never cross, then walking the stronger king in to force the opposing king to the edge for a ladder-style mate.",
+  "tags": [
+    "rook endgame",
+    "basic checkmates",
+    "opposition",
+    "waiting move"
+  ],
+  "concepts": [
+    "cutting off the king",
+    "opposition",
+    "waiting move",
+    "checkmate technique"
+  ],
+  "initialFen": "8/8/8/4k3/8/2K5/8/R7 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "The wall, not the box",
+      "body": "A queen shrinks a box from every direction at once. A rook can only ever cut off one rank or one file at a time — a straight wall the enemy king can never cross. The whole technique is: build the wall, walk your own king up to squeeze the space on the other side, and finish with a mate along the edge.",
+      "concepts": ["cutting off the king"]
+    },
+    {
+      "type": "principle",
+      "title": "Opposition does the pushing",
+      "body": "Once your king is close enough that it, not the rook, is blocking the enemy king's advance, the two kings will eventually meet in opposition — directly facing each other with one square between. Whoever is NOT forced to move has the advantage. If it's your move at that moment, don't touch your king: shift the rook along its wall instead. That 'waiting move' passes the obligation to move back to the defender, who has nowhere useful left to go."
+    }
+  ],
+  "line": [
+    {
+      "san": "Ra4",
+      "importance": "important",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Building the wall",
+          "body": "The rook plants itself on the fourth rank, a wall the black king can never step across. Black is now confined to the top half of the board, and every move from here on is about squeezing that space smaller."
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "a4" },
+        { "type": "arrow", "from": "a4", "to": "h4" }
+      ]
+    },
+    "Ke6",
+    "Kc4",
+    "Kf6",
+    "Kd4",
+    "Kg6",
+    {
+      "san": "Ke5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The king does the rest",
+          "body": "With the wall already in place, White's king advances diagonally toward the corner. The rook doesn't need to move again until the king has done its share of the squeezing."
+        }
+      ]
+    },
+    {
+      "san": "Kh6",
+      "annotations": [
+        {
+          "type": "question",
+          "title": "White's king can step to f6 here — why does that matter?",
+          "body": "f6 and h6 would sit on the same rank with exactly one empty square between them. What does that do to Black's options next move?"
+        }
+      ]
+    },
+    {
+      "san": "Kf6",
+      "importance": "critical",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Direct opposition",
+          "body": "This is the opposition: the kings face each other on the sixth rank with g6 between them. Black cannot step toward White's king (illegal — kings can never stand adjacent) and cannot stay put, since it's Black's move. Both legal replies concede ground."
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "f6" },
+        { "type": "square", "square": "h6" }
+      ]
+    },
+    {
+      "san": "Kh5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The only real options",
+          "body": "Kh7 or Kh5 were the sole legal moves — g5, g6, and g7 are all off-limits next to White's king. Either way Black is being herded toward a corner with no room left to maneuver."
+        }
+      ]
+    },
+    {
+      "san": "Rb4",
+      "importance": "critical",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The waiting move",
+          "body": "White's king can't safely advance any further right now without stepping next to Black's king, so the rook makes a move that changes nothing about the position except whose turn it is. It stays on the fourth rank — the wall is untouched — but now Black must move, and g5/g6/g7 are still forbidden. Kh6 is forced. This is the rook-endgame version of the same zugzwang idea from king-and-pawn endings: when you don't want to move your king, find a piece move that costs you nothing.",
+          "concepts": ["waiting move"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Rh4+",
+            "classification": "blunder",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Drifting too close",
+                "body": "This looks like the same idea — a check along the h-file — but the rook has wandered right next to the black king instead of staying safely on the fourth rank. It's undefended on h4, so Black simply captures it with ...Kxh4. Even when a rook move like this doesn't hang the piece outright, drifting within a king's reach costs a tempo at best; here it costs the entire game, turning a forced win into a dead draw."
+              }
+            ]
+          },
+          "Kxh4"
+        ]
+      ]
+    },
+    {
+      "san": "Kh6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "No choice left",
+          "body": "g5, g6, and g7 are still covered by White's king, and h5 is exactly where Black just came from would put the king back in the same box. h6 is forced."
+        }
+      ]
+    },
+    {
+      "san": "Rh4#",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "The rook checks along the entire h-file — h5, h6, h7, and h8 are all covered, since nothing stands between the rook and any of them. The king's job was never to attack the black king directly; it only had to control g5, g6, and g7. Between the king shutting one side and the rook's file covering the other, Black has no square left. That division of labor — king blocks one side, rook covers the line — is the pattern behind every rook mate, however it's reached."
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "h6" },
+        { "type": "arrow", "from": "h4", "to": "h8" }
+      ]
+    }
+  ]
+}

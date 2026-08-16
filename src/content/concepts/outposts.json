@@ -1,0 +1,130 @@
+{
+  "id": "outposts",
+  "catalogCode": "C002",
+  "title": "Outposts",
+  "subtitle": "The piece that moves into the hole",
+  "type": "concept",
+  "difficulty": "intermediate",
+  "summary": "An outpost is the piece-centric cousin of a weak square: a minor piece — almost always a knight — parked on a square no enemy pawn can ever attack, and itself defended by a pawn of its own. This lesson establishes one in a London-System-style structure and shows the defender's only two real answers: trade it off, at a cost, or wall off the squares it jumps to and simply live with it.",
+  "tags": ["outposts", "knights", "London System", "pawn structure", "piece placement"],
+  "concepts": ["outposts", "protected pieces", "trading strong pieces", "blockade", "piece placement"],
+  "initialFen": "r4rk1/pbqn1ppp/1p1bpn2/2pp4/3P4/2PBPNB1/PP1N1PPP/R2Q1RK1 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "Outpost vs weak square",
+      "body": "A weak square (see the Weak Squares lesson) is the address — a hole no pawn can ever fill again. An outpost is the tenant: the specific, usually pawn-protected minor piece that moves in and makes the hole actually hurt. Every outpost sits on a weak square, but not every weak square has a piece using it yet. Weak squares are permanent; outposts are the payoff.",
+      "concepts": ["weak squares", "outposts"]
+    },
+    {
+      "type": "principle",
+      "title": "Protected and unchallengeable",
+      "body": "A true outpost is defended by one of its own pawns, so capturing it is never a free tactic — only a trade. And because no enemy pawn can ever attack it, that trade is the opponent's only way to remove it at all. Two conditions, one piece: that combination is what makes an outpost worth building a whole plan around."
+    }
+  ],
+  "line": [
+    {
+      "san": "Ne5",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black is about to decide how to answer the knight. Compare the London System lesson: there, White's own Ne5 could be met by the dark bishop or the queenside knight, 'exchangeable only at a price.' What are Black's options here, and what does each one cost?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Establishing the outpost",
+          "body": "The knight jumps to e5, defended by the d4-pawn and, further back, by the bishop on g3. This is the same idea as the London System's signature Ne5 — see that lesson's 'outpost, the London's crown jewel.' From e5 it can only ever be removed by a piece, never a pawn, since Black's c- and e-pawns are already traded or advanced past it.",
+          "concepts": ["outposts"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "e5" },
+        { "type": "arrow", "from": "f3", "to": "e5" }
+      ]
+    },
+    {
+      "san": "Nxe5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Remedy one: trade it off",
+          "body": "Black removes the intruder with the queenside knight. This is always available in principle — but 'available' is not the same as 'free.' Watch what recapturing does to White's position.",
+          "concepts": ["trading strong pieces"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "b5",
+            "annotations": [
+              {
+                "type": "strategy",
+                "title": "Remedy two: blockade and ignore",
+                "body": "Instead of trading, Black leaves the knight alone and expands on the other wing. Two of the knight's four jump squares, d7 and f7, are already occupied by Black's own pieces and pawn; the other two, c6 and g6, just need watching. Tolerating a strong knight is a real, normal choice whenever removing it costs more than living with it does.",
+                "concepts": ["blockade", "outposts"]
+              }
+            ]
+          },
+          {
+            "san": "f4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White happily obliges, cementing the outpost exactly as in the London System lesson's own f4 — the same move, the same purpose, a different opening entirely. The knight was never going anywhere either way."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Bxe5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Recapturing to keep the initiative",
+          "body": "White retakes with the bishop rather than the pawn. Keeping the pawn on d4 preserves the center, and the bishop on e5 now aims straight down the long diagonal at Black's queenside — the same 'diagonal opens with force' idea the London System lesson describes for the mirror-image capture. Trading off the outpost piece never fully cancels the concession that created the hole in the first place.",
+          "concepts": ["outposts"]
+        }
+      ]
+    },
+    {
+      "san": "Bxe5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black trades again rather than allow that bishop to sit on e5 unchallenged — the price of remedy one keeps compounding: two minor pieces spent to remove a knight that cost White only a single developing move."
+        }
+      ]
+    },
+    {
+      "san": "dxe5",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The tenant is gone, the address remains",
+          "body": "Every minor piece that could fight over e5 is off the board, yet White's structure is better than when the game started: the recapturing pawn now sits on e5, cramping Black's last knight and controlling d6 and f6. This is the outpost lesson in miniature — the piece can always be traded away eventually, but trading it costs material or structure every time, and what's left behind, here a strong pawn, is often just as useful as the piece was.",
+          "concepts": ["outposts", "weak squares"]
+        }
+      ]
+    },
+    {
+      "san": "Nd7",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: an outpost needs two things, pawn protection and pawn-proof safety, and both were true of e5 from the moment it was occupied; the defender's only real options are trading it off — always at a cost, here the bishop pair and a central pawn wedge left behind — or living with it by keeping every square it attacks covered; and remedy one, trading, never fully erases the problem, because the square itself, unlike the piece, cannot be captured.",
+          "concepts": ["outposts", "weak squares", "blockade"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "id": "decoy",
+  "catalogCode": "TA010",
+  "title": "The Decoy (Attraction)",
+  "subtitle": "Luring a piece onto a poisoned square",
+  "type": "pattern",
+  "difficulty": "intermediate",
+  "summary": "A queen sacrifice forces the black king onto a square it never wanted to occupy — not because anything was defended there, but because every other square is worse. One move later, a knight fork collects the queen the king was just standing next to.",
+  "tags": [
+    "decoy",
+    "attraction",
+    "queen sacrifice",
+    "knight fork"
+  ],
+  "concepts": [
+    "decoy",
+    "attraction",
+    "forced king moves",
+    "double attack"
+  ],
+  "initialFen": "r2q2k1/ppp2ppp/8/6NQ/8/8/PPP2PPP/6K1 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "Decoy is deflection's mirror image",
+      "body": "Deflection forces a piece off a square it needs to guard. Decoy (also called attraction) does the opposite: it forces a piece ONTO a specific square — usually the king — because that square is secretly the worst place in the world to be. The piece isn't being chased away from a job; it's being lured into a trap.",
+      "concepts": [
+        "decoy",
+        "attraction"
+      ]
+    },
+    {
+      "type": "principle",
+      "title": "Why the king has to go there",
+      "body": "A decoy sacrifice only works if every other option is worse than landing on the poisoned square. Here, the black king on g8 is about to be checked on h7. Capturing is illegal, staying isn't an option, and only one flight square is actually safe — that's the square this whole combination is built around.",
+      "concepts": [
+        "forced king moves"
+      ]
+    }
+  ],
+  "rootVisual": [
+    {
+      "type": "arrow",
+      "from": "h5",
+      "to": "h7"
+    },
+    {
+      "type": "square",
+      "square": "g5"
+    }
+  ],
+  "line": [
+    {
+      "san": "Qxh7+",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Offering the queen where it can't be taken",
+          "body": "The queen captures the h7 pawn with check. It looks like it's simply hanging to the king — but the knight on g5 defends h7, so Kxh7 would walk the king into check from the knight. Capturing is illegal. This is the whole trick: the sacrifice isn't really a sacrifice, because the one piece that could take it is forbidden to."
+        }
+      ],
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "g5",
+          "to": "h7"
+        },
+        {
+          "type": "square",
+          "square": "h7"
+        }
+      ]
+    },
+    {
+      "san": "Kf8",
+      "classification": "forced",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The only square left",
+          "body": "g7 and f7 are blocked by Black's own pawns. h8 is covered by the queen sitting right next to it on h7. f8 is the single square that's both empty and unattacked — the king is decoyed there not because it's safe, but because it's the least unsafe option."
+        }
+      ]
+    },
+    {
+      "san": "Ne6+",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The poisoned square explains itself",
+          "body": "The knight jumps to e6, checking the king on f8 and attacking the queen on d8 in the same move — a family fork. This only works because the king was forced specifically to f8; from e6, a knight attacks f8, d8, c7, g7, c5, f4, d4, and g5. The whole point of the queen sacrifice was to steer the king onto one of those eight squares.",
+          "concepts": [
+            "double attack"
+          ]
+        }
+      ],
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "g5",
+          "to": "e6"
+        },
+        {
+          "type": "square",
+          "square": "f8"
+        },
+        {
+          "type": "square",
+          "square": "d8"
+        }
+      ]
+    },
+    {
+      "san": "Ke7",
+      "classification": "forced",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Running doesn't save the queen",
+          "body": "The knight check can't be blocked or captured, so the king must move again — to e7 or e8, the only two squares that are both empty and unattacked. Either one leaves the queen on d8 hanging to the knight; the choice between them barely matters."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Ke8",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The other escape, the same result",
+                "body": "e8 is just as legal as e7 — the knight on e6 doesn't attack it either. But it changes nothing: the queen on d8 is still hanging to the same knight, and White collects it exactly as below."
+              }
+            ]
+          },
+          "Nxd8",
+          "Kxd8"
+        ]
+      ]
+    },
+    {
+      "san": "Nxd8",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Cashing in",
+          "body": "The knight collects the queen. Note what White's own queen has been doing this whole time: nothing — it has sat on h7 since move one, completely unreachable by anything Black owns. The decoy sacrifice cost White a pawn's worth of tempo and won a full queen."
+        }
+      ],
+      "visual": [
+        {
+          "type": "square",
+          "square": "d8"
+        }
+      ]
+    },
+    {
+      "san": "Kxd8",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "What you should have noticed",
+          "body": "The king recaptures the knight — the only piece Black gets back. Add it up: White's queen took a pawn on h7 and never left; Black's queen was won outright by the fork; White's knight was traded back for it. Net result: White is up a queen for a knight, plus the original pawn, all because the first move decoyed the king onto a square the rest of the combination was built around. That's attraction — the target square, not the target piece, is what's poisoned.",
+          "concepts": [
+            "decoy",
+            "attraction"
+          ]
+        }
+      ]
+    }
+  ]
+}

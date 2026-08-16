@@ -1,0 +1,137 @@
+{
+  "id": "rule-of-the-square",
+  "catalogCode": "E005",
+  "title": "The Rule of the Square",
+  "subtitle": "A quick visual test for whether a king can catch a runaway pawn",
+  "type": "endgame",
+  "difficulty": "beginner",
+  "summary": "Before calculating a single move, you can tell at a glance whether a lone king can catch a passed pawn: draw the imaginary square from the pawn to its promotion square. If the defending king can step inside that square on its move, the pawn never escapes.",
+  "tags": [
+    "pawn endgame",
+    "rule of the square",
+    "passed pawn",
+    "king race"
+  ],
+  "concepts": [
+    "rule of the square",
+    "opposition",
+    "king activity",
+    "pawn races"
+  ],
+  "initialFen": "8/8/8/4k3/P7/8/8/7K b - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "Drawing the square",
+      "body": "Count the squares from the pawn to its promotion square — here, a4 to a8 is four squares. Now mark off that same distance sideways, toward the defending king: a4, e4, a8, e8 are the four corners. That's the whole test: if the defending king can get inside this square on its own move, it will always be able to keep pace with the pawn afterward and catch it, no matter which way the pawn runs. If it can't get in immediately, the pawn is gone for good.",
+      "concepts": ["rule of the square"]
+    },
+    {
+      "type": "principle",
+      "title": "The side-to-move caveat",
+      "body": "The square only tells the truth for whoever is about to move. Right now it's Black's move, so the square is measured from the pawn's square as it stands. If it were White's move instead, the pawn gets to run first — you'd have to measure the square from where the pawn will stand after it pushes, one rank further along, which shrinks the defending king's margin by exactly one move. Always ask 'whose move is it?' before trusting the square."
+    }
+  ],
+  "rootVisual": [
+    { "type": "square", "square": "a4" },
+    { "type": "square", "square": "e4" },
+    { "type": "square", "square": "a8" },
+    { "type": "square", "square": "e8" },
+    { "type": "arrow", "from": "a4", "to": "a8" }
+  ],
+  "line": [
+    {
+      "san": "Kd6",
+      "importance": "critical",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Standing exactly on the edge of the square",
+          "body": "The black king on e5 sits right on the square's boundary (the e-file edge) — inside by the barest possible margin. To catch the pawn it must take the most direct route available: a straight diagonal toward a8, gaining a file and a rank with every single move. Any less direct path throws away the one spare tempo it has.",
+          "concepts": ["rule of the square"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "e5", "to": "a8" }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Kd5",
+            "classification": "blunder",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "One tempo late",
+                "body": "This looks similar to the winning move, but it only shifts the king sideways along the fifth rank instead of advancing diagonally toward the corner. That single wasted move is exactly the spare tempo the king needed — from here, however cleverly it maneuvers afterward, it will always arrive at the corner one move too late."
+              }
+            ]
+          },
+          "a5",
+          "Kc5",
+          "a6",
+          "Kb5",
+          "a7",
+          "Kb6",
+          {
+            "san": "a8=Q",
+            "classification": "critical",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "The cost of one slow move",
+                "body": "The pawn queens a move before the king can reach it. What would have been an easy draw is now a straightforward win for White — the very race that the rule of the square said Black should have won, lost entirely to one move that didn't count toward the diagonal."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "a5",
+    {
+      "san": "Kc7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Keeping pace",
+          "body": "Every White pawn push must be answered by a king move that closes the distance in both directions at once — one file and one rank. Fall behind in either one and the race is lost."
+        }
+      ]
+    },
+    "a6",
+    {
+      "san": "Kb6",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "One move from the pawn",
+          "body": "The king is now close enough to take the pawn the instant it's within reach — White has no way to shield it and no time to detour."
+        }
+      ]
+    },
+    {
+      "san": "a7",
+      "annotations": [
+        {
+          "type": "question",
+          "title": "Is this pawn actually making progress?",
+          "body": "It looks like the pawn is one step from queening, but look at where the black king already stands."
+        }
+      ]
+    },
+    {
+      "san": "Kxa7",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The catch",
+          "body": "The king simply takes the pawn. What remains is a bare king against a king — an automatic draw. This is the entire payoff of the rule of the square: knowing on move one, before any calculation, that this exact outcome was guaranteed.",
+          "concepts": ["rule of the square"]
+        }
+      ]
+    }
+  ]
+}

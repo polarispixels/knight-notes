@@ -1,0 +1,318 @@
+{
+  "id": "botvinnik-capablanca-1938",
+  "catalogCode": "G007",
+  "title": "Botvinnik vs Capablanca",
+  "subtitle": "AVRO 1938 — strategy that manufactures a combination",
+  "type": "game",
+  "difficulty": "advanced",
+  "summary": "Botvinnik accepts a permanent queenside pawn weakness for the bishop pair and a central majority, patiently pushes that majority into an advanced passed pawn, and only then unleashes the deflection and knight sacrifice that force it home — a lesson in how sound strategy manufactures a winning tactic rather than waiting for one.",
+  "tags": ["Nimzo-Indian Defense", "AVRO 1938", "positional sacrifice", "classic game", "Mikhail Botvinnik"],
+  "concepts": [
+    "pawn majority",
+    "deflection",
+    "pin",
+    "passed pawns",
+    "attacking the defender",
+    "calculation"
+  ],
+  "metadata": {
+    "white": "Mikhail Botvinnik",
+    "black": "José Raúl Capablanca",
+    "event": "AVRO Tournament",
+    "site": "Rotterdam, Netherlands",
+    "date": "1938.11.22",
+    "result": "1-0",
+    "eco": "E49",
+    "opening": "Nimzo-Indian Defense",
+    "historicalContext": "AVRO 1938 gathered the eight strongest players in the world — including reigning champion Alexander Alekhine and former champion Capablanca — for a grueling double round-robin across Dutch cities. Botvinnik, the rising Soviet star, produced this game in round 11 against the 49-year-old ex-champion. Garry Kasparov later called it 'the game of Botvinnik's life,' and it remains the standard example of a purely positional plan forcing a decisive combination."
+  },
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "Botvinnik's masterpiece",
+      "body": "There is no sacrifice offered in the first twenty moves and no combination until move 31. Botvinnik simply accepts a structural weakness, builds a central pawn majority, and pushes it forward one square at a time until Black's pieces run out of useful jobs to do."
+    },
+    {
+      "type": "commentary",
+      "title": "Strategy creates the tactics",
+      "body": "Watch for the moment Black's queen is left with exactly one task — stopping a single pawn from promoting. Once a piece has only one job, attacking that job becomes a tactic. The combination on moves 30 and 31 only works because everything before it forced the queen into that corner."
+    }
+  ],
+  "line": [
+    "d4",
+    "Nf6",
+    "c4",
+    "e6",
+    "Nc3",
+    "Bb4",
+    "e3",
+    "d5",
+    "a3",
+    "Bxc3+",
+    {
+      "san": "bxc3",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "A weakness bought on purpose",
+          "body": "White now has pawns on a3 and c3 that no other pawn can ever support again — permanent long-term targets. In exchange, White keeps the bishop pair, and Black's own last move removed the only piece that could ever blockade White's center. The pawns on d4 and e3 are free to become a battering ram instead of a weakness.",
+          "concepts": ["pawn structure", "compensation"]
+        }
+      ]
+    },
+    "c5",
+    "cxd5",
+    "exd5",
+    "Bd3",
+    "O-O",
+    "Ne2",
+    "b6",
+    "O-O",
+    "Ba6",
+    "Bxa6",
+    "Nxa6",
+    "Bb2",
+    "Qd7",
+    "a4",
+    "Rfe8",
+    "Qd3",
+    {
+      "san": "c4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Freezing the target",
+          "body": "Black fixes White's a3 and c3 pawns in place, planning to besiege them with pieces at leisure. It is a reasonable plan on its own terms — but it also breaks all further contact with White's center, leaving the d4-e3 pawns free to advance rather than stay put as a weakness themselves.",
+          "concepts": ["pawn structure"]
+        }
+      ]
+    },
+    "Qc2",
+    "Nb8",
+    "Rae1",
+    "Nc6",
+    "Ng3",
+    "Na5",
+    "f3",
+    "Nb3",
+    {
+      "san": "e4",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "The majority starts to roll",
+          "body": "This is the move the whole opening was building toward. White's central pawn duo begins its advance, gaining space and preparing e5, while Black's compensation — the pawns on a3 and c3 — hasn't moved and isn't going anywhere. A pawn grabbed on the queenside doesn't stop a pawn storm in the center.",
+          "concepts": ["pawn majority"]
+        }
+      ]
+    },
+    {
+      "san": "Qxa4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black collects the pawn White has offered since move 13. It isn't a mistake — there is no clearly better plan on offer — but every tempo spent on the queenside is a tempo White's advancing pawns get for free."
+        }
+      ]
+    },
+    "e5",
+    "Nd7",
+    "Qf2",
+    "g6",
+    "f4",
+    "f5",
+    {
+      "san": "exf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "En passant",
+          "body": "Because Black's pawn just passed the e5 pawn's attack square, White may capture it as though it had moved only one square. The point isn't the material — it clears Black's kingside pawns out of the way and hands White a free hand to keep pushing pawns down the same file the black king castled behind.",
+          "concepts": ["en passant"]
+        }
+      ]
+    },
+    "Nxf6",
+    {
+      "san": "f5",
+      "annotations": [
+        {
+          "type": "strategy",
+          "body": "The pawn storm keeps rolling. This gains more space and prepares to trade itself for whatever stands in the way of an eventual breakthrough on the e-file."
+        }
+      ]
+    },
+    "Rxe1",
+    "Rxe1",
+    "Re8",
+    {
+      "san": "Re6",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Trading the rook for a passed pawn",
+          "body": "White offers the last pair of rooks. It looks like simplification into an easier position, but the real point is what's left behind: after ...Rxe6 fxe6, White has a pawn on e6, one step from the seventh rank, that Black's king and queen will have to watch for the rest of the game.",
+          "concepts": ["passed pawns", "simplification"]
+        }
+      ]
+    },
+    "Rxe6",
+    "fxe6",
+    "Kg7",
+    "Qf4",
+    "Qe8",
+    {
+      "san": "Qe5",
+      "importance": "notable",
+      "visual": [
+        { "type": "arrow", "from": "e5", "to": "g7" },
+        { "type": "square", "square": "f6" }
+      ],
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Pinning the defender",
+          "body": "The queen centralizes on the e5-g7 diagonal, pinning Black's knight on f6 to the king. That knight is now a spectator: it cannot move, and it cannot help stop the pawn on e6.",
+          "concepts": ["pin"]
+        }
+      ]
+    },
+    {
+      "san": "Qe7",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black's queen takes over the job the rook just gave up: stopping the e6 pawn from promoting. It's the only piece doing that job. What happens if something forces this queen away from e7?"
+        }
+      ]
+    },
+    {
+      "san": "Ba3",
+      "classification": "critical",
+      "importance": "critical",
+      "visual": [
+        { "type": "arrow", "from": "a3", "to": "e7" },
+        { "type": "square", "square": "e7" }
+      ],
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Deflection",
+          "body": "The bishop attacks the queen along the a3-f8 diagonal, and there is no square that both saves the queen and keeps it watching e7. This is the single move the entire opening was preparing.",
+          "concepts": ["deflection"]
+        },
+        {
+          "type": "key-idea",
+          "title": "Why every answer fails",
+          "body": "If the queen moves off the e-file to save itself, e6-e7 runs immediately and nothing else guards that square. Taking the bishop looks like the only way to stay in the game since it doesn't cost extra material — but it still drags the queen away from e7, and Botvinnik had already calculated exactly what happens next.",
+          "concepts": ["calculation"]
+        }
+      ]
+    },
+    {
+      "san": "Qxa3",
+      "classification": "forced",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Capturing at least wins a pawn back for the trouble. Any other move surrenders the blockade of e7 for nothing in return."
+        }
+      ]
+    },
+    {
+      "san": "Nh5+",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "visual": [
+        { "type": "arrow", "from": "g3", "to": "h5" },
+        { "type": "square", "square": "f6" }
+      ],
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The point of the pin",
+          "body": "Black's knight on f6 is still pinned to the king and cannot recapture on h5. The only way to meet the check without simply losing the pinned knight for nothing next move is to take with the g-pawn.",
+          "concepts": ["pin", "sacrifice"]
+        },
+        {
+          "type": "key-idea",
+          "title": "Calculating the whole point",
+          "body": "This is the move Botvinnik had to see coming back at move 30: after ...gxh5, the g-file opens, the king loses its shelter, and the pinned knight on f6 falls next move with check. From here almost everything is forced or nearly forced — which is exactly why it was safe to give up a whole knight.",
+          "concepts": ["calculation"]
+        }
+      ]
+    },
+    "gxh5",
+    {
+      "san": "Qg5+",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The queen leaves the pin because the king has nowhere safe left — the open g-file, opened by Black's own last move, delivers check immediately."
+        }
+      ]
+    },
+    "Kf8",
+    {
+      "san": "Qxf6+",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Collecting the point of the pin",
+          "body": "The knight that hasn't been able to move since move 29 finally falls, with check. White is not just up material now — Black's king has no pawn cover left, and the pawn on e6 is about to become the real problem.",
+          "concepts": ["pin"]
+        }
+      ]
+    },
+    "Kg8",
+    {
+      "san": "e7",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The pawn Black spent the whole game watching",
+          "body": "This is what the last four moves were for. The pawn is one square from queening, Black has no piece left that can stop it, and only checks remain — checks that don't lead anywhere just delay the inevitable.",
+          "concepts": ["passed pawns"]
+        }
+      ]
+    },
+    "Qc1+",
+    "Kf2",
+    "Qc2+",
+    "Kg3",
+    "Qd3+",
+    "Kh4",
+    "Qe4+",
+    {
+      "san": "Kxh5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The same pawn that captured the sacrificed knight back on move 31 is itself captured now — the king simply walks into the hole Black's own recapture created."
+        }
+      ]
+    },
+    "Qe2+",
+    "Kh4",
+    "Qe4+",
+    "g4",
+    "Qe1+",
+    {
+      "san": "Kh5",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Resignation — and the lesson",
+          "body": "Black has no more checks left, and mate or promotion follows next move; Capablanca resigned here. Nothing in this game was decided by a sacrifice thrown in blindly. The weakness accepted on move 6, the central majority pushed forward one pawn at a time, and the queen pinned down to a single defensive task on move 29 all had to happen in that order before 30.Ba3 could work at all. Strategy didn't replace tactics — it manufactured them.",
+          "concepts": ["conversion of an advantage"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "id": "overloaded-piece",
+  "catalogCode": "TA011",
+  "title": "The Overloaded Piece",
+  "subtitle": "One defender, two jobs — pick which one it fails",
+  "type": "pattern",
+  "difficulty": "intermediate",
+  "summary": "Black's rook is guarding two things at once: a knight and the back rank. It can't do both if White removes one of them by force. Whichever job it honors, the other collapses.",
+  "tags": [
+    "overloaded piece",
+    "back rank",
+    "double duty",
+    "counting defenders"
+  ],
+  "concepts": [
+    "overloaded piece",
+    "back-rank weakness",
+    "counting defenders",
+    "forced sequences"
+  ],
+  "initialFen": "3r2k1/p4ppp/8/3n4/8/8/PPP2PPP/3R1RK1 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "Count the jobs, not just the piece",
+      "body": "Before any tactic, get in the habit of listing what each defender is actually doing. Black's rook on d8 has exactly two jobs: it guards the knight on d5 down the d-file, and it guards e8 — the only square keeping White's back-rank rook out. One rook, two duties. That is an overload waiting to be exploited.",
+      "concepts": [
+        "overloaded piece",
+        "counting defenders"
+      ]
+    },
+    {
+      "type": "principle",
+      "title": "Attack the job you don't need it to drop",
+      "body": "White doesn't have to choose the more valuable target — the point is to attack whichever duty forces the more painful choice. Capturing the knight makes the rook decide: recapture and abandon the back rank, or protect the back rank and lose the knight for nothing.",
+      "concepts": [
+        "overloaded piece"
+      ]
+    }
+  ],
+  "rootVisual": [
+    {
+      "type": "arrow",
+      "from": "d8",
+      "to": "d5"
+    },
+    {
+      "type": "arrow",
+      "from": "d8",
+      "to": "e8"
+    }
+  ],
+  "line": [
+    {
+      "san": "Rfe1",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The second attacker takes its post",
+          "body": "White brings the other rook to the open e-file, aimed at e8. Nothing is threatened yet — the d8-rook still covers that square — but the second half of the trap is now in place."
+        }
+      ],
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "e1",
+          "to": "e8"
+        }
+      ]
+    },
+    {
+      "san": "a6",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black's rook is doing two jobs on one file and one rank. What happens if White simply takes the piece it's guarding on d5 — does the rook dare recapture?"
+        }
+      ]
+    },
+    {
+      "san": "Rxd5",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Attacking one duty",
+          "body": "White captures the knight the d8-rook was defending. This isn't a sacrifice — the knight was only defended once, by the overloaded rook, so this simply wins a piece unless Black recaptures. But recapturing means pulling the rook off the back rank."
+        }
+      ],
+      "visual": [
+        {
+          "type": "square",
+          "square": "d5"
+        }
+      ]
+    },
+    {
+      "san": "Rxd5",
+      "classification": "mistake",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "mistake",
+          "title": "The automatic recapture",
+          "body": "The natural response — don't just lose a piece for nothing. But this is exactly the choice the overload was built to force: the rook can protect the knight or the back rank, never both. By choosing the knight, it abandons e8 completely."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Rc8",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The material-winning line — decline the recapture",
+                "body": "Black's steadier choice: leave the knight lost and keep the rook on the back rank, where it still guards e8 and f8. This avoids the mate entirely — but the knight is already gone. White simply remains a full piece ahead with no further combination needed. Either way the overload pays for itself; the only question is which duty gets sacrificed."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Re8#",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The second duty falls",
+          "body": "Checkmate. The king has no moves — f7, g7, and h7 are its own pawns, and the rook on e8 covers f8 and h8 along the open rank. Black's rook, now on d5, isn't aligned with e8 or f8 in any way and can neither capture nor block. The overload didn't just cost material; it cost the game.",
+          "concepts": [
+            "overloaded piece",
+            "back-rank weakness"
+          ]
+        },
+        {
+          "type": "strategy",
+          "title": "What you should have noticed",
+          "body": "The habit to build: whenever a single piece defends two things, ask what happens if you attack the less important one. If the defender takes the bait, the more important duty is left open; if it doesn't, you simply win the first target for free. An overloaded piece is a defender that has already lost — it just hasn't been told which job it's about to fail.",
+          "concepts": [
+            "overloaded piece",
+            "counting defenders"
+          ]
+        }
+      ],
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "e1",
+          "to": "e8"
+        },
+        {
+          "type": "square",
+          "square": "f8"
+        },
+        {
+          "type": "square",
+          "square": "h8"
+        }
+      ]
+    }
+  ]
+}

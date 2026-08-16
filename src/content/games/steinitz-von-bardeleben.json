@@ -1,0 +1,249 @@
+{
+  "id": "steinitz-von-bardeleben",
+  "catalogCode": "G005",
+  "title": "Steinitz vs von Bardeleben",
+  "subtitle": "Hastings 1895 — the Battle of Hastings",
+  "type": "game",
+  "difficulty": "intermediate",
+  "summary": "The first World Champion spends fifteen quiet moves pinning, trading, and tying down every one of Black's pieces before a rook sacrifice on e7 that looks reckless but is completely sound — because there is nothing left for Black to defend with. One of the most studied combinations in chess history.",
+  "tags": [
+    "Giuoco Piano",
+    "Wilhelm Steinitz",
+    "classic game",
+    "restriction",
+    "combination"
+  ],
+  "concepts": [
+    "piece coordination",
+    "restriction",
+    "combination",
+    "king safety",
+    "calculation"
+  ],
+  "metadata": {
+    "white": "Wilhelm Steinitz",
+    "black": "Curt von Bardeleben",
+    "event": "Hastings 1895",
+    "site": "Hastings, England",
+    "date": "1895.08.17",
+    "result": "1-0",
+    "eco": "C54",
+    "opening": "Giuoco Piano",
+    "historicalContext": "Steinitz, the first officially recognized World Champion and the theorist who insisted that attacks must be earned through accumulated small advantages, proved his own doctrine in this game: nothing here is a swindle or an improvisation. Every White piece has spent the whole game restricting a Black piece, so that when the sacrifices start, Black simply has no spare move to answer them with."
+  },
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "The theorist proves his own theory",
+      "body": "Steinitz spent decades arguing that a successful attack must be prepared — that a player has no right to attack until the position earns it. This game is his own proof: the famous combination beginning with 22.Rxe7+ works only because, by that point, every single Black piece is pinned, blocked, or otherwise unable to help its king. Watch the quiet moves as closely as the sacrifices."
+    }
+  ],
+  "line": [
+    { "san": "e4" },
+    { "san": "e5" },
+    { "san": "Nf3" },
+    { "san": "Nc6" },
+    { "san": "Bc4" },
+    { "san": "Bc5" },
+    { "san": "c3" },
+    { "san": "Nf6" },
+    { "san": "d4" },
+    { "san": "exd4" },
+    { "san": "cxd4" },
+    {
+      "san": "Bb4+",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A check that costs Black a tempo of its own — the bishop will have to move again once White deals with it. Checks that don't build anything are rarely free."
+        }
+      ]
+    },
+    {
+      "san": "Nc3",
+      "annotations": [
+        {
+          "type": "principle",
+          "title": "Accepting a pin to keep developing",
+          "body": "White could have blocked with Bd2 or Nd2, but Nc3 develops a piece toward the center instead and simply accepts the pin on the knight. The pin isn't dangerous yet — there's no immediate threat behind it — so Steinitz treats development as the priority.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    { "san": "d5" },
+    { "san": "exd5" },
+    { "san": "Nxd5" },
+    { "san": "O-O" },
+    { "san": "Be6" },
+    { "san": "Bg5" },
+    { "san": "Be7" },
+    { "san": "Bxd5" },
+    { "san": "Bxd5" },
+    { "san": "Nxd5" },
+    { "san": "Qxd5" },
+    { "san": "Bxe7" },
+    {
+      "san": "Nxe7",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The pin that will decide the game",
+          "body": "Four minor pieces have just come off the board, and the result looks like nothing special: a fairly even position with a knight recapture. But look at what that knight is doing — sitting on e7 with Black's king still on e8 behind it. The instant White's rook reaches e1, that knight is pinned to its own king, and it will never be free again.",
+          "concepts": ["pins", "restriction"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e8" }]
+    },
+    {
+      "san": "Re1",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Restriction begins",
+          "body": "The pin is now real. The knight on e7 cannot move without exposing the king to a rook check along the e-file, which means it also cannot help defend anywhere else on the board. One piece has just been taken out of the game without a single capture.",
+          "concepts": ["pins", "restriction"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e1", "to": "e7" }]
+    },
+    { "san": "f6" },
+    {
+      "san": "Qe2",
+      "annotations": [
+        {
+          "type": "principle",
+          "title": "Coordination before combination",
+          "body": "Qe2 adds a second attacker to a piece that already can't move. There's no tactic here yet — Steinitz is simply making sure that when the position does open up, every White piece is already pointed at the same target.",
+          "concepts": ["piece coordination"]
+        }
+      ]
+    },
+    {
+      "san": "Qd7",
+      "annotations": [
+        {
+          "type": "warning",
+          "title": "A king with nowhere to go",
+          "body": "Black has now spent this whole sequence defending, not developing. Fifteen moves in, the king is still on e8, the rooks are disconnected, and the queen has come to d7 mainly to babysit the pinned knight. Every piece Black owns is doing defensive work — none of them is free to create counterplay."
+        }
+      ]
+    },
+    { "san": "Rac1" },
+    { "san": "c6" },
+    {
+      "san": "d5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Opening lines against a position that can't respond",
+          "body": "White breaks open the center now, not because of a specific tactic, but because Black has no piece left to meet the opening of the position. Restriction was the preparation; this pawn break is the payoff.",
+          "concepts": ["restriction", "pawn breaks"]
+        }
+      ]
+    },
+    { "san": "cxd5" },
+    { "san": "Nd4" },
+    {
+      "san": "Kf7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The king has to move in person — there is no piece left that can be spared to defend it. That is the real meaning of restriction: not a single dramatic blow, but an opponent slowly running out of moves that don't lose something."
+        }
+      ]
+    },
+    {
+      "san": "Ne6",
+      "classification": "interesting",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "An outpost nothing can remove",
+          "body": "The knight lands in the heart of Black's position and cannot be captured by anything: not the king, not a rook, not the pinned knight on e7. An outpost that can't be challenged is as good as an extra piece.",
+          "concepts": ["restriction"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e6" }]
+    },
+    { "san": "Rhc8" },
+    { "san": "Qg4" },
+    { "san": "g6" },
+    {
+      "san": "Ng5+",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Forcing the king back into the open",
+          "body": "This check drives Black's king back toward the center rather than away from it — there is nowhere safe left to go. Notice that Black still hasn't made a single non-defensive move since move 15.",
+          "concepts": ["king safety"]
+        }
+      ]
+    },
+    {
+      "san": "Ke8",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White's rook is about to land on e7, apparently undefended — Black's king or knight could simply capture it. Play through the next several moves and ask, every single time: can Black actually take this rook?"
+        }
+      ]
+    },
+    {
+      "san": "Rxe7+",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A rook that can never be captured",
+          "body": "This is the payoff of everything before it. The rook offers itself on e7, and it will keep offering itself for three more moves — to the king, then again, then again — and Black can never once take it, because every capture allows a forced mate. This only works because every other Black piece has spent the whole game unable to help: restriction turned into calculation, and calculation into a forced win.",
+          "concepts": ["restriction", "combination", "calculation"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "e7", "to": "h7" },
+        { "type": "square", "square": "e8" }
+      ]
+    },
+    {
+      "san": "Kf8",
+      "classification": "forced",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Taking the rook with Kxe7 walks straight into a mating attack, so the king steps aside instead — the first of several moves where declining the rook is Black's only option."
+        }
+      ]
+    },
+    { "san": "Rf7+" },
+    { "san": "Kg8" },
+    { "san": "Rg7+" },
+    { "san": "Kh8" },
+    {
+      "san": "Rxh7+",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Proving it isn't just perpetual check",
+          "body": "The rook has now crossed the entire seventh rank giving check on e7, f7, g7, and h7, and at every single stop Black could have captured it and never did — because Steinitz had calculated all the way to a forced mate, not merely a string of checks. That distinction mattered: a long series of checks that never quite finishes is just a draw. Steinitz proved this one finishes. The demonstrated continuation runs 25...Kg8 26.Rg7+ Kh8 27.Qh4+ Kxg7 28.Qh7+ Kf8 29.Qh8+ Ke7 30.Qg7+ Ke8 31.Qg8+ Ke7 32.Qf7+ Kd8 33.Qf8+ Qe8 34.Nf7+ Kd7 35.Qd6#, ending in a checkmate on a completely different side of the board from where the combination began.",
+          "concepts": ["combination", "calculation"]
+        },
+        {
+          "type": "historical",
+          "title": "Von Bardeleben walks out",
+          "body": "According to the famous story, von Bardeleben simply stood up and left the tournament hall after this move rather than sit through the mate or formally resign — letting his clock run out in his absence while Steinitz demonstrated the forced win above to the assembled spectators. Chess historian Edward Winter's research complicates the popular telling: von Bardeleben reportedly told Steinitz directly that he was leaving in protest of the audience's prolonged applause for game winners, a practice the tournament committee banned soon afterward. Either way, he never formally resigned this game."
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "e7", "to": "h7" },
+        { "type": "square", "square": "h7" }
+      ]
+    }
+  ]
+}

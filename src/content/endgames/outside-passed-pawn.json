@@ -1,0 +1,188 @@
+{
+  "id": "outside-passed-pawn",
+  "catalogCode": "E006",
+  "title": "The Outside Passed Pawn",
+  "subtitle": "Winning by losing a pawn",
+  "type": "endgame",
+  "difficulty": "intermediate",
+  "summary": "A passed pawn far from the action doesn't need to promote to win the game. It only needs to be dangerous enough that the enemy king must chase it — and every move spent chasing is a move not spent defending everything else.",
+  "tags": [
+    "pawn endgame",
+    "outside passed pawn",
+    "decoy",
+    "king activity"
+  ],
+  "concepts": [
+    "decoy",
+    "rule of the square",
+    "key squares",
+    "king activity"
+  ],
+  "initialFen": "4k3/6p1/8/8/P7/4K3/5P2/8 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "The decoy principle",
+      "body": "White's a-pawn is only one file away from the edge of the board and Black's king is on the opposite side entirely. If White pushes it, Black's king has no choice but to go stop it — by the rule of the square, ignoring it means it queens in four moves. Every move Black's king spends crossing the board to deal with that pawn is a move it isn't spending on the kingside, where White's own king and pawn are waiting.",
+      "concepts": ["decoy", "rule of the square"]
+    },
+    {
+      "type": "principle",
+      "title": "It doesn't need to promote to work",
+      "body": "The a-pawn's job isn't necessarily to become a queen — it's to be a threat real enough that it can't be ignored. Even if Black eventually catches it, the trip there and back costs so much time that White's king wins the rest of the board in the meantime. That's the whole idea: the pawn wins by dying at the right price."
+    }
+  ],
+  "rootVisual": [
+    { "type": "square", "square": "a4" },
+    { "type": "square", "square": "e4" },
+    { "type": "square", "square": "a8" },
+    { "type": "square", "square": "e8" },
+    { "type": "arrow", "from": "a4", "to": "a8" }
+  ],
+  "line": [
+    {
+      "san": "a5",
+      "importance": "critical",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Launching the decoy",
+          "body": "The black king on e8 sits exactly on the edge of the pawn's square — it can only just catch this pawn, and only by taking the most direct diagonal route every single move. There's no slack in that chase at all, which is exactly what makes it costly."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "f4",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "The wrong plan: kingside first",
+                "body": "This looks harmless — White will get to the a-pawn eventually — but it hands Black a completely free move. The a-pawn isn't moving yet, so there's no chase to force. Black uses the gift to start heading toward the queenside early, before any threat even exists."
+              }
+            ]
+          },
+          "Kd7",
+          "a5",
+          {
+            "san": "Kc6",
+            "classification": "critical",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The exact chase Black needed",
+                "body": "Compare this king to the one in the main line: this one reaches the pawn's square with a whole spare tempo in hand, because it got a head start while White fiddled with f4. That spare move is enough to also keep half an eye on the kingside — the razor-thin, no-slack chase that made the decoy work is gone, and with it the win. Always launch the outside passer first, while it still costs the defender everything to respond."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Kd8",
+    "a6",
+    "Kc8",
+    {
+      "san": "a7",
+      "annotations": [
+        {
+          "type": "question",
+          "title": "The pawn is one step from queening — does that actually matter?",
+          "body": "Watch what White's king is about to do while Black's king is still stuck babysitting this corner."
+        }
+      ]
+    },
+    "Kb7",
+    {
+      "san": "a8=Q+",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A queen for one move",
+          "body": "Black simply recaptures next move and material is level again. But the pawn already did its job — it dragged the black king to the farthest possible corner of the board, as far from the kingside as physically possible."
+        }
+      ]
+    },
+    {
+      "san": "Kxa8",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Look how far away that king is",
+          "body": "Eight moves have passed and the position is materially unchanged from where it could have been — except that Black's king is now in the a8 corner, and White's king hasn't moved a single square yet. From here, the entire rest of the board belongs to White."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "a8", "to": "e6" }]
+    },
+    {
+      "san": "Ke4",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The real march begins",
+          "body": "Only now does White's king start walking — straight toward the kingside pawns, completely unopposed. Black's king is seven files away and has no way to get back in time."
+        }
+      ]
+    },
+    "Kb7",
+    "Ke5",
+    "Kc6",
+    {
+      "san": "Ke6",
+      "importance": "critical",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "A key square, reached for free",
+          "body": "This is the same idea from basic king-and-pawn endings: once White's king controls the squares in front of its own pawn, that pawn's promotion is guaranteed no matter what the defending king does. Black would need several more moves just to arrive in this neighborhood — and by then it will be far too late.",
+          "concepts": ["key squares"]
+        }
+      ]
+    },
+    "Kc7",
+    "Kf7",
+    "Kd7",
+    {
+      "san": "Kxg7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A free pawn on top of everything else",
+          "body": "Black's kingside pawn falls with no resistance at all — its own king is still five files away. This isn't the point of the plan, just a bonus that falls out of it."
+        }
+      ]
+    },
+    "Ke7",
+    {
+      "san": "f4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Now the real business",
+          "body": "With the king already controlling every square this pawn needs, pushing it home is a formality. Black's king can watch, but it can never arrive."
+        }
+      ]
+    },
+    "Kd7",
+    "f5",
+    "Ke7",
+    "f6+",
+    "Ke8",
+    "f7+",
+    "Ke7",
+    {
+      "san": "f8=Q+",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "White never needed the a-pawn to promote — it did its work eight moves ago, the instant Black's king was forced to chase it into the corner. Everything after that was simply collecting the reward: an unopposed king, a free pawn, and a second queen. The distance between the two pawns wasn't a coincidence; it was the entire point."
+        }
+      ]
+    }
+  ]
+}

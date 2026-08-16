@@ -1,0 +1,102 @@
+{
+  "id": "good-bad-bishop",
+  "catalogCode": "C004",
+  "title": "Good Bishop, Bad Bishop",
+  "subtitle": "Structure decides the piece's value, not the piece itself",
+  "type": "concept",
+  "difficulty": "intermediate",
+  "summary": "A bishop's value isn't fixed — it's set by which squares its own pawns block. Lock a chain onto your bishop's color and it strangles behind its own pawns; keep the chain off that color and the same piece rules the board. This lesson shows the classic French/Caro-Kann 'problem bishop' and two real ways out: trade it for something better, or get it moving before the door closes.",
+  "tags": ["good bishop", "bad bishop", "pawn chains", "French Defense", "piece activity"],
+  "concepts": ["good and bad bishops", "pawn structure decides piece value", "trading a bad piece", "piece activation", "pawn chains"],
+  "initialFen": "r1b2rk1/1p1qnppp/2n1p3/2ppP3/3P4/2PB1N2/1P1N1PPP/R2Q1RK1 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "Same piece, opposite verdicts",
+      "body": "A bishop is 'bad' when its own side's pawns sit on its color and block its diagonals, and 'good' when they don't. It's the exact same piece either way — a bishop doesn't get worse at moving. What changes is the board around it. The French Defense and Caro-Kann lessons both turn on this single fact for the light-squared bishop: French Black plays ...e6 and locks it in before it escapes; Caro-Kann Black plays ...Bf5 and gets it out first, then plays ...e6. Same structure, opposite piece.",
+      "concepts": ["good and bad bishops", "pawn structure decides piece value"]
+    },
+    {
+      "type": "warning",
+      "title": "Not a life sentence",
+      "body": "'Bad bishop' describes a piece's current diagonals, not its permanent fate. A bad bishop can still be traded for something better, rerouted to a different diagonal, or unlocked the moment its own pawn chain moves or trades off. Writing it off early is itself a mistake."
+    }
+  ],
+  "line": [
+    {
+      "san": "Qe2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White simply continues developing. Black's light-squared bishop, still on c8, is already the position's defining feature — blocked in front by its own e6-pawn exactly as the French Defense lesson describes.",
+          "concepts": ["good and bad bishops"]
+        }
+      ]
+    },
+    {
+      "san": "b6",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Getting out, one tempo late",
+          "body": "The ideal fix — developing the bishop before ...e6 is even played, as the Caro-Kann lesson teaches — is no longer available; the pawn chain is already locked. But 'bad' isn't 'stuck': Black spends a tempo opening a second diagonal for the bishop through b7, since the direct route through d7–e6 is walled off by Black's own pawn.",
+          "concepts": ["piece activation", "pawn chains"]
+        }
+      ]
+    },
+    "h3",
+    {
+      "san": "Ba6",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White's own light-squared bishop sits on d3 — good, active, aimed at the kingside. What does Black's bishop want with it?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Remedy one: trade it for the good one",
+          "body": "The bishop reaches a6 and stares straight down the long diagonal at White's well-placed bishop on d3. If the trade goes through, Black hands over the piece that had almost nothing to do all game for the piece that had everything to do — a clear upgrade even though the material count reads 'one bishop for one bishop.'",
+          "concepts": ["trading a bad piece", "good and bad bishops"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "a6", "to": "d3" },
+        { "type": "square", "square": "d3" }
+      ]
+    },
+    {
+      "san": "Rfe1",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White could grab the trade immediately with Bxa6, but declines for now and continues developing instead — voluntarily avoiding the swap is itself an admission of which bishop is worth more."
+        }
+      ]
+    },
+    {
+      "san": "Bxd3",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Cashing in",
+          "body": "Black completes the trade. Two tempi — ...b6 and ...Ba6 — bought the exchange of the bad bishop for the good one, a fair price for permanently fixing the position's worst piece."
+        }
+      ]
+    },
+    {
+      "san": "Qxd3",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a bishop's color relative to its own locked pawns, not its raw mobility on an empty board, decides good or bad — the same French/Caro-Kann structure produces opposite verdicts depending only on move order; trading a bad piece for a good enemy piece is a real remedy even when the material count looks neutral, since points on the scoresheet aren't the same as usefulness on the board; and the fix, whether prevention (Caro-Kann) or a late escape (here), is almost always available in some form — 'bad bishop' describes a moment, not a verdict.",
+          "concepts": ["good and bad bishops", "trading a bad piece", "piece activation"]
+        }
+      ]
+    }
+  ]
+}

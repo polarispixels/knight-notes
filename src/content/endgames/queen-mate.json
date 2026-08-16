@@ -1,0 +1,176 @@
+{
+  "id": "queen-mate",
+  "catalogCode": "E003",
+  "title": "King and Queen versus King",
+  "subtitle": "The box method",
+  "type": "endgame",
+  "difficulty": "beginner",
+  "summary": "A lone queen mates a lone king by shrinking the space it can move in, square by square, until the king's own home rank becomes the mating net. The box method makes this mechanical instead of guesswork.",
+  "tags": [
+    "queen endgame",
+    "box method",
+    "basic checkmates",
+    "stalemate traps"
+  ],
+  "concepts": [
+    "box method",
+    "checkmate technique",
+    "stalemate awareness",
+    "knight-distance rule",
+    "king activity"
+  ],
+  "initialFen": "4k3/8/8/8/8/4K3/8/3Q4 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "Shrink the box, don't chase the king",
+      "body": "Picture a rectangle — the 'box' — that contains every square the black king can currently reach. The queen's job is to make that box smaller on every move, standing a knight's move away from the enemy king so it can never be checked into a random square or, worse, stalemated. Once the box is tiny, the king walks up and the mate finishes itself.",
+      "concepts": ["box method", "knight-distance rule"]
+    },
+    {
+      "type": "principle",
+      "title": "Why random checks are inefficient",
+      "body": "Checking on sight feels productive, but a check that doesn't also shrink the box just relocates the king to a square with exactly as much room as before — you gain nothing and may even have to start over. Every queen move should answer one question: does this remove squares from the box? If not, it's wasted.",
+      "concepts": ["box method"]
+    }
+  ],
+  "line": [
+    {
+      "san": "Qd4",
+      "importance": "critical",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "First cut: a knight's move away",
+          "body": "d4 is a knight's move from e6, so the queen cuts off the entire d-file and the long diagonal without coming close enough for the black king to ever attack it. The king is now confined to the top-right quarter of the board — e7 through h8 minus whatever the diagonal takes away.",
+          "concepts": ["knight-distance rule"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "d4" },
+        { "type": "arrow", "from": "d4", "to": "d8" }
+      ]
+    },
+    "Kf7",
+    {
+      "san": "Qd6",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Second cut",
+          "body": "Again a knight's move from the black king, this time from f7. The box shrinks further — the king can no longer touch the d- or e-files or approach the sixth rank in front of the queen."
+        }
+      ]
+    },
+    "Ke8",
+    {
+      "san": "Ke4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Now the king goes to work",
+          "body": "With the box already small, further queen shrinks would risk running out of safe squares. It's time for White's king to walk up and support the mate — the queen alone can restrict the king, but it needs the king's help to actually deliver checkmate."
+        }
+      ]
+    },
+    "Kf7",
+    "Ke5",
+    "Kg7",
+    {
+      "san": "Qe6",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Third cut: down to the back two ranks",
+          "body": "Once more a knight's move from the black king, and once more entirely safe. Black is now confined to the last two ranks near the h-file — the box is nearly a mating net already."
+        }
+      ]
+    },
+    "Kh7",
+    {
+      "san": "Kf5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Closing the distance",
+          "body": "The king keeps approaching on the same color complex as the queen so it never blocks the queen's own lines. One more step and it will be close enough to defend the mating square."
+        }
+      ]
+    },
+    {
+      "san": "Kh8",
+      "annotations": [
+        {
+          "type": "question",
+          "title": "The box looks almost gone — is it safe to close it now?",
+          "body": "White's king is still two moves from the corner. It's tempting to use the queen to remove Black's last squares immediately, but doing that here has a hidden cost — see what happens if White gets greedy."
+        }
+      ]
+    },
+    {
+      "san": "Kf6",
+      "importance": "critical",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Patience: bring the king first",
+          "body": "This is the move that separates the technique from a coin flip. The box is already as small as it can safely get without the king's help — squeezing it further right now removes the black king's last legal moves without giving check, which is a draw by stalemate, not a win. White simply brings the king one square closer instead."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Qg6",
+            "classification": "blunder",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Stalemate — the classic queen-mate blunder",
+                "body": "This looks like it finishes the job: Qg6 covers the g-file, the sixth rank, and both diagonals from g6, so the king on h8 has nowhere to go. But it is NOT in check, and it has no legal move at all — g7, g8, and h7 are all covered, h8 has no other neighbor. That is stalemate, an immediate draw, and it throws away the entire game. The fix is always the same: before your queen move, check whether the king would still have a legal move if it weren't in check."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Kh7",
+    {
+      "san": "Kf7",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The king arrives",
+          "body": "Now that the king guards g7 and g8, the queen is free to deliver mate along the h-file or sixth rank without any stalemate risk — every flight square the king might have had is covered by the king itself, not by removing them from existence."
+        }
+      ]
+    },
+    {
+      "san": "Kh8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Only move",
+          "body": "g7 and g8 are both controlled by White's king, so h8 is the single square left."
+        }
+      ]
+    },
+    {
+      "san": "Qh6#",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "The queen delivers mate along the h-file, and this time it's completely safe: the king on h8 has no flight square because f7 controls g7 and g8, not because the queen removed them. That's the whole method in one sentence — the queen restricts from a safe distance, the king closes off the escape squares, and only then does the queen move in for mate."
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "h8" },
+        { "type": "arrow", "from": "h6", "to": "h8" }
+      ]
+    }
+  ]
+}

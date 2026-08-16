@@ -1,0 +1,197 @@
+{
+  "id": "deflection",
+  "catalogCode": "TA009",
+  "title": "Deflection",
+  "subtitle": "Pulling a defender away from its post",
+  "type": "pattern",
+  "difficulty": "intermediate",
+  "summary": "Black's queen is the only piece guarding the back rank. White can't capture or trade it off — instead, an attack forces it away from that duty by threat alone, and the rank collapses the moment it leaves.",
+  "tags": [
+    "deflection",
+    "back rank",
+    "mating pattern",
+    "double attack"
+  ],
+  "concepts": [
+    "deflection",
+    "back-rank weakness",
+    "forced sequences",
+    "double attack"
+  ],
+  "initialFen": "q5k1/p4ppp/8/3N4/8/8/PP3PPP/3R2K1 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "Not a capture — a eviction",
+      "body": "Deflection looks like its cousin, removal of the defender, but the mechanism is different. Removal captures or trades the defending piece off the board. Deflection leaves it standing — it simply makes staying impossible. Attack the defender itself (not just what it's guarding) and force-of-tempo does the rest: it must move to survive, and the moment it moves, its post is empty.",
+      "concepts": [
+        "deflection"
+      ]
+    },
+    {
+      "type": "principle",
+      "title": "One guard, one job, one rank",
+      "body": "Black's queen on a8 is the only piece watching the back rank — from a8 it covers e8 and f8 along the open eighth rank. White's rook on d1 already eyes e8 down the open e-file. The only thing stopping Re8# is that lone queen.",
+      "concepts": [
+        "back-rank weakness"
+      ]
+    }
+  ],
+  "rootVisual": [
+    {
+      "type": "arrow",
+      "from": "a8",
+      "to": "e8"
+    },
+    {
+      "type": "square",
+      "square": "e8"
+    }
+  ],
+  "line": [
+    {
+      "san": "Re1",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Getting the rook ready",
+          "body": "The rook steps onto the open e-file, aiming straight at e8. It isn't check yet and it isn't a threat yet — the queen on a8 still covers that square along the rank. This move just makes sure the second piece is in position before the real blow lands."
+        }
+      ],
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "e1",
+          "to": "e8"
+        }
+      ]
+    },
+    {
+      "san": "a6",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Nothing on the board looks urgent to Black. But White has a knight move that attacks the queen and, at the same time, plants a second guard on e8. Can you find it — and see why the queen has no safe square that keeps doing its job?"
+        }
+      ]
+    },
+    {
+      "san": "Nc7",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Attacking the guard, not the post",
+          "body": "The knight forks the queen and the mating square in one leap: it attacks a8 directly, forcing the queen to move, and it also attacks e8 itself, so simply retreating along the rank only postpones the problem. This is deflection in its cleanest form — nothing gets captured, the queen is just no longer allowed to stay where it's needed."
+        },
+        {
+          "type": "principle",
+          "title": "Check every retreat square, not just the piece",
+          "body": "Before playing a deflecting shot, check where the attacked piece can actually go. Here, any square that keeps the queen off the eighth rank loses to Re8# outright. Any square that keeps it on the rank (b8, c8, d8, f8) still guards e8 — but now Nxe8 next recaptures whatever takes it, since the knight covers e8 too. The queen has been deflected from full usefulness either way."
+        }
+      ],
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "d5",
+          "to": "c7"
+        },
+        {
+          "type": "square",
+          "square": "a8"
+        },
+        {
+          "type": "square",
+          "square": "e8"
+        }
+      ]
+    },
+    {
+      "san": "Qb7",
+      "classification": "mistake",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "mistake",
+          "title": "Saving the queen, losing the rank",
+          "body": "A completely natural-looking retreat — the queen escapes the fork and heads toward safety. But it also leaves the eighth rank entirely. Nothing guards e8 or f8 anymore, and White's rook has been waiting on the open e-file for exactly this moment."
+        },
+        {
+          "type": "commentary",
+          "title": "The same idea, aimed at a king",
+          "body": "The Magnus Smith Trap uses this exact mechanism against a king instead of a queen: a check deflects the king off the square where it was the only defender of its own queen. Deflection doesn't care what kind of piece is doing the guarding — attack the guard hard enough, and whatever it was protecting falls."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Qd8",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Staying on duty — and still paying for it",
+                "body": "This is Black's soundest try: the queen stays on the rank, still guarding e8 and f8. But the knight on c7 was never just attacking the queen's square — it was also covering e8 in its own right. White plays Re8+ anyway."
+              }
+            ]
+          },
+          {
+            "san": "Re8+",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Following through",
+                "body": "The rook goes to e8 with check regardless. The queen on d8 can't interpose anywhere else — f8 lies behind the rook itself — so capturing is the only legal reply."
+              }
+            ]
+          },
+          "Qxe8",
+          {
+            "san": "Nxe8",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The material-winning point",
+                "body": "Forced — nothing else stops the check. White gives up a rook and collects Black's queen for it, and the knight on e8 can't be recaptured (nothing Black owns can reach the square). Even the best defense against this deflection loses the queen for a rook: a full, clean material win rather than a mating one."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Re8#",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The rank falls",
+          "body": "Checkmate. The king can't move — f7, g7, and h7 are its own pawns, and f8 and h8 are both covered by the rook along the now-open rank. Nothing can capture on e8 (the queen on b7 isn't aligned with it) and nothing can block (f8 is the only square between rook and king, and Black has no piece that can reach it). This is what 'deflected' actually means: the queen never left the board, it just stopped being able to help."
+        },
+        {
+          "type": "strategy",
+          "title": "The steadier defense",
+          "body": "Black's better try was to keep the queen on the rank — b8, c8, d8, or f8 all still cover e8. It doesn't save everything (see the note below), but it avoids getting mated outright, which is the difference deflection punishes hardest: leaving the assigned post entirely.",
+          "concepts": [
+            "deflection"
+          ]
+        }
+      ],
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "e1",
+          "to": "e8"
+        },
+        {
+          "type": "square",
+          "square": "f8"
+        },
+        {
+          "type": "square",
+          "square": "h8"
+        }
+      ]
+    }
+  ]
+}

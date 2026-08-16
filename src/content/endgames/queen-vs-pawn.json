@@ -1,0 +1,158 @@
+{
+  "id": "queen-vs-pawn",
+  "catalogCode": "E010",
+  "title": "Queen versus the Seventh-Rank Pawn",
+  "subtitle": "Checks buy tempo; tempo buys the king a path in",
+  "type": "endgame",
+  "difficulty": "intermediate",
+  "summary": "A lone queen beats a lone king-and-pawn one square from promotion — but only by a precise method: check the king in front of its own pawn, use that tempo to bring your king one step closer, and repeat. At the very edge of the board, rook and bishop pawns break the method entirely and force a draw.",
+  "tags": [
+    "queen endgame",
+    "pawn on the seventh",
+    "stalemate",
+    "rook pawn",
+    "bishop pawn"
+  ],
+  "concepts": [
+    "forcing the king in front of the pawn",
+    "gaining tempo with checks",
+    "stalemate resource",
+    "edge-of-board exceptions"
+  ],
+  "initialFen": "3Q4/1K6/8/8/8/8/3kp3/8 b - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "The method, in one sentence",
+      "body": "Black to move. Black's pawn is one square from queening and defended by its own king — the queen can't just capture it. White's plan is mechanical: check the king so that its only escape square sits directly in front of its own pawn (blocking the pawn's advance), then use the free tempo to walk the White king one square closer. Repeat until the king arrives to help. This works against a pawn on the b-, d-, e-, or g-file every time.",
+      "concepts": [
+        "forcing the king in front of the pawn",
+        "gaining tempo with checks"
+      ]
+    },
+    {
+      "type": "principle",
+      "title": "The rule stops working at the edge of the board",
+      "body": "Rook pawns (a- and h-file) and bishop pawns (c- and f-file) are the exceptions, and they matter more than the main rule — see the note on the final position for exactly how and why they draw."
+    }
+  ],
+  "rootVisual": [
+    { "type": "square", "square": "e2" },
+    { "type": "square", "square": "d2" }
+  ],
+  "line": [
+    "Ke3",
+    {
+      "san": "Qh4",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Starting the checking cycle",
+          "body": "The queen doesn't chase the king randomly — every check is chosen so the only reasonable reply blocks the pawn's own advance."
+        }
+      ]
+    },
+    "Kd2",
+    {
+      "san": "Qd4+",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The point of the check",
+          "body": "Kc2 and Kd1 are the only real replies, and both leave e2 exactly as exposed. Whatever Black plays, White's king gets to edge forward next move for free — that's the whole mechanism in miniature."
+        }
+      ]
+    },
+    "Kc2",
+    "Qe3",
+    "Kd1",
+    "Qd3+",
+    "Ke1",
+    {
+      "san": "Kc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The first step",
+          "body": "This is the payoff from the checks so far — the White king has covered real distance while Black's king was busy running."
+        }
+      ]
+    },
+    "Kf2",
+    "Qd2",
+    "Kf1",
+    "Qf4+",
+    "Kg1",
+    "Qe3+",
+    "Kf1",
+    "Qf3+",
+    "Ke1",
+    {
+      "san": "Kd5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The cycle repeats",
+          "body": "Another full round of checks, another free step for the king. There's no cleverer shortcut — the same forcing pattern just runs again and again until the king is close enough to help."
+        }
+      ]
+    },
+    "Kd2",
+    "Qf2",
+    "Kd1",
+    "Qd4+",
+    "Kc2",
+    "Qe3",
+    "Kd1",
+    "Qd3+",
+    "Ke1",
+    "Ke4",
+    "Kf2",
+    "Qf3+",
+    "Ke1",
+    {
+      "san": "Kd3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Arrived",
+          "body": "The White king now stands right next to the action. Black is completely out of useful checks and out of squares to run the defending king to."
+        }
+      ]
+    },
+    "Kd1",
+    {
+      "san": "Qxe2+",
+      "importance": "critical",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The pawn falls",
+          "body": "With the king finally in supporting distance, the queen simply takes the pawn with check. From here, king and queen against a bare king is an elementary win. This is exactly why the technique works against a center or knight pawn: at no point did Black's king have a corner or an edge to hide behind."
+        },
+        {
+          "type": "warning",
+          "title": "The rook pawn: no tempo to gain",
+          "body": "This same plan collapses completely against an a- or h-pawn. With the king shut into the very corner, White's checks run out of squares that force anything: for example, 1.Qd4+ Kb1 2.Qb4+ Kc2 3.Qa3 Kb1 4.Qb3+ Ka1! and now White has nothing better than to let the king back out — any king move (say 5.Ka8??) stalemates Black outright, since a1's only flight squares are covered by the queen and its own pawn blocks the last one. The corner gives the defending king a stalemate refuge the checking method can never crack."
+        },
+        {
+          "type": "warning",
+          "title": "The bishop pawn: a narrow winning zone",
+          "body": "A c- or f-pawn is drawn too, unless White's king is already close enough to reach b3 or d2 (for a c-pawn) in one move, near enough to join the mating attack the instant the king is checked out of the corner. Too far away, and the same stalemate trick appears: after ...1.Qb6+ Ka1 2.Qd4+ Kb1 3.Qb4+ Ka1 4.Qc3+ Kb1 5.Qb3+ Ka1!, capturing the pawn (Qxc2??) stalemates Black immediately — the king has nowhere to go and isn't in check. White must know in advance whether the king is inside the winning zone; general technique alone doesn't decide it."
+        }
+      ]
+    },
+    {
+      "san": "Kc1",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "What you should have noticed",
+          "body": "The winning method is entirely mechanical for a center or knight pawn — checks force the king in front of its own pawn, and each check is a free tempo for the attacking king. But that method depends on the defending king always having somewhere worse to go. On the a-, c-, f-, and h-files it sometimes doesn't, and the exact same checks that win everywhere else hand Black a stalemate instead. Exact knowledge of these two exceptions matters more than fluency with the general technique, precisely because they're invisible until you calculate them."
+        }
+      ]
+    }
+  ]
+}

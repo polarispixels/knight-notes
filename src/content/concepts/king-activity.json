@@ -1,0 +1,136 @@
+{
+  "id": "king-activity",
+  "catalogCode": "C010",
+  "title": "King Activity",
+  "subtitle": "A liability with queens on, a monster once they're off",
+  "type": "concept",
+  "difficulty": "beginner",
+  "summary": "For most of the game the king is a target to protect, tucked away behind castled pawns. But once queens and the other attacking pieces leave the board, that same king has nothing left to fear and becomes one of the strongest pieces available — and the side that notices the switch first, and marches their king forward immediately, is often the side that wins.",
+  "tags": ["king activity", "king safety", "endgame technique", "king and pawn endgame"],
+  "concepts": [
+    "king activity",
+    "the endgame king",
+    "key squares",
+    "activating the king"
+  ],
+  "initialFen": "4k3/8/8/3P4/2K5/8/8/8 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "The king's phase change",
+      "body": "With queens and rooks roaming the board, walking the king toward the center is usually a fast way to lose — it's a huge, slow, unarmored target for exactly the pieces that are still on the board. But once the material that can actually attack it is gone — queens especially, and most of the rooks — the same walk becomes safe, and the king's own fighting strength (it defends and attacks eight squares at once) suddenly matters more than almost anything else on the board. Capablanca vs. Tartakower shows this switch happening inside a single game: the king that hid on g8 for thirty moves marches Kg3-h4-g5-f6 once the position simplifies, and that march wins.",
+      "concepts": ["king activity"]
+    },
+    {
+      "type": "principle",
+      "title": "Why timing is the whole lesson",
+      "body": "In the position below there is nothing left to fear — just two kings and a pawn — so the only question is who starts marching first. The king-and-pawn opposition study covers the technique once both kings have arrived at the critical squares; this lesson is about the move before that, the moment the position simplifies and activating the king stops being optional."
+    }
+  ],
+  "rootVisual": [
+    { "type": "square", "square": "c6" },
+    { "type": "square", "square": "d6" },
+    { "type": "square", "square": "e6" }
+  ],
+  "line": [
+    {
+      "san": "Kc5",
+      "importance": "critical",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Activate the king now",
+          "body": "No queens, no rooks, nothing on the board that can give check or deliver mate — the instant that becomes true, the correct king move is toward the action, immediately, not next move or the move after. White heads straight for the squares in front of the pawn.",
+          "concepts": ["activating the king"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c4", "to": "c6" }],
+      "variations": [
+        [
+          {
+            "san": "Kb3",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Treating a won position like it can wait",
+                "body": "This isn't a blunder in the usual sense — nothing is attacked, nothing hangs. It just spends the one resource that mattered: the tempo. A king move that doesn't head toward the key squares is, in this position, exactly as bad as a real mistake."
+              }
+            ]
+          },
+          "Ke7",
+          "Kc4",
+          {
+            "san": "Kd6",
+            "importance": "critical",
+            "classification": "critical",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "One wasted move, one lost half of the board",
+                "body": "Black's king needed exactly two moves to reach d6 regardless of what White did — the only question was whether White's two moves toward the key squares came before or after the single move just spent elsewhere. They came after. Black's king now sits on the square directly in front of the pawn, and the king-and-pawn opposition study covers exactly what happens from here: White can never dislodge it. Not a losing position, but the win is gone — a draw, purely because activation started one move too late.",
+                "concepts": ["key squares", "activating the king"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Ke7",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black's king races back too. Both kings need the same number of moves to reach the squares in front of the pawn — so does the outcome come down to who happens to move first?"
+        }
+      ]
+    },
+    {
+      "san": "Kc6",
+      "importance": "critical",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "First to the key square wins the race",
+          "body": "White's king arrives on c6 — one of the three squares (c6, d6, e6) that control the pawn's path to promotion — one full tempo ahead of Black. That single tempo is the entire game: Black's king can never again get closer than the e-file to the action, the pawn will queen with full protection, and there was no way to see any of that coming from the starting position except by counting whose king had less distance to cover.",
+          "concepts": ["key squares", "king activity"]
+        }
+      ]
+    },
+    {
+      "san": "Kd8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Nothing helps anymore — every black king move here loses the same way, because c6 already controls the pawn's whole road home."
+        }
+      ]
+    },
+    "d6",
+    "Ke8",
+    {
+      "san": "d7+",
+      "annotations": [
+        {
+          "type": "tactic",
+          "body": "Escorted the entire way by a king Black's own king could never get close enough to challenge, the pawn queens by force."
+        }
+      ]
+    },
+    "Kf8",
+    {
+      "san": "d8=Q+",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "The winning idea was never a clever calculation — it was recognizing the exact moment the king stopped being a target and started being a piece, and using that moment immediately. Compare the variation, where White treats the position as if it still needs careful, patient preparation and loses the only thing that mattered: the tempo. Recognize the phase change by what's left on the board, not the move number — once the pieces that can attack a king are gone, get yours moving before your opponent's does.",
+          "concepts": ["king activity", "activating the king"]
+        }
+      ]
+    }
+  ]
+}

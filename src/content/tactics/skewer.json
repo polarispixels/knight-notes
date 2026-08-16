@@ -1,0 +1,178 @@
+{
+  "id": "skewer",
+  "catalogCode": "TA006",
+  "title": "The Skewer",
+  "subtitle": "A pin with the values flipped",
+  "type": "pattern",
+  "difficulty": "beginner",
+  "summary": "A skewer attacks two pieces on the same line, just like a pin — but the order is reversed: the piece forced to move first is the one you'd rather it kept protecting, and what's behind it falls the moment it steps aside. This study shows a rook skewering a king and queen, then the same shape winning a king and rook instead.",
+  "tags": [
+    "skewer",
+    "pin vs skewer",
+    "king and queen",
+    "endgame technique"
+  ],
+  "concepts": [
+    "skewer",
+    "pin",
+    "double attack",
+    "forcing moves"
+  ],
+  "initialFen": "4q3/5ppp/8/4k2r/8/8/5PPP/R5K1 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "The pin, in reverse",
+      "body": "A pin and a skewer attack the exact same shape — two enemy pieces lined up on a rank, file, or diagonal. What separates them is which piece is closer to the attacker. In a pin, the closer piece is the less valuable one, and it often can't move at all. In a skewer, the closer piece is the one that MUST move — typically because it's in check — and whatever hides behind it, however valuable, simply gets picked up next.",
+      "concepts": [
+        "skewer",
+        "pin"
+      ]
+    },
+    {
+      "type": "principle",
+      "title": "What to scan for",
+      "body": "Look at the enemy king. Is anything else — a queen, a rook, an undefended piece of any kind — standing on the same rank, file, or diagonal further back? If a checking piece can reach that line, the king has no choice but to move, and the second piece is defenseless the instant it does."
+    }
+  ],
+  "rootVisual": [
+    { "type": "square", "square": "e5" },
+    { "type": "square", "square": "e8" }
+  ],
+  "line": [
+    {
+      "san": "h3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "No rush",
+          "body": "The rook on a1 already has a clear road to the e-file whenever White wants it. (There's a second skewer sitting in this same position too — see the variation, where the rook picks off a rook instead of a queen using the identical idea.)"
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Ra5+",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The same shape, a smaller prize",
+                "body": "This time the rook checks along the fifth rank instead of the e-file, and it's Black's own rook on h5 sitting behind the king rather than the queen. The value of the second target changes; the mechanism doesn't. This exact pattern — check the king, collect whatever's queued up on the same line — is precisely what decides races to promote a pawn: whichever rook delivers this check the instant the new queen appears wins it outright.",
+                "concepts": [
+                  "skewer"
+                ]
+              }
+            ],
+            "visual": [
+              { "type": "arrow", "from": "a1", "to": "h5" },
+              { "type": "square", "square": "h5" }
+            ]
+          },
+          {
+            "san": "Kf6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Off the rank, same as before",
+                "body": "The king steps away from the check, and the rook on h5 is left with nothing standing in front of it anymore."
+              }
+            ]
+          },
+          {
+            "san": "Rxh5",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "A rook for nothing",
+                "body": "A smaller haul than winning the queen, but won by the identical idea — recognize the shape once, and it pays off at every material level, from a stray rook in the middlegame to a freshly promoted queen in the endgame."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "g6",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black's king on e5 and queen on e8 sit on the same open file. Is there a White move that puts that file to immediate use — one that Black is legally required to answer, no matter what it costs?"
+        }
+      ]
+    },
+    {
+      "san": "Re1+",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The skewer lands",
+          "body": "The rook swings onto the open e-file and checks the king — the closer, 'less important' target from a pure material standpoint, but the one the rules force Black to deal with first. The queen behind it, worth far more, gets no vote in the matter.",
+          "concepts": [
+            "skewer"
+          ]
+        },
+        {
+          "type": "principle",
+          "title": "Compare this to a pin",
+          "body": "If the queen were on e5 and the king behind it on e8, this exact geometry would instead be an absolute pin — the queen would be nailed in place, unable to move at all. Swap which piece stands in front, and the whole nature of the tactic flips from 'this piece can never move' to 'this piece must move right now, and something worse happens because of it.'",
+          "concepts": [
+            "pin",
+            "skewer"
+          ]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "a1", "to": "e8" },
+        { "type": "square", "square": "e5" },
+        { "type": "square", "square": "e8" }
+      ]
+    },
+    {
+      "san": "Kf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Any square off the file loses the same way",
+          "body": "The king has several legal replies, but every one of them takes it off the e-file — and none of them can also carry the queen to safety. That's the defining feature of a skewer: the forcing move and the material loss are impossible to separate."
+        }
+      ]
+    },
+    {
+      "san": "Rxe8",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Cashing in",
+          "body": "With the king gone from the file, the rook simply walks down and takes the queen. Nothing ever defended e8 — the queen's only protection was the king standing in front of it, and that protection evaporated the moment check was called."
+        }
+      ]
+    },
+    {
+      "san": "Rxh3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A consolation prize",
+          "body": "Black's rook grabs a pawn on the way back, but the game was already decided — a queen for a rook and a pawn is a crushing result from a single well-timed check."
+        }
+      ]
+    },
+    {
+      "san": "Kf1",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "What you should have noticed",
+          "body": "Scan for the enemy king sharing a line with something valuable behind it, and ask whether you have a piece that can reach that line with check. A checking skewer is unstoppable, since the front piece is legally required to move. Keep the pin/skewer distinction straight by asking which piece is closer to your attacker: closer-and-frozen is a pin, closer-and-forced-to-move is a skewer. This same shape is also the standard way rook endings decide promotion races — whichever side lands this exact check the instant a pawn crowns wins the brand-new queen for nothing, before it ever gets to move.",
+          "concepts": [
+            "skewer",
+            "pin"
+          ]
+        }
+      ]
+    }
+  ]
+}

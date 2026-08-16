@@ -1,0 +1,142 @@
+{
+  "id": "triangulation",
+  "catalogCode": "E012",
+  "title": "Triangulation",
+  "subtitle": "Losing a move on purpose",
+  "type": "endgame",
+  "difficulty": "advanced",
+  "summary": "Black holds the opposition and the draw looks secure — until White's king takes three moves to travel a distance that would normally take one, arriving back on the same square but having quietly handed Black the move instead. That single lost tempo is enough to win.",
+  "tags": [
+    "king and pawn endgame",
+    "triangulation",
+    "opposition",
+    "zugzwang"
+  ],
+  "concepts": [
+    "triangulation",
+    "opposition",
+    "zugzwang",
+    "wasting a tempo"
+  ],
+  "initialFen": "8/1p1k4/1P6/2PK4/8/8/8/8 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "Black holds the opposition — for now",
+      "body": "White to move. The kings face each other on the d-file with one square between them, which means Black currently holds the opposition: whoever is NOT forced to move has the advantage (see the companion study on opposition, king-pawn-opposition). If it were Black's move in this exact position, Black's king would have to give way and White would break through. It isn't Black's move. White's entire task is to make it Black's move — without changing anything else about the position.",
+      "concepts": [
+        "opposition"
+      ]
+    },
+    {
+      "type": "principle",
+      "title": "Only the king can waste a move like this",
+      "body": "A pawn move is irreversible and a rook or bishop can rarely return to its exact square in extra moves without losing time somewhere else. A king, with room to maneuver, can take a longer route to the very same square — and if that route takes an odd number of moves more than the opponent needs to answer it, the side to move has quietly flipped. That's triangulation: deliberately losing a tempo because in this exact position, the tempo is the only thing worth having."
+    }
+  ],
+  "rootVisual": [
+    { "type": "square", "square": "d5" },
+    { "type": "square", "square": "d6" },
+    { "type": "square", "square": "d7" }
+  ],
+  "line": [
+    {
+      "san": "Ke5",
+      "importance": "critical",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Stepping off the file on purpose",
+          "body": "This gives up the direct opposition — but only for a moment. White is about to walk a triangle: e5, then d4, then back to d5, three moves to return to the starting square. The question is whether Black can match that detour in the same number of moves without ending up worse off.",
+          "concepts": [
+            "triangulation"
+          ]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Ke4",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The direct approach only draws",
+                "body": "Shifting to a new file in one move, rather than three, doesn't gain anything: Black just mirrors onto the matching file and the same standoff reappears one file over, with White still needing to move next. Every direct try — Kc4, Ke4, or simply staying put — runs into this same wall. Only the three-move detour manages to hand Black the move instead."
+              }
+            ]
+          },
+          {
+            "san": "Ke6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Mirrored, not beaten",
+                "body": "Black's king re-establishes the exact same opposition relationship one file to the right. Nothing has been gained — White is no closer to zugzwang than at move one."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Kc6",
+    {
+      "san": "Kd4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Second leg of the triangle",
+          "body": "One more step, still not back on d5 yet — and still not in direct opposition, so Black has no immediate problem to solve."
+        }
+      ]
+    },
+    "Kd7",
+    {
+      "san": "Kd5",
+      "importance": "critical",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Same position, opposite move",
+          "body": "White's king is back on d5, and Black's king is back on d7 — the identical piece placement as the very first diagram. The only thing that changed is whose move it is. Black is now in zugzwang: every king move gives up a key square, and there is no other piece to move instead.",
+          "concepts": [
+            "zugzwang",
+            "triangulation"
+          ]
+        }
+      ]
+    },
+    "Kc8",
+    {
+      "san": "Ke6",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The breakthrough",
+          "body": "With Black's king forced off d7, White's king simply walks around it toward the kingside corner, using exactly the outflanking idea from the basic opposition technique — now with king and pawns fully cooperating."
+        }
+      ]
+    },
+    "Kd8",
+    "Kd6",
+    "Kc8",
+    "Ke7",
+    "Kb8",
+    "Kd7",
+    "Ka8",
+    {
+      "san": "c6",
+      "importance": "critical",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "What you should have noticed",
+          "body": "Black's king has been herded into the corner and the pawns break through — White is winning easily from here. Trace the moment that decided everything: it wasn't any of these last several moves, it was move one, where White chose a three-move detour over a one-move approach specifically because the detour handed Black the move instead of taking it. In king endings, a wasted move can be a weapon — but only a king, with room to roam, can afford to waste one."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "passed-pawns",
+  "catalogCode": "C007",
+  "title": "Passed Pawns",
+  "subtitle": "A pawn with a clear road, and how to stop one",
+  "type": "concept",
+  "difficulty": "beginner",
+  "summary": "A passed pawn has no enemy pawn on its own file or either neighboring file to stand in its way — nothing but pieces can ever stop it. This lesson shows where passed pawns come from (a pawn majority, traded down), how to help one forward (pieces behind, not in front), and the standard way to neutralize one before it ever gets moving: the blockade.",
+  "tags": ["passed pawns", "pawn majority", "blockade", "Nimzowitsch", "pawn structure"],
+  "concepts": [
+    "passed pawns",
+    "pawn majority",
+    "protected passed pawn",
+    "blockade",
+    "pieces behind the pawn"
+  ],
+  "initialFen": "3r2k1/pp3ppp/4n3/8/8/8/PPP1NPP1/3R2K1 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What makes a pawn 'passed'",
+      "body": "A pawn is passed when no enemy pawn shares its file or either neighboring file — meaning no pawn can ever capture it or block its path by standing in front of it. Here White has three queenside pawns (a2, b2, c2) against Black's two (a7, b7): a 3-vs-2 majority. Majorities like this are the most common source of passed pawns, since trading pawns off one-for-one on that wing always leaves one pawn with nobody left to answer it.",
+      "concepts": ["passed pawns", "pawn majority"]
+    },
+    {
+      "type": "principle",
+      "title": "Two remedies, two techniques",
+      "body": "Once a pawn is passed, only pieces can stop it — so this lesson has two halves. The main line shows the attacking side's job: create the passer, then support it with pieces from behind so it can't be won for free. The variation shows the defending side's standard answer: blockade it, ideally with a knight, which loses none of its power sitting still directly in front of the pawn. (A protected passed pawn — one defended by a friendly pawn rather than a piece — is harder still to blockade or attack, since capturing it just costs a pawn in return; watch for that shape in other games even though this position doesn't have one.) The endgame studies on outside passed pawns and connected passed pawns pick up where this one leaves off, once a passer has to be walked home."
+    }
+  ],
+  "rootVisual": [
+    { "type": "square", "square": "a2" },
+    { "type": "square", "square": "b2" },
+    { "type": "square", "square": "c2" }
+  ],
+  "line": [
+    "b4",
+    "b6",
+    {
+      "san": "Rc1",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Pieces behind, not in front",
+          "body": "Before the pawn even exists, the rook takes its post on the file it will travel down. A piece standing in front of its own passed pawn only blocks it; a piece standing behind pushes it and stays safe from counterattack the whole way. This one habit is worth more than any amount of calculation.",
+          "concepts": ["pieces behind the pawn"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c1", "to": "c8" }]
+    },
+    "Rc8",
+    "c4",
+    "Kf8",
+    {
+      "san": "c5",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White is about to trade off the b-pawns. Once they're gone, what happens to the pawn left on the c-file?"
+        }
+      ]
+    },
+    "bxc5",
+    {
+      "san": "bxc5",
+      "importance": "critical",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The majority becomes a passer",
+          "body": "The trade is done: Black's b-pawn is gone, and White's pawn now sits on c5 with no black pawn left on the b- or d-file to oppose it. It is genuinely passed — and it is not hanging: the rook on c1 defends it down the file the instant that file cleared, so Black gets nothing from grabbing it with the knight or rook.",
+          "concepts": ["passed pawns", "pawn majority"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "c5" }]
+    },
+    {
+      "san": "Ke7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Black weighs the alternatives",
+          "body": "Taking the pawn loses material outright (the rook on c1 recaptures), so Black looks for another plan. Two very different tries follow: giving ground and activating the king instead (played here), or rushing a knight around to blockade the pawn before it can build any momentum (the variation)."
+        }
+      ],
+      "variations": [
+        [
+          "Nd8",
+          "a4",
+          {
+            "san": "Nc6",
+            "importance": "critical",
+            "classification": "critical",
+            "annotations": [
+              {
+                "type": "question",
+                "body": "The knight has taken two moves to get here instead of one. Was it worth it?"
+              },
+              {
+                "type": "key-idea",
+                "title": "Nimzowitsch's blockade",
+                "body": "'The passed pawn's lust to expand is the origin of many a combination' — Nimzowitsch's point was that a passed pawn is dangerous precisely because it wants to advance, so the cure is to physically deny it that one square. A knight is the ideal blockader: parked on c6, it loses almost nothing of its own value (it still eyes eight squares) while completely paralyzing the pawn — c5-c6 is simply illegal now, pawns can't capture straight ahead, and White's own rook on c1 can't even see past its own pawn to help. As long as the knight stays exactly here, the pawn goes nowhere.",
+                "concepts": ["blockade"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "a4",
+    "Kd7",
+    {
+      "san": "c6",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "What you should have noticed",
+          "body": "Because Black gave up the blockading square instead of occupying it, the pawn simply walked forward, still defended the whole way by the rook that took its post four moves in advance. Compare the two outcomes: give ground, and the pawn reaches the sixth rank and ties a rook to babysitting the queening square forever; blockade it early with a knight instead, and it never moves again. Recognize the shape from the pawn count alone — a majority with no opposing pawn on the extra file always becomes a passer once the trades happen, and the only real question is whether the other side gets a piece to the right square before it starts rolling.",
+            "concepts": ["passed pawns", "blockade", "pieces behind the pawn"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "c6" }]
+    }
+  ]
+}

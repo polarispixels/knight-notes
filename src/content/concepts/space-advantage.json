@@ -1,0 +1,182 @@
+{
+  "id": "space-advantage",
+  "catalogCode": "C009",
+  "title": "Space",
+  "subtitle": "More room for your pieces — with running costs attached",
+  "type": "concept",
+  "difficulty": "intermediate",
+  "summary": "A space advantage means more squares your pieces can safely use and fewer your opponent has. It's a real, lasting asset — the Maroczy Bind shown here is a textbook example — but every advanced pawn that creates space also has to be defended, and a side that keeps grabbing more of it can overextend into a wall of fixed, attackable targets. The cramped side isn't lost either: trades and a well-timed break are the standard cure.",
+  "tags": ["space", "Maroczy Bind", "pawn structure", "overextension", "restraint"],
+  "concepts": [
+    "space advantage",
+    "restraint",
+    "freeing trades",
+    "pawn breaks",
+    "overextension"
+  ],
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What space actually buys you",
+      "body": "Every pawn pushed forward claims squares behind it for pieces to use, and denies those same squares to the opponent. More space typically means your pieces have more good squares to reroute to and your opponent's have fewer — but the pawns doing the claiming still need defending, and a piece with nowhere useful to go isn't helped by having lots of empty board around it. Space is an asset with upkeep, not a free gift.",
+      "concepts": ["space advantage"]
+    }
+  ],
+  "line": [
+    "e4",
+    "c5",
+    "Nf3",
+    "Nc6",
+    "d4",
+    "cxd4",
+    "Nxd4",
+    "g6",
+    {
+      "san": "c4",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White has only played two central pawn moves that stuck (d4 and now c4) — hardly a wall of pawns. Why is this move considered such a major space-gaining decision that the whole structure is named after it?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The Maroczy Bind",
+          "body": "Together, c4 and e4 control both b5 and d5 — the two squares Black's pieces, especially a knight, would most like to use. Denying key squares is just as much a space advantage as occupying rank after rank; Black's whole position will spend the rest of the game short of a good outpost for its minor pieces.",
+          "concepts": ["space advantage"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "b5" },
+        { "type": "square", "square": "d5" }
+      ]
+    },
+    "Bg7",
+    "Nc3",
+    "Nf6",
+    "Be2",
+    "O-O",
+    "O-O",
+    "d6",
+    "Be3",
+    "Nxd4",
+    "Qxd4",
+    "Be6",
+    {
+      "san": "Rfd1",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White simply improves — no need to rush the space advantage forward when it's already restricting Black's options. Compare this patient approach with the variation, where White tries to grab even more, too soon."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "b4",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Overextending",
+                "body": "This looks like more of the same medicine — more space, more restriction. But b4 doesn't defend anything yet or finish development; it just commits another pawn forward, and a pawn advanced without support is a pawn that eventually has to be defended by pieces that would rather be doing something else."
+              }
+            ]
+          },
+          {
+            "san": "a5",
+            "importance": "important",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "Punishing the overreach",
+                "body": "Black immediately strikes at the base of the advance. White's queenside pawns are now committed: either they push further (fixing themselves as long-term targets) or trade off (handing Black the open lines instead).",
+                "concepts": ["overextension"]
+              }
+            ]
+          },
+          "b5",
+          "Nd7",
+          "a4",
+          {
+            "san": "Nb6",
+            "importance": "critical",
+            "classification": "critical",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The running costs come due",
+                "body": "Two moves ago these pawns were a space advantage; now they're a fixed pawn chain with the knight already attacking its base on a4, and neither pawn can ever be defended by another pawn again. This is the overextension trap: space is only an asset while it can be maintained. Pushed past that point, the same pawns that cramped the opponent become permanent weaknesses the opponent's pieces attack instead.",
+                "concepts": ["overextension", "space advantage"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "a5",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Restraint before counterattack",
+          "body": "Rather than waiting passively, Black rules out b4 forever with a single move. This is the first half of the cramped side's remedy: before trying to free the position, stop the space advantage from growing any further.",
+          "concepts": ["restraint"]
+        }
+      ]
+    },
+    "Rac1",
+    {
+      "san": "Nd7",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "The cramped side's other remedy: trade pieces",
+          "body": "The knight heads for c5, offering itself for a trade rather than looking for a square of its own to improve on. This is the same medicine the Queen's Gambit Declined study prescribes for a cramped position — Capablanca's freeing maneuver: when your pieces have nowhere good to go, don't invent squares for them, remove the opponent's pieces instead. Fewer pieces on the board means the extra space matters less, because there's less left to fight over.",
+          "concepts": ["freeing trades"]
+        }
+      ]
+    },
+    "Qd2",
+    {
+      "san": "Nc5",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The knight lands on a real outpost and attacks e4 in the bargain — White more or less has to address the trade offer now."
+        }
+      ]
+    },
+    "Bxc5",
+    {
+      "san": "dxc5",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The trade pays off",
+          "body": "One pair of minor pieces is gone, and the recapture does something else useful: it clears the d6-pawn out of the long diagonal, finally giving the g7-bishop a clear look at the whole board. A single well-chosen trade did more for Black's position than several moves of maneuvering could have.",
+          "concepts": ["freeing trades"]
+        }
+      ]
+    },
+    "Qxd8",
+    "Raxd8",
+    "Rxd8",
+    "Rxd8",
+    "b3",
+    {
+      "san": "b6",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "What you should have noticed",
+          "body": "White still technically has more space — the e4-pawn and the c4/b3 duo still claim more of the board than Black's pawns do. But three trades later, that space barely matters: there aren't enough pieces left to be cramped by it, and Black's position is completely comfortable. Space is real, but it's a means, not an end — it's only worth what it lets your pieces do, and the side facing it can shrink its value with restraint and the right trades just as surely as the side with it can lose that value by overextending.",
+          "concepts": ["space advantage", "freeing trades", "restraint"]
+        }
+      ]
+    }
+  ]
+}

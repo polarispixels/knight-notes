@@ -1,0 +1,188 @@
+{
+  "id": "minority-attack",
+  "catalogCode": "C008",
+  "title": "The Minority Attack",
+  "subtitle": "Fewer pawns, attacking anyway — the Carlsbad plan",
+  "type": "concept",
+  "difficulty": "intermediate",
+  "summary": "In the Carlsbad structure — reached from the Exchange Queen's Gambit Declined — White has only two queenside pawns to Black's three, yet it is White who attacks there with b4-b5. The point is not to win a pawn: it's to trade off White's b-pawn for Black's c-pawn and leave a permanent target behind, a backward pawn on a half-open file. Black's answer is a race of their own, storming the kingside while the queenside grinds on.",
+  "tags": ["Carlsbad structure", "minority attack", "Queen's Gambit Declined", "backward pawn", "pawn structure"],
+  "concepts": [
+    "minority attack",
+    "the Carlsbad structure",
+    "backward pawn",
+    "half-open file",
+    "counterplay",
+    "creating weaknesses"
+  ],
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "Why a minority attacks a majority",
+      "body": "It sounds backward: White has only two pawns on the queenside (a and b) against Black's three (a, b, and c), yet White is the one who pushes forward there. The trick is that the attack was never about winning a pawn race — it's about forcing a trade that leaves one of Black's pawns without a neighbor to defend it. Two attackers against three defenders is exactly enough, because only one exchange is needed to create the damage.",
+      "concepts": ["minority attack"]
+    },
+    {
+      "type": "historical",
+      "title": "Where this structure comes from",
+      "body": "This is the Carlsbad structure, reached whenever the Exchange Queen's Gambit Declined trades on d5 and Black recaptures with the e-pawn. The Queen's Gambit Declined study on classical resistance mentions this exact transformation — its c6-d5-e6 triangle, if White ever trades on d5, turns into precisely the position below.",
+      "concepts": ["the Carlsbad structure"]
+    }
+  ],
+  "line": [
+    "d4",
+    "d5",
+    "c4",
+    "e6",
+    "Nc3",
+    "Nf6",
+    "cxd5",
+    {
+      "san": "exd5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The Carlsbad structure appears",
+          "body": "Recapturing with the e-pawn leaves symmetric pawns on d4 and d5, but with White's c-pawn already gone. That single missing pawn is the whole story of this lesson."
+        }
+      ]
+    },
+    "Bg5",
+    {
+      "san": "c6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black reinforces d5 the natural way. But count the queenside pawns now: White has a2 and b2 — two. Black has a7, b7, and c6 — three. Black holds the queenside majority; White holds the minority. This lesson is about what White does with it."
+        }
+      ]
+    },
+    "e3",
+    "Be7",
+    "Bd3",
+    "O-O",
+    "Qc2",
+    "Nbd7",
+    "Nf3",
+    "Re8",
+    "O-O",
+    "Nf8",
+    "Rab1",
+    "Ng6",
+    {
+      "san": "b4",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The minority attack begins",
+          "body": "The rook took its post on b1 first, and now the pawn follows it. The plan is simple to state and slow to execute: push b4-b5, invite Black to recapture on c6, and leave that pawn permanently short of a neighbor to defend it.",
+          "concepts": ["minority attack"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b4", "to": "b5" }]
+    },
+    "Ne4",
+    "Bxe7",
+    "Rxe7",
+    {
+      "san": "b5",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The pawn arrives at b5, offering the trade on c6. Black has two very different ways to answer it — accept the weakness quietly, or capture immediately and take on a different problem instead. What's the difference?"
+        }
+      ]
+    },
+    {
+      "san": "Rb8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Declining to capture",
+          "body": "Black leaves the tension alone — there's nothing better than letting White carry out the trade. The rook simply gets out of any future pin down the b-file first. The alternative, snatching on b5 right away, is shown in the variation."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "cxb5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Capturing instead",
+                "body": "This avoids the backward pawn entirely — but look at what's left behind."
+              }
+            ]
+          },
+          "Nxb5",
+          "a6",
+          {
+            "san": "Nc3",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "A different weakness, not no weakness",
+                "body": "The knight retreats, its job already done. Black's c-pawn is completely gone now, not just weakened — and that leaves the d5-pawn with no pawn on the c-file or the e-file to ever defend it again. That is the isolated queen's pawn, the same structural problem covered elsewhere in this series, just arrived at from the other direction. Trading on b5 doesn't dodge the minority attack's point; it just trades one long-term target for another.",
+                "concepts": ["minority attack"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "bxc6",
+    {
+      "san": "bxc6",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The target is created",
+          "body": "This is what the whole plan was for. Black's c-pawn has no pawn on the b-file left to defend it — it's backward, stuck on a half-open file that White's rooks already occupy. Nobody won any material; White simply traded a pawn nobody could keep for a pawn that can never quite be safe again. That backward pawn, not some tactical shot, is the entire point of the minority attack.",
+          "concepts": ["backward pawn", "half-open file"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "c6" },
+        { "type": "arrow", "from": "c1", "to": "c6" }
+      ]
+    },
+    "Rfc1",
+    {
+      "san": "f5",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Black's race: the kingside",
+          "body": "A weak pawn is only worth as much as the time it takes to actually win it, and Black knows White's rooks and queen need several more moves to finish the job on c6. So Black opens a second front, pushing kingside pawns toward White's king. This is the standard shape of a minority-attack middlegame: a slow, safe queenside squeeze against a faster, riskier kingside storm — whoever's plan lands first tends to win.",
+          "concepts": ["counterplay"]
+        }
+      ]
+    },
+    "Na4",
+    "Qd6",
+    "Nc5",
+    "Nxc5",
+    "Qxc5",
+    "Qc7",
+    "a4",
+    {
+      "san": "f4",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "What you should have noticed",
+          "body": "Neither side has anything to show on the scoreboard yet — no pawn has actually fallen — but both plans are fully declared. White's queen and rooks are trained on a pawn that can never be defended by another pawn again; Black's kingside pawns are rolling forward looking for the same kind of permanent damage against White's king. Recognize the pattern by the pawn count alone: whenever one side has a queenside pawn majority built from a lone extra pawn (here, Black's spare c-pawn against White's a- and b-pawns), the side with fewer pawns there can still attack, because the goal was never material — it was a target that lasts the rest of the game.",
+          "concepts": ["minority attack", "backward pawn", "counterplay"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f5", "to": "f4" }]
+    }
+  ]
+}

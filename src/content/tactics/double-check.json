@@ -1,0 +1,132 @@
+{
+  "id": "double-check",
+  "catalogCode": "TA007",
+  "title": "Double Check",
+  "subtitle": "Two checks, one legal answer",
+  "type": "pattern",
+  "difficulty": "intermediate",
+  "summary": "A discovered check already gives the mover two threats at once. A double check goes further: the moving piece checks the king itself, at the very same instant it unmasks a second piece giving check along a completely different line. Blocking and capturing both stop working, because there are two separate attacks to answer and only one move to answer with — the king must run, or there's nowhere for it to run to at all.",
+  "tags": [
+    "double check",
+    "checkmate",
+    "discovered check",
+    "back rank"
+  ],
+  "concepts": [
+    "double check",
+    "checkmate patterns",
+    "discovered attack",
+    "king safety"
+  ],
+  "initialFen": "3rkr2/3p2pp/8/8/4N3/8/5PPP/4R1K1 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "Why only the king can answer",
+      "body": "Check can normally be answered three ways: move the king, block the line, or capture the checking piece. A double check comes from two different pieces along two different lines at once. You cannot block two lines with one move. You cannot capture two pieces with one move (unless, vanishingly rarely, one move captures both — never the case here). That leaves exactly one option, always: move the king.",
+      "concepts": [
+        "double check"
+      ]
+    },
+    {
+      "type": "principle",
+      "title": "The geometry behind it",
+      "body": "A double check always comes from a piece that moves and, in the same motion, uncovers a second attacker that was standing behind it. The moving piece supplies one check by landing somewhere that attacks the king directly; the piece it was blocking supplies the other, simply by no longer being blocked. Two pieces, two lines, one move."
+    }
+  ],
+  "rootVisual": [
+    { "type": "arrow", "from": "e1", "to": "e8" },
+    { "type": "square", "square": "e4" }
+  ],
+  "line": [
+    {
+      "san": "g3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A coiled spring",
+          "body": "The knight on e4 is currently blocking its own rook's view of the black king. That's not a weakness — it's a loaded weapon. The moment the knight moves anywhere, the rook's check appears on the board whether the knight's own move threatens anything or not."
+        }
+      ]
+    },
+    "h6",
+    {
+      "san": "h4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Still no rush",
+          "body": "White can afford another spare move — the discovery is available on demand."
+        }
+      ]
+    },
+    {
+      "san": "g6",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Several different knight moves from e4 would uncover the rook's check on e8. Only one of them also attacks the king directly, in its own right, from a completely different angle — and with the black king boxed in by its own rooks and pawns, that difference decides the game outright. Find the square."
+        }
+      ]
+    },
+    {
+      "san": "Nd6#",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The double check",
+          "body": "The knight jumps to d6. That alone checks the king — d6 is a knight's move from e8. At the same instant, the rook on e1 now has a clear line down the e-file to e8, a second, completely independent check. Two checks, two different geometries (a knight's leap and a rook's file), arriving on the same move.",
+          "concepts": [
+            "double check"
+          ]
+        },
+        {
+          "type": "key-idea",
+          "title": "Why it's mate",
+          "body": "Every square next to the king is covered: d7 and f7 have Black's own pawns, d8 and f8 have Black's own rooks, and e7 sits on the rook's checking file. The knight itself also directly attacks f7, so even without the pawn it would still be covered. With every flight square occupied or attacked, and no way to block two separate checking lines or capture two separate checking pieces in one move, Black has nothing at all to play.",
+          "concepts": [
+            "checkmate patterns",
+            "double check"
+          ]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "e4", "to": "d6" },
+        { "type": "arrow", "from": "e1", "to": "e8" },
+        { "type": "square", "square": "e8" }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nc5+",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The nearly-identical move that isn't mate",
+                "body": "This also uncovers the rook's check along the e-file — but c5 doesn't itself attack e8 or f7. It's only a single check, from the rook alone, not a double check. That one missing attacker is the entire difference between mate and merely check.",
+                "concepts": [
+                  "double check"
+                ]
+              }
+            ]
+          },
+          {
+            "san": "Kf7",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "One check, one escape",
+                "body": "With only the rook's check to answer, the king simply steps to f7 — a square the knight would have covered from d6, but doesn't attack from c5. A single discovered check still has to be answered, but the king generally has somewhere to go; a double check is what removes 'somewhere to go' from the list of options.",
+                "concepts": [
+                  "double check",
+                  "discovered attack"
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ]
+}

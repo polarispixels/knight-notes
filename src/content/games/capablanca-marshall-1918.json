@@ -1,0 +1,331 @@
+{
+  "id": "capablanca-marshall-1918",
+  "catalogCode": "G006",
+  "title": "Capablanca vs Marshall",
+  "subtitle": "New York 1918 — the debut of the Marshall Attack",
+  "type": "game",
+  "difficulty": "intermediate",
+  "summary": "Frank Marshall unveils a pawn sacrifice in the Ruy Lopez that had never been played before, throwing everything at Capablanca's king. Capablanca accepts the challenge, calculates his way through a forced tactical storm, hands back material at exactly the right moment, and finishes by converting a queenside pawn majority — a complete demonstration that defense is an active, calculating skill, not a passive one.",
+  "tags": [
+    "Ruy Lopez",
+    "Marshall Attack",
+    "Jose Raul Capablanca",
+    "classic game",
+    "defense"
+  ],
+  "concepts": [
+    "defense",
+    "calculation",
+    "returning material",
+    "king safety",
+    "counterattack"
+  ],
+  "metadata": {
+    "white": "José Raúl Capablanca",
+    "black": "Frank James Marshall",
+    "event": "Manhattan Chess Club Masters",
+    "site": "New York, USA",
+    "date": "1918.10.23",
+    "result": "1-0",
+    "eco": "C89",
+    "opening": "Ruy Lopez: Marshall Attack",
+    "historicalContext": "This game is the birth of an entire opening system: the first time 8...d5 — the Marshall Attack — was played against the world's best defender. According to the famous story, Marshall had kept this pawn sacrifice hidden for years, saving it for a moment when the surprise would matter most. Chess historian Edward Winter's research casts real doubt on that telling — Marshall avoided facing Capablanca's Ruy Lopez with 1...e5 for most of a decade, and the supporting evidence for a long-planned ambush is thin. What's certain is what happened at the board: Capablanca met a completely unfamiliar attack and calculated his way through it with total composure."
+  },
+  "rootAnnotations": [
+    {
+      "type": "historical",
+      "title": "A gambit built for one opponent",
+      "body": "Whether or not Marshall truly held this idea in reserve for years, he clearly built it to surprise Capablanca specifically — and it worked, in the sense that Capablanca had never seen it before. What makes this game instructive isn't that the surprise failed; it's how it failed. Capablanca didn't refute the Marshall Attack by memorizing anything. He refuted it by calculating accurately, move after move, under pressure."
+    }
+  ],
+  "line": [
+    { "san": "e4" },
+    { "san": "e5" },
+    { "san": "Nf3" },
+    { "san": "Nc6" },
+    { "san": "Bb5" },
+    { "san": "a6" },
+    { "san": "Ba4" },
+    { "san": "Nf6" },
+    { "san": "O-O" },
+    { "san": "Be7" },
+    { "san": "Re1" },
+    { "san": "b5" },
+    { "san": "Bb3" },
+    { "san": "O-O" },
+    {
+      "san": "c3",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The main-line Closed Ruy Lopez",
+          "body": "This is the exact position the library's Ruy Lopez study builds toward: White has spent nine moves preparing the central break d4. Marshall is about to answer that quiet plan with the loudest possible reply — blowing the center open himself, before White ever gets to choose the moment.",
+          "concepts": ["pawn breaks"]
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "classification": "novelty",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The Marshall Attack, played for the first time",
+          "body": "Instead of the normal quiet buildup, Black offers a pawn immediately, aiming to tear open the center and the long diagonal toward White's just-castled king while every White piece is still on its starting square. Material is not the point — time and open lines toward the king are.",
+          "concepts": ["sacrifice", "king safety"]
+        }
+      ]
+    },
+    { "san": "exd5" },
+    { "san": "Nxd5" },
+    {
+      "san": "Nxe5",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Marshall has offered a pawn for an attack that hasn't produced a single concrete threat yet. Should White simply take it, or is grabbing material here too dangerous?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Accepting the challenge",
+          "body": "Capablanca takes the pawn. Declining an unclear offer out of caution isn't defense — it's just fear with extra steps. Real defense means working out exactly what the opponent's compensation actually is, and here White judges there isn't enough of it yet to refuse a free pawn.",
+          "concepts": ["defense", "calculation"]
+        }
+      ]
+    },
+    { "san": "Nxe5" },
+    {
+      "san": "Rxe5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A rook that looks exposed",
+          "body": "The rook now sits in the middle of the board, a long way from home — the kind of move that looks greedy in a diagram. Capablanca has already calculated that it can retreat safely, which is the whole difference between a rook that is winning a pawn and a rook that is about to be trapped."
+        }
+      ]
+    },
+    { "san": "Nf6" },
+    { "san": "Re1" },
+    {
+      "san": "Bd6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Marshall doesn't rush to win back his pawn — he brings another piece toward White's king instead, aiming down the b8–h2 diagonal. Patience is part of an attack, too: material comes later, if it comes at all."
+        }
+      ]
+    },
+    { "san": "h3" },
+    {
+      "san": "Ng4",
+      "classification": "interesting",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "A second piece thrown at the king",
+          "body": "Ng4 offers a knight to keep the attack alive rather than retreating it quietly. Marshall is willing to go down more material than he started with if it keeps White's king under fire.",
+          "concepts": ["sacrifice"]
+        }
+      ]
+    },
+    { "san": "Qf3" },
+    {
+      "san": "Qh4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Both of Black's most active pieces now aim at f2 and h2 together. The mating threats are becoming real, not just decorative — this is exactly the kind of position where a defender has to calculate precisely instead of playing on general principles."
+        }
+      ]
+    },
+    { "san": "d4" },
+    {
+      "san": "Nxf2",
+      "classification": "sacrifice",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "A second sacrifice, wagering everything",
+          "body": "Marshall throws in the knight itself, betting that the combined pressure of his queen, bishop, and rooks against White's king is worth more than the piece. This is the real test of the whole Marshall Attack: can White's king actually survive contact, or does the attack simply win by force?",
+          "concepts": ["sacrifice", "king safety"]
+        }
+      ]
+    },
+    { "san": "Re2" },
+    {
+      "san": "Bg4",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White's king has taken real damage and Black's remaining pieces are swarming. What does White have to give back to survive this attack?"
+        }
+      ]
+    },
+    {
+      "san": "hxg4",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Taking what's offered",
+          "body": "Rather than retreat the queen defensively, Capablanca simply captures the bishop. Accurate defense means accepting every piece of material the attacker is willing to part with, as long as the resulting position can actually be held — declining out of nerves only helps the attacker.",
+          "concepts": ["defense"]
+        }
+      ]
+    },
+    { "san": "Bh2+" },
+    { "san": "Kf1" },
+    {
+      "san": "Bg3",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The mating net keeps tightening — White's king is nearly out of squares, and Black's pieces are working together perfectly. This is the sharpest point of the whole game."
+        }
+      ]
+    },
+    {
+      "san": "Rxf2",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Giving material back to survive",
+          "body": "This is the single most important defensive decision of the game. Rather than cling to every extra pawn and piece he's won, Capablanca hands back the exchange to remove Black's most dangerous attacker and simplify the position. This is what 'returning material to consolidate' actually looks like at the board: not a sacrifice for attack, but a trade to survive.",
+          "concepts": ["returning material", "defense"]
+        }
+      ]
+    },
+    { "san": "Qh1+" },
+    { "san": "Ke2" },
+    {
+      "san": "Bxf2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Counting the damage",
+          "body": "Take stock: Black has captured a rook and more, and on paper looks to be doing very well. But White's king, while it has wandered, is no longer caught in a forced mating net — the worst of the storm has passed."
+        }
+      ]
+    },
+    { "san": "Bd2" },
+    { "san": "Bh4" },
+    {
+      "san": "Qh3",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Offering a trade to finish the job",
+          "body": "Capablanca offers the queen trade. Removing the attacker's most powerful piece is one of the simplest and most reliable defensive techniques there is — a lone bishop and rook cannot mate a king that a queen and rook could threaten.",
+          "concepts": ["defense"]
+        }
+      ]
+    },
+    { "san": "Rae8+" },
+    {
+      "san": "Kd3",
+      "classification": "interesting",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The king walks forward",
+          "body": "Rather than hide, White's king marches up the board — the boldest moment of the defense. Capablanca has judged that Black simply has no reserves left to press home an attack against it. A king this exposed is only ever safe once you've calculated that nothing can actually reach it."
+        }
+      ]
+    },
+    { "san": "Qf1+" },
+    { "san": "Kc2" },
+    { "san": "Bf2" },
+    { "san": "Qf3" },
+    { "san": "Qg1" },
+    {
+      "san": "Bd5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "From defense to counterattack",
+          "body": "The last piece comes to a central, active square, and with it the character of the game changes completely. The attack is over; from here, White's task is to use the extra material and the queenside pawns to win the game outright.",
+          "concepts": ["counterattack"]
+        }
+      ]
+    },
+    { "san": "c5" },
+    { "san": "dxc5" },
+    { "san": "Bxc5" },
+    {
+      "san": "b4",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "The counterattack begins",
+          "body": "Everything Marshall's sacrifices were meant to prevent — a calm, technical conversion — is exactly what happens now. White's queenside pawn majority starts rolling forward, and it will decide the game."
+        }
+      ]
+    },
+    { "san": "Bd6" },
+    { "san": "a4" },
+    { "san": "a5" },
+    { "san": "axb5" },
+    { "san": "axb4" },
+    {
+      "san": "Ra6",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The rook joins the pawns, cutting off Black's pieces from the queenside entirely. What began as an attack on White's king has turned into White attacking on the opposite wing."
+        }
+      ]
+    },
+    { "san": "bxc3" },
+    { "san": "Nxc3" },
+    { "san": "Bb4" },
+    {
+      "san": "b6",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The pawn Marshall's whole attack was traded for",
+          "body": "This passed pawn is the real prize of the entire game — every piece Black gave up on the kingside earlier bought nothing that outweighs this pawn's march toward promotion.",
+          "concepts": ["counterattack"]
+        }
+      ]
+    },
+    { "san": "Bxc3" },
+    { "san": "Bxc3" },
+    { "san": "h6" },
+    {
+      "san": "b7",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "One square from queening. Black's rook is nowhere near enough to stop it and defend the rest of the position at the same time."
+        }
+      ]
+    },
+    { "san": "Re3" },
+    {
+      "san": "Bxf7+",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Calculating the finish",
+          "body": "Capablanca had worked out a forced win starting with this check — reportedly a mate in a handful of moves once the king is dislodged and the b-pawn's queening square is cleared of any defense. Rather than play it out, Marshall resigned. The whole game is a single arc: accept the challenge, survive the calculated storm, give back exactly what's needed to consolidate, then finish with calculation of his own.",
+          "concepts": ["calculation"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "zwischenzug",
+  "catalogCode": "TA012",
+  "title": "The Zwischenzug",
+  "subtitle": "The in-between move that jumps the queue",
+  "type": "pattern",
+  "difficulty": "intermediate",
+  "summary": "Black has just captured a knight on e4, and the automatic recapture would simply restore material balance. But White has a check available first — and inserting it before recapturing wins a full rook the 'obvious' move would have left alone.",
+  "tags": [
+    "zwischenzug",
+    "in-between move",
+    "double attack",
+    "recapture assumptions"
+  ],
+  "concepts": [
+    "zwischenzug",
+    "recapture assumptions",
+    "double attack",
+    "forcing moves"
+  ],
+  "initialFen": "4k3/ppp2ppp/8/8/r3n3/5P2/PPP3PP/5BK1 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "Before you recapture, ask what else is on the board",
+      "body": "Black has just played ...Nxe4, capturing a White knight. The 'obvious' reply is fxe4, restoring material balance and moving on. Zwischenzug — German for 'in-between move' — is the habit of pausing before that automatic reply to check for any check, capture, or threat that changes the picture. Here, one exists, and it's worth far more than the pawn recapture.",
+      "concepts": [
+        "zwischenzug",
+        "recapture assumptions"
+      ]
+    },
+    {
+      "type": "principle",
+      "title": "The checklist",
+      "body": "Before any recapture, scan for checks, captures, and threats — in that order — that don't require you to recapture first. A recapture is never truly 'forced' if the position on the board hands you something bigger to do this instant.",
+      "concepts": [
+        "zwischenzug"
+      ]
+    }
+  ],
+  "rootVisual": [
+    {
+      "type": "square",
+      "square": "e4"
+    },
+    {
+      "type": "arrow",
+      "from": "f1",
+      "to": "b5"
+    }
+  ],
+  "line": [
+    {
+      "san": "Bb5+",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The in-between move",
+          "body": "Instead of the automatic fxe4, the bishop swings out with check — and lands on a square that also attacks the rook on a4 in the same move. This is the whole idea of a zwischenzug: it doesn't abandon the recapture, it just makes the opponent deal with something more urgent first, for free."
+        },
+        {
+          "type": "commentary",
+          "title": "The Monticelli Trap, stripped to its bones",
+          "body": "This is the same pattern the Monticelli Trap springs in real opening theory: a capture sits on the board looking like it demands an immediate answer, and instead a check or threat gets inserted first. The Monticelli is this idea in opening clothing; here it's the pattern with the clothes off."
+        }
+      ],
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "b5",
+          "to": "e8"
+        },
+        {
+          "type": "arrow",
+          "from": "b5",
+          "to": "a4"
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "fxe4",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "The automatic recapture — objectively fine, and a missed fortune",
+                "body": "This isn't a blunder in the usual sense — material stays exactly even, and nothing bad happens right away. But it's the mistake this whole pattern is built to punish: playing the 'obvious' response without first checking whether something better was on offer. The rook on a4 was hanging to a bishop check the entire time, and this move lets it walk away untouched."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Ke7",
+      "classification": "forced",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "No block, no capture",
+          "body": "Nothing Black owns can interpose on c6 or d7, and nothing can take the bishop on b5 — the rook can't move diagonally and the knight can't reach it. The king has three legal squares (d8, e7, f8); all three leave the rook on a4 exactly where it is."
+        }
+      ]
+    },
+    {
+      "san": "Bxa4",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Collecting the free piece",
+          "body": "The rook falls for nothing — Black's only move last turn had to address the check, and defending or moving the rook wasn't an option that existed. Note that the knight on e4 is still sitting there, still attacked by the f3 pawn: the zwischenzug didn't cost White that recapture, it only delayed it."
+        }
+      ],
+      "visual": [
+        {
+          "type": "square",
+          "square": "a4"
+        }
+      ]
+    },
+    {
+      "san": "Kd8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Nothing left to do but regroup",
+          "body": "Down a full rook, Black centralizes the king rather than spend the move rescuing the knight — a natural response under pressure, though shifting the knight to safety first would have limited the damage."
+        }
+      ]
+    },
+    {
+      "san": "fxe4",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "What you should have noticed",
+          "body": "White finally makes the 'automatic' recapture — but only now, after collecting a full rook first. Count it honestly: a straight fxe4 would have left material exactly even. The zwischenzug version leaves White up a rook, for the cost of nothing but the order the moves were played in. Recaptures are decisions, not reflexes — always ask what else is check, captured, or threatened before making the move that looks forced.",
+          "concepts": [
+            "zwischenzug",
+            "recapture assumptions"
+          ]
+        }
+      ]
+    }
+  ]
+}

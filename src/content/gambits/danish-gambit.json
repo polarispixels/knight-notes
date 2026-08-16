@@ -1,0 +1,234 @@
+{
+  "id": "danish-gambit",
+  "catalogCode": "GB004",
+  "focus": "white",
+  "title": "The Danish Gambit",
+  "subtitle": "Two pawns for a raking bishop pair",
+  "type": "gambit",
+  "difficulty": "intermediate",
+  "tags": ["Danish Gambit", "e4 openings", "gambit", "bishop pair"],
+  "concepts": [
+    "gambit play",
+    "bishop pair",
+    "open diagonals",
+    "development",
+    "material versus initiative",
+    "equalizing technique"
+  ],
+  "summary": "White offers two pawns in the opening moves to plant both bishops on b2 and c4, raking straight at f7 and g7 before Black has castled. It looks devastating -- but the classical defense simply hands the material back on Black's terms, and the compensation disappears with the queens.",
+  "metadata": {
+    "eco": "C21",
+    "opening": "Danish Gambit",
+    "historicalContext": "Popular in the late 19th and early 20th centuries, the Danish faded from top-level play once Carl Schlechter demonstrated the clean equalizer covered here -- a defense so effective it is still named after him more than a century later."
+  },
+  "rootAnnotations": [
+    {
+      "type": "strategy",
+      "title": "Two pawns, one plan: both bishops at once",
+      "body": "The Danish is the most concentrated gambit in this library: two pawns spent in the first five moves, both going toward a single idea -- bishops on b2 and c4, aimed at g7 and f7 while Black's king is still in the center. The compensation is real and immediate. Whether it survives contact with accurate defense is exactly what this study tests."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    {
+      "san": "d4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The first pawn",
+          "body": "A normal-looking central push -- but after ...exd4, White will not recapture right away. This is the start of the investment."
+        }
+      ]
+    },
+    "exd4",
+    {
+      "san": "c3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The second pawn on offer",
+          "body": "Rather than take back on d4, White offers a second pawn to open the long diagonal for the c1-bishop. Declining is possible (3...d5 is a respectable Danish Gambit Declined), but accepting is the critical test this study covers."
+        }
+      ]
+    },
+    {
+      "san": "dxc3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black accepts the second pawn. Two pawns are now gone for nothing visible yet -- the whole justification has to appear in the next few moves."
+        }
+      ]
+    },
+    {
+      "san": "Bc4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Developing instead of recapturing",
+          "body": "White still does not take back the pawn on c3. Development with tempo comes first: this bishop already eyes f7, and recapturing on c3 next move will open the second bishop's diagonal too. Every one of White's moves so far has bought a piece's worth of activity, not material."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c4", "to": "f7" }]
+    },
+    {
+      "san": "cxb2",
+      "classification": "interesting",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black grabs a third pawn instead of developing. White cannot avoid this -- but what happens to Black's b2-pawn next move, and what does that recapture buy?"
+        }
+      ]
+    },
+    {
+      "san": "Bxb2",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The compensation, fully assembled",
+          "body": "Three pawns down, but both bishops now rake the board from b2 and c4 -- one diagonal aimed at g7 and the long-castled king, the other at f7 and the still-uncastled one. This is the entire idea of the Danish in a single position: minor pieces on open diagonals against a king that hasn't found safety yet. It is genuinely dangerous. It is also, with the right defense, not enough."
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "b2", "to": "g7" },
+        { "type": "arrow", "from": "c4", "to": "f7" }
+      ]
+    },
+    {
+      "san": "d5",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Schlechter's Defense: give the material back on Black's terms",
+          "body": "The critical equalizer. Black does not try to hold everything or castle past the danger -- instead the d-pawn attacks the c4-bishop directly, forcing an exchange that trades away exactly the piece the whole gambit depended on. This is the honest lesson of the Danish: the moment Black offers a pawn back on favorable terms, White's attacking pieces start disappearing rather than multiplying."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nf6",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Holding all three pawns instead",
+                "body": "Greedier and more dangerous: Black keeps every extra pawn and just develops. After 6.Nc3 Bb4 7.Nge2 O-O 8.O-O White still has full development and open lines for two (now effectively) sacrificed pawns -- real, lasting compensation, not a one-move trick. This is the version of the Danish that punishes hesitation; Schlechter's d5 is the version that refutes it outright."
+              }
+            ]
+          },
+          "Nc3",
+          "Bb4",
+          "Nge2",
+          "O-O",
+          "O-O"
+        ]
+      ]
+    },
+    {
+      "san": "Bxd5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Forced in spirit -- retreating loses time and the initiative both. White captures the attacking pawn, keeping the bishop active for one move longer."
+        }
+      ]
+    },
+    {
+      "san": "Nf6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Attacking the bishop again immediately. Black is not trying to win the piece -- just to keep forcing trades that unwind White's setup one piece at a time."
+        }
+      ]
+    },
+    {
+      "san": "Bxf7+",
+      "classification": "sacrifice",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Cashing in before the bishop is lost for nothing",
+          "body": "Rather than retreat, White grabs one more pawn with check -- the last aggressive gesture the position allows. It looks like White is still attacking, but this capture is really the beginning of the position settling down."
+        }
+      ]
+    },
+    {
+      "san": "Kxf7",
+      "classification": "forced",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Forced, and it costs Black the right to castle -- but note that White has no pieces left to exploit that fact with; the attacking force has just traded itself away."
+        }
+      ]
+    },
+    {
+      "san": "Qxd8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White grabs the queen -- but so does Black's next move, immediately, with check. Material is about to simplify hard."
+        }
+      ]
+    },
+    {
+      "san": "Bb4+",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Winning the queen back with check",
+          "body": "The point of the whole sequence. This check forces White's queen to interpose, after which Black simply trades it off. Two moves ago White looked like the attacker; now the queens are about to leave the board entirely."
+        }
+      ]
+    },
+    {
+      "san": "Qd2",
+      "classification": "forced",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The only way to block the check without losing more material outright."
+        }
+      ]
+    },
+    "Bxd2+",
+    {
+      "san": "Nxd2",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Where the compensation went",
+          "body": "Queens are off, both bishops that powered White's attack are gone, and material is back to dead level. This is the risk that every gambit carries: compensation is a temporary asset, priced in tempo and piece activity, and once the pieces that generated it are traded away, what is left is just the position underneath. Here that position is roughly equal -- some sources even prefer Black's healthier queenside majority in the resulting endgame."
+        }
+      ]
+    },
+    {
+      "san": "Re8",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a gambit's compensation is only as real as the pieces generating it -- trade those pieces off and the compensation goes with them; the cleanest way to defend a gambit is often to hand material back on your own terms rather than cling to every pawn (compare Schlechter's d5 with the riskier line that holds everything); and a queenless middlegame is the great equalizer -- attacking chances built on tempo and initiative matter far less once the most dangerous piece on the board is gone."
+        }
+      ]
+    }
+  ]
+}

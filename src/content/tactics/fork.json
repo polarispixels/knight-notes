@@ -1,0 +1,215 @@
+{
+  "id": "fork",
+  "catalogCode": "TA004",
+  "title": "The Fork",
+  "subtitle": "One piece, two threats",
+  "type": "pattern",
+  "difficulty": "beginner",
+  "summary": "A fork is any single move that attacks two targets at once, so the defender can only save one. This study centers on the classic knight fork of a king and queen, then shows the same idea worked by a pawn and by a queen — forks are a geometry, not a piece.",
+  "tags": [
+    "fork",
+    "knight fork",
+    "pawn fork",
+    "queen fork",
+    "double attack"
+  ],
+  "concepts": [
+    "fork",
+    "double attack",
+    "forcing moves",
+    "undefended pieces"
+  ],
+  "initialFen": "2q3k1/5p1p/3r1r2/3N4/4P3/8/PQ3PPP/6K1 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "A fork is geometry, not a piece",
+      "body": "A fork just means one move attacks two undefended (or under-defended) targets at the same time. Knights are famous for it because their attack pattern is so unusual, but any piece can fork — a pawn attacks two squares diagonally at once, and a queen can hit two targets down two different lines from a single square.",
+      "concepts": [
+        "fork",
+        "double attack"
+      ]
+    },
+    {
+      "type": "principle",
+      "title": "Scan for pieces that are undefended and reachable together",
+      "body": "Before you look for a fork, look at what the opponent has left loose. Here, Black's queen on c8 and both rooks on d6 and f6 are undefended — nobody is guarding them. That alone is the invitation. The next question is always the same: is there one square from which I attack two of these at once, and is that square itself safe?",
+      "concepts": [
+        "undefended pieces"
+      ]
+    }
+  ],
+  "rootVisual": [
+    { "type": "square", "square": "c8" },
+    { "type": "square", "square": "d6" },
+    { "type": "square", "square": "f6" }
+  ],
+  "line": [
+    {
+      "san": "a4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "No rush",
+          "body": "The fork isn't going anywhere, so White plays a spare move first. Notice what's already true of the position: the knight on d5, the queen on b2, and even the pawn on e4 all have a forking resource sitting one move away — see the variations on this move for the pawn's and the queen's versions of the same idea."
+        }
+      ]
+    },
+    {
+      "san": "h6",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White's knight is on d5 and Black's king and queen are on g8 and c8. Is there a single knight move that gives check to the king and attacks the queen in the same instant? Find the square before reading on."
+        }
+      ]
+    },
+    {
+      "san": "Ne7+",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The royal fork",
+          "body": "From e7, the knight attacks g8 — check — and c8, where the queen sits, at the same moment. Nothing about Black's position lets both problems be solved with one move; a king in check must be dealt with immediately, and moving the king does nothing to save the queen."
+        },
+        {
+          "type": "principle",
+          "title": "Forcing moves make forks unbreakable",
+          "body": "This fork happens to come with check, which is what makes it completely safe. An ordinary double attack sometimes lets the opponent create a bigger threat of their own and ignore it. A check removes that option entirely — the only legal replies address the king, and none of Black's king moves touches c8."
+        },
+        {
+          "type": "principle",
+          "title": "Why the knight is untouchable here",
+          "body": "Check that e7 isn't attacked by anything black before playing this: no pawn, rook, or the king can capture the knight. That's the other half of what makes knight forks so strong — a knight's attack pattern lets it land on squares that a queen or rook fork could never safely use, because nothing moves the way a knight does. Compare this to the queen's fork in the variation below, which has to work much harder to find a safe square."
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "d5", "to": "e7" },
+        { "type": "square", "square": "g8" },
+        { "type": "square", "square": "c8" }
+      ],
+      "variations": [
+        [
+          {
+            "san": "e5",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Pawns fork too",
+                "body": "The pawn on e4 advances to e5, and now attacks d6 and f6 diagonally — both rooks — at once. This is the exact same relationship as the knight fork: one move, two undefended targets, only one of which can be saved. Nobody thinks of a pawn push as a tactic, which is exactly why it catches people off guard.",
+                "concepts": [
+                  "fork",
+                  "double attack"
+                ]
+              }
+            ]
+          },
+          {
+            "san": "Rd8",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Only one rook escapes",
+                "body": "Black saves the d6-rook. There is no move that rescues both — the f6-rook is simply lost."
+              }
+            ]
+          },
+          {
+            "san": "exf6",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "A whole rook, for free",
+                "body": "The least valuable piece on the board just won a full rook. That's the real lesson of the pawn fork: the fork's strength comes from the geometry of the attack, not from the value of the piece making it."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "san": "Qe5",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "A queen fork — but it has to earn its safety",
+                "body": "The queen jumps from b2 to e5, attacking d6 and f6 along two different diagonals — a genuine fork. Unlike the knight, though, the queen had to find a square that neither rook could capture along a rank or file, since rooks move in straight lines. e5 works because the attack on each rook comes diagonally, a direction no rook can answer.",
+                "concepts": [
+                  "fork",
+                  "double attack"
+                ]
+              }
+            ]
+          },
+          {
+            "san": "Rd8",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The same choice as before",
+                "body": "Again Black can only save one rook. The mechanism is identical to the pawn fork — what changes is which piece is doing the forking, and how carefully that piece had to check its own safety first."
+              }
+            ]
+          },
+          {
+            "san": "Qxf6",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Cashing in",
+                "body": "The queen collects the second rook cleanly. Three different pieces — knight, pawn, and queen — just executed the same idea on the same board. That is the whole point: learn to see the relationship, not a specific piece's trick."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Kh8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Every flight square loses the queen",
+          "body": "The king has more than one legal square to go to, but it doesn't matter which one it picks — none of them defends or blocks the knight's attack on c8. That's what makes this a true fork rather than a simple threat: the forcing half (check) and the material half (the hanging queen) are completely independent of each other."
+        }
+      ]
+    },
+    {
+      "san": "Nxc8",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Collecting the point",
+          "body": "The knight was never in danger for a single move of this sequence — nothing black ever attacked e7, and now it simply takes the queen. That total safety, start to finish, is what a well-spotted fork looks like in practice."
+        }
+      ]
+    },
+    {
+      "san": "Rc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Too late to matter",
+          "body": "Black finally attacks the knight, but the damage is already done — White is up a full queen for a knight."
+        }
+      ]
+    },
+    {
+      "san": "Na7",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "What you should have noticed",
+          "body": "Before every move, glance at the opponent's undefended pieces and ask: is there one square that hits two of them? Checks and captures are the strongest forking vehicles because they're forcing — the opponent must answer them before doing anything else. And remember the knight's special trick: because it doesn't move in straight lines, it can often land on a forking square that a queen, rook, or pawn could never safely use — but as the variations showed, those other pieces fork constantly too, as long as they double-check their own landing square is safe.",
+          "concepts": [
+            "fork",
+            "double attack",
+            "forcing moves"
+          ]
+        }
+      ]
+    }
+  ]
+}

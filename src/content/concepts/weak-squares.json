@@ -1,0 +1,93 @@
+{
+  "id": "weak-squares",
+  "catalogCode": "C001",
+  "title": "Weak Squares",
+  "subtitle": "A square only stays weak as long as no pawn can ever attack it again",
+  "type": "concept",
+  "difficulty": "intermediate",
+  "summary": "A square becomes permanently weak the moment no pawn of its own color can ever defend it again — pawns only move forward, so the damage cannot be undone. This lesson shows the classic d5 hole from a Sicilian-style structure: White plants a knight there, and Black, lacking any pawn lever and any minor piece that can reach it, can never evict it.",
+  "tags": ["weak squares", "pawn structure", "outposts", "Sicilian structures", "d5 hole"],
+  "concepts": ["weak squares", "permanent vs temporary weakness", "pawn moves cannot be reversed", "outposts", "recognizing holes"],
+  "initialFen": "r4rk1/p1qnbppp/1p1p4/4p3/4P3/2NB4/PPPQ1PPP/R2R2K1 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What makes a square 'weak'",
+      "body": "A square is weak — not merely undefended for the moment, but weak — when no pawn of its own side can ever again guard it. A misplaced piece can be reorganized; a pawn that is gone or has moved past a square cannot un-move. That irreversibility is the entire concept.",
+      "concepts": ["weak squares"]
+    },
+    {
+      "type": "question",
+      "body": "Look at Black's pawns before White's first move: the c-pawn is gone from the board entirely, and the e-pawn already stands on e5. Which Black pawn could ever challenge a white piece landing on d5?"
+    },
+    {
+      "type": "principle",
+      "title": "Permanent vs temporary weakness",
+      "body": "A square defended by a piece is only temporarily weak — trade or drive off that piece and the defense can return one day. A square whose only possible pawn-defenders are gone or have advanced past it is permanently weak: for the rest of the game, nothing but another piece can ever contest it. This is why players call it a 'hole,' not a 'gap.'",
+      "concepts": ["permanent vs temporary weakness"]
+    }
+  ],
+  "line": [
+    {
+      "san": "Nd5",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The knight claims the hole",
+          "body": "White's c3-knight jumps straight into d5. Compare the Sicilian Defense lesson: Black's own ...e5 push is exactly what carved this hole, trading dynamic central play for a permanent structural concession — 'a hole White will try to own with a knight forever,' as that lesson puts it. Here is the moment that debt comes due. The pawn on e4 defends d5, so the knight isn't just uncontested — it's protected too.",
+          "concepts": ["weak squares", "outposts"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "d5" },
+        { "type": "arrow", "from": "c3", "to": "d5" }
+      ]
+    },
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The only try",
+          "body": "No black pawn can touch d5 — the c-pawn is off the board and the e-pawn stands past it on e5. The only remaining option is to attack the knight with a piece instead, rerouting the d7-knight toward f6, where it eyes d5 from the far side."
+        }
+      ]
+    },
+    {
+      "san": "Nxf6+",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White is glad to trade. Removing the challenger costs Black a knight of its own, and the weakness of d5 is completely untouched by the swap — the square doesn't become less weak just because nothing currently sits on it."
+        }
+      ]
+    },
+    "Bxf6",
+    {
+      "san": "Rac1",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "The hole outlives the piece",
+          "body": "Even with no White piece sitting on d5 right now, the square is still permanently weak — nothing stops White from returning a rook, a queen, or another minor piece there later, helped along by the half-open c-file this same structural imbalance created. A weak square is a standing invitation, not a one-time visitor.",
+          "concepts": ["weak squares"]
+        }
+      ]
+    },
+    {
+      "san": "Qb7",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three recognition cues: a pawn move that passes a square and leaves no sibling pawn behind to defend it creates a permanent hole, not a temporary one; a piece posted on such a square can be traded off, but the square itself cannot be un-weakened, since pawns cannot move backward; and weak squares just in front of a fixed pawn chain — here Black's own d6–e5 chain — are the single most reliable landing pads for enemy minor pieces in all of chess.",
+          "concepts": ["weak squares", "permanent vs temporary weakness"]
+        }
+      ]
+    }
+  ]
+}

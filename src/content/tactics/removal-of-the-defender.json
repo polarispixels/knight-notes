@@ -1,0 +1,142 @@
+{
+  "id": "removal-of-the-defender",
+  "catalogCode": "TA008",
+  "title": "Removal of the Defender",
+  "subtitle": "What's actually protecting that?",
+  "type": "pattern",
+  "difficulty": "intermediate",
+  "summary": "Before attacking anything, ask a habit-forming question: what protects it? Sometimes the answer is a single piece you can simply capture, trade off, or overload — and once that guard is gone, the piece it was protecting is yours. This study captures the guard directly, with check, so the defender never gets a chance to matter twice.",
+  "tags": [
+    "removal of the defender",
+    "double attack",
+    "forcing moves",
+    "discovered attack"
+  ],
+  "concepts": [
+    "removal of the defender",
+    "undefended pieces",
+    "forcing moves"
+  ],
+  "initialFen": "6k1/ppp2ppp/5n2/3q4/6N1/8/PPP2PPP/3R2K1 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "The habit-forming question",
+      "body": "Black's queen on d5 sits on White's rook's own file — an inviting target — but it's guarded by the knight on f6. Don't stop at 'that piece is defended' and move on. Ask the next question: what is the defender, and can I get rid of it? A guard is just another piece — it can be captured, traded, or overloaded like anything else.",
+      "concepts": [
+        "removal of the defender"
+      ]
+    },
+    {
+      "type": "principle",
+      "title": "Three ways to remove a guard",
+      "body": "Capture it outright if it's undefended or the trade is worth it. Exchange it off even at equal value, if what's revealed afterward is worth more than the trade itself. Or overload it — find a second job the same defender is already doing, attack that too, and it can't do both. This study works the first way; the same habit of asking 'what defends this?' is exactly what the Magnus Smith Trap exploits from the other direction, deflecting a defender away rather than removing it (that idea gets its own study)."
+    }
+  ],
+  "rootVisual": [
+    { "type": "square", "square": "f6" },
+    { "type": "arrow", "from": "f6", "to": "d5" }
+  ],
+  "line": [
+    {
+      "san": "a3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Setting the trap up quietly",
+          "body": "Nothing here looks urgent yet. White's rook already eyes the queen down the d-file; the only thing standing in the way of winning it is the knight on f6."
+        }
+      ]
+    },
+    {
+      "san": "a6",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The only thing keeping White's rook from simply winning the queen is the knight on f6. Is there a way to remove that knight that Black can't answer productively — one where even recapturing doesn't bring the defense back?"
+        }
+      ]
+    },
+    {
+      "san": "Nxf6+",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Removing the guard — with interest",
+          "body": "The knight captures the defender outright, and it happens to arrive with check. That check matters enormously: Black's queen was actually attacking White's rook on d1 this whole time, but with the king in check, grabbing it is illegal right now. The forcing move buys exactly the tempo needed to finish the job.",
+          "concepts": [
+            "removal of the defender",
+            "forcing moves"
+          ]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "g4", "to": "f6" },
+        { "type": "square", "square": "d5" }
+      ]
+    },
+    {
+      "san": "gxf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A recapture that doesn't actually recapture the defense",
+          "body": "Taking back looks like the natural response to being checked by a piece for free. But look at what's left on f6 now — a pawn. A pawn on f6 guards e5 and g5, nowhere near d5. The defender is gone for good; only its empty chair was refilled."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Kh8",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Declining doesn't help either",
+                "body": "Black answers check the other legal way, sidestepping instead of recapturing. It makes no difference to the outcome: the knight that was defending d5 is simply gone either way — captured, not traded — so the queen is exactly as undefended as it was a moment ago.",
+                "concepts": [
+                  "removal of the defender"
+                ]
+              }
+            ]
+          },
+          {
+            "san": "Rxd5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The same result",
+                "body": "White collects the queen just as before. Whether Black recaptures the checking piece or runs from it, removing the one defender was the whole game — everything downstream of that was already decided."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Rxd5",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Cashing in",
+          "body": "Nothing guards d5 anymore, so the rook simply takes the queen. White spent a knight to remove one defender and picked up a full queen in return — the whole combination turned on noticing that a single piece was doing all the work, and that the piece was removable.",
+          "concepts": [
+            "removal of the defender"
+          ]
+        }
+      ]
+    },
+    {
+      "san": "Kg7",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "What you should have noticed",
+          "body": "Whenever you eye a piece that looks defended, name the defender out loud and ask if it can be removed — by outright capture, by an even trade that still pays off because of what's revealed, or by finding the second duty it's already stretched thin covering. Forcing moves are worth extra here: a capture that also checks, like this one, denies the opponent even a single free tempo to patch the defense back together."
+        }
+      ]
+    }
+  ]
+}

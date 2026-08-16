@@ -1,0 +1,189 @@
+{
+  "id": "pin",
+  "catalogCode": "TA005",
+  "title": "The Pin",
+  "subtitle": "A piece that cannot move is already lost",
+  "type": "pattern",
+  "difficulty": "beginner",
+  "summary": "A pin stops a piece from moving because something more valuable stands behind it. This study shows an absolute pin — against the king, unbreakable — piled on until it falls, and then a relative pin, which only looks like the same thing: the pinned piece is legally free to move, and here it wins the game by doing exactly that.",
+  "tags": [
+    "pin",
+    "absolute pin",
+    "relative pin",
+    "double attack"
+  ],
+  "concepts": [
+    "pin",
+    "absolute pin",
+    "relative pin",
+    "piling on",
+    "forcing moves"
+  ],
+  "initialFen": "4k3/p1p2p1p/3p1q2/4n3/1b6/2N3B1/PPP2PPP/4R1K1 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "Two pins, two very different truths",
+      "body": "White's rook pins Black's knight on e5 to the king on e8 — that is an absolute pin: the knight is not merely discouraged from moving, it is illegal for it to move, full stop. Black's bishop pins White's knight on c3 to the rook on e1 — that looks identical at first glance, but it is only a relative pin: moving the knight is completely legal, it just costs the rook if Black chooses to collect it. Confusing the two is one of the most common mistakes below intermediate level.",
+      "concepts": [
+        "absolute pin",
+        "relative pin"
+      ]
+    },
+    {
+      "type": "principle",
+      "title": "A relative pin is a suggestion, not a rule",
+      "body": "Ask one question before treating any pin as absolute: is the piece behind it actually the king? If yes, the pinned piece is frozen — no calculation needed. If no, the pinned piece is only pinned to a piece of some value, and it is free to move the instant something bigger is on offer."
+    }
+  ],
+  "rootVisual": [
+    { "type": "arrow", "from": "e1", "to": "e8" },
+    { "type": "arrow", "from": "b4", "to": "e1" },
+    { "type": "square", "square": "e5" },
+    { "type": "square", "square": "c3" }
+  ],
+  "line": [
+    {
+      "san": "h4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "No rush at all",
+          "body": "The knight on e5 is absolutely pinned — it cannot move under any circumstances without leaving the black king in check, which the rules forbid outright. White can take a free move to improve the position before cashing in. (White has a completely different resource available too — see the variation on this move, where the other knight ignores its own pin and wins the game.)"
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Ne4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Ignoring the relative pin",
+                "body": "Black's bishop 'pins' this knight to the rook on e1 — but the king isn't behind it, so the knight is completely free to move. It jumps to e4, attacking the undefended queen on f6. If Black grabs the rook, the knight simply wins something far bigger. This is the same lesson the Légal Trap and Cambridge Springs Trap studies teach with a bishop pin instead of this one: a relative pin only works if the threat behind it is scarier than what you're about to lose by respecting it.",
+                "concepts": [
+                  "relative pin"
+                ]
+              }
+            ],
+            "visual": [
+              { "type": "arrow", "from": "c3", "to": "e4" },
+              { "type": "square", "square": "f6" }
+            ]
+          },
+          {
+            "san": "Bxe1",
+            "classification": "mistake",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The natural-looking capture that loses",
+                "body": "Taking the 'pinned' knight's rook looks like collecting the reward for the pin. It's actually the losing move — Black spent a whole turn grabbing five points of material while the far more valuable queen was hanging on the other side of the board.",
+                "concepts": [
+                  "relative pin"
+                ]
+              }
+            ],
+            "variations": [
+              [
+                {
+                  "san": "Qd8",
+                  "annotations": [
+                    {
+                      "type": "key-idea",
+                      "title": "The correct defense — respect the real threat",
+                      "body": "Moving the queen to safety was the right call. Black loses nothing at all here — the bishop's pin on c3 was never going to win material on its own, since the rook it 'threatened' is worth far less than the queen the knight was actually going after.",
+                      "concepts": [
+                        "relative pin"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "san": "Nxf6",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "critical-position",
+                "title": "Worth far more than the rook",
+                "body": "White gave up a rook and won a queen — a full point ahead of even-material, and won purely because Black treated a relative pin as if it were absolute. The knight was legally free to move the entire time; the only thing 'pinning' it was Black's assumption that it wouldn't dare.",
+                "concepts": [
+                  "relative pin"
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "h6",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White has two pieces attacking the pinned knight — the rook on e1 and the bishop on g3 — while Black has only one defender, the pawn on d6. White is winning the piece. But which attacker should capture first, the bishop or the rook, and why does the order matter?"
+        }
+      ]
+    },
+    {
+      "san": "Bxe5",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Piling on — cheapest attacker first",
+          "body": "Two attackers beat one defender, but only if White captures with the least valuable piece first. The bishop takes the knight; if Black recaptures, White's rook takes back next, netting a knight and a pawn for a bishop. Capturing with the rook first would hand Black a much better trade after ...dxe5, since the rook is worth more than the bishop it would be offering in exchange.",
+          "concepts": [
+            "piling on"
+          ]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "e5" },
+        { "type": "arrow", "from": "g3", "to": "e5" }
+      ]
+    },
+    {
+      "san": "dxe5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A defended piece, but a paralyzed one",
+          "body": "The pawn recaptures, but notice what the knight's 'defense' was actually worth this whole time: nothing. A pinned piece can never move to capture, block, or run — which means it also never gets to defend anything else on the board. Every square the e5-knight would normally guard (d7, f7, c4, g4...) has effectively been undefended since the pin went on. Pinning a piece doesn't just threaten it; it deletes its usefulness everywhere else too.",
+          "concepts": [
+            "absolute pin"
+          ]
+        }
+      ]
+    },
+    {
+      "san": "Rxe5+",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The pin cashes in",
+          "body": "The rook recaptures the pawn and lands the point home: White traded a bishop for a knight and a pawn — a small, clean profit, and it started from nothing more exotic than 'two attackers, one defender.' The x-ray check along the e-file is a bonus, not the point; the pin had already done its job.",
+          "concepts": [
+            "piling on"
+          ]
+        }
+      ]
+    },
+    {
+      "san": "Kd7",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "What you should have noticed",
+          "body": "Absolute pins (against the king) are permanent — count attackers versus defenders and pile on without fear, cheapest piece first. A piece that's pinned can't defend anything else either, so look for what else near it just became loose. And always check which kind of pin you're looking at before you respect it: if the king isn't directly behind the pinned piece, it's only a relative pin, and the position might reward ignoring it completely — as the variation on move one shows."
+        }
+      ]
+    }
+  ]
+}

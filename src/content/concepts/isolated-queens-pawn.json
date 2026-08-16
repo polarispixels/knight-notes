@@ -1,0 +1,203 @@
+{
+  "id": "isolated-queens-pawn",
+  "catalogCode": "C006",
+  "title": "The Isolated Queen's Pawn",
+  "subtitle": "A middlegame engine, an endgame liability",
+  "type": "concept",
+  "difficulty": "intermediate",
+  "summary": "An isolated queen's pawn (IQP) on d4 has no friendly pawn on the c- or e-file to support it — a permanent structural weakness that shows up hardest in the endgame. But while pieces remain on the board, that same pawn opens lines, hands its owner outposts on c5 and e5, and can advance with d4-d5 to blast the position open. The IQP is a trade: dynamic activity now, rented against a weakness that must be repaid later.",
+  "tags": ["isolated pawn", "isolani", "pawn structure", "Semi-Tarrasch", "outposts", "middlegame strategy"],
+  "concepts": [
+    "the isolani",
+    "outposts",
+    "piece activity",
+    "the d4-d5 break",
+    "blockade",
+    "trading toward an endgame",
+    "structural weakness"
+  ],
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What makes a pawn isolated",
+      "body": "A pawn is isolated when no pawn of its own color stands on either neighboring file — here, no white pawn on c or e means the d4-pawn can never be defended by another pawn, only by pieces. That single fact drives the entire strategic battle: everything the IQP's owner does is either using the pawn's dynamic gifts before the pieces come off, or defending it once they do.",
+      "concepts": ["the isolani"]
+    },
+    {
+      "type": "principle",
+      "title": "The trade both sides are making",
+      "body": "The IQP's owner typically gets open lines for the rooks, safe outposts on c5 and e5 that no black pawn can ever attack, and the constant lever d4-d5 to crack the position open. The side facing it typically wants the opposite: trade pieces, blockade the pawn's advance, and steer toward an endgame where a lone pawn with no support is simply a target. Neither plan is automatically right — it depends on whose pieces are more active when the trading starts."
+    }
+  ],
+  "line": [
+    "d4",
+    "Nf6",
+    "c4",
+    "e6",
+    "Nf3",
+    "d5",
+    "Nc3",
+    "c5",
+    "cxd5",
+    "Nxd5",
+    "e3",
+    "Nc6",
+    "Bc4",
+    {
+      "san": "cxd4",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black trades in the center. White has a choice of recapture — cxd4 or exd4. Only one of them creates the isolani this lesson is about. Which one, and why does it matter?"
+        }
+      ]
+    },
+    {
+      "san": "exd4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The isolani is born",
+          "body": "Recapturing with the e-pawn (rather than a hypothetical c-pawn) is what actually isolates d4: White's c-pawn is already gone from the earlier cxd5, and now the e-pawn is gone too, absorbed into d4. No pawn can ever again defend this one. In exchange, White's minor pieces get two outpost squares that Black can never challenge with a pawn — c5 and e5 — and the position opens up for faster development. This is the family of structures also reached from many Queen's Gambit and Panov move orders whenever a c-pawn and an e-pawn end up trading down to a lone pawn on d4.",
+          "concepts": ["the isolani", "outposts"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "d4" },
+        { "type": "square", "square": "e5" },
+        { "type": "square", "square": "c5" }
+      ]
+    },
+    "Be7",
+    "O-O",
+    "O-O",
+    "Re1",
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Giving up the strong point",
+          "body": "The knight steps back off d5 — the single square directly in front of the isolani, and the one square Black would most like to permanently occupy. Retreating it trades long-term prophylaxis for faster piece play; the alternative, holding d5 forever and grinding toward an endgame, is shown in the variation."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bd7",
+            "annotations": [
+              {
+                "type": "strategy",
+                "title": "The other plan: keep the blockader",
+                "body": "Instead of retreating, Black leaves the knight exactly where it is. A piece sitting on the square directly ahead of an isolated pawn — the blockade — stops the pawn from ever advancing and can't be driven off by anything Black owns. This is the technical, patient answer to an IQP: no complications, just denial.",
+                "concepts": ["blockade"]
+              }
+            ]
+          },
+          "Bb3",
+          "Rc8",
+          "Qd3",
+          {
+            "san": "Na5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The second knight goes hunting rather than staying put — offering a trade of light-squared bishops and eyeing the c4 outpost for itself."
+              }
+            ]
+          },
+          "Bd1",
+          {
+            "san": "Nc4",
+            "importance": "important",
+            "annotations": [
+              {
+                "type": "strategy",
+                "title": "An outpost of Black's own",
+                "body": "The knight lands on c4, a square White's own structure can never attack with a pawn either. Black now has an outpost and a blockader working together."
+              }
+            ]
+          },
+          "b3",
+          {
+            "san": "Ncb6",
+            "importance": "important",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Trade pieces, not pawns",
+                "body": "The knight retreats, its job done: it provoked b3, a small permanent concession on White's queenside. This is the whole recipe for playing against an IQP — the side facing it wants to trade pieces (each trade removes an attacker while the lone pawn still needs defending), keep the blockade on d5 for as long as it's useful, and never trade away the pawns that keep the blockading square secure. Play continues with rooks doubling against d4, and eventually queens coming off into an ending where White's last piece is chained to babysitting one weak pawn.",
+                "concepts": ["trading toward an endgame", "blockade", "structural weakness"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Bb3",
+    "b6",
+    "Qd3",
+    "Bb7",
+    {
+      "san": "Ne5",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "An outpost no pawn can touch",
+          "body": "With d5 given up, the knight claims e5 instead — a square Black has no pawn left that can ever attack (the d- and f-pawns that would normally guard it are the wrong shape for this structure). Outposts like this are the isolani's calling card: they're only available because the missing c- and e-pawns can't contest them.",
+          "concepts": ["outposts"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f3", "to": "e5" }]
+    },
+    "Nxe5",
+    "Rxe5",
+    "Bd6",
+    "Re1",
+    "Rc8",
+    {
+      "san": "d5",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The isolani finally advances. It will be traded off within a few moves — so what has White actually gained by pushing it?"
+        },
+        {
+          "type": "tactic",
+          "title": "The d4-d5 break",
+          "body": "This is the isolani's other great resource: the pawn itself is a battering ram. It doesn't need to survive — it needs to open the position at the moment White's pieces are better placed than Black's. Here it prises open the long diagonal for the bishop and clears the center, and every recapture that follows leaves White's remaining pieces more active than Black's.",
+          "concepts": ["the d4-d5 break"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d4", "to": "d5" }]
+    },
+    "exd5",
+    "Bxd5",
+    "Bxd5",
+    "Nxd5",
+    "Nxd5",
+    {
+      "san": "Qxd5",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The pawn is gone, the activity remains",
+          "body": "Material is level and the isolani itself has vanished from the board — but that was the point of pushing it. White's queen sits centralized, the rook commands the only open file, and Black's pieces are tied to modest defensive squares. The pawn spent itself buying exactly this kind of position.",
+          "concepts": ["piece activity"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "The isolated queen's pawn is genuinely two-faced, and both faces were real in this single game: while pieces stayed on, it granted outposts on c5/e5 that no pawn could challenge, open lines for the rooks, and a d4-d5 lever to crack the center at the moment of White's choosing. Had queens and rooks kept coming off instead — the variation's path — that same pawn would have turned into a fixed, permanently defended target, blockaded on d5 and picked off in a rook or king ending. Recognize the pattern from the pawn count alone: no pawn on the isolated pawn's neighboring files means the side holding it should play for activity before the trades start, and the side facing it should trade first and ask questions about the pawn later.",
+          "concepts": ["the isolani", "structural weakness", "trading toward an endgame"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": "wrong-bishop",
+  "catalogCode": "E009",
+  "title": "The Wrong-Colored Bishop",
+  "subtitle": "When king, bishop, and pawn still can't win",
+  "type": "endgame",
+  "difficulty": "intermediate",
+  "summary": "King and bishop and an extra rook pawn should win easily against a lone king — unless the bishop can never control the promotion square. Then the defending king simply sits in the corner forever, and the stronger side can't make progress without stalemating its own opponent.",
+  "tags": [
+    "bishop endgame",
+    "wrong bishop",
+    "fortress",
+    "rook pawn",
+    "stalemate"
+  ],
+  "concepts": [
+    "wrong bishop",
+    "fortress draw",
+    "stalemate resource",
+    "corner squares"
+  ],
+  "initialFen": "7k/3B4/6K1/7P/8/8/8/8 w - - 0 1",
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "h8 is dark. The bishop isn't.",
+      "body": "White's pawn queens on h8, a dark square. White's bishop on d7 only ever travels on light squares — it can never set foot on h8, and just as importantly it can never check a king standing there. Material alone says this should be a trivial win (king, bishop, and pawn against a bare king), but the promotion square is one the bishop simply cannot help control.",
+      "concepts": [
+        "wrong bishop"
+      ]
+    },
+    {
+      "type": "principle",
+      "title": "Know this before you trade into it",
+      "body": "This is one of the most important patterns in all of endgame theory precisely because it's invisible on a material count. If the very same pawn were on the g-file instead, or the bishop were dark-squared, the position would win by force — the defending king could be checked out of the corner and the pawn escorted home. Recognizing 'wrong bishop and rook pawn' before you allow the trade that creates it is the real skill; once it's on the board, there is nothing to calculate — it is simply a dead draw."
+    }
+  ],
+  "rootVisual": [
+    { "type": "square", "square": "h8" },
+    { "type": "square", "square": "g8" }
+  ],
+  "line": [
+    {
+      "san": "Bf5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Trying to build a mating box",
+          "body": "White tries the only plan available: use the king and bishop together to control every square around h8. But Black's king only has two squares to worry about, g8 and h8, and one of them (h8) is a color the bishop will never touch."
+        }
+      ]
+    },
+    {
+      "san": "Kg8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Forced, and fine",
+          "body": "This is Black's only legal move — g7 and h7 are both covered by White's king — but it's exactly where Black wants to be anyway."
+        }
+      ]
+    },
+    {
+      "san": "Be6+",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A check that changes nothing",
+          "body": "The bishop now also controls g8, so it looks like the net is tightening. But watch where the king goes."
+        }
+      ]
+    },
+    {
+      "san": "Kh8",
+      "importance": "critical",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Straight back into the safe corner",
+          "body": "Black returns to the one square in the world the bishop can never attack. This is the whole defense: whenever driven off g8, the king simply steps back to h8, and whenever driven off h8 (which never actually happens — nothing attacks it), it would step back to g8. As long as Black keeps oscillating between these two squares, the fortress holds no matter what White tries.",
+          "concepts": [
+            "fortress draw",
+            "corner squares"
+          ]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Kf8",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Also legal, but needlessly risky",
+                "body": "This doesn't immediately lose anything, but it strays from the two safe corner squares for no reason. The simple, well-known defense is to never leave the g8/h8 pair — wandering the king elsewhere just invites complications that a King in the known-safe corner never has to face."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Bd5",
+      "importance": "critical",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "warning",
+          "title": "The trap springs — on White",
+          "body": "This looks like one more tightening move, keeping the bishop on the long diagonal to control g8. But it's Black's move next, and Black's king on h8 has no legal move at all: g8 is covered by the bishop, g7 and h7 are covered by White's own king, and Black isn't in check. That's stalemate — an immediate draw. This is the real content of the fortress: White cannot control both g8 and h8 at once (no bishop covers both colors), and any attempt to seal every escape square walks straight into giving Black nothing to do at all."
+        }
+      ]
+    }
+  ]
+}
