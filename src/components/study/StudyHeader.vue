@@ -39,4 +39,16 @@ defineProps<{ study: Study }>()
   font-size: 0.98rem;
   line-height: 1.55;
 }
+
+/* Small screens: tighten the header so the board and the first commentary
+   card share the first screenful. */
+@media (max-width: 820px) {
+  .study-title {
+    font-size: 1.2rem;
+  }
+  .study-summary {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+}
 </style>

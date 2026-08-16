@@ -89,5 +89,21 @@
   .app-main {
     padding: 0.9rem;
   }
+  .app-header {
+    padding: 0.6rem 0.9rem;
+    gap: 0.6rem;
+  }
+  .brand-knight {
+    font-size: 1.5rem;
+  }
+  .brand-name {
+    font-size: 1.05rem;
+  }
+  .app-nav {
+    gap: 0.8rem;
+  }
+  .app-nav a {
+    font-size: 0.88rem;
+  }
 }
 </style>
