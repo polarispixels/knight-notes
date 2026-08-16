@@ -1,0 +1,286 @@
+{
+  "id": "alekhine-defense",
+  "catalogCode": "O051",
+  "focus": "black",
+  "title": "Alekhine's Defense",
+  "subtitle": "Invite the pawns forward, then take them apart",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "Alekhine's Defense inverts the normal opening argument: instead of contesting the center on move one, Black lets White build a big one, pawn by pawn, and spends the middlegame proving that a big center can also be a big target. It is the clearest introduction to hypermodern strategy in the whole repertoire — every White pawn that advances gains space but also loses flexibility, and Black's entire plan is timing exactly when that trade stops being worth it.",
+  "tags": ["Alekhine Defense", "Alekhine's Defence", "hypermodern", "e4 openings", "knight provocation", "semi-open games"],
+  "concepts": ["hypermodern strategy", "central overextension", "tempo", "piece activity", "pawn structure", "counterattack"],
+  "metadata": {
+    "eco": "B02-B05",
+    "opening": "Alekhine Defense",
+    "historicalContext": "Named for World Champion Alexander Alekhine, who introduced 1...Nf6 against 1.e4 at Budapest 1921. It was a deliberate rejection of the era's classical teaching that both sides must occupy the center with pawns immediately — Alekhine's whole generation of hypermodern players argued that controlling the center with pieces, from a distance, could be just as good."
+    },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Alekhine's Defense is not a dare or a trick — it is a wager. Black lets the e-pawn chase the knight around the board, and in exchange White's pawns keep advancing past the point where they can easily be defended by pieces. The recurring question of this opening is always the same one: has White's center become a strength, or has it quietly become a collection of targets? Watch how many of Black's early moves exist purely to set up a single well-timed pawn break."
+    },
+    {
+      "type": "historical",
+      "title": "A deliberate rule-break",
+      "body": "Alekhine played 1...Nf6 as a considered challenge to the classical dogma of his era, not as a fluke. It remains one of the few defenses to 1.e4 whose entire strategic case rests on inviting the opponent forward rather than resisting them."
+    }
+  ],
+  "line": [
+    "e4",
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Refusing the classical dispute",
+          "body": "Instead of meeting e4 with a pawn (...e5) or challenging it symmetrically, Black develops a piece that attacks it directly. White almost always accepts the invitation and pushes forward — which is exactly the point. Every square that pawn later occupies is a square Black will try to prove was overextended.",
+          "concepts": ["hypermodern strategy"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f6", "to": "e4" }]
+    },
+    "e5",
+    "Nd5",
+    {
+      "san": "d4",
+      "variations": [
+        [
+          {
+            "san": "c4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "An immediate, sharper try",
+                "body": "Instead of building the center with d4 first, White challenges the knight right away. This is a real independent try, and if White follows up carelessly it can backfire — watch the trap below."
+              }
+            ]
+          },
+          "Nb6",
+          {
+            "san": "c5",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Chasing again before developing",
+                "body": "White pushes a second time rather than playing d4, gaining more space but spending another pawn move instead of a developing one."
+              }
+            ]
+          },
+          "Nd5",
+          {
+            "san": "Bc4",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "A natural developing move that overlooks a fork",
+                "body": "The bishop eyes f7, but it ignores what the centralized knight can do on its next move."
+              }
+            ]
+          },
+          {
+            "san": "Nb4",
+            "classification": "critical",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The fork square",
+                "body": "The knight threatens ...Nc2+, forking the king on e1 and the rook on a1. White has not castled, so both pieces are still on their starting squares — the fork is fully real, not just a pattern. The only real defenses are a move that deals with c2 and a1 directly, such as sidestepping with Kf1, which at least avoids losing material at the cost of the right to castle.",
+                "concepts": ["piece activity"]
+              }
+            ],
+            "visual": [
+              { "type": "arrow", "from": "b4", "to": "c2" },
+              { "type": "square", "square": "a1" }
+            ]
+          },
+          {
+            "san": "Nf3",
+            "classification": "blunder",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "Developing straight into it",
+                "body": "A routine move that does nothing about the threat on c2. This is exactly the kind of natural-looking mistake this trap is designed to catch."
+              }
+            ]
+          },
+          "Nc2+",
+          "Ke2",
+          {
+            "san": "Nxa1",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black wins the exchange outright. The whole sequence traces back to one overconfident developing move on move five that never asked what the knight on d5 could do next."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "d6",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The counter-question, asked immediately",
+          "body": "Black doesn't wait to develop before challenging the front pawn — d6 attacks e5 on the very next move. This lever, aimed at the base of White's advance, is the mechanism behind almost every line of this opening; the family's variations mostly differ in how and when White responds to it.",
+          "concepts": ["central overextension"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d6", "to": "e5" }]
+    },
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A quiet reply, and a real choice",
+          "body": "Developing here keeps White's options flexible rather than committing to c4 immediately. Compare this with the Exchange Variation and Four Pawns Attack, where White plays c4 on this very move instead — both are covered in their own lessons and pick up from exactly the branch point shown below."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "c4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The branch point for two deeper lessons",
+                "body": "This is the exact position both the Exchange Variation and the Four Pawns Attack start from. If White follows up with f4, that is the Four Pawns Attack; if White trades immediately with exd6, that is the Exchange Variation. Both lessons go far deeper into this position than is useful here."
+              }
+            ]
+          },
+          "Nb6"
+        ]
+      ]
+    },
+    {
+      "san": "g6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "One of several plans",
+          "body": "Fianchettoing keeps the king safe quickly and points the bishop down the long diagonal at White's center from a distance — a second hypermodern idea layered onto the first. The Modern Variation lesson explores the sharper alternative, ...Bg4, which pins the knight instead of developing the king's bishop; both plans are mainstream theory."
+        }
+      ]
+    },
+    "Bc4",
+    {
+      "san": "Nb6",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Count the moves so far: White has played e5, d4, Nf3, and Bc4 — four moves that gain space and develop. Black has played Nf6, Nd5, d6, g6, and now Nb6 — five moves, and the knight has visited three different squares just to get chased away. Is Black simply behind in development?"
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c4", "to": "f7" }]
+    },
+    {
+      "san": "Bb3",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Not behind — trading tempo for targets",
+          "body": "Not really. Every White move that chased the knight also committed a White piece or pawn to a square that can later be attacked in turn — the bishop retreats here precisely because e5 and d4 are not yet fully secure, and Black's 'wasted' knight moves bought time to see exactly how White intends to defend them. Tempo only matters once the position opens; until then, both sides are still choosing where to stand.",
+          "concepts": ["tempo"]
+        }
+      ]
+    },
+    "Bg7",
+    "Qe2",
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A second attacker",
+          "body": "The knight adds pressure to d4 from behind, joining the bishop on g7 in questioning whether White's center is actually defended as many times as it needs to be. This is piece pressure in its purest form: no pawn has moved, but two pieces already eye the same square.",
+          "concepts": ["piece activity"]
+        }
+      ]
+    },
+    "O-O",
+    "O-O",
+    {
+      "san": "h3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A small prophylactic move, ruling out a future ...Bg4 pin on the f3 knight before it becomes relevant. Quiet moves like this are common in this opening — neither side is forcing anything yet."
+        }
+      ]
+    },
+    "a5",
+    "a4",
+    {
+      "san": "dxe5",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "After eight moves of building pressure without a single capture, Black finally opens the center. Was it worth the wait — and what happens to all that piece pressure once the pawns are gone?"
+        }
+      ]
+    },
+    {
+      "san": "dxe5",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The center resolves, roughly evenly",
+          "body": "The pawn tension is gone and the position is nearly symmetrical in the center. Nothing has been won or lost — but every piece Black spent the last eight moves aiming at d4 and e5 is already perfectly placed for what comes next.",
+          "concepts": ["central overextension"]
+        }
+      ]
+    },
+    {
+      "san": "Nd4",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "A double attack, right on cue",
+          "body": "The knight lands on d4 attacking both the queen on e2 and the bishop on b3 — a genuine fork. This is what all that piece pressure was for: the moment the center opened, Black had a piece ready to exploit it immediately.",
+          "concepts": ["piece activity"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "d4", "to": "e2" },
+        { "type": "arrow", "from": "d4", "to": "b3" }
+      ]
+    },
+    {
+      "san": "Nxd4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The simplest answer to a fork: capture the piece making the threats before it matters which one it takes. White's own knight, quietly sitting on f3 since move five, does the job."
+        }
+      ]
+    },
+    {
+      "san": "Qxd4",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Where the opening's argument gets settled",
+          "body": "Material is level and the position is roughly balanced — Black's queen is active and centralized, White's development is a little ahead. Neither side proved their case decisively, and that is the honest verdict on this opening: it doesn't refute anything, it just changes what kind of middlegame both sides are playing for.",
+          "concepts": ["central overextension"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry forward: every pawn advance that gains space also creates a target, and Black's whole opening was choosing which targets to aim at (Nc6 and Bg7 both eyed d4 for many moves before it mattered); tempo only counts once lines open, so a piece that looks 'chased around' can simply be a piece finding its best square slowly; and central knight jumps like Nd4 need to be calculated concretely, not feared — here it was met by a simple recapture, not a crisis. This exact position and the moves leading to it are the opening of the famous game Short vs Timman, where White's development lead eventually grew into a full attack; see that study for what happens when Black's activity runs out of targets.",
+          "concepts": ["central overextension", "tempo", "piece activity"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d4" }]
+    }
+  ]
+}

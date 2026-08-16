@@ -1,0 +1,181 @@
+{
+  "id": "caro-kann-classical",
+  "catalogCode": "O056",
+  "focus": "black",
+  "title": "Caro-Kann: Classical Variation",
+  "subtitle": "Capablanca Variation — after the bishop's story ends, the middlegame begins",
+  "type": "variation",
+  "difficulty": "beginner",
+  "summary": "This is the exact sequence the family study plays out move by move — Black meets 4.Nxe4 with the immediate 4...Bf5, chases the resulting piece exchanges, and finishes with the light-squared bishop's job done and the pawn wall up. That lesson stopped at the moment the structure was complete. This one starts there: how both sides finish development, what the position's plans actually are, and one square (d5) that Black must never hand over for free.",
+  "tags": ["Caro-Kann", "Classical Variation", "Capablanca Variation", "e4 defenses"],
+  "concepts": ["the light-squared bishop", "structure before speed", "open files", "space", "when to exchange"],
+  "metadata": {
+    "eco": "B18",
+    "opening": "Caro-Kann Defense: Classical Variation",
+    "historicalContext": "Named for José Raúl Capablanca, who trusted this exact structure — an immediate ...Bf5 followed by a rock-solid e6/c6 wall — as a reliable defense at the very highest level."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study, The Caro-Kann Defense, walks through this precise sequence in full: 4...Bf5, the Ng3/Bg6/h4/h6 dance, and the Bd3-for-bishop trade that finally lets Black play ...e6 without regret. That lesson stops the moment the structure is complete, with the summary 'the wall goes up.' This lesson replays that same sequence in silence and picks up exactly where it left off — because a completed structure is not a finished game. What do both sides actually do next?"
+    }
+  ],
+  "line": [
+    "e4",
+    "c6",
+    "d4",
+    "d5",
+    "Nc3",
+    "dxe4",
+    "Nxe4",
+    "Bf5",
+    "Ng3",
+    "Bg6",
+    "h4",
+    "h6",
+    "Nf3",
+    "Nd7",
+    "h5",
+    "Bh7",
+    "Bd3",
+    "Bxd3",
+    "Qxd3",
+    "e6",
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "With the light-squared bishops off the board and the structure settled, White simply finishes development. Notice that castling here is completely safe even though the h-pawn already ran to h5 — that pawn left home to chase a bishop, not to open lines against White's own king.",
+          "concepts": ["structure before speed"]
+        }
+      ]
+    },
+    {
+      "san": "Ngf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The second knight develops, finally offering the g8-knight a home now that d7 is already occupied. Black's setup is nearly complete — one more bishop move and castling remain.",
+          "concepts": ["structure before speed"]
+        }
+      ]
+    },
+    {
+      "san": "c4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Space, and a square to remember",
+          "body": "White grants the structure permanent extra room and, just as importantly, stakes a claim to d5 — the one square in Black's position that would love to host a knight. As long as this pawn stands on c4, any Black piece that lands on d5 can simply be captured. Keep that in mind for the next few moves.",
+          "concepts": ["space"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }]
+    },
+    {
+      "san": "Be7",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black's last minor piece needs a square before castling. What happens if the f6-knight jumps to what looks like a wonderful central outpost on d5 instead?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The safe, correct choice",
+          "body": "Simple development. The knight belongs on f6 defending against central pressure and eyeing e4 and d5 as future outposts — but only once c4 is no longer there to punish it. The variation on this move shows exactly what happens to the natural-looking alternative.",
+          "concepts": ["structure before speed"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nd5",
+            "classification": "blunder",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "A beautiful outpost, defended by nothing",
+                "body": "d5 looks like the dream square for a knight — centralized, unassailable by pawns in most structures. Here it is directly attacked by the c4 pawn, and no black piece defends it. This is exactly the square White's 12.c4 was played to control.",
+                "concepts": ["space"]
+              }
+            ]
+          },
+          {
+            "san": "cxd5",
+            "annotations": [
+              {
+                "type": "tactic",
+                "body": "White simply wins the knight for a pawn.",
+                "concepts": ["space"]
+              }
+            ]
+          },
+          "exd5"
+        ]
+      ]
+    },
+    {
+      "san": "Bf4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White's last undeveloped piece finds an active square, eyeing the long diagonal toward c7 and adding a third piece to the pressure on Black's queenside light squares. The alternative shown in the variation here — an immediate knight jump to e5 — trades that piece for a more direct central outpost instead.",
+          "concepts": ["open files"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Ne5",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Trading development for an outpost",
+                "body": "Instead of developing the last piece, White plants a knight on its best square immediately and dares Black to remove it. This is a real strategic choice, not a mistake — a strong knight now versus a completed development plan later."
+              }
+            ]
+          },
+          "Nxe5",
+          {
+            "san": "dxe5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White gains a protected pawn on e5 and, just as importantly, that pawn now attacks f6 — Black's remaining knight there must move at once.",
+                "concepts": ["space"]
+              }
+            ]
+          },
+          "Nd7"
+        ]
+      ]
+    },
+    {
+      "san": "O-O",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Both sides finished — now the middlegame decides it",
+          "body": "Every piece is developed and both kings are safe. White holds a small, real advantage: more space, an actively placed bishop, and control of d5. Black's position has no weaknesses at all — the entire point of the opening — and typical plans include ...Re8, ...Nd7-b6 hitting c4, or ...c5 to strike back at the center once it is safe. White, in turn, often follows up with Rfe1 and a knight hop to e5, the very idea the variation here just previewed.",
+          "concepts": ["open files", "space"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons beyond the family study: a completed pawn structure is a foundation, not a finish line — the real plans (c4, Bf4, Rfe1, Ne5) all come after; a square is only an outpost if it is actually defended, and c4 turned d5 from a dream square into a trap; and small, permanent advantages like White's extra space are worth nursing rather than rushing, because Black's structure has no target to attack directly.",
+          "concepts": ["structure before speed", "space", "the light-squared bishop"]
+        }
+      ]
+    }
+  ]
+}

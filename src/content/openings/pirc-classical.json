@@ -1,0 +1,212 @@
+{
+  "id": "pirc-classical",
+  "catalogCode": "O074",
+  "focus": "white",
+  "title": "Pirc Defense: Classical Variation",
+  "subtitle": "The Two Knights System — win the diagonal, not a quick knockout",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "White answers the Pirc's patience with patience of its own: quiet development to natural squares, betting on a small, lasting edge instead of a fast attack. The Pirc Defense family study introduced this setup in outline; here we go a level deeper into its sharpest independent test, the immediate ...Bg4, and the structural prize White collects for meeting it correctly.",
+  "tags": ["Pirc Defense", "Classical Variation", "Two Knights System", "Pirc, Two Knights System", "fianchetto", "bishop pair", "long-diagonal bishop"],
+  "concepts": ["development", "bishop pair", "prophylaxis", "long-diagonal bishop", "central tension", "piece activity"],
+  "metadata": {
+    "eco": "B08",
+    "opening": "Pirc Defense: Classical Variation (Two Knights System)",
+    "historicalContext": "Called the 'Two Knights System' because both of White's knights develop to their most natural squares, c3 and f3, without any early pawn storm — the calm, positional answer to the Pirc, favored by players who want a lasting structural edge rather than a race."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Pirc Defense family study covered this same quiet Nf3/Be2/O-O setup in outline. Here we go one level deeper, into the Classical Variation's sharpest independent test: Black pins the f3-knight immediately with ...Bg4, forcing White to make a real decision on move seven about whether the bishop pair and the long diagonal are worth changing the structure. Usually they are — and understanding why is the point of this lesson."
+    }
+  ],
+  "line": [
+    "e4",
+    "d6",
+    "d4",
+    "Nf6",
+    "Nc3",
+    "g6",
+    "Nf3",
+    "Bg7",
+    "Be2",
+    "O-O",
+    "O-O",
+    {
+      "san": "Bg4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Not quite a pin, but close",
+          "body": "The bishop attacks the f3-knight, and there is a second piece stacked right behind it on the very same diagonal: White's own bishop on e2. If the knight simply moves away, Bxe2 wins that bishop for nothing. White cannot ignore this alignment, which is exactly why the sharp reply h3 — forcing an immediate decision — is so natural here.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g4", "to": "e2" }],
+      "variations": [
+        [
+          {
+            "san": "Nc6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The other main try",
+                "body": "Developing naturally instead of pinning transposes toward the plan covered in The Pirc Defense, where White meets ...Nc6 with d5 and a knight retreat to e7. Both approaches are sound; this lesson focuses on the sharper pin."
+              }
+            ]
+          },
+          "d5",
+          "Nb8"
+        ]
+      ]
+    },
+    {
+      "san": "h3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White challenges the bishop before the awkward stacking on e2 becomes a real problem. Should Black trade on f3, or retreat and keep the pressure alive?"
+        }
+      ]
+    },
+    {
+      "san": "Bxf3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Trading the pinner",
+          "body": "Black hands over the bishop pair — normally a concession — but the point is concrete: retreating (say, ...Bh5 or ...Bd7) removes the pressure on e2 for nothing in return, spending two moves to accomplish nothing. Trading at least removes a piece and forces White's hand.",
+          "concepts": ["bishop pair"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bh5",
+            "classification": "blunder",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "The bishop with no way home",
+                "body": "This looks like the natural way to keep the pressure on, but check the diagonals first: g6 is blocked by Black's own pawn, and g4 is about to be occupied by White's. After the coming g4, the bishop has no retreat square at all — only Bxg4, giving up the piece for a single pawn. Always check where a piece can actually go before retreating it.",
+                "concepts": ["piece activity"]
+              }
+            ],
+            "visual": [
+              { "type": "square", "square": "g6" },
+              { "type": "square", "square": "h5" }
+            ]
+          },
+          {
+            "san": "g4",
+            "classification": "critical",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The trap closes",
+                "body": "Both of the bishop's escape diagonals are now blocked by pawns — one Black's own, one White's brand new one. There is no way out."
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "g2", "to": "g4" }]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Bxf3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The prize on the long diagonal",
+          "body": "White recaptures with the bishop, not a pawn — the whole point of playing Be2 rather than Bd3 earlier. The bishop now sits on the same long diagonal Black's own g7-bishop wanted, restraining a future ...e5 or ...d5 break before Black even gets to play it. This is the lasting, positional prize of the Classical Variation: not material, not an attack, just a slightly better version of the position that persists for the rest of the game.",
+          "concepts": ["long-diagonal bishop", "prophylaxis"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f3", "to": "a8" }],
+      "variations": [
+        [
+          {
+            "san": "gxf3",
+            "annotations": [
+              {
+                "type": "strategy",
+                "title": "The sharper recapture",
+                "body": "White can also recapture with the pawn, accepting a slightly airier king in exchange for the open g-file and extra central support (the f3 pawn now covers e4 and g4, and backs a future e4-e5 push). It is a real, more aggressive alternative to the calm bishop recapture — less common at club level, but not a mistake.",
+                "concepts": ["piece activity"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Nc6",
+    {
+      "san": "Be3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A natural developing move, adding a defender to d4 and eyeing c5. White's small edge from the bishop trade does not need to be cashed in immediately — just maintained while development finishes."
+        }
+      ]
+    },
+    {
+      "san": "e5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black finally plays the freeing break, challenging the center now that development is complete.",
+          "concepts": ["central break"]
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "body": "White gains space again, just as in the quieter main line — but here the extra long-diagonal control from the f3-bishop means Black's usual regrouping plans are a little slower to arrange. The structural theme is identical to the family study; what this lesson adds is where the small extra edge actually comes from.",
+          "concepts": ["long-diagonal bishop"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }]
+    },
+    {
+      "san": "Ne7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The same standard reroute seen against the quieter main line — the c6-knight was never staying on a square a pawn had just attacked."
+        }
+      ]
+    },
+    {
+      "san": "Re1",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The quiet edge, made concrete",
+          "body": "White centralizes the last piece, adding pressure down the e-file in case the tension there ever reopens. Compare this position to where the family study's main line ended: same closed structure, same knight reroute to e7 — but here White's bishop sits actively on f3 instead of passively on e2, a direct result of how the ...Bg4 pin was met."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons from going deeper into one system: a piece that attacks something with a more valuable piece stacked behind it forces a real decision, even if it is not a textbook pin; giving up the bishop pair is not automatically bad if the recapture buys something concrete in return, like the long diagonal; and small, quiet positional edges are the entire currency of the Classical Variation — there is no single big moment to point to, just a slightly better version of a normal position.",
+          "concepts": ["bishop pair", "long-diagonal bishop", "prophylaxis"]
+        }
+      ]
+    }
+  ]
+}

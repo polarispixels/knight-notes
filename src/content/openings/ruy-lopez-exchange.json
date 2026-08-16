@@ -1,0 +1,186 @@
+{
+  "id": "ruy-lopez-exchange",
+  "catalogCode": "O029",
+  "focus": "white",
+  "title": "Exchange Variation",
+  "subtitle": "Ruy Lopez — Fischer's endgame with the queens still on",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "White gives up the bishop pair on move four to saddle Black with permanently doubled pawns, then plays not for a quick attack but for a pawn-majority race that can take forty moves to resolve. Bobby Fischer's revival of this simple idea shows how a small, unglamorous structural edge can be nursed all the way to a won endgame.",
+  "tags": ["Exchange Variation", "Ruy Lopez", "Spanish Game", "Morphy Defense", "doubled pawns", "bishop pair", "Fischer"],
+  "concepts": ["doubled pawns", "bishop pair", "pawn majorities", "technical endgame play", "piece activity"],
+  "metadata": {
+    "eco": "C68-C69",
+    "opening": "Ruy Lopez: Exchange Variation"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study, The Ruy Lopez, already proved that 4.Bxc6 followed by Nxe5 does not simply win a pawn — Black's ...Qd4 fork regains it. This lesson skips past that tactic entirely and goes straight to the strategic question the Exchange Variation is actually about: is doubling Black's pawns worth giving up the bishop pair, with no forcing follow-up at all? Fischer's answer, revived from 19th-century practice, was a patient plan built on Black's crippled queenside majority."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    "Bb5",
+    "a6",
+    {
+      "san": "Bxc6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Trading the good bishop on purpose",
+          "body": "White gives up the piece most players fight to keep in the Ruy Lopez, in exchange for a structural concession that never goes away. There is no tactic backing this decision up — it is a pure strategic bet on the endgame to come.",
+          "concepts": ["doubled pawns"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "c6" }]
+    },
+    {
+      "san": "dxc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Toward the center, on purpose",
+          "body": "Recapturing with the d-pawn is standard: it opens the c8-bishop's diagonal and gives Black genuine central influence, at the cost of doubled c-pawns (c6 and c7). The rare alternative ...bxc6 avoids the double but keeps the pawns rigid and gains nothing for it — worse in almost every line, since it neither helps development nor creates central presence.",
+          "concepts": ["doubled pawns"]
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "f6",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A permanent answer to a recurring question",
+          "body": "With the c6-knight gone, e5 has no piece defending it anymore — only the ...Qd4 fork held it together in the family study's version of this position. f6 removes the need to calculate that fork ever again: the pawn defends e5 directly and for good, at the cost of the g8-knight's natural square.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f6", "to": "e5" }]
+    },
+    {
+      "san": "d4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White strikes the center while the structural damage is still fresh, rather than waiting."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nxe5",
+            "classification": "blunder",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Why the old tactic is dead now",
+                "body": "This capture worked as a passing threat back when Black's queen could answer ...Qd4. Now the pawn is defended directly by a pawn, not a fork — there is no trick left, only a piece hanging to a pawn.",
+                "concepts": ["unsafe pawn grabbing"]
+              }
+            ]
+          },
+          "fxe5"
+        ]
+      ]
+    },
+    {
+      "san": "exd4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black trades rather than let the tension sit — holding the center with ...e4 nowhere is available and the pawn isn't worth clinging to."
+        }
+      ]
+    },
+    "Nxd4",
+    {
+      "san": "c5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black gains space and hits the knight with tempo — using the queenside majority actively rather than just holding it."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c5", "to": "d4" }]
+    },
+    {
+      "san": "Nb3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The knight retreats but keeps working, watching c5 and d4 from the side."
+        }
+      ]
+    },
+    {
+      "san": "Qxd1",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Every trade so far has opened the d-file, and Black's queen never had to move to reach it — it was on d8 the entire game. With the file now completely clear, does either side benefit from being the one to trade queens here?"
+        },
+        {
+          "type": "key-idea",
+          "title": "A queenless middlegame, chosen not forced",
+          "body": "Neither side avoids it, and neither wants to: without queens, White's kingside majority and Black's bishop pair both matter more, not less, because there's no attack to distract from the structural fight. Fischer sought exactly this kind of position — technical, patient, decided by pawns and minor pieces rather than a mating attack.",
+          "concepts": ["technical endgame play"]
+        }
+      ]
+    },
+    "Rxd1",
+    {
+      "san": "Bg4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black develops the bishop actively along the diagonal toward d1 before deciding where the king belongs — trading is Black's friend here, since fewer pieces make the extra bishop's activity count for more relative to White's structural edge."
+        }
+      ]
+    },
+    "f3",
+    {
+      "san": "Be6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop retreats to a stable diagonal, eyeing a5 through c4 and staying ready to support the queenside pawns."
+        }
+      ]
+    },
+    {
+      "san": "Nc3",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The Exchange Variation's real battleground",
+          "body": "Material is level, but count the pawn islands: White's kingside majority (f2-g2-h2 against Black's f6-g7-h7, once f6 and c6/c7 are set aside) is healthy and mobile, four pawns that can eventually create a passed pawn with no doubled partner to slow them down. Black's queenside majority (a6-b7-c5-c6-c7) is one pawn heavier but structurally compromised by the doubling — it can't easily produce a passed pawn of its own. White's plan for the rest of the game is to advance the kingside pawns toward a passer while trading pieces, since fewer pieces make the healthy majority matter more; Black's plan is to use the bishop pair and active pieces to create enough counterplay that the endgame never simplifies far enough for White's structural trump to cash in. Notice, too, that Black cannot simply tuck the king away with ...O-O-O here — the same open d-file that let the queens trade off also lets White's rook on d1 cover d8, so the king stays in the center a while longer.",
+          "concepts": ["pawn majorities", "bishop pair", "technical endgame play"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry out of this study: a structural concession with no tactical payoff can still be a completely sound strategic decision, if the resulting endgame favors it; once a piece's job (here, defending e5 by fork) is replaced by something more permanent (a pawn), the old tactic simply stops existing — check what actually defends a square before repeating a pattern; and trading pieces helps whichever side's remaining structure is healthier, which is exactly why both players raced to simplify rather than avoid it.",
+          "concepts": ["doubled pawns", "pawn majorities", "technical endgame play"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "c6" },
+        { "type": "square", "square": "c7" },
+        { "type": "square", "square": "f2" }
+      ]
+    }
+  ]
+}

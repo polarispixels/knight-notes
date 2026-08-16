@@ -1,0 +1,171 @@
+{
+  "id": "dutch-defense-leningrad",
+  "catalogCode": "O123",
+  "focus": "black",
+  "title": "Leningrad Dutch",
+  "subtitle": "A second fianchetto, a sharper game",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "The modern main-line Dutch: Black fianchettoes on g7 as well as staking e4, producing a structure that looks like the King's Indian Defense but plays completely differently because the f-pawn already left home. The position stays fluid until Black chooses the moment to strike with the central lever ...e5, and both sides race toward their own share of the open lines that follow.",
+  "tags": ["Leningrad Dutch", "Dutch Defense", "Leningrad System", "fianchetto", "King's Indian Defense", "d4 defenses"],
+  "concepts": ["fianchetto structure", "dynamic piece play", "pawn breaks", "central tension", "kingside attack", "piece activity"],
+  "metadata": {
+    "eco": "A86-A89",
+    "opening": "Dutch Defense: Leningrad Variation",
+    "historicalContext": "This is the modern main line of the Dutch, most closely associated with the Ukrainian grandmaster Vladimir Malaniuk, who devoted much of his career to proving the system sound at the highest level and remains its most famous specialist."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Dutch Defense family study introduced the opening's central bargain: kingside space and a claim on e4, paid for with a slightly loosened king. The Leningrad Dutch answers that bargain by doubling down on activity — a second fianchetto adds a whole new long-range piece to the position, and if you already know the King's Indian Defense, the skeleton here (fianchettoed bishop, ...d6, kingside space) will look familiar. What's different is the timing: the early f5 fights for e4 immediately instead of preparing a later ...e5, and it gives Black a genuine pawn lever independent of whether the center ever closes. That lever, ...e5, and exactly when it's safe to play it, is the heart of this lesson."
+    }
+  ],
+  "line": [
+    "d4",
+    "f5",
+    "g3",
+    "Nf6",
+    "Bg2",
+    {
+      "san": "g6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The second fianchetto",
+          "body": "Unlike the Classical or Stonewall setups, Black fianchettoes the king's bishop too — a second long-range piece instead of a second central pawn move. The resulting structure looks like the King's Indian Defense with an extra pawn already on f5: same skeleton (pawns on d6 and g6, bishop on g7, king tucked on g8), but the early f5 changes the tactics enough that this is genuinely its own opening, not a King's Indian with a bonus move.",
+          "concepts": ["fianchetto structure"]
+        }
+      ]
+    },
+    "Nf3",
+    {
+      "san": "Bg7",
+      "annotations": [
+        { "type": "commentary", "body": "The bishop adds real pressure down the long diagonal toward b2 and the queenside — a second attacking piece the Classical Dutch's e7-bishop never becomes." }
+      ]
+    },
+    "O-O",
+    "O-O",
+    "c4",
+    "d6",
+    {
+      "san": "Nc3",
+      "annotations": [
+        { "type": "commentary", "body": "White develops the last knight and keeps options open — an early e4 break, or simply finishing development before deciding how to challenge Black's setup." }
+      ]
+    },
+    {
+      "san": "Qe8",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Preparing the lever, not just the attack",
+          "body": "As in the other Dutch systems the queen clears d8, but here its first job is concrete: on e8 it defends the coming ...e5 break along the e-file, and only later continues to f7 or h5 for kingside pressure. Skipping this preparation is a real trap — see the variation on this move for what goes wrong.",
+          "concepts": ["piece rerouting"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "e5",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The lever without support",
+                "body": "This looks like the same central break, just played a move early — but skipping Qe8 means the queen never got to defend e5 along the e-file. Watch what the newly open d-file does instead."
+              }
+            ]
+          },
+          "dxe5",
+          "dxe5",
+          {
+            "san": "Qxd8",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Not a blunder, but a wasted move order",
+                "body": "With both center pawns gone, the d-file is completely open and the queens simply trade. Nothing is lost materially — but the entire point of the Leningrad Dutch is to keep queens on the board for a kingside attack, and rushing the central break before Qe8 throws that away for nothing. Move-order discipline matters as much as the ideas themselves."
+              }
+            ]
+          },
+          "Rxd8"
+        ]
+      ]
+    },
+    {
+      "san": "Re1",
+      "classification": "theory",
+      "annotations": [
+        { "type": "question", "body": "White's rook steps onto the same file the queen just moved off of. What central break has Black been preparing since the last move, and why does the queen's new placement matter for it?" }
+      ],
+      "variations": [
+        [
+          {
+            "san": "d5",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Clamping the center instead of opening it",
+                "body": "Rather than preparing e4, White grabs space and fixes the center closed. This denies Black the ...e5 lever entirely for now and asks a different question: can Black's pieces find useful work on a closed board?"
+              }
+            ]
+          },
+          {
+            "san": "Na6",
+            "annotations": [
+              { "type": "commentary", "body": "Black reroutes the queenside knight toward c5, a strong outpost the closed center hands over for free — the standard answer to White's space grab, trading one plan (the central break) for another (a well-placed piece)." }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The central lever",
+          "body": "This is the pawn break the whole Leningrad setup points toward: with the queen already defending e5 along the e-file, Black can strike in the center at full strength instead of grabbing a square that instantly hangs. Every piece placed so far — the Nc3-challenged center, the fianchettoed bishop, the queen on e8 — has this moment in mind.",
+          "concepts": ["pawn breaks", "dynamic piece play"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e5" }]
+    },
+    "dxe5",
+    "dxe5",
+    {
+      "san": "e4",
+      "classification": "theory",
+      "annotations": [
+        { "type": "commentary", "title": "White strikes back", "body": "With the center opened, White immediately contests it again rather than let Black's space stand unchallenged — the same central resolution the family study showed, reached here by a completely different route." }
+      ]
+    },
+    "fxe4",
+    "Nxe4",
+    "Nxe4",
+    {
+      "san": "Rxe4",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Dynamism, cashed in",
+          "body": "The center is fully open, material is level, and both sides have active pieces — a sharper, earlier resolution than the slower buildup of the Classical Dutch. Black's fianchettoed bishop on g7 is now a real long-term asset, since nothing blocks its diagonal anymore, while White's rook enjoys the same open e-file. This is the Leningrad's character in one position: faster, more concrete, and less patient than its siblings."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Two lessons carry forward: the Leningrad's central lever, ...e5, only works when it's genuinely prepared — compare what happens when Black rushes it a move early, in the variation two moves back — and the second fianchetto is what makes this system dynamic rather than merely solid. Once the long diagonal opens, Black has a real second attacking piece that the Classical Dutch's own e7-bishop never becomes.",
+          "concepts": ["dynamic piece play", "fianchetto structure"]
+        }
+      ]
+    }
+  ]
+}

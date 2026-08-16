@@ -1,0 +1,197 @@
+{
+  "id": "alekhine-modern-variation",
+  "catalogCode": "O054",
+  "focus": "black",
+  "title": "Alekhine Defense: Modern Variation",
+  "subtitle": "Pin first, decide later",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "Rather than fianchettoing the way the family study does, Black meets White's quiet 4.Nf3 with an immediate pin — ...Bg4, aiming straight at the knight and the queen behind it. It is today's most heavily analyzed Alekhine's Defense battleground, prized for exactly the flexibility its name implies: Black keeps every central and kingside option open while immediately making White's most natural developing move slightly uncomfortable.",
+  "tags": ["Alekhine Defense", "Modern Variation", "Alekhine, Main Line (4.Nf3)", "e4 openings", "piece pressure"],
+  "concepts": ["central pressure", "flexible development", "central pawn breaks", "piece activity", "prophylaxis"],
+  "metadata": {
+    "eco": "B05",
+    "opening": "Alekhine Defense: Modern Variation",
+    "historicalContext": "The most popular and heavily analyzed way to meet 4.Nf3 today — effectively the mainstream Alekhine's Defense battleground, standing alongside the Four Pawns Attack and Exchange Variation as one of the opening's three major independent branches."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study met 4.Nf3 with the fianchetto plan, ...g6 and ...Bg7 — safe, solid, and aimed at the center from a distance. This lesson shows the other mainstream answer: ...Bg4, pinning the knight immediately instead of tucking the king away first. The whole line is built around a single delayed idea — Black keeps the knight centralized on d5 for as long as possible, finishes developing, and only then plays the central break the entire setup was preparing. Watch for exactly when that knight finally has to move, and why the timing matters."
+    }
+  ],
+  "line": [
+    "e4",
+    "Nf6",
+    "e5",
+    "Nd5",
+    "d4",
+    "d6",
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Development instead of another pawn move",
+          "body": "Unlike the Exchange Variation and Four Pawns Attack, where White plays c4 on this very move, here White simply develops and keeps the structure flexible. Black's centralized knight on d5 is left alone for now — a choice that shapes everything that follows."
+        }
+      ]
+    },
+    {
+      "san": "Bg4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The pin that gives the variation its name",
+          "body": "Instead of tucking the king away, Black immediately pins the f3 knight to White's queen on d1. This does two things at once: it develops a piece Black would otherwise need to work to activate later, and it keeps the knight on d5 exactly where it is — the whole point of this plan is to delay retreating that knight as long as possible, squeezing extra value out of its central post before it eventually has to move.",
+          "concepts": ["piece activity", "flexible development"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g4", "to": "d1" }],
+      "variations": [
+        [
+          {
+            "san": "g6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The family study's plan",
+                "body": "The fianchetto is fully sound here too, reaching the same broad Modern Variation territory by an entirely different route — king safety first, central pressure from a distance."
+              }
+            ]
+          },
+          "Bc4"
+        ]
+      ]
+    },
+    {
+      "san": "Be2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops naturally rather than spending a move breaking the pin immediately — the knight isn't in any real danger yet, and h3 can always come later if needed."
+        }
+      ]
+    },
+    {
+      "san": "e6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black keeps the tension in the pin and prepares to develop the dark-squared bishop and castle. Trading the bishop off right away instead is playable but gives away real value — see the variation here."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bxf3",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Trading the wrong piece",
+                "body": "Giving up the bishop pair right away surrenders exactly the asset that made the pin worth playing in the first place. White recaptures happily and stands at least equally well with two active minor pieces; keeping the tension with ...e6 instead is the more common and more testing choice."
+              }
+            ]
+          },
+          "Bxf3"
+        ]
+      ]
+    },
+    "O-O",
+    "Be7",
+    {
+      "san": "c4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Now White finally asks the question",
+          "body": "Only now, after castling and developing two more pieces, does White challenge the centralized knight. Compare this with the Exchange Variation and Four Pawns Attack, where c4 comes on move four instead — the delay here isn't a mistake, it's the whole reason this line is called 'Modern': both sides finish useful development before the structural fight over d5 even begins.",
+          "concepts": ["flexible development"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }]
+    },
+    {
+      "san": "Nb6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The retreat, and what it quietly sets up",
+          "body": "The knight steps back, just as it does in every other branch of this opening. But notice the square it vacates: d5 is now empty, and Black's center pawn will want that exact square in a few moves. Hold that thought.",
+          "concepts": ["central pawn breaks"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }],
+      "variations": [
+        [
+          {
+            "san": "Nb4",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "A sharper retreat",
+                "body": "Instead of the calm b6 square, the knight jumps to b4, eyeing d3 and c2 and keeping more tension in the position. White simply gains time attacking it, so most players prefer the simple retreat instead."
+              }
+            ]
+          },
+          "a3",
+          "N4c6"
+        ]
+      ]
+    },
+    "Nc3",
+    "O-O",
+    {
+      "san": "Be3",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black has been quietly preparing one specific pawn break since retreating the knight two moves ago. What is it, and why did the knight need to move first?"
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The break, on cue",
+          "body": "This is the move the whole setup was building toward. The pawn strikes at the base of White's center using the exact square the knight vacated two moves ago — impossible to play while the knight still sat on d5. The bishop already on g4 adds extra pressure down the same diagonal the break opens up.",
+          "concepts": ["central pawn breaks", "piece activity"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "c4" },
+        { "type": "square", "square": "e5" }
+      ]
+    },
+    {
+      "san": "c5",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Space over simplification",
+          "body": "White could have traded on d5 — the pawn is only defended twice (by the e6 pawn and the b6 knight) and attacked once, so cxd5 would just be an even exchange that dissolves the whole central bind. Pushing past instead keeps more pawns on the board, gains further space, and immediately hits the b6 knight, which now has to choose between an active post on c4 and a more modest retreat.",
+          "concepts": ["central pawn breaks", "flexible development"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry forward: the ...Bg4 pin from move four wasn't just a developing move, it was quietly preparing the central break that only became possible once the knight retreated; move order matters as much as the moves themselves — both sides spent the opening racing to finish useful development before the structural fight, rather than rushing into it; and central pawn levers, whether it's this ...d5 or the family study's ...dxe5, are the recurring mechanism by which Alekhine's Defense turns early piece pressure into real, concrete play. Where the knight belongs after c5 — c4, d7, or somewhere quieter — is a genuine, ongoing debate in this line rather than a settled answer.",
+          "concepts": ["central pawn breaks", "flexible development", "piece activity"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c5", "to": "b6" }]
+    }
+  ]
+}

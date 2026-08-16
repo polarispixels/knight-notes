@@ -1,0 +1,225 @@
+{
+  "id": "semi-slav-meran",
+  "catalogCode": "O098",
+  "focus": "black",
+  "title": "The Meran Variation",
+  "subtitle": "Semi-Slav Defense — a queenside pawn storm as compensation",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "The Meran Variation is what happens when Black actually keeps the pawn grabbed on c4: instead of returning it quietly, Black defends it with a full queenside pawn storm and races to open lines before White's center can roll forward. It is one of the most fought-over main lines in classical chess, home to some of the sharpest forced tactics in the entire d4 complex.",
+  "tags": ["Meran Variation", "Meran System", "Meran Defense", "Semi-Slav Defense", "Slav Defense", "d4 openings"],
+  "concepts": ["queenside pawn storm", "central counterstrike", "piece activity", "hanging pawns", "queenside majority", "dynamic piece play"],
+  "metadata": {
+    "eco": "D47-D49",
+    "opening": "Semi-Slav Defense: Meran Variation",
+    "historicalContext": "First tested at the 1924 tournament in Meran, Italy, this line quickly became one of the main battlegrounds of tournament chess in the 1920s and 1930s and remains fully current today. Its sharpest branch, reached after White's 11.e5, produces some of the most heavily analyzed tactical sequences in all of opening theory."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Semi-Slav Defense combines the Slav's ...c6 with the QGD's ...e6 — a hybrid structure built to support ...dxc4 without giving up development. The Meran is the most direct answer to the question that structure raises: once Black actually takes the pawn on c4, how does Black keep the resulting activity? The answer here is not subtlety but force — ...b5, ...a6, and a full queenside pawn chain, played before White's center can punish the loose structure."
+    }
+  ],
+  "line": [
+    "d4",
+    "d5",
+    "c4",
+    {
+      "san": "c6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The Slav move order",
+          "body": "Defending d5 with a pawn rather than a piece, and — unlike the QGD's ...e6 — without shutting in the c8-bishop. The whole Slav complex is built around keeping that bishop free."
+        }
+      ]
+    },
+    "Nc3",
+    "Nf6",
+    "Nf3",
+    {
+      "san": "e6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Where Slav becomes Semi-Slav",
+          "body": "Black adds the move the pure Slav was designed to avoid. This costs a tempo and blocks the c8-bishop's diagonal after all — but it buys something specific: a genuine pawn chain able to support ...dxc4 with real force, not just a single tempo of tactics. The Semi-Slav is a hybrid on purpose."
+        }
+      ]
+    },
+    "e3",
+    {
+      "san": "Nbd7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Development that keeps options open — the knight adds support toward c5 and e5 for later, without yet committing to the plan the next few moves reveal."
+        }
+      ]
+    },
+    {
+      "san": "Bd3",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White's bishop lines up on the long diagonal toward h7. Black is about to grab the pawn on c4 anyway — doesn't that just help White develop with tempo and point a piece straight at the king?"
+        }
+      ]
+    },
+    {
+      "san": "dxc4",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Taking it anyway",
+          "body": "Yes — and Black takes it anyway, because what happens next matters more than one tempo. The Meran doesn't try to avoid helping White's bishop; it answers with an entire queenside pawn storm, starting right now."
+        }
+      ]
+    },
+    {
+      "san": "Bxc4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White recaptures, completing development with the point already achieved: the bishop is centralized and aiming toward f7 and h7."
+        }
+      ]
+    },
+    {
+      "san": "b5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The move that names the whole variation",
+          "body": "This is the Meran's entire idea in one move: attack the piece that just recaptured, win the tempo back immediately, and launch the queenside expansion that will occupy the rest of the game. Grabbing c4 without a follow-up like this would just be a pawn steal that loses time; with it, the 'stolen' pawn becomes the down payment on real space.",
+          "concepts": ["queenside pawn storm"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b5", "to": "c4" }]
+    },
+    {
+      "san": "Bd3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The only sound retreat — it keeps the same diagonal toward h7 alive. Grabbing the pawn back immediately is a losing blunder (see the variation)."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bxb5",
+            "classification": "blunder",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "The pawn grab that loses a piece",
+                "body": "This looks like simply winning the pawn back. It doesn't — the bishop has wandered onto a square a pawn defends."
+              }
+            ]
+          },
+          {
+            "san": "cxb5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black's c6 pawn recaptures cleanly. White has traded a full bishop for a single pawn. The rule this breaks: a piece attacked by a pawn retreats unless the resulting trade is concretely calculated to be favorable — here it plainly wasn't."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Bb7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Development completes the setup — the bishop joins the fight for the long diagonal and eyes White's own kingside once the center opens."
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "a6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The last link in the chain",
+          "body": "Three consecutive queenside pawn moves instead of piece development — a6 completes the a6-b5-c6 structure the whole Meran plan depends on. This is the cost side of the ledger, worth remembering when it's time to tally what the pawn grab actually bought."
+        }
+      ]
+    },
+    {
+      "san": "e4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Claiming the center",
+          "body": "With development essentially complete, White finally claims full central space — the natural reward for developing normally while Black's pieces were busy on the queenside. The position turns sharp from here."
+        }
+      ]
+    },
+    {
+      "san": "c5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black strikes back in the center rather than let White's space go unanswered — the queenside pawn storm was never just about the flank, it was preparing this exact break."
+        }
+      ]
+    },
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "warning",
+          "title": "Pushing past, not just forward",
+          "body": "The pawn advances past the tension and attacks the f6-knight directly. This is the sharpest moment of the entire Semi-Slav complex — White's most testing continuation from here involves a piece offer on b5 to keep the initiative alive, among the most heavily analyzed tactical sequences in classical opening theory."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "f6" }],
+      "variations": [
+        [
+          {
+            "san": "d5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Clamping the center instead of striking it",
+                "body": "Rather than pushing past the f6-knight, White can jam the center shut entirely, trading sharp tactics for a long-term space advantage and a potential outpost later — a completely different kind of fight from the sharp complications after 11.e5."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "cxd4",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Into the complications",
+          "body": "Black grabs the other central pawn rather than retreat the attacked knight — the position is now razor-sharp and has been fought over for a century. Concretely: White's e5 pawn cramps Black's kingside development, but Black has real central and queenside assets to show for it. The exact best continuation from here is deep, forcing theory; the strategic picture is what matters for this lesson.",
+          "concepts": ["dynamic piece play"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: grabbing dxc4 is only worth it if you can justify it immediately — Black's entire b5/Bb7/a6 sequence exists to make one move-six pawn capture pay off; a bishop attacked by a pawn retreats rather than counter-captures without concrete calculation; and a pawn storm has a deadline — the queenside structure had to be finished before White's central e4-e5 arrived, or the whole plan would have been just a slow way to lose a tempo.",
+          "concepts": ["queenside pawn storm", "central counterstrike"]
+        }
+      ]
+    }
+  ]
+}

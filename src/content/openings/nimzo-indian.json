@@ -1,0 +1,236 @@
+{
+  "id": "nimzo-indian",
+  "catalogCode": "O104",
+  "focus": "black",
+  "title": "The Nimzo-Indian Defense",
+  "subtitle": "Pin the knight before the center even exists",
+  "type": "opening",
+  "difficulty": "advanced",
+  "summary": "Black pins White's c3-knight on move three, before either side has committed a single central pawn, threatening to trade a bishop for lasting structural damage. It is one of the most respected defenses to 1.d4 at every level — a battle between the bishop pair and a wrecked pawn structure that stays relevant from the opening to the endgame.",
+  "tags": ["Nimzo-Indian Defense", "Nimzowitsch-Indian Defense", "Nimzo-Indian", "Indian Game", "d4 defenses", "the pin"],
+  "concepts": [
+    "prophylaxis",
+    "doubled pawns",
+    "the bishop pair",
+    "central restraint",
+    "dark-square control",
+    "structural imbalance"
+  ],
+  "metadata": {
+    "eco": "E20-E59",
+    "opening": "Nimzo-Indian Defense",
+    "historicalContext": "Named for Aron Nimzowitsch, the hypermodern theorist whose games and writing in the 1920s established the pin against Nc3 as a serious weapon rather than a curiosity. It has been trusted at the very highest level ever since — Botvinnik's structural masterpiece against Capablanca at AVRO 1938 is one of its most famous demonstrations."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Every other Indian defense develops toward a square or a diagonal. The Nimzo-Indian develops toward a piece: the bishop goes to b4 to pin White's c3-knight before White has played a single central pawn move. That pin carries a real threat — trading the bishop for the knight leaves White with doubled c-pawns — and Black's entire opening revolves around when to cash that threat in, when to hold it as a standing question, and how to fight for e4 and the dark squares while White tries to prove the bishop pair is worth more than the damaged structure. Where the King's Indian and Grünfeld let White build a center and attack it later, the Nimzo-Indian restrains it from the very first pieces."
+    }
+  ],
+  "line": [
+    "d4",
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Controls e4 without committing a pawn — the shared opening move of every Indian defense.",
+          "concepts": ["central restraint"]
+        }
+      ]
+    },
+    "c4",
+    {
+      "san": "e6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Prepares ...Bb4 and keeps the option of a later ...d5, without yet revealing which. Compare this to ...g6: the Nimzo-Indian's bishop is heading for an active diagonal aimed at a piece, not a long-term fianchetto aimed at squares.",
+          "concepts": ["central restraint"]
+        }
+      ]
+    },
+    "Nc3",
+    {
+      "san": "Bb4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The bishop pins the knight to nothing — White's king is still on e1, and the knight itself blocks the check. So what is this move actually threatening?"
+        },
+        {
+          "type": "key-idea",
+          "title": "A pin with a concrete point",
+          "body": "It isn't a check and it isn't yet a capture, but it is a genuine, standing threat: ...Bxc3+ followed by ...bxc3 permanently doubles White's queenside pawns. White cannot simply ignore it, because the trade favors Black's structure at essentially no cost to Black. Every one of White's fourth-move tries exists to answer this one question: prevent the pin from mattering, invite the trade on favorable terms, or accept the damage and play for the bishop pair and central space instead.",
+          "concepts": ["doubled pawns"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b4", "to": "c3" }]
+    },
+    {
+      "san": "e3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The Rubinstein System",
+          "body": "The most classical reply: a modest pawn move that opens the dark bishop's diagonal and asks no immediate questions. White accepts that the pin will eventually be resolved on Black's terms and prepares to meet it with quick, sound development instead of a direct confrontation. Two sharper main tries exist at this exact point — see the variations here for both.",
+          "concepts": ["central restraint"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Qc2",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The Classical Variation",
+                "body": "White prepares to recapture on c3 with the queen instead of a pawn, avoiding the doubled pawns altogether if the trade happens. The cost is time — the queen needs an extra move to reach a useful square, and it can become a target itself.",
+                "concepts": ["doubled pawns"]
+              }
+            ]
+          },
+          "O-O",
+          "a3",
+          "Bxc3+",
+          "Qxc3"
+        ],
+        [
+          {
+            "san": "a3",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The Sämisch Variation",
+                "body": "The most direct answer: force the question immediately. White invites the doubled pawns on purpose, betting that the bishop pair and a big classical center (often built with a coming f3 and e4) outweigh the structural cost. This is the sharpest, most committal way to meet the pin — accept the damage at once and go for broke in the center.",
+                "concepts": ["doubled pawns", "the bishop pair"]
+              }
+            ]
+          },
+          "Bxc3+",
+          "bxc3"
+        ]
+      ]
+    },
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "King safety before deciding the pin's fate — Black is in no hurry to resolve the bishop's future.",
+          "concepts": ["central restraint"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bxc3+",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "Cashing the threat too early",
+                "body": "This doesn't lose material and it isn't refuted by any tactic — but it gives away the whole point of the pin for free. Trading now, before Black has built any pressure or gained any tempo, hands White exactly what White wanted (the bishop pair and a fixed structural plan) with nothing extracted in return. The mainline's patience — waiting for White to spend a move (a3) provoking the trade, or building central pressure first — is what makes the same capture genuinely good two or three moves later instead of merely equal.",
+                "concepts": ["doubled pawns", "the bishop pair"]
+              }
+            ]
+          },
+          "bxc3"
+        ]
+      ]
+    },
+    {
+      "san": "Bd3",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops toward the kingside, keeping the bishop pair intact for now and preparing a quick e4 push once the pin is finally resolved.",
+          "concepts": ["central restraint"]
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Fighting for the center directly",
+          "body": "Having restrained White's center with a piece, Black now contests it with a pawn as well — the pin bought time, and this is what the time was for.",
+          "concepts": ["central restraint"]
+        }
+      ]
+    },
+    "Nf3",
+    {
+      "san": "c5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A second central pawn joins the fight against d4, pressing from both sides at once and keeping the coming structural battle as sharp as possible.",
+          "concepts": ["central restraint"]
+        }
+      ]
+    },
+    "O-O",
+    "Nc6",
+    {
+      "san": "a3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White finally asks the bishop to declare itself. After several moves of patience on both sides, is this finally the right moment for Black to trade?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The provoked capture",
+          "body": "Yes — and the contrast with the earlier mistake variation is the whole lesson. Now White has spent a tempo (a3) forcing the issue, Black has already fought for the center with ...d5 and ...c5, and the coming doubled pawns arrive in a position where Black has real, concrete activity to show for them. The same capture that was premature two diagrams ago is now the natural, principled choice.",
+          "concepts": ["doubled pawns", "the bishop pair"]
+        }
+      ]
+    },
+    {
+      "san": "Bxc3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Cashing in on Black's terms",
+          "body": "The bishop trades itself for the knight at last. White gains the bishop pair; Black gains a permanent structural target on c3 and c4 to press against for the rest of the game — with pieces already active enough to make that pressure real.",
+          "concepts": ["doubled pawns"]
+        }
+      ]
+    },
+    {
+      "san": "bxc3",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The structure this whole opening was built around",
+          "body": "White's doubled c-pawns are now permanent. In exchange, White has the bishop pair and, often, a central pawn majority that can advance to compensate for the structural scar — exactly the plan Botvinnik used to grind down Capablanca in one of the opening's most famous games, building a central majority and pushing it forward one square at a time. Black's plans now: blockade or attack the c-pawns, fight for the dark squares the missing bishop can no longer contest, and use the extra central pawn (from ...dxc4 ideas) or piece pressure to keep White's structure a genuine weakness rather than a footnote.",
+          "concepts": ["doubled pawns", "dark-square control"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a threat that exists from move three doesn't have to be cashed in immediately — the Nimzo-Indian's pin is a standing question, and answering it too early (the mistake variation) wastes the whole point; doubled pawns are a real, lasting weakness but not an automatic win — White's bishop pair and central chances are genuine compensation, which is exactly why this structural battle can last from the opening into the endgame; and restraining a piece before the center even forms (the pin on move three) is just as much a hypermodern idea as attacking a finished pawn center later, the way the King's Indian and Grünfeld do.",
+          "concepts": ["doubled pawns", "the bishop pair", "central restraint"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "c3" },
+        { "type": "square", "square": "c4" }
+      ]
+    }
+  ]
+}

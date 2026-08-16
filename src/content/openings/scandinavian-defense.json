@@ -1,0 +1,280 @@
+{
+  "id": "scandinavian-defense",
+  "catalogCode": "O075",
+  "focus": "black",
+  "title": "The Scandinavian Defense",
+  "subtitle": "Center Counter — trading a tempo for the center, right away",
+  "type": "opening",
+  "difficulty": "beginner",
+  "summary": "Where the French and Caro-Kann spend a move preparing ...d5, the Scandinavian just plays it and lets White capture. Black accepts an early queen sortie and a tempo or two of lost time for a wide-open position and fast piece activity. This lesson shows exactly what that trade costs, and previews the three answers Black has to the question 'how do I get the pawn back?'",
+  "tags": ["Scandinavian Defense", "Center Counter Defense", "Center Counter Game", "Center Counter Opening", "e4 openings", "semi-open games"],
+  "concepts": ["development tempo trade-offs", "early queen development risk", "immediate central challenge", "central tension", "piece activity", "prophylaxis"],
+  "metadata": {
+    "eco": "B01",
+    "opening": "Scandinavian Defense",
+    "historicalContext": "One of the oldest tries against 1.e4 — analyzed as far back as the 19th century under the name Center Counter Game — the Scandinavian spent decades with a reputation for passivity. That reputation has been overturned at the very top of chess in recent years, with players including Magnus Carlsen, Fabiano Caruana, and Ian Nepomniachtchi using it as a serious weapon rather than a surprise trick."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The whole defense hinges on one question: is bringing the queen out early on move 2 or 3 actually a mistake, or just a manageable inconvenience? White will gain a tempo or two hitting the queen with developing moves — that part is real. What is not automatic is that White gets anything more than that. This lesson shows the tempo economics in action, then previews Black's three real answers: recapture at once and retreat to a5 or d6 (each its own deeper study), or delay the recapture entirely with 2...Nf6, sometimes never taking the pawn back at all."
+    },
+    {
+      "type": "historical",
+      "title": "From 'passive' to top-level weapon",
+      "body": "For most of the 20th century the Scandinavian was considered a slightly dubious way to spend a tempo. Its modern rehabilitation shows how opening theory evolves: precise move orders were found that neutralize White's tempo gains, turning a defense once dismissed as too simple into one respected enough for World Championship-level preparation."
+    }
+  ],
+  "line": [
+    {
+      "san": "e4",
+      "annotations": [
+        {
+          "type": "principle",
+          "body": "Stakes a claim in the center and opens lines for the bishop and queen."
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The direct approach",
+          "body": "Instead of preparing ...d5 with ...c6 or ...e6 the way the Caro-Kann and French do, Black plays it immediately and dares White to take. There is nothing to prepare for — if White declines, Black simply has a free central pawn move; if White takes, the whole point of the opening begins.",
+          "concepts": ["immediate central challenge"]
+        }
+      ]
+    },
+    {
+      "san": "exd5",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The d5 pawn has no defender and White is essentially certain to take it. The real question is what Black does next — grab it straight back with the queen, or leave it for a move and develop first? Both are fully playable; they lead to very different games. Decide which you would try before reading on."
+        }
+      ]
+    },
+    {
+      "san": "Qxd5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The classical answer",
+          "body": "Simplest and most popular: take the pawn back immediately. The cost is that the queen is now a target for every developing move White makes — but a queen that keeps landing on useful squares while dodging attacks is not actually behind on development, it is just spending its tempi differently than the other pieces do. The alternative that avoids this entirely, 2...Nf6, is shown in the variation here.",
+          "concepts": ["development tempo trade-offs"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nf6",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Delaying the recapture",
+                "body": "Instead of spending a move to win the pawn back with the queen, Black develops a piece and leaves the d5 pawn where it is for now. This is the Modern Variation — its own dedicated study goes far deeper into the resulting positions, which can look nothing like the classical queen lines below.",
+                "concepts": ["development over immediate recapture"]
+              }
+            ]
+          },
+          {
+            "san": "d4",
+            "classification": "theory",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White's most natural try — solidify the center and let the extra pawn sit on d5 for a move longer. There is a sharper alternative that tries to hang on to it altogether."
+              }
+            ],
+            "variations": [
+              [
+                {
+                  "san": "c4",
+                  "annotations": [
+                    {
+                      "type": "commentary",
+                      "body": "This pawn defends d5 directly, so a simple recapture no longer works. Black has to fight for the pawn with a move, not just take it back for free."
+                    }
+                  ]
+                },
+                {
+                  "san": "e6",
+                  "classification": "theory",
+                  "annotations": [
+                    {
+                      "type": "key-idea",
+                      "title": "The Icelandic Gambit",
+                      "body": "Black offers a second pawn to blow the center open and get every piece into the game quickly. Be honest about its status: with precise defense White is generally considered to keep an edge, so this is a practical weapon rather than a sound equalizer — dangerous at club level, riskier the better the opponent.",
+                      "concepts": ["piece activity"]
+                    }
+                  ]
+                },
+                "dxe6",
+                {
+                  "san": "Bxe6",
+                  "annotations": [
+                    {
+                      "type": "commentary",
+                      "body": "Two pawns down, but every Black minor piece can reach the game within a couple of moves, and White's king has not castled yet. Whether that is enough compensation is exactly the question a well-prepared opponent will make Black answer."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "san": "Nxd5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The straightforward path: recapture with the knight and reach a genuinely different kind of position, developed in full in the Modern Variation study. There is also a sharper way to meet 3.d4 that develops before recapturing at all."
+              }
+            ],
+            "variations": [
+              [
+                {
+                  "san": "Bg4",
+                  "classification": "theory",
+                  "annotations": [
+                    {
+                      "type": "key-idea",
+                      "title": "The Portuguese Variation",
+                      "body": "Black develops the bishop with a future pin in mind before even taking the pawn back. It is a real, respected practical gambit — sounder in reputation than the Icelandic above, though still requiring Black to know the resulting positions well.",
+                      "concepts": ["piece activity"]
+                    }
+                  ],
+                  "visual": [{ "type": "arrow", "from": "g4", "to": "d1" }]
+                },
+                {
+                  "san": "Nf3",
+                  "annotations": [
+                    {
+                      "type": "commentary",
+                      "body": "White can still play the natural developing move, accepting the pin rather than spending a tempo to avoid it. That pin is the entire point of Black's move order — it did not exist before the bishop got to g4."
+                    }
+                  ]
+                }
+              ]
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nc3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The recurring economics of the Scandinavian",
+          "body": "Development with a threat: the knight comes to its natural square and hits the queen at the same time. This will happen again and again in this opening whenever the queen sits somewhere reachable — it is the one real cost of grabbing the pawn immediately, and everything else in this defense is about managing it.",
+          "concepts": ["development tempo trade-offs"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c3", "to": "d5" }]
+    },
+    {
+      "san": "Qa5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Two respected retreats",
+          "body": "Qa5 keeps the queen active — it immediately pins the knight on c3 to the king on e1 — at the cost of sitting on the rim, a little exposed. The dedicated Qa5 study goes deep into exactly what that costs and how to manage it. Qd6 is the other major choice, staying more central; its own study explains why it has become the top-level favorite.",
+          "concepts": ["development tempo trade-offs"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Qd6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The modern main line",
+                "body": "Staying on the d-file keeps the queen defending c7 and out of the tricks that come with sitting on a5 — see the dedicated Qd6 study for the full picture."
+              }
+            ]
+          },
+          "d4",
+          "Nf6"
+        ],
+        [
+          {
+            "san": "Qd8",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "Retreating all the way",
+                "body": "A natural impulse — go back to complete safety — but this undoes the entire point of recapturing with the queen. Black has now spent three full moves (Qxd5, and now two retreats) to end up back where the queen started, while White has made two normal developing moves. Compare this with Qa5 or Qd6, which at least keep the queen doing something.",
+                "concepts": ["development tempo trade-offs"]
+              }
+            ]
+          },
+          "Nf3"
+        ]
+      ]
+    },
+    "d4",
+    "Nf6",
+    "Nf3",
+    {
+      "san": "c6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A quiet prophylactic pawn move — it takes the b5 square away from White's knight before it can become a problem. The Qa5 study shows exactly what that problem would have looked like."
+        }
+      ]
+    },
+    "Bc4",
+    {
+      "san": "Bf5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The light-squared bishop gets out actively while it still can. This is a small but important piece of move-order discipline in every branch of this defense: get this bishop developed before a pawn move closes its diagonal in."
+        }
+      ]
+    },
+    {
+      "san": "Bd2",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A quiet move that frees a pinned knight",
+          "body": "Until now the knight on c3 was actually pinned — it is the only piece between the queen on a5 and the king on e1, so moving it was simply illegal. Bd2 adds a second blocker on that diagonal, freeing the knight to move at last, but at a price: the instant it does, Bd2 finds itself facing the queen directly. The Qa5 study walks through the resulting tactics in detail.",
+          "concepts": ["prophylaxis"]
+        }
+      ]
+    },
+    "e6",
+    "Qe2",
+    {
+      "san": "Bb4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Both sides ready to castle to opposite wings",
+          "body": "Black has finished the essential development this defense demands — bishop out, king ready to move, the a5-d2 diagonal now blocked by Black's own bishop rather than left open. White will likely castle long and consider a kingside pawn storm; Black's pieces are aimed at the queenside where that king will land.",
+          "concepts": ["central tension"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry forward: every early queen move invites a developing move that gains a tempo, and that cost is fully manageable if the queen keeps landing on useful squares; the exact order pieces develop in matters as much as which squares they go to (bishop before the pawn that would trap it); and delaying the recapture with 2...Nf6 is a real alternative, not a lesser one, trading a move of patience for extra piece activity.",
+          "concepts": ["development tempo trade-offs", "piece activity", "prophylaxis"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b4", "to": "c3" }]
+    }
+  ]
+}

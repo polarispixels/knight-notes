@@ -1,0 +1,185 @@
+{
+  "id": "ruy-lopez-open",
+  "catalogCode": "O030",
+  "focus": "black",
+  "title": "Open Variation",
+  "subtitle": "Ruy Lopez — trading structure for activity, on purpose",
+  "type": "opening",
+  "difficulty": "advanced",
+  "summary": "Instead of the patient maneuvering of the Closed Ruy Lopez, Black grabs the e4 pawn and accepts a temporary lag in development for a genuinely active game: a strong outpost knight, open lines for both bishops, and real chances to seize the initiative rather than just neutralize White's. It is the Ruy Lopez's most dynamic reply to 5.O-O.",
+  "tags": ["Open Ruy Lopez", "Open Spanish", "Ruy Lopez", "Spanish Game", "Morphy Defense", "Riga Variation"],
+  "concepts": ["central pawn breaks", "dynamic imbalance", "outposts", "piece activity", "prophylaxis"],
+  "metadata": {
+    "eco": "C80-C83",
+    "opening": "Ruy Lopez: Morphy Defense, Open Variation"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study, The Ruy Lopez, shows only the immediate tactical point of 5...Nxe4 6.d4 — White regains the pawn with active pieces, and the line stops there. This lesson follows the resulting position through the actual strategic battle: Black's knight sits deep in White's position on an outpost, and both sides spend the next several moves fighting over whether that knight is an asset or a liability. That fight, not the pawn grab itself, is what the Open Variation is really about."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    "Bb5",
+    "a6",
+    "Ba4",
+    "Nf6",
+    "O-O",
+    {
+      "san": "Nxe4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Structure for activity",
+          "body": "Black takes the pawn deliberately, not because it's free — White regains it at once with a lead in development, as the family study already showed. The trade is for something else: an active knight, open diagonals for both bishops, and a fight rather than a long defensive squeeze.",
+          "concepts": ["dynamic imbalance"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f6", "to": "e4" }]
+    },
+    {
+      "san": "d4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White strikes back at the center immediately, hitting both the e5 pawn and, indirectly, the knight's stability on e4."
+        }
+      ]
+    },
+    "b5",
+    {
+      "san": "Bb3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop steps aside from the pawn's attack, keeping its diagonal toward f7 exactly as in the family study's main line."
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Building the outpost",
+          "body": "Rather than retreat the knight, Black defends it with a pawn. e4 is now genuinely secure — no White piece can challenge it without a further concession — and Black gains central space in the bargain.",
+          "concepts": ["outposts"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e4" }]
+    },
+    {
+      "san": "dxe5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White grabs the pawn back, and material is level again — the same point the family study reaches, three moves before this lesson's own opening position begins in earnest."
+        }
+      ]
+    },
+    {
+      "san": "Be6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop develops to a stable square, defending d5 a second time and eyeing a2 along the long diagonal — the exact square White's own bishop just vacated."
+        }
+      ]
+    },
+    {
+      "san": "c3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White has a natural developing move available in Nbd2, connecting the rook and preparing to challenge the e4 knight directly. Why spend a tempo on a pawn move instead?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Prophylaxis before development",
+          "body": "c3 prepares b4, so that if the knight ever lands on c5 — hitting the b3-bishop — White can simply kick it again with tempo. Skip this move and play the natural 9.Nbd2 first instead, and 9...Nc5! hits the bishop immediately with nothing but a passive retreat available, since b4 isn't ready yet. The Open Variation rewards exactly this kind of move-order discipline on both sides.",
+          "concepts": ["prophylaxis"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c3", "to": "b4" }]
+    },
+    {
+      "san": "Be7",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The calm, solid choice: Black tucks the bishop away safely and prepares to castle, content to let the knight on e4 do the strategic talking."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bc5",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Riga Variation",
+                "body": "Instead of the calm setup, Black can aim the bishop at f2 at once. This is the starting point of the sharp, heavily analyzed Riga Variation, built around piece sacrifices on f2 for a long-term attack — genuinely double-edged theory that trades material for initiative rather than settling for the knight's positional trumps alone."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Nbd2",
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black finally tucks the king away — note how much later this happens than in the Closed Ruy Lopez, the direct cost of choosing activity first."
+        }
+      ]
+    },
+    {
+      "san": "Bc2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White challenges the outpost knight directly rather than routing around it, aiming to trade off Black's best-placed piece."
+        }
+      ]
+    },
+    {
+      "san": "f5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The knight's whole justification",
+          "body": "This is the point of every move since 5...Nxe4: the pawn locks down e4 for good, supports a future kingside pawn storm, and dares White to prove the knight is actually weak rather than just advanced. White's plan from here is to keep chipping at the outpost's supports (Bc2, and eventually Nb3-d4 or a well-timed exf6) while using the bishop pair; Black's plan is to keep the knight exactly where it is, expand on the kingside, and use the extra central space to generate real attacking chances rather than just defend the extra pawn structure White never even has here.",
+          "concepts": ["outposts", "dynamic imbalance"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry out of this study: accepting a lead in development for the opponent is not the same as being worse — Black's whole position is a bet that piece activity outweighs it; prophylaxis matters just as much for the side with the 'active' plan as for the side maneuvering quietly, as c3 showed; and an advanced piece is only an asset if it is genuinely secure — Black spent an entire move (...d5) just establishing that the knight on e4 could not be challenged for free.",
+          "concepts": ["dynamic imbalance", "outposts", "prophylaxis"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "e4" },
+        { "type": "arrow", "from": "f5", "to": "e4" }
+      ]
+    }
+  ]
+}

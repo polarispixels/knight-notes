@@ -1,0 +1,249 @@
+{
+  "id": "sicilian-sveshnikov",
+  "catalogCode": "O049",
+  "focus": "black",
+  "title": "The Sveshnikov Variation",
+  "subtitle": "The hole Black creates on purpose",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "Black plays ...e5 before ...d6 even appears on the board, punching a permanent hole on d5 in the very first moves of the game — once considered a beginner's error, now one of the most respected and heavily analyzed defenses at the top level. This lesson explains why deliberately weakening a square can be correct, and walks through the single most famous tabiya in the whole opening.",
+  "tags": ["Sveshnikov Variation", "Chelyabinsk Variation", "Lasker-Pelikan Variation", "Pelikan Variation", "Sicilian Defense", "outposts"],
+  "concepts": [
+    "outposts",
+    "piece activity",
+    "backward pawn",
+    "voluntary weakening",
+    "the bishop pair",
+    "dynamic imbalance"
+  ],
+  "metadata": {
+    "eco": "B33",
+    "opening": "Sicilian Defense: Sveshnikov Variation",
+    "historicalContext": "The line traces back to analysis by the Czech master Jiří Pelikán and appeared occasionally under Emanuel Lasker's name, but for decades it was considered dubious — deliberately creating a hole on d5 looked like a beginner's mistake. Soviet grandmaster Evgeny Sveshnikov rehabilitated it in the 1970s and 80s through deep, original analysis, and it now bears his name as one of Black's most trusted answers to 1.e4 at every level of chess."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Every Sicilian lesson in this series so far has warned about weak squares as a cost to be minimized — the Najdorf's Boleslavsky hole on d5 was something Black accepted reluctantly, hoping activity would outweigh it. The Sveshnikov takes the opposite approach entirely: Black creates that same hole on move five, on purpose, before even playing ...d6, and builds a whole strategy around proving the hole doesn't matter. This lesson explains the case for that trade — piece activity, the bishop pair, and a lasting initiative, all bought with one square White will spend the whole game trying and usually failing to fully exploit."
+    }
+  ],
+  "line": [
+    "e4",
+    "c5",
+    "Nf3",
+    "Nc6",
+    "d4",
+    "cxd4",
+    "Nxd4",
+    "Nf6",
+    "Nc3",
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black attacks the centralized knight, but look closely at what this move gives up. The d-pawn hasn't even been played yet, and d5 is about to become permanently unguardable by a pawn. Every earlier lesson in this series called that kind of hole a cost to be minimized. Why would Black create one immediately, before development, before castling, before anything else?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The voluntary weakening",
+          "body": "Because the tempo gained by attacking the knight is real and immediate, and because a hole on d5 is only as dangerous as White's ability to actually plant a piece there and keep it — which, as this whole tabiya shows, is harder than it looks. Black is betting that active, well-coordinated pieces beat a single well-placed enemy outpost. This is the most extreme version of the trade-off the family study called the Sicilian's core idea: a structural concession for dynamic activity.",
+          "concepts": ["voluntary weakening", "dynamic imbalance"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }]
+    },
+    {
+      "san": "Ndb5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Not a retreat — a repositioning",
+          "body": "The knight must move, and b5 is the point: not passively falling back, but heading toward d6, a square that would fork the queen's diagonal and the king if Black doesn't act at once. This single move is why the coming ...d6 is not optional.",
+          "concepts": ["outposts"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b5", "to": "d6" }]
+    },
+    {
+      "san": "d6",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Ruling out the fork",
+          "body": "This is not optional and it is not the same d6 the other Sicilian lessons played on move two — here it arrives one move later than usual, purely to shut down Nd6+. See the variation below for exactly what happens to a natural-looking move that omits it.",
+          "concepts": ["outposts"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "a6",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "A natural move, a real cost",
+                "body": "Attacking the knight looks like the obvious way to gain a tempo — but it ignores the knight's most dangerous resource, which fires before Black gets the chance to capture on b5 at all."
+              }
+            ]
+          },
+          {
+            "san": "Nd6+",
+            "importance": "important",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The in-between check",
+                "body": "White jumps to d6 with check before Black can play ...axb5. No Black pawn can capture on d6 — the d-pawn hasn't moved and captures diagonally, not straight ahead — so only a piece can respond, and only the f8-bishop currently reaches that square.",
+                "concepts": ["outposts"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "d6", "to": "e8" }]
+          },
+          {
+            "san": "Bxd6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Forced, more or less — capturing is the only reasonable answer to the check."
+              }
+            ]
+          },
+          {
+            "san": "Qxd6",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Why ...d6 comes first",
+                "body": "Material is level, but White's queen now sits deep in Black's position on a square no Black pawn will ever be able to challenge, restricting ...Be7 and casting a long shadow over the whole board. Nothing was lost by force — but a strong, hard-to-evict outpost for the White queen was handed over for free. This is exactly why real theory inserts 6...d6 immediately: not because 6...a6 loses material, but because it concedes a serious, permanent problem for nothing in return."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Bg5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A genuine pin",
+          "body": "With the e-pawn already on e5, the e7 square stands empty and the queen sits on d8 — so this bishop pins the f6-knight for real, along the full g5-f6-e7-d8 diagonal, not the relative pin the Ruy Lopez lesson's Bg4 only pretended to be."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g5", "to": "d8" }]
+    },
+    "a6",
+    "Na3",
+    {
+      "san": "b5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Gains queenside space and keeps the knight from ever returning to b5, while opening a diagonal for the c8-bishop."
+        }
+      ]
+    },
+    {
+      "san": "Bxf6",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Cashing in the pin",
+          "body": "White captures the pinned knight before Black can untangle it, doubling Black's kingside pawns and handing over the bishop pair. This trade is central to the whole variation: White banks a structural gain now, betting it outweighs the activity Black is about to get in return.",
+          "concepts": ["the bishop pair"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nd5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Occupying first, trading later",
+                "body": "White can also plant the knight on its outpost before resolving the bishop pin, keeping options open about whether the doubled pawns ever actually happen."
+              }
+            ]
+          },
+          {
+            "san": "Be7",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "A different choice at the fork",
+                "body": "This blocks the pin and prepares to recapture on f6 with the bishop instead of the pawn if White ever takes there — the alternative to the main line's doubled pawns. Black keeps a healthy structure but gives up the bishop pair and some central bite in return.",
+                "concepts": ["voluntary weakening"]
+              }
+            ]
+          },
+          "Bxf6",
+          {
+            "san": "Bxf6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Recapturing with the bishop instead of the pawn keeps Black's kingside pawns intact — a quieter, more solid alternative to the sharp main-line structure, and the choice a Sveshnikov player makes when avoiding weaknesses matters more than owning the bishop pair."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "gxf6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Broken pawns, open lines",
+          "body": "Recapturing with the pawn rather than the queen is the whole point of the variation: Black accepts doubled, broken kingside pawns in exchange for the bishop pair and a firm grip on the center. The alternative recapture is covered in the variation below."
+        }
+      ]
+    },
+    {
+      "san": "Nd5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The outpost, occupied",
+          "body": "This is the square Black weakened back on move five, and White finally plants a knight there — completely unchallenged, since no Black pawn can ever attack d5 again. On the surface this looks like White has simply collected the prize the whole opening was built around conceding.",
+          "concepts": ["outposts"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }]
+    },
+    {
+      "san": "f5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The reply that justifies the whole plan",
+          "body": "Black immediately strikes at e4 rather than trying to dislodge the knight directly — a piece on an outpost is not automatically strong, it has to actually do something, and for now the White knight on d5 has no targets while Black's structurally-damaged pawns are already generating threats. This is the trade Black signed up for on move five: yes, White owns d5, but Black's pieces, not White's outpost, are setting the pace.",
+          "concepts": ["piece activity", "dynamic imbalance"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a weak square is only as strong as the pieces that can actually use it — White's knight owns d5 from move ten, but ownership alone decides nothing without targets to attack; broken pawns can be an asset, since Black's doubled f-pawns control e5 and g5 and support a real central presence despite looking ugly on the board; and the Sveshnikov's whole reputation rests on precise, memorized move order — small mistakes like delaying ...d6 are punished immediately, which is exactly why the line stayed 'dubious' for decades before deep analysis proved it sound.",
+          "concepts": ["voluntary weakening", "piece activity", "outposts"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f7", "to": "f5" }]
+    }
+  ]
+}

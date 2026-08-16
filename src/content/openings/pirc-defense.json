@@ -1,0 +1,210 @@
+{
+  "id": "pirc-defense",
+  "catalogCode": "O071",
+  "focus": "black",
+  "title": "The Pirc Defense",
+  "subtitle": "Let White build the center — then take it apart",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "Black skips the classical fight for the center on move one, fianchettoes the king's bishop at g7, and dares White to overextend. It is one of the clearest hypermodern defenses in chess: concede space now, and design a well-timed central break to punish it later.",
+  "tags": ["Pirc Defense", "Pirc-Ufimtsev Defense", "Yugoslav Defense", "hypermodern", "fianchetto", "King's Indian Defense", "Modern Defense", "e4 openings"],
+  "concepts": ["hypermodern development", "fianchetto", "flexible pawn structure", "central break", "long-diagonal bishop", "counterattack"],
+  "metadata": {
+    "eco": "B07-B09",
+    "opening": "Pirc Defense",
+    "historicalContext": "Named for the Slovenian grandmaster Vasja Pirc, who championed it at top level in the mid-20th century — it is sometimes called the Pirc-Ufimtsev Defense, honoring the earlier Soviet player Anatoly Ufimtsev, who explored similar ideas. It gained full respectability once players like Bobby Fischer adopted it as a surprise weapon, and it remains a fixture of hypermodern opening theory."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Where 1...e5 or 1...c5 fight immediately for the center, the Pirc refuses to commit: d6, then Nf6, then g6, developing flexibly while White claims as much space as it likes. The central question is timing — when does Black's delayed break, ...e5 or ...c5, actually land? This lesson also locates the Pirc among openings you may already know: it shares its first three moves with the King's Indian Defense (reached from 1.d4), and it is a close cousin — not a twin — of the Modern Defense, which delays ...Nf6 even further for maximum flexibility."
+    },
+    {
+      "type": "historical",
+      "title": "A defense that can bite back — hard",
+      "body": "The Pirc's flexibility carries real risk: hand White a free hand in the center for too long, and the position can collapse before Black finishes developing. The most famous demonstration of that danger is Kasparov vs Topalov (Wijk aan Zee, 1999) — often called 'Kasparov's Immortal' — where a related aggressive setup against the Pirc was blown apart by twenty moves of calculation. It is a healthy reminder that this defense rewards precise move orders, not casual ones."
+    }
+  ],
+  "line": [
+    "e4",
+    {
+      "san": "d6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Refusing the classical center",
+          "body": "Where 1...e5 fights immediately for the center, d6 stakes no claim at all — yet. Black's plan is to develop flexibly (Nf6, g6, Bg7) and let White's central pawns advance as far as they like, before challenging them with a precisely timed break. The tradeoff: White gets a free hand and extra space early; Black gets a target and, usually, the last word.",
+          "concepts": ["flexible pawn structure", "hypermodern development"]
+        }
+      ]
+    },
+    "d4",
+    "Nf6",
+    "Nc3",
+    {
+      "san": "g6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The fianchetto",
+          "body": "The move that defines the defense. The bishop will go to g7 and stare down the long diagonal at d4 and, later, at b2 or a1 depending how the game opens up. This is the same idea, and even the same first three moves, as the King's Indian Defense reached from 1.d4 — the two openings share a family tree and transpose constantly.",
+          "concepts": ["fianchetto", "long-diagonal bishop"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "d4" },
+        { "type": "square", "square": "e5" }
+      ],
+      "variations": [
+        [
+          {
+            "san": "c6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Czech System (Pribyl Variation)",
+                "body": "Black delays or skips the g6 fianchetto entirely and instead prepares ...Qc7 or ...Qa5 alongside a quick ...e5 or ...d5, keeping the light-squared bishop's diagonal open a little longer. It can transpose back into normal Pirc lines if Black fianchettoes later, or stay in an independent, more Caro-Kann-flavored shape.",
+                "concepts": ["flexible pawn structure"]
+              }
+            ]
+          },
+          "Nf3",
+          {
+            "san": "Qc7",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "A flexible developing move, eyeing e5 and keeping the option of a later ...g6 or an immediate central strike open."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Nf3",
+    {
+      "san": "Bg7",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The point of the fianchetto arrives",
+          "body": "The bishop takes up its permanent post. Notice what it is aimed at: not a specific piece, but the whole d4-e5 stretch of the board. Controlling the center with a piece's influence rather than a pawn's presence — at least for now — is the hallmark of hypermodern chess.",
+          "concepts": ["long-diagonal bishop"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g7", "to": "a1" }]
+    },
+    {
+      "san": "Be2",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The quiet choice",
+          "body": "White has several ways to meet the Pirc, and each has become its own well-studied line: an aggressive early f4 (the Austrian Attack), the attacking Be3/Qd2/f3 setup (the 150 Attack), or — as here — calm development with Nf3 and Be2. This approach does not try to punish Black immediately; it bets that a small, safe edge in space is worth more than an unclear attack.",
+          "concepts": ["flexible pawn structure"]
+        }
+      ]
+    },
+    "O-O",
+    "O-O",
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "This knight eyes both d4 and e5. What central break is it getting ready to support, and can White simply ignore it?"
+        }
+      ]
+    },
+    {
+      "san": "Re1",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Prophylaxis before the break",
+          "body": "Re1 adds a second defender to e4 before Black even plays ...e5. If Black opens the center now, the e4 pawn will not simply hang — White has already removed that option. This is the same instinct behind good chess everywhere: handle the opponent's idea before it becomes a threat, not after.",
+          "concepts": ["central break"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e1", "to": "e4" }]
+    },
+    {
+      "san": "e5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The break the setup was built for",
+          "body": "This is the moment the Pirc has been preparing since move two: a direct strike at White's center, backed by the knight on c6 and the bishop on g7. Think of it as a deliberately delayed version of 1...e5 — the same central contest, just several moves later and with development already finished.",
+          "concepts": ["central break"]
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Space, and a forced retreat",
+          "body": "Rather than resolve the tension with a trade, White pushes past it — gaining space and kicking the c6-knight. This exact structural decision, meeting a knight's central strike with d5 instead of dxe5, is also the defining moment of the King's Indian Defense; the kinship between these two openings runs down to individual middlegame decisions, not just the first three moves.",
+          "concepts": ["central break", "flexible pawn structure"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d5", "to": "c6" }]
+    },
+    {
+      "san": "Ne7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The standard reroute. The knight was never going anywhere useful staying on c6 once the center closed; from e7 it can reappear on c8-d... or simply support a later ...c6 or ...f5, wherever the game needs it most."
+        }
+      ]
+    },
+    {
+      "san": "Bg5",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "A small skirmish, not a threat",
+          "body": "White pins the f6-knight and invites ...h6, which slightly weakens the light squares around Black's king in exchange for kicking the bishop back. It is a typical minor tussle rather than a real threat — Black is not forced to accommodate it, but usually does, since a small structural concession now is cheaper than letting the pin linger."
+        }
+      ]
+    },
+    "h6",
+    {
+      "san": "Be3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop retreats to a useful square rather than trading — it still eyes c5 and d4 and supports a future queenside expansion with c4 or b4."
+        }
+      ]
+    },
+    {
+      "san": "Re8",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Where the plans diverge",
+          "body": "The center is closed, both sides have finished the basic maneuvering, and the real Pirc middlegame begins. White's plans: expand on the queenside with c4 and b4, or on the kingside with f4, using the extra space earned back on move eight. Black's plans: reroute the e7-knight toward c8-... or f5, and use the long-diagonal bishop and flexible structure to strike back at the moment White's space becomes overextended rather than useful."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry forward: conceding central space is a deliberate trade, not a mistake, as long as there is a plan to attack it later; White's central advances often force Black's pieces to awkward-looking squares (Ne7) that are only temporary, not bad; and the fianchettoed bishop's power comes from what it could do, not from an immediate threat — patience is part of the plan.",
+          "concepts": ["flexible pawn structure", "central break", "counterattack"]
+        }
+      ]
+    }
+  ]
+}

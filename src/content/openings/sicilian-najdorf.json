@@ -1,0 +1,248 @@
+{
+  "id": "sicilian-najdorf",
+  "catalogCode": "O044",
+  "focus": "black",
+  "title": "The Najdorf Variation",
+  "subtitle": "The most played opening in top-level chess",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "One quiet-looking pawn move, 5...a6, generates the most analyzed position in modern chess: it takes b5 away from White forever and holds open the choice between two different central setups, ...e5 or ...e6. This lesson goes past the family study's calm illustrative line and into the sharp, independent systems — the English Attack, the Poisoned Pawn, the Fischer-Sozin — that made the Najdorf Fischer's and Kasparov's opening of choice for decades.",
+  "tags": ["Najdorf Variation", "Najdorf Sicilian", "Najdorf System", "Sicilian Defense", "English Attack", "Poisoned Pawn Variation", "Fischer-Sozin Attack"],
+  "concepts": [
+    "counterattack",
+    "flexibility",
+    "opposite-side castling",
+    "queenside expansion",
+    "Boleslavsky hole",
+    "calculated risk"
+  ],
+  "metadata": {
+    "eco": "B90-B99",
+    "opening": "Sicilian Defense: Najdorf Variation",
+    "historicalContext": "Named for the Polish-Argentine grandmaster Miguel Najdorf, who championed 5...a6 in the 1940s and 50s. Bobby Fischer and Garry Kasparov both made it their primary weapon as Black against 1.e4, and for several decades it was the single most played opening at the top level of chess."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study, The Sicilian Defense, used 5...a6 for its own main line and showed one Najdorf path: 6.Be2 e5, a quiet, classical setup where both sides castle kingside. That is only one of the Najdorf's faces. This lesson goes deeper into the systems that made 5...a6 the most fought-over move in chess: White's most testing try, the English Attack (6.Be3), where the game becomes an opposite-side-castling race; the Poisoned Pawn Variation, where Black grabs a pawn theory says is genuinely dangerous to take; and the Fischer-Sozin Attack, which aims a bishop at f7 the way the Ruy Lopez lesson's bishop aimed at c6. The throughline in all of them: a6 buys flexibility, and flexibility is worth defending precisely."
+    }
+  ],
+  "line": [
+    "e4",
+    "c5",
+    "Nf3",
+    "d6",
+    "d4",
+    "cxd4",
+    "Nxd4",
+    "Nf6",
+    "Nc3",
+    "a6",
+    {
+      "san": "Be3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The English Attack",
+          "body": "Where the family study continued 6.Be2 toward kingside castling on both sides, Be3 points somewhere sharper: the bishop clears the way for Qd2 and queenside castling, the exact recipe the Dragon lesson calls the Yugoslav Attack. Against the Najdorf this plan is called the English Attack, and it is the main test of 5...a6 at every level above club play.",
+          "concepts": ["opposite-side castling"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bg5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Classical Main Line",
+                "body": "White's other major try pins the f6-knight instead of preparing a queenside storm. It leads to the Najdorf's oldest and most theoretically loaded battleground — including the line every serious Najdorf player eventually has to learn."
+              }
+            ]
+          },
+          "e6",
+          "f4",
+          {
+            "san": "Qb6",
+            "importance": "important",
+            "annotations": [
+              {
+                "type": "question",
+                "body": "The pawn on b2 hangs. Is grabbing it actually safe, or is it 'poisoned'?"
+              },
+              {
+                "type": "key-idea",
+                "title": "The Poisoned Pawn Variation",
+                "body": "This is the famous try, named for exactly this reason. Black can decline with 7...Be7 instead, reaching a calmer game — the variation shows what happens to those who accept.",
+                "concepts": ["calculated risk"]
+              }
+            ],
+            "variations": [
+              [
+                {
+                  "san": "Be7",
+                  "annotations": [
+                    {
+                      "type": "commentary",
+                      "title": "Declining the pawn",
+                      "body": "The prudent choice: Black develops normally and avoids the queen excursion entirely, giving up the extra pawn's risk for a simpler game with the same basic Najdorf ideas."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "Qd2",
+          {
+            "san": "Qxb2",
+            "classification": "theory",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The pawn is real",
+                "body": "Black genuinely wins a pawn — this is not a trick that fails to a tactic. The cost is time: the queen will spend the next several moves dodging White's pieces while White finishes development with a serious lead and real attacking chances. Theory calls this playable for both sides, never a refutation of either choice.",
+                "concepts": ["calculated risk"]
+              }
+            ]
+          },
+          "Rb1",
+          {
+            "san": "Qa3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "A queen far from home",
+                "body": "The only square that both escapes the rook and keeps the queen doing something useful. From here the game turns razor-sharp: White has a full tempo lead in development and open lines in exchange for the pawn, and both sides have to calculate exactly, not just play principled moves — the cost-and-compensation trade-off this whole opening keeps demonstrating, played out at the very edge of soundness."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "san": "Bc4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Fischer-Sozin Attack",
+                "body": "A third major try: the bishop aims at f7 exactly as the Ruy Lopez lesson's did at c6 — pressure, not an immediate threat, building toward a later sacrifice on e6 or f7 once the position opens.",
+                "concepts": ["calculated risk"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "c4", "to": "f7" }]
+          },
+          "e6",
+          {
+            "san": "Bb3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Preserving the diagonal",
+                "body": "Rather than let ...b5 or ...Nc6 harass the bishop off its diagonal, White tucks it onto b3, keeping the same long-term aim at f7 that the Ruy Lopez lesson's bishop preserved on b3 for the same reason."
+              }
+            ]
+          },
+          "b5",
+          "O-O",
+          "Be7"
+        ]
+      ]
+    },
+    {
+      "san": "e5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Claiming the center, conceding a hole",
+          "body": "Black grabs central space and kicks the knight, at the cost of the same d5 square every ...e5 Sicilian concedes — the Boleslavsky hole. Black's structural bet is that active pieces, not that one square, decide these games.",
+          "concepts": ["Boleslavsky hole"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }]
+    },
+    "Nb3",
+    {
+      "san": "Be6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Develops toward c4 and guards d5 with a piece since the pawns can no longer do it — the standing answer to every Boleslavsky hole."
+        }
+      ]
+    },
+    {
+      "san": "f3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "principle",
+          "body": "The same prophylaxis the Dragon lesson explained: braces e4, and rules out ...Ng4 or ...Nd7-e5 tricks against the bishop before White commits the king.",
+          "concepts": ["opposite-side castling"]
+        }
+      ]
+    },
+    "Be7",
+    {
+      "san": "Qd2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Connects the rooks and prepares O-O-O — the same engine move as the Dragon's Yugoslav Attack, played here against a different pawn structure."
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "O-O-O",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The race, Najdorf-style",
+          "body": "Both kings commit to opposite wings, exactly as in the Dragon — but the pawn structures differ in a way that changes the whole character of the storm. Black has no fianchettoed bishop and no g-pawn to advance; instead the counterattack runs entirely on the b- and a-pawns, since a6 has already been played and b5 is ready to go in one move.",
+          "concepts": ["opposite-side castling"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "c1" },
+        { "type": "square", "square": "g8" }
+      ]
+    },
+    "Nbd7",
+    {
+      "san": "g4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White's kingside pawns start forward while Black's queenside pawns are still one move from starting. Whose storm is actually faster?"
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g4", "to": "g5" }]
+    },
+    {
+      "san": "b5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The answer: symmetry of purpose, not of speed",
+          "body": "b5 is the entire reason a6 was played six moves earlier — it goes forward in one move because the square in front of it was already secured. White's g4 needs g5 and then usually h4-h5 or a piece sacrifice to really open lines; Black's b5 threatens ...b4 next, hitting the c3-knight and ripping open the queenside immediately. This is why 5...a6 is judged, not laughed at: the tempo it seemed to waste on move five is exactly what makes move eleven a one-move threat instead of a two-move preparation.",
+          "concepts": ["queenside expansion", "opposite-side castling"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a6's whole value is deferred — it looks like a wasted tempo until the exact moment ...b5 becomes a one-move threat instead of two; the English Attack turns the Najdorf into the same opposite-castling race the Dragon lesson taught, proving these systems share a family of ideas across very different pawn skeletons; and flexibility (Boleslavsky's ...e5 versus the calmer ...e6 the family lesson chose) is itself a strategic resource — the Najdorf's whole reputation rests on Black choosing the central structure only after seeing White's sixth move.",
+          "concepts": ["queenside expansion", "flexibility", "calculated risk"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b7", "to": "b5" }]
+    }
+  ]
+}

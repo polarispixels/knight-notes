@@ -1,0 +1,178 @@
+{
+  "id": "cochrane-gambit",
+  "catalogCode": "GB015",
+  "focus": "white",
+  "title": "The Cochrane Gambit",
+  "subtitle": "Petrov's Defense — sacrificing a knight before Black gets comfortable",
+  "type": "gambit",
+  "difficulty": "advanced",
+  "summary": "White meets the calm symmetry of Petrov's Defense with maximum aggression: a knight sacrifice on f7 that drags Black's king into the open before development has even begun. It is not a trick that wins by force — modern engines rate Black's defenses as fully sound — but the practical demands of finding those defenses over the board make it a genuine surprise weapon, one that has been tried even at grandmaster level.",
+  "tags": ["Cochrane Gambit", "Petrov's Defense", "Petroff Defense", "Russian Game", "Nxf7 sacrifice", "e4 openings"],
+  "concepts": [
+    "sacrifice",
+    "king safety",
+    "central control",
+    "development lead",
+    "compensation",
+    "practical chances"
+  ],
+  "metadata": {
+    "eco": "C42",
+    "opening": "Petrov's Defense: Cochrane Gambit",
+    "historicalContext": "Named for John Cochrane, a 19th-century Scottish player and lawyer who spent much of his career in India and analyzed this sacrifice in the early days of chess theory. For generations it was filed away as a curiosity — computer analysis in the 21st century has reassessed it more favorably, rating White's long-term compensation more highly than earlier generations believed, and it has since been tried in serious games by strong grandmasters, including in rapid and blitz play."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Petrov's Defense (the family study) is built entirely on one idea: recapturing on e4 is completely safe once White's knight has been chased off e5 by ...d6. The Cochrane Gambit refuses to let that happen — before Black ever gets the chance to prove the point, White simply sacrifices the knight on f7 instead, dragging the king to the center on move four. This lesson works through the gambit's real currency: what White gives up, what White gets in return, and why the whole idea should never be sold to you as a forced win."
+    },
+    {
+      "type": "historical",
+      "title": "An old idea, reassessed",
+      "body": "Cochrane's original analysis predates modern opening theory by well over a century. It fell out of serious use for decades as a mere trap for the unwary, until engine analysis in recent years showed that White's long-term structural and attacking compensation is more real than it looks — a rare case of computers making an old sacrifice more respectable rather than less."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nf6",
+    "Nxe5",
+    {
+      "san": "d6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black plays the same move that makes Petrov's Defense sound — kicking the knight before recapturing on e4. The Cochrane Gambit's whole point is to strike before this plan can be completed."
+        }
+      ]
+    },
+    {
+      "san": "Nxf7",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The cost",
+          "body": "White gives up the knight for a second pawn, but the real point isn't material — it's the position the capture creates. The knight on f7 forks the queen on d8 and the rook on h8, so declining the sacrifice isn't a real option: Black must recapture or lose more material than the knight is worth.",
+          "concepts": ["sacrifice"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "f7" }]
+    },
+    {
+      "san": "Kxf7",
+      "classification": "forced",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The cost, paid",
+          "body": "Black recaptures, and the price of the last few moves becomes visible: the king sits in the center on move four, permanently forfeiting castling rights. Whatever White gets for the sacrificed piece has to be worth exactly this."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Qe7",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Why declining doesn't work",
+                "body": "Moving the queen away from the fork looks like it avoids the complications, but it leaves the rook on h8 hanging to the same knight. This isn't really a legitimate 'decline' option — the fork makes recapturing close to forced.",
+                "concepts": ["sacrifice"]
+              }
+            ]
+          },
+          {
+            "san": "Nxh8",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White grabs the rook as well. Even if this knight eventually gets trapped in the corner and lost, White will have won a pawn, a pawn, and a rook for a single knight — a hugely favorable trade. This is why the recapture on f7 is the only real try for Black."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "d4",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The compensation begins",
+          "body": "White immediately claims the full center. This is the heart of the gambit's compensation: two connected central pawns, open lines for rapid development, and a king across the board that still hasn't found real safety.",
+          "concepts": ["central control", "compensation"]
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black immediately challenges the center rather than trying to hold everything passively — the soundest practical response to this kind of sacrifice is usually to trade down and simplify, not to cling to every extra pawn."
+        }
+      ]
+    },
+    {
+      "san": "Nc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops with tempo, adding pressure to d5 and continuing to open the position while Black's king remains uncastled."
+        }
+      ]
+    },
+    "c6",
+    {
+      "san": "Bc4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Development with a target",
+          "body": "The bishop joins the attack on d5 and eyes the long diagonal toward Black's king, even though the d5 pawn currently blocks the direct path to f7. This is the recurring shape of White's compensation: knight and bishop and rook all converging on the queenside and center faster than Black can consolidate.",
+          "concepts": ["development lead", "compensation"]
+        },
+        {
+          "type": "warning",
+          "title": "Not a forced win",
+          "body": "Be honest about the assessment: with precise defense, Black is considered fully sound here — this is not a trick that wins by force, and it should never be played expecting one. Its real value is practical: an opponent unfamiliar with these exact moves has to solve a hard set of problems with very little time to think."
+        }
+      ]
+    },
+    {
+      "san": "Kg8",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Surviving the storm",
+          "body": "Black finally tucks the king away from the center. This is the practical crux of accepting the Cochrane Gambit: surviving the next several moves with the king slightly exposed, in exchange for keeping the extra material for the long run."
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "Nbd7",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Where both sides are playing for",
+          "body": "Both sides have finished the opening's immediate demands. White's plan is to keep pieces active and lines open — pressure on d5 and e6, rooks to the center, and chances to open the position further before Black finishes consolidating. Black's plan is the mirror image: trade pieces whenever possible, get the king fully safe, and reach an endgame where the extra knight simply counts.",
+          "concepts": ["compensation", "development lead"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons from this gambit: a sacrifice built on a fork can leave the opponent with no real 'decline' option, only a forced acceptance; compensation for a piece has to be judged concretely — central space, open lines, and a displaced king, not vague talk of 'attacking chances'; and reputation changes with analysis — an idea filed away for a century as a mere trick has been reassessed by engines as a legitimate, if still objectively unequal, practical weapon.",
+          "concepts": ["sacrifice", "compensation", "king safety"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "id": "grunfeld",
+  "catalogCode": "O103",
+  "focus": "black",
+  "title": "The Grünfeld Defense",
+  "subtitle": "Give up the center, then attack it with pieces",
+  "type": "opening",
+  "difficulty": "advanced",
+  "summary": "Black lets White build the full classical pawn duo, then strikes at it immediately with ...d5 instead of surrounding it slowly. The result is the sharpest and most combative of the hypermodern defenses to 1.d4 — a direct test of whether pawns or pieces matter more in the center.",
+  "tags": ["Grünfeld Defense", "Grunfeld Defense", "Indian Game", "d4 defenses", "hypermodern", "fianchetto"],
+  "concepts": [
+    "hypermodern center control",
+    "central breaks",
+    "the long diagonal",
+    "big center vs. piece activity",
+    "dynamic counterattack",
+    "central undermining"
+  ],
+  "metadata": {
+    "eco": "D70-D99",
+    "opening": "Grünfeld Defense",
+    "historicalContext": "Named for Ernst Grünfeld, who introduced 3...d5 against Alekhine in Vienna in 1922 — a single game that gave an entire defense its name. It became one of the sharpest laboratories of hypermodern theory, tested at the very top by Botvinnik, Fischer, Kasparov, and Karpov."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The King's Indian Defense lets White's center stand while Black prepares a strike from a distance. The Grünfeld refuses to wait: Black immediately challenges the center with ...d5, trading a central pawn for open lines and a fianchettoed bishop that will bear down on whatever White builds. This is the most direct hypermodern argument of all — not 'a pawn center can become a target later,' but 'let's find out right now whether it's strong or weak.' Everything in this opening flows from that single early confrontation."
+    },
+    {
+      "type": "historical",
+      "title": "One game, one name",
+      "body": "Ernst Grünfeld played 3...d5 for the first time in a real game against Alekhine in 1922, and the idea was radical enough at the time that it carries his name to this day. Decades later, Byrne vs. Fischer — the game known as The Game of the Century — reached a Grünfeld structure by a different move order and produced one of the most celebrated attacking games ever played; once you understand why Black invites White's center in the first place, that game's fireworks make far more sense."
+    }
+  ],
+  "line": [
+    "d4",
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Controls e4 from a distance rather than occupying it — the hypermodern habit shared by every Indian defense.",
+          "concepts": ["hypermodern center control"]
+        }
+      ]
+    },
+    "c4",
+    {
+      "san": "g6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The fianchetto bishop is being prepared before anything else — the same first move as the King's Indian. Only the next move decides which opening this actually becomes.",
+          "concepts": ["the long diagonal"]
+        }
+      ]
+    },
+    "Nc3",
+    {
+      "san": "d5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black could simply finish the fianchetto with ...Bg7 and ...d6, heading for a King's Indian. Instead the center gets challenged immediately. What does striking right now actually accomplish, before the bishop has even reached g7?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The defining move",
+          "body": "This is the move that makes it a Grünfeld rather than a King's Indian. Black offers White the choice of trading in the center at once, and whichever way White answers, Black's coming ...Bg7 will bear down on the resulting structure with real force — either because the center opened, or because it's now a fixed target with a piece already aimed at it. Waiting to fianchetto first, as in the King's Indian, keeps the center closed longer; striking now keeps White's options narrower.",
+          "concepts": ["central breaks", "hypermodern center control"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d5", "to": "d4" }],
+      "variations": [
+        [
+          {
+            "san": "Bg7",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "A different choice, not a mistake",
+                "body": "Finishing the fianchetto before striking the center is perfectly sound — it just leads somewhere else. After a further e4 and ...d6, Black has quietly become a King's Indian player instead, a path covered in full in The King's Indian Defense. The Grünfeld only exists in the moves where ...d5 arrives before the center has fully formed."
+              }
+            ]
+          },
+          "e4",
+          "d6"
+        ]
+      ]
+    },
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops naturally and keeps every option open — capture on d5, build with e4, or play more quietly. The most direct answer, grabbing the pawn at once and racing to a full classical center, is the Exchange Variation. It leads to some of the deepest and most heavily analyzed theory in the entire opening, dense enough to deserve its own dedicated study; the short line below shows only where that battle begins.",
+          "concepts": ["central breaks"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "cxd5",
+            "classification": "theory",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The Exchange Variation",
+                "body": "White accepts the invitation in its purest form: trade in the center now, then build the biggest pawn mass the position allows. The resulting structure — a White pawn trio on c3, d4, and e4 against Black's fianchettoed pressure — is the main theoretical battleground of the whole opening.",
+                "concepts": ["big center vs. piece activity"]
+              }
+            ]
+          },
+          "Nxd5",
+          "e4",
+          "Nxc3",
+          "bxc3"
+        ]
+      ]
+    },
+    {
+      "san": "Bg7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop finally arrives on its home diagonal, and now it matters immediately — the center is still fluid, and every square from g7 to a1 is a potential battlefield.",
+          "concepts": ["the long diagonal"]
+        }
+      ]
+    },
+    {
+      "san": "Qb3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The Russian System",
+          "body": "Rather than capture on d5 and hand Black an open diagonal for free, White develops the queen actively, adds pressure toward b7, and prepares to answer a future ...dxc4 by recapturing with the queen instead of a pawn — avoiding the doubled c-pawns of the Exchange Variation entirely. It costs a small amount of development time in exchange for a healthier structure; whether that trade is worth it is the whole debate of this branch.",
+          "concepts": ["big center vs. piece activity"]
+        }
+      ]
+    },
+    {
+      "san": "dxc4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black hands back the tension rather than defend d5 passively — the point isn't to hold the pawn, it's to keep development quick and let the fianchetto bishop do the long-term work.",
+          "concepts": ["dynamic counterattack"]
+        }
+      ]
+    },
+    "Qxc4",
+    "O-O",
+    {
+      "san": "e4",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White claims the full classical center after all, just one move order later than the Exchange Variation and with the queen already active on c4 instead of buried behind doubled pawns. The structural question is the same one this whole opening keeps asking: is this center an asset or a target?",
+          "concepts": ["big center vs. piece activity"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "d4" },
+        { "type": "square", "square": "e4" }
+      ]
+    },
+    {
+      "san": "a6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A quiet-looking move with a sharp point: it prepares ...b5, hitting the queen on c4 with tempo and grabbing queenside space before White can consolidate.",
+          "concepts": ["dynamic counterattack"]
+        }
+      ]
+    },
+    "Be2",
+    {
+      "san": "b5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Gaining a tempo on the queen",
+          "body": "The ...a6 preparation pays off: this pawn attacks the queen directly, forcing it off the active c4 square and buying Black a free developing tempo in the process. A small, concrete reward for a move that looked purely positional two moves ago.",
+          "concepts": ["dynamic counterattack"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b5", "to": "c4" }]
+    },
+    "Qb3",
+    {
+      "san": "c5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The undermining strike",
+          "body": "This is the move the whole setup existed to prepare: a direct strike at the base of White's center, arriving with the c6-square still open so the pawn isn't blocked by its own pieces. White must now decide whether to hold the tension, push d5 into a locked but space-gaining structure, or exchange and accept an isolated or hanging pawn complex.",
+          "concepts": ["central undermining", "central breaks"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c5", "to": "d4" }]
+    },
+    "O-O",
+    {
+      "san": "Nc6",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "A second attacker, right on schedule",
+          "body": "Now that the c-pawn has already passed through c6, the knight can safely add a second attacker to d4 without blocking anything — the recurring Grünfeld picture: Black's minor pieces gang up on White's center from the outside while the pawns stay modest. White's plans from here: hold the center with pieces, push d5 to gain space and force Black's knight to reroute, or trade off the tension and aim for the resulting structure's small pluses. Black's plans: keep piling pressure on d4 and c3, meet d5 with an active knight retreat, and rely on the g7-bishop's diagonal for the rest of the game.",
+          "concepts": ["central undermining", "big center vs. piece activity"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: the Grünfeld's whole identity is timing — ...d5 has to arrive before the fianchetto is finished, or the game quietly becomes a King's Indian instead; a pawn center built while the opponent's queen sits actively on an exposed square (c4) is still vulnerable to simple tempo tricks like ...b5; and undermining a center means attacking its base with pawns and pieces together, in an order that doesn't trip over your own pieces — the c-pawn had to reach c5 before the knight could safely come to c6, not after.",
+          "concepts": ["central breaks", "big center vs. piece activity", "central undermining"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c6", "to": "d4" }]
+    }
+  ]
+}

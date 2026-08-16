@@ -1,0 +1,247 @@
+{
+  "id": "scandinavian-qa5",
+  "catalogCode": "O077",
+  "focus": "black",
+  "title": "Scandinavian Defense: 3...Qa5 Main Line",
+  "subtitle": "The classical retreat — active, but watch the a5-e1 diagonal",
+  "type": "variation",
+  "difficulty": "beginner",
+  "summary": "Retreating the queen to a5 keeps it active and aimed at a future pin, but it also leaves the queen offside from c7 and sitting on a diagonal White can weaponize with a well-timed bishop and knight combination. This lesson shows exactly why the move order ...c6, bishop-before-...e6, and eventually ...Bb4 exists — and what happens to a player who skips any one of them.",
+  "tags": ["Scandinavian Defense", "Qa5 Main Line", "Classical Scandinavian", "Mieses-Kotroc Variation", "Center Counter Defense"],
+  "concepts": ["queen safety", "tempo", "discovered attack", "prophylaxis", "development"],
+  "metadata": {
+    "eco": "B01",
+    "opening": "Scandinavian Defense: 3...Qa5 Main Line",
+    "historicalContext": "Long known as the Mieses-Kotroc Variation and, for much of the 20th century, simply 'the' Scandinavian main line — the default choice before 3...Qd6 overtook it in top-level popularity."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Scandinavian Defense family study shows 3...Qa5 reaching a normal, playable position, but it does not explain why the follow-up moves come in the order they do. This lesson goes deeper: a5 keeps the queen on the long a5-e1 diagonal and defending nothing near c7, and White has real tries to exploit both facts. Every one of Black's next few moves — ...c6, the bishop developing before ...e6, and eventually ...Bb4 — exists to close off one of those tries. Compare this plan with the Main Line, 3...Qd6 study, where the queen avoids these particular tricks by choosing a different square altogether."
+    }
+  ],
+  "line": [
+    "e4",
+    "d5",
+    "exd5",
+    "Qxd5",
+    {
+      "san": "Nc3",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Gains a tempo on the queen, as it will almost every time in this family. The retreat square matters far more than it looks."
+        }
+      ]
+    },
+    {
+      "san": "Qa5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Active, but offside",
+          "body": "This retreat does real work immediately: the queen now pins the knight on c3 to the king on e1, since nothing else stands on that diagonal. But a5 is also a long way from c7, a square the queen would ordinarily help defend, and White can later add a second piece to that same diagonal to turn the pin into a weapon of its own. Both of those facts shape everything that follows.",
+          "concepts": ["queen safety"]
+        }
+      ]
+    },
+    "d4",
+    "Nf6",
+    "Nf3",
+    {
+      "san": "c6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "This looks like a slow move — no piece develops. What does it actually prevent?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Closing off Nb5 in advance",
+          "body": "Right now White's knight on c3 is actually pinned — the queen on a5 sees straight through to the king on e1, with nothing else on that diagonal to block it, so the knight cannot move at all. That pin will not last; a few moves from now White plays Bd2, which inserts a second blocker and frees the knight. ...c6 makes sure that when the knight is finally free to jump, b5 is not a square it can safely use. The variation on this move shows what happens to a player who never gets around to it.",
+          "concepts": ["prophylaxis", "queen safety"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bf5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Developing instead of preventing",
+                "body": "Tempting — it looks purely productive, and the knight is still pinned and harmless for now — but it skips the one prophylactic move this position will need very soon."
+              }
+            ]
+          },
+          "Bc4",
+          "e6",
+          {
+            "san": "Bd2",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The same natural developing move as the main line — but here Black never played ...c6, and is about to find out why that mattered. Playing Bd2 unpins the knight: with a second piece now blocking the a5-e1 diagonal, Nc3 is finally free to move."
+              }
+            ]
+          },
+          {
+            "san": "Nbd7",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "A perfectly normal developing move — and exactly the moment White has been waiting for."
+              }
+            ]
+          },
+          {
+            "san": "Nb5",
+            "classification": "interesting",
+            "importance": "notable",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The double point c6 would have prevented",
+                "body": "Two threats at once. The knight attacks c7, threatening Nxc7+ forking the king and the rook on a8 — a real problem since the queen on a5 is nowhere near c7 to help. And leaving c3 opens the diagonal behind it: Bd2 now attacks the queen directly. Black must answer both threats with one move.",
+                "concepts": ["queen safety", "discovered attack"]
+              }
+            ],
+            "visual": [
+              { "type": "arrow", "from": "b5", "to": "c7" },
+              { "type": "arrow", "from": "d2", "to": "a5" }
+            ]
+          },
+          {
+            "san": "Qb6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The only move that solves both problems — it steps off the attacked diagonal and comes back to defend c7. But the queen has now made four moves to White's steady stream of developing ones, and White keeps the initiative. This is the concrete cost of never playing ...c6: not a forced loss, but a real, lasting problem to solve under pressure."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Bc4",
+    {
+      "san": "Bf5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Bishop out before the pawn closes the door",
+          "body": "This bishop has exactly one good diagonal, and a pawn on e6 would block it forever. Getting it out now, before ...e6, is a small piece of move-order discipline that pays for itself for the rest of the game.",
+          "concepts": ["development"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "e6",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "The bad bishop",
+                "body": "Played one move too early. With the e-pawn already on e6, ...Bf5 and ...Bg4 are both gone — the c8-bishop's diagonal is blocked by Black's own pawn. Black is stuck developing it to the passive d7 square instead, exactly the fate the main line's move order avoids."
+              }
+            ]
+          },
+          {
+            "san": "Bd2",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White simply continues developing while Black's light-squared bishop has nowhere active left to go."
+              }
+            ]
+          },
+          {
+            "san": "Be7",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The best that is left for the c8-bishop is this modest square — functional, but nowhere near as useful as the f5 square the main line reaches."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Bd2",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The queen on a5 and the king on e1 sit on the same diagonal, with only the knight on c3 between them — so why hasn't that knight been able to jump anywhere useful this whole game?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Unpinning — and reloading",
+          "body": "Until this move, Nc3 was absolutely pinned: it is the only piece on the a5-e1 diagonal, so moving it would expose the king to check, which the rules simply do not allow. Bd2 fixes that by adding a second blocker — the king is safe behind two pieces now, so the knight is finally free to jump to b5, d5, or e4. But freedom has a price: the instant the knight moves, the diagonal reopens between Bd2 and the queen, a discovered attack that comes bundled with whatever the knight move itself threatens. This is the concrete danger the rest of this lesson is built around.",
+          "concepts": ["discovered attack"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "d2", "to": "a5" },
+        { "type": "square", "square": "c3" }
+      ]
+    },
+    {
+      "san": "e6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Completes the pawn structure and, as a bonus, covers d5 — ruling out any future knight jump to that square as well."
+        }
+      ]
+    },
+    "Qe2",
+    {
+      "san": "Bb4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Closing the diagonal for good",
+          "body": "This looks like an ordinary pin of the knight, but it does more: Black's own bishop now occupies b4, a square on the exact same diagonal as Bd2 and the queen. If the knight ever jumps away now, Bd2 finds Black's bishop in the way on b4, not the queen on a5 — an even trade at worst, not the tempo-winning discovery White was hoping for. The diagonal problem introduced two moves ago is now permanently solved.",
+          "concepts": ["discovered attack", "prophylaxis"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b4", "to": "c3" }]
+    },
+    {
+      "san": "O-O-O",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Opposite-side castling begins",
+          "body": "White's king heads for the queenside while Black's has not committed yet. From here White typically eyes a kingside pawn storm (g4, h4) since the king is safely away from it, while Black's actively placed pieces — bishop on f5, bishop on b4 — are already aimed at exactly the wing White just castled into.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "Nbd7",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry out of this line: an offside queen has consequences beyond the obvious one, since it can weaken a square (c7) that has nothing to do with where the queen physically sits; a 'quiet' developing move like Bd2 can be a threat in disguise, aimed at a diagonal rather than a piece; and Black's own pieces (...c6, ...Bb4) can be the tools that defuse a threat without ever needing to calculate a forced sequence to prove it works.",
+          "concepts": ["queen safety", "prophylaxis", "discovered attack"]
+        }
+      ]
+    }
+  ]
+}

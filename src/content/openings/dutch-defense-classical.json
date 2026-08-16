@@ -1,0 +1,183 @@
+{
+  "id": "dutch-defense-classical",
+  "catalogCode": "O122",
+  "focus": "black",
+  "title": "Classical Dutch",
+  "subtitle": "The Ilyin-Zhenevsky System",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "The original Dutch setup: solid development with ...e6 and ...Be7 before the queen swings to h5 for kingside pressure. It trades the dynamism of the Leningrad and the rigidity of the Stonewall for something calmer — a fully sound structure that's easy to understand and hard to punish, built around one signature regrouping maneuver.",
+  "tags": ["Classical Dutch", "Dutch Defense", "Ilyin-Zhenevsky System", "Old Dutch", "d4 defenses", "queenside expansion"],
+  "concepts": ["queenside expansion", "piece rerouting", "flexible development", "central tension", "outposts", "kingside attack"],
+  "metadata": {
+    "eco": "A96-A99",
+    "opening": "Dutch Defense: Classical Variation (Ilyin-Zhenevsky System)",
+    "historicalContext": "This is the historically original Dutch treatment. Its other name honors Alexander Ilyin-Zhenevsky, the Soviet player and diplomat who championed the ...Qe8-h5 regrouping plan in the 1920s and helped establish it as the system's main strategic idea."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Dutch Defense family study laid out the opening's shared bargain: kingside space and an early claim on e4, paid for with a slightly weakened king and a backward e-pawn. The Classical Dutch is the oldest, calmest answer to that bargain — keep the center solid with ...e6 and ...d6, finish development completely normally, and only then start the kingside regrouping the whole opening promises. Nothing here is flashy; the entire point is that it is thoroughly sound and easy to play well."
+    }
+  ],
+  "line": [
+    "d4",
+    "f5",
+    "g3",
+    "Nf6",
+    "Bg2",
+    {
+      "san": "e6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The move that defines this system: e6 keeps the king's bishop's diagonal open for a normal developing move next, rather than committing to the Stonewall's ...d5 or the Leningrad's fianchetto.",
+          "concepts": ["flexible development"]
+        }
+      ]
+    },
+    "Nf3",
+    {
+      "san": "Be7",
+      "annotations": [
+        { "type": "commentary", "body": "Simple and modest — the bishop steps out of the way so Black can castle immediately. No pin, no tension, just development: the Classical Dutch's entire philosophy in one move." }
+      ]
+    },
+    "O-O",
+    "O-O",
+    "c4",
+    {
+      "san": "d6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The backward pawn's home",
+          "body": "d6 covers e5 and frees the light-squared bishop's diagonal, but it also fixes the e6 pawn as permanently backward — it can never safely advance past a well-placed White piece, and it becomes a long-term target for the rest of the game. Even at the top level this weakness has proven fatal when the middlegame goes badly: a backward Dutch e-pawn was exactly what Capablanca hunted down for move after move in Capablanca vs Tartakower, New York 1924, on his way to a famous rook endgame.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    "Nc3",
+    {
+      "san": "Qe8",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Clearing the path",
+          "body": "As in every Dutch system, the queen steps aside from d8 so it can regroup toward the kingside. In the Classical system this maneuver is carried out in full, and it's thorough enough to have earned its own name.",
+          "concepts": ["piece rerouting"]
+        }
+      ]
+    },
+    {
+      "san": "b3",
+      "annotations": [
+        { "type": "question", "body": "Black's queen just cleared d8 to make room for something. Where is it actually going, and what does it accomplish once it gets there?" }
+      ]
+    },
+    {
+      "san": "Qh5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The Ilyin-Zhenevsky maneuver",
+          "body": "This is the system's signature idea completed. On h5 the queen shares the fifth rank with e5 — adding a second attacker to the square Black's whole structure is built around — and it eyes a future kingside pawn storm with ...g5 if the position ever calls for it. What looked like a quiet developing move (Qe8) two moves ago has become real pressure.",
+          "concepts": ["piece rerouting", "kingside attack"]
+        }
+      ]
+    },
+    {
+      "san": "Bb2",
+      "annotations": [
+        { "type": "commentary", "body": "White completes the mirror-image fianchetto, adding pressure toward g7 now and toward e5 once the center opens further." }
+      ]
+    },
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Eyeing d4 from a different angle",
+          "body": "With b3 and Bb2 played, d4 is no longer shielded by a bishop the way it is in other setups, so Nc6 adds genuine pressure to the center rather than just developing. If the position ever opens, this knight also has an eye on the d4 outpost — the same idea, in miniature, that the family study flagged for this piece.",
+          "concepts": ["outposts"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "b6",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The queenside plan",
+                "body": "Instead of piling everything toward the kingside, Black can expand on the other wing: b6 prepares Bb7, adding a second long-range piece pointed at e4 and, later, support for queenside play with ...a5 or ...c5. It's a slower, more positional answer to the same opening — patient central pressure in place of an immediate attack.",
+                "concepts": ["queenside expansion"]
+              }
+            ]
+          },
+          "Qc2",
+          {
+            "san": "Bb7",
+            "annotations": [
+              { "type": "commentary", "body": "Both of Black's bishops now support e4 from a distance, and the position is ready for either a kingside or a queenside plan depending on how White reacts — the flexible piece play this system is known for." }
+            ]
+          }
+        ],
+        [
+          {
+            "san": "Ne4",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Trading away the attack",
+                "body": "Jumping into the outpost square looks natural — e4 is exactly where a Dutch knight wants to be. But played here it invites a simple trade that removes Black's best piece for White's least useful one, and hands the resulting e4 pawn to White as a target rather than an asset."
+              }
+            ]
+          },
+          "Nxe4",
+          "fxe4",
+          {
+            "san": "Nd2",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The pawn becomes a liability",
+                "body": "White's knight swings around to attack the very pawn Black just recaptured with. Nothing defends it, so Black must spend a move babysitting it (...d5 or ...Qe7) instead of continuing the kingside buildup the whole opening was aimed at. This isn't a material disaster — it's a wasted opportunity: the piece that made the attacking dream real is gone, traded for a pawn that now needs protecting instead of a plan that needed executing.",
+                "concepts": ["outposts"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Qc2",
+    {
+      "san": "Bd7",
+      "annotations": [
+        { "type": "commentary", "body": "The light-squared bishop finally gets a square — modest, but useful: it supports a future ...Rae8 lift and stays flexible about which file it ends up influencing." }
+      ]
+    },
+    {
+      "san": "Rae1",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The regrouping complete",
+          "body": "Black's forces are now fully aimed at the kingside: queen on h5, knight eyeing d4, rook ready to lift via f6 or e8, bishop pair intact. White answers in kind, doubling toward the center in preparation for e4 or a well-timed exchange on e5. Both sides have finished the opening's real work — the middlegame is a straightforward race between White's central and queenside pressure and Black's kingside buildup."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Two things separate the Classical Dutch from its siblings: Black keeps development completely normal — no locked center, no early piece commitment — before ever starting the kingside plan, and the queen's full journey to h5 is the payoff for the 'Qe8' idea the family study only introduced. Compare this patient tempo to the Stonewall's immediate central lock or the Leningrad's fianchetto dynamism: same bargain, very different pace.",
+          "concepts": ["flexible development", "kingside attack"]
+        }
+      ]
+    }
+  ]
+}

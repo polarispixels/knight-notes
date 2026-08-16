@@ -1,0 +1,184 @@
+{
+  "id": "grunfeld-exchange",
+  "catalogCode": "O108",
+  "focus": "black",
+  "title": "Grünfeld Defense: Exchange Variation",
+  "subtitle": "White builds the biggest possible center — on purpose",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "The Grünfeld Defense study explains why Black invites a big White center in the first place; here White accepts the challenge in its purest form, trading on d5 and marching the e-pawn to e4. What follows is the main theoretical battleground of the entire opening — a genuine test of whether piece pressure can outweigh a full classical center.",
+  "tags": ["Grünfeld Defense", "Grunfeld Defense", "Exchange Variation", "Indian Game", "d4 openings", "hypermodern"],
+  "concepts": ["big center vs. piece activity", "central undermining", "space", "doubled pawns", "central tension", "development"],
+  "metadata": {
+    "eco": "D85-D89",
+    "opening": "Grünfeld Defense: Exchange Variation",
+    "historicalContext": "This exact structure was the main battleground of Kasparov and Karpov's 1987 World Championship match in Seville — so much high-level analysis has gone into these positions that some lines are still called 'the Seville Variation' in its honor."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Grünfeld Defense study shows why Black provokes White's center rather than avoiding it. Here we go three moves deeper into its main artery — the Exchange Variation, where White stops declining the invitation and simply builds the biggest center the position allows. The question this branch exists to answer: once White has pawns on c3, d4, and e4, is that center a monument or a target?"
+    }
+  ],
+  "line": [
+    "d4",
+    "Nf6",
+    "c4",
+    "g6",
+    "Nc3",
+    "d5",
+    {
+      "san": "cxd5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White accepts the trade rather than let the central tension build further."
+        }
+      ]
+    },
+    {
+      "san": "Nxd5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black recaptures with the knight, keeping the fianchetto bishop's diagonal completely open and eyeing a further trade on c3."
+        }
+      ]
+    },
+    {
+      "san": "e4",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The Exchange Variation begins",
+          "body": "White pushes a second central pawn and offers the knight a choice: retreat and keep the tension, or trade itself off and hand White doubled pawns in exchange for a full three-pawn center. The Exchange Variation gets its name from this trade, but the real fight is about what that center is worth.",
+          "concepts": ["big center vs. piece activity"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e4" }, { "type": "square", "square": "d4" }]
+    },
+    {
+      "san": "Nxc3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The classical main line",
+          "body": "The most direct choice: trade off the knight now, accepting that White's structure will improve (a full pawn center) in exchange for damaging White's queenside pawns. This is the position that gave the variation its name and its deepest theory."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nb6",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The Modern approach — keep the knight",
+                "body": "Instead of trading, Black retreats the knight to a square where it still eyes d5 and c4 and keeps options flexible. White avoids the doubled c-pawns this way, but Black avoids handing over even a tempo, aiming to strike at d4 with pieces rather than accept a long theoretical duel over the classical structure."
+              }
+            ]
+          },
+          "Be3",
+          "Bg7",
+          "Nf3",
+          "O-O"
+        ]
+      ]
+    },
+    {
+      "san": "bxc3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White recaptures toward the center. The pawns are doubled on the c-file, but White now has an imposing c3-d4-e4 center and the bishop pair's opposite number: two pawns that will need active piece play to be defended, not just admired."
+        }
+      ]
+    },
+    "Bg7",
+    {
+      "san": "Bc4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops toward Black's weakest point, f7, while adding a second defender to the center."
+        }
+      ]
+    },
+    {
+      "san": "c5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Undermining, not blockading",
+          "body": "This is the central undermining motif the whole opening is built around: rather than trying to blockade White's pawns, Black strikes directly at the base of the chain. Every White central pawn now has a Black pawn asking it a question.",
+          "concepts": ["central undermining"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c5", "to": "d4" }],
+      "variations": [
+        [
+          {
+            "san": "Nc6",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The move that blocks its own plan",
+                "body": "Played here instead of the central strike, this looks like ordinary development, but it physically sits on the only square the c-pawn's two-step advance needs to pass through — a pawn cannot leap over its own knight. Black would have to lose a full tempo later just to get the ...c5 break back on the agenda at all, defeating the entire point of the Exchange structure.",
+                "concepts": ["central undermining"]
+              }
+            ]
+          },
+          "Nf3"
+        ]
+      ]
+    },
+    {
+      "san": "Ne2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops the knight off the back rank without blocking the f-pawn, keeping the option of a later f3 or f4 to reinforce the center."
+        }
+      ]
+    },
+    {
+      "san": "Nc6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black adds a second attacker to d4 and prepares to meet dxc5 or d5 with active piece play."
+        }
+      ]
+    },
+    "Be3",
+    "O-O",
+    {
+      "san": "O-O",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The main tabiya of the Grünfeld Exchange",
+          "body": "White's plans revolve around the big center: push it forward with d5 at the right moment, reinforce it with f3 and Qd2, or trade down toward an endgame where the extra central space is a lasting asset. Black's plans revolve around keeping the center a target rather than a wall: pile up on d4 with pieces, meet d5 advances with ...Na5-c4 or ...Bg4 ideas, and in some structures even offer an exchange sacrifice on c3 to permanently wreck White's queenside pawns.",
+          "concepts": ["big center vs. piece activity", "central tension"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a bigger pawn center is a genuine asset, not automatically a weakness — the Grünfeld's whole strategy depends on attacking it with real moves, not just hoping it's bad; a piece trade that damages your opponent's structure (Nxc3) is worth less if you also hand them exactly the center they wanted — material and structural trades have to be judged together; and your own developing moves can sabotage your own plan if they block the square a key pawn break needs to pass through.",
+          "concepts": ["big center vs. piece activity", "central undermining", "doubled pawns"]
+        }
+      ]
+    }
+  ]
+}

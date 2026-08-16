@@ -1,0 +1,279 @@
+{
+  "id": "modern-defense",
+  "catalogCode": "O068",
+  "focus": "black",
+  "title": "Modern Defense",
+  "subtitle": "Fianchetto first, decide everything else later",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "Black meets 1.e4 by fianchettoing the dark-squared bishop before committing to any pawn structure at all — no ...e5, no ...c5, not even ...Nf6 yet. Learn why refusing to answer White's center immediately is a real strategy, not a delay, and how Black uses that flexibility to provoke overextension before striking back.",
+  "tags": ["Modern Defense", "Robatsch Defense", "Black's King's Indian", "Fianchetto Defense", "hypermodern openings", "Pirc Defense"],
+  "concepts": ["hypermodern strategy", "fianchetto", "flexibility", "provoking overextension", "long diagonal pressure", "pawn breaks"],
+  "metadata": {
+    "eco": "B06",
+    "opening": "Modern Defense",
+    "historicalContext": "Also called the Robatsch Defense after the Austrian master Karl Robatsch, who helped popularize it in the 1950s and 60s as part of the broader hypermodern movement — the idea, going back to Réti and Nimzowitsch, that a big pawn center can be controlled from a distance instead of occupied outright."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Most defenses to 1.e4 answer the center right away, with ...e5 or ...c5 or ...d5. The Modern Defense answers with ...g6 — a move that stakes no claim on the center at all. Black's plan is to fianchetto the bishop to g7, watch what White builds, and only then decide how (and whether) to fight for the center with ...c5, ...e5, or ...d5. The central question of this opening is: can maximum flexibility outweigh giving White a completely free hand for several moves? The Modern Defense's answer is yes, provided Black is patient and precise about when to finally strike."
+    }
+  ],
+  "line": [
+    {
+      "san": "e4",
+      "annotations": [
+        {
+          "type": "principle",
+          "body": "White claims the center in the most direct way available."
+        }
+      ]
+    },
+    {
+      "san": "g6",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "No commitment yet",
+          "body": "This is the entire personality of the Modern Defense in one move. Black doesn't defend, block, or challenge anything in the center — the pawn on g6 only prepares to fianchetto the bishop. Every other opening move you know commits to something; this one is designed not to.",
+          "concepts": ["hypermodern strategy", "flexibility"]
+        }
+      ]
+    },
+    "d4",
+    {
+      "san": "Bg7",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Pressure without a pawn in the center",
+          "body": "The bishop takes aim at the whole a1-h8 diagonal, including White's d4 pawn, without Black ever having to put a pawn there to be attacked. This is the hypermodern idea in practice: control the center with pieces from the side, rather than pawns in the middle that become targets.",
+          "concepts": ["long diagonal pressure", "hypermodern strategy"]
+        }
+      ]
+    },
+    {
+      "san": "Nc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White builds a full classical center and develops naturally — exactly what Black is inviting. The question the rest of the opening answers is whether White can turn that space into something concrete before Black finishes catching up."
+        }
+      ]
+    },
+    {
+      "san": "d6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Still not deciding",
+          "body": "d6 supports a future ...e5 without playing it yet, and keeps ...c5 available too. Notice what's missing: no knight has gone to f6. That single omission is what separates the Modern Defense from its closest relative, the Pirc — see the variation on White's next move for what happens if Black plays ...Nf6 here instead.",
+          "concepts": ["flexibility"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "c6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Gurgenidze System",
+                "body": "Named for Bukhuti Gurgenidze, this branch delays ...d6 entirely and prepares a quick central strike with ...d5 instead of the slower fianchetto-then-wait plan. It's reached at least as often by transposition from a Caro-Kann move order (1.e4 c6 2.d4 d5 3.Nc3 g6) as from the Modern — the same structure, arrived at from two different openings that share a common idea about meeting 1.e4 with an early ...c6.",
+                "concepts": ["central tension"]
+              }
+            ]
+          },
+          "Nf3",
+          {
+            "san": "d5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The point of ...c6: this pawn now attacks e4 directly, striking at the center in one move instead of waiting on it."
+              }
+            ]
+          },
+          "exd5",
+          "cxd5"
+        ],
+        [
+          {
+            "san": "Nf6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Transposing into the Pirc",
+                "body": "Developing the knight here immediately abandons the trait that makes this opening the Modern rather than the Pirc: the freedom to see White's setup before deciding on a structure. It isn't a mistake — the Pirc is a sound, respected defense in its own right — but it commits to ...d6 and ...Nf6 together instead of keeping ...c6, ...c5, or an early ...d5 on the table."
+              }
+            ]
+          },
+          {
+            "san": "f4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White answers with the Austrian Attack, the sharpest reply to the Pirc structure — a position this lesson's family cousin covers in its own detail."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Be3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A Be3-Qd2-O-O-O setup",
+          "body": "Rather than let Black dictate the pace, White commits to a plan: grab more central space, prepare Qd2 and long castling, and go straight at Black's king before the extra flexibility pays off. This Be3/Qd2 setup — often called the Averbakh System when it's aimed at a fianchettoed bishop — is White's most direct answer to the Modern's patience.",
+          "concepts": ["space"]
+        }
+      ]
+    },
+    {
+      "san": "a6",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "A normal move here would be ...Nf6, finishing development. Instead Black plays a pawn move on the far side of the board. What is this preparing, and why delay development further?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Expansion instead of development",
+          "body": "a6 prepares ...b5, and the point is to counter-attack on the queenside rather than just develop pieces to normal squares. Because the bishop is already doing useful work on g7, Black can afford to spend more time on pawn moves that create real threats later. This is the flexibility from move one finally cashing out into a concrete plan.",
+          "concepts": ["flexibility", "provoking overextension"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "h6",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Flexibility is not an excuse to stall",
+                "body": "This is the trap hiding inside the Modern Defense's whole approach: refusing to commit early is only useful if the extra moves eventually go toward a real plan. h6 defends nothing, prepares nothing, and gains no space — it is simply a wasted tempo. White is happy to continue the same plan a move ahead of schedule.",
+                "concepts": ["flexibility"]
+              }
+            ]
+          },
+          "Qd2",
+          {
+            "san": "Nf6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black eventually has to play a genuinely useful move anyway — the difference is that h6 accomplished nothing in the meantime, while ...a6 and ...b5 (the actual main line) were building toward a real pawn break the whole time."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Qd2",
+    {
+      "san": "b5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A second fianchetto in the making",
+          "body": "Queenside space, and it prepares ...Bb7 — a second bishop bearing down a long diagonal, echoing the first. If both bishops end up aimed at White's position from opposite wings, the price of two slow pawn moves starts to look cheap.",
+          "concepts": ["long diagonal pressure"]
+        }
+      ]
+    },
+    {
+      "san": "f3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A standard prophylactic move in these structures: it reinforces e4, rules out any future ...Ng4 or ...Nf6-g4 tricks against the e3-bishop, and clears g2 for a knight on e2 next."
+        }
+      ]
+    },
+    {
+      "san": "Nd7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Still flexible",
+          "body": "Even now, the knight avoids f6 — going to d7 keeps the long diagonal completely clear for the g7-bishop and leaves the knight free to reroute toward c5 or e5 later, wherever the eventual pawn break calls for it.",
+          "concepts": ["flexibility"]
+        }
+      ]
+    },
+    "Nge2",
+    {
+      "san": "Bb7",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The double fianchetto",
+          "body": "Both bishops now point along long diagonals from opposite corners of the board — the structural signature of the Modern Defense at its most ambitious. Neither one has needed a single central pawn to become active.",
+          "concepts": ["long diagonal pressure"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "g7", "to": "a1" },
+        { "type": "arrow", "from": "b7", "to": "h1" }
+      ]
+    },
+    {
+      "san": "O-O-O",
+      "annotations": [
+        {
+          "type": "warning",
+          "title": "Castling toward the danger",
+          "body": "White castles queenside, straight behind the pawns Black has already been expanding against with ...a6 and ...b5. This is the double-edged heart of this whole plan: both kings are about to be castled on the wing where the opponent already has a head start, and whoever opens lines first tends to get there.",
+          "concepts": ["king safety"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "c1" }]
+    },
+    {
+      "san": "c5",
+      "classification": "interesting",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White's king just castled behind a queenside where Black has already advanced two pawns. What's Black's most direct way to open lines right now?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The delayed break arrives",
+          "body": "This is the payoff the whole opening was built for. Every move so far — the fianchettoes, the queenside pawn advances, even the patient ...Nd7 — was preparation for a pawn break at the moment it does the most damage, not the earliest moment it was possible. Compare this to a defense that played ...c5 on move three: it would have handed White a normal target to attack. Here, it opens lines directly at a king that has nowhere else to go.",
+          "concepts": ["provoking overextension", "pawn breaks"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c5", "to": "d4" }]
+    },
+    "dxc5",
+    {
+      "san": "dxc5",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Two bishops, two open diagonals, two kings in the crossfire",
+          "body": "The center has cleared, and both fianchettoed bishops now bear on completely open diagonals — the g7-bishop straight at White's queenside pawn cover, the b7-bishop at the long diagonal toward White's king. White still has extra development and central influence built up over the last several moves, and if the attack comes first it can still be dangerous. But the position has become exactly what Black's opening was designed to reach: a fight where two long-range bishops that cost nothing but pawn moves to activate are worth at least as much as White's head start."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to take beyond this exact line: refusing to commit the center early is a real plan, not just delay, as long as there's an eventual break in mind; a piece fianchettoed early can stay dangerous for a dozen moves without a single central pawn to support it; and opposite-side expansion (here, ...a6/...b5 against O-O-O) turns slow-looking pawn moves into the fuel for the position's sharpest moment.",
+          "concepts": ["hypermodern strategy", "pawn breaks", "long diagonal pressure"]
+        }
+      ]
+    }
+  ]
+}

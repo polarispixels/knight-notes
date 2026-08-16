@@ -1,0 +1,243 @@
+{
+  "id": "sicilian-dragon",
+  "catalogCode": "O038",
+  "focus": "black",
+  "title": "The Sicilian Dragon",
+  "subtitle": "Fianchetto and fight — chess's sharpest race",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "The most theory-dense variation in chess: Black fianchettos the king's bishop down the long diagonal and accepts an all-out race against White's queenside pawn storm. Understanding the Dragon means understanding tempo-counting in opposite-side-castling attacks, where whoever's pawns and pieces arrive first usually wins and a single move-order slip is fatal for either side.",
+  "tags": ["Dragon Variation", "Sicilian Dragon", "Sicilian Defense", "Yugoslav Attack", "opposite-side castling", "kingside fianchetto"],
+  "concepts": [
+    "opposite-side castling",
+    "kingside fianchetto",
+    "long diagonal bishop",
+    "pawn storms",
+    "exchange sacrifice",
+    "mutual attack races"
+  ],
+  "metadata": {
+    "eco": "B70-B79",
+    "opening": "Sicilian Defense: Dragon Variation",
+    "historicalContext": "The variation is named not for a person but for a shape: the Russian master Fyodor Bohatirchuk and others noted that Black's kingside pawns on f7, g6, and h7, guarded by the fianchettoed bishop, trace the outline of a dragon's back. The Yugoslav Attack, which turns that same structure into an opposite-side-castling war, was developed by Yugoslav players in the 1950s and remains one of the most exhaustively analyzed systems in chess."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study, The Sicilian Defense, showed the skeleton every Sicilian shares: the c-for-d trade, the half-open c-file, e5 traded for d5. The Dragon chooses a different fifth move than that lesson's Najdorf-flavored line — 5...g6 instead of 5...a6 — and the consequence is enormous: instead of quietly expanding on the queenside, Black's king's bishop goes to g7 and stares down the longest diagonal on the board. Against White's most testing reply, the Yugoslav Attack, both sides castle to opposite wings and simply race pawns at each other's kings. This lesson teaches how to count that race: whose attack is faster, what each side's attacking pawns are actually worth, and why a single tempo decides most Dragon games."
+    }
+  ],
+  "line": [
+    "e4",
+    "c5",
+    "Nf3",
+    "d6",
+    "d4",
+    "cxd4",
+    "Nxd4",
+    "Nf6",
+    "Nc3",
+    {
+      "san": "g6",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The Dragon's declaration",
+          "body": "Where the family study's main line played 5...a6 to prepare quiet queenside expansion, Black instead fianchettos. The bishop will land on g7, eyeing b2 and, if the long diagonal ever opens, a1. This is a structural choice as much as a piece placement: Black bets that active piece play down the long diagonal is worth more than the safer central setups other Sicilian systems choose.",
+          "concepts": ["kingside fianchetto"]
+        }
+      ]
+    },
+    {
+      "san": "Be3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Preparing the sharpest reply",
+          "body": "Be3 develops toward queenside castling and clears d2 for the queen — the first move of the Yugoslav Attack, White's most dangerous and most common try against the Dragon. A calmer approach exists too: 6.Be2, developing toward kingside castling instead, is covered in the variation below.",
+          "concepts": ["mutual attack races"]
+        }
+      ]
+    },
+    {
+      "san": "Bg7",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The dragon's eye",
+          "body": "The point of the whole system. From g7 the bishop already presses b2 and, once the center pawn on d4 falls or trades away, the entire a1-h8 diagonal opens toward White's queenside — precisely the side White is about to castle to.",
+          "concepts": ["long diagonal bishop"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g7", "to": "a1" }]
+    },
+    {
+      "san": "f3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "principle",
+          "title": "One quiet move, two jobs",
+          "body": "f3 braces e4 so the coming g2-g4-g5 storm won't be met by tricks on e4, and it rules out ...Ng4 hitting the bishop on e3 forever. Compare the variation below, where White skips this move and pays for it immediately.",
+          "concepts": ["pawn storms"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "g4" }],
+      "variations": [
+        [
+          {
+            "san": "Be2",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Classical Dragon",
+                "body": "White can also develop quietly and castle kingside, giving up the sharp race entirely for a smaller, calmer edge. This is a completely different opening in spirit — no opposite-side castling, no pawn storms — and it removes f3's whole purpose. Watch what that costs immediately."
+              }
+            ]
+          },
+          "O-O",
+          "O-O",
+          {
+            "san": "Ng4",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The point of f3",
+                "body": "Without f3 played first, this jump is available and it attacks the bishop on e3 — a dark-squared bishop, which cannot capture a knight on the light square g4. White must retreat and lose a tempo. This is the concrete reason f3 is inserted so early in the sharp main line: it is not decoration, it deletes this exact resource before Black can use it.",
+                "concepts": ["mutual attack races"]
+              }
+            ]
+          },
+          "Bd2"
+        ]
+      ]
+    },
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black castles toward the exact wing where White's pawns are about to start marching. Every other opening in this series treats castling as the safe move. Is it safe here?"
+        }
+      ]
+    },
+    {
+      "san": "Qd2",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The engine of the attack",
+          "body": "Qd2 connects the rooks for queenside castling and offers the dark-squared bishop a trade on h6 whenever White wants it — removing the defender of Black's king is the single most common resource in the whole Yugoslav Attack. Answering the question from the last move: castling kingside is not unsafe by itself, it only becomes a race once both kings commit to opposite sides. That happens two moves from now.",
+          "concepts": ["mutual attack races"]
+        }
+      ]
+    },
+    "Nc6",
+    {
+      "san": "Bc4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A useful square before committing the king: the bishop eyes f7 the way the Ruy Lopez lesson's bishop eyed the same square from a different angle, and it stays flexible about landing on b3 later.",
+          "concepts": ["pawn storms"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c4", "to": "f7" }]
+    },
+    "Bd7",
+    {
+      "san": "O-O-O",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Now the race is official",
+          "body": "Both kings have committed to opposite wings. From this move on, neither side can profitably attack the other's center — the only sensible plans are direct pawn assaults on the enemy king, and every tempo spent elsewhere is a tempo the opponent's storm gets for free.",
+          "concepts": ["opposite-side castling", "mutual attack races"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "c1" },
+        { "type": "square", "square": "g8" }
+      ]
+    },
+    {
+      "san": "Rc8",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The same file, a sharper target",
+          "body": "The family study praised the half-open c-file as Black's private highway in every Sicilian. Here that highway points straight at White's own king. Rc8 is still a normal developing move — but in this specific structure it is also the first attacking move of Black's race.",
+          "concepts": ["mutual attack races"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c8", "to": "c1" }]
+    },
+    "Bb3",
+    {
+      "san": "Ne5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Rerouting toward the attack",
+          "body": "The knight steps off f6 to eye c4 and d3 and to clear the way for ...Nc4 hitting the queen, or for the file to open. This is also the square from which, once White's queenside pawns advance and the c-file cracks open, Black often looks for the Dragon's signature resource: the exchange sacrifice ...Rxc3, tearing open the pawns shielding White's king even at the cost of a whole rook for a knight.",
+          "concepts": ["exchange sacrifice"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "a5",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Soltis Variation",
+                "body": "Instead of rerouting the knight, Black can push straight for ...a4, hitting the bishop on b3 and forcing it to a worse square or into a trade — a more direct, less piece-dependent way to generate queenside counterplay in the same race."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "h4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White's kingside pawns start rolling forward — h4 next intends h5, cracking open the g-file toward Black's king. If Black plays a slow move here, the storm arrives essentially unopposed. What must Black do immediately?"
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "h4", "to": "h5" }]
+    },
+    {
+      "san": "h5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Stopping the storm cold",
+          "body": "One pawn move answers the question completely: h4-h5 is no longer possible, so White must find another way to break through (typically g2-g4, Nd5, or the dark-squared bishop trade on h6) while Black's own queenside pawns — a7, b7 — start their own march toward White's king on c1. Both sides now count tempi with total precision: whoever's attack lands first usually wins outright, because king safety, not material, decides these positions.",
+          "concepts": ["pawn storms", "mutual attack races"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry from the Dragon: the same c-file the family lesson called Black's highway becomes a weapon aimed at the enemy king once castling is opposite-sided; prophylactic moves (f3, then Black's ...h5) are not passive — they are how both sides survive the other's plan long enough to execute their own; and in races like this one, tempo is the only currency that matters — a beautiful positional move played one move too slowly loses outright.",
+          "concepts": ["opposite-side castling", "mutual attack races", "pawn storms"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "g6" }]
+    }
+  ]
+}

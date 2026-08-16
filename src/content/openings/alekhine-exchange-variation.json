@@ -1,0 +1,211 @@
+{
+  "id": "alekhine-exchange-variation",
+  "catalogCode": "O052",
+  "focus": "white",
+  "title": "Alekhine Defense: Exchange Variation",
+  "subtitle": "Trade the pawn, keep the small edge",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "Rather than committing to the sharp, deeply theoretical Four Pawns Attack, White can simply trade off the advanced e5 pawn and reach a calmer, safer position with a small but real structural pull. It's the practical player's answer to Alekhine's Defense: less ambitious, much harder for Black to prepare against, and built around one recurring question — whose open file matters more?",
+  "tags": ["Alekhine Defense", "Exchange Variation", "open c-file", "structural edge", "e4 openings"],
+  "concepts": ["structural clarity", "open files", "minority attack", "weak pawns", "piece activity"],
+  "metadata": {
+    "eco": "B03",
+    "opening": "Alekhine Defense: Exchange Variation",
+    "historicalContext": "A long-standing practical choice for White players who want to sidestep the heavy theory of the Four Pawns Attack without giving up every ambition — the resulting positions are quieter, but not passive."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study showed that Black's whole plan against a big White center is timing a pawn break against it. Here White answers that plan differently than the Four Pawns Attack does: instead of building the center to its maximum and daring Black to break it, White trades the advanced e5 pawn away voluntarily, cashing in the space for a cleaner structure and a small, lasting target on d6. The central question of this lesson is whether that target is worth as much as it looks — and what Black gets in return by recapturing toward the center."
+    }
+  ],
+  "line": [
+    "e4",
+    "Nf6",
+    "e5",
+    "Nd5",
+    "d4",
+    "d6",
+    "c4",
+    {
+      "san": "Nb6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "As in the family study, the knight retreats once c4 arrives. From here White has a choice between the maximal Four Pawns Attack (5.f4) and the calmer trade shown in this lesson."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nf4",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The adventurous square that fails",
+                "body": "Jumping to f4 instead eyes g2 and e2, but it ignores development and has no good follow-up once challenged."
+              }
+            ]
+          },
+          {
+            "san": "g3",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "No good square left",
+                "body": "The knight is kicked immediately, and every retreat is bad: going back to d5 walks straight into cxd5, winning the piece outright since the c4 pawn already covers that square. This is exactly why the calm retreat to b6 is correct instead of chasing activity too early.",
+                "concepts": ["piece activity"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "c4", "to": "d5" }]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "exd6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White has two ways to think about this position: keep the tension and go maximal with f4, or simplify right now with exd6. Trading gives up the space advantage the whole opening was built to gain — so what does White get in return?"
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "f4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The road not taken here",
+                "body": "This is the Four Pawns Attack instead — a much sharper, more committal path that has its own dedicated lesson."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "cxd6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Recapturing toward activity, not toward safety",
+          "body": "Black could also recapture exd6, keeping the pawns compact and avoiding any weaknesses at all. But cxd6 is the more critical and more common choice: it opens the c-file for Black's rook immediately, trading a slightly weaker pawn structure (the d6 pawn is now a long-term target) for real, lasting piece activity. This tradeoff — a small structural concession for an open file — is the entire character of the variation.",
+          "concepts": ["open files", "weak pawns"]
+        },
+        {
+          "type": "commentary",
+          "body": "Keep the open c-file in mind. It becomes considerably more important a few moves from now."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "exd6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The quieter recapture",
+                "body": "Keeping the pawns compact avoids the coming c-file fight entirely, but gives up the extra central influence a c-pawn recapture provides. Nearly all modern practice prefers cxd6 for exactly that reason."
+              }
+            ]
+          },
+          "Nc3",
+          "g6"
+        ]
+      ]
+    },
+    "Nc3",
+    {
+      "san": "g6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black fianchettoes, aiming the bishop down the long diagonal at White's center — the same hypermodern idea from the family study, now played from a slightly different structure."
+        }
+      ]
+    },
+    "Be3",
+    "Bg7",
+    {
+      "san": "Qd2",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Preparing a trade of the key defender",
+          "body": "The queen steps aside so the dark-squared bishop can go to h6 and offer to trade Black's fianchettoed bishop — the piece that would otherwise guard every dark square around Black's king. It's a recurring plan in this structure.",
+          "concepts": ["weak pawns"]
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "O-O-O",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Castling onto the open file",
+          "body": "This is a real commitment, not a routine move: White's king lands on c1, the exact file Black's rook already has open thanks to cxd6. That's the tradeoff in full — White gets the safer square and the faster kingside attack this structure allows, but Black's long-term counterplay (a future ...Rc8) points straight back at the king that just moved there.",
+          "concepts": ["open files"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "c1" },
+        { "type": "square", "square": "g8" }
+      ]
+    },
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black develops rather than rushing ...Rc8 immediately — the open file isn't going anywhere, and completing development first keeps every option available."
+        }
+      ]
+    },
+    {
+      "san": "Bh6",
+      "classification": "interesting",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Removing the defender",
+          "body": "White follows through on the plan from move nine. Once this bishop is traded, no piece Black owns can contest a dark square near the king — a real, lasting concession in exchange for tempo and the initiative.",
+          "concepts": ["weak pawns"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "g7" }]
+    },
+    "Bxh6",
+    {
+      "san": "Qxh6",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The tradeoffs, laid bare",
+          "body": "White's plan is now visible in full: the dark-squared defender is gone, the queen eyes g7 and f8, and a further h4-h5 pawn storm is a natural follow-up — all made possible by castling queenside and simplifying early rather than chasing the maximal center. Black's counterplay runs the other way, straight down the open c-file toward White's own king on c1, plus whatever central play ...d5 can generate later.",
+          "concepts": ["open files", "weak pawns"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry forward: trading the center for structure isn't passive — it's a different kind of ambition, aimed at the king rather than at material; the recapture on move five (cxd6 over exd6) decided which file would matter for the rest of the game, long before either side's king had even moved; and opposite-side castling here is doubly sharp, because Black's open file and White's chosen king square are the same file. Compare this calm, structural approach with the sharper Four Pawns Attack, which refuses the trade entirely.",
+          "concepts": ["open files", "structural clarity"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "h6", "to": "f8" }]
+    }
+  ]
+}

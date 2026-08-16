@@ -1,0 +1,235 @@
+{
+  "id": "queens-indian",
+  "catalogCode": "O106",
+  "focus": "black",
+  "title": "The Queen's Indian Defense",
+  "subtitle": "The solid answer when White avoids 3.Nc3",
+  "type": "opening",
+  "difficulty": "advanced",
+  "summary": "When White declines to commit the queenside knight to c3, Black meets the center not with a pawn but with a bishop: ...b6 and ...Bb7 aim down the long diagonal at e4 from a distance. Learn why this quiet fianchetto is one of the most respected defenses to 1.d4, and how a single knight jump to e4 becomes the whole argument of the opening.",
+  "tags": ["Queen's Indian Defense", "Queen's Indian Defence", "Indian Game", "d4 openings", "fianchetto", "Petrosian Variation"],
+  "concepts": ["fianchetto", "prophylaxis", "outposts", "central tension", "development", "long diagonal pressure"],
+  "metadata": {
+    "eco": "E12-E19",
+    "opening": "Queen's Indian Defense",
+    "historicalContext": "The Queen's Indian grew out of the same 1920s hypermodern thinking that produced its sibling defenses, and became a repertoire staple for Karpov and later Kramnik precisely because it concedes so little. Its most famous demonstration isn't even the modern main line: Sämisch vs Nimzowitsch, Copenhagen 1923 — 'The Immortal Zugzwang Game' — began life as a Queen's Indian before Nimzowitsch spent twenty-five quiet moves proving what restriction alone can do."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Alongside the Nimzo-Indian and the Bogo-Indian, the Queen's Indian is one of Black's main answers to 1.d4 Nf6 2.c4 e6 that avoids an immediate pawn clash — all three belong to the Indian Game family. Its central question is simple: without a White knight on c3 to provoke with a check, how does Black still fight for the e4 square? The answer is geometry rather than tactics — a bishop on b7 does from a distance what a pawn on d5 might otherwise do up close."
+    }
+  ],
+  "line": [
+    {
+      "san": "d4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White claims central space and opens lines for both minor pieces on the back rank."
+        }
+      ]
+    },
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The Indian family's shared first move",
+          "body": "Rather than answering in the center with a pawn, Black develops a piece that already influences e4 and keeps every setup — Nimzo, Queen's Indian, Bogo, King's Indian, Grünfeld — on the table for another move or two.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    "c4",
+    "e6",
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops naturally without yet committing the queenside knight. This single choice is what separates the Queen's Indian from the Nimzo-Indian: with no knight on c3, Black has no check to give on b4, so a different plan is needed."
+        }
+      ]
+    },
+    {
+      "san": "b6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black spends a move on nothing more than preparing a fianchetto — no central pawn advance, no check, no immediate threat. Without ...d5 and without ...Bb4+, how can Black possibly contest White's center at all?"
+        }
+      ]
+    },
+    {
+      "san": "g3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White mirrors the plan with a fianchetto of the king's bishop, aiming at the same long diagonal from the other end — the position's whole character will be decided along it."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "a3",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Petrosian Variation",
+                "body": "Instead of racing to fianchetto, White spends a move preventing ...Bb4+ altogether — useful once Nc3 arrives, since the pin-and-trade ideas from the Bogo-Indian and Nimzo-Indian are simply taken off the table in advance. It costs a tempo and slightly slows development, but it buys White the freedom to meet Black's setup with either e4 or Nc3 without ever worrying about a check on b4.",
+                "concepts": ["prophylaxis"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "a3", "to": "b4" }]
+          },
+          "Bb7",
+          "Nc3",
+          "d5",
+          "cxd5",
+          "exd5"
+        ]
+      ]
+    },
+    {
+      "san": "Bb7",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Pressure from a distance",
+          "body": "This is the answer: instead of occupying e4 with a pawn, Black points a bishop at it from b7. The a8-h1 diagonal now does long-term work no White pawn move can simply chase away, and it quietly discourages White from ever playing e4 without preparation. The concession is real — Black hasn't touched the center with a pawn — but the compensation is a piece that will matter for the entire game.",
+          "concepts": ["fianchetto", "long diagonal pressure"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b7", "to": "e4" }]
+    },
+    "Bg2",
+    "Be7",
+    "O-O",
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Both sides finish getting the king to safety before the real argument — the fight over e4 — begins in earnest."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Ne4",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The idea played a move too soon",
+                "body": "This looks like the opening's main plan arriving early, but there is no White knight on c3 yet to trade off — the whole point of jumping to e4 later is to remove that piece. Played now, the knight has nothing to achieve and simply invites White's queen to gain a tempo."
+              }
+            ]
+          },
+          {
+            "san": "Qc2",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Attacking the undefended knight along the c2-e4 diagonal — Black must spend a second move to return where the knight started."
+              }
+            ]
+          },
+          "Nf6",
+          {
+            "san": "Nc3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White has simply transposed back toward the main line, except with the useful move Qc2 already played for free. Two Black moves accomplished what one accomplishes when timed correctly."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nc3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Only now does White develop this knight — and only now does Black's real plan begin to make sense."
+        }
+      ]
+    },
+    {
+      "san": "Ne4",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The central outpost",
+          "body": "With a knight finally on c3, the timing is right: this jump both plants a piece on a strong central square and offers a trade of White's most actively developed minor piece. Whatever White does next, Black has improved a piece at no cost.",
+          "concepts": ["outposts", "central tension"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e4" }]
+    },
+    {
+      "san": "Qc2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White attacks the knight and prepares to recapture toward the center rather than allow doubled pawns."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c2", "to": "e4" }]
+    },
+    {
+      "san": "Nxc3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A trade with no scar tissue",
+          "body": "Compare this to the Nimzo-Indian, where ...Bxc3 typically forces bxc3 and leaves White with doubled pawns as the price of the bishop pair. Here it's a straight knight-for-knight trade — no structural damage on either side, just simplification and a small gain in time.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "Qxc3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "body": "White's queen lands on the same long diagonal Black's bishop already occupies from the other side — a small, real point in White's favor, since it eyes g7 near Black's king. Nothing dramatic yet, but a square worth remembering.",
+          "concepts": ["long diagonal pressure"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "c3" }]
+    },
+    {
+      "san": "c5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The central break both sides were waiting for",
+          "body": "Black finally strikes at White's center with a pawn, the way the Nimzo-Indian or a classical defense might have on move three. White can meet it with pressure down the d-file, central exchanges, or a slow buildup with b3 and Bb2-style pieces already in place; Black's plan is to trade down, keep the fianchettoed bishop active, and use the extra central space this break creates for the pieces.",
+          "concepts": ["central tension"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a fianchettoed bishop can substitute for a central pawn in the fight for a key square, provided it's backed by patience; the same-looking move (...Ne4) can be excellent or pointless depending purely on whether its target — a knight on c3 — actually exists yet; and not every piece trade damages a pawn structure the way it does in the Nimzo-Indian — read what's actually on the board, not what the sibling opening taught you to expect.",
+          "concepts": ["fianchetto", "outposts", "central tension"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "id": "catalan",
+  "catalogCode": "O080",
+  "focus": "white",
+  "title": "The Catalan Opening",
+  "subtitle": "A Queen's Gambit with a long-diagonal bishop",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "White combines the Queen's Gambit's central ambitions with an Indian-style fianchetto: the bishop on g2 presses the long diagonal toward Black's queenside for the entire game, recovering the gambit pawn almost by itself and producing small, durable edges instead of quick knockouts. It's the choice of players who want a flexible d4 repertoire that sidesteps the sharpest Queen's Gambit Declined and Slav theory while still asking Black real, long-term questions.",
+  "tags": ["Catalan Opening", "Catalan System", "Queen's Gambit family", "g3 systems", "Open Catalan", "Closed Catalan", "fianchetto openings"],
+  "concepts": ["fianchetto", "long diagonal pressure", "central tension", "recovering a gambit pawn", "small durable edges", "development"],
+  "metadata": {
+    "eco": "E00-E09",
+    "opening": "Catalan Opening",
+    "historicalContext": "The Catalan reportedly takes its name from the 1929 international tournament in Barcelona, where organizers asked grandmaster Savielly Tartakower to devise an opening representing the host region, Catalonia. What began as a regional novelty is now one of the most respected d4 systems at the very top level."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Catalan fights the same central battle as The Queen's Gambit family study — c4 and d4 press Black's center exactly as they do there — but adds one idea of its own: fianchetto the king's bishop to g2, where it presses the long diagonal for the rest of the game. Watch how White recovers the c4 pawn without ever needing to defend it directly — the long diagonal does that work by itself, the way the Ruy Lopez's Bb5 pressured e5 without ever really threatening it."
+    }
+  ],
+  "line": [
+    "d4",
+    "Nf6",
+    "c4",
+    "e6",
+    {
+      "san": "g3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The defining move",
+          "body": "Instead of developing the bishop to a direct diagonal like Bxc4 lines eventually do, White fianchettoes it. From g2 the bishop will aim at d5, c6, b7, and a8 — every square Black's queenside needs — for the rest of the game. This is the one idea that turns a Queen's Gambit into a Catalan.",
+          "concepts": ["fianchetto", "long diagonal pressure"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g2", "to": "a8" }]
+    },
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black claims the center, same as against any Queen's Gambit. But there's an alternative available right now that never appears in the Queen's Gambit family — see the variation.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bb4+",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Meeting the fianchetto with a check",
+                "body": "Before committing to ...d5, Black can try to disrupt White's setup immediately. With no piece yet on c3 or d2, this really is check, and White must spend a move answering it — a small, real try that simplifies the position rather than fighting for an advantage."
+              }
+            ]
+          },
+          "Bd2",
+          {
+            "san": "Bxd2+",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Trading down is Black's whole point here — fewer pieces, less to calculate, and White's recapturing piece ends up slightly less flexible than it would have been on c3."
+              }
+            ]
+          },
+          "Nxd2"
+        ]
+      ]
+    },
+    {
+      "san": "Bg2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop takes up its post. It isn't attacking anything yet — d5 is defended, c6 and b7 are empty — but every one of those squares matters later, and this diagonal will still matter twenty moves from now.",
+          "concepts": ["long diagonal pressure"]
+        }
+      ]
+    },
+    "Be7",
+    "Nf3",
+    "O-O",
+    "O-O",
+    {
+      "san": "dxc4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black now chooses: grab the c4 pawn (the Open Catalan) or keep the central tension unresolved (the Closed Catalan, shown in the variation)? Both are fully respectable — but only one shows off the fianchetto bishop's real purpose."
+        },
+        {
+          "type": "key-idea",
+          "title": "The Open Catalan",
+          "body": "Taking the pawn is completely safe for Black — for now. The point of this whole lesson is watching White get it back without ever playing a forcing tactic: just Qc2, and the long diagonal (plus the open c-file) makes the recapture almost automatic.",
+          "concepts": ["recovering a gambit pawn"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "c6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Closed Catalan",
+                "body": "Black declines to grab the pawn and instead reinforces d5 a second way, keeping the central tension alive rather than resolving it. The resulting game is quieter than the Open Catalan and slower to define an edge for either side — a reasonable choice for a player who would rather not memorize the Open Catalan's recapturing lines."
+              }
+            ]
+          },
+          "Qc2",
+          "b6"
+        ]
+      ]
+    },
+    {
+      "san": "Qc2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Not an attack — the queen simply steps onto the open c-file and the long diagonal's supporting square, ready to recapture on c4 whenever it wants. No knight hop, no tactic, just quiet preparation.",
+          "concepts": ["recovering a gambit pawn"]
+        }
+      ]
+    },
+    {
+      "san": "a6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black prepares ...b5 to hold the extra pawn a little longer before eventually returning it on better terms — the same delaying logic seen in the Queen's Gambit Accepted, just played out on a different diagonal.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "Qxc4",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "body": "The pawn comes back, exactly as promised on move 3. White spent no tempo defending a threat and no tactic winning material — the queen simply walked to where the pawn already was.",
+          "concepts": ["recovering a gambit pawn"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "c4" }]
+    },
+    {
+      "san": "b5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A pawn move with a real point: it gains a tempo by attacking the queen, buying Black a free developing move next.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b5", "to": "c4" }]
+    },
+    "Qc2",
+    {
+      "san": "Bb7",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Two bishops, one diagonal",
+          "body": "Black's bishop takes up the exact same diagonal as White's — a direct rivalry down the long light-squared diagonal that will define the rest of the middlegame. Whichever side's version of this bishop is more active often decides who stands better.",
+          "concepts": ["long diagonal pressure"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "b7", "to": "g2" },
+        { "type": "arrow", "from": "g2", "to": "b7" }
+      ]
+    },
+    {
+      "san": "Nc3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Both bishops, opposite diagonals",
+          "body": "White has recovered the gambit pawn, completed development, and still owns the long diagonal — Black's own bishop on b7 stares back down the same line. White's plans from here: press with the long diagonal, look for e4, or simply keep developing with a small, safe edge; Black's: challenge the center with ...c5, develop with ...Nbd7, or trade down toward an endgame where the small edge barely shows.",
+          "concepts": ["long diagonal pressure", "small durable edges"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three things worth carrying forward: a fianchettoed bishop can make threats without moving — it recovered a pawn from its very first square, the way the Ruy Lopez's Bb5 pressured e5 without ever touching it; recapturing structures matter as much as recapturing material — Qc2 to Qxc4 back to Qc2 cost White no real time, since each queen move served a second purpose; and 'declining' the center, as in the Closed Catalan variation shown above, always trades a pawn's worth of activity for solidity — the same tradeoff the Queen's Gambit Declined makes against 1.d4 generally."
+        }
+      ]
+    }
+  ]
+}

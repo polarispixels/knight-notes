@@ -1,0 +1,244 @@
+{
+  "id": "giuoco-pianissimo",
+  "catalogCode": "O019",
+  "focus": "white",
+  "title": "Giuoco Pianissimo",
+  "subtitle": "Italian Game — the even quieter game",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "White delays the central fight entirely, playing d3 instead of the sharp c3-and-d4 plan, and settles in for a long maneuvering middlegame instead of a forcing one. This lesson goes past the family study's single branch on 4.d3 and shows what the resulting position actually asks of both sides -- a patient regrouping battle that has become one of the most popular practical weapons in modern chess.",
+  "tags": [
+    "Giuoco Pianissimo",
+    "Italian Game with d3",
+    "Slow Italian",
+    "Quiet Italian",
+    "Giuoco Piano",
+    "Italian Game",
+    "e4 openings"
+  ],
+  "concepts": [
+    "maneuvering middlegame",
+    "prophylaxis",
+    "piece placement",
+    "space",
+    "pawn breaks",
+    "central tension"
+  ],
+  "metadata": {
+    "eco": "C50",
+    "opening": "Italian Game: Giuoco Piano, Giuoco Pianissimo"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Giuoco Piano means 'quiet game'; the Pianissimo is White's way of taking that literally. Instead of the sharp c3-and-d4 central strike, White plays the modest d3, keeps the position closed, and wins the game with maneuvering instead of calculation. The family study showed this move exists in a single branch; here we play out the actual middlegame it leads to -- the same low-theory, high-technique idea that keeps the Berlin Defense popular in the Ruy Lopez, borrowed for the Italian complex."
+    },
+    {
+      "type": "historical",
+      "title": "A modern revival",
+      "body": "Since the 2010s, elite players -- including multiple world champions -- have leaned on the Pianissimo as a practical way to reach a playable middlegame without walking into an opponent's home preparation. A quiet-looking opening move does not mean a quiet game; it means the fight starts later, on the player's own terms."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    "Bc4",
+    "Bc5",
+    {
+      "san": "d3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The defining choice",
+          "body": "d3 does two quiet jobs at once: it defends e4 in advance, so Black never gets a free tempo by attacking it later, and it keeps the center closed while White finishes developing. The price is that White gives up the immediate fight for the center the sharper c3-and-d4 plan offers.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "c3",
+            "classification": "theory",
+            "annotations": [
+              {
+                "type": "strategy",
+                "title": "The road not taken",
+                "body": "This is the other Giuoco Piano -- the sharp c3-and-d4 main line, aiming to seize the full center at once rather than maneuver around it. This is the same plan behind the classic game Steinitz vs von Bardeleben, where White's calm central buildup eventually detonated into one of the most famous combinations in chess history. The Pianissimo trades that potential for lower risk and less required memorization."
+              }
+            ]
+          },
+          "Nf6",
+          "d4"
+        ]
+      ]
+    },
+    {
+      "san": "Nf6",
+      "classification": "theory"
+    },
+    {
+      "san": "c3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Not a contradiction",
+          "body": "White still plays c3 -- but as slow preparation for a d4 break many moves from now, not the pointed follow-up to a knight it isn't threatening yet. This single move can serve two entirely different plans depending on what comes next; here it just keeps options open."
+        }
+      ]
+    },
+    {
+      "san": "d6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black mirrors White's patience, giving e5 a second defender and freeing the c8-bishop rather than racing for activity."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nxe4",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Why the natural-looking grab fails",
+                "body": "This is exactly the tactic d3 exists to prevent. Unlike the Ruy Lopez or the open Italian, where e4 can genuinely hang once White commits to O-O before defending it, here the pawn has been defended since move 4. Black simply loses a piece for nothing.",
+                "concepts": ["calculation"]
+              }
+            ]
+          },
+          {
+            "san": "dxe4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The point of d3, cashed in immediately: the pawn recaptures and Black is down a full piece."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "O-O",
+    "O-O",
+    {
+      "san": "Re1",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A familiar-looking rook lift",
+          "body": "The same idea as the Ruy Lopez's 6.Re1: reinforce e4 before it can become a target and clear f1 for a knight's regrouping route. The families rhyme even when the openings differ."
+        }
+      ]
+    },
+    {
+      "san": "a6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Prophylaxis, not development",
+          "body": "a6 stops any future Nb5 or Bb5-style intrusion on Black's queenside before it exists. Moves like this are the substance of a maneuvering middlegame -- not creating a threat, but removing the opponent's best future option.",
+          "concepts": ["prophylaxis"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "d5",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "strategy",
+                "title": "The impatient alternative",
+                "body": "Black can also strike in the center immediately rather than maneuver. It leads to a more open, roughly balanced position -- fully playable, just a different kind of game than the slow buildup this lesson follows."
+              }
+            ]
+          },
+          "exd5",
+          "Nxd5"
+        ]
+      ]
+    },
+    {
+      "san": "Nbd2",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The knight's long road",
+          "body": "Nb1 begins the classic Italian regrouping tour toward f1 and g3, where it will eye f5 and h5 and support a future kingside pawn advance. This maneuver -- not a single tactical shot -- is the actual engine of White's plan.",
+          "concepts": ["maneuvering middlegame", "piece placement"]
+        }
+      ]
+    },
+    {
+      "san": "Ba7",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The standard retreat",
+          "body": "Rather than allow the bishop to be traded or blocked in, Black tucks it onto the long diagonal at a7, out of the way but still pointed at White's kingside once the center opens. This exact retreat recurs across the whole Pianissimo family."
+        }
+      ]
+    },
+    {
+      "san": "h3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Prophylaxis before the plan continues",
+          "body": "Another quiet move whose entire value is prevention -- it takes away any future ...Bg4 or ...Ng4 ideas before White's own regrouping leaves the kingside briefly loose. Compare this to h3 in the Ruy Lopez: same tool, same purpose, different opening.",
+          "concepts": ["prophylaxis"]
+        }
+      ]
+    },
+    {
+      "san": "Ne7",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Black regroups too",
+          "body": "The c6-knight has no great square left on the queenside, so it rerolls toward g6, where it eyes f4 and h4 and stays out of the way of a future ...c6/...d5 break. Maneuvering wars are fought by both sides at once, not just the side who moved first.",
+          "concepts": ["maneuvering middlegame"]
+        }
+      ]
+    },
+    {
+      "san": "Nf1",
+      "classification": "theory"
+    },
+    {
+      "san": "Ng6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The maneuvering battle in full view",
+          "body": "Every piece that has moved in the last several moves has gone to a square, not answered a threat. White is one move from Ng3, completing the classic Nb1-d2-f1-g3 tour and eyeing f5; Black has mirrored the plan with the c6-knight's own trip to g6. Neither side has broken the center yet -- White's eventual d4 and Black's eventual ...d5 or ...c6-and-...d5 are both still banked for later, and whoever finds the right moment first claims the advantage.",
+          "concepts": ["maneuvering middlegame", "pawn breaks"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons from this quiet plan. First, a 'slow' opening move can still be the most important move of the game -- d3 on move 4 decided the whole character of everything that followed. Second, prophylaxis (a6, h3) is real strategy, not passing time; each one deleted a concrete future option for the opponent. Third, maneuvering openings are still a race -- both sides regrouped toward the kingside at the same tempo, and the center break, when it finally comes, will land on whichever side reaches full readiness first.",
+          "concepts": ["prophylaxis", "space"]
+        }
+      ]
+    }
+  ]
+}

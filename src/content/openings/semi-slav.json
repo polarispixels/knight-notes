@@ -1,0 +1,322 @@
+{
+  "id": "semi-slav",
+  "catalogCode": "O091",
+  "focus": "black",
+  "title": "The Semi-Slav Defense",
+  "subtitle": "Two pawn moves, one of the sharpest battlegrounds in chess",
+  "type": "opening",
+  "difficulty": "advanced",
+  "summary": "By playing both ...c6 and ...e6 together, Black keeps the Slav's structural solidity and the Queen's Gambit Declined's central control at once — and invites some of the most concretely analyzed forcing theory in all of classical chess, including a genuine piece sacrifice White plays almost by memory. This is not an opening to reach for on general principles; it rewards, and requires, real preparation.",
+  "tags": ["Semi-Slav Defense", "Semi-Slav", "Meran Variation", "Botvinnik System", "Queen's Gambit family", "d4 openings"],
+  "concepts": ["hybrid pawn structure", "piece sacrifice", "king safety", "central tension", "the isolated queen's pawn", "concrete calculation"],
+  "metadata": {
+    "eco": "D43-D49",
+    "opening": "Semi-Slav Defense",
+    "historicalContext": "The lesson's main line is known as the Meran Variation, named for the town of Meran (Merano) in northern Italy, host of a strong 1924 tournament where the plan first appeared in top-level play. It remains one of the most heavily analyzed variations in chess theory a century later."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Slav Defense study solved the QGD's bad-bishop problem by playing ...c6 before ...e6. The Semi-Slav asks a bolder question: what if Black plays both — keeping ...c6 for structure and ...e6 for central control — accepting a temporarily boxed-in bishop in exchange for the sharpest, most fully analyzed theoretical battleground in the entire d4 complex? This lesson's main line is one of the most famous forcing sequences in Queen's Gambit theory: a genuine piece sacrifice that both sides are expected to know before they ever sit down to play it."
+    }
+  ],
+  "line": [
+    "d4",
+    "d5",
+    "c4",
+    "c6",
+    "Nc3",
+    "Nf6",
+    "Nf3",
+    {
+      "san": "e6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Keeping both pawns",
+          "body": "This is the move that separates the Semi-Slav from its parent. The Slav Defense study showed why ...e6 usually comes at the cost of ...Bf5 — here Black plays it anyway, alongside ...c6, accepting a temporarily restricted light-squared bishop for a rock-solid, doubly reinforced center. The bishop's problem isn't solved yet; it's deliberately postponed, and how Black eventually solves it (or doesn't need to) is what the rest of this opening is about.",
+          "concepts": ["hybrid pawn structure", "the restricted bishop"]
+        }
+      ]
+    },
+    {
+      "san": "e3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The quiet main line — White simply completes development rather than picking the sharpest available fight. See the variation for the far more sacrificial alternative.",
+          "concepts": ["development"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bg5",
+            "annotations": [
+              {
+                "type": "historical",
+                "title": "The Botvinnik System",
+                "body": "Instead of the quiet e3 of the main line, White pins the f6-knight at once, heading for the most sacrificial, most deeply analyzed structure in the entire Semi-Slav complex — named for Mikhail Botvinnik, the Soviet world champion, among the first to study these exact piece sacrifices in depth. What follows is not a beginner's line; it is included here to show what 'concrete theory' really means in practice."
+              }
+            ]
+          },
+          {
+            "san": "dxc4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black grabs the pawn while it's available, just as in the main line Slav — but here it sets up a far sharper reply."
+              }
+            ]
+          },
+          "e4",
+          {
+            "san": "b5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black holds onto the extra pawn and stakes out queenside space, accepting that the position is about to become extremely concrete."
+              }
+            ]
+          },
+          "e5",
+          {
+            "san": "h6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black challenges the pinning bishop directly rather than waiting."
+              }
+            ]
+          },
+          "Bh4",
+          {
+            "san": "g5",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "Blocking the pin and attacking the bishop at once",
+                "body": "An extremely committal pawn move — it wrecks Black's own kingside pawn cover, but it both blocks the h4-bishop's view of the pinned knight and attacks the bishop directly. White does not retreat.",
+                "concepts": ["king safety"]
+              }
+            ]
+          },
+          {
+            "san": "Nxg5",
+            "classification": "sacrifice",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The piece sacrifice",
+                "body": "White gives up a full knight for a pawn, betting on the follow-up capture on f6 to win a second pawn and shatter Black's kingside cover. This exact sequence has been analyzed for decades; the resulting piece-for-two-pawns middlegame is considered roughly balanced in theory, not winning for either side — both sides need to know precisely what they are doing.",
+                "concepts": ["piece sacrifice"]
+              }
+            ]
+          },
+          "hxg5",
+          {
+            "san": "Bxg5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White has a piece for two pawns and a Black king that has lost its natural cover — real, lasting attacking chances in exchange for the material. Whether that compensation is enough is exactly the kind of question this system exists to fight about."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nbd7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A flexible developing move, keeping options open for ...dxc4 and the central breaks to come.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    "Bd3",
+    {
+      "san": "dxc4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Now Black takes the pawn — later than the pure Slav would, since the extra preparation (...Nbd7 in place) supports what comes next.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bd6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The calmer alternative",
+                "body": "Instead of committing to the sharp main line, Black develops solidly and postpones the decision about the c4 pawn entirely. This avoids the forced tactics of the Meran and Botvinnik lines at the cost of a slightly less ambitious game — a reasonable choice for a player who wants the Semi-Slav's structure without its most memorized theory."
+              }
+            ]
+          },
+          "O-O",
+          "O-O"
+        ]
+      ]
+    },
+    {
+      "san": "Bxc4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The pawn returns, as always in this family of openings. What Black does with the tempo just gained is the real content of the Meran.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "b5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Gaining a tempo, expanding the queenside",
+          "body": "This attacks the bishop directly and grabs space at the same time — the same active, tempo-gaining idea seen in the Queen's Gambit Accepted, but here Black also has the extra ...e6/...c6 structure backing it up.",
+          "concepts": ["queenside expansion"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b5", "to": "c4" }]
+    },
+    "Bd3",
+    "a6",
+    {
+      "san": "e4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White's center is finally ready to advance, and Black's f6-knight sits directly in its path. What should Black do about it?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The central break arrives",
+          "body": "This is the move all of White's preparation (Bd3, e3-to-e4) was building toward — full central space, with a direct attack on the f6-knight coming next move.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "c5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Rather than move the attacked knight, Black counterattacks the center — the sharpest, most theoretically established response, and the gateway to the Meran's most famous position.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "e5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "tactic",
+          "body": "The pawn presses forward, directly attacking the f6-knight. Black still doesn't move it.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e5", "to": "f6" }]
+    },
+    {
+      "san": "cxd4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A counter-threat instead of a retreat",
+          "body": "Rather than address the attacked knight, Black strikes back at the c3-knight, which this capture now attacks in turn. Whoever moves first loses the initiative — so White doesn't retreat either.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "Nxb5",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The Meran piece sacrifice",
+          "body": "Rather than retreat the attacked c3-knight, White captures on b5 instead — the single most famous piece sacrifice in Queen's Gambit theory. It looks like it simply hangs a piece, but the point arrives next move.",
+          "concepts": ["piece sacrifice"]
+        }
+      ]
+    },
+    "axb5",
+    {
+      "san": "exf6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The point of the sacrifice",
+          "body": "White's e5-pawn captures the f6-knight, recovering a full piece. Add it up: White gave a knight for the b5-pawn, then this pawn captured a second minor piece — net, White stands a clean extra pawn, with an advanced, dangerous pawn on f6 aimed straight at g7.",
+          "concepts": ["piece sacrifice", "concrete calculation"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f6", "to": "g7" }]
+    },
+    {
+      "san": "Qb6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black develops the queen actively rather than panicking over g7 — the f8-bishop already covers that square if White captures there.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    {
+      "san": "fxg7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White presses on, also now attacking the h8-rook — Black must recapture.",
+          "concepts": ["piece sacrifice"]
+        }
+      ]
+    },
+    {
+      "san": "Bxg7",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Piece for two pawns — and a real fight",
+          "body": "The material is now settled: White has a piece for two pawns, open lines toward Black's king, and a real initiative; Black has kept material even in relative value, the bishop pair, and a solid extra central pawn presence to consolidate around. Theory considers this roughly balanced, with immense practical complications on both sides — precisely why this system is played almost exclusively by players who have studied it in advance.",
+          "concepts": ["piece sacrifice", "king safety"]
+        }
+      ]
+    },
+    {
+      "san": "O-O",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: keeping both ...c6 and ...e6 is a genuine strategic choice, not indecision — it buys a sturdier center than the pure Slav at the cost of the bishop's early freedom; the Meran's piece sacrifice is not a trap or a blunder-punish — it is main-line theory, played by both sides on purpose, and the resulting piece-for-two-pawns middlegame is a real, balanced fight rather than a forced win; and at this level of theory, opening preparation and calculation are inseparable — the Semi-Slav rewards players willing to know exactly why each capture works, not just what the moves are."
+        }
+      ]
+    }
+  ]
+}

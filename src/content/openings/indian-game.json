@@ -1,0 +1,365 @@
+{
+  "id": "indian-game",
+  "catalogCode": "O100",
+  "focus": "black",
+  "title": "The Indian Game",
+  "subtitle": "One flexible knight move, five hypermodern philosophies",
+  "type": "opening",
+  "difficulty": "beginner",
+  "summary": "1...Nf6 is the single most flexible reply to 1.d4: a piece that controls e4 without a pawn ever committing to a square. From this one move the whole hypermodern tradition branches out — the Nimzo-Indian, Queen's Indian, King's Indian, Grünfeld, and Benoni all start here and only separate a move or two later. This lesson is the map: what the family shares, and where each branch splits off.",
+  "tags": [
+    "Indian Game",
+    "Indian Defence",
+    "Indian Defenses",
+    "Indian System",
+    "1...Nf6 systems",
+    "d4 defenses",
+    "hypermodern"
+  ],
+  "concepts": [
+    "hypermodern center control",
+    "flexible development",
+    "delaying commitment",
+    "transpositional richness",
+    "the fianchetto",
+    "central tension"
+  ],
+  "metadata": {
+    "eco": "A45-A50",
+    "opening": "Indian Defense",
+    "historicalContext": "The name predates the 1920s hypermodern movement of Réti and Nimzowitsch by decades: 19th-century Calcutta players, including Moheschunder Bannerjee, played fianchetto defenses against 1.d4 that visiting British master John Cochrane brought back to Europe. When Réti and Nimzowitsch later built a whole school of thought on similar ideas, the old name — Indian Defense — stuck to the family it had quietly founded first."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "1...Nf6 commits to almost nothing: it controls e4 the way 1...e5 or 1...d5 would, but without placing a single pawn, and without revealing which of five very different games Black intends to play. Every hypermodern defense to 1.d4 grows out of this one flexible move, and they divide the labor by answering one question differently: does Black pin a piece before the center forms (the Nimzo-Indian), fianchetto quietly and wait (the Queen's Indian and King's Indian), strike the center immediately with a pawn (the Grünfeld), or provoke a structural concession on the queenside (the Benoni)? This lesson is not a substitute for any of those studies — it is the map that shows how they all connect, and it also shows a sixth path: transposing straight into classical Queen's Gambit territory, because the Indian move order never obligates Black to stay 'Indian' at all."
+    }
+  ],
+  "line": [
+    "d4",
+    {
+      "san": "Nf6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Every other main reply to 1.d4 — 1...d5, 1...f5 — commits a pawn immediately. This move commits nothing but a piece. What does Black actually gain by waiting?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Controlling a square without occupying it",
+          "body": "The knight attacks e4 exactly as a pawn on e5 or d5 would fight for the center, but it can be redeployed, and — crucially — it doesn't yet tell White anything about Black's plan. White must develop while still guessing whether the game will become sharp and tactical or slow and structural. This single move is the seed of every opening in this family.",
+          "concepts": ["hypermodern center control", "flexible development"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f6", "to": "e4" }]
+    },
+    {
+      "san": "c4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The branch point",
+          "body": "White grabs more space and prepares Nc3, the most testing try. Black's next move is where the family actually splits: ...e6, ...g6, and ...c5 each lead somewhere structurally different, and even ...d5 is on the table, aiming straight at a classical structure instead of a hypermodern one.",
+          "concepts": ["transpositional richness"]
+        }
+      ]
+    },
+    {
+      "san": "e6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The most flexible reply of all: it opens the dark bishop's diagonal without yet revealing whether it will go to b4, e7, or stay home behind a queenside fianchetto.",
+          "concepts": ["flexible development"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "b6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Queen's Indian branch",
+                "body": "Rather than pin the knight, Black fianchettoes the light-squared bishop toward the long diagonal and the e4 square, playing a quieter, more restrained game than the Nimzo-Indian's immediate confrontation — a genuine major branch of this family in its own right, even without a pin in sight."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "san": "g6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The fianchetto branch",
+                "body": "Preparing ...Bg7 opens two doors at once, and the very next move decides which one Black walks through: finish the fianchetto slowly and let White build a full center to attack later — The King's Indian Defense — or strike immediately with ...d5 before the center even forms, the sharper and more direct Grünfeld Defense. Both keep the same first two moves; only the timing of the central break tells them apart."
+              }
+            ]
+          },
+          "Nc3",
+          {
+            "san": "Bg7",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "body": "From here, ...d6 and a later ...e5 head toward the King's Indian; an immediate ...d5 instead heads toward the Grünfeld. The bishop's diagonal is identical either way — only the pawn behind it differs.",
+                "concepts": ["the fianchetto"]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "san": "c5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The queenside-structure branch",
+                "body": "Instead of fighting for e4 or the long diagonal, Black attacks d4 directly and invites White to push past with d5 — a completely different bargain from the other branches, trading central pawn presence for permanent piece activity. This path is covered in full in The Benoni Defense."
+              }
+            ]
+          },
+          "d5"
+        ]
+      ]
+    },
+    {
+      "san": "Nc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops naturally. This exact position is also the fork for the sharpest branch of all — the immediate pin.",
+          "concepts": ["transpositional richness"]
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Not every Indian move order stays Indian",
+          "body": "Here Black declines every hypermodern branch and plays a straightforward classical central pawn move instead — the position now transposes toward Queen's Gambit Declined structures, sharing nothing with the Nimzo-Indian, King's Indian, Grünfeld, or Benoni except its first two moves. This is the family's quietest secret: 1...Nf6 doesn't commit Black to hypermodern chess at all. It just keeps every door open one move longer than 1...d5 would have.",
+          "concepts": ["transpositional richness", "delaying commitment"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bb4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The Nimzo-Indian branch",
+                "body": "Before either side has played a single central pawn move, Black pins the knight and threatens to trade it for permanent structural damage to White's queenside. This is the most direct branch of the whole family, developed in full in The Nimzo-Indian Defense.",
+                "concepts": ["central tension"]
+              }
+            ]
+          },
+          "e3"
+        ]
+      ]
+    },
+    "Bg5",
+    {
+      "san": "Be7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A normal classical developing move — the game has genuinely left hypermodern territory and is now a Queen's Gambit Declined in every strategic sense, just reached through an Indian move order.",
+          "concepts": ["transpositional richness"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nbd7",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "A natural developing move — with a hidden cost",
+                "body": "This looks equally sound, and usually is, but it invites one of the oldest named traps in classical opening theory. Play it through."
+              }
+            ]
+          },
+          {
+            "san": "cxd5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White opens the center rather than maintain the tension."
+              }
+            ]
+          },
+          {
+            "san": "exd5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The natural recapture — and the only one available, since nothing else can reach d5."
+              }
+            ]
+          },
+          {
+            "san": "Nxd5",
+            "classification": "blunder",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "The Elephant Trap",
+                "body": "This looks like a simple, safe pawn grab — the knight on f6 is pinned to the queen by the bishop on g5, so surely nothing bad can happen. But the pawn on d5 can only be recaptured by that very knight, and moving it off the pin walks straight into the point of the trap.",
+                "concepts": ["central tension"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "g5", "to": "d8" }]
+          },
+          {
+            "san": "Nxd5",
+            "importance": "important",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "Forced — and fatal",
+                "body": "There is no other legal recapture on d5, so the pinned knight has to move. That is exactly what White was hoping for.",
+                "concepts": ["central tension"]
+              }
+            ]
+          },
+          {
+            "san": "Bxd8",
+            "classification": "sacrifice",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "Cashing in the pin",
+                "body": "White grabs the queen for a bishop — a clean profit, apparently. But the diagonal that made the original pin possible is now wide open in the other direction.",
+                "concepts": ["central tension"]
+              }
+            ]
+          },
+          {
+            "san": "Bb4+",
+            "classification": "critical",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The point of the whole trap",
+                "body": "With the knight gone from c3, this diagonal is completely open, and the check cannot be ignored. White has to interpose, and the bishop that just won a queen is about to be lost right back — with change.",
+                "concepts": ["central tension"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "b4", "to": "e1" }]
+          },
+          "Qd2",
+          {
+            "san": "Bxd2+",
+            "annotations": [
+              {
+                "type": "tactic",
+                "body": "The bishop captures the blocking piece with check, and there is no way to avoid losing more material recapturing it."
+              }
+            ]
+          },
+          "Kxd2",
+          {
+            "san": "Kxd8",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Counting the wreckage",
+                "body": "Add it up: White's knight and bishop are gone for a pawn and Black's own bishop, and the queens have cancelled each other out along the way. Black finishes a full piece ahead. The lesson has nothing to do with hypermodern theory at all — it's the oldest one in chess: a pinned piece cannot move, even to make a capture that looks completely safe."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "e3",
+    "O-O",
+    "Nf3",
+    {
+      "san": "Nbd7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The knight develops toward the center rather than the rim, keeping the f6-knight in place to support a coming ...e5 or a recapture on d5.",
+          "concepts": ["flexible development"]
+        }
+      ]
+    },
+    "Rc1",
+    "c6",
+    {
+      "san": "Bd3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A normal classical developing move, aiming eventually at h7 once the center opens — nothing here distinguishes this position from a Queen's Gambit Declined reached the traditional way.",
+          "concepts": ["transpositional richness"]
+        }
+      ]
+    },
+    {
+      "san": "dxc4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A standard classical resolution of the central tension, releasing the bishop on c8 and opening the position slightly in exchange for surrendering the center.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    "Bxc4",
+    {
+      "san": "Nd5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The relieving maneuver",
+          "body": "Trading the light-squared bishops removes White's most dangerous attacking piece and simplifies toward a comfortable, well-tested structure. Nothing about this position remembers that the game started 1.d4 Nf6 rather than 1.d4 d5 — which is exactly the point of this whole lesson. The knight move that started the game kept every one of these doors open at once.",
+          "concepts": ["transpositional richness", "delaying commitment"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d5", "to": "e7" }]
+    },
+    {
+      "san": "Bxe7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White trades off the dark-squared bishop rather than retreat it, accepting the simplification.",
+          "concepts": ["transpositional richness"]
+        }
+      ]
+    },
+    {
+      "san": "Qxe7",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "One move, five families, and a sixth road entirely",
+          "body": "Black has reached a calm, comfortable, well-known structure, having never once needed to fianchetto, pin a knight, or accept a weakened queenside. This is the family's real lesson: 1...Nf6 is not a commitment to hypermodern chess — it is a commitment to deciding later. White's plans here are classical ones (central play, minority attack ideas, piece activity); Black's are equally classical (solid development, timely central breaks). The sharper branches — Nimzo, Queen's Indian, King's Indian, Grünfeld, Benoni — were all available from the very same first move and remain available every time this position is reached again in a new game.",
+          "concepts": ["transpositional richness", "flexible development"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: 1...Nf6 buys information, not commitment — the same move can lead to five distinct strategic worlds or to none of them at all; the branch points are usually a single move (2...g6 vs. 2...e6 vs. 2...c5, or 3...Bb4 vs. 3...O-O), which is why this family rewards knowing the map more than memorizing one path deep; and even a 'safe' developing move can hide a real trap, as the Elephant Trap shows — a pin restricts a piece completely, even for a capture that looks perfectly natural.",
+          "concepts": ["transpositional richness", "delaying commitment", "hypermodern center control"]
+        }
+      ]
+    }
+  ]
+}

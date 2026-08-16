@@ -1,0 +1,187 @@
+{
+  "id": "bogo-indian",
+  "catalogCode": "O102",
+  "focus": "black",
+  "title": "The Bogo-Indian Defense",
+  "subtitle": "A check that asks for a quick, practical answer",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "Instead of the deep theoretical battles of the Nimzo-Indian, Black gives an early check on b4 and lets White decide how the position resolves — usually a quick trade or a bishop retreat, not a long forcing sequence. Learn why this lower-maintenance member of the Indian family is a favorite for players who want sound, well-understood chess without memorizing forty moves of theory.",
+  "tags": ["Bogo-Indian Defense", "Bogoljubov-Indian Defense", "Indian Game", "d4 openings", "Nimzo-Indian"],
+  "concepts": ["forcing checks", "the bishop pair", "pawn structure", "simplification", "development"],
+  "metadata": {
+    "eco": "E11",
+    "opening": "Bogo-Indian Defense",
+    "historicalContext": "Named for Efim Bogoljubov, the Ukrainian-German grandmaster who challenged for the World Championship twice in the 1920s and championed 3...Bb4+ as a practical alternative to the sharper Nimzo-Indian. Its most famous demonstration is a trap, not a game: The Monticelli Trap, sprung by Mario Monticelli against Silvio Prokeš at Budapest 1926, shows exactly how quickly a 'quiet' Bogo-Indian can turn dangerous."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Like the Nimzo-Indian and the Queen's Indian, the Bogo-Indian belongs to the Indian Game family that meets 1.d4 Nf6 2.c4 e6 without an immediate pawn commitment. Its central question is practical rather than strategic: when White answers 3.Nf3 instead of 3.Nc3, is there still a way to develop with a check and force an early, favorable decision? The Bogo-Indian says yes — and asks for far less memorized theory than its sharper cousin in exchange."
+    }
+  ],
+  "line": [
+    "d4",
+    "Nf6",
+    "c4",
+    "e6",
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops without committing the queenside knight to c3 yet — the same fork in the road that produces the Queen's Indian one move later if Black plays ...b6 instead of what follows here."
+        }
+      ]
+    },
+    {
+      "san": "Bb4+",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A check with no knight to hit",
+          "body": "Because White hasn't played Nc3, this isn't the pin the Nimzo-Indian gives — there's no knight on c3 to attack. It's simply a developing check that forces White to make an immediate, concrete decision: block with the bishop, block with a knight, or interpose the queen. Whichever White chooses, Black has gained a tempo and clarified the position early.",
+          "concepts": ["forcing checks"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b4", "to": "e1" }]
+    },
+    {
+      "san": "Bd2",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The most common reply. White offers a trade on d2 rather than commit a knight there, keeping options open."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nbd2",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "White keeps the bishop pair",
+                "body": "White's other main try avoids trading the dark-squared bishop at all. The knight blocks the check instead, so if Black later trades on d2 it will be a knight, not a bishop — leaving White with the bishop pair as long-term compensation for a slightly slower setup. This is the sterner test of the Bogo-Indian's soundness."
+              }
+            ]
+          },
+          "O-O",
+          {
+            "san": "a3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White asks the bishop to declare itself immediately rather than allow Black the choice of when to trade."
+              }
+            ]
+          },
+          "Be7",
+          "e4"
+        ]
+      ]
+    },
+    {
+      "san": "Qe7",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Keeping the tension — Bogoljubov's own idea",
+          "body": "Rather than trade immediately, Black keeps the bishop on b4 for now, adding a defender to e4 and reserving the choice of when — or whether — to take on d2. This is the more ambitious of the two main replies here.",
+          "concepts": ["development"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bxd2+",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The immediate trade",
+                "body": "The simpler and more common practical choice: trade right away rather than keep the tension. It leads to quick, low-maintenance positions — exactly the appeal of this whole opening."
+              }
+            ]
+          },
+          {
+            "san": "Qxd2",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White recaptures with the queen, keeping the knight on b1 free to develop toward c3 later."
+              }
+            ]
+          },
+          "b6",
+          "g3",
+          "Bb7",
+          "Bg2",
+          "O-O",
+          "Nc3",
+          "Ne4",
+          {
+            "san": "Qc2",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "A well-known danger zone",
+                "body": "This exact position — reached by the most natural moves on both sides — is the starting point of The Monticelli Trap. Black's instinct here is to resolve the double attack on the c3-knight by simply trading it off, and that instinct is exactly what the trap punishes. See that study for the zwischenzug that turns an ordinary recapture into a lost exchange."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "g3",
+    "Nc6",
+    "Bg2",
+    {
+      "san": "Bxd2+",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Having kept the tension for two extra moves, Black now resolves it on favorable terms — the bishop trade happens only once Black's own pieces (queen on e7, knight on c6) are already better placed than in the immediate-trade line."
+        }
+      ]
+    },
+    {
+      "san": "Nbxd2",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Recapturing away from the center",
+          "body": "White recaptures with the queenside knight rather than the queen, keeping the f3-knight free to reach better squares and preparing a timely e4. This is the more testing recapture — White accepts a slightly awkward-looking knight on d2 now in exchange for more central flexibility later.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    "O-O",
+    "O-O",
+    {
+      "san": "d6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "A quiet position with a clear plan for both sides",
+          "body": "Black has castled, kept a healthy pawn structure, and secured the bishop pair's opposite number by trading dark-squared bishops early. White has the bishop pair and slightly freer development; Black has an easy game with no weaknesses and a straightforward plan — ...e5, pressuring the center, with pieces already well placed to support it.",
+          "concepts": ["pawn structure", "simplification"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a check doesn't need a pinned piece behind it to be useful — forcing an immediate decision has value on its own; keeping tension (delaying ...Bxd2+) can improve the position of your other pieces before you resolve a trade, not just the piece being traded; and even calm, symmetrical-looking Indian systems hide sharp tactics — the Monticelli line shows the exact same opening moves leading somewhere very different if you play the natural move instead of the necessary one.",
+          "concepts": ["simplification", "the bishop pair"]
+        }
+      ]
+    }
+  ]
+}

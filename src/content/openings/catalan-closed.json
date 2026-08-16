@@ -1,0 +1,197 @@
+{
+  "id": "catalan-closed",
+  "catalogCode": "O084",
+  "focus": "black",
+  "title": "Closed Catalan",
+  "subtitle": "Catalan Opening — patience over the pawn grab",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "The Closed Catalan is Black's most solid answer to White's fianchettoed bishop: rather than grab the pawn on c4 and defend a whole strategic argument, Black simply refuses the bait and builds an airtight structure instead. It's a lesson in patience — and in what it costs to keep every option open.",
+  "tags": ["Closed Catalan", "Catalan, Closed Variation", "Catalan Opening", "d4 openings", "fianchetto"],
+  "concepts": ["maintaining central tension", "the long diagonal", "solidifying setups", "deferred capture", "small persistent edge", "positional maneuvering"],
+  "metadata": {
+    "eco": "E06-E09",
+    "opening": "Catalan Opening: Closed Variation"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Catalan Opening's whole plan revolves around the g2-bishop's pressure down the long diagonal and, eventually, recovering the pawn Black is offered on c4. The Closed Catalan is Black's most direct answer to that offer: decline it, at least for now, and build a structure so solid it never has to justify anything. The question this lesson answers: what does patience actually buy, when the alternative — grabbing the pawn — is sitting right there?"
+    }
+  ],
+  "line": [
+    "d4",
+    "Nf6",
+    "c4",
+    {
+      "san": "e6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black meets the Queen's Gambit complex with the classical setup, keeping options open for either a Queen's Gambit Declined structure or, if White fianchettoes next, a Catalan."
+        }
+      ]
+    },
+    {
+      "san": "g3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "White chooses the Catalan",
+          "body": "Rather than developing the bishop to a normal square like d3 or e2, White fianchettoes it toward the long diagonal — pressure that will outlast almost any other plan in the position, as the Catalan Opening study shows in full."
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black stakes out the center just as in the Queen's Gambit Declined — the difference is entirely about what White's bishop is doing."
+        }
+      ]
+    },
+    "Bg2",
+    "Be7",
+    "Nf3",
+    "O-O",
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black could grab the pawn on c4 right now with ...dxc4 — the same choice the Open Catalan makes. Instead, this lesson's mainline keeps the tension. What does refusing the pawn actually buy?"
+        }
+      ]
+    },
+    {
+      "san": "Nbd7",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Patience over the pawn grab",
+          "body": "Black declines the trade, for now. Grabbing c4 hands White a long, half-forced task of proving compensation — the whole subject of the Open Catalan. Refusing it keeps a simple, solid structure and postpones the decision to Black's own schedule rather than under pressure. This is the Closed Catalan's entire personality: hold everything, then decide.",
+          "concepts": ["deferred capture"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "dxc4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Or: transposing to the Open Catalan",
+                "body": "Nothing forces Black to keep the tension at all — grabbing the pawn right here, immediately after castling, heads toward the Open Catalan's territory instead (see that lesson for the full treatment). 'Closed' is a choice renewed every move, not a binding commitment."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Qc2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The queen adds pressure down the c-file and prepares the central push e4 — White's long-term plan for claiming real space."
+        }
+      ]
+    },
+    {
+      "san": "c6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A third defender, and a statement",
+          "body": "c6 gives d5 a third defender and, together with the coming ...b6, builds a setup that refuses to be defined by any single capture. This is the Closed Catalan's defining move: solid rather than sharp."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }]
+    },
+    "Nbd2",
+    {
+      "san": "b6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Meeting the long diagonal head-on",
+          "body": "Black prepares ...Bb7 to contest the exact same diagonal White's fianchetto controls — a direct answer rather than avoidance.",
+          "concepts": ["the long diagonal"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "dxc4",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Grabbing the pawn after it's too late to matter",
+                "body": "Nothing stops Black from taking this pawn instead of developing the bishop — but compare it to the Open Catalan's version of the same capture. There, Black takes on move four, before committing any other pawns, and spends the resulting tempo on immediate queenside expansion. Here, Black has already spent two moves on ...c6 and ...b6; the capture just hands White an actively placed recapturing piece for nothing in return."
+              }
+            ]
+          },
+          "Nxc4"
+        ]
+      ]
+    },
+    {
+      "san": "e4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The reward for patience",
+          "body": "With development nearly finished, White claims full central space — exactly the position all those quiet preparatory moves were working toward. A big classical center, fully supported by developed pieces."
+        }
+      ]
+    },
+    {
+      "san": "Bb7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black completes the mirror-image setup: two fianchettoed bishops now aim down the same long diagonal, each currently blocked by the other's central pawns."
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "b7", "to": "g2" },
+        { "type": "arrow", "from": "g2", "to": "b7" }
+      ]
+    },
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "warning",
+          "title": "Space, with a tempo",
+          "body": "White pushes past, gaining more space and forcing the f6-knight to move immediately — the direct benefit of getting the center rolling before Black could contest it."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "f6" }]
+    },
+    {
+      "san": "Ne8",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Space against solidity",
+          "body": "White's pawns on d4 and e5 claim real territory and restrict Black's pieces for now; the long diagonal fight between the two fianchettoed bishops is the position's real subject underneath that space. Black's plans: reroute the knight (toward d6 or back via c7), prepare ...c5 or ...f6 to challenge the pawn chain, and use the position's remaining central tension for a break later. White's plans: finish developing, keep restricting Black's pieces, and decide when — if ever — to allow ...dxc4 on the most favorable terms."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: declining the pawn on c4 isn't passive — it refuses to hand White the exact target the Open Catalan spends its whole game trying to justify; two bishops aiming down the same diagonal is a real fight, not just symmetry, and whoever's diagonal opens first often decides the middlegame; and grabbing a 'free' pawn late, after already committing to a different plan, usually just helps the side who gets to recapture with an active piece."
+        }
+      ]
+    }
+  ]
+}
