@@ -276,3 +276,43 @@ are equivalent; strings are preferred for new content.)
   model. The canonical `Study` (`src/domain/study/types.ts`) stays the
   single source of truth, and future tooling (AI study generation, a
   visual editor) should emit seeds, not Studies.
+
+## Category editorial conventions
+
+These conventions were established while building the current catalog; new
+content should follow them.
+
+- **`focus`** always means *the side the study teaches for* (the board
+  auto-orients to it). Traps: the side springing the trap. Endgames,
+  patterns, concepts, and full games are normally agnostic (omit).
+- **Traps** follow seven beats: setup → temptation (why the victim's move
+  looks reasonable) → trigger (the exact losing move, never implying earlier
+  moves were forced) → punishment (mechanism, not just moves) → result →
+  avoidance variation → transferable lesson. Hope-traps built on unsound
+  moves must say so and show the calm refutation.
+- **Gambits** teach the framework explicitly: cost / compensation /
+  acceptance / decline-or-return / risk — never presented as forced wins.
+- **Famous games are the curriculum's integration layer**: root key-idea
+  "Techniques you will see in this game" (3–6 canonical lesson names);
+  mid-game annotations titled "Technique Connection — <Canonical Name>"
+  ONLY where the position genuinely demonstrates the concept (never
+  forced); final move carries "What this game demonstrated" with
+  game-specific recap sentences. Scores must be multi-source verified
+  before writing — legal-but-wrong is the failure the engine gate cannot
+  catch.
+- **Canonical technique vocabulary** (use these exact lesson names, never
+  synonyms): The Fork, The Pin, The Skewer, Discovered Attack, Double
+  Check, Removal of the Defender, Deflection, The Decoy (Attraction), The
+  Overloaded Piece, The Zwischenzug, The Windmill, Back-Rank Mate, Greek
+  Gift; Weak Squares, Outposts, Open Files, Good Bishop Bad Bishop, Pawn
+  Chains, The Isolated Queen's Pawn, Passed Pawns, The Minority Attack,
+  Space, King Activity; endgame lessons by their study titles.
+- **Catalog code ranges in use** (next free code = max+1 in each prefix;
+  the content directory is the source of truth): G### famous games,
+  O### openings, GB### gambits, TR### traps, TA### tactics/patterns,
+  E### endgames, C### concepts.
+- **Question annotations** go on the move *before* a critical moment;
+  openings pair "question of the position" cards with key-idea answers.
+- **Endgame and tactics claims** (win/draw/mate/stalemate) must be
+  mechanically verified (chess.js replay incl. isStalemate/isCheckmate),
+  not asserted; state side-to-move assumptions explicitly.

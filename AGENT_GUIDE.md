@@ -12,6 +12,7 @@ move."** — a local-first Vue 3 SPA with no server, deployed to GitHub Pages.
 | Architecture map, run/deploy instructions, licensing | [`README.md`](README.md) |
 | Current behavior | the source code and its tests (`src/**`, specs in `__tests__/`) — tests are the most precise behavioral record |
 | Study content authoring | [`CONTENT_AUTHORING.md`](CONTENT_AUTHORING.md) — the only document content authors need |
+| Current state, backlog, deliberate deferrals | [`ROADMAP.md`](ROADMAP.md) — read before proposing "new" work; it may already be a known deferral |
 
 **When documentation and implementation disagree:** don't blindly overwrite
 either. Read the implementation and its tests, check `git log` for the change

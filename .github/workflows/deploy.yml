@@ -37,6 +37,7 @@ jobs:
           cp AGENT_GUIDE.md dist/docs/AGENT_GUIDE.md
           cp README.md dist/docs/README.md
           cp DESIGN_SPEC.md dist/docs/DESIGN_SPEC.md
+          cp ROADMAP.md dist/docs/ROADMAP.md
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
