@@ -1,0 +1,207 @@
+{
+  "id": "van-geet",
+  "catalogCode": "O141",
+  "focus": "white",
+  "title": "Van Geet Opening",
+  "subtitle": "Knight before pawn — and a genuine independent try",
+  "type": "opening",
+  "difficulty": "beginner",
+  "summary": "1.Nc3 develops a piece before any pawn has claimed a central square, keeping White's structure completely undecided. Against Black's most direct reply it produces a real, independent central battle found nowhere else in the opening catalog; against almost anything else, it simply becomes a normal opening a tempo later. Learn to tell the two apart.",
+  "tags": [
+    "Van Geet Opening",
+    "Dunst Opening",
+    "Sleipnir Opening",
+    "Queen's Knight Attack",
+    "1.Nc3",
+    "flank openings",
+    "irregular openings"
+  ],
+  "concepts": [
+    "piece-first development",
+    "central tension",
+    "space",
+    "transpositional flexibility",
+    "tempo"
+  ],
+  "metadata": {
+    "eco": "A00",
+    "opening": "Van Geet Opening (1.Nc3)",
+    "historicalContext": "Named for the Dutch player Ad van Geet, with Theodore 'Ted' Dunst credited independently for the same first move in American usage. Real if rare tournament practice — valued mainly as a way to sidestep an opponent's preparation rather than for deep independent theory."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "1.Nc3 develops the queenside knight before any pawn has committed to a central square — White could still play e4, d4, or almost anything next. Against most Black replies, that flexibility is the whole story: the game simply transposes into a normal opening one tempo later. But against Black's most direct central reply, 1.Nc3 leads somewhere no other opening reaches: a genuinely independent central structure created by this exact move order. This lesson shows both faces — the transposition tool, and the real theory."
+    },
+    {
+      "type": "historical",
+      "body": "Ad van Geet made this move his lifelong specialty in Dutch club and correspondence play, and Ted Dunst championed it independently in the United States — which is why English-language sources use both names for the same first move."
+    }
+  ],
+  "line": [
+    {
+      "san": "Nc3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "principle",
+          "title": "Piece first, structure later",
+          "body": "The knight develops and eyes both d5 and e4 — two central squares — without a single pawn move committing White to a structure. Most openings decide their pawn skeleton on move one; this one postpones the decision entirely.",
+          "concepts": ["piece-first development"]
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black claims the center directly, the sternest and most tested reply. What does White's undeveloped knight actually accomplish against it?"
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nf6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The transposition tool at work",
+                "body": "Waiting instead of grabbing the center lets White simply follow up with an ordinary central pawn move. If White continues naturally here, the game becomes a normal queen's-pawn structure — no trace of independent Van Geet theory remains. This is the honest other half of the opening: only the direct approach against ...d5 creates something genuinely its own."
+              }
+            ]
+          },
+          "d4",
+          "d5"
+        ],
+        [
+          {
+            "san": "c5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "A flank reply, a flank answer",
+                "body": "Black can also decline the central fight altogether. White again has no special preparation and needs none — a normal, sound continuation follows."
+              }
+            ]
+          },
+          "e4"
+        ]
+      ]
+    },
+    {
+      "san": "e4",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Not a blunder — Nc3 already covers it",
+          "body": "This looks like it drops a pawn to ...dxe4, since Black's pawn on d5 already attacks e4. It doesn't: the knight on c3 defends e4 first, so a simple capture just trades pieces evenly (see the alternative variation). The sharper, more testing reply doesn't capture at all — it advances and attacks the knight directly.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c3", "to": "e4" }]
+    },
+    {
+      "san": "d4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Space and tempo, not material",
+          "body": "Black doesn't win a pawn — instead the pawn advances and kicks the knight, gaining space and forcing White's next move. This is the critical test of the whole opening: everywhere else, 1.Nc3 can simply retreat into another named opening; here it has to answer for itself.",
+          "concepts": ["space"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "dxe4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The simple, safe alternative",
+                "body": "Trading immediately instead of advancing is fully sound — material stays level after the recapture, and the position resembles the central battles of other flank openings. It is simply less testing than the pawn advance, and gives up the chance for an independent structure.",
+                "concepts": ["central tension"]
+              }
+            ]
+          },
+          {
+            "san": "Nxe4",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The trap in the quiet alternative",
+                "body": "If Black now gets greedy with an early ...Qd5, hitting the knight, White simply retreats to c3 — attacking the queen right back and gaining a full tempo for free. Grabbing e4 is fine; bringing the queen out to defend the extra pawn too soon is not.",
+                "concepts": ["tempo"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nce2",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The move that makes this opening's own theory",
+          "body": "Rather than retreating passively to b1 or sideways to a4, the knight steps to e2 — a square that only makes sense because of the exact move order that got here. From e2 it will reroute to g3, eyeing f5 and h5, while d3 and a kingside fianchetto-style setup remain available. No mainstream opening reaches this precise configuration: this is Van Geet's independent theory, not a transposition.",
+          "concepts": ["piece-first development", "transpositional flexibility"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c3", "to": "e2" }]
+    },
+    {
+      "san": "e5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black completes a broad, space-gaining pawn duo on d4 and e5 — ambitious, and only reachable because White chose to meet ...d5 with an early e4 rather than developing quietly."
+        }
+      ]
+    },
+    {
+      "san": "Ng3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Where the knight was actually going",
+          "body": "The knight completes its journey to a genuinely useful square, defending e4 again and eyeing f5. Three knight moves to relocate one piece is a real cost — the price of the independent structure White chose on move two.",
+          "concepts": ["piece-first development"]
+        }
+      ]
+    },
+    "Nf6",
+    "Bc4",
+    "Bc5",
+    "d3",
+    "Nc6",
+    "Nf3",
+    "O-O",
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Both sides have now castled into a position with a fixed, non-standard pawn structure — Black's space on d4 and e5 against White's e4-and-d3 pair, with a well-placed knight on g3 instead of the usual f3. This shape belongs to Van Geet alone."
+        }
+      ]
+    },
+    {
+      "san": "Re8",
+      "classification": "interesting",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "What you should have noticed",
+          "body": "Three lessons carry beyond this game. First, a piece-first move order can build a pawn structure no mainstream opening reaches — the d4-and-e5 versus e4-and-d3 shape here came only from meeting ...d5 with an early e4. Second, a 'flexible' first move is not automatically a safe one: always check whether it actually hangs something, the way e4 briefly looked like it did. Third, real independent theory and pure transposition can live in the same opening — everywhere Black avoided the direct central fight, Van Geet quietly became a different, ordinary opening instead."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e4" }]
+    }
+  ]
+}

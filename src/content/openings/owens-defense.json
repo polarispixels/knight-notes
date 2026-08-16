@@ -1,0 +1,246 @@
+{
+  "id": "owens-defense",
+  "catalogCode": "O070",
+  "focus": "black",
+  "title": "Owen's Defense",
+  "subtitle": "1...b6 — pressure before pawns",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "1...b6 fianchettoes the bishop at once, aiming down the long diagonal at e4 before a single central pawn has moved. It is the purest hypermodern statement available on move one — but the price is a full concession of the center, and this lesson is as honest about what that costs as about what it buys.",
+  "tags": ["Owen's Defense", "Owen Defense", "Queen's Fianchetto Defense", "e4 openings", "fianchetto systems"],
+  "concepts": ["queenside fianchetto", "long diagonal pressure", "hypermodern pressure on e4", "central tension", "king safety", "Space"],
+  "metadata": {
+    "eco": "B00",
+    "opening": "Owen's Defense",
+    "historicalContext": "Named for John Owen, a leading 19th-century English amateur who employed the early ...b6 fianchetto regularly. It never became mainstream theory, but it has never disappeared either — a reminder that hypermodern ideas about piece pressure predate the hypermodern school by decades."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Owen's Defense states the hypermodern case as plainly as any opening can: fianchetto the bishop on move one, aim it at e4, and let White build a big classical center — for now. The central question is whether pressure from a distance can ever be worth as much as pawns actually standing in the center. This lesson is honest about the answer: it can pose real practical problems, but White who plays accurately keeps a full, healthy center and a normal advantage. Owen's Defense is a legitimate surprise weapon and a genuine lesson in diagonal pressure, not a hidden equalizer."
+    },
+    {
+      "type": "historical",
+      "title": "Named for John Owen",
+      "body": "John Owen championed 1...b6 in mid-19th-century English chess, including games against Morphy and Steinitz. The opening carries his name today even though it never grew a serious independent body of theory — a genuinely historical entry rather than a mainstream defense."
+    }
+  ],
+  "line": [
+    {
+      "san": "e4",
+      "annotations": [
+        {
+          "type": "principle",
+          "body": "Stakes a claim in the center and opens lines for the bishop and queen."
+        }
+      ]
+    },
+    {
+      "san": "b6",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Pressure before pawns",
+          "body": "Black fianchettoes immediately, aiming the bishop at e4 before White has even had to decide how to defend it. The tradeoff is stated on move one: Black hands White a completely free hand in the center in exchange for early, long-range pressure on it.",
+          "concepts": ["queenside fianchetto", "hypermodern pressure on e4"]
+        }
+      ]
+    },
+    {
+      "san": "d4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White builds the biggest center available, since nothing yet contests it directly."
+        }
+      ]
+    },
+    {
+      "san": "Bb7",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The point of the opening",
+          "body": "The bishop stares down the long diagonal at e4 and, later, toward g2/h1 if White ever weakens there. It does nothing forcing yet — the pressure is latent, the way the Ruy Lopez's pressure on e5 is latent — and how much it amounts to depends entirely on how White chooses to defend the center.",
+          "concepts": ["long diagonal pressure"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b7", "to": "h1" }]
+    },
+    {
+      "san": "Bd3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The critical defense",
+          "body": "Bd3 defends e4 directly and eyes h7 for later — the simplest, most tested answer to the fianchetto. Black must now complete development without ever handing White a genuine central target.",
+          "concepts": ["hypermodern pressure on e4"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e4" }]
+    },
+    {
+      "san": "e6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Solid and modest — prepares ...Nf6 and king safety without committing the center further. Grabbing at e4 immediately with ...f5 instead looks thematic, but it is a real trap for the wrong reason, as the variation here shows."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "f5",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The premature strike — and its price",
+                "body": "This looks like more pressure on the long diagonal, but it rips open the h5-e8 diagonal in front of Black's own king, which hasn't moved and has no knight on f6 yet to help cover g6 and h5."
+              }
+            ]
+          },
+          {
+            "san": "Qh5+",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "Punishing the diagonal",
+                "body": "Check along h5-e8 — a diagonal that ...f5 itself just vacated by emptying f7. Black has only one reasonable answer."
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "h5", "to": "e8" }]
+          },
+          {
+            "san": "g6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Forced in spirit: blocking is the only way to avoid losing castling rights outright. But g6 also attacks the queen, so nothing is won by force here — it just changes the character of the position."
+              }
+            ]
+          },
+          {
+            "san": "Qe2",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The real cost of an early ...f5",
+                "body": "White doesn't win material — the queen simply retreats — but look at what changed: Black's kingside pawns are broken (both f5 and g6 have moved, weakening e6 and h6), the king has lost the option of a quick, safe O-O, and White is fully developed for free. This is the honest verdict on an early ...f5 in this structure: not a loss, but a real and lasting concession for no compensation."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Nf3",
+    {
+      "san": "c5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The classical central challenge",
+          "body": "Rather than only pressuring e4 from a distance, Black now also strikes at d4 directly — the fianchetto and a genuine pawn break working together. Black can instead challenge e4 head-on with ...d5 right away; the variation here shows where that leads.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "d5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Striking the center directly",
+                "body": "Instead of ...c5, Black challenges e4 head-on. White's most natural answer keeps the tension rather than trading it off."
+              }
+            ]
+          },
+          {
+            "san": "e5",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "A French-shaped structure",
+                "body": "White advances rather than trades, locking the center and creating the same base-and-chain structure the French Defense produces — except Black's light-squared bishop is already outside the pawn chain on b7, a real structural upgrade on the French's usual problem piece."
+              }
+            ]
+          },
+          "c5",
+          "c3",
+          {
+            "san": "Nc6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black piles pressure on d4, the base of White's pawn chain — the standard plan against any Advance-style structure, fianchetto or not."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "c3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Supports d4 before Black's pressure on it builds further."
+        }
+      ]
+    },
+    "Nf6",
+    {
+      "san": "Qe2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Adds a second defender to e4 and prepares to connect the rooks after castling."
+        }
+      ]
+    },
+    "Be7",
+    "O-O",
+    "O-O",
+    {
+      "san": "Re1",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A third piece eyes the e-file and e4, and prepares a future e5 advance if the center ever opens favorably."
+        }
+      ]
+    },
+    {
+      "san": "d6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Solidifies the c5/e6 structure and frees the queen's knight's path to d7."
+        }
+      ]
+    },
+    "Nbd2",
+    {
+      "san": "Nbd7",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The full test of the opening",
+          "body": "White has the full classical center (d4 and e4) fully defended, better central space, and a natural plan of e5 or maneuvering a knight to c4; Black has finished development with the long-diagonal pressure still latent, a solid central structure (b6/c5/d6/e6), and long-term counterplay by striking with ...d5, or by undermining d4. Neither side has anything concrete yet — the fight is about whose plan matures first."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: hypermodern pressure from the fianchetto is real but latent — it restrains rather than wins material, so it needs patient support (Qe2, Re1) or it stays theoretical; an early ...f5 grab at e4 looks thematic but is punished structurally rather than tactically — Black loses no material but loses the kingside's safety for good; and conceding the center honestly costs something (White's extra space here is real), which is exactly why this opening is catalogued as historical rather than mainstream — an honest surprise weapon, not a secret equalizer."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d4" }]
+    }
+  ]
+}

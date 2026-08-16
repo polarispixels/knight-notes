@@ -1,0 +1,243 @@
+{
+  "id": "elephant-gambit",
+  "catalogCode": "GB008",
+  "focus": "black",
+  "title": "Elephant Gambit",
+  "subtitle": "A pawn for time -- Black's earliest countergambit against 2.Nf3",
+  "type": "gambit",
+  "difficulty": "intermediate",
+  "summary": "The Elephant Gambit meets White's 2.Nf3 with an immediate central strike, 2...d5, offering a pawn to seize the initiative before White has even castled. It is a real, occasionally-seen countergambit with genuine practical bite -- this lesson shows exactly what compensation Black actually gets, where it runs out against calm and precise play, and one non-obvious resource (an early queen move that creates an absolute pin) that lets White cash in the point cleanly.",
+  "tags": ["Elephant Gambit", "Queen's Pawn Countergambit", "countergambit", "e4 openings"],
+  "concepts": ["gambit play", "central tension", "development", "piece activity", "pins", "tempo"],
+  "metadata": {
+    "eco": "C40",
+    "opening": "Elephant Gambit"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Elephant Gambit answers White's natural developing move 2.Nf3 not with the usual defense of e5, but with an immediate central strike: 2...d5. Black offers a pawn to open the center and get pieces working before White has castled or finished development. The central question is blunt and honest: is one tempo of activity, seized this early, really worth a pawn against precise play? The calm answer is mostly no -- straightforward, principled moves let White keep a safe, lasting edge -- but the practical sting is real: an opponent unfamiliar with the exact sequence can go wrong quickly, and Black's activity is genuine, just short of full compensation. Like its far sharper cousin the Latvian Gambit (2...f5 instead of 2...d5), the Elephant Gambit belongs to a small family of countergambits that meet an attack on e5 with an immediate counter-strike in the center rather than a normal developing defense."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    "Nf3",
+    {
+      "san": "d5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The countergambit's point",
+          "body": "Rather than defend e5 the normal way, Black strikes back at e4 immediately. This is the whole idea behind the alias 'Queen's Pawn Countergambit': instead of accepting a slower, purely defensive role, Black offers a pawn of Black's own and races for central activity."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d5", "to": "e4" }]
+    },
+    {
+      "san": "exd5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White simply accepts. Declining a free, undefended central pawn for no concrete reason would just hand back the very tempo Black is trying to seize -- there is nothing to be gained by refusing it here."
+        }
+      ]
+    },
+    {
+      "san": "e4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black hasn't recaptured on d5 -- doesn't that just mean Black is down a pawn for nothing? What is the point of pushing the e-pawn forward again instead?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The real sacrifice",
+          "body": "This is the true gambit point. Rather than immediately restoring material equality with 3...Qxd5, Black leaves the pawn on d5 for now and attacks the knight on f3 instead, gaining a tempo and grabbing central space. It is a genuine, if temporary, pawn sacrifice -- whether it is worth it depends entirely on what White does next.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "e4", "to": "f3" },
+        { "type": "square", "square": "d5" }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Qxd5",
+            "classification": "theory",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The simple recapture",
+                "body": "Black can also just take the pawn back immediately instead of committing to the sharper 3...e4. This avoids any material risk, but it isn't free either: the queen comes out early, where White can develop against it with gain of time."
+              }
+            ]
+          },
+          {
+            "san": "Nc3",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "Tempo on the queen",
+                "body": "A completely normal developing move attacks the queen at the same time -- exactly the cost of bringing the queen out this soon. Black must spend another move retreating it while White has developed for free.",
+                "concepts": ["development"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "c3", "to": "d5" }]
+          },
+          {
+            "san": "Qa5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "A natural retreat that keeps some pressure along the a5-e1 diagonal. Black has regained the pawn, but has now spent three of five moves on the queen alone while White has a piece out for nothing -- the real cost of grabbing back the pawn at once."
+              }
+            ],
+            "variations": [
+              [
+                {
+                  "san": "Bg4",
+                  "classification": "blunder",
+                  "importance": "critical",
+                  "annotations": [
+                    {
+                      "type": "mistake",
+                      "title": "A tempting pin that forgets the real problem",
+                      "body": "This looks like a normal, thematic developing move -- pin the knight, add pressure on the position -- but it ignores what's actually happening on the board: the queen on d5 is still attacked by the knight on c3 and hasn't moved. One move too late.",
+                      "concepts": ["development"]
+                    }
+                  ],
+                  "visual": [{ "type": "square", "square": "d5" }]
+                },
+                {
+                  "san": "Nxd5",
+                  "importance": "critical",
+                  "annotations": [
+                    {
+                      "type": "tactic",
+                      "title": "The point",
+                      "body": "White simply takes the queen. No opening, however offbeat, suspends the ordinary rules -- an attacked piece that is neither moved nor defended is just lost."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "d4"
+        ]
+      ]
+    },
+    {
+      "san": "Qe2",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Two problems, one move",
+          "body": "Qe2 solves the immediate issue and plants a seed for later: the queen now defends the attacked knight on f3 directly (e2 and f3 are one diagonal step apart), and by stepping onto the e-file it also takes aim at Black's advanced e4 pawn. With Black's own king still on e8, that glance down the e-file will matter very soon.",
+          "concepts": ["pins"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e2", "to": "e4" }]
+    },
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A quiet developing move that adds a second defender to the e4 pawn without spending any extra time."
+        }
+      ]
+    },
+    {
+      "san": "d3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The pin nobody announced",
+          "body": "d3 attacks the advanced e4 pawn a second time. Notice something easy to miss: because White's queen already sits on e2, directly behind the pawn on the same file as Black's own king on e8, that pawn is absolutely pinned -- it can push straight ahead, but it can never legally capture sideways. Black cannot answer with ...exd3.",
+          "concepts": ["pins", "central tension"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d3", "to": "e4" }]
+    },
+    {
+      "san": "Be7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Since the pawn cannot be rescued by capturing, Black stops trying to save it and prioritizes development and king safety instead."
+        }
+      ]
+    },
+    {
+      "san": "dxe4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White collects the point of the last two moves and regains the pawn."
+        }
+      ]
+    },
+    {
+      "san": "Nxe4",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Real, if partial, compensation",
+          "body": "The recapture centralizes Black's knight beautifully -- genuine, tangible activity. But be honest about the bill: White still holds an extra pawn, the very one that has sat quietly on d5 since move three and was never won back. A small, lasting White edge, not a refutation.",
+          "concepts": ["piece activity"]
+        }
+      ]
+    },
+    {
+      "san": "Nc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops and attacks the centralized knight, which nothing currently defends -- Black must react."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c3", "to": "e4" }]
+    },
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Rather than lose the knight for nothing, Black retreats it to safety. The centralization was temporary, but it served its purpose: it kept development on schedule while White spent moves regaining the pawn."
+        }
+      ]
+    },
+    "Be3",
+    "O-O",
+    {
+      "san": "O-O-O",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The honest bargain of the whole opening",
+          "body": "Both sides have castled and finished the opening. White is up a genuine, safe pawn -- the one still sitting on d5, cramping Black's queenside -- along with open central files for the rooks. Black has full development and a perfectly solid position, with real practical chances if White doesn't know this exact sequence, but must fight for full equality against correct play.",
+          "concepts": ["central tension"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons carry beyond this line: a countergambit offers real but temporary compensation, not a refutation, once White meets it with calm, principled moves; a pin along an open central file can be a powerful, non-obvious resource created by a perfectly ordinary developing move (Qe2), long before it looks dangerous; and even a knight that has to retreat after centralizing (6...Nxe4, then 8...Nf6) still earned something -- it forced the opponent to spend real moves proving the advantage, which is exactly the practical value club players get from an objectively slightly worse opening."
+        }
+      ]
+    }
+  ]
+}

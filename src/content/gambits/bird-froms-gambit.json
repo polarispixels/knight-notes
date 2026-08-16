@@ -1,0 +1,219 @@
+{
+  "id": "bird-froms-gambit",
+  "catalogCode": "GB025",
+  "focus": "black",
+  "title": "From's Gambit",
+  "subtitle": "Black's sharpest answer to Bird's Opening",
+  "type": "gambit",
+  "difficulty": "intermediate",
+  "summary": "Where most replies to 1.f4 develop quietly, From's Gambit meets it with a pawn sacrifice: Black gives up material to seize the initiative and the open f-file before White's king finds safety. It is a real, theoretically double-edged fight — dangerous for White to face without knowing the single critical defense, and genuinely risky for Black if White finds it.",
+  "tags": ["From's Gambit", "Bird's Opening", "1.f4 e5", "countergambit", "flank opening"],
+  "concepts": ["gambit compensation", "development lead", "open files", "king safety", "attacking play"],
+  "metadata": {
+    "eco": "A02",
+    "opening": "Bird's Opening: From's Gambit",
+    "historicalContext": "Named for the 19th-century Danish player Martin Severin From, who analyzed 1...e5 as a direct challenge to Bird's Opening. It has stayed a fixture of club and blitz play ever since, precisely because 1...e5 is the single most common way opponents test 1.f4 — and because so few White players know the one move that keeps them safe."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "This lesson follows the gambit framework: what Black gives up, what Black gets in return, what happens if White accepts correctly, what happens if White declines, and how much risk Black is really taking on. From's Gambit is not a trick that wins by force — it is a real fight over tempo and king safety that rewards the side who knows the position better."
+    }
+  ],
+  "line": [
+    "f4",
+    {
+      "san": "e5",
+      "classification": "interesting",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The cost",
+          "body": "Instead of matching White's flank move with a quiet central one, Black strikes f4 directly. This is the opening gambit pawn: after White captures, Black is down material with nothing concrete yet to show for it. Everything that follows has to earn that pawn back in activity.",
+          "concepts": ["gambit compensation"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e5", "to": "f4" }]
+    },
+    {
+      "san": "fxe5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White accepts — declining here has its own logic, covered below. For now, White is simply a pawn up with a pawn planted on e5.",
+          "concepts": ["gambit compensation"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "e4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Declining — a transposition, not a refutation",
+                "body": "White can sidestep the whole fight with 2.e4, which reaches the exact same position as 1.e4 e5 2.f4 — a transposition into The King's Gambit. This isn't a way to punish Black's second move; it's simply choosing a different, better-known battlefield. If your opponent knows this, From's Gambit never gets played at all.",
+                "concepts": ["gambit compensation"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "d6",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The point of the gambit",
+          "body": "Rather than trying to win the e5 pawn back immediately, Black offers a second pawn to rip the position open. After White captures again, Black's bishop gets an active diagonal and the whole point of the sacrifice becomes visible.",
+          "concepts": ["gambit compensation", "development lead"]
+        }
+      ]
+    },
+    "exd6",
+    {
+      "san": "Bxd6",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The compensation",
+          "body": "Black is down a full pawn but has a fully developed bishop aimed at h2, an open f-file waiting for the rook once Black castles, and — most importantly — a genuine tactical resource: if White develops carelessly, ...Qh4+ punishes it immediately (the variation on White's next move shows exactly how). That resource is why White's next move is close to forced.",
+          "concepts": ["development lead", "open files"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "d6", "to": "h2" },
+        { "type": "arrow", "from": "d8", "to": "h4" }
+      ]
+    },
+    {
+      "san": "Nf3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Acceptance, played correctly",
+          "body": "This knight move guards h4 and takes the ...Qh4+ idea off the table — see the punishment line here for why almost anything else loses time or worse. This is the acid test of the whole gambit: White who finds 4.Nf3 is objectively better and simply has to defend accurately from here; White who doesn't can be in real trouble in a handful of moves. Sharper tries for Black also exist after 4.Nf3 (most notably ...g5, ripping open the kingside further), but they demand precise follow-up and go beyond what this lesson covers.",
+          "concepts": ["king safety"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "d4",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "The natural developing move that loses control",
+                "body": "Grabbing more central space looks fine on its own terms, but it ignores the one diagonal that matters right now — h4 through f2 to the king on e1.",
+                "concepts": ["king safety"]
+              }
+            ]
+          },
+          {
+            "san": "Qh4+",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The resource 4.Nf3 exists to prevent",
+                "body": "With no knight covering h4, this check is simply available, and White's replies are down to two: g3 or an early king walk with Kd2. Kd2 gives up castling rights for nothing; g3 is the only try that keeps some structure, and it walks into more.",
+                "concepts": ["king safety"]
+              }
+            ]
+          },
+          "g3",
+          {
+            "san": "Bxg3+",
+            "classification": "sacrifice",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "Opening the file by force",
+                "body": "The bishop gives itself up to tear away the pawn cover in front of White's king. It looks like Black is throwing material at the position, and in raw numbers Black still is — but every capture that follows drags White's king further from safety.",
+                "concepts": ["development lead"]
+              }
+            ]
+          },
+          "hxg3",
+          {
+            "san": "Qxg3+",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Only one square is legal for the king here — 7.Kd2 is forced, since e2 is still occupied by White's own pawn."
+              }
+            ]
+          },
+          {
+            "san": "Kd2",
+            "annotations": [
+              {
+                "type": "critical-position",
+                "title": "The honest verdict on the sacrifice line",
+                "body": "Tally the material: Black has given up a bishop for two pawns, but White's king has lost castling rights and stands on d2 in the middle of the board with pieces still on their home squares. That is real, tangible compensation — an initiative worth fighting on with, not a forced win. It's exactly this kind of position 4.Nf3 was played to avoid.",
+                "concepts": ["king safety", "gambit compensation"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black continues developing naturally rather than forcing matters, keeping the bishop's diagonal and the coming open f-file in reserve.",
+          "concepts": ["development lead"]
+        }
+      ]
+    },
+    "d4",
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Another developing move, eyeing e4 and preparing to castle into the open f-file that this whole gambit was played to create.",
+          "concepts": ["open files"]
+        }
+      ]
+    },
+    "Nc3",
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Castling connects the rook to the f-file at last — the practical payoff of giving up the e5 pawn seven moves ago.",
+          "concepts": ["open files"]
+        }
+      ]
+    },
+    {
+      "san": "e3",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The risk, stated honestly",
+          "body": "White has consolidated: an extra pawn, a solid center, and a king that has weathered the storm. If Black doesn't generate concrete threats from here — pressure on d4, a rook lift, a well-timed ...Ng4 — the pawn simply stays lost. This is the real risk of From's Gambit: it is dangerous to face over the board, but objectively it asks Black to keep creating problems indefinitely just to justify the initial sacrifice.",
+          "concepts": ["gambit compensation"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons from this gambit: a second pawn sacrifice (3...d6) can matter more than the first, if it's the one that actually opens lines; a single prophylactic move (4.Nf3) can neutralize an entire tactical idea before it happens; and real compensation is measured in king safety and activity, not in whether the pawns come back.",
+          "concepts": ["gambit compensation", "development lead"]
+        }
+      ]
+    }
+  ]
+}

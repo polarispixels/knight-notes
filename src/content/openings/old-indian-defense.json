@@ -1,0 +1,200 @@
+{
+  "id": "old-indian-defense",
+  "catalogCode": "O105",
+  "focus": "black",
+  "title": "Old Indian Defense",
+  "subtitle": "The King's Indian's quieter ancestor",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "Black meets 1.d4 with the same restrained instinct as the King's Indian — control the center with pieces before committing pawns — but keeps the bishop at home on e7 instead of fianchettoing it to g7. The result is a solid, classical structure with none of the King's Indian's fireworks. This lesson shows why that trade-off made sense a century ago, and why most players today make the opposite choice.",
+  "tags": ["Old Indian Defense", "Old Indian System", "Old Indian Defence", "Indian Game", "d4 defenses", "King's Indian Defense"],
+  "concepts": ["flexible development", "solid center", "delayed fianchetto choice", "central tension", "classical structure", "transposition"],
+  "metadata": {
+    "eco": "A53-A55",
+    "opening": "Old Indian Defense",
+    "historicalContext": "Played and analyzed since the early 20th century, well before the King's Indian Defense had matured into the sharp, well-mapped weapon it became in the hands of Bronstein, Fischer, and Kasparov. Once that fuller King's Indian theory existed, most players who wanted this same pawn skeleton chose the fianchetto version instead, leaving the Old Indian as a solid, low-theory alternative rather than a mainstream battleground."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "1...Nf6 followed by 2...d6 shares its very first idea with The King's Indian Defense — don't stake a pawn claim in the center yet, develop toward it instead. But at the fork where the King's Indian fianchettoes with ...g6 and ...Bg7, the Old Indian keeps its dark-squared bishop at home on e7 and plays a direct ...e5 instead. Same restraint, opposite bishop. This lesson's central question is what that single difference costs and buys: less long-term dynamite on the long diagonal, but a simpler, sturdier position that needs far less memorized theory to play well."
+    }
+  ],
+  "line": [
+    "d4",
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The same flexible first move that opens every hypermodern defense to 1.d4 — control e4 with a piece, commit no pawn yet.",
+          "concepts": ["flexible development"]
+        }
+      ]
+    },
+    "c4",
+    {
+      "san": "d6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Every King's Indian Defense game also reaches a position like this, one move before Black fianchettoes with ...g6. Here Black plays d6 without ever committing to g6 at all. What does keeping the bishop's diagonal a secret actually buy?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The fork in the road not yet taken",
+          "body": "d6 prepares ...e5 and keeps the king's bishop's destination open — it could still go to g7, e7, or even stay put a while longer. The Old Indian is the name for what happens when Black resolves that choice by keeping the bishop on e7: a direct central presence with ...e5, defended the classical way, instead of pressure from a distance down the long diagonal. Both choices are sound; they simply commit to different games.",
+          "concepts": ["delayed fianchetto choice", "flexible development"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "g6",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Choosing the King's Indian instead",
+                "body": "This exact fork — d6 played, ...e5 not yet committed — is also where The King's Indian Defense begins. Fianchetto here instead and the game transposes straight into that opening's territory: bishop to g7 first, the central strike with ...e5 held in reserve until the fianchetto and castling are complete. This is precisely why the Old Indian's popularity declined through the twentieth century: once players had the King's Indian's sharper, more thoroughly analyzed counterattacking recipe available from almost the same starting moves, the calmer e7-bishop treatment lost ground to it for anyone willing to learn the deeper theory.",
+                "concepts": ["delayed fianchetto choice", "transposition"]
+              }
+            ]
+          },
+          "Nc3",
+          "Bg7"
+        ]
+      ]
+    },
+    {
+      "san": "Nc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops naturally, in no hurry to learn which structure Black intends.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "Nbd7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Reinforcing before advancing",
+          "body": "The other knight develops toward e5 and c5 rather than to c6, where it would only get in its own d-pawn's way. This is the Old Indian's signature piece placement — it supports the coming ...e5 a second time before that pawn even moves.",
+          "concepts": ["classical structure"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d7", "to": "e5" }]
+    },
+    "Nf3",
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Direct central commitment",
+          "body": "Where the King's Indian delays this exact idea behind a fianchetto for several more moves, the Old Indian plays it now, already doubly supported (by the knight on d7 and the pawn on d6). This is the whole trade the opening makes concrete: a real, immediate stake in the center, bought with the dark-squared bishop's long diagonal, which will now sit blocked behind its own pawn instead of aiming through it.",
+          "concepts": ["solid center", "central tension"]
+        }
+      ]
+    },
+    {
+      "san": "e4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White claims the broad classical center. d4 is defended twice here (by the knight on f3 and the queen on d1) against e5's single attacker, so there's no need to resolve the tension yet.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "g3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Declining the big center",
+                "body": "White doesn't have to build the classical pawn triangle at all. Since Black hasn't fixed the bishop's diagonal here — it's still on f8, not committed to g7 — a White fianchetto meets a position much closer to an ordinary king's-pawn battle than a sharp opposite-wing race. The Old Indian's flexibility works both ways: it doesn't provoke White into the sharpest possible setup the way an early ...g6 sometimes does."
+              }
+            ]
+          },
+          "Be7",
+          "Bg2",
+          "O-O"
+        ]
+      ]
+    },
+    {
+      "san": "Be7",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The bishop that gives the opening its name",
+          "body": "Here is the fork from move two, confirmed rather than reopened. Instead of fianchettoing to g7 and aiming through the center from the side — the whole engine of the King's Indian's counterattack — the bishop takes a modest defensive post. It will never generate the kind of long-diagonal fireworks that make the King's Indian dangerous, but it also never needs the King's Indian's precise, memorized move orders to stay safe.",
+          "concepts": ["delayed fianchetto choice", "classical structure"]
+        }
+      ]
+    },
+    "Be2",
+    "O-O",
+    "O-O",
+    {
+      "san": "c6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A quiet support move — it keeps ...b5 or ...d5 available later and adds a pawn buttress to d5, part of the Old Indian's habit of reinforcing before it commits any further.",
+          "concepts": ["solid center"]
+        }
+      ]
+    },
+    {
+      "san": "Re1",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White prepares to meet the central resolution with the rook already supporting e4.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "exd4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black resolves the tension on Black's own schedule rather than let White choose the moment.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    "Nxd4",
+    {
+      "san": "Re8",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "A solid, quiet middlegame",
+          "body": "Both sides have finished the opening's real work. White has a strong centralized knight and a spatial pull, with ideas like f4 or maneuvering pieces toward the kingside; Black is completely solid, with no weaknesses, and typically continues with ...Nc5, ...a5, or eventually a central break with ...d5 once fully regrouped. Nothing here is sharp — this is the Old Indian's whole personality on display.",
+          "concepts": ["solid center", "central tension"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry out of this study: the Old Indian and the King's Indian share an identical first two moves and even an identical philosophy — develop before committing pawns — and only split apart at the bishop's diagonal; a solid, weakness-free structure is a real asset even without a sharp attacking plan behind it, which is exactly why this opening survived even after the King's Indian eclipsed it; and knowing an opening's family tree matters as much as knowing its moves — a player who understands this position can transpose into King's Indian territory at will, simply by choosing ...g6 one move differently.",
+          "concepts": ["classical structure", "transposition", "delayed fianchetto choice"]
+        }
+      ]
+    }
+  ]
+}

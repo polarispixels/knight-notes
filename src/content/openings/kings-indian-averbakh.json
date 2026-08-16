@@ -1,0 +1,202 @@
+{
+  "id": "kings-indian-averbakh",
+  "catalogCode": "O111",
+  "focus": "black",
+  "title": "King's Indian Defense: Averbakh Variation",
+  "subtitle": "A pin before a plan",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "White delays the kingside knight and instead plays 5.Be2 and 6.Bg5, pinning the f6-knight before Black gets the chance to play the King's Indian's usual freeing break. The pin doesn't win anything by itself, but it makes the immediate ...e5 tactically risky. This lesson shows the mechanism, and the two respectable ways Black answers it.",
+  "tags": ["Averbakh Variation", "Averbakh System", "King's Indian Defense", "d4 defenses", "fianchetto"],
+  "concepts": ["pin on f6", "central tension", "pin-breaking", "flexible development", "pawn structure"],
+  "metadata": {
+    "eco": "E70-E75",
+    "opening": "King's Indian Defense: Averbakh Variation",
+    "historicalContext": "Associated with Soviet grandmaster and endgame theoretician Yuri Averbakh, this system saw heavy use in the 1950s and 60s, including by World Champion Mikhail Botvinnik, as a way to sidestep the King's Indian's sharpest, most thoroughly mapped main lines. It remains a real, respected try, though other systems against the King's Indian see more attention at the top level today."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study, The King's Indian Defense, showed Black inviting a big center and preparing ...e5 as the standard freeing break. The Averbakh Variation interferes with that plan before it starts: White develops the bishop to e2 (instead of routing the knight through f3) specifically so that Bg5 can pin the f6-knight to the queen. The pin doesn't threaten anything by itself — but it changes what ...e5 means. This lesson's central question is exactly that: what does the pin actually cost Black if ...e5 is played too soon, and what are the two respectable ways to answer it instead?"
+    }
+  ],
+  "line": [
+    "d4",
+    "Nf6",
+    "c4",
+    "g6",
+    "Nc3",
+    "Bg7",
+    "e4",
+    "d6",
+    {
+      "san": "Be2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A move-order signal",
+          "body": "In most King's Indian main lines the kingside knight develops to f3 first. Routing the bishop to e2 instead, before the knight moves at all, is what makes the coming Bg5 pin possible — Nf3 would simply block that diagonal.",
+          "concepts": ["flexible development"]
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "Bg5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Doesn't Black just play ...e5 here, the same way every King's Indian plan intends? What does this pin actually change?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The pin that makes e5 expensive",
+          "body": "Bg5 pins the knight on f6 to the queen on d8. That alone threatens nothing — but it means Black can no longer treat ...e5 as a free, automatic break. If Black pushes it now, White can trade in the center and land a bishop capture on f6 that the pin makes possible, handing over Black's prized fianchettoed bishop's counterpart and leaving White with a strong central knight (the variation on Black's reply shows this in full). The two respectable antidotes both deal with the pin first: ...h6, which forces the bishop to declare itself immediately, or ...c5, which sidesteps the whole question and strikes at d4 from the side instead.",
+          "concepts": ["pin on f6", "central tension"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g5", "to": "d8" }, { "type": "square", "square": "f6" }]
+    },
+    {
+      "san": "h6",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Forcing the bishop's hand",
+          "body": "h6 asks the bishop to retreat or maintain the pin from h4 — either way, Black gets to see White's answer before deciding how to continue. Playing this before ...e5 keeps the King's Indian's normal kingside-storm character intact, rather than trading it away for a different structure entirely.",
+          "concepts": ["pin-breaking"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "h6", "to": "g5" }],
+      "variations": [
+        [
+          {
+            "san": "e5",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "The break played one move too soon",
+                "body": "This looks like the normal King's Indian break arriving on schedule — but the pin is still live, and White is about to exploit it directly.",
+                "concepts": ["pin on f6"]
+              }
+            ]
+          },
+          "dxe5",
+          "dxe5",
+          {
+            "san": "Bxf6",
+            "classification": "critical",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The pin cashes in",
+                "body": "This isn't about winning material — Black simply recaptures. The point is what gets traded: Black's fianchettoed bishop, the whole reason to choose the King's Indian, is forced to spend itself capturing a knight instead of ever pressuring the long diagonal.",
+                "concepts": ["pin on f6"]
+              }
+            ]
+          },
+          "Bxf6",
+          "Qxd8",
+          "Rxd8",
+          {
+            "san": "Nd5",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "What the pin actually bought",
+                "body": "Material is level and the queens are gone, but look at what changed: Black's dark-squared bishop sits on f6, blocked by its own e5 pawn, doing nothing like the work it does on g7. White's knight lands on a strong central outpost with tempo. None of this was a material win — it was a structural one, and it happened only because ...e5 was played while the pin was still in effect.",
+                "concepts": ["pin on f6", "pawn structure"]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "san": "c5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Sidestepping the pin entirely",
+                "body": "Instead of confronting the bishop, Black strikes at d4 from the flank. If White pushes through with d5, the position starts to resemble Modern Benoni-style structures — trading the King's Indian's typical kingside pawn storm for queenside and central counterplay built around undermining d5 with ...e6. It's a completely different game from the ...h6 approach, but an equally respectable way to avoid the pin's cost.",
+                "concepts": ["central tension", "flexible development"]
+              }
+            ]
+          },
+          "d5",
+          "e6"
+        ]
+      ]
+    },
+    {
+      "san": "Be3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The most natural retreat — the bishop gives up the pin but keeps an eye on the c5 and a7 squares from its new post.",
+          "concepts": ["pin-breaking"]
+        }
+      ]
+    },
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The same break, now safe",
+          "body": "With the pin broken, this is the identical central strike the family study relies on — but reached one move later than usual, and only once it's actually safe to play. Compare the variation two moves ago: the difference between a sound plan and a punished one here was purely about timing.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White closes the center rather than resolve the tension by capturing — the standard King's Indian closed-center structure, reached through this system's own move order.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "Nbd7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The other knight develops toward c5 and e5, part of the usual closed-center regrouping.",
+          "concepts": ["pawn structure"]
+        }
+      ]
+    },
+    "Nf3",
+    {
+      "san": "a5",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Both plans now visible",
+          "body": "The pin that opened this whole line is long gone, and the position has settled into a closed King's Indian middlegame. Black restrains White's queenside expansion and prepares ...Nc5, with a kingside build-up still available later; White can play on the queenside with a3 and b4, or maneuver pieces toward the center and kingside. The structure is entirely ordinary King's Indian territory — only the path taken to reach it, and the bishop that survived the trip, mark this as the Averbakh.",
+          "concepts": ["pawn structure", "central tension"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons specific to this system: a pin doesn't have to threaten anything immediately to change what the opponent's best move is — it just has to make the natural move more expensive; \"tactically costly\" doesn't always mean losing material, sometimes it means losing your best piece's purpose, as Black's fianchettoed bishop found out in the punished line; and there are two genuinely different, sound ways to meet the same problem — ...h6 keeps the King's Indian's usual character, ...c5 trades it for Benoni-style play — which is exactly the kind of choice worth knowing in advance rather than discovering over the board.",
+          "concepts": ["pin on f6", "pin-breaking", "flexible development"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "id": "bird-opening",
+  "catalogCode": "O133",
+  "focus": "white",
+  "title": "Bird's Opening",
+  "subtitle": "1.f4 — the Dutch Defense with an extra tempo",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "1.f4 stakes an early claim on e5 and g5 from a flank pawn, the same central idea Black uses in the Dutch Defense — except White gets to play it a full move up. This lesson builds the reversed-Leningrad setup move by move and shows the kingside attacking plan it's all aimed at.",
+  "tags": ["Bird's Opening", "Bird Opening", "Dutch Attack", "flank opening", "1.f4", "reversed Dutch"],
+  "concepts": ["space", "outposts", "flank development", "king safety", "prophylaxis", "pawn structures"],
+  "metadata": {
+    "eco": "A02-A03",
+    "opening": "Bird's Opening (1.f4)",
+    "historicalContext": "Named for the 19th-century English master Henry Bird, who played 1.f4 regularly through the 1870s and 80s. It never became mainstream theory, but it has stayed a respected surprise weapon precisely because so few players study how to meet it."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Bird's Opening claims the same central squares — e5 and g5 — that Black claims against 1.d4 with the Dutch Defense, but from the other side of the board and a tempo ahead. The central question is the same one Black answers in the Dutch: is a kingside pawn advance worth the small weaknesses it creates around your own king? Watch how White spends the opening converting that extra tempo into a real attacking plan rather than just a structural resemblance."
+    },
+    {
+      "type": "historical",
+      "title": "Bird's namesake",
+      "body": "Henry Bird was a well-traveled English master who played 1.f4 in serious tournament chess across four decades, including against Steinitz and Morphy. The opening bears his name not because he invented it, but because he was its most persistent and successful early practitioner."
+    }
+  ],
+  "line": [
+    {
+      "san": "f4",
+      "annotations": [
+        {
+          "type": "principle",
+          "body": "A flank pawn move that still fights for the center: f4 eyes e5 and prepares to meet ...d5 or ...Nf6 with pressure on that square, exactly as ...f5 does for Black in the Dutch Defense. Compare it to The Dutch Defense — same idea, opposite color, one tempo richer.",
+          "concepts": ["space"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f4", "to": "e5" }]
+    },
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black's most natural reply: stake out the center before deciding how to meet f4. This also keeps options open — Black hasn't yet committed to a kingside fianchetto or a classical setup.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "e5",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The sharpest test — From's Gambit",
+                "body": "Instead of matching White's flank move with a central one, Black can strike f4 directly. After 2.fxe5, this is From's Gambit — a real, sharp counter-sacrifice with its own dedicated lesson, not a side note to cover here. If White wants to sidestep the whole fight, 2.e4 is also available, transposing straight into The King's Gambit.",
+                "concepts": ["central tension"]
+              }
+            ]
+          },
+          "fxe5"
+        ]
+      ]
+    },
+    {
+      "san": "Nf3",
+      "variations": [
+        [
+          {
+            "san": "d4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The reversed Stonewall",
+                "body": "Instead of fianchettoing, White can build the other recognized Bird structure: pawns on f4, e3, and d4, the mirror of Black's Stonewall Dutch. It's a solid, less committal setup — no long-diagonal race, just a wall of central pawns and a bishop headed for d3 or e2, aiming at Black's kingside once it castles.",
+                "concepts": ["pawn structures"]
+              }
+            ]
+          },
+          "Nf6",
+          "e3",
+          "e6",
+          "Bd3",
+          "Bd6",
+          "Nf3",
+          "O-O",
+          "O-O"
+        ],
+        [
+          {
+            "san": "e3",
+            "annotations": [
+              {
+                "type": "historical",
+                "title": "The classical setup — and a famous game",
+                "body": "White can also develop without a fianchetto at all: a quiet e3-b3-Bb2-Be2/Bd3 setup with the bishop staying inside the pawn chain. This exact move order — down to Black mirroring it with ...e6, ...b6, and a fianchetto of the c8-bishop — was played in Lasker vs Bauer, the game that introduced the double bishop sacrifice to chess literature. Nothing here is forced yet; it's simply proof that Bird's Opening supports more than one plan.",
+                "concepts": ["flank development"]
+              }
+            ]
+          },
+          "Nf6",
+          "b3",
+          "e6",
+          "Bb2",
+          "Be7",
+          "Bd3",
+          "b6",
+          "Nc3",
+          "Bb7"
+        ]
+      ]
+    },
+    "Nf6",
+    "e3",
+    {
+      "san": "g6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Choosing the reversed Leningrad",
+          "body": "Fianchettoing the bishop is Black's most ambitious answer, mirroring the Leningrad Dutch. The bishop on g7 will eventually stare down the long diagonal at White's queenside — the same diagonal White's own bishop is about to claim in the other direction.",
+          "concepts": ["flank development"]
+        }
+      ]
+    },
+    {
+      "san": "b3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A second fianchetto",
+          "body": "White answers Black's long-diagonal plan with the mirror image of it. This is the reversed-Leningrad structure the catalog entry describes: both sides fianchetto, both sides eye the long diagonal, and the game becomes a race to use it first — a race White starts one tempo ahead.",
+          "concepts": ["flank development"]
+        }
+      ]
+    },
+    "Bg7",
+    {
+      "san": "Bb2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop takes aim at the a1-h8 diagonal, though Black's own knight on f6 currently blocks it short of the king. That diagonal won't open on its own — it opens when central pawns and pieces clear off it, which is exactly what the coming moves are about.",
+          "concepts": ["outposts"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b2", "to": "f6" }]
+    },
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White hasn't castled yet and still has a rook on h1. Is there any hurry, or can White use the next few moves for something other than immediate safety?"
+        }
+      ]
+    },
+    {
+      "san": "Be2",
+      "variations": [
+        [
+          {
+            "san": "g4",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "The pawn storm that skips a step",
+                "body": "Grabbing kingside space looks thematic for this opening, but nothing here supports it yet — White hasn't finished development or castled, and the pawn on g4 is simply undefended.",
+                "concepts": ["king safety"]
+              }
+            ]
+          },
+          {
+            "san": "Nxg4",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "A free pawn punishes the rush",
+                "body": "The knight just takes g4 — nothing White has developed can recapture it. The lesson from move 9 applies in reverse here too: attacking plans need preparation, and a pawn storm played before development is complete is just a pawn to be won.",
+                "concepts": ["king safety"]
+              }
+            ],
+            "visual": [{ "type": "square", "square": "g4" }]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "c5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black grabs queenside space and prepares ...Nc6, the same counterplay Black reaches for in the Leningrad Dutch against a delayed White fianchetto.",
+          "concepts": ["space"]
+        }
+      ]
+    },
+    {
+      "san": "O-O",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Answering the question",
+          "body": "The answer: no hurry to attack, but real hurry to be safe first. Every kingside pawn storm White is about to consider (g4, or the queen swinging to h4) will only work with the king already tucked away — attacking with your own king still in the center is how flank openings go wrong, as the variation two moves ago just showed.",
+          "concepts": ["king safety"]
+        }
+      ]
+    },
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black develops toward d4 and e5, contesting exactly the squares f4 was played to claim. Both armies are now fully mobilized on the kingside fianchetto plan, and the position turns into a question of who breaks through first.",
+          "concepts": ["outposts"]
+        }
+      ]
+    },
+    {
+      "san": "Qe1",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The point of the whole setup",
+          "body": "The queen steps off d1 to clear the way for Qh4, aiming at h7 and preparing to support a later g4 advance. This is the reversed-Leningrad attacking plan in one move: everything since 4.e3 — the fianchetto, castling first, clearing d1 — existed to make this regrouping possible without ever exposing White's own king in the process.",
+          "concepts": ["prophylaxis", "space"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three things carry over from this lesson: a flank pawn move can fight for the center just as well as a central one, provided it's backed by a real plan; mirrored fianchettos turn into a race down the same diagonal, and tempo decides who arrives first; and kingside attacking ideas (Qh4, g4) only work once your own king has castled out of the way — safety comes before the storm, not after it.",
+          "concepts": ["space", "king safety", "prophylaxis"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e1", "to": "h4" }]
+    }
+  ]
+}

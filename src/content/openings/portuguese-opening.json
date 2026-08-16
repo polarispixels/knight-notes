@@ -1,0 +1,182 @@
+{
+  "id": "portuguese-opening",
+  "catalogCode": "O024",
+  "focus": "white",
+  "title": "The Portuguese Opening",
+  "subtitle": "A Ruy Lopez that forgot to play Nf3",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "The same bishop move as the Ruy Lopez, played one move earlier -- before White has committed a knight to f3 at all. Writer Graham Burgess called it 'a Ruy Lopez where White has forgotten to play 2.Nf3,' and this lesson tests that verdict honestly: what does skipping Nf3 actually cost, and what, if anything, does it buy back.",
+  "tags": ["Portuguese Opening", "e4 openings", "Ruy Lopez", "move-order tricks"],
+  "concepts": [
+    "development",
+    "central tension",
+    "transposition",
+    "pawn structure",
+    "piece activity",
+    "prophylaxis"
+  ],
+  "metadata": {
+    "eco": "C20",
+    "opening": "Portuguese Opening",
+    "historicalContext": "Genuinely rare at every level of practice, kept alive mostly by club players looking for a first-move surprise. It has real, if minor, tournament history and is not a joke line -- Graham Burgess's famous description ('a Ruy Lopez where White has forgotten to play 2.Nf3') is a fair summary, not a dismissal."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "2.Bb5 is the Ruy Lopez's signature move, played before 2.Nf3 instead of after it. Skipping Nf3 gives up two things the Ruy Lopez relies on: a piece that attacks e5, and a knight already on c6 for the bishop to pin. What it buys back is move-order flexibility -- the f-pawn is still free to advance, and White can steer toward Ruy Lopez or Italian-style structures depending on how Black responds. This lesson locates the Portuguese in its family in one sentence: it is not a different plan from the Ruy Lopez, it is the same plan attempted a tempo too soon."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    {
+      "san": "Bb5",
+      "classification": "interesting",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "In the real Ruy Lopez, 3.Bb5 attacks a knight already sitting on c6. Here there is no knight on c6 yet -- so what does Bb5 actually do on move two?"
+        },
+        {
+          "type": "key-idea",
+          "title": "A claim staked in advance, not a threat",
+          "body": "Nothing, concretely. The bishop attacks nothing and pins nothing -- it simply occupies the square in advance, betting that Black will develop a knight to c6 anyway. It also doesn't touch e5 the way 2.Nf3 does, so White has spent a developing move creating zero pressure. The whole opening is a bet that flexibility elsewhere will make up for that.",
+          "concepts": ["development"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "c6" }]
+    },
+    {
+      "san": "c6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The question asked a move early",
+          "body": "In the Ruy Lopez, Black cannot ask the bishop to declare itself until move three (3...a6), after already committing a knight to c6. Here, because White skipped Nf3, Black can challenge the unsupported bishop immediately -- for free, since nothing has been given up to do it. This is the concrete price of the move-order shortcut.",
+          "concepts": ["development", "central tension"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c6", "to": "b5" }],
+      "variations": [
+        [
+          {
+            "san": "Nc6",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The most common practical outcome",
+                "body": "If Black simply develops naturally instead of questioning the bishop, White plays 3.Nf3 next and the game has transposed exactly into the tabiya covered in The Ruy Lopez -- same position, different move order. This is the honest headline of the Portuguese Opening: most of the time, it just becomes the Ruy Lopez one move later, and this line is why Burgess's quip is accurate rather than unfair."
+              }
+            ]
+          },
+          "Nf3"
+        ],
+        [
+          {
+            "san": "Nf6",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Testing the gap immediately",
+                "body": "Black can also attack e4 on the spot, since nothing defends it yet. White must react at once -- a knight defends the pawn, but the resulting position looks nothing like a Ruy Lopez; it heads toward independent territory outside this lesson's scope, simply because the bishop committed itself before there was anything concrete to support."
+              }
+            ]
+          },
+          "Nc3",
+          "Nc6"
+        ]
+      ]
+    },
+    {
+      "san": "Bc4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Retreating toward a different family",
+          "body": "Ba4 would keep the bishop eyeing c6 -- but c6 now holds a pawn, not a knight, so that diagonal is worth much less than in the real Ruy Lopez. Bc4 instead aims at f7 along the classic Italian Game diagonal. This is the practical face of 'a Ruy Lopez that forgot Nf3': without a knight already pinned on c6, the position drifts toward Italian-style piece placement instead."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c4", "to": "f7" }]
+    },
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Testing the other gap",
+          "body": "With no knight on f3 to defend it, e4 has been undefended since move two -- Black attacks it the moment it's convenient. This never happens in the real Ruy Lopez, where 2.Nf3 already solved the problem before Black could even ask."
+        }
+      ]
+    },
+    {
+      "san": "d3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The simplest defense: a solid pawn move that protects e4 and keeps options open, echoing the quiet Giuoco Pianissimo treatment of the same bishop diagonal."
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Black claims the center instead",
+          "body": "Rather than let White consolidate quietly, Black strikes back in the center immediately -- energetic play made possible by the tempo Black has banked since move two.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    "exd5",
+    "cxd5",
+    {
+      "san": "Bb3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop steps aside from the pawn's attack, keeping its eye on the long diagonal toward Black's kingside -- the same retreating idea the Ruy Lopez uses on b3, just reached along a different diagonal."
+        }
+      ]
+    },
+    "Bd6",
+    {
+      "san": "Nf3",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The knight finally arrives -- three moves late",
+          "body": "Only now does White's king's knight reach the square it occupies on move two in the actual Ruy Lopez. Compare the two pawn structures: Black has a real center (pawns on d5 and e5) built during the moves White spent maneuvering the bishop, something that never happens against the properly move-ordered Ruy Lopez.",
+          "concepts": ["development", "pawn structure"]
+        }
+      ]
+    },
+    "O-O",
+    "O-O",
+    "Nc6",
+    {
+      "san": "Re1",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "A familiar-looking pressure, on a very different clock",
+          "body": "Re1 leans on the e-file exactly the way it does in the main-line Ruy Lopez -- but there it arrives on move six, backed by a knight that has attacked e5 since move two. Here it arrives on move nine, and Black's center (d5 and e5 both standing) is far more solid than anything the real Ruy Lopez usually allows. Both sides' plans are now visible: White presses along the e-file and the long diagonal to b3; Black looks to keep the center intact and complete development, already a full tempo ahead of the position White would have reached by playing Nf3 first."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a bishop that attacks nothing and pins nothing is a bet on the future, not a threat, and Black is free to punish it immediately (2...c6, a full move earlier than the Ruy Lopez's ...a6); skipping a developing move that also creates a threat (Nf3) leaves a real gap -- here, an undefended e4 pawn Black could challenge for free; and the same bishop idea can land the game in different families entirely depending on Black's reply -- toward genuine Ruy Lopez structures if Black plays an early ...Nc6, or toward Italian-style play, as here, if Black challenges the bishop first."
+        }
+      ]
+    }
+  ]
+}

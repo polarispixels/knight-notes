@@ -1,0 +1,245 @@
+{
+  "id": "stonewall-attack",
+  "catalogCode": "O128",
+  "focus": "white",
+  "title": "Stonewall Attack",
+  "subtitle": "One rigid structure, one clear plan",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "White locks the center with pawns on d4, e3, c3, and f4 and commits to one recurring plan almost regardless of what Black does: an outpost on e5 and a kingside pawn storm. It is a rigid, occasionally dated setup, but it hands club players a clear script where understanding the structure matters more than memorizing moves — as long as the structure is built in the right order.",
+  "tags": ["Stonewall Attack", "Stonewall System (White)", "White Stonewall", "Queen's Pawn Game", "d4 systems"],
+  "concepts": ["rigid pawn structure", "outposts", "kingside attack", "pawn breaks", "playing plans not moves"],
+  "metadata": {
+    "eco": "A45, D00",
+    "opening": "Queen's Pawn Game: Stonewall Attack (White)",
+    "historicalContext": "The Stonewall setup was a popular attacking weapon in the late 19th and early 20th centuries, before hypermodern ideas about flexible development pushed it toward the margins of top-level theory. It survives today mainly as a club-level system, valued for its clarity rather than its objective bite."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "This is White's own Stonewall setup, one of the systems grouped in The Queen's Pawn Game alongside the London, Colle, Torre, and Trompowsky — but far more rigid than any of them. Instead of a flexible pyramid, White commits four pawns to fixed squares: d4, e3, c3, and f4. That commitment buys one very clear plan (get a knight to e5, then storm the kingside with pieces and pawns) at the cost of the position's flexibility for the rest of the game. This lesson builds the structure in the order that makes it work, shows the outpost the whole setup exists to create, and flags the one move-order trap — grabbing the outpost before finishing development — that turns the plan's biggest strength into nothing."
+    },
+    {
+      "type": "warning",
+      "title": "A name shared with a mirror image, never a lesson",
+      "body": "Black has an almost identical pawn skeleton — d5, e6, f5, c6 — in the Stonewall Dutch, reached from the completely opposite side of the board with reversed colors. The two share a name and a silhouette, but they are separate opening trees with separate move orders, and this lesson never merges them. If you already know the Stonewall Dutch, treat the resemblance as a curiosity, not a shortcut: the good and bad pieces are on opposite wings."
+    }
+  ],
+  "line": [
+    "d4",
+    "d5",
+    {
+      "san": "e3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The first pawn of the wall goes up immediately, before White has even developed a piece — a signal that this opening is a structure first and a set of tactics second.",
+          "concepts": ["rigid pawn structure"]
+        }
+      ]
+    },
+    "Nf6",
+    {
+      "san": "Bd3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The bishop commits early, on purpose",
+          "body": "Unlike the London, which moves this bishop to f4 specifically to dodge the e3 pawn wall, the Stonewall Attack accepts putting it behind that same wall — because its real job is the diagonal toward h7, not the one toward b8. This is the opening's central bargain: the light-squared bishop gives up flexibility now for a direct shot at the enemy king later.",
+          "concepts": ["playing plans not moves"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d3", "to": "h7" }]
+    },
+    "c5",
+    {
+      "san": "c3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The second wall pawn goes up, supporting d4 against Black's central pressure. The tension on c5/d4 is left unresolved for now — both sides usually prefer to develop first.",
+          "concepts": ["rigid pawn structure"]
+        }
+      ]
+    },
+    "Nc6",
+    {
+      "san": "f4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The wall completes: d4, e3, c3, and now f4. What does this structure actually buy White, given how little it does for piece activity right now?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The wall's whole purpose in one square",
+          "body": "f4 does two things at once: it prepares to recapture on e5 with a pawn instead of a piece, cementing a future knight there permanently, and it opens the door for a rook lift or a direct kingside pawn storm later. Every Stonewall plan — the e5 outpost, the attack on h7, the eventual g4 advance — grows out of this one structural decision. The trade-off is real: three of White's four minor pieces have no great square yet, and the c1-bishop in particular will need real patience.",
+          "concepts": ["rigid pawn structure", "pawn breaks"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e5" }]
+    },
+    {
+      "san": "e6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black opens the light-squared bishop's diagonal and prepares to castle. The central tension on c5/d4 could also be resolved right now instead — the variation here shows the structural choice that creates.",
+          "concepts": ["rigid pawn structure"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "cxd4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Resolving the tension early",
+                "body": "Black can trade off the central pawns at any point instead of developing further. How White recaptures decides what shape the wall keeps."
+              }
+            ]
+          },
+          {
+            "san": "cxd4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Which pawn recaptures",
+                "body": "Recapturing with the c-pawn keeps the d4-e3-f4 skeleton fully intact — the defining shape of the whole system — at the cost of the c-file, which now stands open for both rooks. Recapturing with the e-pawn instead would keep the c-file closed but break the wall's own e3 pawn, changing the opening's character entirely. Structure decisions like this one are plan decisions, exactly as in the London System.",
+                "concepts": ["rigid pawn structure"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Development finally begins in earnest. This knight eyes e5 directly — the square the whole wall was built to occupy — but jumping there right now would be premature, as the variation two moves ahead shows.",
+          "concepts": ["outposts"]
+        }
+      ]
+    },
+    "Be7",
+    {
+      "san": "Nbd2",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Support before the outpost",
+          "body": "This knight adds a second defender to e5 before White ever occupies it, and keeps open a later route to the kingside via f1-g3 or f1-h2. Development finishes before the plan begins — patience here is what makes the coming outpost actually strong, unlike the version shown in the variation where White skips straight to Ne5.",
+          "concepts": ["playing plans not moves"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Ne5",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The right idea, too early",
+                "body": "Jumping to the outpost before finishing development looks efficient, but it lets Black simplify immediately and target the resulting pawn while White's king is still uncastled and the second knight is still at home."
+              }
+            ]
+          },
+          "Nxe5",
+          "fxe5",
+          {
+            "san": "Nd7",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The e5 pawn survives — it is still defended by d4 — but Black now presses against it with a piece White has no extra defender ready for, and White still needs several moves just to catch up on development. The identical outpost, reached one move too soon, does far less work than the version the main line builds patiently.",
+                "concepts": ["playing plans not moves"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "O-O",
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Both kings are safe. White has now completed the exact preparation the premature Ne5 line skipped — this is the moment the outpost plan is actually ready to execute.",
+          "concepts": ["playing plans not moves"]
+        }
+      ]
+    },
+    {
+      "san": "b6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black prepares ...Bb7 and queenside development. Instead, Black sometimes challenges the coming outpost directly with ...Ne4 — a real idea worth knowing, shown in the variation here, because of what it reveals about the h7 diagonal.",
+          "concepts": ["outposts"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Ne4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Trading off the f6-knight",
+                "body": "Rather than let White settle a knight on e5 unopposed, Black offers a trade of the knight that currently guards Black's own kingside — the very piece that would otherwise stand in the way of ideas along the b1-h7 diagonal."
+              }
+            ]
+          },
+          "Nxe4",
+          "dxe4",
+          {
+            "san": "Bxe4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Why the defending knight matters",
+                "body": "The bishop recaptures on the same long diagonal it always aimed for, still pointed at h7 — but now Black's f6-knight, the piece that used to guard that very square, is gone. This is the real precondition behind the motif of a Stonewall bishop sacrifice on h7: it only becomes dangerous once the natural defender has been removed or lured away. In the main line, where that knight stays on f6, the same sacrifice would simply lose a piece for a pawn — which is exactly why the catalog calls it rare rather than reliable.",
+                "concepts": ["kingside attack"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "e4", "to": "h7" }]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Ne5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The outpost, built properly",
+          "body": "Compare this to the premature version in the variation earlier: here the knight arrives supported by a finished development, a castled king, and a second knight ready to recapture and keep the outpost alive. From e5 the knight eyes f7, d7, and g6, and White's plan is now simple to state even if not simple to execute: reinforce e5, meet ...Nxe5 with fxe5 to keep the pawn there permanently, and throw kingside pawns forward behind it.",
+          "concepts": ["outposts", "kingside attack"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry forward: a rigid structure is still a plan, not a substitute for one — every wall pawn in this opening exists to make one specific square, e5, permanently strong; order matters as much as the moves themselves, since the identical outpost achieves far more after full preparation than played a tempo early; and sharing a pawn skeleton with another opening — the Stonewall Dutch, reached from the opposite side with reversed colors — never means sharing a plan, a lesson, or a piece of terminology.",
+          "concepts": ["rigid pawn structure", "outposts", "playing plans not moves"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "e5" },
+        { "type": "arrow", "from": "e5", "to": "f7" }
+      ]
+    }
+  ]
+}

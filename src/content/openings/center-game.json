@@ -1,0 +1,210 @@
+{
+  "id": "center-game",
+  "catalogCode": "O015",
+  "focus": "white",
+  "title": "The Center Game",
+  "subtitle": "An early queen sortie, and the tempo it costs",
+  "type": "opening",
+  "difficulty": "beginner",
+  "summary": "White recaptures the center pawn immediately with the queen, planting it on an active central square -- for one move. This is a clean, honest lesson in why bringing the queen out early is risky: what the Center Game gains in immediate central control, and exactly how Black's most natural developing move turns that gain straight back into a liability.",
+  "tags": ["Center Game", "Centre Game", "Centre Opening", "e4 openings", "early queen development"],
+  "concepts": [
+    "early queen development",
+    "tempo",
+    "open center",
+    "development",
+    "king safety",
+    "piece activity"
+  ],
+  "metadata": {
+    "eco": "C21-C22",
+    "opening": "Center Game",
+    "historicalContext": "A mainstream try in the 19th century, when rapid, tactical play was the norm and losing a tempo mattered less against opponents who hadn't yet developed either. Modern understanding of tempo has pushed it out of serious practice, but it survives as one of the clearest teaching positions for why the opening principle 'don't move the queen early' exists in the first place."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "3.Qxd4 looks natural -- White simply takes back the pawn Black won on move 2 -- but it places the most valuable piece on the board in the direct path of Black's normal development. The central question of this opening is not whether the queen is safe (it usually is), it's whether the tempo Black gains by attacking it is worth more than the central square White gained by moving there. Judge that trade honestly as the position unfolds."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    {
+      "san": "d4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White strikes the center immediately, offering a trade of the e- and d-pawns rather than developing a piece first."
+        }
+      ]
+    },
+    "exd4",
+    {
+      "san": "Qxd4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The queen recaptures and sits in the center on move three. Every opening guideline says not to do this -- so what, concretely, goes wrong?"
+        },
+        {
+          "type": "key-idea",
+          "title": "A gain that isn't free",
+          "body": "Nothing goes wrong immediately -- the queen isn't in danger. But it is exposed to any piece that develops toward it with tempo, and Black has exactly one such piece ready to go. The whole opening turns on the next move.",
+          "concepts": ["early queen development"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "c3",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The sharper sibling: sidestepping the tempo problem entirely",
+                "body": "Instead of recapturing at all, White offers a second pawn to open lines for both bishops -- the opening move of The Danish Gambit. It solves the exact problem this lesson is about: a queen on d4 can be attacked for a tempo, but a pawn on c3 cannot be. The cost is real material rather than a lost tempo, and whether that trade is sound is the subject of its own lesson."
+              }
+            ]
+          },
+          "dxc3",
+          "Bc4"
+        ]
+      ]
+    },
+    {
+      "san": "Nc6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Development that attacks",
+          "body": "One move, two jobs: the knight develops toward the center and forces the queen to move again. This is the entire refutation of moving the queen too early, in miniature -- Black hasn't done anything special, just developed the most natural way, and White has already lost the tempo gained by capturing on d4.",
+          "concepts": ["tempo", "early queen development"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c6", "to": "d4" }]
+    },
+    {
+      "san": "Qe3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "No retreat square is really comfortable",
+          "body": "Qe3 is the most common choice -- it eyes the a7-g1 diagonal and stays connected to a future queenside castle -- but it still cost a full tempo. There is no square where the queen simply undoes the problem; every honest retreat concedes something, which is exactly the price of moving it on move three."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Qa4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Pressure, not a threat -- the same idea as 3.Bb5",
+                "body": "Qa4 looks more active: it lands on the a4-e8 diagonal and eyes the c6 knight. But look closely -- the knight is already defended by the b7 pawn, so nothing is actually hanging. This is the same pattern The Ruy Lopez teaches with 3.Bb5: a piece landing on a square that pressures something without yet threatening to win it."
+              }
+            ]
+          },
+          "Nf6",
+          "Nc3",
+          "Bb4"
+        ]
+      ]
+    },
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black continues developing naturally, attacking e4 in passing (the queen on e3 still defends it, so nothing is won yet) while bringing a second piece out for free."
+        }
+      ]
+    },
+    {
+      "san": "Nc3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White finally develops a minor piece, adding a second defender to e4 and preparing to castle. Notice the difference in tempo: Black has two pieces out and hasn't wasted a move; White has one piece out and a queen that has already moved twice."
+        }
+      ]
+    },
+    {
+      "san": "Bb4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Pinning before White's king finds safety",
+          "body": "The bishop pins the newly developed knight to White's own king, which is still on e1. It isn't dangerous yet -- the queen on e3 still covers e4 -- but it means White cannot casually ignore development any longer.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    {
+      "san": "Bd2",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A developing move that also blocks the pin -- efficient, and typical of how White has to play this opening: every move needs to solve two problems at once just to catch up."
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "O-O-O",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Opposite-side castling changes the arithmetic",
+          "body": "Rather than admit the tempo loss and play a quiet game, White castles to the opposite wing. This is the honest defense of the Center Game at club level: with kings on opposite sides, piece activity and attacking chances can outweigh a small development deficit, since both sides will be racing rather than maneuvering. It doesn't erase the lost tempo -- it changes what that tempo is being spent racing toward.",
+          "concepts": ["king safety"]
+        }
+      ]
+    },
+    {
+      "san": "Re8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black keeps developing with purpose, eyeing the newly half-open e-file now that White's king has left it."
+        }
+      ]
+    },
+    {
+      "san": "Qg3",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The queen's third trip",
+          "body": "Qg3 eyes g7, though with no immediate follow-up -- g7 is defended and nothing forces the issue yet. Three queen moves in eight moves is the real scoreboard of this opening: White has generated some activity and a same-side attacking setup, but Black has never once had to spend a tempo reacting to the queen."
+        }
+      ]
+    },
+    {
+      "san": "d6",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Opposite-side castling, opposite plans",
+          "body": "Black solidifies and completes development calmly. With kings on opposite wings, the middlegame plans are set: White looks for a kingside pawn storm and piece activity around the queen's outpost on g3; Black, already ahead in development, looks to open the center or the queenside where White's king lives. Neither side has a forced advantage -- but Black reached this position without ever losing a tempo, and White did it by spending three."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: an early queen move can be met by any developing move that attacks it, and 3...Nc6 is the cleanest possible example; there is no retreat square that erases a lost tempo, only different concessions (compare Qe3's passivity with Qa4's echo of the Ruy Lopez's non-threat); and opposite-side castling is the honest way this opening survives in practice -- not by refuting the tempo loss, but by changing the kind of position where it's being spent."
+        }
+      ]
+    }
+  ]
+}

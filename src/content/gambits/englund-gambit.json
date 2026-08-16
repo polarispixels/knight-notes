@@ -1,0 +1,234 @@
+{
+  "id": "englund-gambit",
+  "catalogCode": "GB024",
+  "focus": "black",
+  "title": "The Englund Gambit",
+  "subtitle": "One pawn, four queen moves, and a bet on the opponent",
+  "type": "gambit",
+  "difficulty": "beginner",
+  "summary": "Black meets 1.d4 with an immediate central pawn offer, hoping fast piece activity outweighs the missing pawn and the structural commitments White never has to make. It rarely does — this lesson lays out honestly why 1...e5 falls short positionally, what the simple, trap-proof refutation looks like, and where the gambit's real practical value actually lies.",
+  "tags": ["Englund Gambit", "Englund Counter-Gambit", "Charlick Gambit", "Queen's Pawn Game", "d4 defenses", "dubious gambits"],
+  "concepts": ["compensation", "tempo", "queen safety", "structural deficit", "trap awareness", "development"],
+  "metadata": {
+    "eco": "A40",
+    "opening": "Queen's Pawn Game: Englund Gambit",
+    "historicalContext": "Named for the early-20th-century Swedish player Fritz Englund, who championed 1...e5 as a direct, if objectively unsound, reply to 1.d4. It has a thin but real tournament history, and it remains one of the most commonly encountered scholastic and club-level tries against 1.d4."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Every other reply to 1.d4 — ...Nf6, ...d5, ...f5 — keeps the center's material balance intact while fighting for it. The Englund Gambit gives up a full pawn on move two for nothing more concrete than quick piece activity, sitting alongside 1...Nf6 and 1...d5 as one of Black's stranger tries in the wider Queen's Pawn Game family. The honest question this lesson answers: does that activity actually compensate, or is the whole opening a bet that the opponent doesn't know the antidote? For the specific tactical trick that has claimed countless underprepared White players, see The Englund Gambit Trap — this lesson covers the calm, trap-proof refutation instead, and the structural reasons the gambit falls short even when White never walks into anything."
+    }
+  ],
+  "line": [
+    "d4",
+    {
+      "san": "e5",
+      "classification": "interesting",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The offer — and the least ambitious structure available",
+          "body": "Black gives up a genuine central pawn for open lines and quick development. Compare this to every other reply to 1.d4: none of them hand over material this early. Everything that follows is Black trying to prove that piece activity is worth more than the pawn and the tempo it will cost to regain it.",
+          "concepts": ["compensation"]
+        }
+      ]
+    },
+    "dxe5",
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black develops first rather than recapturing immediately — the pawn on e5 isn't going anywhere yet, and this knight will support the coming recapture attempt.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    "Nf3",
+    {
+      "san": "Qe7",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Aiming to regain the pawn",
+          "body": "The queen lines up to recapture on e5 next. This exact position is also the starting point of the Englund's most famous trick — see The Englund Gambit Trap for what happens if White answers naturally with the bishop. Here, White finds the simple antidote instead.",
+          "concepts": ["trap awareness"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e7", "to": "e5" }]
+    },
+    {
+      "san": "Nc3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The simplest antidote",
+          "body": "White develops a second piece and, crucially, avoids the entire family of b2/Qb4-adjacent tricks that make the Englund dangerous in practice — none of White's minor pieces have committed to a square Black can exploit. Simply developing, without trying to hold onto the extra pawn immediately, sidesteps every tactic the gambit relies on.",
+          "concepts": ["development"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bf4",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The tempting trap-bait",
+                "body": "This looks equally natural — develop the bishop, defend the pawn — but it is the exact move the whole gambit is designed to provoke. See The Englund Gambit Trap for the full punishment; 4.Nc3 avoids the entire question by never letting the bishop commit to f4 in the first place.",
+                "concepts": ["trap awareness"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Qxe5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Material even, tempo already spent",
+          "body": "Black has the pawn back, but count the moves: the queen has moved twice while White has simply developed two pieces toward the center. This gap in useful development, not any single tactic, is the Englund's real problem.",
+          "concepts": ["tempo"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nf6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The more coherent try",
+                "body": "Instead of grabbing the pawn back immediately, Black develops first, accepting a pawn deficit in exchange for a cleaner, more normal-looking position. It is more sound-looking than the queen-shuffling main line — but Black is still simply down a pawn against accurate play, just without the extra tempo losses."
+              }
+            ]
+          },
+          {
+            "san": "Bg5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White develops actively and pins the newly arrived knight to the queen still sitting on e7 — the same pin mechanism that appears throughout queen's-pawn openings whenever a piece develops to g5 too early for the defender to have castled."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nd5",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The concrete point behind 4.Nc3",
+          "body": "The knight centralizes with a real threat: c7 is currently undefended, since Black's queen left d8 several moves ago and nothing else covers it. This is what 'behind in development' costs in practice — not just abstract tempo, but genuine tactical problems.",
+          "concepts": ["structural deficit"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d5", "to": "c7" }]
+    },
+    "Qd6",
+    {
+      "san": "Bf4",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop develops and attacks the queen a second time — Black's fourth piece move of the game is about to be a third queen retreat.",
+          "concepts": ["tempo"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f4", "to": "d6" }]
+    },
+    {
+      "san": "Qe6",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The real refutation isn't a trick — it's this",
+          "body": "The queen finally reaches a square that isn't under attack. But look at the position: Black's queen has moved four times, and White has three minor pieces developed toward the center with an extra pawn spent on nothing more than shuffling that one piece around. No single move loses the game for Black here — the deficit is structural, accumulated one tempo at a time, which is exactly why 1...e5 falls short even when White never touches a trap.",
+          "concepts": ["structural deficit", "tempo"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Qxf4",
+            "classification": "blunder",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "The bishop that isn't free",
+                "body": "Grabbing the attacking bishop looks like it finally turns the tables — material would favor Black. But the knight on d5 covers f4 as well as c7, and this is the second trap the position sets for anyone chasing material instead of counting defenders.",
+                "concepts": ["queen safety"]
+              }
+            ]
+          },
+          {
+            "san": "Nxf4",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The knight was watching all along",
+                "body": "White simply wins the queen for a bishop. This is the quiet cost of the Englund's whole approach: a knight centralized four moves ago on general principle turns out to be exactly where it needed to be.",
+                "concepts": ["queen safety"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "d5", "to": "f4" }]
+          }
+        ]
+      ]
+    },
+    "e4",
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black finally develops a piece instead of moving the queen again, pressuring both the centralized knight on d5 and the new pawn on e4 at once.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    {
+      "san": "Nxf6+",
+      "classification": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The trade that was always coming",
+          "body": "White trades the centralized knight for Black's newest developing piece, with check — there is no way to avoid structural damage on the recapture.",
+          "concepts": ["structural deficit"]
+        }
+      ]
+    },
+    {
+      "san": "gxf6",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The cost, made concrete",
+          "body": "Only one recapture is available, and it doubles Black's f-pawns and opens the g-file in front of the still-uncastled king. This is the Englund Gambit's real balance sheet: material even, four queen moves spent, a damaged kingside, and a White position that simply developed normally throughout."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: piece activity without structure is not automatically compensation — Black never got to cash in the 'activity' the gambit was supposed to buy; the real cost of 1...e5 is the accumulation of queen moves, not any single blunder; and the sound antidote is simple enough (4.Nc3, sidestepping every trick) that this gambit belongs in the practical-surprise category, not the sound-opening one — know it well enough to spring the trick or to see through it, and treat it as nothing more.",
+          "concepts": ["structural deficit", "tempo", "trap awareness"]
+        }
+      ]
+    }
+  ]
+}

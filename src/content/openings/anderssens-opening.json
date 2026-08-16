@@ -1,0 +1,190 @@
+{
+  "id": "anderssens-opening",
+  "catalogCode": "O132",
+  "focus": "white",
+  "title": "Anderssen's Opening",
+  "subtitle": "The most modest first move in chess",
+  "type": "opening",
+  "difficulty": "beginner",
+  "summary": "1.a3 fights for no square, develops no piece, and threatens nothing — it is the purest test of a single question: is an entire tempo worth spending on almost nothing? Learn the one concrete job this move actually does, why it survives as a real if rare weapon rather than a joke, and how to judge any 'waiting' move honestly.",
+  "tags": [
+    "Anderssen's Opening",
+    "1.a3",
+    "flank openings",
+    "irregular openings",
+    "waiting move"
+  ],
+  "concepts": [
+    "tempo",
+    "flexibility",
+    "prophylaxis",
+    "development"
+  ],
+  "metadata": {
+    "eco": "A00",
+    "opening": "Anderssen's Opening (1.a3)",
+    "historicalContext": "Named for Adolf Anderssen, one of the strongest players in the world in the 1850s, who played 1.a3 against Paul Morphy during their celebrated 1858 match in Paris. It has real, if thin, historical pedigree — a top player's genuine try, not an invented curiosity — which is why it keeps a place in the opening catalog at all."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "1.a3 does exactly one concrete thing: it takes the b4 square away from a future Black bishop or knight. It does not develop a piece, does not touch the center, and does not create any threat. The honest question this opening asks is not 'is this a good move' in the usual sense — it's 'how much is denying one square, on the first move, actually worth?' Almost every other reply White could make develops a piece or claims center space for the same one tempo. Anderssen's Opening is worth studying precisely because it isolates the tempo question from everything else."
+    },
+    {
+      "type": "historical",
+      "title": "A top player's genuine choice, not a joke",
+      "body": "Adolf Anderssen was a world-class player when he chose 1.a3 in a real match against Paul Morphy — that separates it from purely comic tries like 1.g4 or 1.e4 e5 2.Ke2. It has almost no independent theory of its own; its entire practical value is that whatever Black does next, White simply plays a completely ordinary, sound opening one move later."
+    }
+  ],
+  "line": [
+    {
+      "san": "a3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "principle",
+          "body": "One pawn move, one tiny restriction: b4 is no longer available to a Black piece for free. Nothing else about the position has changed."
+        }
+      ]
+    },
+    {
+      "san": "e5",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black takes the entire center for the cost of nothing — White's move accomplished nothing visible in return. Is White simply down a tempo now?"
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "c5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "A different test, a similar answer",
+                "body": "Black can also head straight for a flank structure instead of the center. White simply meets it with a normal, independently sound plan — a queenside expansion resembling positions from the English Opening, just a tempo behind schedule."
+              }
+            ]
+          },
+          "c4",
+          "Nc6",
+          "Nc3"
+        ],
+        [
+          {
+            "san": "d5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The sternest central test",
+                "body": "Grabbing the whole center with the other pawn is at least as testing as ...e5. Again, White has no special answer prepared — and needs none."
+              }
+            ]
+          },
+          "d4"
+        ]
+      ]
+    },
+    {
+      "san": "e4",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The honest answer",
+          "body": "Yes, in a narrow sense — Black gets a completely free hand in the center, and 1.a3 did nothing to stop it. But the real verdict is not 'does Black get full equality' (roughly, yes); it's 'is that tempo ever recovered.' The answer is: only situationally. A pawn already on a3 makes one specific Black idea — a piece landing on b4 — concretely bad, as the next moves show. Outside that, a3 is simply a spent tempo.",
+          "concepts": ["tempo"]
+        }
+      ]
+    },
+    "Nf6",
+    {
+      "san": "Nc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The one square a3 actually controls",
+          "body": "Watch what happens if Black tries the natural-looking pin here instead of the bishop's normal development square — the variation shows exactly why a3 was played.",
+          "concepts": ["prophylaxis"]
+        }
+      ]
+    },
+    {
+      "san": "Bc5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Ordinary Italian-flavored development. Compare this to the tempting alternative in the variation, which looks similar but is not the same move at all."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bb4",
+            "classification": "blunder",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The move a3 was actually played to stop",
+                "body": "In almost any other opening with a knight on c3, ...Bb4 pinning it is a completely normal idea. Here it simply hangs the bishop — White's pawn on a3 attacks b4 directly.",
+                "concepts": ["prophylaxis"]
+              }
+            ]
+          },
+          {
+            "san": "axb4",
+            "classification": "critical",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The one concrete, verifiable job",
+                "body": "White simply wins the bishop for a pawn. This is the entire practical payoff of 1.a3 in one line: it doesn't win material by itself, but it makes one specific square permanently unsafe for a Black piece — and this is what that looks like when Black forgets.",
+                "concepts": ["tempo"]
+              }
+            ],
+            "visual": [{ "type": "square", "square": "b4" }]
+          }
+        ]
+      ]
+    },
+    "Nf3",
+    "Nc6",
+    "Bc4",
+    "O-O",
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Both sides have simply played a normal, sound Italian-flavored opening. There is no trace of 'theory' left specific to 1.a3 — which is exactly the point. From here the game is judged on its own merits, not on the first move."
+        }
+      ]
+    },
+    "d6",
+    "Re1",
+    "Re8",
+    {
+      "san": "h3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A small prophylactic move — preventing ...Bg4 or ...Ng4 ideas before they exist — completely unrelated to a3. It shows how quickly the game's real content stops depending on the first move at all."
+        }
+      ]
+    },
+    {
+      "san": "h6",
+      "classification": "interesting",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "What you should have noticed",
+          "body": "Sixteen moves in, the position could have arisen from dozens of ordinary openings — nothing here required 1.a3. The honest verdict: as a surprise weapon 1.a3 is fine, since almost no opponent has a prepared answer, but it doesn't create an objective advantage. Two lessons carry beyond this game: a 'waiting' move should still be judged on what it concretely prevents (here, one square), not just on what it doesn't commit to; and a full tempo is a real cost that must be paid back by something specific, or it simply isn't recovered."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "id": "kings-fianchetto",
+  "catalogCode": "O138",
+  "focus": "white",
+  "title": "King's Fianchetto Opening",
+  "subtitle": "One fianchetto, four openings it can become",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "1.g3 develops the bishop to its most active diagonal before committing to anything else — no center pawn, no fight for a square, just a promise kept for later. Learn why that makes it less an opening of its own than a hub that quietly turns into the King's Indian Attack, the Réti Opening, the English Opening, or the Catalan Opening depending on what both sides do next.",
+  "tags": [
+    "King's Fianchetto Opening",
+    "Hungarian Opening",
+    "Barcza System",
+    "Benko's Opening",
+    "1.g3",
+    "flank openings",
+    "hypermodern"
+  ],
+  "concepts": [
+    "development",
+    "transpositional flexibility",
+    "long-term pressure",
+    "pawn breaks",
+    "prophylaxis",
+    "central tension"
+  ],
+  "metadata": {
+    "eco": "A00",
+    "opening": "King's Fianchetto Opening (1.g3)",
+    "historicalContext": "Known by several names because several strong players adopted it as a whole system rather than a single sideline: Hungarian grandmaster Gedeon Barcza built an entire repertoire around 1.g3 (hence 'Barcza System'), and Pal Benko's name is attached to it too ('Benko's Opening'). No single inventor — a shared discovery that the fianchetto is useful before you know what else you're doing."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "1.g3 develops the bishop to g2, aiming down the long diagonal at Black's queenside, and does nothing else — no pawn stakes a claim on the center, no piece attacks anything. That makes it the most purely flexible first move White has: almost everything it can become (a King's Indian Attack, a Réti Opening, an English Opening, even a Catalan Opening) it becomes later, by what White adds next. The central question of this lesson isn't 'what does 1.g3 threaten' — it threatens nothing — but 'what is White keeping open by waiting, and when does the bishop's diagonal actually start to bite?'"
+    }
+  ],
+  "line": [
+    {
+      "san": "g3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "principle",
+          "title": "Develop before you decide",
+          "body": "The bishop's best square, g2, is available on move one — so White takes it immediately, before committing to e4, d4, or c4. Compare this to most other openings, where the first move is also a central claim; here the first move is pure development, and the center is deferred.",
+          "concepts": ["development"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g2", "to": "a8" }]
+    },
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "One of many honest tests",
+          "body": "Grabbing the center immediately is Black's most natural reply, and the one this lesson follows. It is far from the only one — see the variation for what happens when Black heads toward a completely different structure instead."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nf6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Steering toward the King's Indian Attack",
+                "body": "Instead of grabbing the center, Black develops and waits. If the game continues in French- or Sicilian-flavored style, the resulting piece placement is the King's Indian Attack in every respect but move order — the same lesson, reached from the other side of a transposition. This is what 'transpositional hub' means in practice: 1.g3 doesn't decide which opening you're in. Black's reply does."
+              }
+            ]
+          },
+          "Bg2",
+          "e6",
+          "Nf3",
+          "c5",
+          "O-O"
+        ]
+      ]
+    },
+    {
+      "san": "Bg2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The point of move one is realized: the bishop eyes the entire a8-h1 diagonal, including d5 and, eventually, Black's queenside. Nothing is attacked yet — Black's own pieces will get in the way of this diagonal more than once before it matters.",
+          "concepts": ["long-term pressure"]
+        }
+      ]
+    },
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A small, necessary concession",
+          "body": "Black develops naturally and prepares ...e5, but the knight also lands squarely on Bg2's diagonal, blunting it for now. This is typical of facing a fianchetto: you don't avoid the long diagonal, you just decide when to be the piece sitting on it.",
+          "concepts": ["long-term pressure"]
+        }
+      ]
+    },
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Development continues without a single central pawn move yet from White. Compare this to the alternative in the variation, where White commits to the flank immediately instead."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "c4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Toward the Réti and the English instead",
+                "body": "Pressing d5 from the side with c4 — rather than developing Nf3 and later breaking with e4 — is the other half of this opening's identity. This is the exact strategic choice examined in the Réti Opening and the English Opening: influence the center with pieces and flank pawns instead of occupying it. A King's Fianchetto player genuinely chooses, move by move, which of these related openings to become.",
+                "concepts": ["transpositional flexibility"]
+              }
+            ]
+          },
+          "d4",
+          "Nf3"
+        ]
+      ]
+    },
+    {
+      "san": "e5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The big center",
+          "body": "Black claims two central squares at once. A pawn duo on d5 and e5 is an ambitious, space-gaining structure — the same shape Black often reaches against other flank openings, just examined here from the White side of an early g3.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "O-O",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "King safety first, as usual. White still hasn't fought for a single central square with a pawn — everything so far has been development."
+        }
+      ]
+    },
+    "Nf6",
+    {
+      "san": "d3",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The move that names the setup",
+          "body": "d3 prepares a future e4 without weakening anything. This exact sequence — g3, Bg2, O-O, d3 — is the identical piece placement White builds, move for move, in the King's Indian Attack; if Black had instead met 1.g3 with a French- or Sicilian-style setup (...e6, ...c5), this would already be that opening under its own name. Because Black chose the big d5-and-e5 center instead, we're in King's Fianchetto's own territory — but the pieces don't know or care which path got them here. That is the whole idea of a transpositional hub.",
+          "concepts": ["transpositional flexibility"]
+        }
+      ]
+    },
+    "Be7",
+    "Nbd2",
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Both sides have castled and developed everything except the last knight and the king's rook. White still hasn't played a single central pawn move beyond d3. What is White actually building toward?"
+        }
+      ]
+    },
+    {
+      "san": "e4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The point of nine quiet moves",
+          "body": "This is what all the preparation was for: e4 challenges Black's center directly, backed by d3 (which can recapture) and Nbd2 (which supports the whole operation). Every White move so far — the fianchetto, the castling, the knight retreat to d2 — existed to make this single central break sound. This is the same idea the King's Indian Attack, the Réti Opening, and the English Opening all share in different clothes: develop first, strike the center from a position of full mobilization.",
+          "concepts": ["pawn breaks", "central tension"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e4" }]
+    },
+    "dxe4",
+    {
+      "san": "dxe4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White recaptures toward the center. The pawn on e4 mirrors Black's on e5 — material and structure are level, and the position has become a genuine middlegame fight rather than an opening question."
+        }
+      ]
+    },
+    "Re8",
+    {
+      "san": "Re1",
+      "classification": "interesting",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "A quiet move with a real job",
+          "body": "Look carefully at the e4 pawn: Nf3 doesn't defend it (a knight on f3 never covers e4), and Bg2 aims straight through it but is blocked by White's own knight sitting on f3. Before this move, e4 was genuinely undefended. Re1 repairs that gap along the open file — exactly the kind of unglamorous move that decides whether a central pawn holds.",
+          "concepts": ["prophylaxis"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons from this lesson: first, 1.g3 is genuinely a hub, not a destination — the same piece placement reached three different ways (this game, a French setup, a Sicilian setup) becomes three different named openings. Second, a fianchettoed bishop's power is often blocked by your own pieces before it's blocked by the opponent's — track what's actually defended, not what's aimed at. Third, every central break in this family of openings (g3, KIA, Réti, English) is prepared, not improvised: d3 and Nbd2 both existed only to make e4 sound.",
+          "concepts": ["transpositional flexibility", "pawn breaks"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "e1", "to": "e4" },
+        { "type": "square", "square": "f3" }
+      ]
+    }
+  ]
+}

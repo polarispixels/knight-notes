@@ -1,0 +1,239 @@
+{
+  "id": "staunton-gambit",
+  "catalogCode": "GB022",
+  "focus": "white",
+  "title": "The Staunton Gambit",
+  "subtitle": "Punishing the Dutch's kingside pawn before Black settles in",
+  "type": "gambit",
+  "difficulty": "intermediate",
+  "summary": "White meets 1...f5 with an immediate 2.e4, betting that the loosened kingside and the missing king's-side development are worth more than a pawn. The Dutch Defense study showed this idea in outline; here it plays out in full — the pin that turns a spent tempo into lasting pressure, the modern defense that often lets Black keep the pawn and still stay perfectly safe, and the honest verdict on a gambit that is respected, not feared.",
+  "tags": ["Staunton Gambit", "Staunton's Gambit", "Dutch Defense", "Dutch Defence", "anti-Dutch systems", "d4 openings", "gambit play"],
+  "concepts": ["development", "the pin", "open e-file", "compensation", "king safety", "central tension"],
+  "metadata": {
+    "eco": "A82-A83",
+    "opening": "Dutch Defense: Staunton Gambit",
+    "historicalContext": "Named for Howard Staunton, England's leading player through the 1840s and 50s, who championed 2.e4 against the Dutch as a direct way to punish 1...f5's kingside commitment. It remains White's principal specific try against the Dutch nearly two centuries later."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Dutch Defense study introduced this gambit and stopped at move 4 — here it goes the rest of the way. White's whole idea rests on one mechanism: Bg5 pins Black's f6-knight to the queen, so White can meet the tension on e4 with a developing move instead of just losing a piece back for nothing. That doesn't mean White reliably wins the pawn back — in the main defense below, Black actually keeps it, banking on development and structure rather than a material edge to justify the whole line. Declining the pawn isn't really practical — 2...anything-else just leaves White's center and development lead intact for free, so 2...fxe4 is close to automatic. The honest verdict, matching the Dutch study's own framing: this is sound enough to demand precise defense from Black, and it remains a real, actively-played weapon — but it is no longer feared at master level, because the modern ...g6/...Bg7 setup neutralizes it with correct handling, often while holding onto the extra pawn."
+    }
+  ],
+  "line": [
+    "d4",
+    "f5",
+    {
+      "san": "e4",
+      "classification": "interesting",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The offer",
+          "body": "White refuses to let Black finish a Classical, Leningrad, or Stonewall setup undisturbed. The bet: Black's kingside is already slightly loosened by 1...f5 and the king hasn't castled, so a pawn spent now buys real time later.",
+          "concepts": ["compensation"]
+        }
+      ]
+    },
+    "fxe4",
+    {
+      "san": "Nc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops toward the pawn on e4 with the simple intention of just taking it back next move."
+        }
+      ]
+    },
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Not a defender — a deterrent",
+          "body": "This knight doesn't guard e4 the way a piece normally defends a pawn; Black's pawn on e4 has no other protector. Instead, Nf6 makes an immediate recapture unattractive: after a plain 4.Nxe4, Black simply replies ...Nxe4, and the gambit is over before it starts. White needs a better way in.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    {
+      "san": "Bg5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White still hasn't taken back the pawn, and now spends a move on the bishop instead. What has this move actually accomplished?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The mechanism behind the whole gambit",
+          "body": "Bg5 pins the f6-knight to the queen on d8 along the same diagonal. That knight can no longer safely recapture on e4 if White's own knight lands there — so White is now free to play Nxe4 (or, as in the main try below, f3) without simply trading a piece back for nothing. One quiet-looking bishop move converts 'I'm down a pawn with no follow-up' into genuine, ongoing pressure on the position ...f5 already loosened.",
+          "concepts": ["the pin"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "g5", "to": "d8" }
+      ]
+    },
+    {
+      "san": "g6",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The Modern Defense — Black's soundest answer",
+          "body": "Black fianchettoes, planning ...Bg7 to contest the long diagonal and castle quickly. This is the line modern theory considers Black's most reliable answer — and, notably, it isn't built around giving the pawn back at all: Black simply finishes development safely, often keeping the extra pawn for good and letting White's compensation stay exactly what it is, activity rather than material.",
+          "concepts": ["king safety"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "c6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The solid alternative — 4...c6",
+                "body": "Instead of fianchettoing, Black prepares ...Qb6 or ...Qa5 to pressure White's queenside dark squares and keeps ...d5 in reserve to challenge the center directly. It reaches a calmer, less committal structure than the ...g6 main line, at the cost of a slightly slower king's-side development."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "san": "Nc6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "A natural developing move — but it ignores the fact that White's d4 pawn is still on the board and can advance with tempo."
+              }
+            ]
+          },
+          {
+            "san": "d5",
+            "classification": "critical",
+            "importance": "notable",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The point every natural-looking Nc6 misses",
+                "body": "The advance hits the knight immediately, and because c6 is now occupied, Black can't fall back on the solid ...c6 setup afterward. The knight has to find a genuinely awkward square instead of a useful one — a small but real tax for developing before checking what the pawns can do.",
+                "concepts": ["development"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "d5", "to": "c6" }]
+          },
+          {
+            "san": "Ne5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The only reasonable central square, but the knight can be harassed again later (a future f4 is one idea), and Black still hasn't solved the original problem — how to finish development while a piece is pinned on f6."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "f3",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The direct try",
+          "body": "Rather than let the tension sit, White challenges the pawn again. If Black plays it safe here, fxe4 next move restores material equality outright — but the sharper, more critical test, and the one modern theory actually expects, is Black grabbing a second pawn instead. That line follows below.",
+          "concepts": ["open e-file"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Qd2",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The classical attacking setup",
+                "body": "Instead of the safe, structural approach of f3, White leaves the pawn question alone entirely and heads for long castling with a kingside pawn storm (h4-h5) to follow. This is the older, sharper treatment of the Staunton Gambit: it bets everything on a direct attack rather than the quiet, lasting development edge the main line banks on — riskier, and generally considered second-best today, but a real practical weapon against an unprepared opponent.",
+                "concepts": ["compensation"]
+              }
+            ]
+          },
+          "Bg7",
+          "O-O-O"
+        ]
+      ]
+    },
+    {
+      "san": "exf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The sharper, currently better-regarded choice: rather than defend or return the first pawn, Black grabs a second one. It's objectively fine for Black — but it hands White's remaining knight an excellent square for the recapture."
+        }
+      ]
+    },
+    {
+      "san": "Nxf3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The point, not a full recovery",
+          "body": "White has now developed two knights and a bishop and can castle next move — real, durable compensation. Don't mistake this for regaining the pawn, though: Black's extra pawn from move two is still on the board, having simply travelled from e4 to f3 before being captured rather than being returned. The whole point of f3 was never really to win material back; it was to finish development while the position was still open enough for that development to matter.",
+          "concepts": ["development", "compensation"]
+        }
+      ]
+    },
+    "Bg7",
+    {
+      "san": "Bd3",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The bishop's real diagonal",
+          "body": "Rather than detour through c4, the bishop develops straight to d3, where nothing stands between it and g6 — the pawn every fianchetto Dutch structure has to keep an eye on for the rest of the game.",
+          "concepts": ["compensation"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d3", "to": "g6" }]
+    },
+    "O-O",
+    "O-O",
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black stakes a claim in the center now that both kings are safe — a normal freeing move, and one the bishop on d3 doesn't even have to react to."
+        }
+      ]
+    },
+    {
+      "san": "Qe1",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Both sides' plans, laid bare",
+          "body": "The queen regroups toward the kingside, joining the bishop on d3 in eyeing the g6-h7 complex — a standard follow-up plan is Qe1-h4, adding a second attacker to the square the whole gambit has been circling since move four. Both kings are safe and the position has reached a normal middlegame, but the material is not settled: Black still holds the pawn taken all the way back on move two, never actually returned despite everything since. What White has to show for the gambit is visible right here instead: three minor pieces well placed, a long-standing target on g6, and a queen joining the attack. That is the honest shape of Staunton Gambit compensation — real and durable, but not material."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons carry out of this opening: a pin can turn a bad recapture into a fighting one (Bg5 made the whole f3 idea work where a plain Nxe4 would just have traded down for nothing); development-based compensation is a genuine, separate currency from material — White never actually needed to win the pawn back to have a real game; and 'critical' theory (f3) still leaves room for a sharper, riskier alternative (Qd2 and O-O-O) that bets everything on attack instead.",
+          "concepts": ["the pin", "compensation", "development"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e1", "to": "h4" }]
+    }
+  ]
+}
