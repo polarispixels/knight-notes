@@ -1,0 +1,309 @@
+{
+  "id": "london-system",
+  "catalogCode": "O006",
+  "focus": "white",
+  "title": "The London System",
+  "subtitle": "A setup you can rely on — if you play the plans, not the autopilot",
+  "type": "opening",
+  "difficulty": "beginner",
+  "summary": "The London builds the same sturdy structure against almost anything: Bf4 outside the pawn chain, the c3–d4–e3 pyramid, then plans around the Ne5 outpost and a kingside advance. Its reputation for being 'automatic' is exactly the trap this lesson defuses.",
+  "tags": [
+    "London System",
+    "d4 openings",
+    "systems",
+    "pawn structure"
+  ],
+  "concepts": [
+    "pawn structure",
+    "outposts",
+    "piece placement",
+    "kingside attack",
+    "pawn breaks",
+    "playing plans not moves"
+  ],
+  "metadata": {
+    "eco": "D02",
+    "opening": "London System",
+    "historicalContext": "Named after the London tournament of 1922, where it served as a safe weapon against hypermodern experiments. A century later it is the most popular 'system' opening at every level below master — and the most commonly misplayed, by people who learned the move order but not the reasons."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "A 'system' opening promises the same healthy setup against many defenses — that is real and valuable. But the setup is a place to play chess from, not a substitute for playing it. This lesson teaches the structure, the two plans that flow from it (the e5 outpost and the kingside advance), the pawn breaks that eventually open it, and the moments when copying the setup blindly loses material."
+    },
+    {
+      "type": "warning",
+      "title": "The one warning that matters",
+      "body": "Every move in this lesson comes with a reason. If you ever find yourself playing the London 'because that's the setup,' stop and find the reason — the variation at move two shows what happens to autopilot players."
+    }
+  ],
+  "line": [
+    {
+      "san": "d4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The queen's pawn stakes the center and, unlike 1.e4, comes already defended by the queen. Games beginning 1.d4 tend to be won by plans a little more often than by tactics — the London leans into that."
+        }
+      ]
+    },
+    "d5",
+    {
+      "san": "Bf4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White's next few moves will include e3, which locks the c1-bishop behind its own pawn. So why does the bishop leave home *before* e3 is played — and what does White give up by doing it?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The bishop escapes before the door closes",
+          "body": "This is the London's signature: the problem piece of all d4-openings — the queen's bishop — gets outside the pawn chain first, to its best diagonal, before e3 walls it in. The cost is real: the bishop no longer defends b2, and a sharp opponent will aim a queen at that square immediately (see the variation). A system's strengths and its weaknesses come from the same moves.",
+          "concepts": [
+            "piece placement"
+          ]
+        }
+      ],
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "f4",
+          "to": "b8"
+        },
+        {
+          "type": "square",
+          "square": "b2"
+        }
+      ]
+    },
+    {
+      "san": "Nf6",
+      "variations": [
+        [
+          {
+            "san": "c5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black immediately gnaws at d4 — and sets a test that autopilot fails."
+              }
+            ]
+          },
+          "e3",
+          {
+            "san": "Qb6",
+            "importance": "important",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The b2 raid — the London's entry exam",
+                "body": "The queen hits the pawn Bf4 left behind. This is the moment the 'same moves every game' player collapses: continuing the standard setup drops b2 and the initiative with it. White has genuine answers — Nc3!? offering the pawn for rapid development, or the solid Qb3 offering a trade — but they must be *chosen*, not defaulted. A system tells you where pieces belong; it cannot tell you when the position is on fire.",
+                "concepts": [
+                  "playing plans not moves"
+                ]
+              }
+            ],
+            "visual": [
+              {
+                "type": "arrow",
+                "from": "b6",
+                "to": "b2"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "e3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Now the wall goes up behind the bishop, opening the f1-bishop's diagonal at the same time. The structure is taking its intended shape."
+        }
+      ]
+    },
+    "c5",
+    {
+      "san": "c3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The pyramid",
+          "body": "c3, d4, e3: the London's pawn pyramid. Its apex d4 is defended twice over, so Black's ...c5 pressure hits granite; its slopes give both bishops clean diagonals. This structure is why the London bends so little to what Black does — and why the game often stays closed until someone plays a break: c4 or e4 for White, ...e5 for Black. Structure determines the plans; the plans wait for the breaks.",
+          "concepts": [
+            "pawn structure",
+            "pawn breaks"
+          ]
+        }
+      ],
+      "visual": [
+        {
+          "type": "square",
+          "square": "c3"
+        },
+        {
+          "type": "square",
+          "square": "d4"
+        },
+        {
+          "type": "square",
+          "square": "e3"
+        }
+      ]
+    },
+    "Nc6",
+    {
+      "san": "Nd2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Why this knight first, and why not c3 — its 'natural' square? The pawn took c3, and from d2 the knight supports both future breaks (e4 and c4) and can recapture on f3 or jump via b3. In systems, the second-best-looking square is often the right one.",
+          "concepts": [
+            "piece placement"
+          ]
+        }
+      ]
+    },
+    "e6",
+    {
+      "san": "Ngf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Development completes quietly. Note that Black's light-squared bishop is now shut behind ...e6 — the same problem White's bishop escaped on move two. The London's small, durable edge in many lines is exactly this pair of bishops compared."
+        }
+      ]
+    },
+    "Bd6",
+    {
+      "san": "Bg3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Retreat as maintenance",
+          "body": "Black offered a trade of dark-squared bishops — the London declines. On g3 the bishop keeps its diagonal, and if Black captures, the h2-recapture opens the rook's file toward the king. Also avoided: ...Nh5 harassment winning the bishop pair. Knowing which minor pieces to keep is half the London's middlegame.",
+          "concepts": [
+            "piece placement"
+          ]
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "Bd3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The other bishop takes the diagonal that points at h7 — Black's castled king. Its moment comes if the center stays closed and White's attack rolls forward on the kingside."
+        }
+      ],
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "d3",
+          "to": "h7"
+        }
+      ]
+    },
+    {
+      "san": "b6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black prepares ...Bb7 and keeps queenside options. The alternative here — releasing the central tension — changes both players' plans, and is worth a look.",
+          "concepts": [
+            "pawn structure"
+          ]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "cxd4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Releasing the tension",
+                "body": "Trading on d4 is always available to Black — but it makes a decision that can't be unmade."
+              }
+            ]
+          },
+          {
+            "san": "exd4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Which pawn recaptures?",
+                "body": "White takes with the e-pawn, keeping the c3 support for d4 and opening the e-file for a rook. Recapturing with the c-pawn instead would open the c-file — where Black's rooks arrive first. One recapture, two different games: pawn structure decisions are plan decisions.",
+                "concepts": [
+                  "pawn structure",
+                  "playing plans not moves"
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Ne5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The outpost — the London's crown jewel",
+          "body": "The knight lands on e5: defended by the d4-pawn, exchangeable only at a price. If Black's dark-squared bishop takes it, White recaptures and the g3-bishop's diagonal opens with force; if the c6-knight takes, White recaptures toward the center. From e5 the knight eyes f7, d7, and g6 — every road into Black's camp. Almost every London attacking game runs through this square.",
+          "concepts": [
+            "outposts",
+            "kingside attack"
+          ]
+        }
+      ],
+      "visual": [
+        {
+          "type": "square",
+          "square": "e5"
+        },
+        {
+          "type": "arrow",
+          "from": "e5",
+          "to": "f7"
+        }
+      ]
+    },
+    "Bb7",
+    {
+      "san": "f4",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The setup becomes an attack",
+          "body": "The f-pawn cements the outpost and announces the kingside plan: Rf3–h3 rook lifts, Qf3 or Qh5, g4 if needed — all while the pyramid keeps the center shut so Black's counterplay arrives slowly. Black will seek play with ...Ne7–f5 blockades or queenside expansion; the game is a race between plans, which is precisely what a system opening is for.",
+          "concepts": [
+            "kingside attack",
+            "pawn structure"
+          ]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: the setup exists to solve one piece's problem (the c1-bishop) and creates its own weakness doing it (b2) — strengths and weaknesses travel together; structure generates plans (pyramid → Ne5 → f4 → kingside), so learn squares and breaks, not move orders; and the London is a starting point that must be abandoned the moment the position demands it — the ...Qb6 raid is the standing reminder.",
+          "concepts": [
+            "playing plans not moves",
+            "outposts",
+            "pawn breaks"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -14,6 +14,13 @@ describe('bundled content', () => {
     expect(studies.length).toBeGreaterThanOrEqual(10)
   })
 
+  it('converts every content file — a skipped seed is a broken seed', () => {
+    // convertSeeds isolates failures at runtime (defense in depth), which
+    // means a broken study silently vanishes; this test makes that loud.
+    const files = import.meta.glob('../../../content/**/*.json')
+    expect(studies.length).toBe(Object.keys(files).length)
+  })
+
   it('has unique ids', () => {
     const ids = studies.map((s) => s.id)
     expect(new Set(ids).size).toBe(ids.length)

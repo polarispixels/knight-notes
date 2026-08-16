@@ -1,0 +1,247 @@
+{
+  "id": "vienna-game",
+  "catalogCode": "O005",
+  "focus": "white",
+  "title": "The Vienna Game",
+  "subtitle": "Flexible development, then the f-pawn storms forward",
+  "type": "opening",
+  "difficulty": "beginner",
+  "summary": "2.Nc3 looks quieter than 2.Nf3 — but it deliberately keeps the f-pawn free. White develops flexibly, then chooses the moment for f4, a King's-Gambit-style strike whose soundness depends entirely on timing. A lesson in when attacks are earned.",
+  "tags": ["Vienna Game", "Vienna Gambit", "e4 openings", "kingside attack"],
+  "concepts": [
+    "flexibility",
+    "kingside expansion",
+    "development before attack",
+    "central counterplay",
+    "pressure on f7",
+    "tactical motifs"
+  ],
+  "metadata": {
+    "eco": "C26",
+    "opening": "Vienna Game",
+    "historicalContext": "A favorite of the romantic Vienna school of the late 19th century, which loved f4 attacks but had learned from the King's Gambit's wounds: develop a piece first, then throw the pawn. The modern verdict is kinder to the Vienna than to its wilder ancestor for exactly that reason."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Vienna's first move develops a knight that does nothing to block the f-pawn — that is its entire secret. The lesson here is about timing: the identical pawn thrust f4 is strong or harmless depending on one detail of Black's setup, and Black's correct answer to a wing attack is always the same — strike back in the center. Watch for both."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    {
+      "san": "Nc3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "2.Nf3 attacks e5 and forces Black's hand. 2.Nc3 threatens nothing at all. What could White be getting in exchange for making no threat?"
+        },
+        {
+          "type": "key-idea",
+          "title": "A knight that keeps a promise",
+          "body": "Flexibility. The knight defends e4, supports a future d5 or f5 jump — and, unlike 2.Nf3, leaves the f-pawn free to advance. White is keeping two plans alive at once: quiet Italian-style development with Bc4, or a delayed King's Gambit with f4 under better circumstances. Moves that preserve options put the burden of commitment on the opponent.",
+          "concepts": ["flexibility"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "c3", "to": "d5" },
+        { "type": "square", "square": "f4" }
+      ]
+    },
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black develops naturally and eyes e4. Reasonable — but this exact move is what makes White's next thrust bite. The variation shows the same idea against 2...Nc6, where it has far less sting: the difference is worth understanding precisely.",
+          "concepts": ["flexibility"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nc6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Against the queen's knight, the gambit loses its teeth — so White usually switches plans, which is the Vienna's privilege."
+              }
+            ]
+          },
+          {
+            "san": "f4",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Same move, different value",
+                "body": "Now Black can safely accept: after ...exf4 there is no knight on f6 for e5 to kick, so Black keeps the pawn without losing time and White has real work to do for compensation. Compare this with the main line, where 3.f4 against ...Nf6 carries a concrete follow-up. A move's strength lives in the position, not in the move.",
+                "concepts": ["flexibility", "development before attack"]
+              }
+            ]
+          },
+          "exf4"
+        ]
+      ]
+    },
+    {
+      "san": "f4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The Vienna Gambit — a gambit with a condition",
+          "body": "Why does this work against ...Nf6 specifically? Because after 3...exf4, White plays 4.e5! and the attacked knight must retreat, handing White the center and the tempo that pays for the pawn (see the variation on Black's reply). White's second move quietly prepared this: the c3-knight guards e4 so the f-pawn could leave home. One developing move earned the right to attack.",
+          "concepts": ["kingside expansion", "development before attack"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "f4", "to": "e5" }
+      ]
+    },
+    {
+      "san": "d5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "principle",
+          "title": "Meet a wing attack in the center",
+          "body": "The classical antidote, and the most transferable idea in this lesson: when the opponent advances on a wing, strike back in the center. 3...d5 refuses the gambit pawn, opens lines toward White's slightly loosened king, and gives the f6-knight a strong central future. Grabbing the pawn instead walks into White's plan — see the alternative.",
+          "concepts": ["central counterplay"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "exf4",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "Taking the bait",
+                "body": "The capture itself isn't losing, but it hands White exactly what the gambit wanted. Watch the follow-up.",
+                "concepts": ["development before attack"]
+              }
+            ]
+          },
+          {
+            "san": "e5",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The point",
+                "body": "The pawn lunges forward with tempo — the f6-knight must retreat to its starting square, since d5 and e4 are covered by the c3-knight and g4 by the queen. Black's development goes backward while White's center goes forward: the gambit pawn has already been repaid with interest.",
+                "concepts": ["development with tempo", "kingside expansion"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "e5", "to": "f6" }]
+          },
+          "Ng8",
+          {
+            "san": "Nf3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White develops, guards against ...Qh4+, and will follow with d4 and Bc4 — a huge center, a lead in development, and pressure toward f7, all for one pawn. This is what a well-founded gambit looks like; Black faces a long defense."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "fxe5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White wins the e5 pawn but must immediately return attention to the center — Black's knight is about to land on e4, White's own weakened square."
+        }
+      ]
+    },
+    {
+      "san": "Nxe4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The knight plants itself on the square the f-pawn left behind. Material is level again. Notice the accounting: White owns an advanced e5 pawn and the half-open f-file; Black owns the e4 outpost and freer development. Sharp but balanced — the honest verdict on the Vienna Gambit declined.",
+          "concepts": ["central counterplay"]
+        }
+      ]
+    },
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Attack later, develop now",
+          "body": "The romantic move is Qf3 or an immediate pawn storm; the correct move is a developing one that also stops ...Qh4+ — the check that punishes every careless f4 opening. The Vienna's whole philosophy in one move: the attack waits until the pieces are ready.",
+          "concepts": ["development before attack"]
+        }
+      ]
+    },
+    "Be7",
+    {
+      "san": "d4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White builds the broad center the gambit structure supports and opens the c1-bishop. The e5 pawn — a wedge in Black's kingside — will anchor any future attack.",
+          "concepts": ["kingside expansion"]
+        }
+      ]
+    },
+    "O-O",
+    "Bd3",
+    {
+      "san": "f5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black reinforces the e4-knight and grabs kingside space of his own. But the move leaves something behind — watch White's reply, one of the rarest captures in chess."
+        }
+      ]
+    },
+    {
+      "san": "exf6",
+      "classification": "interesting",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "En passant — and why here",
+          "body": "The e5 pawn captures the f-pawn as it passes, as if it had stopped on f6. White volunteers this exchange for a reason: taken 'in passing,' the capture rips open the f-file that White's rook will inherit after castling, and removes the support Black just gave the e4-knight. En passant is not a party trick — it exists so a pawn cannot sneak past a confrontation, and here the confrontation favors White.",
+          "concepts": ["tactical motifs", "pressure on f7"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "f6" },
+        { "type": "arrow", "from": "f1", "to": "f7" }
+      ]
+    },
+    "Nxf6",
+    {
+      "san": "O-O",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The attack White earned",
+          "body": "Castling completes development and lands the rook on the open f-file, staring through f7 — the Vienna's target square. From here White's plans write themselves: Ng5 or Ne5, Qe1–h4 lifts, pressure on f7. Black is solid and can counter in the center with ...c5, so nothing is decided — but White attacks with a full army, not a hopeful raid.",
+          "concepts": ["pressure on f7", "kingside expansion"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a flexible move (2.Nc3) creates threats by preserving options, not by making them; the same thrust (f4) is strong or toothless depending on one enemy piece — always ask what a pawn advance attacks after each capture; and wing attacks are answered in the center (3...d5), while sound attacks are built on completed development, not instead of it.",
+          "concepts": ["flexibility", "development before attack", "central counterplay"]
+        }
+      ]
+    }
+  ]
+}

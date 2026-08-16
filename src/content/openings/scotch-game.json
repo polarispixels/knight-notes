@@ -1,0 +1,291 @@
+{
+  "id": "scotch-game",
+  "catalogCode": "O004",
+  "focus": "white",
+  "title": "The Scotch Game",
+  "subtitle": "Challenge the center on move three",
+  "type": "opening",
+  "difficulty": "beginner",
+  "summary": "Where the Ruy Lopez applies slow pressure, the Scotch asks the central question immediately: 3.d4 forces matters, trades the center open, and plays for rapid piece activity on open lines. Kasparov trusted it in world championship matches.",
+  "tags": ["Scotch Game", "e4 openings", "Scotch Four Knights", "open games"],
+  "concepts": [
+    "central confrontation",
+    "development with tempo",
+    "open lines",
+    "piece activity",
+    "initiative",
+    "queen development risks"
+  ],
+  "metadata": {
+    "eco": "C45",
+    "opening": "Scotch Game",
+    "historicalContext": "Named after a London–Edinburgh correspondence match of 1824. Dismissed for a century as releasing the tension too early, it was famously revived by Garry Kasparov against Anatoly Karpov in 1990 — proof that a direct question in the center never stops being dangerous."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Ruy Lopez lesson showed pressure that builds for ten moves. The Scotch is its opposite: White confronts e5 immediately, accepts that the center will be exchanged, and asks to be paid in time and open lines. The skill this opening teaches is using a lead in development before it evaporates — activity is a currency that must be spent."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Familiar ground so far — develop, attack e5, force Black to respond. The fork in the road comes next move."
+        }
+      ]
+    },
+    "Nc6",
+    {
+      "san": "d4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Instead of the quiet Bb5 or Bc4, White offers a pawn trade in the middle of the board on move three. Black can simply capture — so what is White getting in return?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The immediate central question",
+          "body": "White gets the center resolved on White's terms. After ...exd4 and Nxd4, White has a centralized knight, free development for both bishops, and open central lines — while Black still has to solve where every piece goes. Black cannot comfortably decline: defending e5 again is awkward (see the variation), so the pawn tension lasts exactly one move. Compare the Ruy Lopez, where the same tension is nursed for ten.",
+          "concepts": ["central confrontation"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "d4", "to": "e5" },
+        { "type": "square", "square": "d4" }
+      ]
+    },
+    {
+      "san": "exd4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Best and nearly universal. Black trades a center pawn for a wing pawn's worth of structure but concedes the open lines White wanted. Holding the center instead costs more — see the alternative.",
+          "concepts": ["central confrontation"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "d6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Declining is worse than it looks",
+                "body": "Propping up e5 with a pawn seems solid, but watch what White extracts from it."
+              }
+            ]
+          },
+          "dxe5",
+          "dxe5",
+          {
+            "san": "Qxd8+",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "A trade that costs a right",
+                "body": "The queens leave the board and Black must recapture with the king, losing castling forever. No material was won — the profit is Black's king stranded in the center for an entire game. Small structural decisions can carry rights and duties along with them.",
+                "concepts": ["open lines"]
+              }
+            ]
+          },
+          "Kxd8",
+          {
+            "san": "Bc4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White develops with an eye on f7 — now permanently near the black king. There is no forced win here, just an endgame where one side plays with a full set of conveniences and the other does not."
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "c4", "to": "f7" }]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nxd4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A knight worth a pawn's place",
+          "body": "The knight recaptures and stands where a pawn once stood — attacked by nothing, controlling the center, ready to jump or to trade on c6. White's queen and both bishops now have open paths. This is the Scotch trade: central pawn presence exchanged for immediate piece activity.",
+          "concepts": ["piece activity", "open lines"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bc4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Scotch Gambit",
+                "body": "White can even leave the pawn on d4 and develop at full speed — a genuine gambit: material spent to buy tempo. It shows the same philosophy as the main line, only priced more aggressively. Accepting is critical for Black; the initiative White gets is real, though sound defense holds.",
+                "concepts": ["initiative"]
+              }
+            ]
+          },
+          "Bc5",
+          "c3",
+          "dxc3",
+          {
+            "san": "Nxc3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "For one pawn White has three pieces ready to act and open lines everywhere. Gambits are loans: White must attack before Black finishes developing and starts collecting the debt.",
+                "concepts": ["initiative", "development with tempo"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black develops and counterattacks e4 — the healthiest reply. Two instructive alternatives branch here: an early queen sortie that illustrates a rule, and a bishop line that illustrates the rule's exception.",
+          "concepts": ["development with tempo"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Qh4",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The queen goes out alone",
+                "body": "The queen raid hits e4 and looks terrifying. But a queen this early is a target: every White developing move that attacks her gains a full tempo. Watch White develop with threats while Black's army stands still.",
+                "concepts": ["queen development risks"]
+              }
+            ]
+          },
+          {
+            "san": "Nc3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Defending e4 while developing — no concession made. White intends Be2 and Nb5/Ndb5 ideas next; if the queen ever grabs on e4, tactics against c7 and f7 follow. Black gets activity for exactly one piece; White gets activity for all of them.",
+                "concepts": ["development with tempo", "queen development risks"]
+              }
+            ]
+          },
+          "Bb4",
+          "Be2"
+        ],
+        [
+          {
+            "san": "Bc5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Classical Scotch",
+                "body": "The bishop hits the proud d4-knight and forces White to make a decision — the other main road of the Scotch."
+              }
+            ]
+          },
+          "Be3",
+          {
+            "san": "Qf6",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The exception to the queen rule",
+                "body": "Didn't we just learn early queen moves are risky? Here ...Qf6 is respectable theory, because it makes a concrete threat — piling on the pinned-feeling d4-knight — and White can't easily harass the queen while dealing with it. The principle 'don't develop the queen early' really means 'don't develop the queen where it can be hit for free.' Principles describe costs, not laws.",
+                "concepts": ["queen development risks"]
+              }
+            ]
+          },
+          "c3",
+          "Nge7"
+        ]
+      ]
+    },
+    {
+      "san": "Nc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Defending e4 with development — this position, the Scotch Four Knights, is one of the most principled classrooms in chess: every move for the next five turns will be development, castling, or a central break."
+        }
+      ]
+    },
+    "Bb4",
+    {
+      "san": "Nxc6",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Trading to gain time",
+          "body": "Why give up the proud knight? Because ...Nxd4 was coming anyway, and this way Black spends a move recapturing while White develops. Notice what the recapture does to Black's structure: doubled c-pawns — but also a reinforced center, since ...d5 now comes with extra support. Almost every exchange gives each side something.",
+          "concepts": ["development with tempo"]
+        }
+      ]
+    },
+    "bxc6",
+    "Bd3",
+    {
+      "san": "d5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black strikes back in the center immediately — the right instinct, made possible by the c6-pawn. Both sides have now spent their central pawns; from here the game belongs entirely to the pieces.",
+          "concepts": ["central confrontation"]
+        }
+      ]
+    },
+    "exd5",
+    "cxd5",
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "King to safety, rook toward the open e-file. In an open position, castling is not just safety — it is a developing move for the rook.",
+          "concepts": ["open lines"]
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "Bg5",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Activity is the whole game now",
+          "body": "The pin on f6 pressures d5 — the last central pawn — and every piece on both sides is developed by move ten. Compare this with the Ruy Lopez at move ten, where the pawn tension was still building: the Scotch has already spent the center and converted it into piece play against d5 and along the e-file.",
+          "concepts": ["piece activity", "open lines"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a central question asked early forces the game onto concrete terms (3.d4 versus the Ruy's 3.Bb5); development that comes with a threat is worth more than development that doesn't (Nc3, Bg5, the gambit lines); and initiative decays — the side with the activity must use it before the opponent completes development. The Scotch is chess on a timer.",
+          "concepts": ["initiative", "development with tempo", "central confrontation"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "g5", "to": "f6" },
+        { "type": "square", "square": "d5" }
+      ]
+    }
+  ]
+}

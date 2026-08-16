@@ -1,0 +1,251 @@
+{
+  "id": "english-opening",
+  "catalogCode": "O007",
+  "focus": "white",
+  "title": "The English Opening",
+  "subtitle": "Controlling the center without standing in it",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "1.c4 fights for the center from the side: the c-pawn, a knight, and a fianchettoed bishop all converge on d5 before White commits a single central pawn. A lesson in influence versus occupation — and in plans that grow out of pawn structure.",
+  "tags": ["English Opening", "c4 openings", "fianchetto", "reversed Sicilian"],
+  "concepts": [
+    "control versus occupation",
+    "the d5 square",
+    "fianchetto",
+    "queenside expansion",
+    "flexible structures",
+    "transpositions"
+  ],
+  "metadata": {
+    "eco": "A20",
+    "opening": "English Opening",
+    "historicalContext": "Named for Howard Staunton, the English master who played it in his 1843 match with Saint-Amant, a century before it was fashionable. Botvinnik, Karpov, Kasparov, and Carlsen have all used it in world championship play — often precisely because it commits to so little so late."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Every other opening in this library begins by placing a pawn in the center. The English asks a subversive question: what if control of the central squares matters more than standing on them? White aims three units at one square — d5 — and lets Black occupy the center first, planning to prove that occupation without control is a target. This is the hardest idea of the five White openings here, and the most broadening."
+    }
+  ],
+  "line": [
+    {
+      "san": "c4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "No pawn to e4 or d4 — the first move is a flank pawn. A newcomer's instinct says White has given up the center. What is 1.c4 actually doing to the middle of the board?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Influence before occupation",
+          "body": "The pawn controls d5 — a central square — from the wing, without becoming a central target itself. White's plan is to pile more force onto d5 (a knight to c3, a bishop to g2) before deciding where the central pawns belong. Occupying a square parks one unit on it; controlling it decides what the opponent may ever do there. The misconception to shed: flank openings are not passive — they are patient.",
+          "concepts": ["control versus occupation", "the d5 square"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "c4", "to": "d5" },
+        { "type": "square", "square": "d5" }
+      ]
+    },
+    {
+      "san": "e5",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The reversed Sicilian",
+          "body": "Black takes the center White declined — and thereby recreates a Sicilian Defense with the colors reversed: White now plays the 'Black' setup with an extra tempo. Everything you know about Sicilian structures applies here, one move faster. Black's other main tries branch elsewhere: the symmetrical ...c5 and the flexible ...Nf6 (see the variations) — the English must be ready for all three characters of game.",
+          "concepts": ["flexible structures"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "c5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Symmetrical English",
+                "body": "Black mirrors the idea: both sides control the opposite central square from the flank, and neither hurries to commit. These maneuvering games are decided by who breaks symmetry at the right moment — often with a well-timed d4 or ...d5."
+              }
+            ]
+          },
+          "Nc3",
+          "Nc6",
+          "g3",
+          "g6",
+          "Bg2",
+          {
+            "san": "Bg7",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Twin fianchettos aim across the long diagonals at each other's queenside. White's extra move means White usually gets to pose the first question — the recurring English privilege."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "san": "Nf6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black's most flexible answer, keeping every setup available — and opening the door to the English's other identity."
+              }
+            ]
+          },
+          "Nc3",
+          "e6",
+          {
+            "san": "d4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Transposition — the English as a doorway",
+                "body": "One central push and the game has become a Queen's Gambit family position that 'began' 1.c4. Strong players use the English move order to steer toward d4-openings while dodging specific defenses. You don't need the theory yet — you need the concept: openings are networks of positions, not fixed sequences, and flexible first moves are junction boxes.",
+                "concepts": ["transpositions", "flexible structures"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A second attacker of d5, developed to its best square with no target offered. The English often plays its first three moves against that one square.",
+          "concepts": ["the d5 square"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c3", "to": "d5" }]
+    },
+    "Nf6",
+    {
+      "san": "g3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The fianchetto — a bishop aimed, not parked",
+          "body": "The bishop is headed to g2, where it will bear on d5 and the entire long diagonal into Black's queenside — the third English unit converging on the same square. A fianchettoed bishop is slower to arrive than Bc4, but nothing blocks it and no pawn kick ever hits it: it is the safest way to project force through the center without standing in it.",
+          "concepts": ["fianchetto", "the d5 square"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g2", "to": "d5" }]
+    },
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black occupies the contested square while it's still possible — the principled response. Now watch what White's three-unit preparation makes of it."
+        }
+      ]
+    },
+    {
+      "san": "cxd5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A flank pawn for a center pawn",
+          "body": "White happily trades the c-pawn for Black's d-pawn: the center Black just occupied is dissolving, and what remains is Black's e5-pawn facing White's untouched d- and e-pawns plus a g2-bishop suddenly staring down an open diagonal. This exchange — wing pawn for center pawn — is the quiet profit at the heart of many English lines.",
+          "concepts": ["control versus occupation"]
+        }
+      ]
+    },
+    "Nxd5",
+    {
+      "san": "Bg2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop arrives on its diagonal and immediately asks the d5-knight a question. Black's most common answer steps out of the beam — and the tempting trade instead does White two favors (see the alternative on Black's reply)."
+        }
+      ]
+    },
+    {
+      "san": "Nb6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The knight sidesteps the bishop's stare and keeps the long diagonal blocked... by nothing, actually — which is exactly why it left. From b6 it watches c4 and d5 and stays out of tactics.",
+          "concepts": ["the d5 square"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nxc3",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "A trade that helps the opponent",
+                "body": "Exchanging knights looks like simplification, but count what White receives on the recapture.",
+                "concepts": ["control versus occupation"]
+              }
+            ]
+          },
+          {
+            "san": "bxc3",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "body": "The b-pawn recaptures toward the center: White's next d4 now comes with extra pawn support, and the half-open b-file points a future rook at Black's queenside. Black spent two knight moves to improve White's structure. Before initiating any exchange, ask who the recapture develops.",
+                "concepts": ["queenside expansion"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Nf3",
+    "Nc6",
+    "O-O",
+    "Be7",
+    {
+      "san": "d3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The central pawn arrives — last, and modestly",
+          "body": "After seven moves of piece pressure, White finally touches a central pawn, and only one square forward. d3 supports a future e4 or the c4-square, keeps the g2-bishop's diagonal open, and completes a structure with no targets in it. This is delayed central occupation on purpose: the pawns commit only after the pieces have decided where the game is going.",
+          "concepts": ["control versus occupation", "flexible structures"]
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "a3",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The plan the structure wrote",
+          "body": "A tiny pawn move that announces the whole middlegame: b4 next, then b5 harassing the c6-knight, Rb1 behind it all — a queenside pawn storm exactly where White's space and the g2-bishop's diagonal already point. Black, with the e5-pawn and freer kingside, will attack on the other wing with ...f5. Both plans were dictated by the pawn structure ten moves ago. This is the reversed Sicilian in action — Sicilian players will recognize Black's own ...a6/...b5 plan, borrowed by White a tempo up.",
+          "concepts": ["queenside expansion", "flexible structures"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: control and occupation are different goods, and the English deliberately buys the first before the second (three units on d5 before any central pawn moved); trading a flank pawn for a central pawn is profit, and inviting the opponent to over-occupy can be a strategy; and plans come from structure — the queenside storm wasn't chosen, it was inherited. With this study you now hold five distinct ways to open for White: the Ruy's slow pressure, the Scotch's early confrontation, the Vienna's timed attack, the London's fixed structure, and the English's patient control.",
+          "concepts": ["control versus occupation", "queenside expansion", "the d5 square"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "b2", "to": "b4" },
+        { "type": "arrow", "from": "b4", "to": "b5" }
+      ]
+    }
+  ]
+}
