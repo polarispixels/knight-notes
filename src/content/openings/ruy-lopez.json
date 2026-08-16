@@ -1,0 +1,451 @@
+{
+  "id": "ruy-lopez",
+  "catalogCode": "O003",
+  "focus": "white",
+  "title": "The Ruy Lopez",
+  "subtitle": "The Spanish Game — pressure that lasts thirty moves",
+  "type": "opening",
+  "difficulty": "beginner",
+  "summary": "White's most enduring answer to 1...e5: the bishop goes to b5 not to win a pawn, but to trouble the defender of e5 for the rest of the game. Learn why the 'threat' isn't real yet, when it becomes real, and how everything builds toward the break d4.",
+  "tags": ["Ruy Lopez", "Spanish Game", "e4 openings", "Closed Ruy Lopez"],
+  "concepts": [
+    "development",
+    "pressure on e5",
+    "central tension",
+    "pawn breaks",
+    "long-term pressure",
+    "prophylaxis"
+  ],
+  "metadata": {
+    "eco": "C60",
+    "opening": "Ruy Lopez",
+    "historicalContext": "Named for Ruy López de Segura, a 16th-century Spanish priest who analyzed 3.Bb5 in one of the first great chess books (1561). Nearly five centuries later it remains a main battleground of world championship chess — not because it wins quickly, but because it never stops asking Black questions."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Ruy Lopez is not a trap or an attack — it is a plan. White develops toward one square, e5, and one idea: build lasting pressure on Black's center, then break it open with d4 at the right moment. Watch for one recurring question: is Bxc6 followed by Nxe5 actually a threat right now? The answer changes as the position develops, and understanding when it changes is understanding this opening."
+    }
+  ],
+  "line": [
+    {
+      "san": "e4",
+      "annotations": [
+        {
+          "type": "principle",
+          "body": "Stake a claim in the center and open lines for the queen and king's bishop. Every mainstream 1.e4 opening starts from this same promise: fast development and early king safety."
+        }
+      ]
+    },
+    "e5",
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "principle",
+          "title": "Develop with a threat",
+          "body": "The knight develops toward the center and attacks e5, so Black's reply is half-chosen already. Moves that develop and create a problem at the same time gain time.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black defends e5 the best way — with a developing move. Notice the arrangement this creates: the knight on c6 is now the pawn's only defender. The entire Ruy Lopez grows out of that single fact.",
+          "concepts": ["pressure on e5"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c6", "to": "e5" }]
+    },
+    {
+      "san": "Bb5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The bishop attacks the knight that defends e5. So is White simply threatening Bxc6 followed by Nxe5, winning a pawn? Look at the position and decide before you continue — the answer is the most important idea in this opening."
+        },
+        {
+          "type": "key-idea",
+          "title": "Pressure, not a threat — yet",
+          "body": "No. If White ever grabs the pawn with Bxc6 and Nxe5, Black replies ...Qd4!, forking the knight on e5 and the pawn on e4, and regains the pawn immediately (the variation at White's next move shows this). Bb5 is something subtler than a threat: it ties Black's center to a piece White can remove whenever the capture becomes genuinely favorable. That standing tension is the Ruy Lopez.",
+          "concepts": ["pressure on e5", "long-term pressure"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "b5", "to": "c6" },
+        { "type": "square", "square": "e5" }
+      ]
+    },
+    {
+      "san": "a6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The question to the bishop",
+          "body": "The Morphy Defense — Black's most popular reply for 150 years. It asks the bishop to declare itself: retreat and keep the pressure, or trade and change the position's character? Because Bxc6 wins nothing (as we're about to verify), Black can afford this small pawn move.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nf6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Berlin Defense",
+                "body": "Black may also simply develop and counterattack e4 at once. This solid system — Kramnik's famous wall against Kasparov in 2000 — shows that ...a6 is a choice, not an obligation. The themes stay the same: e5's defender is under watch, and both sides race to castle."
+              }
+            ]
+          },
+          "O-O"
+        ]
+      ]
+    },
+    {
+      "san": "Ba4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Retreating forward",
+          "body": "The bishop steps back but gives up nothing: it still eyes c6 along the same diagonal, and it keeps a future along the a2–g8 diagonal via b3, where it will stare at f7. White preserves this bishop because no other White piece can do its two jobs. When you do want to see the trade instead, the variation here shows the honest version of it.",
+          "concepts": ["long-term pressure"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bxc6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Exchange Variation",
+                "body": "Trading immediately is a real option — but watch what happens if White then tries to 'win' e5. This line settles the question from move 3 once and for all."
+              }
+            ]
+          },
+          {
+            "san": "dxc6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black recaptures toward the center, opening the c8-bishop and the queen's file. Doubled pawns, yes — but active pieces and the bishop pair as payment."
+              }
+            ]
+          },
+          {
+            "san": "Nxe5",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The pawn grab that isn't",
+                "body": "This is the capture beginners expect to work. Watch Black's next move take the pawn straight back.",
+                "concepts": ["pressure on e5"]
+              }
+            ],
+            "variations": [
+              [
+                {
+                  "san": "O-O",
+                  "annotations": [
+                    {
+                      "type": "key-idea",
+                      "title": "How the Exchange is really played",
+                      "body": "Instead of grabbing e5, White castles and plays against the structure: Black's queenside majority is crippled by the doubled c-pawns, so a far-future king-and-pawn endgame favors White. Bobby Fischer revived exactly this plan. The lesson: Bxc6 is a strategy about pawn structure, never a tactic that wins material.",
+                      "concepts": ["pawn breaks"]
+                    }
+                  ]
+                },
+                "f6",
+                "d4"
+              ]
+            ]
+          },
+          {
+            "san": "Qd4",
+            "importance": "important",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The fork that guards e5",
+                "body": "One move attacks both the knight on e5 and the pawn on e4 — White cannot save both. This resource is why 3.Bb5 never threatened anything concrete, and it silently protects Black for the next several moves of the main line.",
+                "concepts": ["pressure on e5"]
+              }
+            ],
+            "visual": [
+              { "type": "arrow", "from": "d4", "to": "e5" },
+              { "type": "arrow", "from": "d4", "to": "e4" }
+            ]
+          },
+          "Nf3",
+          "Qxe4+",
+          "Qe2",
+          "Qxe2+",
+          {
+            "san": "Kxe2",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Material is level again and the queens are gone. White's structure is a little healthier; Black's two bishops are a little freer — a roughly balanced endgame, and certainly not a won pawn. Verdict: the e5 pawn was never hanging."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black develops and counterattacks e4 — pressure answered with pressure. Now both central pawns have exactly one attacker and, for e4, no defender at all. Hold that thought through White's next move.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f6", "to": "e4" }]
+    },
+    {
+      "san": "O-O",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White just left e4 to its fate — Black can simply take it with the knight. Is castling a mistake?"
+        },
+        {
+          "type": "key-idea",
+          "title": "King safety before pawn counting",
+          "body": "It isn't. If Black takes on e4 (see the variation on Black's reply), White strikes back with d4 and regains the pawn with a lead in central activity — the Open Ruy Lopez. White offers the pawn temporarily because a castled king and an active rook are worth more than one tempo of material. This mirrors move 3: apparent loose ends in the Ruy Lopez are usually held together tactically.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    {
+      "san": "Be7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The main path: Black declines the pawn, blunts any future pin on the e-file, and prepares to castle. Compare the two bishops — Black's on e7 is a wall; White's on a4 is a laser. That asymmetry is White's small, permanent trophy from the opening."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nxe4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Open Ruy Lopez",
+                "body": "Taking the pawn is fully playable — it just isn't free. Watch White's center and pieces spring forward while Black spends moves holding the extra pawn."
+              }
+            ]
+          },
+          {
+            "san": "d4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "body": "The point of White's gambit: this break opens the center while Black's knight hangs in mid-air on e4 and the e5 pawn is attacked. White will regain the pawn on e5 with active pieces — activity was the real currency of 5.O-O.",
+                "concepts": ["pawn breaks"]
+              }
+            ]
+          },
+          "b5",
+          "Bb3",
+          "d5",
+          "dxe5",
+          "Be6"
+        ]
+      ]
+    },
+    {
+      "san": "Re1",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Now the threat is real",
+          "body": "Remember why Bxc6 and Nxe5 never worked: Black's ...Qd4 forked knight and e-pawn. The rook now defends e4 — so the fork regains nothing, and 7.Bxc6 followed by 8.Nxe5 genuinely threatens to win a pawn (the variation on Black's reply shows it). One quiet developing move transformed five moves of latent pressure into a concrete problem. This is how the Ruy Lopez works: the threat you prepared on move 3 finally exists on move 6.",
+          "concepts": ["long-term pressure", "pressure on e5"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "e1", "to": "e4" },
+        { "type": "square", "square": "e5" }
+      ]
+    },
+    {
+      "san": "b5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black must finally break the bishop's contact with c6 — the free ride is over. Note the cost: ...a6 and ...b5 are pawn moves, not developing moves, and the advanced queenside pawns will need looking after for the rest of the game.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "O-O",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "Castling into the real threat",
+                "body": "A natural move at the worst moment. Now White plays the sequence that failed on move four — and this time it works.",
+                "concepts": ["pressure on e5"]
+              }
+            ]
+          },
+          "Bxc6",
+          "dxc6",
+          {
+            "san": "Nxe5",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The same capture, a different world",
+                "body": "Try Black's old medicine: ...Qd4 forks knight and pawn as before, but after Nf3 the queen cannot take on e4 — the rook on e1 is waiting behind the pawn. White keeps a clean extra pawn. Same pieces, same squares, opposite verdict: what changed was one rook move. Calculation in the opening is about these small differences.",
+                "concepts": ["pressure on e5"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "e1", "to": "e4" }]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Bb3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Driven off the c6 diagonal, the bishop takes up its second career pointing at f7 — the weakest square near Black's king. It has moved three times, which normally violates opening principles; here each hop was forced by a pawn move that loosened Black's queenside. Time was traded for targets.",
+          "concepts": ["long-term pressure"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b3", "to": "f7" }]
+    },
+    {
+      "san": "d6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black gives e5 a second defender at last and frees the c8-bishop. The center is now stable but tense — neither side can win the other's e-pawn, and both begin preparing pawn breaks instead: d4 for White, eventually ...c5 for Black."
+        }
+      ]
+    },
+    {
+      "san": "c3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A pawn move with two futures",
+          "body": "c3 prepares the central break d4 with pawn support, and it reserves c2 as a safe home for the b3-bishop when Black eventually chases it with ...Na5. Playing d4 immediately instead would be premature — see the variation for the famous danger.",
+          "concepts": ["pawn breaks", "prophylaxis"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "d4",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The unprepared break",
+                "body": "The right idea a move too early. After the trades shown here, the natural 10.Qxd4? walks into ...c5! and ...c4!, burying the b3-bishop behind Black's queenside pawns — the Noah's Ark Trap (see the trap study of that name). White must instead maneuver around the d4 pawn with nothing to show for the early break. Breaks need preparation; that is what c3 was for.",
+                "concepts": ["pawn breaks"]
+              }
+            ]
+          },
+          "Nxd4",
+          "Nxd4",
+          "exd4"
+        ]
+      ]
+    },
+    "O-O",
+    {
+      "san": "h3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Prophylaxis — preventing the reply before making the threat",
+          "body": "A strange-looking little move with a precise purpose: once White plays d4, Black would love to answer with ...Bg4, pinning the knight that supports d4. h3 takes that idea away in advance. Strong players spend moves like this constantly — not creating threats, but deleting the opponent's best responses.",
+          "concepts": ["prophylaxis"]
+        }
+      ]
+    },
+    {
+      "san": "Na5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black finally hunts the b3-bishop — a piece this influential cannot be tolerated forever. The knight steps to the rim to trade it off, and Black accepts a poorly-placed knight as the price.",
+          "concepts": ["long-term pressure"]
+        }
+      ]
+    },
+    {
+      "san": "Bc2",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "When to preserve, when to trade",
+          "body": "White retreats again rather than allow the exchange — the fourth bishop move of the game, and still worth it. The rule of thumb this opening keeps demonstrating: preserve a piece when it has no equal (this bishop will aim at h7 after the center opens); trade when the trade damages the opponent's structure or wins time, as in the Exchange Variation. Trace the full journey: b5–a4–b3–c2.",
+          "concepts": ["long-term pressure"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "b3", "to": "c2" },
+        { "type": "arrow", "from": "c2", "to": "h7" }
+      ]
+    },
+    {
+      "san": "c5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black claims queenside space and readies pressure against d4 — counterplay to meet the break everyone knows is coming."
+        }
+      ]
+    },
+    {
+      "san": "d4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The break the whole opening prepared",
+          "body": "Nine moves of quiet preparation arrive here: the supported advance d4 challenges Black's center at full strength. This is the classic Closed Ruy Lopez battleground — White may keep the tension, push d5, or trade in the center, and the middlegame plans (the famous knight tour Nb1–d2–f1–g3 among them) all flow from this structure.",
+          "concepts": ["pawn breaks", "central tension"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry out of this opening: pressure can be stronger than threats (Bb5 troubled e5 for nine moves without once attacking it profitably); the value of a capture changes as quiet moves accumulate (Qd4 saved Black on move 4 and failed on move 7 because of one rook move); and pawn breaks are prepared, not played (c3 and h3 existed so that d4 would land at full strength).",
+          "concepts": ["long-term pressure", "pawn breaks", "pressure on e5"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d4" }]
+    }
+  ]
+}
