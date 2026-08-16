@@ -52,7 +52,7 @@
               {
                 "type": "commentary",
                 "title": "An immediate, sharper try",
-                "body": "Instead of building the center with d4 first, White challenges the knight right away. This is a real independent try, and if White follows up carelessly it can backfire — watch the trap below."
+                "body": "Instead of building the center with d4 first, White challenges the knight right away. This is a real independent try worth knowing on its own — and it also sets up a tempting tactical idea for Black that looks like it wins material but doesn't, examined below."
               }
             ]
           },
@@ -71,24 +71,22 @@
           "Nd5",
           {
             "san": "Bc4",
-            "classification": "mistake",
             "annotations": [
               {
-                "type": "warning",
-                "title": "A natural developing move that overlooks a fork",
-                "body": "The bishop eyes f7, but it ignores what the centralized knight can do on its next move."
+                "type": "commentary",
+                "title": "A natural developing move",
+                "body": "The bishop eyes f7 and gets a piece off the back rank. It looks routine — and it is, but it walks straight into a tempting idea for Black worth checking concretely rather than assuming it works."
               }
             ]
           },
           {
             "san": "Nb4",
-            "classification": "critical",
-            "importance": "critical",
+            "classification": "interesting",
             "annotations": [
               {
-                "type": "tactic",
-                "title": "The fork square",
-                "body": "The knight threatens ...Nc2+, forking the king on e1 and the rook on a1. White has not castled, so both pieces are still on their starting squares — the fork is fully real, not just a pattern. The only real defenses are a move that deals with c2 and a1 directly, such as sidestepping with Kf1, which at least avoids losing material at the cost of the right to castle.",
+                "type": "commentary",
+                "title": "A fork that isn't there",
+                "body": "The knight eyes c2, threatening ...Nc2+ to fork the king on e1 and the rook on a1. It looks dangerous — but White's queen has been sitting on d1 this whole time, and d1 defends c2 diagonally. The fork was never real; it just hasn't been tested yet.",
                 "concepts": ["piece activity"]
               }
             ],
@@ -99,23 +97,31 @@
           },
           {
             "san": "Nf3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Developing without fear",
+                "body": "White simply continues developing. There is nothing here to defend against — c2 was covered by the queen from the very start of the game."
+              }
+            ]
+          },
+          {
+            "san": "Nc2+",
             "classification": "blunder",
             "annotations": [
               {
                 "type": "mistake",
-                "title": "Developing straight into it",
-                "body": "A routine move that does nothing about the threat on c2. This is exactly the kind of natural-looking mistake this trap is designed to catch."
+                "title": "Following through on a fork that was never there",
+                "body": "This is the move the whole idea was building toward, and it simply loses a piece: the queen on d1 defends c2 and takes the knight on the spot."
               }
             ]
           },
-          "Nc2+",
-          "Ke2",
           {
-            "san": "Nxa1",
+            "san": "Qxc2",
             "annotations": [
               {
                 "type": "commentary",
-                "body": "Black wins the exchange outright. The whole sequence traces back to one overconfident developing move on move five that never asked what the knight on d5 could do next."
+                "body": "White wins a full knight for nothing. The lesson generalizes well beyond this line: before playing a check that looks like a fork, always check who defends the checking square first."
               }
             ]
           }

@@ -65,7 +65,7 @@
         {
           "type": "key-idea",
           "title": "Trading queens' worth of tempo",
-          "body": "No — White is happy to trade in the center here. After the coming exchanges White's d-pawn reaches d4 with tempo on Black's queen, and the game heads toward a structure where White's center pawn becomes isolated but active, not weak and passive. The other main try, meeting e4 with a knight instead of a pawn, is shown in the variation below.",
+          "body": "No — White is happy to trade in the center here. After the coming exchanges White's d-pawn reaches d4 and the game heads toward a structure where White's center pawn becomes isolated but active, not weak and passive. The other main try, meeting e4 with a knight instead of a pawn, is shown in the variation below.",
           "concepts": ["central pawn duo"]
         }
       ],
@@ -97,7 +97,7 @@
             "annotations": [
               {
                 "type": "commentary",
-                "body": "Well placed for now, but a single well-timed d4-d5-style pawn push or piece maneuver can evict it later — the knight's comfort on d5 is temporary, not permanent, in the same way White's e5-pawn is a long-term commitment rather than a free gain.",
+                "body": "Well placed for now, but a single well-timed c3-c4 pawn push or piece maneuver can evict it later — the knight's comfort on d5 is temporary, not permanent, in the same way White's e5-pawn is a long-term commitment rather than a free gain.",
                 "concepts": ["central pawn duo"]
               }
             ]

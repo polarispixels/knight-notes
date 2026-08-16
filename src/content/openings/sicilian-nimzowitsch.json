@@ -65,7 +65,7 @@
         {
           "type": "key-idea",
           "title": "The answer: an outpost, and a target",
-          "body": "The knight lands on a genuine outpost — no black or white pawn will ever challenge d5 again, since the pawns that would do it have already left that fight. But e5 pays a price of its own: it is not yet supported by another pawn, and Black's next few moves aim squarely at making it a target rather than an asset. This is the hypermodern trade Nimzowitsch described — provoke the advance, then attack what it left behind.",
+          "body": "The knight lands on an active outpost, though not an unchallengeable one — White's real try is a later c2-c4, hitting the knight and gaining more space at the cost of the queenside pawn structure. But e5 pays a price of its own: it is not yet supported by another pawn, and Black's next few moves aim squarely at making it a target rather than an asset. This is the hypermodern trade Nimzowitsch described — provoke the advance, then attack what it left behind.",
           "concepts": ["hypermodern counterattack", "outposts"]
         }
       ],
@@ -120,7 +120,7 @@
               {
                 "type": "key-idea",
                 "title": "A different bargain",
-                "body": "Black recaptures toward the center, but the new pawn on d5 has no neighbor to defend it — c5 sits one file over and one rank short, and the e-file is now open. An isolated pawn instead of a doubled one: a real, different structural choice from the main line, worth knowing exists even though this lesson does not chase it further.",
+                "body": "Black recaptures toward the center, but the original d7-pawn is still sitting right there — this recapture doubles Black's own d-pawns (d5 and d7) rather than accepting doubled c-pawns the way the main line does, and opens the e-file in the bargain. A different flavor of structural damage than the main line's, worth knowing exists even though this lesson does not chase it further.",
                 "concepts": ["central tension"]
               }
             ]
@@ -146,7 +146,7 @@
       "annotations": [
         {
           "type": "commentary",
-          "body": "Develops and attacks the e5 pawn a second time — Nf3 alone no longer holds it comfortably.",
+          "body": "Develops and attacks the e5 pawn for the first time — Nf3 alone has held it without issue until now.",
           "concepts": ["central tension"]
         }
       ],
@@ -160,7 +160,7 @@
         {
           "type": "key-idea",
           "title": "The undermining move",
-          "body": "This is the motif the whole opening was built to reach: a direct pawn strike at the base of e5. White's overextended pawn, which looked like a gain seven moves ago, is now the single thing both sides are arguing about.",
+          "body": "This is the motif the whole opening was built to reach: a direct pawn strike at the base of e5. White's overextended pawn, which looked like a gain back on move three, is now the single thing both sides are arguing about.",
           "concepts": ["hypermodern counterattack"]
         }
       ]
@@ -196,7 +196,7 @@
               {
                 "type": "warning",
                 "title": "Opening the file too soon",
-                "body": "Resolving the center looks natural — the pawn on e5 has been the target for three moves. But look at the d-file: it has been completely open since move five, and Black's king and queen are still sitting on their home squares. Trading now hands White a free tactic.",
+                "body": "Resolving the center looks natural — the pawn on e5 has been the target for three moves. But look at the d-file: it has been half-open for White since move five, with only Black's own d6-pawn keeping the queens apart, and Black's king and queen are still sitting on their home squares. This capture is exactly what fully opens the file — trading now hands White a free tactic.",
                 "concepts": ["open files"]
               }
             ],

@@ -18,7 +18,7 @@
     {
       "type": "key-idea",
       "title": "What this lesson teaches",
-      "body": "The Catalan fights the same central battle as The Queen's Gambit family study — c4 and d4 press Black's center exactly as they do there — but adds one idea of its own: fianchetto the king's bishop to g2, where it presses the long diagonal for the rest of the game. Watch how White recovers the c4 pawn without ever needing to defend it directly — the long diagonal does that work by itself, the way the Ruy Lopez's Bb5 pressured e5 without ever really threatening it."
+      "body": "The Catalan fights the same central battle as The Queen's Gambit family study — c4 and d4 press Black's center exactly as they do there — but adds one idea of its own: fianchetto the king's bishop to g2, where it presses the long diagonal for the rest of the game. Watch how White recovers the c4 pawn without ever needing to defend it directly — the queen simply walks down the open c-file to collect it while the long diagonal restrains Black's queenside the whole time, the way the Ruy Lopez's Bb5 pressured e5 without ever really threatening it."
     }
   ],
   "line": [
@@ -80,7 +80,7 @@
       "annotations": [
         {
           "type": "commentary",
-          "body": "The bishop takes up its post. It isn't attacking anything yet — d5 is defended, c6 and b7 are empty — but every one of those squares matters later, and this diagonal will still matter twenty moves from now.",
+          "body": "The bishop takes up its post. It isn't attacking anything yet — d5 is defended and c6 is still empty, while b7 holds a pawn the bishop will only get to bear on once that pawn moves — but every one of those squares matters later, and this diagonal will still matter twenty moves from now.",
           "concepts": ["long diagonal pressure"]
         }
       ]
@@ -101,7 +101,7 @@
         {
           "type": "key-idea",
           "title": "The Open Catalan",
-          "body": "Taking the pawn is completely safe for Black — for now. The point of this whole lesson is watching White get it back without ever playing a forcing tactic: just Qc2, and the long diagonal (plus the open c-file) makes the recapture almost automatic.",
+          "body": "Taking the pawn is completely safe for Black — for now. The point of this whole lesson is watching White get it back without ever playing a forcing tactic: just Qc2, and the open c-file makes the recapture almost automatic, while the long diagonal quietly restrains Black's queenside so there's no good way to hold the pawn instead.",
           "concepts": ["recovering a gambit pawn"]
         }
       ],
@@ -188,14 +188,14 @@
       "annotations": [
         {
           "type": "critical-position",
-          "title": "Both bishops, opposite diagonals",
-          "body": "White has recovered the gambit pawn, completed development, and still owns the long diagonal — Black's own bishop on b7 stares back down the same line. White's plans from here: press with the long diagonal, look for e4, or simply keep developing with a small, safe edge; Black's: challenge the center with ...c5, develop with ...Nbd7, or trade down toward an endgame where the small edge barely shows.",
+          "title": "Face to face on the long diagonal",
+          "body": "White has recovered the gambit pawn, developed every piece but the queenside bishop, and still owns the long diagonal — Black's own bishop on b7 stares back down the same line from the opposite end. White's plans from here: press with the long diagonal, look for e4, or simply keep developing with a small, safe edge; Black's: challenge the center with ...c5, develop with ...Nbd7, or trade down toward an endgame where the small edge barely shows.",
           "concepts": ["long diagonal pressure", "small durable edges"]
         },
         {
           "type": "key-idea",
           "title": "What you should have noticed",
-          "body": "Three things worth carrying forward: a fianchettoed bishop can make threats without moving — it recovered a pawn from its very first square, the way the Ruy Lopez's Bb5 pressured e5 without ever touching it; recapturing structures matter as much as recapturing material — Qc2 to Qxc4 back to Qc2 cost White no real time, since each queen move served a second purpose; and 'declining' the center, as in the Closed Catalan variation shown above, always trades a pawn's worth of activity for solidity — the same tradeoff the Queen's Gambit Declined makes against 1.d4 generally."
+          "body": "Three things worth carrying forward: a fianchettoed bishop can make threats without moving — it never touched c4 itself, but its grip on Black's queenside is exactly what let the queen recover the pawn for free, the way the Ruy Lopez's Bb5 pressured e5 without ever touching it; recapturing structures matter as much as recapturing material — Qc2 to Qxc4 back to Qc2 cost White no real time, since each queen move served a second purpose; and 'declining' the center, as in the Closed Catalan variation shown above, always trades a pawn's worth of activity for solidity — the same tradeoff the Queen's Gambit Declined makes against 1.d4 generally."
         }
       ]
     }

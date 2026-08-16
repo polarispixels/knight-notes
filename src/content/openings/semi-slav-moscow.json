@@ -114,7 +114,7 @@
       "annotations": [
         {
           "type": "commentary",
-          "body": "The calm main try. A sharper alternative, 7.Qb3, hits b7 and d5 at once and is a real option most club players avoid without preparation — but it doesn't change the fundamentals of what Black has already secured.",
+          "body": "The calm main try. A sharper alternative, 7.Qb3, pressures b7 down the open file and is a real option most club players avoid without preparation — but it doesn't change the fundamentals of what Black has already secured.",
           "concepts": ["development"]
         }
       ]
@@ -137,8 +137,8 @@
             "annotations": [
               {
                 "type": "mistake",
-                "title": "The pawn grab that invites disaster",
-                "body": "Grabbing the pawn looks free — the queen already eyes d4 along the f6-d4 diagonal, and only White's queen defends it. But White doesn't have to simply recapture. The in-between move 8.Nb5! attacks the queen a second time and threatens Nxc7+, forking king and rook. Black has to retreat the queen yet again just to cover c7, having spent three moves on one piece while White develops with a large lead in time for a single pawn.",
+                "title": "The pawn grab that hangs the queen",
+                "body": "This looks like a free pawn — the queen already eyes d4 along the f6-d4 diagonal — but d4 is defended three times over: the e3 pawn, the f3 knight, and the queen on d1 all cover it. White could simply play 8.exd4 or 8.Nxd4 and win the queen outright for a single pawn. The line here shows an even sharper punishment instead: the in-between move 8.Nb5!, attacking the queen a second time and threatening Nxc7+, forking king and rook — a flourish on top of an already-winning position, not the actual point. Either way, Black has spent three moves on one piece to grab a pawn that was never really there for the taking.",
                 "concepts": ["The Zwischenzug"]
               }
             ]

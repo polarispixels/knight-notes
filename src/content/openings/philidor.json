@@ -71,7 +71,7 @@
               {
                 "type": "warning",
                 "title": "The temptation this exact position creates",
-                "body": "1.e4 e5 2.Nf3 d6 3.Bc4 is the starting position of two studies already in this library, and both punish exactly this kind of move. Légal's Trap shows a forced mate after this pin and a greedy queen capture; The Opera Game shows Morphy dismantling a defense that just develops carelessly from the same position. The lesson is identical in both: with the king still on e8, giving White a free tempo instead of finishing development is dangerous, because White's most natural developing moves hit hardest exactly when Black isn't ready for them.",
+                "body": "1.e4 e5 2.Nf3 d6 3.Bc4 is the starting position of a study already in this library: Légal's Trap, which shows a forced mate after this pin and a greedy queen capture. The Opera Game reaches a closely related trap through a different move order (3.d4 Bg4, rather than 3.Bc4 Bg4) but punishes the same underlying idea. The lesson is identical either way: with the king still on e8, giving White a free tempo instead of finishing development is dangerous, because White's most natural developing moves hit hardest exactly when Black isn't ready for them.",
                 "concepts": ["development", "king safety"]
               }
             ],

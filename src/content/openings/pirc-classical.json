@@ -41,7 +41,7 @@
         {
           "type": "key-idea",
           "title": "Not quite a pin, but close",
-          "body": "The bishop attacks the f3-knight, and there is a second piece stacked right behind it on the very same diagonal: White's own bishop on e2. If the knight simply moves away, Bxe2 wins that bishop for nothing. White cannot ignore this alignment, which is exactly why the sharp reply h3 — forcing an immediate decision — is so natural here.",
+          "body": "The bishop attacks the f3-knight, and there is a second piece stacked right behind it on the very same diagonal: White's own bishop on e2. If the knight simply moves away, Bxe2 trades bishops evenly — White's queen and c3-knight both cover e2, so nothing is actually hanging — but it still costs White the bishop pair for nothing in return. White would rather avoid that trade on its own terms, which is exactly why the sharp reply h3 — forcing an immediate decision — is so natural here.",
           "concepts": ["central tension"]
         }
       ],
@@ -54,7 +54,7 @@
               {
                 "type": "commentary",
                 "title": "The other main try",
-                "body": "Developing naturally instead of pinning transposes toward the plan covered in The Pirc Defense, where White meets ...Nc6 with d5 and a knight retreat to e7. Both approaches are sound; this lesson focuses on the sharper pin."
+                "body": "Developing naturally instead of pinning heads toward the same space-gaining idea covered in The Pirc Defense, where White meets ...Nc6 with d5 — though here the knight retreats to b8 rather than e7, keeping options open for a later ...Nbd7 or ...c6. Both approaches are sound; this lesson focuses on the sharper pin."
               }
             ]
           },
@@ -127,12 +127,12 @@
       "annotations": [
         {
           "type": "key-idea",
-          "title": "The prize on the long diagonal",
-          "body": "White recaptures with the bishop, not a pawn — the whole point of playing Be2 rather than Bd3 earlier. The bishop now sits on the same long diagonal Black's own g7-bishop wanted, restraining a future ...e5 or ...d5 break before Black even gets to play it. This is the lasting, positional prize of the Classical Variation: not material, not an attack, just a slightly better version of the position that persists for the rest of the game.",
-          "concepts": ["long-diagonal bishop", "prophylaxis"]
+          "title": "The calmer recapture",
+          "body": "White recaptures with the bishop, not a pawn — the whole point of playing Be2 rather than Bd3 earlier. This keeps the kingside pawn structure completely intact, unlike the sharper gxf3 alternative shown below. The bishop lands on the long light-squared diagonal toward b7 and a8 — a genuinely different diagonal from Black's dark-squared g7-bishop, not a shared one — and White's own e4 pawn blocks it for as long as that pawn stays put. The real prize isn't the diagonal itself right now; it's a clean, undamaged position with the bishop pair conceded on White's own terms instead of for nothing.",
+          "concepts": ["bishop pair", "prophylaxis"]
         }
       ],
-      "visual": [{ "type": "arrow", "from": "f3", "to": "a8" }],
+      "visual": [{ "type": "square", "square": "f3" }],
       "variations": [
         [
           {

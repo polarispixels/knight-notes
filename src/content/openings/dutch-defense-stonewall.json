@@ -8,7 +8,7 @@
   "difficulty": "advanced",
   "summary": "Black locks the center rigidly with pawns on d5, e6, f5, and c6 — a wedge that hands over the light-squared bishop's future in exchange for the best square on the board, e4, for a knight. Learn why this trade is worth making, the one maneuver that rescues the bad bishop, and the fight both sides wage over the mirror-image square, e5.",
   "tags": ["Stonewall Dutch", "Dutch Defense", "Dutch Stonewall Formation", "d4 defenses", "pawn structure", "kingside attack"],
-  "concepts": ["good knight vs bad bishop", "e5 outpost", "kingside attack", "minority attack", "piece rerouting", "pawn structure"],
+  "concepts": ["good knight vs bad bishop", "e5 outpost", "kingside attack", "queenside expansion", "piece rerouting", "pawn structure"],
   "metadata": {
     "eco": "A90-A95",
     "opening": "Dutch Defense: Stonewall Variation",
@@ -37,7 +37,7 @@
         {
           "type": "key-idea",
           "title": "Committing to the wall",
-          "body": "Where the Classical Dutch develops the bishop normally with ...Be7, the Stonewall abandons that plan entirely. d5 begins the rigid pawn structure — a fixed, mutually supporting chain that will not move again in most lines. In exchange for that rigidity, e4 becomes a permanent home for a Black knight: no White pawn will ever be able to attack it there.",
+          "body": "Where the Classical Dutch develops the bishop normally with ...Be7, the Stonewall abandons that plan entirely. d5 begins the rigid pawn structure — a fixed, mutually supporting chain that will not move again in most lines. In exchange for that rigidity, e4 becomes a near-permanent home for a Black knight: no White pawn can safely challenge it there in the near term, and even the one pawn that eventually can (f2-f3) costs White real structural concessions to play.",
           "concepts": ["pawn structure"]
         }
       ],
@@ -133,7 +133,7 @@
               {
                 "type": "warning",
                 "title": "The natural-looking idea that changes nothing",
-                "body": "Fianchettoing looks like the standard cure for a bad bishop everywhere else in chess — but here it runs into the exact same wall. The bishop's new diagonal points straight at Black's own pawn on d5, so Bb7 stares at its own structure instead of the board."
+                "body": "Fianchettoing looks like the standard cure for a bad bishop everywhere else in chess — but here it runs into the exact same wall, immediately. The bishop's new diagonal runs straight into Black's own pawn on c6, one square from home, with d5 blocking it a second time right behind that. Bb7 stares at its own structure instead of the board."
               }
             ]
           },
@@ -144,7 +144,7 @@
               {
                 "type": "key-idea",
                 "title": "Two tempi for nothing",
-                "body": "The bishop is developed in name only: d5 blocks it at point-blank range, and unlike other systems' queenside fianchettoes, nothing about this diagonal opens up later on its own. This bishop has no real work until d5 itself moves or is traded off — the correct route, shown in the other variation here, goes the long way around instead.",
+                "body": "The bishop is developed in name only: c6 blocks it at point-blank range, with d5 blocking the same diagonal again just behind it, and unlike other systems' queenside fianchettoes, nothing about this diagonal opens up later on its own. This bishop has no real work until c6 and d5 themselves move or get traded off — the correct route, shown in the other variation here, goes the long way around instead.",
                 "concepts": ["good knight vs bad bishop"]
               }
             ]
@@ -164,16 +164,16 @@
             "annotations": [
               {
                 "type": "strategy",
-                "title": "The minority attack",
-                "body": "White has fewer queenside pawns than Black's a7-b7-c6 trio, and that's exactly what a minority attack exploits: a4 followed by b4-b5 aims to trade off or permanently fix a weakness on c6, mirroring the identical plan White faces from the other side of the board in the reversed-colors Stonewall Attack.",
-                "concepts": ["minority attack"]
+                "title": "A queenside pawn storm, not a minority attack",
+                "body": "White has the same number of queenside pawns as Black — three each, a4/b3/c4 against a7/b7/c6 — so this isn't the textbook minority attack it might resemble. It's still a real plan: a4 followed by b4-b5 gains space and aims to open lines or fix a weakness on c6, echoing the identical push White faces from the other side of the board in the reversed-colors Stonewall Attack.",
+                "concepts": ["queenside expansion"]
               }
             ]
           },
           {
             "san": "a5",
             "annotations": [
-              { "type": "commentary", "body": "Black can restrain the advance outright with ...a5, accepting a slightly weakened b5 square in exchange for shutting the minority attack down before it starts." }
+              { "type": "commentary", "body": "Black can restrain the advance outright with ...a5, accepting a slightly weakened b5 square in exchange for shutting the queenside pawn storm down before it starts." }
             ]
           }
         ]

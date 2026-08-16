@@ -113,7 +113,7 @@
               {
                 "type": "tactic",
                 "title": "The piece sacrifice",
-                "body": "White gives up a full knight for a pawn, betting on the follow-up capture on f6 to win a second pawn and shatter Black's kingside cover. This exact sequence has been analyzed for decades; the resulting piece-for-two-pawns middlegame is considered roughly balanced in theory, not winning for either side — both sides need to know precisely what they are doing.",
+                "body": "White gives up a full knight for a pawn — the opening move of one of the most concretely analyzed sacrifices in chess. There's more to collect before the ledger settles, and this exact sequence has been analyzed for decades; both sides need to know precisely what they are doing from here.",
                 "concepts": ["piece sacrifice"]
               }
             ]
@@ -124,7 +124,7 @@
             "annotations": [
               {
                 "type": "commentary",
-                "body": "White has a piece for two pawns and a Black king that has lost its natural cover — real, lasting attacking chances in exchange for the material. Whether that compensation is enough is exactly the kind of question this system exists to fight about."
+                "body": "Tally it here: White has given up a knight for a single pawn so far, against a Black king that has lost its natural kingside cover — real, if still incomplete, compensation. The rest of the accounting continues past where this branch stops; see The Botvinnik Variation for the full sequence and its final material balance."
               }
             ]
           }
@@ -269,7 +269,7 @@
         {
           "type": "tactic",
           "title": "The point of the sacrifice",
-          "body": "White's e5-pawn captures the f6-knight, recovering a full piece. Add it up: White gave a knight for the b5-pawn, then this pawn captured a second minor piece — net, White stands a clean extra pawn, with an advanced, dangerous pawn on f6 aimed straight at g7.",
+          "body": "White's e5-pawn captures the f6-knight. Add it up from the start: White sacrificed a knight on b5, Black's a-pawn recaptured it, and now this pawn captures Black's other knight — material is back to dead equal, piece for piece, pawn for pawn. What the sacrifice actually bought isn't material at all: it's this advanced, dangerous pawn on f6, aimed straight at g7, sitting deep in Black's position while the material stays level.",
           "concepts": ["piece sacrifice", "concrete calculation"]
         }
       ],
@@ -301,8 +301,8 @@
       "annotations": [
         {
           "type": "critical-position",
-          "title": "Piece for two pawns — and a real fight",
-          "body": "The material is now settled: White has a piece for two pawns, open lines toward Black's king, and a real initiative; Black has kept material even in relative value, the bishop pair, and a solid extra central pawn presence to consolidate around. Theory considers this roughly balanced, with immense practical complications on both sides — precisely why this system is played almost exclusively by players who have studied it in advance.",
+          "title": "Dead equal material — and a real fight",
+          "body": "Tally it up: pieces and pawns are dead equal on both sides — the sacrifice has fully paid for itself, move by move. What's left is a structural fight, not a material one. White has open lines, active pieces, and is about to castle to safety; Black's king is still in the center, but in return Black owns a deep, unopposed pawn on d4 that cramps White's pieces for the rest of the game. Theory considers this roughly balanced, with immense practical complications on both sides — precisely why this system is played almost exclusively by players who have studied it in advance.",
           "concepts": ["piece sacrifice", "king safety"]
         }
       ]
@@ -314,7 +314,7 @@
         {
           "type": "key-idea",
           "title": "What you should have noticed",
-          "body": "Three lessons: keeping both ...c6 and ...e6 is a genuine strategic choice, not indecision — it buys a sturdier center than the pure Slav at the cost of the bishop's early freedom; the Meran's piece sacrifice is not a trap or a blunder-punish — it is main-line theory, played by both sides on purpose, and the resulting piece-for-two-pawns middlegame is a real, balanced fight rather than a forced win; and at this level of theory, opening preparation and calculation are inseparable — the Semi-Slav rewards players willing to know exactly why each capture works, not just what the moves are."
+          "body": "Three lessons: keeping both ...c6 and ...e6 is a genuine strategic choice, not indecision — it buys a sturdier center than the pure Slav at the cost of the bishop's early freedom; the Meran's piece sacrifice is not a trap or a blunder-punish — it is main-line theory, played by both sides on purpose, and it fully pays for itself in material, leaving a dead-equal, dynamically balanced middlegame rather than a forced win; and at this level of theory, opening preparation and calculation are inseparable — the Semi-Slav rewards players willing to know exactly why each capture works, not just what the moves are."
         }
       ]
     }

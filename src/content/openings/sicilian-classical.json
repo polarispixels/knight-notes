@@ -96,7 +96,7 @@
               {
                 "type": "warning",
                 "title": "Not 6...g6",
-                "body": "Theory's warning here is specific: fianchettoing instead of a move like this one invites the exact sequence covered in full in The Magnus Smith Trap — White's e5 push, an automatic pawn recapture, and Bxf7+ deflecting the king away from the queen. Blunting the diagonal with e6 (or developing the queen to b6 first) sidesteps the whole idea by keeping f7 out of reach.",
+                "body": "Theory's warning here is specific: fianchettoing instead of a move like this one invites the exact sequence covered in full in The Magnus Smith Trap — Nxc6 first, clearing away the piece that guards e5 and d4, then White's e5 push, an automatic pawn recapture, and Bxf7+ deflecting the king away from the queen. Blunting the diagonal with e6 (or developing the queen to b6 first) sidesteps the whole idea by keeping f7 out of reach.",
                 "concepts": ["automatic recaptures"]
               }
             ]

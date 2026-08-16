@@ -12,7 +12,7 @@
   "metadata": {
     "eco": "E11",
     "opening": "Bogo-Indian Defense",
-    "historicalContext": "Named for Efim Bogoljubov, the Ukrainian-German grandmaster who challenged for the World Championship twice in the 1920s and championed 3...Bb4+ as a practical alternative to the sharper Nimzo-Indian. Its most famous demonstration is a trap, not a game: The Monticelli Trap, sprung by Mario Monticelli against Silvio Prokeš at Budapest 1926, shows exactly how quickly a 'quiet' Bogo-Indian can turn dangerous."
+    "historicalContext": "Named for Efim Bogoljubov, the Ukrainian-German grandmaster who challenged for the World Championship twice in the 1920s and championed 3...Bb4+ as a practical alternative to the sharper Nimzo-Indian. Its most famous demonstration is a trap, not a game: The Monticelli Trap, sprung by Mario Monticelli against Ladislav Prokeš at Budapest 1926, shows exactly how quickly a 'quiet' Bogo-Indian can turn dangerous."
   },
   "rootAnnotations": [
     {
@@ -130,7 +130,7 @@
               {
                 "type": "warning",
                 "title": "A well-known danger zone",
-                "body": "This exact position — reached by the most natural moves on both sides — is the starting point of The Monticelli Trap. Black's instinct here is to resolve the double attack on the c3-knight by simply trading it off, and that instinct is exactly what the trap punishes. See that study for the zwischenzug that turns an ordinary recapture into a lost exchange."
+                "body": "This exact position — reached by the most natural moves on both sides — is the starting point of The Monticelli Trap. Black's own knight on e4 is suddenly attacked twice, by the knight on c3 and the queen on c2, and the natural instinct is to resolve that immediately by trading it off with ...Nxc3. That instinct is exactly what the trap punishes. See that study for the zwischenzug that turns an ordinary recapture into a lost exchange."
               }
             ]
           }

@@ -34,7 +34,7 @@
     {
       "type": "key-idea",
       "title": "What this lesson teaches",
-      "body": "The Queen's Gambit Declined family study showed Black holding central tension and releasing it on a favorable tempo. The Exchange Variation removes that tension by force: White simply trades on d5 early, before Black has to make any hard decisions. What's left is a clean, symmetrical pawn structure with asymmetrical plans — White presses on the queenside where Black has fewer pawns, Black presses in the center and on the kingside where the extra piece activity lives. Learning to read this structure is learning to plan without calculating."
+      "body": "The Queen's Gambit Declined family study showed Black holding central tension and releasing it on a favorable tempo. The Exchange Variation removes that tension by force: White simply trades on d5 early, before Black has to make any hard decisions. What's left is a clean, symmetrical pawn structure with asymmetrical plans — White presses on the queenside with the minority attack, fewer pawns than Black has there, using b4-b5 to create a weakness rather than to advance; Black presses in the center and on the kingside, the wing where White actually holds the extra pawn, with regrouped pieces rather than a pawn storm. Learning to read this structure is learning to plan without calculating."
     }
   ],
   "line": [
@@ -63,7 +63,7 @@
         {
           "type": "commentary",
           "title": "The Carlsbad pawn skeleton",
-          "body": "Black recaptures toward the center, and the defining structure of this whole variation is now on the board: pawns on d5 for Black, d4 for White, with the c- and e-files each missing a pawn on one side. Both sides have a clear pawn majority — White's is on the queenside (four pawns to three, once the wings are counted), Black's is on the kingside. That imbalance, not any tactic, is what the rest of the game is about.",
+          "body": "Black recaptures toward the center, and the defining structure of this whole variation is now on the board: pawns on d5 for Black, d4 for White, with the c- and e-files each missing a pawn on one side. Both sides have a clear pawn majority — White's is on the kingside (four pawns to three, once the wings are counted, since Black's e-pawn is the one that's gone), Black's is on the queenside (three pawns to two, since White's c-pawn is the one that's gone). That imbalance, not any tactic, is what the rest of the game is about.",
           "concepts": ["the Carlsbad structure"]
         }
       ],

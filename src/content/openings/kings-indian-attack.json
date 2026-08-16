@@ -120,7 +120,7 @@
         {
           "type": "key-idea",
           "title": "A reversed King's Indian Defense",
-          "body": "It should: ...c5, ...Nc6, ...e5, and soon ...Be7 is the King's Indian Defense's own setup, mirrored with colors reversed. Black is essentially playing a King's Indian Defense against White's flank development — but White gets there with an extra tempo, and that tempo is the entire reason the King's Indian Attack can seize the initiative Black usually enjoys in that opening.",
+          "body": "It should: g3, Bg2, O-O, d3, Nbd2, and e4 is the King's Indian Defense's own fianchetto setup, mirrored with colors reversed — White is the side playing the King's Indian Defense here. Black's ...c5, ...Nc6, ...e5, and soon ...Be7 is the classical, non-fianchetto reply to it, the same kind of setup White usually reaches for against a real King's Indian Defense. The one real difference: White gets there with an extra tempo, and that tempo is the entire reason the King's Indian Attack can seize the initiative Black usually enjoys in that opening.",
           "concepts": ["universal system"]
         }
       ]

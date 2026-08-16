@@ -209,7 +209,7 @@
       "annotations": [
         {
           "type": "commentary",
-          "body": "Only now does the kingside knight commit to f6 — five moves later than in most other Sicilians, and on Black's own schedule rather than out of necessity."
+          "body": "Only now does the kingside knight commit to f6 — three moves later than in most other Sicilians, and on Black's own schedule rather than out of necessity."
         }
       ]
     },
@@ -253,7 +253,7 @@
         {
           "type": "critical-position",
           "title": "Both plans, visible at once",
-          "body": "White's program: f4-f5 to gain space and attack, or Qe1-g3 and central maneuvering to press the d6/e5 complex. Black's program: ...b5 completing the queenside expansion prepared six moves ago, ...Bb7, and a rook to c8 down the half-open file — with the option to trade knights on d4 at any moment to relieve central pressure. Neither side has committed to a single plan; both are still choosing.",
+          "body": "White's program: f4-f5 to gain space and attack, or Qe1-g3 and central maneuvering to press the d6/e5 complex. Black's program: ...b5 completing the queenside expansion prepared four moves ago, ...Bb7, and a rook to c8 down the half-open file — with the option to trade knights on d4 at any moment to relieve central pressure. Neither side has committed to a single plan; both are still choosing.",
           "concepts": ["queenside expansion", "flexibility"]
         },
         {

@@ -112,7 +112,7 @@
         {
           "type": "commentary",
           "title": "Provoking the trade anyway",
-          "body": "Even though Qc2 already defuses the doubled-pawn threat, White still often invites the exchange with a3 — it clarifies the position and, since Qxc3 lands the queen on an active square eyeing the long diagonal and e5, White is happy to see the bishop go. Compare this to the alternative shown here: answering the pin too early, before it has been provoked, gives away the same trade for strictly less.",
+          "body": "Even though Qc2 already defuses the doubled-pawn threat, White still often invites the exchange with a3 — it clarifies the position and, since Qxc3 lands the queen on a genuinely active square, free to swing to b3, d3, or a5 and later support an e3-e4 advance, White is happy to see the bishop go. Compare this to the alternative shown here: answering the pin too early, before it has been provoked, gives away the same trade for strictly less.",
           "concepts": ["avoiding structural damage"]
         }
       ],
@@ -171,7 +171,7 @@
         {
           "type": "key-idea",
           "title": "A queen that earns its trip",
-          "body": "White keeps the bishop pair and a queen already posted actively, eyeing c6, e5, and the long dark diagonal toward g7. This is what Qc2 was for from the start: recapture without damage, on a square the queen actually wants.",
+          "body": "White keeps the bishop pair and a queen already posted actively — free to reroute to b3, d3, or a5, and ready to support a future e3-e4 push, even though White's own c4 and d4 pawns block the long diagonal for now. This is what Qc2 was for from the start: recapture without damage, on a square the queen actually wants.",
           "concepts": ["the bishop pair"]
         }
       ]

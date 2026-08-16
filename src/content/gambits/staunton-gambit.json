@@ -186,7 +186,7 @@
         {
           "type": "key-idea",
           "title": "The point, not a full recovery",
-          "body": "White has now developed two knights and a bishop and can castle next move — real, durable compensation. Don't mistake this for regaining the pawn, though: Black's extra pawn from move two is still on the board, having simply travelled from e4 to f3 before being captured rather than being returned. The whole point of f3 was never really to win material back; it was to finish development while the position was still open enough for that development to matter.",
+          "body": "White has now developed two knights and a bishop, with the king ready to castle as soon as the f1-bishop steps aside (Bd3 next, then O-O) — real, durable compensation. Don't mistake this for regaining the pawn, though: Black's extra pawn from move two is still on the board, having simply travelled from e4 to f3 before being captured rather than being returned. The whole point of f3 was never really to win material back; it was to finish development while the position was still open enough for that development to matter.",
           "concepts": ["development", "compensation"]
         }
       ]
@@ -224,7 +224,7 @@
         {
           "type": "critical-position",
           "title": "Both sides' plans, laid bare",
-          "body": "The queen regroups toward the kingside, joining the bishop on d3 in eyeing the g6-h7 complex — a standard follow-up plan is Qe1-h4, adding a second attacker to the square the whole gambit has been circling since move four. Both kings are safe and the position has reached a normal middlegame, but the material is not settled: Black still holds the pawn taken all the way back on move two, never actually returned despite everything since. What White has to show for the gambit is visible right here instead: three minor pieces well placed, a long-standing target on g6, and a queen joining the attack. That is the honest shape of Staunton Gambit compensation — real and durable, but not material."
+          "body": "The queen regroups toward the kingside, joining the bishop on d3 in pressuring the g6-h7 complex — a standard follow-up plan is Qe1-h4, adding pressure on h7 down the open h-file while Bd3 keeps eyeing g6 down its diagonal, the square the whole gambit has been circling since move four. Together the two pieces cover both weak points instead of doubling up on one. Both kings are safe and the position has reached a normal middlegame, but the material is not settled: Black still holds the pawn taken all the way back on move two, never actually returned despite everything since. What White has to show for the gambit is visible right here instead: three minor pieces well placed, a long-standing target on g6, and a queen joining the attack. That is the honest shape of Staunton Gambit compensation — real and durable, but not material."
         },
         {
           "type": "key-idea",

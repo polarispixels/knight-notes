@@ -89,7 +89,6 @@
           },
           {
             "san": "g3",
-            "classification": "forced",
             "annotations": [
               {
                 "type": "commentary",
@@ -182,7 +181,7 @@
         {
           "type": "key-idea",
           "title": "A second target",
-          "body": "The bishop pins the knight defending e4, adding pressure to a position where White is already slightly behind on development because of the moves f4 and c3 spent on structure rather than pieces.",
+          "body": "The bishop pins the knight to the queen on d1, adding pressure to a position where White is already slightly behind on development because of the moves f4 and c3 spent on structure rather than pieces.",
           "concepts": ["central tension"]
         }
       ]

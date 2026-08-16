@@ -171,12 +171,12 @@
         [
           {
             "san": "d6",
-            "classification": "mistake",
+            "classification": "interesting",
             "annotations": [
               {
-                "type": "mistake",
-                "title": "A reasonable-looking move that wastes the moment",
-                "body": "This looks like ordinary development — nothing is hanging, nothing is forced. But it does nothing to fix or attack the a3/c3 pawns, and it hands White a free tempo to start the central plan the doubled pawns were supposed to pay for.",
+                "type": "warning",
+                "title": "A reasonable-looking move that costs a tempo",
+                "body": "This isn't a blunder — nothing is hanging, nothing is forced, and it's a legitimate developing move in its own right. But compared to the main line, it does nothing to fix or attack the a3/c3 pawns just yet, and it hands White a free tempo to start the central plan the doubled pawns were supposed to pay for.",
                 "concepts": ["queenside pressure"]
               }
             ]

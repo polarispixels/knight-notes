@@ -59,7 +59,7 @@
         {
           "type": "key-idea",
           "title": "The move that names the setup",
-          "body": "f3 rules out ...Ng4 or ...Nd4 jumps that could otherwise harass the e3-bishop or the c2-square, and it prepares a future g4 without weakening e4 first. It is a small, unglamorous move that makes everything after it work.",
+          "body": "f3 rules out ...Ng4, a jump that could otherwise harass the e3-bishop, and it prepares a future g4 without weakening e4 first. It is a small, unglamorous move that makes everything after it work.",
           "concepts": ["attacking plan"]
         }
       ]

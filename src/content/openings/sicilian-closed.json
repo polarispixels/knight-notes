@@ -19,7 +19,7 @@
   "metadata": {
     "eco": "B23-B26",
     "opening": "Sicilian Defense: Closed Variation",
-    "historicalContext": "A long-time favorite of positional players such as Boris Spassky and Bent Larsen, who used it to keep genuine winning chances against the Sicilian while sidestepping the sharpest, most heavily analyzed theory of the Najdorf and Dragon."
+    "historicalContext": "A long-time favorite of positional players such as Boris Spassky and Vasily Smyslov, who used it to keep genuine winning chances against the Sicilian while sidestepping the sharpest, most heavily analyzed theory of the Najdorf and Dragon. Bent Larsen shaped its theory too, chiefly from the Black side — his 6...f5 counterattack against White's setup remains a named resource in the line."
   },
   "rootAnnotations": [
     {
@@ -82,7 +82,7 @@
         {
           "type": "commentary",
           "title": "An unusually symmetric Sicilian",
-          "body": "Watch Black mirror the fianchetto move for move. Nearly every other Sicilian variation is built on asymmetry — that was the family study's whole argument for why 1...c5 fights for a win. Here, for the only time in the Sicilian family, both sides adopt matching setups. The imbalance survives anyway, just in a quieter form: it's a race between two kingside fianchettos pointed at two different targets.",
+          "body": "Watch Black mirror the fianchetto move for move. Nearly every other Sicilian variation is built on asymmetry — that was the family study's whole argument for why 1...c5 fights for a win. Here, unusually for the Sicilian family, both sides adopt matching setups. The imbalance survives anyway, just in a quieter form: it's a race between two kingside fianchettos pointed at two different targets.",
           "concepts": ["kingside fianchetto"]
         }
       ],

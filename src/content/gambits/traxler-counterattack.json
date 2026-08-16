@@ -130,12 +130,12 @@
     },
     {
       "san": "Kxf2",
-      "classification": "forced",
+      "classification": "theory",
       "annotations": [
         {
           "type": "commentary",
-          "title": "The only way to answer check",
-          "body": "Nothing else can capture on f2 and no other king move escapes the check, so White must take with the king. (Some White players instead try 6.Ke2, avoiding the capture entirely -- a real, independent branch of this opening with its own separate theory, not covered here.)"
+          "title": "The most natural way to answer check",
+          "body": "Taking the bishop is the most common reply, since it wins back material while dealing with the check. It is not forced, though: Ke2 and Kf1 both escape the check just as legally, sidestepping the capture entirely. Each leads to its own independent branch of theory, not covered here."
         }
       ]
     },
@@ -174,7 +174,7 @@
       "annotations": [
         {
           "type": "commentary",
-          "body": "The most commonly discussed try. White also has Ke1, Kf1, and the very risky Ke3 available here, and each leads to a genuinely different position -- another sign of how unsettled this whole line remains even at the club level."
+          "body": "The most commonly discussed try. White also has Ke1 and Kf1 available here, and each leads to a genuinely different position -- another sign of how unsettled this whole line remains even at the club level."
         }
       ]
     },

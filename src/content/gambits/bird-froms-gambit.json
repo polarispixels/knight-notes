@@ -81,7 +81,7 @@
         {
           "type": "key-idea",
           "title": "The compensation",
-          "body": "Black is down a full pawn but has a fully developed bishop aimed at h2, an open f-file waiting for the rook once Black castles, and — most importantly — a genuine tactical resource: if White develops carelessly, ...Qh4+ punishes it immediately (the variation on White's next move shows exactly how). That resource is why White's next move is close to forced.",
+          "body": "Black is down a full pawn but has a fully developed bishop aimed at h2, a half-open f-file for White that only needs ...f5 to fully open for Black's own rook once castled, and — most importantly — a genuine tactical resource: if White develops carelessly, ...Qh4+ punishes it immediately (the variation on White's next move shows exactly how). That resource is why White's next move is close to forced.",
           "concepts": ["development lead", "open files"]
         }
       ],
@@ -169,7 +169,7 @@
       "annotations": [
         {
           "type": "commentary",
-          "body": "Black continues developing naturally rather than forcing matters, keeping the bishop's diagonal and the coming open f-file in reserve.",
+          "body": "Black continues developing naturally rather than forcing matters, keeping the bishop's diagonal and the f-file — still blocked by Black's own f7 pawn for now — in reserve for later.",
           "concepts": ["development lead"]
         }
       ]
@@ -180,7 +180,7 @@
       "annotations": [
         {
           "type": "commentary",
-          "body": "Another developing move, eyeing e4 and preparing to castle into the open f-file that this whole gambit was played to create.",
+          "body": "Another developing move, eyeing e4 and preparing to castle behind the f-pawn that ...f5 will eventually push aside to open the file this whole gambit was played to create.",
           "concepts": ["open files"]
         }
       ]
@@ -191,7 +191,7 @@
       "annotations": [
         {
           "type": "commentary",
-          "body": "Castling connects the rook to the f-file at last — the practical payoff of giving up the e5 pawn seven moves ago.",
+          "body": "Castling puts the rook behind the f-pawn, ready to back up ...f5 whenever Black plays it — the file itself is still one move from opening, but the rook is now positioned for the practical payoff of giving up the e5 pawn seven moves ago.",
           "concepts": ["open files"]
         }
       ]

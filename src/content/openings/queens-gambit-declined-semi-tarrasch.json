@@ -157,7 +157,7 @@
       "annotations": [
         {
           "type": "commentary",
-          "body": "White recaptures toward the center, accepting doubled c-pawns in exchange for a genuinely large pawn mass in the middle of the board.",
+          "body": "White recaptures with the pawn, completing the knight trade and accepting a half-open b-file as the real cost — not doubled pawns, just a single, well-supported c-pawn joining a genuinely large mass in the middle of the board.",
           "concepts": ["structural trades"]
         }
       ]
@@ -233,7 +233,7 @@
         {
           "type": "critical-position",
           "title": "Activity against a center",
-          "body": "Both sides have completed development in barely twenty moves, an unusually fast mobilization for a d4 opening. Black's plan from here is clear: ...Bb7 adds a second attacker to d4, and pieces keep pressuring the center rather than trying to blockade it with pawns Black doesn't have. White's center is strong right now, but every pawn that advances creates new weak squares behind it — the center must eventually move, and Black's whole army is aimed at punishing exactly that moment.",
+          "body": "Both sides have completed development in about a dozen moves, an unusually fast mobilization for a d4 opening. Black's plan from here is clear: ...Bb7 adds a second attacker to d4, and pieces keep pressuring the center rather than trying to blockade it with pawns Black doesn't have. White's center is strong right now, but every pawn that advances creates new weak squares behind it — the center must eventually move, and Black's whole army is aimed at punishing exactly that moment.",
           "concepts": ["piece activity", "central challenge"]
         },
         {

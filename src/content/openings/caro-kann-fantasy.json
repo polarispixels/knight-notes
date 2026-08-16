@@ -253,13 +253,13 @@
         {
           "type": "critical-position",
           "title": "Space and development against a long-term target",
-          "body": "Both plans are visible now. White's e4 pawn gives real space and, together with the bishop pair and a lead in easy development, real practical chances — Bd3 aims at the kingside and the knight on d4 sits on a strong central post. But that pawn is genuinely isolated, defended twice (by the knight on d4 and the bishop on d3) and attacked twice (by the knight on f6 and the rook on e8) right now — a long-term weakness Black can press for the rest of the game rather than something either side wins immediately. White's ambitious center from move 3 has turned into exactly this kind of asset-and-liability at once.",
+          "body": "Both plans are visible now. White's e4 pawn gives real space and, together with the bishop pair and a lead in easy development, real practical chances — Bd3 aims at the kingside and the knight on d4 sits on a strong central post. But that pawn is genuinely isolated, and the knight on d4 does not actually guard it — right now e4 is defended only once, by the bishop on d3, against two attackers, the knight on f6 and the rook on e8. This is not a slow-burn weakness Black gets to press over many moves; it is already hanging, and the direct follow-up ...Nxe4 Bxe4 Rxe4 simply wins it back. White's ambitious center from move 3 has turned into exactly this kind of asset-and-liability at once — and here the liability side needs an answer immediately.",
           "concepts": ["pawn structure", "piece activity"]
         },
         {
           "type": "key-idea",
           "title": "What you should have noticed",
-          "body": "Three lessons: a move that develops nothing, like f3, is a real investment that must be repaid quickly, or the opponent's free tempo does real damage — here it let Black strike the center twice before White finished developing; concrete threats decide moves before general principles do, which is why 5...exd4 was forced and 5...Nf6 was a mistake in the same position; and an ambitious pawn center built through piece trades can end up as an isolated pawn — a long-term weakness that coexists with the very space and activity it also provides.",
+          "body": "Three lessons: a move that develops nothing, like f3, is a real investment that must be repaid quickly, or the opponent's free tempo does real damage — here it let Black strike the center twice before White finished developing; concrete threats decide moves before general principles do, which is why 5...exd4 was forced and 5...Nf6 was a mistake in the same position; and an ambitious pawn center built through piece trades can end up as an isolated pawn that needs constant, immediate defense — an asset and a liability at once, and the liability doesn't wait politely for a quiet moment.",
           "concepts": ["central tension", "pawn structure", "development"]
         }
       ],

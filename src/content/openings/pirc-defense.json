@@ -164,7 +164,7 @@
       "annotations": [
         {
           "type": "commentary",
-          "body": "The standard reroute. The knight was never going anywhere useful staying on c6 once the center closed; from e7 it can reappear on c8-d... or simply support a later ...c6 or ...f5, wherever the game needs it most."
+          "body": "The standard reroute. The knight was never going anywhere useful staying on c6 once the center closed; from e7 it can head through c8 toward b6, or simply support a later ...c6 or ...f5, wherever the game needs it most."
         }
       ]
     },
@@ -174,7 +174,7 @@
         {
           "type": "strategy",
           "title": "A small skirmish, not a threat",
-          "body": "White pins the f6-knight and invites ...h6, which slightly weakens the light squares around Black's king in exchange for kicking the bishop back. It is a typical minor tussle rather than a real threat — Black is not forced to accommodate it, but usually does, since a small structural concession now is cheaper than letting the pin linger."
+          "body": "White develops with a look at the f6-knight — not a pin, since Black's own knight on e7 already blocks the diagonal to the queen on d8, just a normal attacking move — and invites ...h6, which slightly weakens the light squares around Black's king in exchange for kicking the bishop back. It is a typical minor tussle rather than a real threat — Black is not forced to accommodate it, but usually does, since a small structural concession now is cheaper than letting the bishop sit there."
         }
       ]
     },
@@ -196,7 +196,7 @@
         {
           "type": "critical-position",
           "title": "Where the plans diverge",
-          "body": "The center is closed, both sides have finished the basic maneuvering, and the real Pirc middlegame begins. White's plans: expand on the queenside with c4 and b4, or on the kingside with f4, using the extra space earned back on move eight. Black's plans: reroute the e7-knight toward c8-... or f5, and use the long-diagonal bishop and flexible structure to strike back at the moment White's space becomes overextended rather than useful."
+          "body": "The center is closed, both sides have finished the basic maneuvering, and the real Pirc middlegame begins. White's plans: expand on the queenside with c4 and b4, or on the kingside with f4, using the extra space earned back on move eight. Black's plans: reroute the e7-knight through c8 toward b6, or advance it directly to f5, and use the long-diagonal bishop and flexible structure to strike back at the moment White's space becomes overextended rather than useful."
         },
         {
           "type": "key-idea",

@@ -67,7 +67,7 @@
         {
           "type": "key-idea",
           "title": "Which family does White choose?",
-          "body": "White finally commits the bishop, and this single move decides which opening the rest of the game will resemble. 4.Bb5 attacks c6 exactly as the Ruy Lopez does — but Black now has an extra developed knight, which unlocks a sharp reply (4...Nd4) unavailable in the Ruy proper and covered in depth in Spanish Variation. Two other common fourth moves send the game straight into a cousin's structure instead — see the alternatives here.",
+          "body": "White finally commits the bishop, and this single move decides which opening the rest of the game will resemble. 4.Bb5 attacks c6 exactly as the Ruy Lopez does — and the same central knight jump exists there too, as Bird's Defense (3...Nd4, ECO C61). Here it arrives a move later but with an extra developed knight already backing it up, giving Black a sharper version of that idea — covered in depth in Spanish Variation. Two other common fourth moves send the game straight into a cousin's structure instead — see the alternatives here.",
           "concepts": ["transpositions"]
         }
       ],
@@ -184,7 +184,7 @@
         {
           "type": "commentary",
           "title": "This time, a real pin",
-          "body": "Unlike the two bishop moves back on move four, this pin is genuine: nothing stands between g5 and d8, so Nf6 cannot move without exposing the queen.",
+          "body": "Unlike the two bishop moves back on move four, this pin is genuine: nothing stands between g5 and d8, so moving Nf6 hangs the queen to Bxd8. The knight can still legally move -- this is a pin against the queen, not the king -- but doing so is simply bad.",
           "concepts": ["central tension"]
         }
       ],

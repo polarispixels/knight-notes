@@ -181,7 +181,7 @@
         {
           "type": "critical-position",
           "title": "Space over simplification",
-          "body": "White could have traded on d5 — the pawn is only defended twice (by the e6 pawn and the b6 knight) and attacked once, so cxd5 would just be an even exchange that dissolves the whole central bind. Pushing past instead keeps more pawns on the board, gains further space, and immediately hits the b6 knight, which now has to choose between an active post on c4 and a more modest retreat.",
+          "body": "White could have traded on d5 — the pawn is attacked twice (by the c4 pawn and the Nc3 knight) and defended twice in return (by the e6 pawn and the b6 knight), so cxd5 would just be an even exchange that dissolves the whole central bind. Pushing past instead keeps more pawns on the board, gains further space, and immediately hits the b6 knight, which now has to choose between an active post on c4 and a more modest retreat.",
           "concepts": ["central pawn breaks", "flexible development"]
         },
         {

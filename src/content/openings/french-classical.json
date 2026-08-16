@@ -144,7 +144,7 @@
       "annotations": [
         {
           "type": "commentary",
-          "body": "White cashes in the bishop rather than retreat it. This is the Classical's other defining trade: Black gets the bishop pair back, but only one recapture is possible, and it puts the queen on an unusual square for the rest of the opening.",
+          "body": "White cashes in the bishop rather than retreat it. This is the Classical's other defining trade: dark-squared bishop for dark-squared bishop, so neither side ends up with the bishop pair — but only one recapture is possible, and it puts the queen on an unusual square for the rest of the opening.",
           "concepts": ["development"]
         }
       ]
@@ -237,7 +237,7 @@
         {
           "type": "critical-position",
           "title": "The chain, minus a pair of bishops",
-          "body": "Black resolves the central tension on his own terms rather than let White choose the moment. What's left is unmistakably a French chain middlegame — White's space on the kingside and the head of the chain (e5) versus Black's pressure on d4 and the eventual ...f6 break — but reached with the light-squared bishops already traded away and Black's queen doing an odd job on e7 instead of the more familiar b6.",
+          "body": "Black resolves the central tension on his own terms rather than let White choose the moment. What's left is unmistakably a French chain middlegame — White's space on the kingside and the head of the chain (e5) versus Black's pressure on d4 and the eventual ...f6 break — but reached with the dark-squared bishops already traded away and Black's queen doing an odd job on e7 instead of the more familiar b6.",
           "concepts": ["pawn chains", "attacking the base"]
         },
         {

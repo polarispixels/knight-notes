@@ -84,7 +84,7 @@
               {
                 "type": "key-idea",
                 "title": "The Chigorin Variation",
-                "body": "Named for Mikhail Chigorin, this is the classical main system: the knight chases the b3-bishop off its diagonal before Black commits to a central break. The continuation 10.Bc2 c5 11.d4 Qc7 is exactly the line the family study, The Ruy Lopez, follows to its own final position — this catalog entry names the system that study only played through.",
+                "body": "Named for Mikhail Chigorin, this is the classical main system: the knight chases the b3-bishop off its diagonal before Black commits to a central break. The continuation 10.Bc2 c5 11.d4 Qc7 is exactly the line the family study, The Ruy Lopez, follows to its own final position — this catalog entry names the system that study only played through. It's also the system behind Karpov vs Unzicker: that whole squeeze grows out of this exact 9...Na5 10.Bc2 c5 11.d4 Qc7 tabiya, not the Breyer regrouping below.",
                 "concepts": ["long-term pressure"]
               }
             ]
@@ -183,7 +183,7 @@
         {
           "type": "critical-position",
           "title": "The Breyer tabiya",
-          "body": "This exact position — reached by transposition from dozens of move orders — has been played thousands of times at grandmaster level. White's pieces all point at the kingside and center (Ng3 eyes f5, Bc2 eyes h7, Re1 backs up e4); Black answers with the mirror idea, preparing ...Bg7 to cover f5 and h5 before White can use them. For a full game showing this entire strategic complex play out from these first eight moves, see Karpov vs Unzicker.",
+          "body": "This exact position — reached by transposition from dozens of move orders — has been played thousands of times at grandmaster level. White's pieces all point at the kingside and center (Ng3 eyes f5, Bc2 eyes h7, Re1 backs up e4); Black answers with the mirror idea, preparing ...Bg7 to cover f5 and h5 before White can use them. The same first-eight-move buildup — h3, the Nb1-d2-f1-g3 tour, Bc2 — powers every one of the three 9th-move systems, not just this one; see Karpov vs Unzicker for a full game grown from the sibling Chigorin branch.",
           "concepts": ["piece activity", "long-term pressure"]
         },
         {

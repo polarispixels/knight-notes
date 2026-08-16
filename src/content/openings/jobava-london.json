@@ -177,13 +177,13 @@
     "Be7",
     {
       "san": "g4",
-      "classification": "theory",
-      "importance": "critical",
+      "classification": "interesting",
+      "importance": "notable",
       "annotations": [
         {
           "type": "key-idea",
-          "title": "The pawn storm begins",
-          "body": "This is the position the whole line was built for: opposite-wing castling, with White's king tucked away and every kingside pawn free to advance. Black's most natural plan — castling short — walks directly toward the coming storm, as the next move shows. The calmer alternative, shown in the variation, is to delay castling and strike back in the center instead.",
+          "title": "The pawn storm begins — as an honest offer, not a threat",
+          "body": "This is the position the whole line was built for: opposite-wing castling, with White's king tucked away and every kingside pawn free to advance. The pawn itself isn't defended — 9...Nxg4 simply wins it, and a well-prepared Black should take it. What White gets in return is practical rather than proven: the g-file opens for a rook lift (Rdg1), and h2-h3 next kicks the knight back while ripping open lines near Black's king. Treat this as a real pawn sacrifice for attacking chances, not a free storm. Black's most natural plan against the storm as actually played here — castling short — walks directly toward it, as the next move shows. The calmer alternative, shown in the variation, is to delay castling and strike back in the center instead.",
           "concepts": ["kingside attack", "central space"]
         }
       ],

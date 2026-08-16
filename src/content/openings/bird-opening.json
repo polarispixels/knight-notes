@@ -10,7 +10,7 @@
   "tags": ["Bird's Opening", "Bird Opening", "Dutch Attack", "flank opening", "1.f4", "reversed Dutch"],
   "concepts": ["space", "outposts", "flank development", "king safety", "prophylaxis", "pawn structures"],
   "metadata": {
-    "eco": "A02-A03",
+    "eco": "A02, A03",
     "opening": "Bird's Opening (1.f4)",
     "historicalContext": "Named for the 19th-century English master Henry Bird, who played 1.f4 regularly through the 1870s and 80s. It never became mainstream theory, but it has stayed a respected surprise weapon precisely because so few players study how to meet it."
   },

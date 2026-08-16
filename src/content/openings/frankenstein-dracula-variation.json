@@ -6,7 +6,7 @@
   "type": "variation",
   "difficulty": "advanced",
   "summary": "After 3.Bc4 Nxe4 4.Qh5!, both sides are pushed through nearly ten moves of close-to-forced play that end with White winning the exchange and Black winning the bishop pair, the center, and the initiative. It is rare in serious play but entirely sound — a specimen of calculated chaos, not a refuted gambit. This lesson shows why each 'forced' move is forced, and lets you judge whether the material or the initiative should be believed.",
-  "tags": ["Frankenstein-Dracula Variation", "Frankenstein-Dracula", "Vienna Game", "Vienna Gambit", "e4 openings", "sharp lines", "forcing sequences"],
+  "tags": ["Frankenstein-Dracula Variation", "Frankenstein-Dracula", "Vienna Game", "e4 openings", "sharp lines", "forcing sequences"],
   "concepts": ["forcing sequences", "king safety", "material vs initiative", "the fork", "calculation", "trapped pieces"],
   "metadata": {
     "eco": "C27",
@@ -181,7 +181,7 @@
         {
           "type": "commentary",
           "title": "Two jobs again",
-          "body": "The queen defends f7 directly and, just as importantly, vacates d8 — giving the king a flight square before White's queen can renew the mating idea from d5."
+          "body": "The queen defends f7 directly and, just as importantly, vacates d8 — giving the king a flight square before the pressure White's queen and knight are building against f7 and c7 turns into something concrete."
         }
       ]
     },
@@ -239,7 +239,7 @@
         {
           "type": "critical-position",
           "title": "Judging the trade",
-          "body": "The a8 knight is now genuinely trapped: its only legal square is b6, where Black's a-pawn simply recaptures. In practice White's material edge shrinks from 'the exchange for nothing' to something closer to 'the exchange for a pawn' once the knight is extracted or abandoned. Meanwhile Black has the bishop pair, both aimed at open diagonals, a strong pawn duo on e5/f5, and pieces that develop with tempo — while White still has an undeveloped kingside and a king that hasn't castled either. This is why theory calls the position roughly balanced rather than clearly better for either side: it's a genuine matter of opinion, decided by whoever calculates better from here."
+          "body": "The a8 knight is now genuinely trapped: c7 is legal but hangs the knight for free to the king sitting right next to it on d8, so b6 is the only square that doesn't simply lose the piece outright — and even there, Black's a-pawn recaptures. In practice White's material edge shrinks from 'the exchange for nothing' to something closer to 'the exchange for a pawn' once the knight is extracted or abandoned. Meanwhile Black has the bishop pair, both aimed at open diagonals, a strong pawn duo on e5/f5, and pieces that develop with tempo — while White still has an undeveloped kingside and a king that hasn't castled either. This is why theory calls the position roughly balanced rather than clearly better for either side: it's a genuine matter of opinion, decided by whoever calculates better from here."
         },
         {
           "type": "key-idea",

@@ -3,12 +3,12 @@
   "catalogCode": "O097",
   "focus": "black",
   "title": "The Botvinnik Variation",
-  "subtitle": "Semi-Slav Defense — a full piece for a mass of pawns",
+  "subtitle": "Semi-Slav Defense — a knight sacrifice that pays for itself",
   "type": "variation",
   "difficulty": "advanced",
-  "summary": "The Botvinnik Variation is the sharpest branch of the Semi-Slav complex: Black lets White sacrifice a full piece for pawns, then watches White immediately win a second piece back, landing in one of the most concretely analyzed material imbalances in chess. This lesson follows the entire piece-for-pawns sequence past where the family study stopped, to the point where Black's connected passed queenside pawns face off against White's attacking chances. It is not a line to play from general principles — it rewards, and requires, real preparation.",
+  "summary": "The Botvinnik Variation is the sharpest branch of the Semi-Slav complex: Black lets White sacrifice a knight, then watches White claim Black's other knight a few moves later, settling the piece count back to even — with a single genuine extra pawn banked for the trouble. This lesson follows the entire sequence past where the family study stopped, to the point where White's advanced f6 wedge and attacking chances face off against Black's doubled, mobile queenside pawn mass. It is not a line to play from general principles — it rewards, and requires, real preparation.",
   "tags": ["Botvinnik Variation", "Botvinnik System", "Anti-Meran Gambit", "Botvinnik Semi-Slav", "Semi-Slav Defense", "Queen's Gambit family", "d4 openings"],
-  "concepts": ["piece sacrifice", "connected passed pawns", "king safety", "concrete calculation", "compensation", "material imbalance"],
+  "concepts": ["piece sacrifice", "doubled pawns", "king safety", "concrete calculation", "compensation", "dynamic imbalance"],
   "metadata": {
     "eco": "D44",
     "opening": "Semi-Slav Defense: Anti-Meran, Botvinnik Variation"
@@ -17,12 +17,12 @@
     {
       "type": "key-idea",
       "title": "What this lesson teaches",
-      "body": "The Semi-Slav Defense study introduced the Botvinnik System as one branch among several and stopped right after the piece sacrifice's first half. This lesson picks up exactly there and follows the point all the way through: White doesn't just sacrifice a piece for pawns and hope — White immediately wins a second piece back, and what looks like material chaos resolves into a genuine, long-studied balance. A full piece for two pawns, plus a mass of connected, dangerous queenside passers for Black against real attacking chances for White. The question this lesson answers honestly: who is actually taking the bigger risk, and does either side have a margin for error?"
+      "body": "The Semi-Slav Defense study introduced the Botvinnik System as one branch among several and stopped right after the piece sacrifice's first half. This lesson picks up exactly there and follows the point all the way through: White doesn't just sacrifice a knight and hope — White wins Black's other knight back a few moves later, and what looks like material chaos resolves into dead-equal piece count plus one clean extra pawn for White. The real imbalance isn't on the material scoreboard at all: it's White's advanced f6 wedge and attacking chances against Black's doubled, mobile queenside pawn mass. The question this lesson answers honestly: who is actually taking the bigger risk, and does either side have a margin for error?"
     },
     {
       "type": "historical",
       "title": "A 1945 idea, still argued over",
-      "body": "The exact piece sacrifice in this lesson first appeared in serious analysis after the 1945 USSR-USA radio chess match, and Mikhail Botvinnik's own study of the resulting piece-for-pawns balance is what gives the system its name. Decades of grandmaster games and engine analysis later, the position is still considered close to balanced — which is exactly why both sides need to know it move for move rather than work it out at the board."
+      "body": "The exact piece sacrifice in this lesson first appeared in serious analysis after the 1945 USSR-USA radio chess match, and Mikhail Botvinnik's own study of the resulting dynamic balance is what gives the system its name. Decades of grandmaster games and engine analysis later, the position is still considered close to balanced — which is exactly why both sides need to know it move for move rather than work it out at the board."
     }
   ],
   "line": [
@@ -157,7 +157,7 @@
         {
           "type": "key-idea",
           "title": "The piece sacrifice, part two — and the honest tally",
-          "body": "White's e5 pawn captures the f6 knight, recovering a full piece. Add it up from the start: White gave a knight for the g5 pawn, then gave nothing further while a pawn recaptured on g5, then this pawn captured a second minor piece. Net result: White has a piece for two pawns, not a piece for nothing. That is the real cost/compensation ledger of the whole system — a sacrifice with a built-in partial refund, not a leap of faith.",
+          "body": "White's e5 pawn captures the f6 knight, recovering the piece in full. Add it up from the start: White sacrificed a knight for a pawn on g5, Black's h-pawn recaptured the knight, White's bishop recaptured that pawn, and now this pawn captures Black's other knight. Net result: pieces are level again — a knight for a knight, nothing missing on either side — and White has banked exactly one clean extra pawn along the way. That is the real cost/compensation ledger of the whole system: not a piece for pawns at all, but a fully-repaid sacrifice with a single pawn as its net profit.",
           "concepts": ["material imbalance", "concrete calculation"]
         }
       ],
@@ -170,8 +170,8 @@
         {
           "type": "commentary",
           "title": "Cashing in the other half of the bargain",
-          "body": "Black's compensation for the missing piece isn't only the two extra pawns already banked — it's the long-term asset this move points at: a queenside pawn mass (a7, b5, c4) that can eventually become connected, advanced, and very hard to stop, with the bishop backing up the whole file behind it.",
-          "concepts": ["connected passed pawns"]
+          "body": "Black is down a clean pawn for the whole sequence — but the long-term asset this move points at is what pays it back: a queenside pawn mass (b5, c4, and c6, the c-pawns doubled since the early ...dxc4) that the fianchettoed bishop now backs up along the whole diagonal, ready to advance and cause White real problems later.",
+          "concepts": ["doubled pawns"]
         }
       ],
       "visual": [{ "type": "arrow", "from": "b7", "to": "g2" }]
@@ -239,13 +239,13 @@
         {
           "type": "critical-position",
           "title": "The material ledger, in full",
-          "body": "White has a piece for two pawns, an advanced protected passed pawn on d5, a dangerous pawn on f6, and a king that has not yet chosen a side. Black has the extra pawns, the bishop pair, and a queenside pawn mass that will only get more dangerous as it advances — bought with a king that has just castled onto the very side those pawns live on, so every future queenside push is now a two-edged sword: cover for the king or a battering ram against it, depending on who is faster. Neither side's compensation is automatic; both have to play precisely to keep it.",
+          "body": "Tally the whole game: pieces are dead equal — the same bishops, the same knight, the same rooks, the same queen on both sides — and White has exactly one extra pawn to show for the entire sacrifice-and-recapture sequence. What isn't equal is the dynamics: White has an advanced, protected pawn on d5, a dangerous pawn on f6, and a king that has not yet chosen a side. Black has a queenside pawn mass — doubled c-pawns backed by b5, a real long-term asset once it starts advancing — bought with a king that has just castled onto the very side those pawns live on, so every future queenside push is now a two-edged sword: cover for the king or a battering ram against it, depending on who is faster. Neither side's plan is automatic; both have to play precisely to make it count.",
           "concepts": ["compensation", "concrete calculation"]
         },
         {
           "type": "key-idea",
           "title": "What you should have noticed",
-          "body": "Three lessons: a piece sacrifice can come with a partial built-in refund — this is a piece for two pawns, not a piece for nothing, and the exact count matters more than the drama of the position; compensation has to be cashed in actively, since Black's queenside pawns are dangerous because Black keeps advancing and supporting them, not because they simply exist; and in forcing, memorized theory like this, both sides' margin for error is thin — a single inaccurate move can turn 'roughly balanced' into 'simply lost' in either direction, which is exactly why this system is played almost exclusively by players who have studied it in advance."
+          "body": "Three lessons: a piece sacrifice can come with a full built-in refund — this one settles back to level material plus a single extra pawn for White, and the exact count matters more than the drama of the position; a pawn mass is only dangerous once it's cashed in actively, since Black's doubled queenside pawns matter because Black keeps advancing and supporting them, not because they simply exist; and in forcing, memorized theory like this, both sides' margin for error is thin — a single inaccurate move can turn 'roughly balanced' into 'simply lost' in either direction, which is exactly why this system is played almost exclusively by players who have studied it in advance."
         }
       ]
     }

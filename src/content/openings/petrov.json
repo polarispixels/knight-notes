@@ -137,7 +137,7 @@
               {
                 "type": "mistake",
                 "title": "The tempting move that doesn't work",
-                "body": "This looks like it solves everything — the queen develops and eyes the e-file. But White's own knight on e5 sits between Black's queen and the knight on e4, so this move defends nothing. It only adds a second attacker against White's knight on e5, and White simply takes what's undefended.",
+                "body": "This looks like it solves everything — the queen develops and eyes the e-file. But White's own knight on e5 sits between Black's queen and the knight on e4, so this move defends nothing. It attacks White's knight on e5, but that isn't what's hanging: White simply takes the undefended knight on e4 first.",
                 "concepts": ["move-order precision"]
               }
             ]
@@ -169,11 +169,11 @@
           },
           {
             "san": "Kd8",
-            "classification": "forced",
+            "classification": "theory",
             "annotations": [
               {
                 "type": "commentary",
-                "body": "The only way out of check, and a grim final picture: Black is down a full queen for nothing. Compare this to the main line one move later, where the identical-looking capture on e4 is completely safe."
+                "body": "Not forced -- Be7 also blocks the check -- but either way it's a grim final picture: Black is down a full queen for nothing. Compare this to the main line one move later, where the identical-looking capture on e4 is completely safe."
               }
             ]
           }

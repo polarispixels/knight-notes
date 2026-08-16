@@ -57,7 +57,7 @@
       "annotations": [
         {
           "type": "question",
-          "body": "This looks exactly like the start of Petrov's Defense -- Black meets White's development with an immediate counterattack on e4. Is White in the same kind of trouble here that 1.e4 e5 2.Nf3 Nf6 creates?"
+          "body": "This looks a lot like the start of Petrov's Defense -- Black meets White's development with an immediate counterattack on e4. Is White in the same kind of trouble here that 1.e4 e5 2.Nf3 Nf6 creates?"
         }
       ],
       "visual": [{ "type": "arrow", "from": "f6", "to": "e4" }],
@@ -173,7 +173,7 @@
               {
                 "type": "tactic",
                 "title": "Scholar's Mate",
-                "body": "Checkmate. The bishop on c4 protects the queen on f7, so nothing recaptures. Every escape square is covered -- d8 is blocked by Black's own queen, e7 and f8 are attacked by the queen directly, g8 is covered by the queen's diagonal -- and there is no piece left that can interpose. This is the real, sharp cost of one careless developing move, and it is why beginners are taught to check for threats before playing the obvious-looking reply.",
+                "body": "Checkmate. The bishop on c4 protects the queen on f7, so nothing recaptures. Every escape square is covered -- d8 is blocked by Black's own queen, e7 and f8 are attacked by the queen directly -- and there is no piece left that can interpose. This is the real, sharp cost of one careless developing move, and it is why beginners are taught to check for threats before playing the obvious-looking reply.",
                 "concepts": ["king safety"]
               }
             ],
@@ -193,7 +193,7 @@
         {
           "type": "key-idea",
           "title": "The answer to the question",
-          "body": "Not remotely, and the difference is the entire point of this move order. Petrov's Defense works the way it does because White's knight is already committed to f3, under attack, and forced into a precise sequence to avoid losing material. Here White's knight hasn't moved at all -- e4 is simply undefended for a moment, and one ordinary developing move fixes that completely. Black never reaches the sharp, well-studied tactics of Petrov's Defense, because the specific position that makes them possible never arrives on the board. Delaying Nf3 isn't just flexible; it actively removes a whole prepared defense from play.",
+          "body": "Not remotely, and the difference is the entire point of this move order. Petrov's Defense works the way it does because White's knight is already committed to f3 when e4 comes under attack -- White must react at once, with the knight's own move already spent, and that forces the precise sequence Petrov theory is built on. Here White's knight hasn't moved at all -- e4 is simply undefended for a moment, and one ordinary developing move fixes that completely. Black never reaches the sharp, well-studied tactics of Petrov's Defense, because the specific position that makes them possible never arrives on the board. Delaying Nf3 isn't just flexible; it actively removes a whole prepared defense from play.",
           "concepts": ["move-order flexibility"]
         }
       ],

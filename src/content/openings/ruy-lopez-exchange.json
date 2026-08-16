@@ -86,7 +86,7 @@
               {
                 "type": "warning",
                 "title": "Why the old tactic is dead now",
-                "body": "This capture worked as a passing threat back when Black's queen could answer ...Qd4. Now f6 simply recaptures. White's only real try is the raiding check 7.Qh5+, hoping to win the pawn back with tempo — but after 7...g6 8.Qxe5+ Qe7 Black calmly offers the h8-rook, and grabbing it strands the queen in the corner: the long-established verdict is that the raid loses material. Once ...f6 is on the board, this capture does not work.",
+                "body": "This capture worked as a passing threat back when Black's queen could answer ...Qd4. Now f6 simply recaptures. White's only real try is the raiding check 7.Qh5+, hoping the king hunt wins the material back — but the calm 7...Ke7 holds everything: the checks soon run out, and White is left a piece for a pawn down with nothing to show for it. Once ...f6 is on the board, this capture simply does not work.",
                 "concepts": ["unsafe pawn grabbing"]
               }
             ]

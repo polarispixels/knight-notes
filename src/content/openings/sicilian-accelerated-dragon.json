@@ -103,7 +103,7 @@
         {
           "type": "key-idea",
           "title": "The Maroczy Bind",
-          "body": "Pawns on c4 and e4 together control d5 and b5 twice over — the exact squares Black's pieces would love to jump into. There's no immediate threat, but there doesn't need to be: the bind is a long-term strategic clamp, not a tactical one. Black's entire plan from here is finding a way to challenge c4 or d5 with pieces, since the pawns alone can no longer do it.",
+          "body": "Pawns on c4 and e4 together cover d5 twice over and b5 once — the exact squares Black's pieces would love to jump into. There's no immediate threat, but there doesn't need to be: the bind is a long-term strategic clamp, not a tactical one. Black's entire plan from here is finding a way to challenge c4 or d5 with pieces, since the pawns alone can no longer do it.",
           "concepts": ["Maroczy Bind", "structure vs piece activity"]
         }
       ],
@@ -165,7 +165,7 @@
       "annotations": [
         {
           "type": "commentary",
-          "body": "Only now, ten moves in, does the d-pawn finally move — restraining e4-e5 and freeing the c8-bishop, with none of the earlier risk that an immediate ...d6 would have carried against a faster White setup."
+          "body": "Only now, on move eight, does the d-pawn finally move — restraining e4-e5 and freeing the c8-bishop, with none of the earlier risk that an immediate ...d6 would have carried against a faster White setup."
         }
       ]
     },
@@ -187,13 +187,13 @@
         {
           "type": "critical-position",
           "title": "The bind holds — for now",
-          "body": "White's space advantage is real and durable: c4 and e4 aren't going anywhere, and Black has no simple pawn break to remove them. Black's compensation is just as real: the fianchettoed bishop, the half-open c-file, and pieces that can probe for weaknesses White's pawns can't chase away. Typical plans from here include ...Nxd4 followed by ...Bxc3, trading down toward the long diagonal and damaging White's queenside pawns even though the d4 knight currently blocks that exact idea — the trade has to happen in that order to work.",
+          "body": "White's space advantage is real and durable: c4 and e4 aren't going anywhere, and Black has no simple pawn break to remove them. Black's compensation is just as real: the fianchettoed bishop, the half-open c-file, and pieces that can probe for weaknesses White's pawns can't chase away. Typical plans from here include ...Nxd4, trading off the piece currently blocking the long diagonal, followed by concrete queenside or central play — an ...a5-a4 space grab, or pressure down the c-file — to convert piece activity into something the bind's pawns can't stop.",
           "concepts": ["Maroczy Bind", "long diagonal pressure"]
         },
         {
           "type": "key-idea",
           "title": "What you should have noticed",
-          "body": "Three lessons: move order is a weapon even when the resulting position looks familiar — 2...Nc6 before ...d6 denies White options that exist against the regular Dragon; a structural bind doesn't need a threat to be dangerous, since d5 and b5 are worth controlling permanently, not just for a move; and Black's whole strategy here is trading down the right pieces in the right order (the knight before the bishop) to convert activity into concrete damage against a structure that pawns alone can't create.",
+          "body": "Three lessons: move order is a weapon even when the resulting position looks familiar — 2...Nc6 before ...d6 denies White options that exist against the regular Dragon; a structural bind doesn't need a threat to be dangerous, since d5 and b5 are worth controlling permanently, not just for a move; and Black's whole strategy here is trading off the piece blocking the long diagonal and then converting the resulting activity into concrete play, since the pawns on c4 and e4 alone can't create weaknesses by themselves.",
           "concepts": ["move-order flexibility", "Maroczy Bind", "structure vs piece activity"]
         }
       ],

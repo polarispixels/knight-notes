@@ -125,7 +125,16 @@
               {
                 "type": "tactic",
                 "title": "The cost of skipping d3",
-                "body": "Black wins the queen for a pawn. This is exactly why the calm d3 is correct first: it keeps the center flexible without ever handing the g7-bishop a target to shoot at."
+                "body": "Black wins the queen for a bishop — White's knight on e2 recaptures on d4 next move, so the final ledger is queen for bishop and pawn, a decisive loss for White even after the recapture. This is exactly why the calm d3 is correct first: it keeps the center flexible without ever handing the g7-bishop a target to shoot at."
+              }
+            ]
+          },
+          {
+            "san": "Nxd4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The only recapture, and cold comfort — White is still down a queen for a bishop and a pawn, a lost position rather than a lesson in equal material."
               }
             ]
           }

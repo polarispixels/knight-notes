@@ -256,7 +256,7 @@
         {
           "type": "key-idea",
           "title": "Cashing in the pin",
-          "body": "Six moves after Bb5 first appeared, the pin finally pays off — the bishop simply takes the knight it's been pinning, with check, since the diagonal to e8 is still completely open."
+          "body": "Eight moves after Bb5 first appeared, the pin finally pays off — the bishop simply takes the knight it's been pinning, with check, since the diagonal to e8 is still completely open."
         }
       ],
       "visual": [{ "type": "arrow", "from": "b5", "to": "e8" }]
@@ -282,7 +282,7 @@
         {
           "type": "key-idea",
           "title": "What you should have noticed",
-          "body": "Three lessons: a gambit pawn's value is often temporary — here it converted into a long forcing sequence that ended dead level on material, so the real prize was the tempo and activity gained along the way; a pin doesn't need to win material immediately to be worth playing — Bb5 shaped six moves of play before it ever captured anything; and doubled pawns paired with the bishop pair and open lines are a very different bargain than doubled pawns alone, so judge structural damage together with what it buys, never in isolation."
+          "body": "Three lessons: a gambit pawn's value is often temporary — here it converted into a long forcing sequence that ended dead level on material, so the real prize was the tempo and activity gained along the way; a pin doesn't need to win material immediately to be worth playing — Bb5 shaped eight moves of play before it ever captured anything; and doubled pawns paired with the bishop pair and open lines are a very different bargain than doubled pawns alone, so judge structural damage together with what it buys, never in isolation."
         }
       ]
     }

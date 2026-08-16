@@ -55,7 +55,7 @@
         {
           "type": "key-idea",
           "title": "An even sharper version of the jump",
-          "body": "The knight heads for d6 exactly as it does in the Sveshnikov and the Taimanov — but here Black has developed nothing at all yet, not even a knight to f6. Skipping the necessary defense is even more dangerous in this position than in either sibling variation, because Black has fewer pieces in play to help. The variation on Black's reply shows exactly how much this costs when it's ignored.",
+          "body": "The knight heads for d6 exactly as it does in the Sveshnikov and the Taimanov — but here Black has developed only the c6-knight so far, not even a knight to f6 yet. Skipping the necessary defense is even more dangerous in this position than in either sibling variation, because Black has fewer pieces in play to help. The variation on Black's reply shows exactly how much this costs when it's ignored.",
           "concepts": ["outposts"]
         }
       ],
@@ -117,7 +117,7 @@
               {
                 "type": "warning",
                 "title": "Even more costly than in the Sveshnikov",
-                "body": "Material is level — a knight traded for a bishop — but White's queen lands on a square no Black pawn will ever be able to challenge, deep in Black's position. The Sveshnikov punishes this same omission after Black has already developed several pieces; here Black has developed nothing at all, so the lost tempo and the queen's outpost both sting more."
+                "body": "Material is level — a knight traded for a bishop — but White's queen lands on a square no Black pawn will ever be able to challenge, deep in Black's position. The Sveshnikov punishes this same omission after Black has already developed several pieces; here Black has developed only the c6-knight, so the lost tempo and the queen's outpost both sting more."
               }
             ]
           }
@@ -178,7 +178,7 @@
         {
           "type": "key-idea",
           "title": "The move that defines the whole variation",
-          "body": "Here is the concrete difference from the Sveshnikov, stated in one move: that lesson's knight would already be sitting on f6, walking into a genuine pin from a bishop on g5. This knight develops to e7 instead — a square the Sveshnikov's move order never allows, because by the time it's reached there, ...Nf6 has already committed the piece elsewhere. There is no knight on f6 here for any bishop to pin, so the Sveshnikov's signature Bg5-then-Bxf6 doubling trade simply doesn't exist in the Kalashnikov. The knight on e7 instead adds a second defender to the d5 outpost and eyes both the c6-knight's support and a future ...Nxd5.",
+          "body": "Here is the concrete difference from the Sveshnikov, stated in one move: that lesson's knight would already be sitting on f6, walking into a genuine pin from a bishop on g5. This knight develops to e7 instead — a square the Sveshnikov's move order never allows, because by the time it's reached there, ...Nf6 has already committed the piece elsewhere. There is no knight on f6 here for any bishop to pin, so the Sveshnikov's signature Bg5-then-Bxf6 doubling trade simply doesn't exist in the Kalashnikov. The knight on e7 is also the first Black piece to actually pressure the d5 outpost — the c6-knight doesn't reach that square — and it sets up a future ...Nxd5.",
           "concepts": ["voluntary weakening", "piece activity vs structure"]
         }
       ]
@@ -212,7 +212,7 @@
         {
           "type": "critical-position",
           "title": "White's pawn takes over the square instead",
-          "body": "The trade doesn't remove White's grip on d5 — it just replaces the knight with a pawn, which can never be chased away by a piece at all. Black's remaining knight now needs a new plan: rerouting to fill the gap, pressuring d5 and c4 with pieces, and leaning on queenside space already banked with ...a6 and ...b5. White's plan: keep the space, look for f4-f5 or Nc4-style ideas, and make the extra central pawn count in the long run.",
+          "body": "The trade doesn't remove White's grip on d5 — it just replaces the knight with a pawn, which can never be chased away by a piece at all. Black's remaining knight now needs a new plan: rerouting to fill the gap, pressuring d5 and c4 with pieces, and leaning on queenside space already banked with ...a6 and ...b5. White's plan: keep the space, look for f4-f5 breaks, or maneuver a knight toward c4 once Black's own b5-pawn — which covers that square for now — can be traded off or undermined, and make the extra central pawn count in the long run.",
           "concepts": ["backward pawn", "piece activity vs structure"]
         },
         {

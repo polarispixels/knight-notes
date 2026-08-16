@@ -80,7 +80,7 @@
         {
           "type": "key-idea",
           "title": "The trap in the move order",
-          "body": "In almost every other Open Sicilian reached through 2...Nc6 — the Sveshnikov, the Kalashnikov, the Lowenthal — White meets this exact same central strike with 6.Ndb5, jumping the attacked knight forward instead of retreating it, aiming back at d6 and c7. That jump is White's critical resource in all three of those openings. Here it simply does not exist: a6 already covers b5, so the knight cannot land there at all. The variation on White's reply shows what happens to a player who forgets that.",
+          "body": "In almost every other Open Sicilian reached through 2...Nc6 — the Sveshnikov, and the Kalashnikov (also known by the older name Lowenthal) — White meets this exact same central strike with 6.Ndb5, jumping the attacked knight forward instead of retreating it, aiming back at d6 and c7. That jump is White's critical resource in both of those openings. Here it simply does not exist: a6 already covers b5, so the knight cannot land there at all. The variation on White's reply shows what happens to a player who forgets that.",
           "concepts": ["move-order finesse", "central tension"]
         }
       ],
@@ -176,7 +176,7 @@
         {
           "type": "critical-position",
           "title": "The payoff move",
-          "body": "This is the entire reason a6 was played nine moves ago — the queenside expansion the whole family of Sicilians eventually plays arrives here in one move, tempo-free, because the square in front of it was secured before White had even chosen a plan. White's position is sound and normal; Black's is comfortable and a shade more comfortable than it would have been through any move order that allowed 6.Ndb5.",
+          "body": "This is the entire reason a6 was played seven moves ago — the queenside expansion the whole family of Sicilians eventually plays arrives here in one move, tempo-free, because the square in front of it was secured before White had even chosen a plan. White's position is sound and normal; Black's is comfortable and a shade more comfortable than it would have been through any move order that allowed 6.Ndb5.",
           "concepts": ["queenside expansion", "tempo"]
         },
         {

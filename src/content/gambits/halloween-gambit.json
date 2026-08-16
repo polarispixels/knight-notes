@@ -151,11 +151,11 @@
         {
           "type": "critical-position",
           "title": "The compensation, fully assembled",
-          "body": "White finally develops a piece — straight at f7, the weakest point near Black's uncastled king. Take stock: White is down a full knight, but has pawns on d5, e5, and f4, a bishop bearing down on f7, one Black knight back on its home square, and the other three moves spent just to reach g6. This is the entire idea of the Halloween Gambit in one position — real, immediate pressure against a king that has no safe square yet.",
+          "body": "White finally develops a piece, completing the setup rather than adding a new immediate threat — the d5-pawn actually blocks the bishop's own diagonal to f7 for now, so this isn't yet a direct attack on the king. Take stock: White is down a full knight, but has pawns on d5, e5, and f4 forming a real central mass, a second minor piece finally in play, one Black knight back on its home square, and the other three moves spent just to reach g6. This is the entire idea of the Halloween Gambit in one position — space and tempo banked as compensation, ready to be converted once the position opens.",
           "concepts": ["material versus initiative", "development"]
         }
       ],
-      "visual": [{ "type": "arrow", "from": "c4", "to": "f7" }]
+      "visual": [{ "type": "square", "square": "c4" }]
     },
     {
       "san": "Nh6",
@@ -177,7 +177,7 @@
               {
                 "type": "mistake",
                 "title": "Grabbing a pawn back at the wrong moment",
-                "body": "Snatching the f4-pawn looks like a good moment to start returning the favor — but the knight was doing real work blocking White's central pawns, and removing it lets the center simply crash through: 10.e6! rips open the position around Black's undeveloped king before a single Black piece other than the queen has moved. This is the risk side of the gambit's ledger: a small material gain that ignores development can turn a 'merely dangerous' position into a losing one.",
+                "body": "Snatching the f4-pawn looks like a good moment to start returning the favor — but it spends yet another tempo shuffling the same knight, and Black still hasn't developed a single other piece. That's the real cost: 10.e6! rips the center open exactly when Black has nothing ready to meet it. This is the risk side of the gambit's ledger: a small material gain that ignores development can turn a 'merely dangerous' position into a genuinely difficult one.",
                 "concepts": ["calculation"]
               }
             ],

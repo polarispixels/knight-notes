@@ -204,7 +204,7 @@
         {
           "type": "critical-position",
           "title": "A quiet move with a real job",
-          "body": "Look carefully at the e4 pawn: Nf3 doesn't defend it (a knight on f3 never covers e4), and Bg2 aims straight through it but is blocked by White's own knight sitting on f3. Before this move, e4 was genuinely undefended. Re1 repairs that gap along the open file — exactly the kind of unglamorous move that decides whether a central pawn holds.",
+          "body": "Look carefully at the e4 pawn: Nf3 doesn't defend it (a knight on f3 never covers e4), and Bg2 aims straight through it but is blocked by White's own knight sitting on f3. Nd2 already covers it once, matching Black's one attacker on f6 — a balance that could tip the moment Black adds a second attacker. Re1 adds a second defender along the newly open file before that happens — exactly the kind of unglamorous prophylaxis that decides whether a central pawn holds.",
           "concepts": ["prophylaxis"]
         },
         {

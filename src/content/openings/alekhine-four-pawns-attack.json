@@ -64,7 +64,7 @@
         {
           "type": "key-idea",
           "title": "The recapture that keeps the center intact",
-          "body": "Recapturing with the f-pawn keeps d4 in place defending e5, so the center stays solid, and it opens the f-file for White's rook later. Recapturing with the d-pawn instead is playable but relaxes the grip on d5 and is considered less testing — see the variation here for the idea.",
+          "body": "Recapturing with the f-pawn keeps d4 covered by a pawn and opens the f-file for White's rook, useful for the kingside play this variation is built around. Recapturing with the d-pawn instead is playable, but it leaves d4 without a pawn defender for the rest of the game — a square Black's pieces would be glad to use later. Either way, d5 itself stays controlled by the c4 pawn — see the variation here for the idea.",
           "concepts": ["central pawn breaks"]
         }
       ],
@@ -77,7 +77,7 @@
               {
                 "type": "commentary",
                 "title": "The other recapture",
-                "body": "Keeping a pawn on f4 instead of d4 aims the structure differently, but it gives up the pawn that most directly restrains Black's knight from ever returning to d5 — one reason fxe5 remains the far more common choice."
+                "body": "Keeping a pawn on f4 instead of d4 aims the structure differently, but it leaves d4 without a pawn defender for the rest of the game — one reason fxe5 remains the far more common choice."
               }
             ]
           },
@@ -174,7 +174,7 @@
         {
           "type": "critical-position",
           "title": "The four-pawn center, fully committed",
-          "body": "Both kings have chosen sides, and the whole game now hinges on whose attack arrives first. White's plans run through the extra central space — a further e6 or d5 break, or simply more pieces joining the kingside; Black's plans run through undermining the pawn chain directly, classically with a timely ...f6 or ...c5, or a straightforward kingside pawn storm now that the target is White's own king rather than Black's.",
+          "body": "Both kings have chosen sides, and the whole game now hinges on whose attack arrives first. White's plans run through the extra central space — a further d5 break, or simply more pieces joining the kingside; Black's plans run through undermining the pawn chain directly, classically with a timely ...f6 or ...c5, or a straightforward kingside pawn storm now that the target is White's own king rather than Black's.",
           "concepts": ["opposite-side castling", "overextension"]
         },
         {

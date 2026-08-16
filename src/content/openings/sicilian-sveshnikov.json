@@ -207,7 +207,7 @@
         {
           "type": "commentary",
           "title": "Broken pawns, open lines",
-          "body": "Recapturing with the pawn rather than the queen is the whole point of the variation: Black accepts doubled, broken kingside pawns in exchange for the bishop pair and a firm grip on the center. The alternative recapture is covered in the variation below."
+          "body": "Recapturing with the pawn is the whole point of the variation: Black accepts doubled, broken kingside pawns in exchange for the bishop pair and a firm grip on the center. The alternative — inserting ...Be7 before White ever captures, so the bishop recaptures on f6 instead of the pawn — is covered in the variation above, keeping Black's structure intact at the cost of the bishop pair."
         }
       ]
     },
@@ -239,7 +239,7 @@
         {
           "type": "key-idea",
           "title": "What you should have noticed",
-          "body": "Three lessons: a weak square is only as strong as the pieces that can actually use it — White's knight owns d5 from move ten, but ownership alone decides nothing without targets to attack; broken pawns can be an asset, since Black's doubled f-pawns control e5 and g5 and support a real central presence despite looking ugly on the board; and the Sveshnikov's whole reputation rests on precise, memorized move order — small mistakes like delaying ...d6 are punished immediately, which is exactly why the line stayed 'dubious' for decades before deep analysis proved it sound.",
+          "body": "Three lessons: a weak square is only as strong as the pieces that can actually use it — White's knight owns d5 from move ten, but ownership alone decides nothing without targets to attack; broken pawns can be an asset, since Black's doubled f-pawns now control e4 and g4 and back up a real central presence despite looking ugly on the board; and the Sveshnikov's whole reputation rests on precise, memorized move order — small mistakes like delaying ...d6 are punished immediately, which is exactly why the line stayed 'dubious' for decades before deep analysis proved it sound.",
           "concepts": ["voluntary weakening", "piece activity", "outposts"]
         }
       ],

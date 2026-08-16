@@ -66,10 +66,10 @@
       "annotations": [
         {
           "type": "commentary",
-          "body": "Aiming at h7 and adding another piece toward a potential kingside push — a natural, ambitious square for the bishop given how much space White already has."
+          "body": "A natural developing square: the bishop reinforces e4 and stands ready to join a kingside push. Its diagonal toward h7 is blocked by White's own e4 pawn for as long as that pawn stays put, but if the center ever opens with e5, the bishop is already pointed exactly where it needs to be."
         }
       ],
-      "visual": [{ "type": "arrow", "from": "d3", "to": "h7" }]
+      "visual": [{ "type": "square", "square": "d3" }]
     },
     {
       "san": "c5",

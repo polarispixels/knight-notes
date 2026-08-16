@@ -58,7 +58,7 @@
         {
           "type": "key-idea",
           "title": "One move, one permanent guarantee",
-          "body": "a6 rules out Nb5 forever — no jump to b5 hitting d6 or c7, no annoying check on the light squares. That is the entire point of the move, and it is enough: with that resource gone, Black can develop the queenside knight to either c6 or d7 without ever worrying about the square in between. The family study's Sicilian committed to ...Nc6 by move two; the Kan postpones the same decision by roughly ten moves.",
+          "body": "a6 rules out Nb5 forever — no jump to b5 hitting d6 or c7, no annoying check on the light squares. That is the entire point of the move, and it is enough: with that resource gone, Black can develop the queenside knight to either c6 or d7 without ever worrying about the square in between. The family study's Sicilian committed to ...Nc6 by move two; the Kan postpones the same decision by roughly six moves.",
           "concepts": ["prophylaxis", "flexibility"]
         }
       ],
@@ -131,13 +131,13 @@
         {
           "type": "critical-position",
           "title": "The choice, finally made",
-          "body": "Ten moves after 4...a6 first hinted at it, Black finally commits the queen's knight — to d7, not c6. This is the Hedgehog treatment: the knight supports a future ...e5 or ...b4 break without blocking the b7-bishop's diagonal, and the whole army stays coiled just behind the fourth rank, ready to spring once White overextends. Playing ...Nc6 instead is fully sound too and leads to a very different game — see the variation.",
+          "body": "Six moves after 4...a6 first hinted at it, Black finally commits the queen's knight — to d7, not c6. This is a Hedgehog-flavored treatment, though not the textbook version — the b-pawn already stands on b5 here rather than the classical Hedgehog's b6 — but the spirit is the same: the knight supports a future ...e5 or ...b4 break without blocking the b7-bishop's diagonal, and the whole army stays coiled, ready to spring once White overextends. Playing ...Nc6 instead is fully sound too and leads to a very different game — see the variation.",
           "concepts": ["hedgehog structure", "deferred development"]
         },
         {
           "type": "key-idea",
           "title": "What you should have noticed",
-          "body": "Three lessons: flexibility is a resource that gets spent, not a permanent property — the Kan's ten quiet moves all preserved the Nc6-or-Nd7 choice, and this move is where that patience finally pays off; a6 alone is worth an entire tempo of counterplay later, since ...b5 needed only one move instead of two; and the same small-center e6 structure the family study reached through ...d6 can be reached through several move orders — Kan, Taimanov, and the family study's own line are dialects of one language, not different languages.",
+          "body": "Three lessons: flexibility is a resource that gets spent, not a permanent property — the Kan's six quiet moves all preserved the Nc6-or-Nd7 choice, and this move is where that patience finally pays off; a6 alone is worth an entire tempo of counterplay later, since ...b5 needed only one move instead of two; and the same small-center e6 structure the family study reached through ...d6 can be reached through several move orders — Kan, Taimanov, and the family study's own line are dialects of one language, not different languages.",
           "concepts": ["flexibility", "hedgehog structure", "small center"]
         }
       ],

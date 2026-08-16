@@ -5155,8 +5155,8 @@
         "Black's connected queenside passers vs. White's piece activity"
       ],
       "structures": [
-        "material imbalance: piece vs. pawns",
-        "connected passed pawns for Black"
+        "material imbalance: knight for one pawn at the tabiya (fully repaid a few moves later)",
+        "Black's doubled c-pawns (c4 + c6) anchor a queenside pawn mass, not connected passers"
       ],
       "related": [
         "semi-slav-meran",

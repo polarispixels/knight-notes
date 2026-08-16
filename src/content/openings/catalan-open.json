@@ -161,7 +161,7 @@
               {
                 "type": "tactic",
                 "title": "The point: an undefended rook on an open file",
-                "body": "Because Black's queen, bishop, and knight are all still on their starting squares, nothing along the eighth rank defends a8. White simply wins the exchange. The concrete lesson: piling up pawn moves to defend one pawn, with no piece development behind it, is often not actually holding anything at all.",
+                "body": "Because Black's queen, bishop, and knight are all still on their starting squares, nothing along the eighth rank defends a8. White simply wins a full rook for nothing. The concrete lesson: piling up pawn moves to defend one pawn, with no piece development behind it, is often not actually holding anything at all.",
                 "concepts": ["open files"]
               }
             ],
@@ -210,7 +210,7 @@
         {
           "type": "critical-position",
           "title": "What each side actually kept",
-          "body": "Materially the position is level, exactly as it was on move one — but the resulting structures are entirely different. White has a fully developed, harmonious position pressing down the long diagonal and the central files; Black holds a genuine structural trump, the queenside pawn majority, plus real piece activity from ...Bb7. The whole battle from here is whether White's piece pressure outweighs Black's long-term structural promise before that majority can ever become a passed pawn."
+          "body": "Materially the position is level, exactly as it was on move one — but the resulting structures are entirely different. White hasn't even finished developing — the queenside knight and bishop are still home — yet already presses down the long diagonal and the central files; Black holds a genuine structural trump, the queenside pawn majority, plus real piece activity from ...Bb7. The whole battle from here is whether White's piece pressure outweighs Black's long-term structural promise before that majority can ever become a passed pawn."
         },
         {
           "type": "key-idea",

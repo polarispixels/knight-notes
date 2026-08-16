@@ -222,7 +222,7 @@
       "annotations": [
         {
           "type": "key-idea",
-          "title": "A knight that has moved five times",
+          "title": "A knight that has moved four times",
           "body": "Count the moves: Nf3-g5-f3-e5. White's extra pawn has been paid for almost entirely in the tempo this single piece has burned. e5 is a genuinely strong post for now -- but keep the tempo count in mind; it is the real answer to whether 4.Ng5 'wastes time.'",
           "concepts": ["outposts", "calculation"]
         }
@@ -276,13 +276,13 @@
         {
           "type": "critical-position",
           "title": "What one pawn actually costs",
-          "body": "Both sides have burned away their entire pawn center in the fighting; White's queenside pawns are the only ones that never moved. Material stands at exactly one pawn for White -- no more, no less. White's plan is to trade pieces toward an endgame where that pawn matters, using the centralized knight on d3 and the safer king. Black's plan is the opposite: keep pieces on the board, use the bishop pair and the active bishop on d6 to create problems before the structural edge can be converted, and eventually find the a5-knight a real job on c4 or b3.",
+          "body": "Both sides have burned away their entire pawn center in the fighting; White's central pawns did all the moving and none of them are left, while every other White pawn -- queenside and kingside alike -- is still sitting on its home square. Material stands at exactly one pawn for White -- no more, no less. White's plan is to trade pieces toward an endgame where that pawn matters, using the centralized knight on d3 and the safer king. Black's plan is the opposite: keep pieces on the board, use the bishop pair and the active bishop on d6 to create problems before the structural edge can be converted, and eventually find the a5-knight a real job on c4 or b3.",
           "concepts": ["central tension", "piece activity"]
         },
         {
           "type": "key-idea",
           "title": "What you should have noticed",
-          "body": "Three things to carry forward. First, 4.Ng5 really does win a pawn by force here -- the old complaint that it 'just chases material' is not wrong about the cost, but wrong to conclude the pawn doesn't stay won. Second, that cost is concrete and countable: White's knight alone moved five times to bank it, which is exactly why the Modern Variation is considered fully playable for Black rather than refuted. Third, opening principles like 'don't move a piece twice' are guidelines for positions where nothing overrides them -- here, calculation overruled the rule for both sides at once.",
+          "body": "Three things to carry forward. First, 4.Ng5 really does win a pawn by force here -- the old complaint that it 'just chases material' is not wrong about the cost, but wrong to conclude the pawn doesn't stay won. Second, that cost is concrete and countable: after its initial development, White's knight alone moved four more times (g5-f3-e5-d3) to bank it, which is exactly why the Modern Variation is considered fully playable for Black rather than refuted. Third, opening principles like 'don't move a piece twice' are guidelines for positions where nothing overrides them -- here, calculation overruled the rule for both sides at once.",
           "concepts": ["calculation", "development"]
         }
       ]

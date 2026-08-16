@@ -162,7 +162,7 @@
               {
                 "type": "key-idea",
                 "title": "Doubled, but not simply bad",
-                "body": "White now has pawns on c3 and c4 — a real weakness Black can aim at with ...c5 and pressure down the b-file, but also a wider pawn front and the bishop pair as compensation. Neither side's position is objectively won here; it's a genuine imbalance, the kind of trade-off the whole Ragozin complex specializes in offering.",
+                "body": "White now has pawns on c3 and c4 — a real weakness Black can aim at with ...c5 and pressure down the b-file, but also a wider pawn front, extra central space, and the freshly opened b-file as compensation (both sides already traded off a bishop back on move six, so it isn't a bishop-pair question here). Neither side's position is objectively won here; it's a genuine imbalance, the kind of trade-off the whole Ragozin complex specializes in offering.",
                 "concepts": ["doubled pawns", "structural flexibility"]
               }
             ]
@@ -220,7 +220,7 @@
         {
           "type": "key-idea",
           "title": "What you should have noticed",
-          "body": "Three lessons: an early pin can substitute for an early structural commitment — the Ragozin's whole point is deciding the pawn structure late, with more information; the same Bxc3-type trade that looks purely damaging (doubled pawns) comes with real compensation (the bishop pair, open lines), and calling it simply 'good' or 'bad' for either side is the wrong question; and recognizing transpositions matters — this exact position is also main-line Nimzo-Indian theory under a different name, so understanding one deepens the other.",
+          "body": "Three lessons: an early pin can substitute for an early structural commitment — the Ragozin's whole point is deciding the pawn structure late, with more information; the same Bxc3-type trade that looks purely damaging (doubled pawns) comes with real compensation (a wider pawn front, extra space, an open b-file), and calling it simply 'good' or 'bad' for either side is the wrong question; and recognizing transpositions matters — this exact position is also main-line Nimzo-Indian theory under a different name, so understanding one deepens the other.",
           "concepts": ["structural flexibility", "doubled pawns", "the pin"]
         }
       ],

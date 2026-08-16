@@ -8,7 +8,7 @@
   "difficulty": "intermediate",
   "summary": "1...Nc6 develops before deciding where the central pawns belong, keeping both ...d5 and ...e5 in reserve until White commits first. It is a real, if narrow, weapon at club and even grandmaster level — not a trick, but a genuine test of whether White's most natural setups are as automatic as they look.",
   "tags": ["Nimzowitsch Defense", "Nimzowitsch's Defense", "Nimzovich Defense", "e4 openings", "flexible defenses"],
-  "concepts": ["flexible development", "delayed central commitment", "The Pin", "central tension", "transposition", "provoke overextension"],
+  "concepts": ["flexible development", "delayed central commitment", "central tension", "transposition", "provoke overextension"],
   "metadata": {
     "eco": "B00",
     "opening": "Nimzowitsch Defense",
@@ -124,13 +124,23 @@
           "dxe5",
           "Qxd1+",
           "Kxd1",
-          "Nxe5",
+          {
+            "san": "Nxe5",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "A recapture that walks into another one",
+                "body": "Grabbing the pawn back looks automatic, but nothing defends the knight once it lands on e5 — White's own knight on f3 attacks that exact square. Simply developing instead and staying a pawn down was the safer path."
+              }
+            ]
+          },
           {
             "san": "Nxe5",
             "annotations": [
               {
                 "type": "commentary",
-                "body": "Queens off the board and the smoke clears to a level, simplified position — a common fate for offbeat 1...Nc6 tries when White declines the fight for tempo and just trades down instead."
+                "body": "Queens are off the board, but this is not a level, simplified position — White just picked up a full knight for free, since nothing was left guarding e5. Even a natural-looking recapture needs to be checked concretely before it's played."
               }
             ]
           }
@@ -144,13 +154,13 @@
       "annotations": [
         {
           "type": "question",
-          "body": "The queen attacks the knight on c3 along the a5-e1 diagonal, with the king still on e1. Is this more than just a developing move?"
+          "body": "The queen, the knight on c3, and the king on e1 all sit on the same diagonal. Is the knight pinned?"
         },
         {
           "type": "key-idea",
-          "title": "A genuine pin",
-          "body": "Yes — this is a real absolute pin: king, knight, and queen sit on the same diagonal, so the knight cannot move without exposing check. It doesn't win material by itself, since nothing else attacks c3, but it restricts White for a move or two. The pin evaporates the moment White castles, since the king simply steps off the diagonal — watch for exactly when that happens.",
-          "concepts": ["The Pin"]
+          "title": "Not quite — a pawn is still in the way",
+          "body": "Not yet. White's own d2 pawn sits right between the knight and the king, blocking the diagonal completely, so the knight can hop to a4, b5, d5, e4, e2, or b1 without any trouble at all. Qa5 is a real developing move — it eyes c3 and keeps options open — but it isn't a pin, and c3 is defended twice over (by the b2 and d2 pawns) so there's no threat to answer either. That changes on White's very next move.",
+          "concepts": ["central tension"]
         }
       ],
       "visual": [
@@ -181,8 +191,10 @@
       "classification": "theory",
       "annotations": [
         {
-          "type": "commentary",
-          "body": "White claims the center regardless of the pin — nothing forces an immediate answer to it, since the knight isn't otherwise under attack."
+          "type": "key-idea",
+          "title": "Now the pin becomes real",
+          "body": "This is the move that actually creates the pin: the d2 pawn just cleared off the a5-e1 diagonal, and the knight on c3 genuinely cannot move now without exposing White's own king to check. White plays it anyway — nothing else attacks c3, so the pin costs a small loss of flexibility, not material.",
+          "concepts": ["central tension"]
         }
       ]
     },
@@ -206,8 +218,8 @@
         {
           "type": "key-idea",
           "title": "The pin disappears",
-          "body": "Castling removes the king from the a5-e1 diagonal, so the pin that seemed to restrict White is simply gone — it never cost more than a small loss of flexibility. This is the lesson every pinning try eventually teaches: a pin is only as valuable as the piece behind it, and here that piece was never actually under fire.",
-          "concepts": ["The Pin"]
+          "body": "Castling removes the king from the a5-e1 diagonal, so the genuine pin that held the knight in place since move nine is simply gone — the knight is free again, and it cost White nothing more than a few moves of restricted choice. This is the lesson every pinning try eventually teaches: a pin lasts only as long as the king stays put behind it.",
+          "concepts": ["central tension"]
         }
       ],
       "visual": [{ "type": "square", "square": "e1" }]
@@ -263,7 +275,7 @@
         {
           "type": "key-idea",
           "title": "What you should have noticed",
-          "body": "Three lessons to carry forward: keeping the center undetermined has a real cost in time (compare Qa5's useful detour to Qd8's wasted trip), but it buys real flexibility (this game could easily have transposed straight into a Ruy Lopez, and didn't only because Black chose otherwise); a pin is only as strong as what it's pinned to (Qa5 pinned Nc3 to a king that simply walked away by castling); and 1...Nc6 keeps a promise, not a threat — a legitimate, specialized weapon precisely because it doesn't try to refute 1.e4, only to meet it on Black's own terms."
+          "body": "Three lessons to carry forward: keeping the center undetermined has a real cost in time (compare Qa5's useful detour to Qd8's wasted trip), but it buys real flexibility (this game could easily have transposed straight into a Ruy Lopez, and didn't only because Black chose otherwise); pin geometry has to be checked square by square, not assumed from the diagram — Qa5 only looked like a pin, and the real one didn't exist until White's own d4 cleared the diagonal, then vanished the moment the king castled away; and 1...Nc6 keeps a promise, not a threat — a legitimate, specialized weapon precisely because it doesn't try to refute 1.e4, only to meet it on Black's own terms."
         }
       ],
       "visual": [{ "type": "arrow", "from": "b7", "to": "g2" }]

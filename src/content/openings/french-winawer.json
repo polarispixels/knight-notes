@@ -127,11 +127,21 @@
             "annotations": [
               {
                 "type": "commentary",
-                "body": "White wins a full piece for nothing. This is the concrete reason 6...Ne7 goes to e7 and not f6 — not a stylistic preference, a real tactic.",
+                "body": "White wins a piece for a pawn — Black recaptures the f6 pawn next move, but the knight itself is simply gone. This is the concrete reason 6...Ne7 goes to e7 and not f6 — not a stylistic preference, a real tactic.",
                 "concepts": ["counterplay from a cramped position"]
               }
             ],
             "visual": [{ "type": "arrow", "from": "e5", "to": "f6" }]
+          },
+          {
+            "san": "gxf6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black recaptures the pawn — Qxf6 is also possible — but the ledger is already settled: White ends the sequence a full knight up for a single pawn.",
+                "concepts": ["counterplay from a cramped position"]
+              }
+            ]
           }
         ]
       ]

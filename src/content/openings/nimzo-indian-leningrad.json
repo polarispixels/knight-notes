@@ -181,7 +181,7 @@
         {
           "type": "tactic",
           "title": "A knight that attacks two pieces at once",
-          "body": "From e4, the knight forks the bishop on g3 and the knight on c3 - both hanging at once, and White cannot save both with a single move. This is the point of the whole ...h6/...g5 plan: force this exact fork.",
+          "body": "From e4, the knight forks the bishop on g3 and the knight on c3 - both hanging at once, and only one precise square saves them both. This is the point of the whole ...h6/...g5 plan: force White to find that exact move or lose material.",
           "concepts": ["tactical complications"]
         }
       ],

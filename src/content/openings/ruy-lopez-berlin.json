@@ -137,7 +137,7 @@
         {
           "type": "key-idea",
           "title": "The only good square",
-          "body": "The knight retreats to d6, eyeing b5, c4, e4, and f5 — active duty, not a passive parking spot. Every other square drops the knight into something worse (Nc5 hangs to b4, Nf6 blocks nothing useful, Ng5 walks into h3). This one retreat is why the Berlin's structure turns out fine.",
+          "body": "The knight retreats to d6, eyeing b5, c4, e4, and f5 — active duty, not a passive parking spot. Every other square drops the knight into something worse (Nc5 gets kicked straight back by b4, costing a tempo the Berlin can't spare, Nf6 blocks nothing useful, Ng5 walks into h3). This one retreat is why the Berlin's structure turns out fine.",
           "concepts": ["piece activity"]
         }
       ],

@@ -19,7 +19,7 @@
   "metadata": {
     "eco": "B70-B79",
     "opening": "Sicilian Defense: Dragon Variation",
-    "historicalContext": "The variation is named not for a person but for a shape: the Russian master Fyodor Bohatirchuk and others noted that Black's kingside pawns on f7, g6, and h7, guarded by the fianchettoed bishop, trace the outline of a dragon's back. The Yugoslav Attack, which turns that same structure into an opposite-side-castling war, was developed by Yugoslav players in the 1950s and remains one of the most exhaustively analyzed systems in chess."
+    "historicalContext": "The variation is named not for a person but for a shape in the sky: the Russian master Fyodor Dus-Chotimirsky, an amateur astronomer, recorded that in 1901 he noticed Black's kingside pawn chain — d6, e7, f7, g6, h7 — resembled the constellation Draco. The name stuck. The Yugoslav Attack, which turns that same structure into an opposite-side-castling war, was developed by Yugoslav players in the 1950s and remains one of the most exhaustively analyzed systems in chess."
   },
   "rootAnnotations": [
     {
@@ -83,7 +83,7 @@
         {
           "type": "principle",
           "title": "One quiet move, two jobs",
-          "body": "f3 braces e4 so the coming g2-g4-g5 storm won't be met by tricks on e4, and it rules out ...Ng4 hitting the bishop on e3 forever. Compare the variation below, where White skips this move and pays for it immediately.",
+          "body": "f3 braces e4 so the coming g2-g4-g5 storm won't be met by tricks on e4, and it rules out ...Ng4 hitting the bishop on e3 forever — with the pawn on f3, that jump just hangs the knight to fxg4. Compare the variation below, where White skips this move and has to police the g4 square with a piece instead of a pawn.",
           "concepts": ["pawn storms"]
         }
       ],
@@ -108,13 +108,33 @@
             "annotations": [
               {
                 "type": "tactic",
-                "title": "The point of f3",
-                "body": "Without f3 played first, this jump is available and it attacks the bishop on e3 — a dark-squared bishop, which cannot capture a knight on the light square g4. White must retreat and lose a tempo. This is the concrete reason f3 is inserted so early in the sharp main line: it is not decoration, it deletes this exact resource before Black can use it.",
+                "title": "The other bishop",
+                "body": "Without f3 on the board, this jump looks like it wins a tempo by hitting the bishop on e3 — a dark-squared bishop that has no way to touch a knight sitting on the light square g4. But g4 isn't undefended: White's other bishop, still on e2, covers it along that same light-square diagonal. White doesn't need to retreat at all.",
                 "concepts": ["mutual attack races"]
               }
             ]
           },
-          "Bd2"
+          {
+            "san": "Bxg4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Guarding the square, not saving the bishop",
+                "body": "This is what covering g4 without f3 actually looks like: a piece does the job a pawn does in the sharp main line. It costs White nothing to take — the knight simply hangs."
+              }
+            ]
+          },
+          {
+            "san": "Bxg4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The real cost of skipping f3",
+                "body": "Black recaptures with the long-idle bishop from c8 — the diagonal has been open since ...d6 — and the sequence nets out to a straight trade of minor pieces, not a tempo. But look at what's left on the board: White's dark-squared bishop on e3 is now the only bishop White has, while Black keeps both, the fianchettoed Bg7 and this new arrival on g4. That's the actual price of the Classical setup compared to the sharp main line: not a lost tempo, but a lost bishop pair.",
+                "concepts": ["mutual attack races"]
+              }
+            ]
+          }
         ]
       ]
     },
@@ -200,7 +220,7 @@
             "annotations": [
               {
                 "type": "commentary",
-                "title": "The Soltis Variation",
+                "title": "Queenside counterplay first",
                 "body": "Instead of rerouting the knight, Black can push straight for ...a4, hitting the bishop on b3 and forcing it to a worse square or into a trade — a more direct, less piece-dependent way to generate queenside counterplay in the same race."
               }
             ]
@@ -226,8 +246,8 @@
       "annotations": [
         {
           "type": "critical-position",
-          "title": "Stopping the storm cold",
-          "body": "One pawn move answers the question completely: h4-h5 is no longer possible, so White must find another way to break through (typically g2-g4, Nd5, or the dark-squared bishop trade on h6) while Black's own queenside pawns — a7, b7 — start their own march toward White's king on c1. Both sides now count tempi with total precision: whoever's attack lands first usually wins outright, because king safety, not material, decides these positions.",
+          "title": "Stopping the storm cold — the Soltis Variation",
+          "body": "This tabiya — Bc4, Bd7, O-O-O, Rc8, Bb3, Ne5, h4, h5 — is the Soltis Variation, named for Andrew Soltis. One pawn move answers the earlier question completely: h4-h5 is no longer possible, so White must find another way to break through (typically g2-g4, Nd5, or the dark-squared bishop trade on h6) while Black's own queenside pawns — a7, b7 — start their own march toward White's king on c1. Both sides now count tempi with total precision: whoever's attack lands first usually wins outright, because king safety, not material, decides these positions.",
           "concepts": ["pawn storms", "mutual attack races"]
         },
         {

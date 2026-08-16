@@ -44,7 +44,7 @@
         {
           "type": "key-idea",
           "title": "Active, but offside",
-          "body": "This retreat does real work immediately: the queen now pins the knight on c3 to the king on e1, since nothing else stands on that diagonal. But a5 is also a long way from c7, a square the queen would ordinarily help defend, and White can later add a second piece to that same diagonal to turn the pin into a weapon of its own. Both of those facts shape everything that follows.",
+          "body": "This retreat does real work immediately: the queen lines up with the knight on c3 and the king on e1 on the same diagonal — not yet a pin, since White's own d2 pawn still blocks it, but one move away from becoming one. a5 is also a long way from c7, a square the queen would ordinarily help defend, and once the pin does form, White can add a second piece to that same diagonal to turn it into a weapon of its own. Both of those facts shape everything that follows.",
           "concepts": ["queen safety"]
         }
       ]
@@ -121,7 +121,7 @@
             "annotations": [
               {
                 "type": "commentary",
-                "body": "The only move that solves both problems — it steps off the attacked diagonal and comes back to defend c7. But the queen has now made four moves to White's steady stream of developing ones, and White keeps the initiative. This is the concrete cost of never playing ...c6: not a forced loss, but a real, lasting problem to solve under pressure."
+                "body": "The only move that solves both problems — it steps off the attacked diagonal and comes back to defend c7. But the queen has now made three moves (Qxd5, Qa5, and now this) to White's steady stream of developing ones, and White keeps the initiative. This is the concrete cost of never playing ...c6: not a forced loss, but a real, lasting problem to solve under pressure."
               }
             ]
           }

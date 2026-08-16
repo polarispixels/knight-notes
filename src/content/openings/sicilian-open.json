@@ -35,7 +35,7 @@
       "annotations": [
         {
           "type": "commentary",
-          "body": "This lesson takes the 2...Nc6 door into the Open Sicilian, the most direct route to the structure. Playing ...d6 first instead is just as common and simply reorders the same moves — see The Classical Variation for that path."
+          "body": "This lesson takes the 2...Nc6 door into the Open Sicilian, the most direct route to the structure. Playing ...d6 first instead is just as common and often reaches the same positions — see The Classical Variation for that path — but the two orders aren't perfectly interchangeable: which door a player uses changes what tricks are available along the way."
         }
       ]
     },
@@ -135,7 +135,7 @@
             "annotations": [
               {
                 "type": "commentary",
-                "body": "Black recaptures toward the center, gaining the bishop pair and a broad pawn front (c6 and d-pawn) at the cost of doubled c-pawns and a permanently weaker queenside. Both sides got exactly what the trade promised."
+                "body": "Black recaptures toward the center with the b-pawn. No bishop ever left the board in this exchange — only the knights were traded — and Black's c-pawn is long gone, traded off back on move five, so there's no bishop pair swing and no doubled pawn to speak of; the queenside stays perfectly healthy. What Black actually gets is a broader central pawn mass, c6-d7-e5, covering d5 between them, in exchange for White's more active knight. A clean, level trade, not a concession from either side."
               }
             ]
           }
@@ -186,7 +186,7 @@
         {
           "type": "critical-position",
           "title": "Not every Sicilian is a race",
-          "body": "Both kings castled the same side, so this isn't the opposite-side storm the Dragon or Najdorf lessons showed — it's a slower middlegame where the half-open c-file is Black's clearest asset and White looks for central or kingside space with f4 or Rad1-d4 rerouting ideas. The Sicilian doesn't always mean mutual attack; sometimes it means a long positional squeeze fought over one open file.",
+          "body": "Both kings castled the same side, so this isn't the opposite-side storm the Dragon or Najdorf lessons showed — it's a slower middlegame where the half-open c-file is Black's clearest asset and White looks for central or kingside space with f4, or queenside expansion with a4-a5. The Sicilian doesn't always mean mutual attack; sometimes it means a long positional squeeze fought over one open file.",
           "concepts": ["the c-file"]
         },
         {

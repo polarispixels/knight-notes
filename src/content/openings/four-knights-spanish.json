@@ -123,7 +123,7 @@
         {
           "type": "tactic",
           "title": "The pawn does the fighting",
-          "body": "Rather than retreat the knight and let White consolidate, Black lets the advanced d4-pawn capture Nc3 outright — the pawn from move four's exchange turns out to be worth a whole piece. White's own e5-pawn is still hanging over Nf6, so this isn't free: the position keeps forcing itself forward.",
+          "body": "Rather than retreat the knight and let White consolidate, Black lets the advanced d4-pawn capture Nc3 outright — the pawn from move five's exchange turns out to be worth a whole piece. White's own e5-pawn is still hanging over Nf6, so this isn't free: the position keeps forcing itself forward.",
           "concepts": ["central counterplay"]
         }
       ],
@@ -156,7 +156,7 @@
         {
           "type": "critical-position",
           "title": "Four knights, zero knights",
-          "body": "The forcing sequence ends here: every knight from the opening's name has been traded off, material is exactly level (both sides down two minor pieces and one pawn apiece), and White has doubled c-pawns in exchange for the bishop pair and a small development lead — Black's queen is already out, but the king still needs to find safety.",
+          "body": "The forcing sequence ends here: every knight from the opening's name has been traded off, material is exactly level (both sides down two minor pieces and one pawn apiece), and White has doubled c-pawns in exchange for a small development lead — Black's queen is already out, but the king still needs to find safety. No bishops have left the board, so neither side holds the bishop pair; the compensation for the weak pawns is purely a matter of tempo.",
           "concepts": ["forcing sequences", "doubled pawns"]
         }
       ]
@@ -168,7 +168,7 @@
         {
           "type": "key-idea",
           "title": "What you should have noticed",
-          "body": "Three lessons: a piece that looks like it's hanging can instead trigger a fully forced sequence — always calculate before assuming a knight jump is just a blunder; recapturing 'the obvious way' is not automatic even in balanced positions (compare the trap in the alternative here, where a tempting extra pawn grab loses the queen outright); and doubled pawns bought with the bishop pair and development are a real, standard trade, not a free concession.",
+          "body": "Three lessons: a piece that looks like it's hanging can instead trigger a fully forced sequence — always calculate before assuming a knight jump is just a blunder; recapturing 'the obvious way' is not automatic even in balanced positions (compare the trap in the alternative here, where a tempting extra pawn grab loses the queen outright); and doubled pawns bought with development are a real, standard trade, not a free concession.",
           "concepts": ["piece activity", "doubled pawns"]
         }
       ],

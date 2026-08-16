@@ -94,7 +94,7 @@
         {
           "type": "key-idea",
           "title": "An outpost, not a retreat",
-          "body": "Ne5 doesn't just dodge the attacking pawn -- it claims the single best square in the position. No black pawn can ever challenge a knight here (the e- and d-pawns are gone or committed), and from e5 the knight eyes f7, d7, and g6 all at once. The knight cannot simply grab the g4 pawn from f3 (that isn't even a legal knight move); the retreat has to go somewhere, and e5 is the most active option by far -- keeping the knight this active is why the line is judged the sound main branch of the Accepted, unlike the all-in Muzio Gambit that instead sacrifices the whole knight for a direct attack.",
+          "body": "Ne5 doesn't just dodge the attacking pawn -- it claims the single best square in the position. No black pawn can capture it safely (the knight is well defended, and ...d6 only chases it rather than winning it), and from e5 the knight eyes f7, d7, and g6 all at once. The knight cannot simply grab the g4 pawn from f3 (that isn't even a legal knight move); the retreat has to go somewhere, and e5 is the most active option by far -- keeping the knight this active is why the line is judged the sound main branch of the Accepted, unlike the all-in Muzio Gambit that instead sacrifices the whole knight for a direct attack.",
           "concepts": ["outposts"]
         }
       ],
@@ -194,7 +194,7 @@
       "annotations": [
         {
           "type": "commentary",
-          "body": "White develops the last minor piece toward the kingside rather than the more common c4/b3 diagonal -- with Black's king still uncastled and the h-file half-open from h4, keeping pieces pointed at that side of the board matters more here than the fight for f7."
+          "body": "White develops the last minor piece toward the kingside rather than the more common c4/b3 diagonal -- with Black's king still uncastled and White's h4-pawn already staking a claim on that side of the board, keeping pieces pointed at that side of the board matters more here than the fight for f7."
         }
       ]
     },
@@ -206,7 +206,7 @@
         {
           "type": "critical-position",
           "title": "The bargain of the Kieseritzky",
-          "body": "White has a complete pawn center, both minor pieces developed, and open lines toward a kingside where Black has pushed g- and h-pawns rather than castled early. Black is up the f4 pawn, has an actively placed queen, and is only now completing development. Nothing is forced -- this is a real, roughly balanced fight where White's compensation is structural and long-term, not a single tactical blow.",
+          "body": "White has a complete pawn center, both minor pieces developed, and open lines toward a kingside where Black has pushed g- and h-pawns rather than castled early. Material is exactly level -- White's 6.Nxg4 regained the pawn Black held onto since move three -- but Black has an actively placed queen and is only now completing development. Nothing is forced -- this is a real, roughly balanced fight where White's compensation is structural and long-term, not a single tactical blow.",
           "concepts": ["development", "open files"]
         },
         {

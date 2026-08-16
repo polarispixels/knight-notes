@@ -130,7 +130,7 @@
       "annotations": [
         {
           "type": "commentary",
-          "body": "The bishop pins the c3 knight — not check, since the knight itself blocks the diagonal to the king, but a real developing move with a small point: if White is ever careless, ...Bxc3 can double White's pawns.",
+          "body": "The bishop pins the c3 knight — not check, since the knight itself blocks the diagonal to the king, but a real developing move with a small point: it puts pressure on the center and keeps the option of trading itself for a developed knight, denying White that piece's activity, if the moment ever calls for it.",
           "concepts": ["development"]
         }
       ]

@@ -11,7 +11,6 @@
   "concepts": [
     "simplification",
     "bishop pair",
-    "doubled pawns",
     "avoiding theory",
     "structural edge",
     "Maroczy Bind"
@@ -78,7 +77,7 @@
               {
                 "type": "commentary",
                 "title": "Keeping both bishops",
-                "body": "The other major reply: Black blocks with the knight instead, refusing the trade and preserving the bishop pair. The cost is temporary congestion — both the c8-bishop and the queen are boxed in behind this knight until it moves again."
+                "body": "The other major reply: Black blocks with the knight instead, refusing the trade and preserving the bishop pair. The cost is temporary congestion — the c8-bishop is completely boxed in behind this knight, unable to move at all, until the knight relocates."
               }
             ]
           },
@@ -108,7 +107,7 @@
               {
                 "type": "commentary",
                 "title": "Preserving the bishop, and a later Qb3",
-                "body": "White keeps both bishops rather than trade, planning normal development. In some lines from this defense, White later reroutes the queen to b3 — a square that eyes b7 and f7 along the same diagonal, the same dual-purpose idea the Italian Game and Scotch Game both use, and a real problem while Black's own light-squared bishop stays stuck behind the d7-knight."
+                "body": "White keeps both bishops rather than trade, planning normal development. In some lines from this defense, White later reroutes the queen to b3 — a square that eyes b7 down the file and f7 along the a2-g8 diagonal at once, the same dual-purpose idea the Italian Game and Scotch Game both use, and a real problem while Black's own light-squared bishop stays stuck behind the d7-knight."
               }
             ]
           },
@@ -209,7 +208,7 @@
         {
           "type": "critical-position",
           "title": "A quiet position with a real point",
-          "body": "White's plan from here: hold the bind, expand slowly with Qd2 and Rfd1 or Rac1, and probe for weaknesses in a Black structure that can never freely play ...d5. Black's plan: chip away with ...a5-a4, look for a knight jump to d4, and wait for any small overextension. Compare this to the family study's tabiya — no half-open c-file for Black here, and no attacking chances for White either, just a long grind for a structural edge banked all the way back on move three.",
+          "body": "White's plan from here: hold the bind, expand slowly with Qd2 and Rfd1 or Rac1, and probe for weaknesses in a Black structure that can never freely play ...d5. Black's plan: chip away with ...a5-a4, look for a knight jump to d4, and wait for any small overextension. Compare this to the family study's tabiya — Black does have a half-open c-file here too, but it isn't the weapon it was there: White's own c4 pawn and pieces already occupy and control it, so there's no attacking chances for either side, just a long grind for a structural edge banked all the way back on move three.",
           "concepts": ["Maroczy Bind", "structural edge"]
         },
         {

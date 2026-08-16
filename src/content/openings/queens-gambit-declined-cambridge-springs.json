@@ -54,7 +54,7 @@
         {
           "type": "key-idea",
           "title": "Development out of order, on purpose",
-          "body": "In the Orthodox tree, Black plays ...Be7 before ...Nbd7 — the bishop blocks the a5–e1 diagonal early and the g5-bishop's pin lands softly on that bishop, not the king. Here Black leaves e7 empty. The dark-squared bishop's development is postponed specifically so the queen can use that diagonal later.",
+          "body": "In the Orthodox tree, Black plays ...Be7 before ...Nbd7 — the bishop sits on the g5-bishop's own diagonal, so the Bg5 pin on the f6-knight lands softly, against a bishop, rather than against anything more valuable. That pin is a separate piece of geometry from the one this defense is built around. Here Black leaves e7 empty and the dark-squared bishop's development stays postponed, keeping the queen free to jump to a5 later and open up a completely different diagonal, the one running through c3 to the king.",
           "concepts": ["development"]
         }
       ]
@@ -91,7 +91,7 @@
         {
           "type": "key-idea",
           "title": "The knight that can move retreats",
-          "body": "White doesn't touch the pinned c3-knight — it can't move anyway. Instead the OTHER knight retreats from f3, and this single move does two jobs: it guards e4 with a piece that creates no follow-up double attack if captured, and it prepares to interpose on the a5–e1 diagonal (via a later Nb3 or a block), breaking the pin on White's own terms. The natural-looking alternative, 7.Bd3, ignores the diagonal entirely and loses material outright — see The Cambridge Springs Trap for exactly how.",
+          "body": "White doesn't touch the pinned c3-knight — it can't move anyway. Instead the OTHER knight retreats from f3, and this single move does two jobs at once: it guards e4 with a piece that creates no follow-up double attack if captured, and it lands squarely on the a5–e1 diagonal itself, between the pinned knight and the king. That's not preparation for a future block — the knight on d2 is the interposition, breaking the pin the instant it arrives. The natural-looking alternative, 7.Bd3, ignores the diagonal entirely and loses material outright — see The Cambridge Springs Trap for exactly how.",
           "concepts": ["king safety", "tactical vigilance"]
         }
       ],

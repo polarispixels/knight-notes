@@ -6,7 +6,7 @@
   "subtitle": "The most analyzed answer to the pin — patience, then a structural choice",
   "type": "variation",
   "difficulty": "advanced",
-  "summary": "White meets the Nimzo-Indian pin with a modest pawn move, e3, and no immediate confrontation — then the game's entire character turns on how and when the center gets resolved, producing either an isolated queen's pawn or Black's own hanging c/d pawns. This is by far the most heavily analyzed main line of the whole opening, the repertoire choice of Karpov, Kramnik, and Carlsen alike.",
+  "summary": "White meets the Nimzo-Indian pin with a modest pawn move, e3, and no immediate confrontation — then the game's entire character turns on how and when the center gets resolved, producing either an isolated queen's pawn for White or a pair of permanent, disconnected pawn weaknesses on a3 and c3. This is by far the most heavily analyzed main line of the whole opening, the repertoire choice of Karpov, Kramnik, and Carlsen alike.",
   "tags": [
     "Nimzo-Indian Defense",
     "Rubinstein Variation",
@@ -14,14 +14,13 @@
     "Indian Game",
     "d4 defenses",
     "isolated queen's pawn",
-    "hanging pawns"
+    "weak pawns"
   ],
   "concepts": [
     "the isolated queen's pawn",
-    "hanging pawns",
+    "weak pawns",
     "central restraint",
-    "queenside pressure",
-    "minority attack"
+    "queenside pressure"
   ],
   "metadata": {
     "eco": "E40-E59",
@@ -31,7 +30,7 @@
     {
       "type": "key-idea",
       "title": "What this lesson teaches",
-      "body": "The family study showed the pin's threat and its most direct answer, the Sämisch (4.a3), which accepts the doubled pawns at once. The Rubinstein Variation is the patient alternative: 4.e3 asks no question at all yet, just opens the dark bishop and prepares to meet the pin with sound development instead of confrontation. What makes this system the most deeply analyzed corner of the whole opening is what happens next — a fight over exactly how and when the central pawns get resolved, producing either an isolated queen's pawn for White or a mobile pawn duo for Black, each with its own attacking and defending technique."
+      "body": "The family study showed the pin's threat and its most direct answer, the Sämisch (4.a3), which accepts the doubled pawns at once. The Rubinstein Variation is the patient alternative: 4.e3 asks no question at all yet, just opens the dark bishop and prepares to meet the pin with sound development instead of confrontation. What makes this system the most deeply analyzed corner of the whole opening is what happens next — a fight over exactly how and when the central pawns get resolved, producing either an isolated queen's pawn for White or a pair of permanent, disconnected pawn weaknesses on a3 and c3 for White to defend, each with its own attacking and defending technique."
     }
   ],
   "line": [
@@ -90,7 +89,7 @@
           "type": "key-idea",
           "title": "Pressure from both sides of d4",
           "body": "With pawns now bearing on d4 from both c5 and d5, the position is one tension away from resolving into one of two famous structures. Watch how the coming exchanges decide which one appears — the choice matters more than almost any other single decision in the whole opening.",
-          "concepts": ["hanging pawns"]
+          "concepts": ["central restraint"]
         }
       ],
       "visual": [
@@ -104,7 +103,7 @@
         {
           "type": "commentary",
           "body": "Black develops rather than resolving the central tension yet — but capturing on d4 right now is a fully sound alternative, and reaches a structurally different battleground.",
-          "concepts": ["hanging pawns"]
+          "concepts": ["central restraint"]
         }
       ],
       "variations": [
@@ -140,7 +139,7 @@
           "type": "key-idea",
           "title": "Yes — and here it costs nothing extra",
           "body": "Unlike the Sämisch, where the doubled pawns appear as early as move five, here Black has already completed development and fought for the center with ...d5 and ...c5 before the trade even becomes relevant. Nothing is lost by waiting, and White has now spent a full tempo forcing the issue.",
-          "concepts": ["hanging pawns"]
+          "concepts": ["doubled pawns"]
         }
       ]
     },
@@ -174,9 +173,9 @@
       "annotations": [
         {
           "type": "key-idea",
-          "title": "The Karpov treatment — hanging pawns become a target",
-          "body": "Instead of resolving the center with ...cxd4 (the isolated-pawn structure shown in the earlier variation), Black trades on c4 first. White's center stays intact for now, but the price for the doubled pawns is now visible everywhere: a3 and c3 are permanent, unsupportable targets Black will spend the rest of the game pressing.",
-          "concepts": ["hanging pawns", "queenside pressure"]
+          "title": "The Karpov treatment — fixed pawns become a target",
+          "body": "Instead of resolving the center with ...cxd4 (the isolated-pawn structure shown in the earlier variation), Black trades on c4 first. White's center stays intact for now, but the price for the doubled pawns just paid a few moves back is now visible everywhere: a3 and c3 are permanent, unsupportable targets Black will spend the rest of the game pressing.",
+          "concepts": ["weak pawns", "queenside pressure"]
         }
       ]
     },
@@ -199,13 +198,13 @@
           "type": "critical-position",
           "title": "The Karpov Variation's tabiya",
           "body": "This exact structure — White's central pawns intact but the a3/c3 weaknesses fixed for good — was Karpov's signature weapon as Black for over a decade. The queen eyes e5 and prepares ...e5 or ...Rd8, pressuring d4 while the c3-pawn quietly stays a long-term target. White's plan is the mirror image: use the bishop pair and central space before Black's pieces fully mobilize against the weak pawns.",
-          "concepts": ["queenside pressure", "hanging pawns"]
+          "concepts": ["queenside pressure", "weak pawns"]
         },
         {
           "type": "key-idea",
           "title": "What you should have noticed",
           "body": "Two lessons specific to this system: the exact same trade on c3 that damaged White's structure in the family study and Sämisch costs nothing extra here, because Black had already spent the intervening moves fighting for the center rather than racing to cash in the pin; and one single choice — recapturing on c4 with a pawn versus resolving with ...cxd4 first — decides whether the middlegame becomes an isolated-pawn fight or a queenside-weakness siege, two of the most thoroughly studied structures in all of chess.",
-          "concepts": ["the isolated queen's pawn", "hanging pawns"]
+          "concepts": ["the isolated queen's pawn", "weak pawns"]
         }
       ],
       "visual": [

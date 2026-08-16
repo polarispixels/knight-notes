@@ -149,7 +149,7 @@
         {
           "type": "critical-position",
           "title": "The account, settled honestly",
-          "body": "Count it out: White is down a full knight for a single pawn. There is no hidden tactic that restores the balance -- everything from here on has to be justified by activity alone. The queen recaptures onto the open f-file, directly behind the rook, and both bishops are ready to join in -- White's whole army is already pointed at a king that hasn't moved and has almost no defenders developed.",
+          "body": "Count it out: White is down a full knight, with the pawns level on both sides. There is no hidden tactic that restores the balance -- everything from here on has to be justified by activity alone. The queen recaptures onto the open f-file, directly behind the rook, and both bishops are ready to join in -- White's whole army is already pointed at a king that hasn't moved and has almost no defenders developed.",
           "concepts": ["piece sacrifice", "open files"]
         }
       ]
@@ -173,7 +173,7 @@
         {
           "type": "tactic",
           "title": "Gaining tempo instead of trading queens",
-          "body": "This attacks the queen and refuses the trade Black just offered, while opening the c1-bishop's diagonal at the same time. Black's queen has to move again, and White develops another piece into the attack in the process.",
+          "body": "This attacks the queen and refuses the trade Black just offered. Black's queen has to move again, and White gains a tempo toward developing the rest of the attack in the process.",
           "concepts": ["initiative"]
         }
       ]
@@ -195,7 +195,7 @@
         {
           "type": "commentary",
           "title": "Building, not forcing",
-          "body": "Rather than force matters immediately, White simply continues developing -- the dark-squared bishop and the queenside knight still need to join the attack before any concrete threats materialize. This is the honest character of the whole gambit: the compensation is real but it is a buildup, not a forced sequence, and Black who defends accurately and calmly is doing nothing wrong."
+          "body": "This move finally opens the c1-bishop's diagonal, which the d2-pawn had blocked since move seven, and clears the way for the queenside knight to join the attack too. This is the honest character of the whole gambit: the compensation is real but it is a buildup, not a forced sequence, and Black who defends accurately and calmly is doing nothing wrong."
         }
       ]
     },

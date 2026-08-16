@@ -70,37 +70,26 @@
         [
           {
             "san": "Qxd4",
-            "classification": "mistake",
-            "importance": "notable",
+            "classification": "blunder",
+            "importance": "critical",
             "annotations": [
               {
                 "type": "warning",
-                "title": "The second pawn temptation",
-                "body": "Legal and materially tempting — the d4 pawn really is undefended right now — but it repeats the exact mistake this whole family teaches against: the queen has now moved twice for a pawn while nothing else has developed, and White is about to gain yet another tempo attacking it."
+                "title": "The second pawn temptation — and far worse than it looks",
+                "body": "Legal, and the d4 pawn really is undefended — but this doesn't just repeat the family's tempo-loss lesson, it loses the queen outright. White's own queen sits on d1, and with the d2 and d3 squares empty, the entire d-file is open straight through to d4 — where nothing defends Black's queen."
               }
             ]
           },
           {
-            "san": "Nf3",
-            "annotations": [
-              {
-                "type": "tactic",
-                "title": "Tempo number three",
-                "body": "Attacks the queen again. Black has to move it a fourth time.",
-                "concepts": ["tempo"]
-              }
-            ]
-          },
-          {
-            "san": "Qd8",
+            "san": "Qxd4",
             "annotations": [
               {
                 "type": "commentary",
-                "body": "Full retreat. Count the moves: Black's queen has moved four times to end up back near its own back rank, while White has made two developing moves and a central pawn push. This is the tempo-loss lesson at its most extreme."
+                "title": "Simply winning the queen",
+                "body": "This is not another tempo-gaining attack for Black to answer — it's a finished tactic. White's queen captures Black's for a single pawn, and the game is effectively over. This is the real reason grabbing the second pawn is out of the question: not a slower version of the same lesson, but a full queen lost for nothing."
               }
             ]
-          },
-          "Bc4"
+          }
         ]
       ]
     },

@@ -116,7 +116,7 @@
               {
                 "type": "commentary",
                 "title": "A queen far from home",
-                "body": "The only square that both escapes the rook and keeps the queen doing something useful. From here the game turns razor-sharp: White has a full tempo lead in development and open lines in exchange for the pawn, and both sides have to calculate exactly, not just play principled moves — the cost-and-compensation trade-off this whole opening keeps demonstrating, played out at the very edge of soundness."
+                "body": "Not literally the only legal square — grabbing a second pawn with Qxa2 is tempting, but the c3-knight guards it and Nxa2 simply wins the queen — yet among the safe options, this is the one that escapes the rook's file and keeps the queen doing something useful. From here the game turns razor-sharp: White has a full tempo lead in development and open lines in exchange for the pawn, and both sides have to calculate exactly, not just play principled moves — the cost-and-compensation trade-off this whole opening keeps demonstrating, played out at the very edge of soundness."
               }
             ]
           }
@@ -141,7 +141,7 @@
               {
                 "type": "commentary",
                 "title": "Preserving the diagonal",
-                "body": "Rather than let ...b5 or ...Nc6 harass the bishop off its diagonal, White tucks it onto b3, keeping the same long-term aim at f7 that the Ruy Lopez lesson's bishop preserved on b3 for the same reason."
+                "body": "Rather than let ...b5 or ...Na5 harass the bishop off its diagonal, White tucks it onto b3, keeping the same long-term aim at f7 that the Ruy Lopez lesson's bishop preserved on b3 for the same reason."
               }
             ]
           },
