@@ -12,6 +12,7 @@ export type StudyType =
   | 'tactic'
   | 'endgame'
   | 'pattern'
+  | 'concept'
 
 export type Difficulty = 'beginner' | 'intermediate' | 'advanced'
 

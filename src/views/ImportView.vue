@@ -21,6 +21,7 @@ const TYPE_OPTIONS: { value: StudyType; label: string }[] = [
   { value: 'tactic', label: 'Tactic' },
   { value: 'endgame', label: 'Endgame' },
   { value: 'pattern', label: 'Pattern' },
+  { value: 'concept', label: 'Concept' },
 ]
 
 async function submit() {

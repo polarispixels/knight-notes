@@ -37,6 +37,7 @@ describe('categories', () => {
     expect(categoryOf('tactic')).toBe('tactics')
     expect(categoryOf('pattern')).toBe('tactics')
     expect(categoryOf('endgame')).toBe('endgames')
+    expect(categoryOf('concept')).toBe('concepts')
     expect(CATEGORIES.map((c) => c.id)).toContain('famous-games')
   })
 })

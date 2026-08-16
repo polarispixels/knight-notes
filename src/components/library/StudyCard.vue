@@ -13,6 +13,7 @@ const TYPE_LABELS: Record<string, string> = {
   tactic: 'Tactic',
   endgame: 'Endgame',
   pattern: 'Pattern',
+  concept: 'Concept',
 }
 </script>
 

@@ -13,7 +13,7 @@ import type {
 } from '../../domain/study/types'
 
 const STUDY_TYPES: StudyType[] = [
-  'game', 'opening', 'variation', 'gambit', 'trap', 'tactic', 'endgame', 'pattern',
+  'game', 'opening', 'variation', 'gambit', 'trap', 'tactic', 'endgame', 'pattern', 'concept',
 ]
 const DIFFICULTIES: Difficulty[] = ['beginner', 'intermediate', 'advanced']
 const CLASSIFICATIONS: MoveClassification[] = [

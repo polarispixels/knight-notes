@@ -14,6 +14,7 @@ export const CATEGORIES: Category[] = [
   { id: 'traps', label: 'Traps', types: ['trap'] },
   { id: 'tactics', label: 'Tactics', types: ['tactic', 'pattern'] },
   { id: 'endgames', label: 'Endgames', types: ['endgame'] },
+  { id: 'concepts', label: 'Concepts', types: ['concept'] },
 ]
 
 export function categoryOf(type: StudyType): string {
