@@ -1,0 +1,230 @@
+{
+  "id": "kieninger-trap",
+  "catalogCode": "TR010",
+  "focus": "black",
+  "title": "The Kieninger Trap",
+  "subtitle": "Budapest Gambit — the discovered pin and the knight on d3",
+  "type": "trap",
+  "difficulty": "intermediate",
+  "summary": "The most beautiful trap in the 1.d4 repertoire: in the Budapest Gambit, a knight recaptures on e5 and quietly becomes the lid on a box. When White wins Black's bishop with a pawn, the knight hops to d3 — checkmate, with the e2-pawn frozen by a pin that did not exist one move earlier. A masterclass in discovered pins and blind captures.",
+  "tags": [
+    "Budapest Gambit",
+    "d4 openings",
+    "smothered mate",
+    "discovered pin"
+  ],
+  "concepts": [
+    "discovered pins",
+    "mating nets",
+    "blind recaptures",
+    "self-blocking pieces"
+  ],
+  "metadata": {
+    "eco": "A52",
+    "opening": "Budapest Gambit",
+    "historicalContext": "Named for the German International Master Georg Kieninger, who sprang it against Godai at Vienna 1925. It remains the Budapest Gambit's crown jewel and a fixture of every tactics anthology since — few mates use the victim's own army so completely."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this trap teaches",
+      "body": "Two deep ideas hide in this miniature. First, the discovered pin: a piece moving off a line can create a pin that freezes a defender the same instant an attack needs it frozen. Second, the blind recapture: 'I take because he took' is not a move — it is the absence of one. The final position, where five White units imprison their own king, is the standing monument to both."
+    }
+  ],
+  "line": [
+    "d4",
+    "Nf6",
+    "c4",
+    {
+      "san": "e5",
+      "classification": "interesting",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The setup — the Budapest Gambit",
+          "body": "Black offers a center pawn on move two for rapid piece play against d4 and e5. A respectable surprise weapon rather than a refuted stunt: White keeps a small edge with care — the operative word in everything that follows.",
+          "concepts": [
+            "blind recaptures"
+          ]
+        }
+      ]
+    },
+    "dxe5",
+    {
+      "san": "Ng4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The knight chases the pawn it just gambited — Black intends to regain it with pieces, arriving fast on the squares around White's king while doing so."
+        }
+      ]
+    },
+    {
+      "san": "Bf4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White holds the extra pawn the principled way, with a developing move. Perfectly sound — the danger in this variation is never White's setup, only a capture White will be offered four moves from now."
+        }
+      ]
+    },
+    "Nc6",
+    "Nf3",
+    {
+      "san": "Bb4+",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A check that pulls a White piece to a passive blocking square — and, as it turns out, begins measuring White's king for a very small room.",
+          "concepts": [
+            "self-blocking pieces"
+          ]
+        }
+      ]
+    },
+    {
+      "san": "Nbd2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Blocking with the knight keeps the structure tidy — and places a White piece on d2, the king's only future flight square. No one notices such details until move eight. Chess tragedies are built from furniture arranged this innocently."
+        }
+      ],
+      "visual": [
+        {
+          "type": "square",
+          "square": "d2"
+        }
+      ]
+    },
+    {
+      "san": "Qe7",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The quiet gun on the e-file",
+          "body": "The queen renews pressure on e5 — that is her day job. Her secret job: she now stands on the e-file, aimed through e5 at the pawn on e2 and the king behind it. For the moment two knights' worth of traffic blocks the view. Remember this queen; the entire mate is her doing, and she will never move again.",
+          "concepts": [
+            "discovered pins"
+          ]
+        }
+      ],
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "e7",
+          "to": "e2"
+        }
+      ]
+    },
+    {
+      "san": "a3",
+      "classification": "interesting",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White puts the question to the bishop — playable, but it hands Black a forcing sequence. Before advancing: Black now regains the e5-pawn with a knight capture. After the dust settles, which White pawn will be pinned, and by whom?"
+        }
+      ]
+    },
+    {
+      "san": "Ngxe5",
+      "classification": "critical",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The temptation is served",
+          "body": "Black regains the gambit pawn and appears to have simply forgotten the attacked bishop on b4 — a whole piece, free, protected by nothing. The offer is the trap: White's correct move is to capture on e5 with the knight first (see the variation), trading pieces before collecting the bishop. The greedy order loses to a detail sitting in plain sight on the e-file.",
+          "concepts": [
+            "blind recaptures"
+          ]
+        }
+      ]
+    },
+    {
+      "san": "axb4",
+      "classification": "blunder",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "mistake",
+          "title": "The trigger — the blind capture",
+          "body": "'He left the bishop, I take the bishop.' But look at what the position became while White was counting material: Black's knight on e5 is a lid about to lift off the e-file, White's king has exactly one flight square — d2, occupied by his own knight since move six — and d1 belongs to his own queen. The box was assembled piece by piece; this capture declines the last chance to not close it.",
+          "concepts": [
+            "blind recaptures",
+            "self-blocking pieces"
+          ]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nxe5",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The avoidance — capture in the right order",
+                "body": "White trades knights immediately. After Black recaptures, the e-file is blocked by Black's own knight, the d3 mating square is covered, and only then does White safely consider axb4 — the bishop was never running anywhere. Move order inside a combination matters as much as the moves: when two captures are available, calculate both sequences, not just both captures.",
+                "concepts": [
+                  "blind recaptures"
+                ]
+              }
+            ]
+          },
+          "Nxe5",
+          "e3"
+        ]
+      ]
+    },
+    {
+      "san": "Nd3#",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The punishment — mate by discovered pin",
+          "body": "The knight steps off the e-file to deliver check, and its departure is the whole genius: the e7-queen's frozen line to e2 opens the same instant, pinning the e2-pawn — so exd3, the one move that refutes everything, is illegal. Now count the king's room: d1 is his own queen, d2 his own knight, f1 his own bishop, f2 his own pawn. Five White units, every one a wall. Checkmate with almost all of Black's army still at home.",
+          "concepts": [
+            "discovered pins",
+            "mating nets"
+          ]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: pins can be created by a departure — when your piece leaves a line, ask what now shoots down it, in both directions; recaptures are decisions, and the reflex 'take back' is where combinations hide (the Légal, Elephant, and Lasker traps all bill the same reflex); and count your king's flight squares whenever the opponent's pieces gather near it — a full, healthy army can be checkmated the moment it becomes its own prison. That is the Kieninger's immortal image.",
+          "concepts": [
+            "discovered pins",
+            "blind recaptures",
+            "mating nets"
+          ]
+        }
+      ],
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "e7",
+          "to": "e2"
+        },
+        {
+          "type": "square",
+          "square": "d1"
+        },
+        {
+          "type": "square",
+          "square": "d2"
+        },
+        {
+          "type": "square",
+          "square": "f1"
+        },
+        {
+          "type": "square",
+          "square": "f2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "id": "fishing-pole",
+  "catalogCode": "TR005",
+  "focus": "black",
+  "title": "The Fishing Pole Trap",
+  "subtitle": "Ruy Lopez — bait on the g4 hook",
+  "type": "trap",
+  "difficulty": "intermediate",
+  "summary": "Black dangles a knight on g4 like bait on a hook and answers the natural h3 with ...h5!, offering the piece outright. Taking it opens the h-file — the only file Black's rook needs — and the attack plays itself. A lesson in why open files toward a king outweigh a minor piece.",
+  "tags": ["Ruy Lopez", "h-file attack", "kingside attack"],
+  "concepts": [
+    "open files toward the king",
+    "material versus attack",
+    "declining poisoned gifts",
+    "mating nets"
+  ],
+  "metadata": {
+    "eco": "C65",
+    "opening": "Ruy Lopez, Berlin Defense",
+    "historicalContext": "Popularized in modern blitz by the American master Brian Wall, who named it after the image of the g4-knight as bait dangling from the h5-pawn's line. Unsound with best play, devastating in fast games — and an unusually pure demonstration of what an open h-file is worth."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this trap teaches",
+      "body": "The Fishing Pole is a wager: a whole knight against one open file. That sounds absurd until you watch the file win. The transferable idea is the exchange rate between material and attack — a rook, a queen, and an open highway to the enemy king routinely outweigh a minor piece — and the equally transferable defense: you are never obliged to take the bait."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    "Bb5",
+    "Nf6",
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Normal, healthy chess — and precisely what the trap needs: a castled king gives the coming h-file attack its address."
+        }
+      ]
+    },
+    {
+      "san": "Ng4",
+      "classification": "interesting",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The setup — bait takes its position",
+          "body": "Objectively this knight sortie is dubious: it moves a developed piece twice to a square one pawn-nudge from being kicked. That nudge is exactly what Black is inviting. The knight is the bait; the h-pawn behind it will be the line.",
+          "concepts": ["declining poisoned gifts"]
+        }
+      ]
+    },
+    {
+      "san": "h3",
+      "classification": "interesting",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The obvious move — ask the knight and it must retreat, surely? Before advancing: what can Black play instead of retreating, and what would then be attacking what?"
+        }
+      ]
+    },
+    {
+      "san": "h5",
+      "classification": "critical",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The temptation is set",
+          "body": "Black refuses to retreat and instead reinforces the bait — the h5-pawn 'defends' the knight in the strangest sense: not by guarding it, but by promising that its capture opens the h-file with Black's rook already sitting at the far end. White now faces the real decision of the game: take a free piece, or sense the hook inside it.",
+          "concepts": ["declining poisoned gifts", "open files toward the king"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "h8", "to": "h5" },
+        { "type": "square", "square": "g4" }
+      ]
+    },
+    {
+      "san": "hxg4",
+      "classification": "blunder",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "mistake",
+          "title": "The trigger — swallowing the hook",
+          "body": "A whole knight, and the capture even looks safe: what can one pawn recapture threaten? But count what changed: the h-file is now open from h8 to h1, Black's rook never had to spend a move to use it, and White's king cannot leave the corner quickly. The piece was real; the file is worth more. Declining with the modest 6.c3 (see the variation) leaves Black's stunt simply unsound.",
+          "concepts": ["material versus attack"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "c3",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The avoidance — leave the bait on the hook",
+                "body": "White simply continues developing. Now the g4-knight must eventually justify itself or retreat with tempo lost, and the h5-pawn advance has loosened Black's own kingside for nothing. Against bait, the strongest reply is usually a useful move elsewhere: a threat that must be maintained costs its owner time every move it stands.",
+                "concepts": ["declining poisoned gifts"]
+              }
+            ]
+          },
+          "a6",
+          "Ba4"
+        ]
+      ]
+    },
+    {
+      "san": "hxg4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The file opens and the attack arrives at full strength instantly — this is why the trap works at any speed: Black's moves come with threats, White's replies are all defense.",
+          "concepts": ["open files toward the king"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "h8", "to": "h1" }]
+    },
+    {
+      "san": "Ne1",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The knight flees the g4-pawn's advance and tries to make luft for defense — but no piece can stand on the h-file's path, and that is the only path that matters now."
+        }
+      ]
+    },
+    {
+      "san": "Qh4",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The battery completes",
+          "body": "Queen in front, rook behind — the file's full weight aims at h1, and mate on h1 is already threatened: the queen arrives supported by her rook, so the king could never capture. White's forced defensive pawn moves only add sealant to the tomb.",
+          "concepts": ["open files toward the king", "mating nets"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "h4", "to": "h1" },
+        { "type": "arrow", "from": "h8", "to": "h4" }
+      ]
+    },
+    {
+      "san": "f3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The only try: giving the king f2 as an escape hatch. Black's next move closes it."
+        }
+      ]
+    },
+    {
+      "san": "g3",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The net closes — count the doors",
+          "body": "The pawn seals f2, and mate on h1 cannot be stopped: the queen comes to h1 supported by the rook, the king's capture is illegal, f2 is covered by this pawn, and no White piece can reach the file in time. The knight White won never took part in the defense — that is the trap's whole accounting: minus one knight, plus one unstoppable file.",
+          "concepts": ["mating nets", "material versus attack"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three transferable lessons: an open file pointed at a king is convertible currency, often worth more than a piece; bait works by looking like profit — audit what a capture opens, not just what it wins; and the counter to a hope trap is rarely a refutation — it is a calm developing move that makes the aggressor pay rent on an overextended idea.",
+          "concepts": ["open files toward the king", "declining poisoned gifts"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "f2" },
+        { "type": "square", "square": "h1" }
+      ]
+    }
+  ]
+}

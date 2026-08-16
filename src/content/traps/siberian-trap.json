@@ -1,0 +1,264 @@
+{
+  "id": "siberian-trap",
+  "catalogCode": "TR007",
+  "focus": "black",
+  "title": "The Siberian Trap",
+  "subtitle": "Smith-Morra Gambit — the battery on b8–h2 detonates",
+  "type": "trap",
+  "difficulty": "intermediate",
+  "summary": "Against the Smith-Morra Gambit, Black quietly aims a queen at h2 and lands a knight on g4. One careless pawn nudge later, a knight fork wins the queen or a supported mate lands on h2. A study in batteries, coordinated threats — and the difference between prophylaxis and panic.",
+  "tags": [
+    "Sicilian Defense",
+    "Smith-Morra Gambit",
+    "queen trap",
+    "mating attack"
+  ],
+  "concepts": [
+    "batteries",
+    "double attack",
+    "prophylaxis versus reaction",
+    "coordinated piece threats",
+    "mating nets"
+  ],
+  "metadata": {
+    "eco": "B21",
+    "opening": "Sicilian Defense, Smith-Morra Gambit",
+    "historicalContext": "Named after Boris Schipkov of Novosibirsk, who analyzed it in the early 1990s. It is the standing hazard of the Smith-Morra: White's gambit buys fast development, and this trap punishes the moment fast development turns into inattentive development."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this trap teaches",
+      "body": "The Siberian is about invisible coordination: a queen on c7 and a knight arriving at g4 don't look like a mating attack — until you notice they both address h2. The transferable skills are reading batteries aimed at your king before they fire, and understanding that the identical defensive move can be prophylaxis one move earlier and a blunder one move later."
+    }
+  ],
+  "line": [
+    "e4",
+    "c5",
+    {
+      "san": "d4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The setup — White gambles a pawn for speed",
+          "body": "The Smith-Morra: White offers a pawn to rip open the center and develop at double speed. A respectable practical weapon — and its whole justification is tempo, which is exactly what this trap will tax."
+        }
+      ]
+    },
+    "cxd4",
+    "c3",
+    "dxc3",
+    "Nxc3",
+    "Nc6",
+    "Nf3",
+    "e6",
+    "Bc4",
+    {
+      "san": "Qc7",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A queen with a hidden address",
+          "body": "Standard Sicilian development — the queen takes the c-file post the pawn trade opened. But note her second line of sight: the b8–h2 diagonal runs straight to the square beside White's castled king. Nothing is threatened yet. The trap is the story of White forgetting that diagonal exists.",
+          "concepts": [
+            "batteries"
+          ]
+        }
+      ],
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "c7",
+          "to": "h2"
+        }
+      ]
+    },
+    "O-O",
+    "Nf6",
+    {
+      "san": "Qe2",
+      "classification": "interesting",
+      "annotations": [
+        {
+          "type": "warning",
+          "title": "Natural development, first inattention",
+          "body": "A standard Morra move — the queen supports e5 ideas and clears d1 for a rook. But it walks the queen onto a forkable square and does nothing about Black's gathering kingside geometry. The alert alternative was 8.h3 (see the variation): deny g4 before it matters. One prophylactic pawn move now would defuse the entire trap.",
+          "concepts": [
+            "prophylaxis versus reaction"
+          ]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "h3",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The avoidance — prophylaxis on schedule",
+                "body": "Played before the knight can use g4, this little move is pure prophylaxis: the battery against h2 never gets its second piece, and White's gambit play continues undisturbed. The identical pawn move played one move too late is the losing blunder of the main line — the sharpest illustration in this library that timing, not the move itself, is what chess judges.",
+                "concepts": [
+                  "prophylaxis versus reaction"
+                ]
+              }
+            ]
+          },
+          "Be7",
+          "Qe2"
+        ]
+      ]
+    },
+    {
+      "san": "Ng4",
+      "classification": "critical",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The knight hops toward the king and eyes h2 — the square the c7-queen already watches. White would love to ask it to leave with h3. Before advancing: what does Black have prepared against exactly that?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The battery is loaded",
+          "body": "Queen and knight now both cover h2 — a mate is one inattentive move away, since Qxh2 would arrive supported. White's position is still fine with accurate play, but every natural-looking reply must now be checked against the battery. This is the trap's temptation phase: the threat hides inside the routine.",
+          "concepts": [
+            "batteries",
+            "coordinated piece threats"
+          ]
+        }
+      ],
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "g4",
+          "to": "h2"
+        },
+        {
+          "type": "arrow",
+          "from": "c7",
+          "to": "h2"
+        }
+      ]
+    },
+    {
+      "san": "h3",
+      "classification": "blunder",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "mistake",
+          "title": "The trigger — the right move at the fatal moment",
+          "body": "The move that would have been wise prophylaxis two moves ago is now a losing panic: it attacks the knight but opens nothing for defense, and Black's answer ignores it entirely. White had to develop with the battery in mind (Rd1, Bf4 lines, or g3 setups); instead the h-pawn commits the classic sin of touching the position in front of the king while a loaded battery watches.",
+          "concepts": [
+            "prophylaxis versus reaction"
+          ]
+        }
+      ]
+    },
+    {
+      "san": "Nd4",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The punishment — a fork wearing a mating threat",
+          "body": "The second knight leaps in with a double attack of rare elegance: it forks the e2-queen — and simultaneously renews Qxh2 mate, because capturing the g4-knight removes nothing from the battery. White faces two threats sharing zero defenses: take the forking knight and be mated; take the bait knight and lose the queen to the fork's check. The variation shows the second branch.",
+          "concepts": [
+            "double attack",
+            "coordinated piece threats"
+          ]
+        }
+      ],
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "d4",
+          "to": "e2"
+        },
+        {
+          "type": "arrow",
+          "from": "c7",
+          "to": "h2"
+        }
+      ]
+    },
+    {
+      "san": "Nxd4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White saves the queen by removing the forking knight — which abandons the other fire. The battery's first piece never moved; it never had to."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "hxg4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Removing the mate threat by capturing the g4-knight — and walking into the fork's other prong."
+              }
+            ]
+          },
+          {
+            "san": "Nxe2+",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The result, branch two",
+                "body": "The knight takes the queen with check — the tempo detail that makes the whole combination airtight, since White cannot even choose how to recapture. Black has won queen for knight: a decisive material verdict in an opening White chose for its speed.",
+                "concepts": [
+                  "double attack"
+                ]
+              }
+            ]
+          },
+          "Nxe2"
+        ]
+      ]
+    },
+    {
+      "san": "Qh2#",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The mating geometry — his own castle became the cage",
+          "body": "Mate on the spot, and every wall belongs to White: the king cannot capture the queen because the g4-knight guards her; f1 is occupied by White's own rook — the very rook castling put there; f2 is his own pawn. A supported contact check with zero flight squares. The battery's two pieces did everything; White's extra development watched.",
+          "concepts": [
+            "batteries",
+            "mating nets"
+          ]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: batteries announce themselves early — a queen's long diagonal toward your king is a standing condition to audit before every routine move; double attacks win because the defenses don't overlap — count your answers to each threat separately; and prophylaxis is a schedule, not a move — h3 on move eight is wisdom, h3 on move nine is the blunder of the game.",
+          "concepts": [
+            "prophylaxis versus reaction",
+            "double attack",
+            "batteries"
+          ]
+        }
+      ],
+      "visual": [
+        {
+          "type": "square",
+          "square": "f1"
+        },
+        {
+          "type": "square",
+          "square": "f2"
+        },
+        {
+          "type": "arrow",
+          "from": "g4",
+          "to": "h2"
+        }
+      ]
+    }
+  ]
+}

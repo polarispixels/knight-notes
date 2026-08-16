@@ -1,0 +1,170 @@
+{
+  "id": "cambridge-springs-trap",
+  "catalogCode": "TR009",
+  "focus": "black",
+  "title": "The Cambridge Springs Trap",
+  "subtitle": "Queen's Gambit Declined — one capture, two purposes",
+  "type": "trap",
+  "difficulty": "intermediate",
+  "summary": "In the Cambridge Springs Defense, Black's queen slides to a5 and lays a delayed mine: if White develops the f1-bishop on autopilot, a knight leap and a pawn recapture that attacks two pieces at once win a piece. A lesson in moves that do two jobs — and in why a pin changes what 'defended' means.",
+  "tags": ["Queen's Gambit Declined", "Cambridge Springs", "d4 openings", "piece win"],
+  "concepts": [
+    "double-purpose moves",
+    "pins",
+    "overloaded defenders",
+    "developing into a tactic"
+  ],
+  "metadata": {
+    "eco": "D52",
+    "opening": "Queen's Gambit Declined, Cambridge Springs Defense",
+    "historicalContext": "Named for the Cambridge Springs, Pennsylvania tournament of 1904, where the defense had its coming-out party. Its early ...Qa5 sets so many small tactical tripwires that even masters have lost pieces to this line — which is precisely why every QGD player learns it from both sides."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this trap teaches",
+      "body": "Unlike a hope trap, the Cambridge Springs is sound chess in which one natural developing move happens to lose. The teaching is double: some positions make routine development a blunder — you must ask what changed before playing the 'automatic' move — and the winning mechanism is a capture that does two jobs at once, the signature of efficient tactics."
+    }
+  ],
+  "line": [
+    "d4",
+    "d5",
+    "c4",
+    "e6",
+    "Nc3",
+    "Nf6",
+    "Bg5",
+    {
+      "san": "Nbd7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A familiar face: this quiet developing move set the Elephant Trap in the Queen's Gambit Declined lesson. Here it is the gateway to a different defense — and a different mine."
+        }
+      ]
+    },
+    "e3",
+    "c6",
+    "Nf3",
+    {
+      "san": "Qa5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The setup — a queen with three fingers on the position",
+          "body": "The Cambridge Springs move. From a5 the queen touches everything at once: she pressures the c3-knight down the a5–e1 diagonal (a soft pin against the king), supports a future ...Ne4 and ...Bb4, and watches the fifth rank — remember that rank. Nothing is threatened this move; instead, several White replies have quietly become poisoned. Positions like this punish autopilot.",
+          "concepts": ["pins", "developing into a tactic"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "a5", "to": "e1" },
+        { "type": "square", "square": "e4" }
+      ]
+    },
+    {
+      "san": "Bd3",
+      "classification": "mistake",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The most natural developing move in the entire Queen's Gambit — the bishop goes to its best diagonal, preparing to castle. In ninety-nine QGD positions out of a hundred it is correct. What did ...Qa5 change that makes it lose a piece here?"
+        },
+        {
+          "type": "warning",
+          "title": "The temptation and the trigger",
+          "body": "The bishop steps onto a square where Black's next leap creates impossible arithmetic. The problem: with the queen eyeing c3, the knight there is effectively pinned — it cannot recapture on e4 without exposing tactics on the diagonal — and Bd3 just added a second piece to the e4 target square. White needed a move that respected the mine: 7.Nd2 (see the variation) guards e4 with a piece that can actually do the job.",
+          "concepts": ["developing into a tactic", "pins"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nd2",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The avoidance — guard the square the tactics want",
+                "body": "Main theory. The knight retreat looks passive but does exactly what the position demands: it defends e4 with a piece whose capture creates no double attack, and it breaks the a5–e1 pressure by preparing to block or trade. When the opponent's setup names a target square, development must answer that square — 'toward the best diagonal' is a habit, not a law.",
+                "concepts": ["developing into a tactic"]
+              }
+            ]
+          },
+          "Bb4",
+          "Qc2"
+        ]
+      ]
+    },
+    {
+      "san": "Ne4",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The leap that exploits the pin",
+          "body": "The knight lands on the square both sides were arguing about — attacking the g5-bishop, and immune to the natural recapture: the c3-knight is tied to the a5–e1 diagonal, where taking on e4 hands Black tactics against the exposed king-line. A pinned defender is a defender in name only; Black just treated Nc3 as if it weren't there.",
+          "concepts": ["pins", "overloaded defenders"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "e4", "to": "g5" },
+        { "type": "arrow", "from": "a5", "to": "c3" }
+      ]
+    },
+    {
+      "san": "Bxe4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop does the recapturing the knight cannot — which walks into the real point. Watch Black's next capture carefully: it is the whole trap in a single pawn move."
+        }
+      ]
+    },
+    {
+      "san": "dxe4",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The punishment — one capture, two threats",
+          "body": "The recapturing pawn attacks the f3-knight — and by leaving d5, it opens the fifth rank so the a5-queen now stares at the undefended g5-bishop. Two White pieces hang to one pawn move, and they share no defense: save the knight and ...Qxg5 wins the bishop; save the bishop and ...exf3 wins the knight. This is the double-purpose capture in its purest form — the moving piece creates one threat, the vacated square creates the other.",
+          "concepts": ["double-purpose moves", "overloaded defenders"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "e4", "to": "f3" },
+        { "type": "arrow", "from": "a5", "to": "g5" }
+      ]
+    },
+    {
+      "san": "Nd2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White saves the knight — the greater value — and concedes the bishop. There was no move that held both."
+        }
+      ]
+    },
+    {
+      "san": "Qxg5",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The result — a clean piece",
+          "body": "Black has won bishop for pawn: decisive material, extracted from nothing but a mistimed developing move. Count the machine's parts one more time: a soft pin that disabled a defender, a knight leap that used the disabled square, and a recapture whose departure opened the winning line. Three small facts, one lost piece.",
+          "concepts": ["double-purpose moves", "pins"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a pinned or tactically tied piece does not defend — recount every 'defended' square after your opponent creates a pin (the Légal Trap and Elephant Trap teach the same law from other angles); captures change two squares — the one occupied and the one vacated — and the vacated one wins here; and when the opponent makes a slightly odd early queen move, treat your own routine development as suspect until you've asked what the queen just made possible.",
+          "concepts": ["pins", "double-purpose moves", "developing into a tactic"]
+        }
+      ]
+    }
+  ]
+}

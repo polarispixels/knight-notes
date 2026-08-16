@@ -1,0 +1,202 @@
+{
+  "id": "lasker-trap",
+  "catalogCode": "TR006",
+  "focus": "black",
+  "title": "The Lasker Trap",
+  "subtitle": "Albin Countergambit — the underpromotion that wins a queen",
+  "type": "trap",
+  "difficulty": "intermediate",
+  "summary": "In the Albin Countergambit a runaway black d-pawn reaches f2 — and promotes to a knight, not a queen. The check decides everything. One of the only famous traps built on underpromotion, and a permanent lesson: promotion is a choice, and the biggest piece is not always the right one.",
+  "tags": ["Albin Countergambit", "underpromotion", "d4 openings"],
+  "concepts": [
+    "underpromotion",
+    "forcing moves and tempo",
+    "greed",
+    "the danger of a passed pawn deep in your camp"
+  ],
+  "metadata": {
+    "eco": "D08",
+    "opening": "Albin Countergambit",
+    "historicalContext": "Named for Emanuel Lasker, world champion for 27 years, though the trap predates his analysis of it. It remains the standard classroom example of why the rules allow promotion to any piece: here the humble knight does what a new queen cannot."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this trap teaches",
+      "body": "Two ideas travel far beyond this opening. First: a passed pawn deep in enemy territory is a tactical weapon, not just an endgame asset — every capture near it must be calculated, not assumed. Second: forcing moves rule tactics. The famous moment promotes to a knight because the knight gives check, and check outranks a queen's grandeur — the opponent never gets a turn."
+    }
+  ],
+  "line": [
+    "d4",
+    "d5",
+    "c4",
+    {
+      "san": "e5",
+      "classification": "interesting",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The setup — a countergambit",
+          "body": "The Albin: Black answers the Queen's Gambit with a gambit, offering the e-pawn for quick play and — crucially — a cramping pawn that will land on d4. Objectively it is a sharp, slightly dubious try; practically it asks White questions from move two.",
+          "concepts": ["greed"]
+        }
+      ]
+    },
+    "dxe5",
+    {
+      "san": "d4",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The wedge",
+          "body": "This advanced pawn is the whole variation: it cramps White's queenside development and, as the trap will show, it is faster and more dangerous than it looks. Pawns this deep are lit fuses — White's next move decides whether to defuse it carefully or poke it.",
+          "concepts": ["the danger of a passed pawn deep in your camp"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d4" }]
+    },
+    {
+      "san": "e3",
+      "classification": "mistake",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The most natural move on the board — challenge the intruder at once. It is also the losing idea. What does 4.e3 open, and which Black piece uses it first?"
+        },
+        {
+          "type": "warning",
+          "title": "The temptation",
+          "body": "Poking the pawn looks safe and obvious, but it opens the f8–a3 diagonal at the exact moment Black can use it with tempo. The sound path is 4.Nf3 (see the variation): develop first, surround the pawn later. Advanced pawns are arrested by pieces, not shoved by pawns.",
+          "concepts": ["forcing moves and tempo"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nf3",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The avoidance — develop, then deal with d4",
+                "body": "White develops toward castling and leaves the d4-pawn to be handled by pieces (g3, Bg2, Nbd2 is the classical recipe). The pawn becomes a long-term weakness rather than a tactical spearhead. Against sharp gambits, the winning plan is usually the boring one: take no bait, finish development, keep the extra pawn.",
+                "concepts": ["greed"]
+              }
+            ]
+          },
+          "Nc6",
+          "g3"
+        ]
+      ]
+    },
+    {
+      "san": "Bb4+",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The freshly opened diagonal, used with check — every Black move in this sequence forces a reply, which is why White never gets time to consolidate. Tempo is the trap's fuel.",
+          "concepts": ["forcing moves and tempo"]
+        }
+      ]
+    },
+    {
+      "san": "Bd2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The natural block — and it comes with an offer Black is meant to notice: the bishops stand ready to trade on b4, 'winning' Black's active piece. That offer is the second layer of bait."
+        }
+      ]
+    },
+    {
+      "san": "dxe3",
+      "classification": "critical",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Ignoring the 'threat'",
+          "body": "Black leaves the bishop hanging and pushes the runaway pawn through, now attacking f2. This is a zwischenzug mindset: White's threat of Bxb4 is slower than Black's own threats, so it can be ignored. Counting tempo beats counting attacked pieces.",
+          "concepts": ["forcing moves and tempo", "the danger of a passed pawn deep in your camp"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e3", "to": "f2" }]
+    },
+    {
+      "san": "Bxb4",
+      "classification": "blunder",
+      "annotations": [
+        {
+          "type": "mistake",
+          "title": "The trigger — greed completes the collapse",
+          "body": "White wins the bishop and loses the game. The capture spends the one tempo that mattered: the e3-pawn now crashes into f2, and White's king will never recover. Necessary was 6.fxe3, accepting a damaged structure — ugly, but alive.",
+          "concepts": ["greed"]
+        }
+      ]
+    },
+    {
+      "san": "exf2+",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Check — and note the king's dilemma: recapturing with the king walks into ...Qxd1, so the king must step aside and let the pawn live on f2, one square from a new life."
+        }
+      ]
+    },
+    {
+      "san": "Ke2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Forced in spirit (Kxf2 drops the queen to the d-file). Now comes the move this trap is famous for. Black to play — and promoting to a queen would actually let White fight on. Find the better piece."
+        }
+      ]
+    },
+    {
+      "san": "fxg1=N+",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The underpromotion",
+          "body": "A knight — because a knight arrives with check. Promoting to a queen would allow White the saving zwischenzug Qxd8+, trading queens before capturing on g1, and the storm passes. The knight's check forbids White that free move entirely: the new piece must be dealt with this instant, and Black's queen stays on the board for the finish. The biggest piece lost to the most forcing one.",
+          "concepts": ["underpromotion", "forcing moves and tempo"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "g1" }]
+    },
+    {
+      "san": "Rxg1",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The rook removes the newborn knight — the only dignified reply — and in doing so leaves the queen on d1 with one fatal geometric problem, which Black's next move exposes."
+        }
+      ]
+    },
+    {
+      "san": "Bg4+",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The result — a skewer through the king",
+          "body": "Check along the g4–e2 diagonal: the king must move, and behind him stands the undefended queen on d1. Black wins the queen, finishing an operation that cost only a bishop many moves ago. The whole sequence was one connected machine: opened diagonal, tempo-checks, the pawn's charge, and an underpromotion that never let White breathe.",
+          "concepts": ["forcing moves and tempo"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons that outlive the Albin: promotion is a choice — ask which piece wins, not which piece is biggest; forcing moves (checks, captures, threats) set the schedule of a tactical sequence, and whoever runs out of them first must start answering; and deep passed pawns convert to tactics — treat any pawn on your second rank as a live grenade, and defuse it with development, not gestures.",
+          "concepts": ["underpromotion", "greed", "the danger of a passed pawn deep in your camp"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "g4", "to": "e2" },
+        { "type": "square", "square": "d1" }
+      ]
+    }
+  ]
+}

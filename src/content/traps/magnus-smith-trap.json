@@ -1,0 +1,169 @@
+{
+  "id": "magnus-smith-trap",
+  "catalogCode": "TR012",
+  "focus": "white",
+  "title": "The Magnus Smith Trap",
+  "subtitle": "Sicilian Defense — the recapture that loses the queen",
+  "type": "trap",
+  "difficulty": "intermediate",
+  "summary": "In a mainstream Open Sicilian, White's e5-push poses a question and Black's most natural answer — the automatic pawn recapture — loses the queen to a bishop check on f7. A White-side trap built on deflection: the king is the queen's only defender, and one check removes him from the job.",
+  "tags": ["Sicilian Defense", "queen trap", "deflection", "e4 openings"],
+  "concepts": [
+    "deflection",
+    "removal of the defender",
+    "the weak f7 square",
+    "automatic recaptures"
+  ],
+  "metadata": {
+    "eco": "B57",
+    "opening": "Sicilian Defense, Sozin setup",
+    "historicalContext": "Named for Magnus Smith, the three-time Canadian champion who used the idea against Frank Marshall around 1899. It lives inside respectable Sicilian theory to this day — the reason 6...g6 is considered inaccurate against the Sozin bishop is precisely this sequence."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this trap teaches",
+      "body": "Deflection in its purest form: a queen on its home square feels safe, but if its only defender is the king, one check is a crowbar. The trap also teaches a quieter habit — recaptures are decisions (the Kieninger lesson's theme, now from White's side of the board), and the automatic one is exactly where tactics hide. Finally: f7 is weak even when nothing seems aimed at it yet."
+    }
+  ],
+  "line": [
+    "e4",
+    "c5",
+    "Nf3",
+    "Nc6",
+    "d4",
+    "cxd4",
+    "Nxd4",
+    "Nf6",
+    "Nc3",
+    "d6",
+    {
+      "san": "Bc4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The setup — the Sozin bishop",
+          "body": "The bishop takes the diagonal aimed at f7 — for now a closed road, since Black's e-pawn and king stand in the way. Remember the Sicilian lesson's structure: this is a normal Open Sicilian where both sides have played only respectable moves. The trap grows out of one inaccuracy.",
+          "concepts": ["the weak f7 square"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c4", "to": "f7" }]
+    },
+    {
+      "san": "g6",
+      "classification": "mistake",
+      "annotations": [
+        {
+          "type": "warning",
+          "title": "The inaccuracy that opens the door",
+          "body": "A Dragon player's reflex — fianchetto the bishop. But against the c4-bishop this exact move order is imprecise: it spends a tempo doing nothing about the center at the one moment White has a forcing sequence there. Theory prefers 6...e6 or 6...Qb6, blunting the bishop's diagonal first. Not yet a losing move — the door is open, not the trap sprung.",
+          "concepts": ["the weak f7 square"]
+        }
+      ]
+    },
+    {
+      "san": "Nxc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The first link: White trades knights so the recapture pulls Black's b-pawn toward the center — and, more importantly, removes the piece that would otherwise guard e5 and d4 squares in the coming push."
+        }
+      ]
+    },
+    "bxc6",
+    {
+      "san": "e5",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The pawn attacks both the d6-pawn and the f6-knight at once. Black's hand reaches for the obvious reply — take the attacker. Before advancing: after ...dxe5, what does the d-file look like, and who is the only defender of the d8-queen?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The fork that is really a question",
+          "body": "The push looks like a simple central fork, and Black has several replies. The trap lives in the most natural one: the automatic pawn recapture. White's real threat is not winning a piece — it is the open d-file plus the c4–f7 diagonal combining against Black's royal family.",
+          "concepts": ["automatic recaptures"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "e5", "to": "d6" },
+        { "type": "arrow", "from": "e5", "to": "f6" }
+      ]
+    },
+    {
+      "san": "dxe5",
+      "classification": "blunder",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "mistake",
+          "title": "The trigger — the automatic recapture",
+          "body": "'He took toward my pawn, I take back.' The capture opens the d-file with both queens on it — White's protected, Black's guarded only by the king. Black had to suffer instead with 8...Ng4 or 8...Nd7 (see the variation), keeping the file closed and accepting an unpleasant but living position. One reflexive pawn capture converts an inaccuracy into a lost game.",
+          "concepts": ["automatic recaptures"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Ng4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The avoidance — decline and defend",
+                "body": "The knight steps aside and eyes the e5-pawn; the d-file stays closed and the queen keeps her king-guard intact. Black's position remains worse — the price of 6...g6 — but it is a middlegame, not a museum piece. When a natural recapture opens a file toward your unmoved queen or king, the ugly sidestep is often the only real move.",
+                "concepts": ["automatic recaptures", "removal of the defender"]
+              }
+            ]
+          },
+          "exd6",
+          "exd6"
+        ]
+      ]
+    },
+    {
+      "san": "Bxf7+",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The punishment — deflection by check",
+          "body": "The bishop gives itself up on the square it was born to attack — not to win material on f7, but to drag the king one square forward. The king is the d8-queen's only defender; the check is a summons he cannot refuse. This is 'removal of the defender' executed with a throwaway piece: the defender isn't captured, merely called away.",
+          "concepts": ["deflection", "removal of the defender", "the weak f7 square"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "c4", "to": "f7" },
+        { "type": "arrow", "from": "e8", "to": "d8" }
+      ]
+    },
+    {
+      "san": "Kxf7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Declining with 9...Ke7 saves the queen but abandons f7 and the king's safety for nothing — capturing is best, and it completes the deflection: the queen stands alone."
+        }
+      ]
+    },
+    {
+      "san": "Qxd8",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The result — queen for bishop",
+          "body": "White has won the queen for a bishop and a pawn: a decisive material advantage in a position where Black also has a wandering king. The whole operation cost White nothing permanent — the d1-queen simply harvested what the deflection left unguarded.",
+          "concepts": ["deflection"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a queen defended only by its king is not defended — one check is deflection enough, so audit that relationship before opening any central file; recaptures are the natural habitat of tactics, because they are the moves played without thought; and f7 (or f2) never stops being the softest square on the board — a bishop aimed there is a standing resource even when the road is closed. White's side of the trap library starts here: the same greed-and-reflex mistakes punished in the Black traps, seen from the other chair.",
+          "concepts": ["deflection", "automatic recaptures", "the weak f7 square"]
+        }
+      ]
+    }
+  ]
+}

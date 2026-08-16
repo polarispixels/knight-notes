@@ -1,0 +1,198 @@
+{
+  "id": "englund-gambit-trap",
+  "catalogCode": "TR011",
+  "focus": "black",
+  "title": "The Englund Gambit Trap",
+  "subtitle": "1.d4 e5 — the queen walks in through the b-file",
+  "type": "trap",
+  "difficulty": "beginner",
+  "summary": "The Englund Gambit is objectively dubious — and its famous trap is entirely real: two natural White developing moves later, Black's queen and bishop weave a mating net on c1 that White's whole untouched army cannot break. A perfect study in how b2 falls, and in why 'developing' and 'safe' are not synonyms.",
+  "tags": ["Englund Gambit", "d4 openings", "queen infiltration", "mating attack"],
+  "concepts": [
+    "the weak b2 square",
+    "mating nets",
+    "self-blocking pieces",
+    "dubious gambits versus real traps"
+  ],
+  "metadata": {
+    "eco": "A40",
+    "opening": "Englund Gambit",
+    "historicalContext": "Championed by the Swedish player Fritz Englund in the early 20th century. Masters decline to play it as Black — the gambit is simply unsound — yet its signature trap has claimed countless club and online games, because the losing White moves are the ones a sensible player wants to play."
+  },
+  "rootAnnotations": [
+    {
+      "type": "warning",
+      "title": "Honesty first",
+      "body": "This lesson is not a recommendation of the Englund Gambit — with correct play White keeps the pawn and a clear advantage, and the avoidance line here shows how. The trap, however, is real and brutally instructive: it teaches the permanent weakness of b2, the geometry of a back-rank-adjacent mating net, and how a position with every White piece at home can already be lost."
+    }
+  ],
+  "line": [
+    "d4",
+    {
+      "san": "e5",
+      "classification": "interesting",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The setup — an eccentric gambit",
+          "body": "Black offers a center pawn on move one, for nothing more concrete than open lines and hope. Objectively poor — but the punishment requires care precisely because White's position looks effortlessly winning.",
+          "concepts": ["dubious gambits versus real traps"]
+        }
+      ]
+    },
+    "dxe5",
+    "Nc6",
+    "Nf3",
+    {
+      "san": "Qe7",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The gambit's real idea",
+          "body": "The queen prepares to regain e5 — but her deeper aim is the b-file: from e7 she watches b4, and the b2-pawn behind it. In every queen's-pawn opening, b2 is the square the c1-bishop was born defending; the whole trap is a machine for luring that bishop away and walking in.",
+          "concepts": ["the weak b2 square"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "e7", "to": "b4" },
+        { "type": "square", "square": "b2" }
+      ]
+    },
+    {
+      "san": "Bf4",
+      "classification": "mistake",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The most natural move on the board: develop the bishop, defend the extra pawn. It is also the move every Englund player prays for. What square did the bishop just stop defending — and which Black piece has been watching it since last move?"
+        },
+        {
+          "type": "warning",
+          "title": "The temptation and the trigger",
+          "body": "Defending the gambit pawn with development feels like having it all. But Bf4 abandons b2, and Black's queen check on b4 will fork her way toward it with tempo. The sober choice is 4.Nc3 (see the variation): White concedes that clinging to e5 is not worth the geometry and simply develops — remaining better all game. The London System lesson met this exact b2 problem; here is its lethal cousin.",
+          "concepts": ["the weak b2 square", "dubious gambits versus real traps"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nc3",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The avoidance — develop, don't cling",
+                "body": "White guards the b4 entry square with the knight and develops. If Black regains the e5-pawn, White still enjoys a lead in development and the better structure — the gambit's objective verdict. Against dubious gambits the winning recipe repeats across this whole library: return material when clinging costs geometry, and let the opponent live with a bad position instead of a trick.",
+                "concepts": ["dubious gambits versus real traps"]
+              }
+            ]
+          },
+          "Nxe5",
+          "e4"
+        ]
+      ]
+    },
+    {
+      "san": "Qb4+",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The check comes with an address in mind: it forces a block, and every block interferes with White's own defense of the queenside dark squares. Note that the knight cannot block — from c3 or d2 it would hang the f4-bishop to the queen along the fourth rank.",
+          "concepts": ["self-blocking pieces"]
+        }
+      ]
+    },
+    {
+      "san": "Bd2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop returns to cover the check — but now it stands on d2 as a target, and b2 stands bare. Black cashes the square the whole operation was aimed at."
+        }
+      ]
+    },
+    {
+      "san": "Qxb2",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Inside the walls",
+          "body": "The queen takes the pawn and squats on the soft dark squares beside White's home rank — attacking the a1-rook behind it. White's next move looks like the refutation: attack the queen and defend the rook in one stroke. Look one move deeper.",
+          "concepts": ["the weak b2 square"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b2", "to": "a1" }]
+    },
+    {
+      "san": "Bc3",
+      "classification": "blunder",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "mistake",
+          "title": "The move that loses a won game",
+          "body": "Attacking the queen while shielding the rook — it should end the argument. But the bishop on c3 can be pinned, and a pinned attacker attacks nothing. White had to prefer development (Nc3 ideas via 6.Nbd2 or surrendering the exchange later) over this elegant-looking geometry; the punishment for trusting it is immediate and forced.",
+          "concepts": ["self-blocking pieces"]
+        }
+      ]
+    },
+    {
+      "san": "Bb4",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The counter-pin",
+          "body": "Black pins the c3-bishop to the king — the attacker of b2's queen is frozen mid-gesture. Suddenly White's 'winning' position has exactly one way to hold both the pinned bishop and the a1-rook, and it walks into the net.",
+          "concepts": ["mating nets"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b4", "to": "e1" }]
+    },
+    {
+      "san": "Qd2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Defending the bishop and unpinning by interposition — the only try. Black now trades everything down to the single square that matters."
+        }
+      ]
+    },
+    "Bxc3",
+    {
+      "san": "Qxc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Material stands equal and White's recapturing queen even 'defends' c1 — through her own c2-pawn, which is to say not at all. Every road to c1 is blocked by White's own men. Black's next move demonstrates it."
+        }
+      ]
+    },
+    {
+      "san": "Qc1#",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The mating geometry — a fortress turned prison",
+          "body": "Mate on the first rank with White's army untouched. Audit every defense: the a1-rook is blocked by its own b1-knight; the c3-queen is blocked by her own c2-pawn; the king cannot capture across the untouched d1 gap and has no flight — d2 and d1 are covered by the mating queen, e2 and f2 are his own pawns, f1 his own bishop. Six defenders, all facing the wrong way. The b2 raid never needed to break the fortress; it only needed the fortress to stay exactly as built.",
+          "concepts": ["mating nets", "self-blocking pieces"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: b2 (and b7) are congenitally weak the moment the queenside bishop leaves home — audit them before every early bishop development in queen's-pawn openings; a piece that can be pinned is not a defender, even when it attacks the queen; and dubious gambits are dubious against players who return material gracefully — every trap in the Englund dies to one calm Nc3. Trickery taxes greed; it has no answer to patience.",
+          "concepts": ["the weak b2 square", "self-blocking pieces", "dubious gambits versus real traps"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "b1" },
+        { "type": "square", "square": "c2" },
+        { "type": "square", "square": "f1" },
+        { "type": "arrow", "from": "c1", "to": "e1" }
+      ]
+    }
+  ]
+}

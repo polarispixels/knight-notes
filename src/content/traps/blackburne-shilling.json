@@ -1,0 +1,151 @@
+{
+  "id": "blackburne-shilling",
+  "catalogCode": "TR004",
+  "focus": "black",
+  "title": "The Blackburne Shilling Trap",
+  "subtitle": "Italian Game — a hung pawn that costs a king",
+  "type": "trap",
+  "difficulty": "beginner",
+  "summary": "Black's knight makes an objectively dubious hop to d4 and appears to hang the e5-pawn outright. Taking it walks into a queen raid and a smothered-style mate. The lesson is the question every pawn grab deserves: what does this capture abandon?",
+  "tags": ["Italian Game", "hope trap", "mating attack"],
+  "concepts": [
+    "unsafe pawn grabbing",
+    "premature queen movement punished in reverse",
+    "mating nets",
+    "verifying 'free' material"
+  ],
+  "metadata": {
+    "eco": "C50",
+    "opening": "Italian Game",
+    "historicalContext": "Named for Joseph Henry Blackburne, the Victorian master said to have won shillings from London coffee-house players with it. It is a 'hope trap' — objectively unsound, historically profitable — and honest about being both."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this trap teaches",
+      "body": "This is not a recommendation to play 3...Nd4 — refuted correctly, the move is simply inferior. It is a laboratory for one skill: auditing a 'free' pawn before taking it. The capture that springs this trap fails not because of anything hidden, but because it abandons the defense of g2 and invites a queen to the one square that attacks everything at once."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    "Bc4",
+    {
+      "san": "Nd4",
+      "classification": "interesting",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The setup — an offer that shouldn't work",
+          "body": "The knight moves twice in the opening, abandons its defense of e5, and parks on a square White can challenge. By every principle this is bad — and it leaves e5 hanging on purpose. Black is betting a small positional debt on one question: will White count what the capture costs?",
+          "concepts": ["verifying 'free' material"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e5" }]
+    },
+    {
+      "san": "Nxe5",
+      "classification": "mistake",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "A free central pawn, and the attacked knight on d4 seems Black's problem, not White's. Before reading on: what did the f3-knight defend, and what Black reply uses its absence?"
+        },
+        {
+          "type": "warning",
+          "title": "The temptation and the trigger in one move",
+          "body": "The capture is genuinely tempting — it wins a pawn and threatens the d4-knight. But the f3-knight was the only guard of g2 and of the h4–d8 diagonal's entry square g5. The correct choice was 4.Nxd4, removing the impertinent knight and keeping every guard in place (see the variation): then Black's stunt is refuted and White is simply better.",
+          "concepts": ["unsafe pawn grabbing"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nxd4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The refutation — decline the shilling",
+                "body": "Trade off the wandering knight and Black has nothing: after the recapture White develops with a healthy center and a lead. This is how hope traps die — not by finding a brilliancy, but by refusing the gift and asking the opponent to justify the time spent offering it.",
+                "concepts": ["verifying 'free' material"]
+              }
+            ]
+          },
+          "exd4",
+          "O-O"
+        ]
+      ]
+    },
+    {
+      "san": "Qg5",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "One square, two targets",
+          "body": "The queen lands where the departed knight can no longer challenge her and forks the loose knight on e5 and the naked g2-pawn — behind which stands a rook. This is a legitimate early queen move for the same reason the Scotch lesson allowed ...Qf6: it makes two concrete threats and nothing can profitably harass it. White cannot cover both targets.",
+          "concepts": ["premature queen movement punished in reverse"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "g5", "to": "e5" },
+        { "type": "arrow", "from": "g5", "to": "g2" }
+      ]
+    },
+    {
+      "san": "Nxf7",
+      "classification": "blunder",
+      "annotations": [
+        {
+          "type": "mistake",
+          "title": "Doubling down",
+          "body": "White answers threat with counter-threat — the knight forks queen and rook, the Fried Liver player's reflex. But counting captures is not the same as counting consequences: Black happily ignores the fork, because what follows on the other wing is worth more than a rook. White's least-bad choice was to give the piece back and defend g2.",
+          "concepts": ["unsafe pawn grabbing"]
+        }
+      ]
+    },
+    {
+      "san": "Qxg2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The g2-pawn falls and the rook cannot be saved by the f7-knight's adventures — White's own kingside is collapsing faster than Black's queenside. The rook must step out of the queen's path, and into a corner with one exit."
+        }
+      ]
+    },
+    "Rf1",
+    {
+      "san": "Qxe4+",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A capture with check — the tempo that keeps White from ever consolidating. The king's only shelter is the bishop block, and that block walks into the finish. Watch what the quiet knight on d4 has been waiting for.",
+          "concepts": ["mating nets"]
+        }
+      ]
+    },
+    "Be2",
+    {
+      "san": "Nf3#",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The mating geometry",
+          "body": "The forgotten knight delivers mate, and every escape is sealed by White's own army: d1 is occupied by the queen, d2 is covered by the knight, f1 by the rook, f2 by its pawn — and no capture works, because the g2-pawn is gone and the e2-bishop is pinned to the king by Black's queen. A smothered-style mate where the victim's pieces are the walls of the tomb.",
+          "concepts": ["mating nets"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "d1" },
+        { "type": "square", "square": "d2" },
+        { "type": "square", "square": "f1" },
+        { "type": "arrow", "from": "e4", "to": "e2" }
+      ]
+    }
+  ]
+}

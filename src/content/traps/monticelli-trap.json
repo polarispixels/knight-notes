@@ -1,0 +1,256 @@
+{
+  "id": "monticelli-trap",
+  "catalogCode": "TR013",
+  "focus": "white",
+  "title": "The Monticelli Trap",
+  "subtitle": "Bogo-Indian — the zwischenzug that wins the exchange",
+  "type": "trap",
+  "difficulty": "advanced",
+  "summary": "In a calm Bogo-Indian, Black makes a plausible simplifying capture — and instead of recapturing, White plays a quiet knight leap that creates two threats at once: mate on h7 and the loose bishop on b7. The deepest trap in this library: no greed, no blunder-in-one, just a zwischenzug and a long diagonal. White wins rook for knight.",
+  "tags": [
+    "Bogo-Indian",
+    "d4 openings",
+    "zwischenzug",
+    "exchange win"
+  ],
+  "concepts": [
+    "zwischenzug",
+    "double threats",
+    "long-diagonal geometry",
+    "recapture assumptions"
+  ],
+  "metadata": {
+    "eco": "E11",
+    "opening": "Bogo-Indian Defense",
+    "historicalContext": "Named for the Italian champion Mario Monticelli, who caught Silvio Prokeš with it at Budapest 1926. It has claimed grandmasters since — the losing sequence contains no obviously bad move, which is exactly what makes it the connoisseur's trap."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this trap teaches",
+      "body": "Every other trap in this library punishes a visible sin — greed, haste, a blind recapture. The Monticelli punishes an assumption: that after a capture, the opponent will capture back. The zwischenzug — the in-between move that ignores your last move entirely — is among the hardest tactical habits to acquire and to defend against. Watch for the moment White's 'obligatory' recapture simply doesn't come."
+    }
+  ],
+  "line": [
+    "d4",
+    "Nf6",
+    "c4",
+    "e6",
+    "Nf3",
+    {
+      "san": "Bb4+",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The setup — the Bogo-Indian",
+          "body": "A sound, respectable system: Black develops with check and will trade this bishop to ease the position. Nothing here is a gambit or a stunt — both sides play reasonable chess for eight moves. That is what makes the coming moment dangerous."
+        }
+      ]
+    },
+    "Bd2",
+    "Bxd2+",
+    "Qxd2",
+    "b6",
+    "g3",
+    {
+      "san": "Bb7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The queenside fianchetto — natural and thematic. But note which diagonal this bishop shares: h1–a8, the same one White's own bishop is about to occupy from the other end. Two bishops staring at each other down one corridor is a geometric tension that will decide everything.",
+          "concepts": [
+            "long-diagonal geometry"
+          ]
+        }
+      ],
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "b7",
+          "to": "g2"
+        }
+      ]
+    },
+    "Bg2",
+    "O-O",
+    "Nc3",
+    {
+      "san": "Ne4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A standard freeing idea: the knight occupies the central outpost, offers a trade, and hopes to simplify toward equality. Reasonable — but it parks a piece on the shared diagonal, and pieces standing where two bishops argue are hostages to the geometry.",
+          "concepts": [
+            "long-diagonal geometry"
+          ]
+        }
+      ]
+    },
+    {
+      "san": "Qc2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White calmly asks the knight to justify itself — attacking it a second time while eyeing h7 from afar. Remember this queen's new diagonal, b1–h7: it is the second barrel of the gun about to be assembled.",
+          "concepts": [
+            "double threats"
+          ]
+        }
+      ],
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "c2",
+          "to": "h7"
+        }
+      ]
+    },
+    {
+      "san": "Nxc3",
+      "classification": "mistake",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The knight was attacked twice, so Black trades it off — surely forced, surely fine, since White must recapture... must he? Before advancing: find a White move that ignores the knight on c3 entirely and creates two threats of its own."
+        },
+        {
+          "type": "warning",
+          "title": "The temptation and the trigger in one",
+          "body": "The capture assumes the sequence ends with White recapturing. Correct was 9...f5 (see the variation), supporting the knight with a pawn and keeping the position closed. The difference between the two moves is invisible unless you specifically hunt for in-between moves — which is the skill this trap exists to build.",
+          "concepts": [
+            "recapture assumptions"
+          ]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "f5",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The avoidance — hold the outpost",
+                "body": "The pawn supports the e4-knight, and the tactical storm never forms: with the knight anchored, White has no useful zwischenzug and must play positionally against the slightly loosened Black kingside. A piece attacked twice does not have to be traded — sometimes it has to be defended, precisely because the trade unleashes the opponent's in-between resources.",
+                "concepts": [
+                  "recapture assumptions"
+                ]
+              }
+            ]
+          },
+          "O-O",
+          "d6"
+        ]
+      ]
+    },
+    {
+      "san": "Ng5",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The zwischenzug — the recapture that never came",
+          "body": "White leaves the c3-knight standing and leaps at the king instead, firing both barrels at once: queen and knight now double on h7 — threatening mate — and the g2-bishop's diagonal to the loose b7-bishop has emptied (both blockers, the knights, left it this very sequence). Two threats, no shared defense. Black's extra knight on c3 is beside the point; it will be collected whenever White pleases. The in-between move rewrote whose combination this was.",
+          "concepts": [
+            "zwischenzug",
+            "double threats",
+            "long-diagonal geometry"
+          ]
+        }
+      ],
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "c2",
+          "to": "h7"
+        },
+        {
+          "type": "arrow",
+          "from": "g5",
+          "to": "h7"
+        },
+        {
+          "type": "arrow",
+          "from": "g2",
+          "to": "b7"
+        }
+      ]
+    },
+    {
+      "san": "Ne4",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The best defense — the knight comes home",
+          "body": "Black's only fighting reply: the knight returns to block the long diagonal and cover h7 by attacking the g5-intruder. One move addresses both threats — but it walks into a forcing liquidation, because everything Black just achieved depends on a piece White can remove.",
+          "concepts": [
+            "double threats"
+          ]
+        }
+      ]
+    },
+    {
+      "san": "Bxe4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Removing the multitasking defender. Each Black recapture keeps a different problem alive — the sequence is forced in the truest sense: every alternative loses more."
+        }
+      ]
+    },
+    "Bxe4",
+    {
+      "san": "Qxe4",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The double attack, reassembled",
+          "body": "The queen recaptures and the two threats reappear in new clothing: mate on h7 down one diagonal, the naked a8-rook down the other — the b7-bishop that guarded it is gone. Black must spend a move on the mate, and the rook is lost. The same two diagonals have now delivered three waves of threats; that is what long-diagonal geometry means.",
+          "concepts": [
+            "double threats",
+            "long-diagonal geometry"
+          ]
+        }
+      ],
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "e4",
+          "to": "h7"
+        },
+        {
+          "type": "arrow",
+          "from": "e4",
+          "to": "a8"
+        }
+      ]
+    },
+    "g6",
+    {
+      "san": "Qxa8",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The result — the exchange, banked",
+          "body": "When the dust settles (Black picks up the g5-knight with the queen), White has won rook for knight — a clean exchange, plus the safer structure. Not a king hunt, not a queen win: a professional profit extracted by one in-between move. This is what most master-level 'traps' actually look like.",
+          "concepts": [
+            "zwischenzug"
+          ]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: recaptures are options, not obligations — before assuming your opponent must take back, ask what happens if he does something better, and ask it about your own captures too; threats delivered in pairs beat defenses built for one — the queen-plus-minor battery against h7/h2 recurs from the Siberian Trap to master praxis; and long diagonals are corridors of latent tactics — when pieces begin vacating one, calculate what the bishops at each end will see. The Monticelli is the graduation exam of this trap library: no greed required, only an assumption.",
+          "concepts": [
+            "zwischenzug",
+            "double threats",
+            "recapture assumptions"
+          ]
+        }
+      ]
+    }
+  ]
+}

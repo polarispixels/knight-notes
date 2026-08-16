@@ -1,0 +1,141 @@
+{
+  "id": "mortimer-trap",
+  "catalogCode": "TR008",
+  "focus": "black",
+  "title": "The Mortimer Trap",
+  "subtitle": "Ruy Lopez — the pawn that wasn't free, again",
+  "type": "trap",
+  "difficulty": "beginner",
+  "summary": "In the Berlin Ruy Lopez, Black plays an odd knight retreat that appears to abandon e5. Capturing the pawn walks into a two-move sequence — a pawn fork question to the bishop, then a queen check that forks king and knight. The cleanest possible lesson in checking what defends a 'hanging' pawn.",
+  "tags": ["Ruy Lopez", "Berlin Defense", "hope trap", "double attack"],
+  "concepts": [
+    "double attack",
+    "unsafe pawn grabbing",
+    "checks as forks",
+    "auditing 'free' material"
+  ],
+  "metadata": {
+    "eco": "C65",
+    "opening": "Ruy Lopez, Berlin Defense (Mortimer Variation)",
+    "historicalContext": "Named for James Mortimer, the 19th-century American journalist and playwright who deployed it against masters of his day. The retreat 4...Ne7 is objectively passive — its only virtue is the trap, which is exactly why it teaches auditing rather than repertoire."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this trap teaches",
+      "body": "Like the Blackburne Shilling, this is a hope trap: Black's setup move is not good, only tricky. Its teaching value is concentrated in one habit — before capturing an apparently free pawn, name the tactical sequence that punishes you. Here the punishment is a queen check that doubles as a fork, one of the most common winning patterns in all of chess."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    "Bb5",
+    "Nf6",
+    {
+      "san": "d3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A quiet, solid Ruy Lopez treatment — White reinforces e4 and prepares calm development. Nothing about the position suggests an ambush is two moves away."
+        }
+      ]
+    },
+    {
+      "san": "Ne7",
+      "classification": "interesting",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The setup — and a strange one: the knight retreats from its good square, blocks the f8-bishop, and abandons the defense of e5. It looks like a beginner's error. When a reasonable opponent plays an apparently pointless move, what should you do before punishing it?"
+        },
+        {
+          "type": "commentary",
+          "title": "The bait",
+          "body": "The Mortimer Variation. The knight pretends to be heading for g6 — its real job is to make e5 look free. An objectively dubious move whose entire value is psychological: it sells White a pawn that comes with a bill attached.",
+          "concepts": ["auditing 'free' material"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e5" }]
+    },
+    {
+      "san": "Nxe5",
+      "classification": "blunder",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "mistake",
+          "title": "The temptation and the trigger",
+          "body": "A center pawn, apparently free — Black's only developed knight just walked away from it. But the audit was skipped: Black's next move attacks White's bishop while opening the a5–e1 diagonal, and the move after that uses the diagonal to fork. Simply castling instead (see the variation) leaves Black with a passive knight and White with a pleasant game — the boring refutation of every hope trap.",
+          "concepts": ["unsafe pawn grabbing"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "O-O",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The avoidance — punish oddness with normality",
+                "body": "White declines the gift, castles, and simply stands better: Black's e7-knight blocks his own bishop and must spend more time unwinding. Odd moves by the opponent are usually best met by the most natural developing move on the board — improvement beats refutation when the refutation isn't certain.",
+                "concepts": ["auditing 'free' material"]
+              }
+            ]
+          },
+          "Ng6",
+          "c3"
+        ]
+      ]
+    },
+    {
+      "san": "c6",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The mechanism begins",
+          "body": "One pawn move, two jobs: it attacks the b5-bishop, forcing it to spend a move, and it clears the c7–a5 route so Black's queen can reach the diagonal that leads to White's king. Forcing your opponent to move one piece while you prepare to attack another is the seed of every fork.",
+          "concepts": ["double attack"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "c6", "to": "b5" },
+        { "type": "arrow", "from": "d8", "to": "a5" }
+      ]
+    },
+    {
+      "san": "Ba4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop steps back along its familiar Ruy Lopez road — but here the retreat is part of Black's design: White's reply to the threat consumed the tempo that might have saved the e5-knight. (The try 6.Nc4 instead runs into ...d5, forking bishop and knight with the same double-attack motif — there is no square where White keeps everything.)"
+        }
+      ]
+    },
+    {
+      "san": "Qa5+",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The punishment — a check that is also a fork",
+          "body": "The queen arrives on the cleared diagonal with check — and along the fifth rank she simultaneously attacks the stranded knight on e5. This is the double attack in its most forcing costume: because one prong is a check, White's reply is compelled, and the other prong cashes next move. Result: Black regains the pawn and wins a full knight — decisive material, from a position White thought was a free lunch.",
+          "concepts": ["checks as forks", "double attack"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a check that attacks something else is the strongest form of double attack — scan for king-plus-loose-piece alignments before grabbing material; 'free' pawns near an undeveloped position usually cost a tempo bill you cannot pay; and when an opponent's move looks pointless, the professional response is a normal improving move, not an immediate execution — the Blackburne Shilling, the Mortimer, and half the traps in this library are all beaten the same calm way.",
+          "concepts": ["auditing 'free' material", "unsafe pawn grabbing", "checks as forks"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "a5", "to": "e1" },
+        { "type": "arrow", "from": "a5", "to": "e5" }
+      ]
+    }
+  ]
+}
