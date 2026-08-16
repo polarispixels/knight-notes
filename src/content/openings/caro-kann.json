@@ -1,0 +1,320 @@
+{
+  "id": "caro-kann",
+  "catalogCode": "O008",
+  "focus": "black",
+  "title": "The Caro-Kann Defense",
+  "subtitle": "Solidity without the bad bishop",
+  "type": "opening",
+  "difficulty": "beginner",
+  "summary": "Black answers 1.e4 with a quiet pawn move that prepares the central strike ...d5 — while keeping the c8-bishop's path open. The Caro-Kann trades a little speed for a structure with no weaknesses, and this lesson shows the move-order discipline that makes it work: the bishop gets out before ...e6 closes the door.",
+  "tags": ["Caro-Kann", "e4 defenses", "Classical Caro-Kann", "solid openings"],
+  "concepts": [
+    "preparing ...d5",
+    "the light-squared bishop",
+    "solid structure",
+    "when to exchange",
+    "structure before speed",
+    "pawn breaks"
+  ],
+  "metadata": {
+    "eco": "B18",
+    "opening": "Caro-Kann Defense, Classical Variation",
+    "historicalContext": "Named for Horatio Caro and Marcus Kann, who analyzed it in the 1880s. It became the trusted shield of world champions who preferred to win with technique — Capablanca, Petrosian, and above all Karpov, who made a career of its quiet reliability."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Black's problem after 1.e4 is simple to state: how do you challenge White's center without creating weaknesses of your own? The Caro-Kann's answer is patience — prepare ...d5 with a pawn move that keeps every Black piece's best square available, accept a slightly slower development, and end the opening with a position that has nothing wrong with it. The recurring theme to watch: the fate of the c8-bishop, the piece whole openings live and die by."
+    }
+  ],
+  "line": [
+    {
+      "san": "e4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White grabs space and opens lines — and from Black's side of the board, the question begins: contest the center now, or prepare to contest it on better terms?"
+        }
+      ]
+    },
+    {
+      "san": "c6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "A modest little pawn move that develops nothing and threatens nothing. Black could play 1...e6 (the French) or strike immediately with 1...d5. What is 1...c6 buying that they don't?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Preparing ...d5 without closing any doors",
+          "body": "Like the French's 1...e6, this supports the coming strike ...d5. The difference is everything this lesson is about: ...e6 blocks the c8-bishop's only diagonal, condemning it to a cramped game, while ...c6 leaves that diagonal open. And unlike the immediate 1...d5, Black will recapture on d5 with a pawn, not the queen — no early queen adventures. The price is honest: c6 takes the b8-knight's best square and spends a tempo on a pawn. The Caro-Kann pays in speed and collects in structure.",
+          "concepts": ["preparing ...d5", "the light-squared bishop"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "c6", "to": "d5" },
+        { "type": "arrow", "from": "c8", "to": "f5" }
+      ]
+    },
+    "d4",
+    {
+      "san": "d5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The prepared strike: Black challenges e4 with a fully supported pawn. White must now make the first real decision of the game — defend the pawn, push past, or trade — and each choice creates a different kind of position. The variations at White's next move tour the two other main choices.",
+          "concepts": ["preparing ...d5"]
+        }
+      ]
+    },
+    {
+      "san": "Nc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The Classical approach: defend e4 with a piece and keep the tension for exactly one move. The alternatives define the Caro-Kann's other worlds — the space-grabbing Advance and the simplifying Exchange — and Black's plans in each are worth meeting now.",
+          "concepts": ["solid structure"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "e5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Advance Variation",
+                "body": "White locks the center and claims space, as in the Advance French. But watch the difference one move order makes."
+              }
+            ]
+          },
+          {
+            "san": "Bf5",
+            "importance": "important",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The bishop escapes before the door closes",
+                "body": "This is the Caro-Kann's entire argument in one move. In the French, the same structure arrives with the bishop sealed behind ...e6 forever. Here the bishop reaches its best diagonal first — and only then will Black play ...e6. Same pawn chain, completely different piece. When a structure is fixed, the placement of one bishop can be the whole evaluation.",
+                "concepts": ["the light-squared bishop", "structure before speed"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "c8", "to": "f5" }]
+          },
+          "Nf3",
+          {
+            "san": "e6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Now this move blocks nothing — the bishop already lives outside the chain. Black's structure is complete and without defects.",
+                "concepts": ["the light-squared bishop"]
+              }
+            ]
+          },
+          "Be2",
+          {
+            "san": "c5",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The break the c-pawn was saving itself for",
+                "body": "Against a locked chain, Black attacks its base: ...c5 strikes d4, and the modest first move 1...c6 reveals its second purpose — the c-pawn arrives at this break in one go. Space advantages must be challenged before they harden; this is how the Caro-Kann does it.",
+                "concepts": ["pawn breaks"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "c5", "to": "d4" }]
+          }
+        ],
+        [
+          {
+            "san": "exd5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Exchange Variation",
+                "body": "White resolves the tension immediately. Simplicity — but notice who it helps."
+              }
+            ]
+          },
+          {
+            "san": "cxd5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black recaptures with a pawn — toward the center, keeping the queen home and the structure sound. Compare 1...d5 openings, where this recapture costs the queen a trip into the open.",
+                "concepts": ["solid structure"]
+              }
+            ]
+          },
+          "Bd3",
+          "Nc6",
+          "c3",
+          "Nf6",
+          "Bf4",
+          {
+            "san": "Bg4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Symmetry with a free bishop",
+                "body": "The position is nearly symmetrical and fully comfortable: Black's 'problem' bishop develops actively before ...e6, and every piece has a natural square. The Exchange Caro-Kann's drawish reputation is really a compliment to Black's structure — there is nothing to attack. (White's sharper try is 4.c4, the Panov Attack, which trades structure for piece activity and open lines — a different game, but Black's development scheme stays healthy.)",
+                "concepts": ["the light-squared bishop", "solid structure"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "dxe4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Why Black releases the tension",
+          "body": "Doesn't trading here just help White develop? No — and the reason is instructive: White must recapture with a piece, and a piece in the middle of the board can be harassed. Black intends to bother that knight with gain of time. Exchanging is right when the recapture creates a target; that is the calculation, not a general rule about tension.",
+          "concepts": ["when to exchange"]
+        }
+      ]
+    },
+    "Nxe4",
+    {
+      "san": "Bf5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The point of the whole opening",
+          "body": "The bishop develops to its dream square with tempo — it attacks the e4-knight, so White's reply is forced in spirit. Savor this moment: the piece that suffocates in the French breathes freely here, before ...e6 is ever played. Develop the bishop first, then build the pawn wall behind it — the Caro-Kann's golden rule of move order.",
+          "concepts": ["the light-squared bishop", "structure before speed"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "f5", "to": "e4" }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nf6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black can also develop with this challenge, inviting a structural question worth understanding."
+              }
+            ]
+          },
+          {
+            "san": "Nxf6+",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White trades — and Black must choose a recapture, which means choosing a pawn structure for the rest of the game."
+              }
+            ]
+          },
+          {
+            "san": "exf6",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Recaptures are structure decisions",
+                "body": "...exf6 keeps the pawns solid and opens the f8-bishop's diagonal — the sober choice. The alternative ...gxf6 doubles pawns but opens the g-file and grips e5 — a fighting choice with real practical sting. Neither is 'the' move; they are different bargains. What matters is deciding by plan, not by reflex.",
+                "concepts": ["when to exchange", "solid structure"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Ng3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The attacked knight retreats and counterattacks the bishop — Black's activity comes at the cost of a small chase. The next few moves are a negotiation over exactly where this bishop will stand."
+        }
+      ]
+    },
+    "Bg6",
+    {
+      "san": "h4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "warning",
+          "title": "The rook pawn means it",
+          "body": "White threatens h5, and if the bishop must go to h7 too early, h5–h6 ideas and a trapped or buried bishop follow. Black's reply is not optional in spirit: the bishop that this whole opening liberated must be given air. Respect flank pawn advances aimed at your developed pieces — they are threats, not gestures.",
+          "concepts": ["the light-squared bishop"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "h4", "to": "h5" }]
+    },
+    {
+      "san": "h6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Air for the bishop: now h5 can be met by ...Bh7 without any h6 burial. A single quiet pawn move, played because the tactics demanded it — a typical Caro-Kann exchange of one tempo for permanent safety."
+        }
+      ]
+    },
+    "Nf3",
+    {
+      "san": "Nd7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The queenside knight develops modestly — remember, c6 took its favorite square. From d7 it guards e5 against White's ideas there and prepares ...Ngf6 without allowing a doubling capture to disturb the structure.",
+          "concepts": ["solid structure"]
+        }
+      ]
+    },
+    "h5",
+    "Bh7",
+    "Bd3",
+    {
+      "san": "Bxd3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Mission accomplished — now trade",
+          "body": "After all that care, Black willingly exchanges the bishop. Contradiction? No — completion. The bishop developed actively, forced White to spend moves (h4, h5) chasing it, and now trades itself for White's best light-squared piece rather than retreating into passivity. A piece's value is what it extracts, not how long it survives.",
+          "concepts": ["when to exchange", "the light-squared bishop"]
+        }
+      ]
+    },
+    "Qxd3",
+    {
+      "san": "e6",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The wall goes up — behind a solved problem",
+          "body": "Only now, with the light-squared bishop's story finished, does Black play the move that would have imprisoned it. The structure c6–e6 versus d4 is the Caro-Kann promise fulfilled: no weak squares, no bad pieces, a clear path to ...Ngf6, ...Bd6 or ...Be7, and ...O-O. White holds more space and freer pieces — that is real, and Black must play accurately, not just solidly.",
+          "concepts": ["solid structure", "structure before speed"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: move order is a strategy in itself — the same four Black moves in a different order produce the French bishop problem this opening exists to avoid; exchanges are decisions about what remains — Black traded on e4 to create a chaseable knight and on d3 to cash a fully-used bishop; and solidity is a plan, not an absence of one — Black's play continues with ...Ngf6, castling, and the ...c5 break, challenging White's space at the moment it is safe to do so.",
+          "concepts": ["structure before speed", "when to exchange", "pawn breaks"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "c6" },
+        { "type": "square", "square": "e6" },
+        { "type": "arrow", "from": "c6", "to": "c5" }
+      ]
+    }
+  ]
+}

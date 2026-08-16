@@ -1,0 +1,299 @@
+{
+  "id": "french-defense",
+  "catalogCode": "O009",
+  "focus": "black",
+  "title": "The French Defense",
+  "subtitle": "Cramped on purpose — then break the chain",
+  "type": "opening",
+  "difficulty": "beginner",
+  "summary": "Black invites White to build an imposing pawn chain, then spends the whole game undermining it: ...c5 against the base, ...f6 against the head, pieces massed against d4. A lesson in why a temporarily cramped position can hold a completely coherent plan — and in living with one bad bishop.",
+  "tags": ["French Defense", "e4 defenses", "Advance Variation", "pawn chains"],
+  "concepts": [
+    "pawn chains",
+    "attacking the base",
+    "counterplay from a cramped position",
+    "the bad bishop",
+    "pawn breaks",
+    "patience"
+  ],
+  "metadata": {
+    "eco": "C02",
+    "opening": "French Defense, Advance Variation",
+    "historicalContext": "Named after a Paris–London correspondence match of 1834 won by the French side with 1...e6. Its greatest interpreters — Botvinnik, Petrosian, Korchnoi, Uhlmann — shared a temperament: happy to defend a small space for twenty moves in exchange for a target that cannot run away."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Caro-Kann lesson showed Black refusing to create weaknesses. The French makes a bolder bargain: Black concedes space and accepts a genuinely bad bishop, and in return receives a fixed White pawn chain — a permanent target with a known address. The skill this opening teaches is chain warfare: where chains are attacked, in what order, and why the cramped side is often the one with the initiative on the queenside."
+    }
+  ],
+  "line": [
+    "e4",
+    {
+      "san": "e6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "One square forward instead of two — and unlike the Caro-Kann's 1...c6, this pawn blocks the c8-bishop's diagonal immediately. Black volunteers the very problem the Caro-Kann exists to avoid. What could be worth that?"
+        },
+        {
+          "type": "key-idea",
+          "title": "A concession made with open eyes",
+          "body": "Like 1...c6, this prepares the strike ...d5 with pawn support. The price is the famous 'French bishop' — c8 stares at its own e6-pawn, possibly for the whole game. What Black buys: the e6-pawn makes the coming ...d5 rock-solid, the f8-bishop and kingside develop fast, and if White pushes e5, Black gets a fixed pawn chain to attack. The French is a bet that a target-rich position matters more than one passive piece. Know the cost before you play the opening — then stop mourning it.",
+          "concepts": ["the bad bishop", "counterplay from a cramped position"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "e6", "to": "d5" },
+        { "type": "square", "square": "c8" }
+      ]
+    },
+    "d4",
+    {
+      "san": "d5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The prepared challenge. White's three main answers create three different games: push past (the Advance, our main road — the purest chain lesson), trade (the Exchange), or defend with a piece (the Classical). The variations here visit the other two.",
+          "concepts": ["pawn chains"]
+        }
+      ]
+    },
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The chain is born",
+          "body": "White claims space and locks the center: pawns on d4 and e5 point at Black's kingside, and White's natural play lives there. But a chain is only as strong as its base. The head (e5) is defended by d4; d4 will be defended by c3 — and that tail-end pawn is where Black's counterplay aims. From this moment Black's moves follow one program: attack the base of the chain.",
+          "concepts": ["pawn chains", "attacking the base"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "e5" },
+        { "type": "square", "square": "d4" },
+        { "type": "arrow", "from": "e5", "to": "d4" }
+      ],
+      "variations": [
+        [
+          {
+            "san": "exd5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Exchange Variation",
+                "body": "White dissolves the tension — and with it, Black's problem."
+              }
+            ]
+          },
+          {
+            "san": "exd5",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The bad bishop, pardoned",
+                "body": "Look at c8: the recapture reopened its diagonal, and the one concession of 1...e6 has evaporated. The symmetrical structure promises Black effortless equality — development is easy on both sides and there is nothing to attack. Many French players are privately delighted to see this variation.",
+                "concepts": ["the bad bishop"]
+              }
+            ]
+          },
+          "Bd3",
+          "Bd6",
+          "Nf3",
+          "Nf6"
+        ],
+        [
+          {
+            "san": "Nc3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Classical approach",
+                "body": "White defends e4 with a piece and keeps options open — but watch how quickly the same chain appears anyway."
+              }
+            ]
+          },
+          "Nf6",
+          "e5",
+          {
+            "san": "Nfd7",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The attacked knight tucks behind its pawns, headed for support duty. Different door, same house: the e5–d4 chain stands, and Black's program — ...c5 at the base, pressure on d4 — applies exactly as in the Advance. Learn the structure and you have learned several variations at once.",
+                "concepts": ["pawn chains"]
+              }
+            ]
+          },
+          "f4",
+          {
+            "san": "c5",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "body": "The same base-strike as the main line — proof that French plans travel between variations because the pawn structure, not the move order, defines them.",
+                "concepts": ["attacking the base"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "c5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Strike the base",
+          "body": "The central counterattack that defines the French: ...c5 hits d4, the pawn holding the chain together. If d4 falls or trades away, e5 becomes an orphan. Note the timing — immediately, before White reinforces. Black also keeps a second lever in reserve for later: ...f6 against the chain's head. Base first, head later is the classical order, and the reason is practical: the base has fewer defenders.",
+          "concepts": ["attacking the base", "pawn breaks"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "c5", "to": "d4" },
+        { "type": "arrow", "from": "f7", "to": "f6" }
+      ]
+    },
+    {
+      "san": "c3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White reinforces the base, extending the chain one link back. Every defender White adds is a developing move not made — the hidden cost of maintaining space."
+        }
+      ]
+    },
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Development and pressure in one: the knight adds a second attacker to d4. Black's pieces will keep arriving at this pawn like a queue forming.",
+          "concepts": ["attacking the base"]
+        }
+      ]
+    },
+    "Nf3",
+    {
+      "san": "Qb6",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The queen joins the siege",
+          "body": "A third attacker on d4 — and from b6 the queen also eyes b2, tying White's dark-squared bishop to its defense. An early queen move, and a correct one: it makes concrete threats from a square where nothing can harass it. (Recall the Scotch lesson: the rule against early queens is about cost, and here the cost is zero.) The cramped side attacks — this is what French counterplay looks like.",
+          "concepts": ["counterplay from a cramped position", "attacking the base"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "b6", "to": "d4" },
+        { "type": "arrow", "from": "b6", "to": "b2" }
+      ]
+    },
+    "Be2",
+    {
+      "san": "cxd4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black cashes the c-pawn to fix d4 as a permanent target: after the recapture, no c-pawn remains to defend it, and the siege continues against a pawn that can only be defended by pieces.",
+          "concepts": ["attacking the base"]
+        }
+      ]
+    },
+    "cxd4",
+    {
+      "san": "Nge7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The knight takes the long way — via e7 toward f5, the perfect attacking square against d4. In cramped positions, knights choose routes, not just squares; ...Nh6–f5 is the same journey by another road.",
+          "concepts": ["counterplay from a cramped position"]
+        }
+      ]
+    },
+    {
+      "san": "Nc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops and hopes to hold d4 with pieces alone. It looks defensible — count the attackers and defenders yourself before reading on. The variation at Black's next move shows why the arithmetic is a trap."
+        }
+      ]
+    },
+    {
+      "san": "Nf5",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Three attackers and a poisoned pawn",
+          "body": "Queen, knight, and knight now converge on d4 against two defenders — yet Black should not grab it: the variation shows the famous trap where winning d4 loses the queen to a discovered attack. The point of the pressure is not the pawn but the paralysis: White's pieces are chained to d4's defense while Black completes development with ...Be7 and ...O-O. A won pawn ends a siege; a permanent siege can be worth more.",
+          "concepts": ["attacking the base", "patience"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a space disadvantage is a location, not a verdict — Black's position was cramped and never passive for a single move; fixed pawn chains dictate the plans for both sides — White must play where the chain points (kingside), Black where its base lives (queenside and center); and the French bargain is honest — the bad bishop is real, and so is the target. Compare the Caro-Kann: same ...d5 strike, opposite trade-off. Two doors into the same fight for the center.",
+          "concepts": ["pawn chains", "counterplay from a cramped position", "patience"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "f5", "to": "d4" },
+        { "type": "square", "square": "d4" }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nxd4",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The pawn is poisoned",
+                "body": "Winning the besieged pawn at last — and walking into one of the oldest traps in the French. Watch the sequence to the end.",
+                "concepts": ["attacking the base"]
+              }
+            ]
+          },
+          "Nxd4",
+          {
+            "san": "Qxd4",
+            "classification": "blunder",
+            "annotations": [
+              {
+                "type": "mistake",
+                "body": "Recapturing feels forced and safe — the queen even hits the e5 pawn. But White's next move reveals what the innocent bishop on e2 was really doing."
+              }
+            ]
+          },
+          {
+            "san": "Bb5+",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The discovered attack",
+                "body": "A check from nowhere — and the real point is behind it: the d1-queen now stares straight at Black's queen on d4. Black must answer the check, and then White simply captures on d4. The lesson transfers everywhere: before your queen captures on a half-open file, ask what stands at the far end of it.",
+                "concepts": ["pawn breaks"]
+              }
+            ],
+            "visual": [
+              { "type": "arrow", "from": "b5", "to": "e8" },
+              { "type": "arrow", "from": "d1", "to": "d4" }
+            ]
+          }
+        ]
+      ]
+    }
+  ]
+}

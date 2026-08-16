@@ -1,0 +1,304 @@
+{
+  "id": "queens-gambit-declined",
+  "catalogCode": "O011",
+  "focus": "black",
+  "title": "The Queen's Gambit Declined",
+  "subtitle": "Classical resistance — solidity that turns into activity",
+  "type": "opening",
+  "difficulty": "beginner",
+  "summary": "Black meets 1.d4 and 2.c4 by simply keeping the strong point on d5: support it, develop behind it, castle — and then free the position with a well-timed break. The QGD teaches the deepest lesson in defense: holding a position and waiting is itself an active plan when you know what you are waiting for.",
+  "tags": ["Queen's Gambit Declined", "d4 defenses", "classical chess", "Orthodox Defense"],
+  "concepts": [
+    "the d5 strong point",
+    "central tension",
+    "timing the release",
+    "freeing breaks",
+    "the restricted bishop",
+    "defense as a plan"
+  ],
+  "metadata": {
+    "eco": "D63",
+    "opening": "Queen's Gambit Declined, Orthodox Defense",
+    "historicalContext": "The backbone of classical chess: nearly every world championship of the twentieth century's first half was fought across this structure, Capablanca and Alekhine's 1927 match most famously — 32 of its 34 games began with the QGD. It remains the defense grandmasters trust when they absolutely must not lose."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Against 1.e4 this series showed three philosophies; against 1.d4 the classical answer is the QGD: occupy the center with ...d5, decline to be bribed out of it, and defend it with everything. The position gets cramped — and 'defense' here does not mean passivity. It means a held strong point, a planned sequence of freeing moves, and precise timing about when central tension finally resolves. Watch especially for the timing ideas: the same move can be weak on move six and strong on move eight, and this lesson shows exactly such a pair."
+    }
+  ],
+  "line": [
+    "d4",
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black claims an equal share of the center immediately — the classical answer. Everything that follows in the QGD is about keeping this pawn where it stands.",
+          "concepts": ["the d5 strong point"]
+        }
+      ]
+    },
+    {
+      "san": "c4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The Queen's Gambit: White offers a wing pawn to lure Black's central pawn away from the center — not a true sacrifice, since the pawn is always recoverable, but a genuine question: will Black hold the center or trade it for material?"
+        }
+      ]
+    },
+    {
+      "san": "e6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black could take the free pawn on c4. Instead this modest move blocks the c8-bishop — the very concession the Caro-Kann lesson warned about. Why is declining with 2...e6 the most respected move in the position?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Declining means keeping the center",
+          "body": "Grabbing c4 surrenders d5 — White later regains the pawn and owns the center alone (the variation shows what happens to greed that tries to keep it). Instead, ...e6 reinforces d5 with a second pawn so that no exchange on d5 can ever remove Black's central presence: recapture with the e-pawn and the strong point survives. The cost is honest and familiar: the c8-bishop is walled in — but unlike the French version of this problem, here it is temporary, and this lesson ends with the plan that frees it. Black trades one piece's convenience for a center that cannot be taken away.",
+          "concepts": ["the d5 strong point", "the restricted bishop"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "e6", "to": "d5" },
+        { "type": "square", "square": "c8" }
+      ],
+      "variations": [
+        [
+          {
+            "san": "dxc4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Queen's Gambit Accepted",
+                "body": "Taking is fully respectable — as long as Black understands the pawn is rent, not property. The instructive disaster is trying to keep it."
+              }
+            ]
+          },
+          "e3",
+          {
+            "san": "b5",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Clinging to the pawn",
+                "body": "Defending c4 with the b-pawn looks natural and fails tactically. Watch White dismantle the pawn chain and win material with two quiet pawn moves and one queen sortie.",
+                "concepts": ["timing the release"]
+              }
+            ]
+          },
+          "a4",
+          "c6",
+          "axb5",
+          "cxb5",
+          {
+            "san": "Qf3",
+            "importance": "important",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The double attack down the diagonal",
+                "body": "The queen strikes down the diagonal Black's own pawn advances emptied, straight at the a8-rook. Defending it costs material or grim contortions, and the over-extended b5- and c4-pawns fall soon after. The punchline of clinging to the gambit pawn: the moves that held it opened the road that loses more. Moral: in the QGA you return the pawn, develop, and equalize — or you decline the gambit in the first place, which is this lesson's road.",
+                "concepts": ["timing the release"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "f3", "to": "a8" }]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops toward the strong point, adding pressure to d5. The tension between c4 and d5 will now sit on the board for many moves — and learning to live calmly inside unresolved tension is half of what the QGD teaches."
+        }
+      ]
+    },
+    "Nf6",
+    {
+      "san": "Bg5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Pressure by proxy: the bishop pins the knight that defends d5, attacking the strong point without touching it. Black's structure is under real strain now — and the reply is a small masterpiece of calm. (Beware the natural-looking alternative for Black here — see the trap in the variation on the next move.)"
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g5", "to": "d8" }]
+    },
+    {
+      "san": "Be7",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Unpinning before anything else",
+          "body": "Quietly breaking the pin restores the f6-knight as a true defender of d5 and prepares castling. Note what Black does not do: no pawn grabs, no premature strikes — just development that serves the strong point. The variation shows the famous Elephant Trap: a plausible developing move that invites White into a 'win' of the d5-pawn that loses a piece — proof that even in this quiet opening, the tactics are awake underneath.",
+          "concepts": ["defense as a plan"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nbd7",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Elephant Trap",
+                "body": "Developing the queenside knight first looks harmless — and secretly sets one of the oldest traps in the QGD. If White now 'wins' the d5-pawn, believing the f6-knight is pinned..."
+              }
+            ]
+          },
+          "cxd5",
+          "exd5",
+          {
+            "san": "Nxd5",
+            "classification": "blunder",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "Trusting the pin too much",
+                "body": "White grabs the pawn, counting on the g5-bishop to hold Black's knight in place. But the pin is against the queen, not the king — and Black is allowed to lose the queen if the arithmetic works.",
+                "concepts": ["defense as a plan"]
+              }
+            ]
+          },
+          {
+            "san": "Nxd5",
+            "annotations": [
+              {
+                "type": "tactic",
+                "body": "Black takes anyway! If White now wins the queen with Bxd8, watch the zwischenzug that ends the story."
+              }
+            ]
+          },
+          "Bxd8",
+          {
+            "san": "Bb4+",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The point — a check that cannot be met cheaply",
+                "body": "Before recapturing anything, Black gives this check. White's only reasonable block is Qd2, and after the exchange on d2 Black finally collects the stranded d8-bishop with the king. Count the wreckage: a knight and bishop for a bishop and pawn — Black is simply up a piece. The same lesson the Légal Trap taught from the other side: a pin against a queen is a suggestion, not a law.",
+                "concepts": ["defense as a plan"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "b4", "to": "e1" }]
+          },
+          "Qd2",
+          "Bxd2+",
+          "Kxd2",
+          "Kxd8"
+        ]
+      ]
+    },
+    "e3",
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "King safety first — in a position this stable, Black can complete every preparation before undertaking anything. Patience costs nothing when the center cannot be broken open against you.",
+          "concepts": ["defense as a plan"]
+        }
+      ]
+    },
+    "Nf3",
+    {
+      "san": "Nbd7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Now this developing move is perfectly safe (compare the trap variation, where it was a trap in Black's favor — move order again). The knight supports its brother on f6 and keeps ...c5 or a later ...e5 in reach. It does block the c8-bishop — but that bishop's moment is coming.",
+          "concepts": ["the restricted bishop"]
+        }
+      ]
+    },
+    "Rc1",
+    {
+      "san": "c6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A third defender of d5 and a useful waiting move: White's rook took aim down the c-file, so Black blunts it before it can matter. The structure is now the famous QGD triangle — c6, d5, e6 — a shape worth memorizing because so many plans read directly off it. (If White ever trades on d5 here, the recapture ...exd5 leads to the Carlsbad structure, where White plays the queenside minority attack b4–b5 and Black counters in the center and on the kingside — a middlegame classic worth knowing exists.)",
+          "concepts": ["the d5 strong point"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "c6" },
+        { "type": "square", "square": "d5" },
+        { "type": "square", "square": "e6" }
+      ]
+    },
+    "Bd3",
+    {
+      "san": "dxc4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "After defending d5 with three pawns and two knights for eight moves, Black suddenly... gives it up voluntarily. Has the whole lesson been refuted?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Timing the release",
+          "body": "This is the QGD's signature finesse. Capturing earlier would have simply developed White's f1-bishop to c4 in one go. But White just spent a tempo on Bd3 — so now the recapture Bxc4 means the bishop has moved twice, and Black pockets the stolen tempo to play the freeing moves that follow. Holding the tension was never stubbornness; it was waiting for the moment the release costs White something. Same capture, different move: everything in chess is when.",
+          "concepts": ["central tension", "timing the release"]
+        }
+      ]
+    },
+    "Bxc4",
+    {
+      "san": "Nd5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Capablanca's freeing maneuver",
+          "body": "The cramped side's classic remedy: offer trades. The knight leaps to the freed central square, offering to swap off White's dangerous g5-bishop and, next, a pair of knights. Each exchange leaves Black's remaining pieces more room — and prepares the pawn breaks (...e5 or ...c5) that finally give the c8-bishop its life. Cramped positions are not solved by heroics; they are solved by good trades and one well-prepared break.",
+          "concepts": ["freeing breaks", "defense as a plan"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d5", "to": "g5" }]
+    },
+    {
+      "san": "Bxe7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White concedes the trade — holding the bishop back would cost time and leave it biting on granite."
+        }
+      ]
+    },
+    {
+      "san": "Qxe7",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The solid position begins to breathe",
+          "body": "Black's plan from here writes itself: ...Nxc3 to trade another pair, then the freeing break ...e5 (or ...c5), after which the c8-bishop finally develops and the position is fully equal — Capablanca demonstrated this equalizing sequence a hundred years ago and it still holds. White kept a shade more space and the first move; Black kept a center that never fell and now dissolves the cramp on schedule.",
+          "concepts": ["freeing breaks", "the restricted bishop"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a strong point held by pawns beats a pawn held in the hand — declining kept the center that accepting would have sold; timing is a real chess skill, not a platitude — ...dxc4 was mediocre for six moves and strong the move after Bd3; and defense is a plan with phases — hold, develop, trade the right pieces, break free. Beside the Caro-Kann's tidy structure, the French's chain siege, and the Sicilian's asymmetry, the QGD completes a fourth philosophy: classical resistance that concedes nothing and converts patience into equality by appointment.",
+          "concepts": ["defense as a plan", "timing the release", "central tension"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "id": "kings-indian-defense",
+  "catalogCode": "O012",
+  "focus": "black",
+  "title": "The King's Indian Defense",
+  "subtitle": "Let White build the center — then burn it down",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "Black hands White the broad pawn center classical principles crave, having aimed a fianchettoed bishop and a prepared strike at it in advance. When the center locks, the board splits into two one-way attacks — White's on the queenside, Black's storming the king. The boldest of the five Black philosophies in this series.",
+  "tags": ["King's Indian Defense", "d4 defenses", "hypermodern", "fianchetto", "kingside attack"],
+  "concepts": [
+    "hypermodern center control",
+    "the fianchetto",
+    "attacking a pawn center",
+    "closed centers",
+    "pawn storms",
+    "opposite-wing play"
+  ],
+  "metadata": {
+    "eco": "E97",
+    "opening": "King's Indian Defense, Classical Variation",
+    "historicalContext": "The hypermodern revolution of the 1920s — Réti, Nimzowitsch, Breyer — argued that a big pawn center could be a target rather than a triumph. The King's Indian became the argument's sharpest weapon in the hands of Bronstein, Fischer, and Kasparov, whose kingside avalanches from this opening are among the most violent games ever played by world champions."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Every previous defense in this series contested the center with pawns inside the first two moves. The King's Indian does something that looks like heresy: Black lets White build the full classical center, unopposed. The heresy has a discipline behind it — control squares first with pieces from a distance, strike the finished center with a prepared pawn break, and if the center locks, attack the king while White attacks the queenside. This is not ignoring the center; it is fighting for it on delayed, prepared terms. That distinction is the whole lesson."
+    }
+  ],
+  "line": [
+    "d4",
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A piece, not a pawn — and note what it quietly does: controls e4, so White cannot claim the full center for free on move two. Hypermodern play begins by influencing squares rather than standing on them.",
+          "concepts": ["hypermodern center control"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f6", "to": "e4" }]
+    },
+    "c4",
+    {
+      "san": "g6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black spends a second move on no central pawn at all, preparing only to tuck a bishop into the corner. White will now happily build pawns on c4, d4, and e4. Isn't Black simply losing the opening according to everything the classical lessons taught?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The invitation",
+          "body": "Black is inviting the big center on purpose — because a pawn center is only an asset while it is stable. Every pawn White advances becomes a fixed target that can never retreat, and Black's coming setup (...Bg7, ...d6, ...e5) is a machine designed to attack exactly that. The concession is real: White gets space, free development, and the initiative's first turn. What Black buys is clarity — a known target and a prepared plan against it. This bargain is only sound because the counterattack is prepared in advance; playing the first moves without knowing the plan behind them is how the King's Indian gets beginners crushed.",
+          "concepts": ["hypermodern center control", "attacking a pawn center"]
+        }
+      ]
+    },
+    {
+      "san": "Nc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White accepts the invitation and prepares e4. The variation here shows White declining the fight for the full center with a quieter fianchetto setup — instructive precisely because Black's scheme doesn't change.",
+          "concepts": ["hypermodern center control"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "g3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Fianchetto Variation",
+                "body": "White mirrors Black's development instead of grabbing the center — the calmest anti-King's-Indian system, sidestepping the sharpest lines."
+              }
+            ]
+          },
+          "Bg7",
+          "Bg2",
+          "O-O",
+          {
+            "san": "Nf3",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "body": "Notice that Black's moves are identical against this quiet setup — same bishop, same castle, same coming ...d6 and central strike. A system defense's promise, seen from Black's side this time (compare the London lesson): understanding one scheme deeply beats memorizing replies to everything White might do.",
+                "concepts": ["the fianchetto"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Bg7",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The dragon on the long diagonal",
+          "body": "The bishop takes the h8–a1 diagonal, aimed straight through the center White is about to build. For now the diagonal is closed — but this piece's pressure against d4 and e5 shapes every middlegame plan to come, and in dozens of famous games it ends up deciding matters twenty moves later. Fianchettoed bishops are investments: quiet early, devastating when the position opens on their terms.",
+          "concepts": ["the fianchetto"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g7", "to": "d4" }]
+    },
+    {
+      "san": "e4",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The classical center in full: pawns abreast on c4, d4, e4, space everywhere, textbook triumph — and every one of those pawns is now a commitment. Black's whole opening exists for what happens next.",
+          "concepts": ["attacking a pawn center"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "c4" },
+        { "type": "square", "square": "d4" },
+        { "type": "square", "square": "e4" }
+      ]
+    },
+    {
+      "san": "d6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "One modest pawn move with two jobs: it restrains e4–e5 (so the f6-knight keeps its post) and prepares the strike ...e5. Black's structure spends nothing on grandeur — every move is a bolt in the machine.",
+          "concepts": ["hypermodern center control"]
+        }
+      ]
+    },
+    "Nf3",
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "King safety before the storm — non-negotiable here, because Black's coming play will open lines near his own king, and the counterattack only works from behind a completed castle.",
+          "concepts": ["pawn storms"]
+        }
+      ]
+    },
+    "Be2",
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "At last the prepared strike hits d4 — but wait: can't White simply win this pawn? It is attacked twice, and after the queens come off, Black cannot even castle out of trouble... or can Black see further?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The strike that cannot be punished",
+          "body": "This is the move the first five prepared, and its safety is tactical, not general: if White grabs the pawn (see the variation), a small combination gets it straight back with a fine position. The strike also poses White a permanent question — resolve the center (trade, push, or hold) — and each answer picks a different middlegame. Note the honest cost: ...e5 blocks the g7-bishop's diagonal for now. The bishop waits; if the center ever dissolves, it inherits the longest diagonal on an open board.",
+          "concepts": ["attacking a pawn center", "central breaks"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e5", "to": "d4" }]
+    },
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White wisely declines the pawn grab and completes development. The alternative — cashing the center for a queen trade — is the classic beginner miscalculation in this position, and the variation walks through why it fails."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "dxe5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Testing the strike",
+                "body": "Take the pawn, trade the queens, grab e5 — it looks like a clean refutation of Black's whole setup. Play it through."
+              }
+            ]
+          },
+          "dxe5",
+          "Qxd8",
+          "Rxd8",
+          {
+            "san": "Nxe5",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "One pawn too greedy",
+                "body": "The queen trade was harmless, but this capture crosses the line. Black's reply demonstrates why the e5-pawn was never really hanging.",
+                "concepts": ["attacking a pawn center"]
+              }
+            ]
+          },
+          {
+            "san": "Nxe4",
+            "importance": "important",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The counter-capture",
+                "body": "Black takes a center pawn right back with a double attack: the knight threatens the c3-knight, and behind it the g7-bishop finally stares at the e5-knight through the opened diagonal. White cannot hold both minor pieces comfortably — after the natural recapture, ...Bxe5 restores the material with Black's pieces gloriously active and the 'refuted' bishop proving the whole hypermodern point.",
+                "concepts": ["the fianchetto", "attacking a pawn center"]
+              }
+            ],
+            "visual": [
+              { "type": "arrow", "from": "e4", "to": "c3" },
+              { "type": "arrow", "from": "g7", "to": "e5" }
+            ]
+          },
+          "Nxe4",
+          "Bxe5"
+        ]
+      ]
+    },
+    "Nc6",
+    {
+      "san": "d5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The center closes — and the board splits in two",
+          "body": "Attacked once too often, the d-pawn pushes past, and the pawn chains lock: White's points at the queenside, Black's at the kingside. A locked center changes the laws of the position — play shifts to the wings, and each side must attack where its chain points. From this moment White and Black are effectively playing on different halves of the board, racing. This structure — the Classical King's Indian — has hosted more spectacular attacking games than perhaps any other in chess.",
+          "concepts": ["closed centers", "opposite-wing play"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "d5", "to": "c6" },
+        { "type": "square", "square": "e5" }
+      ]
+    },
+    {
+      "san": "Ne7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The attacked knight reroutes — not backward but toward the kingside, where Black's future lives. It supports the coming ...f5 and may later hop to g6 or f5 itself. In closed positions, knights are travelers: judge them by their destinations.",
+          "concepts": ["opposite-wing play"]
+        }
+      ]
+    },
+    {
+      "san": "Ne1",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White's knight also reroutes — heading for d3 to support the queenside push c4–c5, and clearing the way for f3, which will brace the kingside against what everyone knows is coming. Both armies wheel toward opposite wings in broad daylight; there are no secrets in this structure, only speed.",
+          "concepts": ["opposite-wing play"]
+        }
+      ]
+    },
+    "Nd7",
+    "Be3",
+    {
+      "san": "f5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The storm begins",
+          "body": "The signature King's Indian break: the f-pawn joins the attack, and Black's plan rolls out from here — ...f4 gaining space, then the pawn avalanche ...g5, ...g4 cracking open the files in front of White's king, with rooks lifting in behind. Meanwhile White storms the other wing with c5, b4, and pressure down the c-file. Two attacks, two flags, no brakes: whoever breaks through first usually wins, which is why this opening rewards players who attack with conviction and count tempi honestly.",
+          "concepts": ["pawn storms", "opposite-wing play"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: hypermodern play is delayed classicism, not anti-classicism — Black fought for the center with pieces, then pawns, on a prepared schedule; a big pawn center is strong only while mobile — once fixed or locked, it is a wall with targets painted on it; and locked centers turn games into races where the right plan matters more than small material. This completes the series' five Black philosophies: the Caro-Kann's solidity, the French's siege, the Sicilian's asymmetry, the QGD's classical resistance — and the King's Indian's counterattack, for the days you play for mate.",
+          "concepts": ["hypermodern center control", "closed centers", "pawn storms"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "f5", "to": "f4" },
+        { "type": "arrow", "from": "g6", "to": "g5" },
+        { "type": "arrow", "from": "c4", "to": "c5" }
+      ]
+    }
+  ]
+}

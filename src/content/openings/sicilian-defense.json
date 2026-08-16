@@ -1,0 +1,225 @@
+{
+  "id": "sicilian-defense",
+  "catalogCode": "O010",
+  "focus": "black",
+  "title": "The Sicilian Defense",
+  "subtitle": "Refuse the mirror — fight for the win from move one",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "Black's most combative reply to 1.e4 answers a king-pawn with a wing pawn, guaranteeing an asymmetrical fight: White gets space and attacking chances, Black gets the half-open c-file, a central pawn majority, and queenside counterplay. This lesson teaches the Open Sicilian structure every famous variation shares.",
+  "tags": ["Sicilian Defense", "e4 defenses", "Open Sicilian", "Najdorf", "Dragon"],
+  "concepts": [
+    "asymmetry",
+    "the c-file",
+    "trading a flank pawn for a center pawn",
+    "queenside counterplay",
+    "central breaks",
+    "dynamic imbalance"
+  ],
+  "metadata": {
+    "eco": "B90",
+    "opening": "Sicilian Defense, Open",
+    "historicalContext": "Analyzed as early as 1594 in Sicily by Giulio Polerio, but its true era began in the twentieth century, when Fischer and Kasparov made it the fighting player's automatic choice. More world championship games have begun 1.e4 c5 than with any other defense — because it plays for a win with the black pieces."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Caro-Kann and French both answer 1.e4 by preparing ...d5 — meeting White in the center on classical terms. The Sicilian refuses the whole premise: no mirror, no early ...d5, no symmetry that lets White press a small safe edge. Instead Black unbalances the game immediately and plays for mutual attack. This lesson teaches the structure underneath all the famous Sicilian names: the c-for-d pawn trade, the half-open c-file, and the queenside campaign Black runs while White attacks elsewhere. Expect sharper play than in any other lesson in this series — that is the point of the opening."
+    }
+  ],
+  "line": [
+    "e4",
+    {
+      "san": "c5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "A wing pawn, developing nothing, not even touching e4. How can this possibly be Black's most aggressive defense?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The asymmetry bet",
+          "body": "The pawn does one concrete job: it controls d4, so White cannot build the free e4+d4 center that classical play dreams of — any d4 push will cost White a trade. But the deeper idea is the shape of the game: after 1...e5, every White plan has a mirror-image Black plan; after 1...c5 the positions are unbalanced from move one, and unbalanced positions reward the better-prepared attacker over the mover of the white pieces. Black gives up symmetry's safety to buy winning chances. (Compare the English opening — this same idea with colors reversed.)",
+          "concepts": ["asymmetry"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "c5", "to": "d4" },
+        { "type": "square", "square": "d4" }
+      ]
+    },
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops and prepares d4 anyway — accepting that it comes at the price of a trade. This is the main road, the Open Sicilian. White's attempts to dodge that trade are themselves instructive — see the variation.",
+          "concepts": ["trading a flank pawn for a center pawn"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "c3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Alapin — refusing the trade",
+                "body": "White prepares to recapture on d4 with this pawn, keeping a full center. Logical — but the move has a cost, and Black's reply exploits it immediately."
+              }
+            ]
+          },
+          {
+            "san": "d5",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The knight's missing square",
+                "body": "c3 took the queen-knight's best square — so nothing can punish an immediate central strike. After the coming recapture, Black's queen sits in the center untouchable, because the harassing move Nc3 no longer exists. Remember the Scotch lesson: early queen development is bad only when it can be hit. Every slow anti-Sicilian pays some such price for avoiding the open fight.",
+                "concepts": ["central breaks"]
+              }
+            ]
+          },
+          "exd5",
+          "Qxd5",
+          "d4"
+        ]
+      ]
+    },
+    {
+      "san": "d6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A quiet move with a precise job: it restrains e4–e5, so White can never chase a knight from f6 the way the Vienna lesson showed. Black had equal citizens in 2...Nc6 (development first) and 2...e6 (the flexible pawn shield) — three doors into the same Open Sicilian structure. This lesson takes the door that leads toward the most famous rooms.",
+          "concepts": ["dynamic imbalance"]
+        }
+      ]
+    },
+    "d4",
+    {
+      "san": "cxd4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The trade that defines the Sicilian",
+          "body": "Black exchanges the c-pawn for White's d-pawn — a flank pawn for a center pawn, the same quiet profit the English opening taught, now banked by Black. Two permanent assets are born this move: Black owns two center pawns to White's one (the d- and e-pawns versus the e-pawn), and the half-open c-file becomes Black's private highway — ...Rc8 arrives with pressure in almost every Sicilian ever played. White's compensation is real too: a lead in development and open lines for an attack. Both sides got what they came for; now they race.",
+          "concepts": ["trading a flank pawn for a center pawn", "the c-file"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "c8", "to": "c1" }
+      ]
+    },
+    "Nxd4",
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Development with a threat — the knight attacks e4, obliging Nc3 and denying White the c4 setup pieces might otherwise enjoy. Even Black's normal developing moves in the Sicilian carry small demands; accumulating these is how the second player seizes the initiative.",
+          "concepts": ["queenside counterplay"]
+        }
+      ]
+    },
+    "Nc3",
+    {
+      "san": "a6",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The most played move in the most played opening in chess — a rook-pawn nudge that develops nothing and attacks nothing. Why would the world's strongest players spend a tempo on this?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The Najdorf move — prophylaxis plus a promise",
+          "body": "Two jobs. First, it takes b5 away from White's pieces forever — no Bb5+ pins, no Nb5 jumps into d6. Second, it prepares Black's signature expansion ...b5, gaining queenside space, opening the bishop's diagonal to b7, and starting the campaign the c-file was opened for. This is the Najdorf Variation; had Black played 5...g6 instead, aiming the bishop down the long diagonal, it would be the Dragon (see the variation). The famous Sicilian names are mostly answers to one question: which minor-piece arrangement will support the same queenside plan?",
+          "concepts": ["queenside counterplay", "asymmetry"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "b5" },
+        { "type": "arrow", "from": "b7", "to": "b5" }
+      ],
+      "variations": [
+        [
+          {
+            "san": "g6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Dragon",
+                "body": "The other celebrated setup: Black fianchettos, and the g7-bishop breathes fire down the longest diagonal on the board, straight toward White's queenside — where Black's play was headed anyway."
+              }
+            ]
+          },
+          "Be2",
+          {
+            "san": "Bg7",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "body": "Note what has not changed: the c-file, the extra center pawn, the coming ...Rc8 and queenside pressure. Najdorf, Dragon, Classical — different minor-piece clothing over the same structural skeleton. Learn the skeleton and the names stop being frightening.",
+                "concepts": ["the c-file", "dynamic imbalance"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "g7", "to": "b2" }]
+          },
+          "O-O",
+          "O-O"
+        ]
+      ]
+    },
+    "Be2",
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The central strike — with an honest price tag",
+          "body": "Black kicks the centralized knight and claims the center the extra pawn majority promised. But look at d5: with the e-pawn advanced past it and d6 behind, that square is a hole White will try to own with a knight forever. Theory blesses this move anyway — the space, the activity, and the target on e4 outweigh one weak square Black can contest with pieces. Almost every Sicilian decision has this shape: dynamic assets bought with a structural concession. Playing the Sicilian means learning to price them.",
+          "concepts": ["central breaks", "dynamic imbalance"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "e5", "to": "d4" },
+        { "type": "square", "square": "d5" }
+      ]
+    },
+    "Nb3",
+    "Be7",
+    "O-O",
+    {
+      "san": "O-O",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The tabiya — two armies, two plans, no symmetry",
+          "body": "Both kings are safe and the real Sicilian begins. White's program: pressure d5 and the backward d6-pawn, expand with a4 or f4, perhaps attack the king. Black's program: ...Be6, ...Nbd7, ...Rc8 on the private c-file, then ...b5 and queenside play — with the freeing break ...d5 as the dream that ends all problems. Neither side defends; both attack on their own wing. Games from this position are decided, not drawn — which is exactly what 1...c5 was for.",
+          "concepts": ["queenside counterplay", "the c-file", "dynamic imbalance"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: asymmetry is a strategy — refusing to mirror converts the game from a debate about White's edge into a race both sides can win; the c-for-d trade is the Sicilian's engine — half-open c-file plus center-pawn majority pays Black dividends for fifty moves; and Sicilian judgment means pricing trade-offs (...e5 buys activity and sells d5) rather than following rules. Set beside the Caro-Kann's solidity and the French's siege, this is the third philosophy of meeting 1.e4: unbalance everything and out-play the opponent.",
+          "concepts": ["asymmetry", "trading a flank pawn for a center pawn", "dynamic imbalance"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "a8", "to": "c8" },
+        { "type": "arrow", "from": "b7", "to": "b5" },
+        { "type": "square", "square": "d5" }
+      ]
+    }
+  ]
+}
