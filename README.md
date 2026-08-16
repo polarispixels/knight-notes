@@ -33,7 +33,9 @@ npm run build    # production build to dist/
 
 ## Architecture
 
-Four strictly separated layers (see `docs/superpowers/specs/` for the full spec):
+Four strictly separated layers (full product spec: [`DESIGN_SPEC.md`](DESIGN_SPEC.md);
+agent orientation: [`AGENT_GUIDE.md`](AGENT_GUIDE.md); all docs are published at
+[/docs/](https://polarispixels.github.io/knight-notes/docs/) with each deploy):
 
 ```
 src/

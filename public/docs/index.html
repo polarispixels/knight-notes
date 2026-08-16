@@ -5,17 +5,86 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>KnightNotes Documentation</title>
 <style>
-  body { font-family: Georgia, serif; background: #f6f2ea; color: #29241c; max-width: 640px; margin: 4rem auto; padding: 0 1.2rem; line-height: 1.6; }
+  body { font-family: Georgia, serif; background: #f6f2ea; color: #29241c; max-width: 720px; margin: 3rem auto 5rem; padding: 0 1.2rem; line-height: 1.6; }
   a { color: #7a5a2b; }
-  code { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.9em; background: #fffdf8; border: 1px solid #e4dccb; border-radius: 4px; padding: 0.1em 0.35em; }
+  h1 { margin-bottom: 0.1rem; }
+  h2 { margin-top: 2.2rem; border-bottom: 1px solid #e4dccb; padding-bottom: 0.25rem; }
+  .tagline { color: #6f6657; margin-top: 0; font-style: italic; }
+  code, pre { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 0.9em; background: #fffdf8; border: 1px solid #e4dccb; border-radius: 4px; }
+  code { padding: 0.1em 0.35em; }
+  pre { padding: 0.7em 1em; overflow-x: auto; }
+  ul { padding-left: 1.2rem; }
+  li { margin: 0.35rem 0; }
+  .note { font-size: 0.92rem; color: #6f6657; }
 </style>
 </head>
 <body>
 <h1>♞ KnightNotes Documentation</h1>
+<p class="tagline">Chess, explained move by move.</p>
+
+<p>KnightNotes is an interactive chess textbook: a browser-based study
+application where a student steps through famous games, openings, gambits,
+traps, tactics, endgames, patterns, and variations move by move, with
+educational commentary at the moments that matter. The product's standard is
+explaining <em>why an important move matters</em> — not merely showing what
+moved. It is a local-first single-page app (Vue 3 + TypeScript): no server,
+no accounts; imported games live in the reader's browser.</p>
+
+<p>This page is the canonical starting point for humans and AI agents working
+on KnightNotes. <strong>Agents: read
+<a href="AGENT_GUIDE.md">AGENT_GUIDE.md</a> first</strong> — it maps which
+document is authoritative for which concern, gives task workflows, and states
+the project's principles.</p>
+
+<h2>Start here, by task</h2>
+
+<h3>Adding or modifying study content</h3>
+<p>Read <a href="CONTENT_AUTHORING.md">CONTENT_AUTHORING.md</a> — the
+authoritative specification for bundled study content of every kind (famous
+games, openings, gambits, traps, tactics, endgames, patterns, variations).
+Authors write <strong>StudySeed</strong> JSON — moves as SAN plus structured
+annotations — which the application compiles into its canonical
+<code>Study</code> representation, generating FENs, node ids, and move
+relationships automatically. It includes the full field reference, the
+validation model, the writing-voice guide, and a complete shipped study as a
+worked example. Content work needs no other document.</p>
+
+<h3>Modifying the application</h3>
 <ul>
-  <li><a href="CONTENT_AUTHORING.md">CONTENT_AUTHORING.md</a> — the complete study-authoring format: schema, validation, voice guide, and a full worked example.</li>
+  <li><a href="README.md">README.md</a> — architecture map, layer boundaries,
+      how to run, credits/licensing.</li>
+  <li><a href="DESIGN_SPEC.md">DESIGN_SPEC.md</a> — the V1 product/design
+      specification: product philosophy, scope, canonical domain model,
+      navigation semantics, routes, persistence, UI direction, error handling,
+      testing expectations, recorded implementation decisions, and the
+      deliberate list of deferred V2 features.</li>
 </ul>
-<p>For agents: fetch <code>/docs/CONTENT_AUTHORING.md</code> (raw markdown) as the authoritative, deploy-synced specification for producing new study JSON files.</p>
-<p><a href="../">← Back to KnightNotes</a></p>
+<p class="note">The source code and its test suite are the most precise record
+of current behavior; when a document and the code disagree, see the drift
+policy in <a href="AGENT_GUIDE.md">AGENT_GUIDE.md</a>.</p>
+
+<h2>Format authority in one sentence</h2>
+<p><code>Study</code> is the canonical runtime/domain model;
+<strong>StudySeed</strong> is the authoring format for bundled content;
+<strong>PGN</strong> is the import/interchange format for user games. The
+latter two always compile into the former, and generated structure (FENs,
+ids, relationships) is never written by hand.</p>
+
+<h2>Validating work</h2>
+<p>From the repository root (all three must pass before work is complete;
+pushes to <code>main</code> deploy automatically, gated by the test suite):</p>
+<pre>npm run validate:content   # content only: schema + chess legality + quality gate
+npm test                   # full suite (domain, PGN, persistence, UI, content)
+npm run build              # TypeScript check + production build</pre>
+
+<h2>Links</h2>
+<ul>
+  <li><a href="../">The KnightNotes application</a></li>
+  <li><a href="https://github.com/polarispixels/knight-notes">Source repository</a> (github.com/polarispixels/knight-notes)</li>
+  <li><a href="AGENT_GUIDE.md">AGENT_GUIDE.md</a> · <a href="CONTENT_AUTHORING.md">CONTENT_AUTHORING.md</a> · <a href="README.md">README.md</a> · <a href="DESIGN_SPEC.md">DESIGN_SPEC.md</a></li>
+</ul>
+<p class="note">The markdown files on this site are copied verbatim from the
+repository on every deploy, so they cannot drift from the deployed
+application.</p>
 </body>
 </html>
