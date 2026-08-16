@@ -47,14 +47,57 @@
     "e3",
     "O-O",
     "Nf3",
-    "Nbd7",
+    {
+      "san": "Nbd7",
+      "variations": [
+        [
+          {
+            "san": "h6",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The Lasker Defense",
+                "body": "Emanuel Lasker's freeing recipe starts with this little question to the bishop. Black intends ...Ne4 next: one knight jump offers to trade two pairs of minor pieces, and every trade loosens White's grip on the cramped position. Where the Orthodox holds its ground and frees itself slowly, the Lasker simplifies first and equalizes cleanly — its reputation for reliability has lasted a century."
+              }
+            ]
+          },
+          "Bh4",
+          {
+            "san": "Ne4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The unloading jump",
+                "body": "The knight plants itself on e4 where it attacks the h4-bishop and offers itself to the c3-knight at the same time. However White responds, minor pieces leave the board and Black's defensive job shrinks with each trade."
+              }
+            ]
+          },
+          "Bxe7",
+          "Qxe7",
+          "cxd5",
+          {
+            "san": "Nxc3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The point of the whole operation: two minor-piece pairs disappear, and after the recaptures Black's remaining pieces have all the room they need. This is equality by subtraction — compare it with the mainline Orthodox, which keeps the pieces on and fights for freedom with ...c5 or ...e5."
+              }
+            ]
+          },
+          "bxc3",
+          "exd5"
+        ]
+      ]
+    },
     {
       "san": "Rc1",
       "annotations": [
         {
           "type": "commentary",
           "body": "The main line, exactly as in the family study — see that lesson for why each of the next several moves is played. We continue quickly to the position where this study's new content begins.",
-          "concepts": ["central tension"]
+          "concepts": [
+            "central tension"
+          ]
         }
       ],
       "variations": [
@@ -67,7 +110,9 @@
                 "type": "key-idea",
                 "title": "The Rubinstein Attack",
                 "body": "Named for Akiba Rubinstein, this is White's sharper alternative to the quiet Rc1-and-Bd3 plan. The queen leaves the back rank immediately, keeping open the option of castling either side and aiming the rest of White's development at faster central or kingside play rather than the slow queenside minority attack.",
-                "concepts": ["prophylaxis"]
+                "concepts": [
+                  "prophylaxis"
+                ]
               }
             ]
           },
@@ -104,7 +149,9 @@
         {
           "type": "commentary",
           "body": "Capablanca's freeing maneuver, as covered in the family lesson: offering the trade that starts unwinding Black's cramped position.",
-          "concepts": ["the freeing break"]
+          "concepts": [
+            "the freeing break"
+          ]
         }
       ]
     },
@@ -117,7 +164,9 @@
           "type": "commentary",
           "title": "Where the family study stopped",
           "body": "This is the exact position the family lesson left as a plan in words. From here we play it out for real.",
-          "concepts": ["the freeing break"]
+          "concepts": [
+            "the freeing break"
+          ]
         }
       ]
     },
@@ -127,7 +176,9 @@
         {
           "type": "commentary",
           "body": "White finally castles — nothing forced it earlier, but there was no reason to rush either. Notice the knights on c3 and d5 now attack each other directly; whoever initiates the trade doesn't lose anything by it.",
-          "concepts": ["central tension"]
+          "concepts": [
+            "central tension"
+          ]
         }
       ]
     },
@@ -140,7 +191,10 @@
           "type": "key-idea",
           "title": "The second trade Capablanca's plan wanted",
           "body": "Black initiates the trade of the remaining minor-piece pair. Every exchange in a cramped position is a small victory: fewer pieces means less congestion, and this is the second of the two trades the freeing plan promised (the bishops went first, the knights go now).",
-          "concepts": ["piece trades as strategy", "the restricted bishop"]
+          "concepts": [
+            "piece trades as strategy",
+            "the restricted bishop"
+          ]
         }
       ]
     },
@@ -150,7 +204,9 @@
         {
           "type": "commentary",
           "body": "White recaptures with the rook rather than the b-pawn, keeping the pawn structure intact — the rook was already committed to the c-file, so this costs nothing.",
-          "concepts": ["piece trades as strategy"]
+          "concepts": [
+            "piece trades as strategy"
+          ]
         }
       ]
     },
@@ -167,10 +223,19 @@
           "type": "critical-position",
           "title": "The freeing break, delivered",
           "body": "This is the move the entire plan existed to make possible. Two moves ago this pawn was still on e6, boxing in the c8-bishop; now the center opens and that bishop finally has a diagonal. Note what made this safe: with only a rook and a knight left on each side near the center, White has no way to punish the pawn's advance the way an extra attacker might have earlier in the game.",
-          "concepts": ["the freeing break", "the restricted bishop"]
+          "concepts": [
+            "the freeing break",
+            "the restricted bishop"
+          ]
         }
       ],
-      "visual": [{ "type": "arrow", "from": "e5", "to": "c8" }]
+      "visual": [
+        {
+          "type": "arrow",
+          "from": "e5",
+          "to": "c8"
+        }
+      ]
     },
     "dxe5",
     "Nxe5",
@@ -183,13 +248,19 @@
           "type": "critical-position",
           "title": "Full equality, reached and verified",
           "body": "Every piece that could be traded has been traded, the c8-bishop's diagonal is open, and material is exactly level. This is not a drawn-out defensive grind anymore — it's a clean, balanced position where Black's remaining problems (finding the c8-bishop and the a8-rook active squares) are ordinary developing tasks, not structural weaknesses.",
-          "concepts": ["the freeing break"]
+          "concepts": [
+            "the freeing break"
+          ]
         },
         {
           "type": "key-idea",
           "title": "What you should have noticed",
           "body": "Three lessons beyond the family study: a freeing plan isn't finished until the break is actually played and the resulting position is quiet — the promise of equality and the fact of it are different things, worth verifying to the end; recaptures have consequences even when 'obviously' correct (Rxc3 instead of bxc3 kept White's structure sound at zero cost, purely because the rook was already there); and White has more than one plan against the Orthodox Defense — the patient Rc1 squeeze and the faster Rubinstein Attack ask Black completely different questions, and a defender who only knows one of them is unprepared for the other.",
-          "concepts": ["the freeing break", "central tension", "piece trades as strategy"]
+          "concepts": [
+            "the freeing break",
+            "central tension",
+            "piece trades as strategy"
+          ]
         }
       ]
     }
