@@ -1,6 +1,7 @@
 {
   "id": "noahs-ark-trap",
   "catalogCode": "TR003",
+  "focus": "black",
   "title": "Noah's Ark Trap",
   "subtitle": "Ruy Lopez, Steinitz Defense Deferred",
   "type": "trap",

@@ -58,6 +58,9 @@ export function validateSeed(seed: unknown): string[] {
   if (s.catalogCode !== undefined && (typeof s.catalogCode !== 'string' || !CATALOG_CODE_RE.test(s.catalogCode))) {
     err('catalogCode', 'must look like "G001", "TR002", "GB001"')
   }
+  if (s.focus !== undefined && s.focus !== 'white' && s.focus !== 'black') {
+    err('focus', `must be "white" or "black", or omitted for color-agnostic studies (got ${JSON.stringify(s.focus)})`)
+  }
   if (s.initialFen !== undefined && (typeof s.initialFen !== 'string' || !FEN_RE.test(s.initialFen))) {
     err('initialFen', 'must be a valid FEN string, e.g. "1K1k4/1P6/8/8/8/8/r7/2R5 w - - 0 1"')
   }

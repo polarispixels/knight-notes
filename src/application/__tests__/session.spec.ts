@@ -193,3 +193,24 @@ describe('sessionStore: review fixes', () => {
     expect(fresh.currentNode?.moveFromParent?.san).toBe('e5')
   })
 })
+
+describe('sessionStore: study focus orientation', () => {
+  it('opens a black-focused study with black at the bottom', async () => {
+    const caro = branchingStudy('caro-fixture')
+    caro.focus = 'black'
+    provideRepository(createBundledRepository([caro, branchingStudy()]))
+    const session = useSessionStore()
+    await session.loadStudy('caro-fixture')
+    expect(session.orientation).toBe('black')
+  })
+
+  it('a user flip on one study does not leak into another', async () => {
+    const session = useSessionStore()
+    await session.loadStudy('fixture-italian')
+    session.flip() // black
+    const other = branchingStudy('other-study')
+    provideRepository(createBundledRepository([branchingStudy(), other]))
+    await session.loadStudy('other-study')
+    expect(session.orientation).toBe('white')
+  })
+})

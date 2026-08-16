@@ -96,6 +96,8 @@ export interface Study {
   slug: string
   /** Optional human-friendly catalog code (e.g. "G001") used for library ordering. */
   catalogCode?: string
+  /** Which side this study teaches for (e.g. Italian → white, Caro-Kann → black). Absent = color-agnostic. */
+  focus?: Side
   title: string
   subtitle?: string
   type: StudyType
@@ -117,6 +119,7 @@ export interface StudySummary {
   id: string
   slug: string
   catalogCode?: string
+  focus?: Side
   title: string
   subtitle?: string
   type: StudyType

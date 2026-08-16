@@ -1,6 +1,7 @@
 {
   "id": "benko-gambit",
   "catalogCode": "GB002",
+  "focus": "black",
   "title": "The Benko Gambit",
   "subtitle": "A pawn for permanent pressure on the queenside",
   "type": "gambit",

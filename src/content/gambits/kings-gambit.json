@@ -1,6 +1,7 @@
 {
   "id": "kings-gambit",
   "catalogCode": "GB001",
+  "focus": "white",
   "title": "The King's Gambit",
   "subtitle": "A Romantic-era pawn sacrifice for the center and the f-file",
   "type": "gambit",

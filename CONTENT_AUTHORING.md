@@ -61,6 +61,7 @@ commentary; use an object when a move carries teaching content:
 | `summary` | effectively yes | required by the quality gate |
 | `concepts` | effectively yes | at least one, e.g. `"weak f7"` |
 | `catalogCode` | no | `"G001"`, `"TR002"`… — orders the library within its category |
+| `focus` | no | `"white"` or `"black"` — the side this study teaches for (Italian → white, Caro-Kann → black). Shows a badge on the library card and the study opens with that side at the bottom of the board. **Omit** for color-agnostic content (full games, most patterns and endgames) |
 | `subtitle` | no | one line under the title |
 | `difficulty` | no | `beginner` `intermediate` `advanced` |
 | `tags` | no | free strings |

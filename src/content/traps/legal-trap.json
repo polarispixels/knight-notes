@@ -1,6 +1,7 @@
 {
   "id": "legal-trap",
   "catalogCode": "TR002",
+  "focus": "white",
   "title": "Légal's Trap",
   "subtitle": "Philidor Defense",
   "type": "trap",

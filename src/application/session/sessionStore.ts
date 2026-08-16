@@ -22,7 +22,7 @@ import { getRepository } from '../repositoryProvider'
 export const useSessionStore = defineStore('session', () => {
   const study = ref<Study | null>(null)
   const currentNodeId = ref<string>('')
-  const orientation = ref<'white' | 'black'>(getPref('orientation', 'white'))
+  const orientation = ref<'white' | 'black'>('white')
   const error = ref<string | null>(null)
   /** Variation choices per branch node, so Next re-enters a selected line. */
   const selectedChildren = ref<Record<string, string>>({})
@@ -99,6 +99,9 @@ export const useSessionStore = defineStore('session', () => {
       return
     }
     study.value = loaded
+    // Board orientation: the user's saved choice for this study wins,
+    // else the side the study teaches for, else White at the bottom.
+    orientation.value = getPref<'white' | 'black' | null>(`orient:${id}`, null) ?? loaded.focus ?? 'white'
     setPref('lastStudy', id)
     const savedPath = getPref<string[] | null>(`lastPos:${id}`, null)
     const restored = Array.isArray(savedPath) ? nodeAtSanPath(loaded, savedPath) : null
@@ -158,7 +161,7 @@ export const useSessionStore = defineStore('session', () => {
 
   function flip() {
     orientation.value = orientation.value === 'white' ? 'black' : 'white'
-    setPref('orientation', orientation.value)
+    if (study.value) setPref(`orient:${study.value.id}`, orientation.value)
   }
 
   return {

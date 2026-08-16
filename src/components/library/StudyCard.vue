@@ -19,7 +19,12 @@ const TYPE_LABELS: Record<string, string> = {
 <template>
   <article class="study-card" data-test="study-card" @click="$emit('open')">
     <div class="card-top">
-      <span class="type-chip">{{ TYPE_LABELS[study.type] ?? study.type }}</span>
+      <span class="chips">
+        <span class="type-chip">{{ TYPE_LABELS[study.type] ?? study.type }}</span>
+        <span v-if="study.focus" class="focus-badge" :class="study.focus" data-test="focus-badge">
+          {{ study.focus === 'white' ? '♙ For White' : '♟ For Black' }}
+        </span>
+      </span>
       <span v-if="study.difficulty" class="difficulty">{{ study.difficulty }}</span>
     </div>
     <h3 class="card-title">{{ study.title }}</h3>
@@ -59,11 +64,28 @@ const TYPE_LABELS: Record<string, string> = {
   justify-content: space-between;
   align-items: baseline;
 }
+.chips {
+  display: flex;
+  align-items: baseline;
+  gap: 0.55rem;
+}
 .type-chip {
   font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--accent);
+}
+.focus-badge {
+  font-size: 0.72rem;
+  color: var(--ink-soft);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.05rem 0.5rem;
+}
+.focus-badge.black {
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
 }
 .difficulty {
   font-size: 0.74rem;

@@ -1,6 +1,7 @@
 {
   "id": "italian-game",
   "catalogCode": "O001",
+  "focus": "white",
   "title": "The Italian Game",
   "subtitle": "Giuoco Piano and the Two Knights Defense",
   "type": "opening",

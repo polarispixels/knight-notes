@@ -184,3 +184,23 @@ describe('featured study card', () => {
     expect(wrapper.find('[data-test="featured-card"]').exists()).toBe(false)
   })
 })
+
+describe('color focus badge', () => {
+  it('shows which side a focused study teaches for', async () => {
+    const caro = branchingStudy('caro-kann')
+    caro.title = 'The Caro-Kann'
+    caro.focus = 'black'
+    provideRepository(
+      new CompositeStudyRepository(
+        createBundledRepository([caro, branchingStudy()]),
+        createLocalRepository(`test-db-${Math.random().toString(36).slice(2)}`),
+      ),
+    )
+    const { wrapper } = await makeApp('/')
+    const cards = wrapper.findAll('[data-test="study-card"]')
+    const caroCard = cards.find((c) => c.text().includes('Caro-Kann'))!
+    expect(caroCard.find('[data-test="focus-badge"]').text()).toContain('Black')
+    const plain = cards.find((c) => c.text().includes('Italian Fixture'))!
+    expect(plain.find('[data-test="focus-badge"]').exists()).toBe(false)
+  })
+})

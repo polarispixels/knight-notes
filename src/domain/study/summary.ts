@@ -12,6 +12,7 @@ export function toSummary(study: Study, source: StudySource): StudySummary {
     source,
   }
   if (study.catalogCode) summary.catalogCode = study.catalogCode
+  if (study.focus) summary.focus = study.focus
   if (study.subtitle) summary.subtitle = study.subtitle
   if (study.difficulty) summary.difficulty = study.difficulty
   if (study.summary) summary.summary = study.summary

@@ -171,3 +171,24 @@ describe('validateSeed', () => {
     expect(() => seedToStudy({ id: 'x', type: 'nope', line: [] } as never)).toThrow(/type/)
   })
 })
+
+describe('focus (color orientation of a study)', () => {
+  it('passes focus through to the study and its summary', () => {
+    const study = seedToStudy({
+      id: 'caro-kann',
+      title: 'Caro-Kann',
+      type: 'opening',
+      focus: 'black',
+      line: ['e4', 'c6'],
+    })
+    expect(study.focus).toBe('black')
+  })
+  it('rejects invalid focus values in schema validation', () => {
+    expect(
+      validateSeed({ id: 'x', title: 'X', type: 'opening', focus: 'green', line: ['e4'] }).join(),
+    ).toMatch(/focus/)
+  })
+  it('is absent for color-agnostic studies', () => {
+    expect(seedToStudy({ id: 'p', title: 'P', type: 'pattern', line: ['e4'] }).focus).toBeUndefined()
+  })
+})
