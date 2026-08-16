@@ -1,0 +1,199 @@
+{
+  "id": "pirc-austrian-attack",
+  "catalogCode": "O073",
+  "focus": "black",
+  "title": "Pirc Defense: Austrian Attack",
+  "subtitle": "White's most ambitious answer — meet fire with structure",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "White abandons quiet development and grabs the biggest possible center with f4, e4, and d4 all at once, aiming to punish the fianchetto before Black finishes developing. The Pirc Defense family study showed how to handle patient White setups; here Black faces the sharpest, most theoretically demanding test the opening offers, and has to counterattack the center precisely instead of just enduring it.",
+  "tags": ["Pirc Defense", "Austrian Attack", "big center", "kingside pawn storm", "hypermodern", "King's Indian Defense"],
+  "concepts": ["central break", "space", "counterattack", "king safety", "piece activity"],
+  "metadata": {
+    "eco": "B09",
+    "opening": "Pirc Defense: Austrian Attack",
+    "historicalContext": "The most theoretically critical test of the Pirc: White claims the full three-abreast pawn center — d4, e4, and f4 — that hypermodern openings normally invite the opponent to attack later, daring Black to prove the fianchetto is worth the space conceded."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Where the Pirc Defense family study covered White's quieter tries, the Austrian Attack is the real theoretical battleground: White claims d4, e4, and f4 all at once, intending e5 or f5 to overrun Black before development finishes. Black's central question is timing — the counter-strike, ...c5 or ...e5, has to land while it still hurts, because a slow response here gets run over."
+    },
+    {
+      "type": "historical",
+      "title": "How dangerous this can get",
+      "body": "Aggressive White setups against the Pirc have produced some of the most famous attacking games in chess — most notably Kasparov vs Topalov (Wijk aan Zee, 1999). That game used a different aggressive system, not this exact one, but the underlying danger is the same: give White a free hand with a big center for too long, and calculation alone can end the game. This lesson exists to keep that from happening to you."
+    }
+  ],
+  "line": [
+    "e4",
+    "d6",
+    "d4",
+    "Nf6",
+    "Nc3",
+    "g6",
+    {
+      "san": "f4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The point of the whole variation",
+          "body": "This is what makes the Austrian Attack the Austrian Attack: instead of quiet development, White claims a third central pawn, aiming the trio — d4, e4, and eventually f5 — straight down the board. Black's fianchettoed bishop, which usually earns its keep pressuring an empty center, now has real pawns to bite through instead: a much bigger test than the calmer systems.",
+          "concepts": ["space"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "e5" },
+        { "type": "arrow", "from": "f4", "to": "f5" }
+      ]
+    },
+    "Bg7",
+    "Nf3",
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White has committed to a huge pawn center but has not yet decided how to use it. Waiting is dangerous — so what should Black play right now to make sure that center becomes a target instead of a battering ram?"
+        }
+      ]
+    },
+    {
+      "san": "Bd3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A natural developing square: the bishop reinforces e4 and stands ready to join a kingside push. Its diagonal toward h7 is blocked by White's own e4 pawn for as long as that pawn stays put, but if the center ever opens with e5, the bishop is already pointed exactly where it needs to be."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d3" }]
+    },
+    {
+      "san": "c5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Striking before the storm",
+          "body": "Black hits the center from the flank immediately rather than waiting for White's kingside pawns to start rolling forward with f5. This mirrors the ...c5 break used against other big-center setups (the Sicilian, the Benoni): the longer Black waits, the more space White claims for free.",
+          "concepts": ["central break", "space"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nc6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The other classical main line",
+                "body": "Many treatments meet the Austrian Attack with ...Nc6, hitting d4 directly and preparing ...e5 next, instead of the flank strike ...c5. Both aim at the same target — White's center — from different angles."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Space instead of a pawn",
+          "body": "White pushes past the tension rather than trading, gaining more room and forcing Black to find the next plan. This is a Benoni-shaped structure in disguise — a cramped-looking Black position that is actually fine, as long as the pieces find active squares quickly.",
+          "concepts": ["space"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }]
+    },
+    {
+      "san": "e6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Challenging the wedge immediately",
+          "body": "Rather than accept the cramped structure passively, Black hits the d5 pawn right away. Left permanently secure and unchallenged, that pawn would leave Black genuinely worse — this challenge cannot wait.",
+          "concepts": ["central break"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "b5",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "Ignoring the center",
+                "body": "Grabbing queenside space looks natural, but it does nothing about White's growing center. White simply continues with e5, gaining even more space and time while Black's queenside pawns need looking after instead of doing useful work."
+              }
+            ]
+          },
+          "e5"
+        ]
+      ]
+    },
+    "O-O",
+    "exd5",
+    {
+      "san": "exd5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White recaptures toward the center, keeping the extra space — a pawn now sits permanently on d5, cramping Black's queenside — instead of the alternative Nxd5, which trades that space advantage for immediate piece activity.",
+          "concepts": ["space"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nxd5",
+            "annotations": [
+              {
+                "type": "strategy",
+                "title": "Trading space for activity",
+                "body": "White can also recapture with the knight, giving up the permanent d5 pawn wedge in exchange for a centralized, active knight right now. It is a real alternative plan — less space, more immediate piece activity — rather than a mistake."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Re8",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Pressure down the e-file",
+          "body": "Black immediately claims the one concrete asset that came from trading in the center: the newly opened e-file. Piece activity, not pawns, is how Black balances White's extra space for the rest of the game.",
+          "concepts": ["piece activity"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e8", "to": "e1" }]
+    },
+    "Re1",
+    {
+      "san": "Nc6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Space versus activity",
+          "body": "White has more room and a protected pawn wedge on d5; Black has developed quickly and contests the only open file. The rest of the middlegame is a race: can White turn the space into an attack — f5, or piece pressure through the center — before Black's active pieces, and eventually a timely ...b5 or ...Nd4, create enough counterplay?"
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons from the sharpest line in the Pirc family: a three-pawn center is not automatically winning — it needs a follow-up plan, and giving the opponent time to strike back at it is genuinely risky; ...c5 and ...e5 are both legitimate ways to challenge a big center, and the choice between them depends on which file and which pieces you want active afterward; and when material is level, an open file and a lead in development are real compensation for less space, not just consolation prizes.",
+          "concepts": ["space", "central break", "piece activity"]
+        }
+      ]
+    }
+  ]
+}

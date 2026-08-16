@@ -1,0 +1,191 @@
+{
+  "id": "halloween-gambit",
+  "catalogCode": "GB009",
+  "focus": "white",
+  "title": "The Halloween Gambit",
+  "subtitle": "Four Knights Game — a full knight for one pawn",
+  "type": "gambit",
+  "difficulty": "intermediate",
+  "summary": "White sacrifices an entire knight for a single pawn on move four — the steepest price of any gambit in this library — and gets a monstrous, mobile pawn center in return. Objectively dubious against precise defense, it remains a genuine, well-analyzed surprise weapon that punishes hesitation at club and blitz speed.",
+  "tags": [
+    "Halloween Gambit",
+    "Müller-Schulze Gambit",
+    "Four Knights Game",
+    "e4 openings",
+    "piece sacrifice",
+    "gambit"
+  ],
+  "concepts": [
+    "gambit play",
+    "space",
+    "material versus initiative",
+    "development",
+    "calculation",
+    "practical chances"
+  ],
+  "metadata": {
+    "eco": "C47",
+    "opening": "Four Knights Game: Halloween Gambit",
+    "historicalContext": "A well-worked-out trick line rather than a joke: it carries real, ongoing amateur and blitz practice under a name that fits its trick-or-treat character — a full piece offered on the fourth move for nothing but pawns and tempo. No World Championship has ever seen it; club tournaments and online blitz see it constantly."
+  },
+  "rootAnnotations": [
+    {
+      "type": "strategy",
+      "title": "One piece, three central pawns",
+      "body": "This is not a pawn gambit — it's a full knight, the most expensive sacrifice in this library's gambit collection, offered for a single pawn on move four. In exchange, White gets to repeatedly attack Black's knights with pawn advances, gaining a tempo with nearly every pawn move and building a central mass (d5, e5, f4) that cramps Black's whole position. The honest question this study answers: is a piece's worth of space and tempo actually enough compensation for a piece?"
+    },
+    {
+      "type": "warning",
+      "title": "Reputation versus practice",
+      "body": "With accurate, calm defense, computer analysis and modern theory agree Black should end up better — a full minor piece is a lot to give back. But 'accurate and calm' is the hard part: Black must find several only-moves in a row, in an unfamiliar structure, usually with little time to think. That gap between the objective verdict and the practical result is exactly why this gambit still scores well outside elite play."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    "Nc3",
+    "Nf6",
+    {
+      "san": "Nxe5",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The knight goes in",
+          "body": "White grabs the e5-pawn with the knight instead of developing a bishop — and offers the knight itself, since Nc6 recaptures it for free next move. This single move is the entire cost of the gambit: one minor piece, paid up front, for one pawn.",
+          "concepts": ["gambit play"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e5" }]
+    },
+    {
+      "san": "Nxe5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Accepting is close to automatic",
+          "body": "Unlike most gambits, there is no real question of whether to take here — declining and leaving White's knight sitting on e5 just hands White a clean extra pawn for nothing (the alternative shown here covers that calmer path). Recapturing costs Black nothing yet; the price comes due over the next several moves.",
+          "concepts": ["gambit play"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "d6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Declining the piece",
+                "body": "Rather than grab the free piece, Black simply kicks the knight and lets it retreat. This is the calm, risk-free way to meet the Halloween Gambit: no forced sequences, no only-moves, just a normal position where White has won a single pawn cleanly. Many strong players prefer this over navigating the sharp accepted lines from memory."
+              }
+            ]
+          },
+          "Nf3"
+        ]
+      ]
+    },
+    {
+      "san": "d4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The pawn avalanche begins",
+          "body": "White does not try to win material back — the whole point is to keep spending tempo. This pawn attacks the centralized knight, forcing an immediate retreat and starting the pattern that defines the gambit: every pawn advance is also a threat.",
+          "concepts": ["space"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d4", "to": "e5" }]
+    },
+    "Nc6",
+    {
+      "san": "d5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The pawn advances again, attacking the same knight a second time and gaining a second free tempo. Black's knight is being pushed around the board while White's center simply grows."
+        }
+      ]
+    },
+    "Ne5",
+    {
+      "san": "f4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A third tempo, a third pawn",
+          "body": "White brings a second pawn into the attack on the same knight rather than developing a piece. Three pawn moves in a row, three tempo gains — this is what a full piece buys when spent entirely on forcing moves instead of quiet development.",
+          "concepts": ["space", "material versus initiative"]
+        }
+      ]
+    },
+    "Ng6",
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Now the other knight",
+          "body": "The e-pawn pushes again, but this time it isn't chasing the same piece — it attacks Nf6, Black's other knight. Both of Black's minor pieces have now been forced backward by pawns alone, and White still hasn't lost a single further tempo to development.",
+          "concepts": ["space"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e5", "to": "f6" }]
+    },
+    "Ng8",
+    {
+      "san": "Bc4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The compensation, fully assembled",
+          "body": "White finally develops a piece, completing the setup rather than adding a new immediate threat — the d5-pawn actually blocks the bishop's own diagonal to f7 for now, so this isn't yet a direct attack on the king. Take stock: White is down a full knight, but has pawns on d5, e5, and f4 forming a real central mass, a second minor piece finally in play, one Black knight back on its home square, and the other three moves spent just to reach g6. This is the entire idea of the Halloween Gambit in one position — space and tempo banked as compensation, ready to be converted once the position opens.",
+          "concepts": ["material versus initiative", "development"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "c4" }]
+    },
+    {
+      "san": "Nh6",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a piece sacrifice can be justified by tempo and space alone, without any immediate combination in sight — the compensation here is structural, not tactical; forced retreats compound, so a knight pushed back three times in a row is a real, measurable cost even though no single move looked disastrous; and a gambit's reputation ('objectively bad') and its practical record ('scores well against unprepared opponents') can both be true at once — see the trap in the alternative here for what happens when Black relaxes too soon.",
+          "concepts": ["practical chances", "material versus initiative"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nxf4",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "Grabbing a pawn back at the wrong moment",
+                "body": "Snatching the f4-pawn looks like a good moment to start returning the favor — but it spends yet another tempo shuffling the same knight, and Black still hasn't developed a single other piece. That's the real cost: 10.e6! rips the center open exactly when Black has nothing ready to meet it. This is the risk side of the gambit's ledger: a small material gain that ignores development can turn a 'merely dangerous' position into a genuinely difficult one.",
+                "concepts": ["calculation"]
+              }
+            ],
+            "visual": [{ "type": "square", "square": "f7" }]
+          },
+          "e6"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "id": "dutch-defense-stonewall",
+  "catalogCode": "O124",
+  "focus": "black",
+  "title": "Stonewall Dutch",
+  "subtitle": "A wedge, a wall, and one bad bishop",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "Black locks the center rigidly with pawns on d5, e6, f5, and c6 — a wedge that hands over the light-squared bishop's future in exchange for the best square on the board, e4, for a knight. Learn why this trade is worth making, the one maneuver that rescues the bad bishop, and the fight both sides wage over the mirror-image square, e5.",
+  "tags": ["Stonewall Dutch", "Dutch Defense", "Dutch Stonewall Formation", "d4 defenses", "pawn structure", "kingside attack"],
+  "concepts": ["good knight vs bad bishop", "e5 outpost", "kingside attack", "queenside expansion", "piece rerouting", "pawn structure"],
+  "metadata": {
+    "eco": "A90-A95",
+    "opening": "Dutch Defense: Stonewall Variation",
+    "historicalContext": "This exact pawn skeleton — a rigid central wall — is also White's plan in the Stonewall Attack, one file over and with the colors reversed: same structure, same strategic questions, different side of the board."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Dutch Defense family study showed a bargain: kingside space for a slightly weaker king. The Stonewall Dutch takes that bargain to its most extreme, most committal form. Instead of developing flexibly like the Classical system or staying fluid like the Leningrad, Black locks the center rigidly with pawns on d5, e6, f5, and soon c6 — a wall that will not move again for the rest of the game. That wall wins the best square on the board, e4, for a knight, permanently. It also buries the light-squared bishop behind its own pawns for the foreseeable future. This lesson is about whether that trade is worth it, the one real maneuver that keeps the bishop from being dead weight, and the parallel fight for the mirror-image square, e5."
+    }
+  ],
+  "line": [
+    "d4",
+    "f5",
+    "g3",
+    "Nf6",
+    "Bg2",
+    "e6",
+    "Nf3",
+    {
+      "san": "d5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Committing to the wall",
+          "body": "Where the Classical Dutch develops the bishop normally with ...Be7, the Stonewall abandons that plan entirely. d5 begins the rigid pawn structure — a fixed, mutually supporting chain that will not move again in most lines. In exchange for that rigidity, e4 becomes a near-permanent home for a Black knight: no White pawn can safely challenge it there in the near term, and even the one pawn that eventually can (f2-f3) costs White real structural concessions to play.",
+          "concepts": ["pawn structure"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e4" }]
+    },
+    "O-O",
+    {
+      "san": "Bd6",
+      "annotations": [
+        { "type": "commentary", "title": "Aiming at the attack, not the center", "body": "Unlike the Classical Dutch's modest ...Be7, this bishop goes to its most active square, eyeing h2 along the b8-h2 diagonal and preparing to support a direct kingside attack later. It's the dark-squared bishop's job to make up for what the light-squared one is about to give up." }
+      ]
+    },
+    "c4",
+    {
+      "san": "c6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The wall completes",
+          "body": "With c6 added to d5-e6-f5, Black's center is now a genuinely rigid structure — these four pawns are not going anywhere. The bad bishop's fate, and how (or whether) it escapes, becomes the single biggest strategic question of the whole system from here on.",
+          "concepts": ["pawn structure"]
+        }
+      ]
+    },
+    {
+      "san": "Qc2",
+      "annotations": [
+        { "type": "commentary", "body": "White's most natural try: the queen eyes a future central break and adds pressure down the c-file behind the pawn that just advanced." }
+      ]
+    },
+    "O-O",
+    {
+      "san": "b3",
+      "annotations": [
+        { "type": "question", "body": "White prepares a second fianchetto aimed at the center and the long diagonal. Which square is Black about to claim first, and why can it never be won back by force?" }
+      ]
+    },
+    {
+      "san": "Ne4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The payoff for the whole structure",
+          "body": "This is the square the entire pawn wall was built to hand over. Supported by the f5 pawn, this knight is very hard to dislodge — no White pawn threatens it right now, and evicting it later typically costs White real concessions, like loosening the king with f2-f3. Compare this to the Classical Dutch's queen-based kingside plan: here the good piece arrives first, and the attack grows around it.",
+          "concepts": ["e5 outpost", "piece rerouting"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f5", "to": "e4" }]
+    },
+    {
+      "san": "Bb2",
+      "annotations": [
+        { "type": "commentary", "body": "White completes the mirror fianchetto and turns attention to the other key square in this structure: e5. Whoever ends up controlling it — a Black piece arriving to contest it, or a White piece settling there for good — wins the same kind of positional prize Black just claimed on e4." }
+      ]
+    },
+    {
+      "san": "Nd7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Contesting e5, not just supporting e4",
+          "body": "Rather than resolve the tension on e4 immediately, Black brings a second piece toward the kingside — and toward e5 too: Nd7 directly contests the square White's Bb2 was just eyeing, so neither outpost is settled yet. There's also a way to address the bishop problem directly right now instead of building up further; see the variation.",
+          "concepts": ["e5 outpost"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bd7",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The bishop's only real route",
+                "body": "Since e6, f5, and d5 permanently block the light-squared bishop's natural diagonal, its one practical path out is c8-d7-e8, then over the top toward g6 or h5. It's a slow maneuver — often the defining 'extra' plan of the whole Stonewall — but it's the difference between a genuinely bad bishop and a merely inactive one."
+              }
+            ]
+          },
+          "Nbd2",
+          {
+            "san": "Be8",
+            "annotations": [
+              { "type": "commentary", "body": "From here the bishop continues to g6 or h5, finally reaching a diagonal outside its own pawn chain. Three whole moves for one piece — but it turns the position's worst piece into a real one." }
+            ]
+          }
+        ],
+        [
+          {
+            "san": "b6",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The natural-looking idea that changes nothing",
+                "body": "Fianchettoing looks like the standard cure for a bad bishop everywhere else in chess — but here it runs into the exact same wall, immediately. The bishop's new diagonal runs straight into Black's own pawn on c6, one square from home, with d5 blocking it a second time right behind that. Bb7 stares at its own structure instead of the board."
+              }
+            ]
+          },
+          "Nbd2",
+          {
+            "san": "Bb7",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Two tempi for nothing",
+                "body": "The bishop is developed in name only: c6 blocks it at point-blank range, with d5 blocking the same diagonal again just behind it, and unlike other systems' queenside fianchettoes, nothing about this diagonal opens up later on its own. This bishop has no real work until c6 and d5 themselves move or get traded off — the correct route, shown in the other variation here, goes the long way around instead.",
+                "concepts": ["good knight vs bad bishop"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nbd2",
+      "annotations": [
+        { "type": "commentary", "body": "White adds a second attacker to e4 — since no pawn can ever challenge it there, only a trade, or overwhelming force, will do. If White instead pivots toward queenside pressure rather than the center, see the variation." }
+      ],
+      "variations": [
+        [
+          {
+            "san": "a4",
+            "annotations": [
+              {
+                "type": "strategy",
+                "title": "A queenside pawn storm, not a minority attack",
+                "body": "White has the same number of queenside pawns as Black — three each, a4/b3/c4 against a7/b7/c6 — so this isn't the textbook minority attack it might resemble. It's still a real plan: a4 followed by b4-b5 gains space and aims to open lines or fix a weakness on c6, echoing the identical push White faces from the other side of the board in the reversed-colors Stonewall Attack.",
+                "concepts": ["queenside expansion"]
+              }
+            ]
+          },
+          {
+            "san": "a5",
+            "annotations": [
+              { "type": "commentary", "body": "Black can restrain the advance outright with ...a5, accepting a slightly weakened b5 square in exchange for shutting the queenside pawn storm down before it starts." }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Qe7",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The battle lines",
+          "body": "Black completes the piece setup around the e4 knight while the bishop on c8 still waits for its long trip via d7-e8. Both sides' minor pieces are now converging on the same two squares — e4 for Black, e5 for White — and the outcome of that fight, more than any single tactic, will decide who stands better."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three things define the Stonewall Dutch: the pawn structure is a genuine commitment, not a flexible try — once d5 and c6 are played, the center will not change; e4 and e5 are the two squares this whole opening revolves around, one for each side; and the light-squared bishop is a real, lasting problem, not a minor inconvenience — solving it, with the maneuver shown two moves back, matters as much as any tactic on the board.",
+          "concepts": ["e5 outpost", "good knight vs bad bishop"]
+        }
+      ]
+    }
+  ]
+}

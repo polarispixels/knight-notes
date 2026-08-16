@@ -3,20 +3,24 @@
 Living document: current state, deliberate deferrals, and next candidates.
 (Product-level V2 scope lives in DESIGN_SPEC.md "Deferred features".)
 
-## Current state (2026-08-16)
-- 89 bundled studies across 7 categories: Famous Games G001–G022,
-  Openings O001–O012, Gambits GB001–GB007, Traps TR001–TR013,
+## Current state (2026-08-16, post openings-library)
+- 239 bundled studies across 7 categories: Famous Games G001–G022,
+  Openings O001–O144, Gambits GB001–GB025, Traps TR001–TR013,
   Tactics/Patterns TA001–TA013, Endgames E001–E012, Concepts C001–C010.
+- Opening Catalog (src/data/openings-catalog.json): ~225 curated entries,
+  ~170 standalone lessons, branch-only and honestly-excluded tiers, 290
+  aliases; /openings browser with alias search and side filtering; catalog
+  gate replays every canonical move order.
+- Bundled studies lazy-load: build-time summary projection
+  (virtual:study-summaries) + per-study chunks; main bundle ~262KB.
 - Live at https://polarispixels.github.io/knight-notes/ (GitHub Pages,
   deploy gated by the full test suite on push to main). Docs at /docs/.
-- 219 automated tests; content gate replays every move of every study.
+- 600+ automated tests; content gate replays every move of every study.
 
 ## Engineering backlog (deliberate, not forgotten)
-- **Lazy-load bundled content**: all studies ship inside the JS bundle
-  (~650KB pre-gzip, chunk-size warning at build). Move to dynamic
-  import.meta.glob (non-eager) + per-study fetch before the library
-  doubles again. The bundledStudyRepository seam is where this lands.
 - **PWA/offline**: natural V1.1 (app is already local-first); ~small task.
+- Openings browser refinements: collapse/expand for large families,
+  tier badges, and linking branch-only rows to the exact in-lesson branch.
 - Code-review deferrals (2026-08-15): seed.ts/toStudy.ts builder
   duplication (~40 lines, both tested — unify only with a reason);
   sessionStore recompute/localStorage micro-perf; ChessBoard unguarded-FEN

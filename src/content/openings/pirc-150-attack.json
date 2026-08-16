@@ -1,0 +1,188 @@
+{
+  "id": "pirc-150-attack",
+  "catalogCode": "O072",
+  "focus": "white",
+  "title": "Pirc Defense: 150 Attack",
+  "subtitle": "One simple plan for both sides of the board",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "White skips the deep theory of the Austrian Attack and reaches for a setup any club player can execute from memory: Be3, Qd2, and f3, followed by castling queenside and marching the h-pawn. It trades some of the Austrian's theoretical bite for something just as dangerous in practice — a plan that plays itself.",
+  "tags": ["Pirc Defense", "150 Attack", "Be3 System vs Pirc", "opposite-side castling", "kingside pawn storm"],
+  "concepts": ["opposite-side castling", "pawn storm", "attacking plan", "piece development", "king safety"],
+  "metadata": {
+    "eco": "B07",
+    "opening": "Pirc Defense: 150 Attack",
+    "historicalContext": "Named, according to club lore, for its popularity among English players graded around 150 on the old BCF scale — a system valued less for theoretical depth than for how reliably it works even when played from general principles rather than memorized lines."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Pirc Defense family study covered White's quiet Classical setup, and the Austrian Attack lesson covers the sharpest theoretical test. The 150 Attack sits between them in spirit but not in danger: it sidesteps most of the Austrian's deep theory in exchange for a plan simple enough to barely need memorizing — Be3, Qd2, f3, long castling, then h4-h5. Both sides know exactly what is coming; the question is who gets there first."
+    }
+  ],
+  "line": [
+    "e4",
+    "d6",
+    "d4",
+    "Nf6",
+    "Nc3",
+    "g6",
+    {
+      "san": "Be3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The whole plan in one move",
+          "body": "Be3, followed by Qd2 and f3, sets up two things at once: a safe home for the queen's bishop before Black can harass it, and a favorable recapture if the bishop ever gets traded on h6. Unlike the Austrian Attack's immediate f4, this does not commit to anything yet — it is preparation, not a claim on the center.",
+          "concepts": ["attacking plan"]
+        }
+      ]
+    },
+    "Bg7",
+    {
+      "san": "Qd2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Connects to the bishop on e3 (ready to recapture on h6) and prepares long castling — the queen does not belong on d1 once the king leaves that side of the board.",
+          "concepts": ["attacking plan"]
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "f3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The move that names the setup",
+          "body": "f3 rules out ...Ng4, a jump that could otherwise harass the e3-bishop, and it prepares a future g4 without weakening e4 first. It is a small, unglamorous move that makes everything after it work.",
+          "concepts": ["attacking plan"]
+        }
+      ]
+    },
+    {
+      "san": "c6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Preparing counterplay",
+          "body": "Black does not try to stop the coming storm directly — there is no good way to. Instead, ...c6 prepares a queenside pawn storm of Black's own, ...b5 and ...b4, or a central break with ...d5, racing rather than defending. In opposite-side-castling positions, pure defense usually loses; both sides attack.",
+          "concepts": ["opposite-side castling"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nc6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Developing the queenside knight immediately, rather than preparing ...b5, is the other common reply — though it lets White's coming attack arrive with less counterplay to race against, since Black has not yet started expanding."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Bh6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "strategy",
+          "title": "Removing the defender",
+          "body": "White trades off Black's fianchettoed bishop — the piece that would otherwise help defend the king once the pawns start advancing. Losing the dark-squared bishop is a real, permanent weakening of Black's king position, not just an even trade."
+        }
+      ]
+    },
+    {
+      "san": "Bxh6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Essentially forced — declining the trade leaves White simply a tempo ahead with a strong bishop sitting on h6."
+        }
+      ]
+    },
+    {
+      "san": "Qxh6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The queen recaptures actively, already eyeing the kingside dark squares Black just gave up. It is not threatening anything concrete yet, but it is perfectly placed for when the pawns arrive.",
+          "concepts": ["attacking plan"]
+        }
+      ]
+    },
+    {
+      "san": "b5",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Both sides have shown their hand now — White's queen is already on the kingside, and Black is racing on the other wing. Whose attack arrives first, and does it matter who started?"
+        }
+      ]
+    },
+    {
+      "san": "O-O-O",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Committing to the race",
+          "body": "Castling queenside puts White's king on the same side as Black's attack — a real risk — but it is necessary to unleash the h-pawn without leaving the king stuck in the center. From here it is a straightforward count of tempo: h4-h5-h6 (or hxg6) against Black's own ...b4-...a5 or a direct piece attack on c3. Whoever breaks through first usually wins; whoever stops to defend usually loses.",
+          "concepts": ["opposite-side castling", "king safety"]
+        }
+      ]
+    },
+    {
+      "san": "b4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black keeps racing rather than developing — exactly the right instinct once both kings have committed to opposite wings."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nbd7",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "Too slow for a race",
+                "body": "A normal-looking developing move, but in an opposite-side-castling position tempo is everything. Every move Black spends improving a piece is a move White spends getting closer to h5-h6 and cracking open the king. Racing means racing — not developing 'normally.'"
+              }
+            ]
+          },
+          "h4"
+        ]
+      ]
+    },
+    {
+      "san": "Nce2",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Retreat with a plan",
+          "body": "The knight steps out of the pawn's way without losing time — e2 keeps it flexible, ready to reroute toward g3 (supporting h5) depending on how the race develops. The whole point of the 150 Attack's simplicity is visible right here: even a 'forced' retreat still serves the plan."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons from this setup: removing a defender (the dark-squared bishop) before attacking is often worth more than the tempo it costs; in opposite-side-castling positions, the fastest attack usually wins, so slow defensive or developing moves are frequently worse than joining the race; and a simple plan executed quickly beats a complicated one played slowly — that is the entire appeal of the 150 Attack.",
+          "concepts": ["opposite-side castling", "attacking plan", "king safety"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "id": "english-botvinnik-system",
+  "catalogCode": "O136",
+  "focus": "white",
+  "title": "The Botvinnik System",
+  "subtitle": "A Closed Sicilian, mirrored and made permanent",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "The Botvinnik System takes the English's reversed-Sicilian idea and makes it total: White builds the exact pawn triangle Black builds in the real Closed Sicilian, then commits the whole game to one question — whose flank pawn storm gets there first. Named for Botvinnik's own systematic handling of the structure, this lesson shows why a single knight square, e2 instead of f3, quietly decides whether the plan even works.",
+  "tags": ["Botvinnik System", "Reversed Closed Sicilian", "English Opening", "c4 openings", "Closed Sicilian"],
+  "concepts": [
+    "kingside expansion",
+    "fixed pawn center",
+    "Nd5 outpost",
+    "the f4 break",
+    "reversed Closed Sicilian plans",
+    "piece maneuvering"
+  ],
+  "metadata": {
+    "eco": "A25-A26",
+    "opening": "English Opening: Botvinnik System (Reversed Closed Sicilian)"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Reversed Sicilian study covers the whole 1.c4 e5 2.Nc3 complex from a bird's-eye view. The Botvinnik System is one specific branch of it treated as a complete, whole-game plan rather than a single move-order trick — White builds the exact pawn triangle c4/d3/e4 that Black builds in the real Closed Sicilian, and commits to a single question for the rest of the game: whose flank pawn storm, f4 for White or ...f5 for Black, arrives with more force?"
+    },
+    {
+      "type": "historical",
+      "title": "Botvinnik's system",
+      "body": "The plan is named for Mikhail Botvinnik's deep, systematic handling of this exact structure, most notably in his game against Lajos Portisch at Monte Carlo, 1968, which treated the position not as a series of individual moves but as a single strategic plan repeated with increasing precision."
+    }
+  ],
+  "line": [
+    "c4",
+    "e5",
+    "Nc3",
+    "Nc6",
+    "g3",
+    "g6",
+    "Bg2",
+    "Bg7",
+    {
+      "san": "e4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The Closed Sicilian, reversed",
+          "body": "This second central pawn is what makes the Botvinnik System its own opening rather than just 'the English with g3.' White now has the exact c4-d3-e4 triangle that Black builds against 2.Nc3 in the real Closed Sicilian — same shape, opposite color, and, as always in this family, an extra tempo. Everything you know about the Closed Sicilian's plans — g3/Bg2, f4, an outpost on d5 — transfers directly."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e4" }]
+    },
+    "d6",
+    {
+      "san": "Nge2",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The knight goes to e2, not f3",
+          "body": "This is the move that separates the Botvinnik System from a generic fianchetto setup: developing to e2 instead of f3 leaves the f-pawn completely free to advance to f4 later, which is the whole point of the plan. Nf3 would be a perfectly normal developing move in most openings; here it would quietly give away the reason the opening exists (see the variation)."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nf3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "A different opening, not a mistake",
+                "body": "Nf3 is a perfectly sound developing move — it just isn't the Botvinnik System anymore. With the knight on f3, the f-pawn is blocked, and White's kingside expansion has to wait for the knight to move again or reroute; the game heads toward calmer King's English structures instead."
+              }
+            ]
+          },
+          "Nf6"
+        ]
+      ]
+    },
+    "Nge7",
+    "O-O",
+    "O-O",
+    {
+      "san": "d3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The triangle completes. Nothing is attacked and nothing is weak — White has simply finished setting the table before touching anything else."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "d4",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The tempting break that isn't ready",
+                "body": "Striking the center immediately looks like it wins a tempo, but the knight on e7 — not f6 — leaves the long diagonal completely open behind it."
+              }
+            ]
+          },
+          "exd4",
+          {
+            "san": "Qxd4",
+            "classification": "blunder",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "Walking onto the diagonal",
+                "body": "With no knight on f6 to block it, Black's fianchettoed bishop has a clear shot straight down the long diagonal onto d4. The queen looks centralized; it is actually hanging."
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "g7", "to": "d4" }]
+          },
+          {
+            "san": "Bxd4",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The cost of skipping d3",
+                "body": "Black wins the queen for a bishop — White's knight on e2 recaptures on d4 next move, so the final ledger is queen for bishop and pawn, a decisive loss for White even after the recapture. This is exactly why the calm d3 is correct first: it keeps the center flexible without ever handing the g7-bishop a target to shoot at."
+              }
+            ]
+          },
+          {
+            "san": "Nxd4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The only recapture, and cold comfort — White is still down a queen for a bishop and a pawn, a lost position rather than a lesson in equal material."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "f5",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The point of the whole setup",
+          "body": "Every prior move existed to make this possible: king safely castled, center fixed and untouchable, knight out of the f-pawn's way. Black begins the mirror-image plan first, exactly as White would in the real Closed Sicilian."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f7", "to": "f5" }]
+    },
+    {
+      "san": "Nd5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The Nd5 outpost",
+          "body": "With pawns on c4 and e4 both guarding it, d5 cannot be challenged by any black pawn — a genuine, permanent outpost. Trading it off is close to forced, and every trade on d5 helps White: it opens lines toward Black's king or, after exd5, hands White a spearhead deep in Black's position."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }]
+    },
+    "Nxd5",
+    {
+      "san": "exd5",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "body": "The recapture reshapes the whole board: White's central pawn now sits on d5, deep in Black's position, cramping the remaining knight and the whole queenside. This is the territory 'exchange sac on d5 or c3' ideas come from — in cramped positions like this, Black sometimes even considers giving up the exchange on d5 or c3 later just to relieve the bind, a sign of how serious the cramp can become."
+        }
+      ]
+    },
+    "Ne7",
+    {
+      "san": "f4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Both flank storms in motion",
+          "body": "White answers Black's f5 with the mirror-image break. The position is now a genuine race: whoever's pawn storm, f4-f5 for White or an eventual ...f4 for Black, opens lines against the enemy king first tends to win the middlegame. White's d5 pawn is a long-term structural asset regardless of how the race goes; Black's compensation is piece activity and, if the f-file opens toward White's own king, real attacking chances."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a plan hides inside a single move choice long before it becomes visible — Nge2 instead of Nf3 was the whole opening in miniature; a permanent outpost is worth creating even at the cost of a piece trade, because what's left behind (the pawn on d5) outlasts the piece that was traded for it; and mirrored structures don't guarantee mirrored results — small differences in which knight went where decide who the race actually favors."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f2", "to": "f4" }]
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "id": "queens-gambit-accepted",
+  "catalogCode": "O082",
+  "focus": "black",
+  "title": "The Queen's Gambit Accepted",
+  "subtitle": "Taking the pawn — and giving it back on your own terms",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "Black takes the free-looking c4 pawn and, in almost every serious line, returns it a few moves later — the real fight was never about keeping material, it was about who finishes development first. Understanding exactly when and how to give the pawn back, and why holding onto it too long backfires, is the whole content of this defense.",
+  "tags": ["Queen's Gambit Accepted", "QGA", "Queen's Gambit family", "d4 openings", "Central Variation", "isolated queen's pawn"],
+  "concepts": ["the isolated queen's pawn", "tempo", "development", "queenside expansion", "central tension"],
+  "metadata": {
+    "eco": "D20-D29",
+    "opening": "Queen's Gambit Accepted"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study, The Queen's Gambit, already showed the simplest way White recovers the pawn (Qa4+, picking it straight back up). Here the fight goes deeper: the real main-line theory of accepting, the tempo battle over who develops faster once the center is gone, and the small move-order choices that shift a tempo from one side to the other. Watch for one theme throughout: in the QGA, time matters more than material, almost every single move."
+    }
+  ],
+  "line": [
+    "d4",
+    "d5",
+    {
+      "san": "c4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The gambit offer — the same one the family study covers. This lesson picks up from the moment Black decides to take it.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "dxc4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Accepting is not greed",
+          "body": "This pawn is genuinely, safely won for the moment. The question the rest of this lesson answers is not 'can Black hold it' — mostly, no, not for long — but 'what does Black get in exchange for giving it back,' and the honest answer is: a full tempo of development and a freer game than the Queen's Gambit Declined ever offers.",
+          "concepts": ["tempo"]
+        }
+      ]
+    },
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops rather than rushing to recapture — there is no hurry. Compare this to White's other main try, which grabs the center immediately instead (see the variation).",
+          "concepts": ["development"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "e4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Central Variation",
+                "body": "Instead of the quieter Nf3, White grabs the full classical center at once — more committal, more space, but a move less developed than the main line. Black strikes back in the center immediately rather than simply defending."
+              }
+            ]
+          },
+          {
+            "san": "Nf6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black attacks e4 without delay, refusing to let White simply consolidate the extra space."
+              }
+            ]
+          },
+          {
+            "san": "e5",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "Recovering the pawn with tempo",
+                "body": "The advance gains a move by attacking the knight, and after it relocates, White's bishop simply walks to c4 and picks the pawn back up — the same recovery mechanism as the main line, reached by a sharper, more space-grabbing route.",
+                "concepts": ["tempo"]
+              }
+            ]
+          },
+          "Nd5",
+          "Bxc4"
+        ]
+      ]
+    },
+    "Nf6",
+    "e3",
+    "e6",
+    {
+      "san": "Bxc4",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "body": "The pawn returns, right on schedule. Material is level again by move five — everything that follows is about the resulting positions, not about who 'won' the opening.",
+          "concepts": ["tempo"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "c4" }]
+    },
+    {
+      "san": "c5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black strikes back at White's center immediately rather than waiting — a hallmark of the QGA's active style. This is exactly the kind of counterplay that pays for the tempo Black spent capturing on c4 in the first place.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "a6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black could develop immediately with ...Be7 or ...Nbd7 instead. Why spend a move on a quiet pawn push first?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Preparing the expansion",
+          "body": "This move supports the coming ...b5 in advance, so the whole queenside plan unfolds without a single wasted tempo. Playing ...b5 immediately, without this preparation, is also fully sound — see the variation — it just costs White's bishop an extra retreat instead.",
+          "concepts": ["tempo"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "b5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "A quicker move order",
+                "body": "Black can also grab this space immediately, without the prophylactic ...a6 first. This is not a mistake — the pawn directly attacks the bishop still sitting on c4 since move five, so it simply forces the retreat a move earlier than the main line does."
+              }
+            ]
+          },
+          {
+            "san": "Bd3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The bishop steps aside to another useful diagonal. Play can transpose back toward the main line with a later ...a6 and ...Bb7, or continue independently — either way, no material changes hands, only the move order."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Qe2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A flexible, useful move — it eyes the e-file, keeps an eye on tricks down the a6-f1 diagonal, and prepares Rd1. Nothing forcing, just good housekeeping before the position opens up.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    {
+      "san": "b5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Now this is completely sound — a6 already guards it. Black gains real queenside space and, more importantly, prepares to fianchetto the bishop to its best diagonal.",
+          "concepts": ["queenside expansion"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b5", "to": "b3" }]
+    },
+    {
+      "san": "Bb3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop retreats because ...b5 is already attacking it directly, and b3 keeps its own diagonal toward f7 while stepping out of reach — the same idea the Ruy Lopez's bishop relies on for most of that opening.",
+          "concepts": ["development"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b3", "to": "f7" }]
+    },
+    {
+      "san": "Bb7",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "body": "The point of the whole ...a6/...b5 plan: an actively placed bishop on the long diagonal, aimed at White's king. This is what Black bought with the tempo spent capturing on c4 back on move two.",
+          "concepts": ["queenside expansion"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b7", "to": "g2" }]
+    },
+    "dxc5",
+    "Bxc5",
+    "Nc3",
+    {
+      "san": "O-O",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The pawn is long gone, the fight continues",
+          "body": "The extra c4 pawn has been a memory since move five. What remains is the position's real content: Black's queenside pawns and the b7-bishop provide active counterplay, while White's slightly freer development and the b3-bishop's diagonal toward f7 are fair compensation for letting Black expand. Neither side is much better — this is a fight about who converts small advantages first.",
+          "concepts": ["development", "queenside expansion"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: accepting a gambit pawn is a loan, not a gift — every serious QGA line returns it, and the real fight is over who profits from the exchange of time for material; move order shifts tempo, not material — 6...a6 before ...b5 and 6...b5 immediately reach similar territory by different routes, as the variation showed, and noticing which small move-order choices actually matter (unlike this one) is a real skill; and accepting the gambit is not passive — Black's ...b5 and ...Bb7 create real, active counterplay, echoing what the family study's Qa4+ line only hinted at.",
+          "concepts": ["tempo", "the isolated queen's pawn"]
+        }
+      ]
+    }
+  ]
+}

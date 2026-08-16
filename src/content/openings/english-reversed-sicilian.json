@@ -1,0 +1,182 @@
+{
+  "id": "english-reversed-sicilian",
+  "catalogCode": "O134",
+  "title": "The Reversed Sicilian",
+  "subtitle": "The King's English complex — Four Knights, Botvinnik, and the Reversed Dragon under one roof",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "The Reversed Sicilian is the umbrella for every 1.c4 e5 English line, and its central question is disarmingly simple: does moving first in a mirrored race actually decide who wins it? This lesson follows the Reversed Dragon's patient move order, shows exactly why a natural-looking queen recapture can lose on the spot, and plays the a3/b4 vs f5/f4 pawn race all the way to a real position instead of just naming it.",
+  "tags": ["Reversed Sicilian", "King's English", "King's English Opening", "English Opening", "c4 openings", "Reversed Dragon"],
+  "concepts": [
+    "extra-tempo strategy",
+    "d5 outpost",
+    "reversed Sicilian structures",
+    "kingside versus queenside races",
+    "queenside expansion",
+    "transpositions"
+  ],
+  "metadata": {
+    "eco": "A20-A29",
+    "opening": "English Opening: King's English (1...e5)"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study introduced the Reversed Sicilian as one branch of the English's 1...e5 replies and stopped once the a3-b4 plan was identified. This lesson treats it as its own opening complex — the umbrella covering the Four Knights, Botvinnik, and Reversed Dragon subdivisions — and asks the real question the extra tempo raises: in a race between two mirrored pawn-storm plans, does moving first actually decide the winner, or just choose which side gets to ask the first question?"
+    }
+  ],
+  "line": [
+    "c4",
+    "e5",
+    "Nc3",
+    "Nf6",
+    {
+      "san": "Nf3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Which move order — and why it matters",
+          "body": "After 2...Nf6, White faces a real choice that defines which subdivision the game becomes. Nf3 first (played here) keeps the door open toward the Four Knights structures (4.e3 Bb4, a completely different maneuvering game); playing g3 immediately instead, without inserting Nf3 or Nc6 yet, heads straight for the patient Reversed Dragon move order shown in the variation. Move order is content in this opening, not formality."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "g3",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The Reversed Dragon",
+                "body": "Delaying Nf3 and going straight for the fianchetto is the Reversed Dragon — named for its mirror of the Sicilian Dragon's g6/Bg7 setup, with colors reversed and an extra tempo for White. The point of the move order: Black hasn't committed ...Nc6 yet, so after the coming ...d5 exchange the knight can still choose c6, d7, or stay flexible, rather than being steered there by move 3 as in the main line."
+              }
+            ]
+          },
+          "d5",
+          "cxd5",
+          "Nxd5",
+          "Bg2",
+          {
+            "san": "Nb6",
+            "classification": "theory",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Converging again",
+                "body": "Even without ...Nc6 anywhere in sight, this looks remarkably like the main line's tabiya minus one pair of knight moves — White can still play Nf3 and Nc6 may or may not follow. The Reversed Dragon isn't a different destination so much as a slower, more patient route to a similar one."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Nc6",
+    "g3",
+    "d5",
+    "cxd5",
+    {
+      "san": "Nxd5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The natural recapture — and the only reasonable one. Recapturing with the queen instead runs straight into a piece that's already developed and already aims at this exact square (see the variation)."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }],
+      "variations": [
+        [
+          {
+            "san": "Qxd5",
+            "classification": "blunder",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Recapturing into an already-developed attacker",
+                "body": "White's knight has sat on c3 since move 2, and it already attacks d5. The queen simply walks onto a square a minor piece is watching — a reminder to check what already bears on a recapture square before deciding which piece takes."
+              }
+            ]
+          },
+          {
+            "san": "Nxd5",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The point",
+                "body": "White simply takes the queen for a knight. There is no follow-up to calculate — the queen recapture loses on the spot."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Bg2",
+    "Nb6",
+    "O-O",
+    {
+      "san": "Be7",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The same tabiya, a different road",
+          "body": "This is the exact position The English Opening study reached — but that lesson arrived here by playing g3 before developing the knights, while this lesson delayed g3 until after Nf3 and Nc6. Same pieces, same squares, same plans. That study stopped its recap right here; this lesson keeps going to show what the a3/Rb1 plan actually looks like in motion."
+        }
+      ]
+    },
+    "d3",
+    "O-O",
+    {
+      "san": "a3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Preparing queenside expansion exactly as before — but this time the plan doesn't just get named, it gets played."
+        }
+      ]
+    },
+    {
+      "san": "Be6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Completes development and eyes a2 along the long diagonal, while also preparing ...Qd7 to connect the rooks before either pawn storm begins in earnest."
+        }
+      ]
+    },
+    {
+      "san": "Rb1",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Loading the plan",
+          "body": "Rb1 gets the rook off the long diagonal — out of its own bishop's way — and behind the coming b4 push in one move. This is the concrete first step of the plan the family study only named."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b2", "to": "b4" }]
+    },
+    {
+      "san": "f5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The race is on, but it isn't symmetric",
+          "body": "Both sides now run separate plans on separate wings, but they aren't equivalent in kind. White's b4-b5 expands space and creates targets on the queenside — a positional storm, not an attack on Black's king, since Black has already castled short. Black's f5-f4, by contrast, advances pawns directly in front of White's own castled king: a genuine kingside attack, potentially faster and more dangerous, but one that also loosens the shelter around Black's own king in the process."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: identical positions can be reached by different move orders, and recognizing the transposition saves study time; a recapture must be checked against every piece already bearing on that square, not just the obvious one; and a named plan (a3-b4-b5) is only real once it's actually played — naming it is not playing it."
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "g1" },
+        { "type": "arrow", "from": "f5", "to": "f4" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "id": "queens-gambit-declined-exchange",
+  "catalogCode": "O087",
+  "focus": "black",
+  "title": "Queen's Gambit Declined: Exchange Variation",
+  "subtitle": "The Carlsbad structure and the minority attack",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "White removes the central tension altogether, trading on d5 to leave a symmetrical pawn skeleton — the Carlsbad structure — that produces the single most studied middlegame plan in classical chess: the queenside minority attack against Black's central and kingside counterplay. Nothing here is forced or tricky; it is the position where understanding pawn structure matters more than calculating variations, which is exactly why it has trained generations of players.",
+  "tags": [
+    "Exchange Variation",
+    "QGD Exchange Variation",
+    "Carlsbad Variation",
+    "Queen's Gambit Declined",
+    "Queen's Gambit",
+    "QGD",
+    "Carlsbad structure",
+    "minority attack"
+  ],
+  "concepts": [
+    "the Carlsbad structure",
+    "the minority attack",
+    "piece regrouping",
+    "pawn breaks",
+    "outposts",
+    "long-term planning"
+  ],
+  "metadata": {
+    "eco": "D35-D36",
+    "opening": "Queen's Gambit Declined: Exchange Variation",
+    "historicalContext": "Named for the pawn structure that dominated the 1907 and 1911 Carlsbad tournaments, where the minority attack plan was worked out in detail. It became a Botvinnik-era staple and remains the textbook home of minority-attack technique."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Queen's Gambit Declined family study showed Black holding central tension and releasing it on a favorable tempo. The Exchange Variation removes that tension by force: White simply trades on d5 early, before Black has to make any hard decisions. What's left is a clean, symmetrical pawn structure with asymmetrical plans — White presses on the queenside with the minority attack, fewer pawns than Black has there, using b4-b5 to create a weakness rather than to advance; Black presses in the center and on the kingside, the wing where White actually holds the extra pawn, with regrouped pieces rather than a pawn storm. Learning to read this structure is learning to plan without calculating."
+    }
+  ],
+  "line": [
+    "d4",
+    "d5",
+    "c4",
+    "e6",
+    "Nc3",
+    "Nf6",
+    {
+      "san": "cxd5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Trading the tension for a structure",
+          "body": "Instead of maintaining the pin-and-pressure game of the Orthodox lines, White simply resolves the center. This isn't a concession — it's a deliberate choice to play a structure White understands, with a concrete long-term plan already built in.",
+          "concepts": ["the Carlsbad structure"]
+        }
+      ]
+    },
+    {
+      "san": "exd5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The Carlsbad pawn skeleton",
+          "body": "Black recaptures toward the center, and the defining structure of this whole variation is now on the board: pawns on d5 for Black, d4 for White, with the c- and e-files each missing a pawn on one side. Both sides have a clear pawn majority — White's is on the kingside (four pawns to three, once the wings are counted, since Black's e-pawn is the one that's gone), Black's is on the queenside (three pawns to two, since White's c-pawn is the one that's gone). That imbalance, not any tactic, is what the rest of the game is about.",
+          "concepts": ["the Carlsbad structure"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "d5" },
+        { "type": "square", "square": "d4" }
+      ]
+    },
+    "Bg5",
+    "Be7",
+    "e3",
+    "O-O",
+    {
+      "san": "Bd3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop takes the same diagonal it would in most QGD lines, but here it has a specific extra job: once the position opens, it will support an e3–e4 central break rather than only aiming at f7.",
+          "concepts": ["piece regrouping"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nb5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "An outpost trick before ...c6 closes the door",
+                "body": "Because Black hasn't played ...c6 yet, this knight jump is a genuine nuisance: it eyes c7 and the d6 square, and Black must spend a move dealing with it right now rather than later on Black's own schedule."
+              }
+            ]
+          },
+          {
+            "san": "a6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The simplest answer — kick the knight back and let the position return to the main plan. White has provoked a small extra weakening of Black's queenside light squares for the cost of a tempo, but nothing decisive."
+              }
+            ]
+          },
+          "Nc3"
+        ]
+      ]
+    },
+    {
+      "san": "c6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black reinforces d5 a second time and, more importantly here, prepares to answer a future b4–b5 with ...c6 already in place rather than as a rushed reaction.",
+          "concepts": ["the Carlsbad structure"]
+        }
+      ]
+    },
+    "Qc2",
+    {
+      "san": "Re8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A useful waiting move that eyes the semi-open e-file White may create with e3–e4, and clears f8 for a knight regrouping to come.",
+          "concepts": ["piece regrouping"]
+        }
+      ]
+    },
+    "Nf3",
+    {
+      "san": "Nbd7",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black finishes development. This knight has an unusual, well-known future ahead of it: not d7 forever, but a hop to f8 and on to e6 or g6, redeploying toward the center and kingside where Black's majority lives.",
+          "concepts": ["piece regrouping", "outposts"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Ne4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The central knight, played at once",
+                "body": "Instead of the patient f8–e6/g6 regrouping, Black can plant a knight on e4 immediately. White will usually trade it off with Nxe4 dxe4, leaving Black with an advanced e4 pawn instead of the calm Carlsbad skeleton — more committal and double-edged than the quiet maneuvering plan, since that pawn can become either a spearhead or a long-term target depending on how the rest of the position develops."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "O-O",
+    {
+      "san": "Nf8",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The knight tour that defines Black's plan",
+          "body": "This looks like a retreat but is the standard maneuver: from f8 the knight continues to e6 (eyeing d4 and the g5 outpost) or g6 (eyeing f4 and h4), redeploying away from a queenside where it has no future and toward the wing where Black's extra pawn actually lives. Regrouping like this, rather than a single dramatic move, is how the side with no immediate pawn break makes progress.",
+          "concepts": ["piece regrouping", "outposts"]
+        }
+      ]
+    },
+    {
+      "san": "Rab1",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Both sides have finished normal development. White's last rook heads to b1 instead of joining the center. What is it preparing?"
+        },
+        {
+          "type": "critical-position",
+          "title": "The minority attack, set up",
+          "body": "This is the move that announces White's plan concretely: b2–b4–b5, pushing the queenside minority (a2 and b2) against Black's majority (a7, b7, c6) to create a weakness — a backward c-pawn or an isolated d-pawn — that White's pieces can attack for the rest of the game. It costs no material and doesn't need to be 'sound' in a tactical sense; it just needs time, which the position's symmetry grants. The full mechanics of how the b4–b5 lever creates and exploits that weakness are the subject of The Minority Attack — this position is its home tabiya. Black's counter-plan mirrors it: use the extra kingside pawn and the regrouped knight to generate play in the center or against White's king before the queenside weakness becomes fatal.",
+          "concepts": ["the minority attack", "pawn breaks"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: trading off central tension isn't passive — it can hand you a structure with a plan already attached; pawn majorities point to where each side should attack, even when no pawn has moved there yet; and a piece with no good square (this Nd7) is improved by patient regrouping (f8–e6/g6), not by staying put or trading itself off in frustration.",
+          "concepts": ["the Carlsbad structure", "the minority attack", "piece regrouping"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "b2", "to": "b5" },
+        { "type": "square", "square": "c6" }
+      ]
+    }
+  ]
+}

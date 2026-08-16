@@ -1,0 +1,202 @@
+{
+  "id": "traxler-counterattack",
+  "catalogCode": "GB010",
+  "focus": "black",
+  "title": "Traxler Counterattack",
+  "subtitle": "Two Knights Defense — the fork Black refuses to answer",
+  "type": "gambit",
+  "difficulty": "advanced",
+  "summary": "White forks the queen and rook with a knight sacrifice on f7 -- and Black ignores it completely, counter-sacrificing a bishop on f2 to drag White's own king into the open first. This is one of the most speculative lines in mainstream opening theory: genuinely playable as a practical weapon, but never a proven forced win, and this lesson says so plainly.",
+  "tags": [
+    "Traxler Counterattack",
+    "Wilkes-Barre Variation",
+    "Two Knights Defense",
+    "Italian Game",
+    "Fried Liver Attack",
+    "gambit",
+    "e4 openings"
+  ],
+  "concepts": [
+    "counterattack",
+    "king safety",
+    "sacrifice",
+    "calculation",
+    "initiative",
+    "gambit play"
+  ],
+  "metadata": {
+    "eco": "C57",
+    "opening": "Two Knights Defense: Traxler Counterattack",
+    "historicalContext": "Named for the Czech player Karel Traxler, who analyzed 4...Bc5 in the 1890s. It is also called the Wilkes-Barre Variation after a group of American correspondence players from Wilkes-Barre, Pennsylvania who independently revived and analyzed it in the mid-20th century."
+  },
+  "rootAnnotations": [
+    {
+      "type": "strategy",
+      "title": "A counter-sacrifice, not a defense",
+      "body": "In the ordinary Two Knights Defense, Black answers 4.Ng5's threat on f7 with 4...d5, defending the center directly. The Traxler does something stranger: it leaves f7 hanging and counterattacks White's own weak point, f2, instead. Nothing is sacrificed on move 4 -- Bc5 is a completely normal-looking developing move. The real gambit arrives one move later, and this lesson treats it with the honesty it deserves: this is speculative chess, not a hidden forced win."
+    },
+    {
+      "type": "warning",
+      "title": "Read this before you play it",
+      "body": "If Black had instead met 4.Ng5 the normal way and then recaptured on d5 with the wrong piece, White would have the exact same kind of shot from the other side of the board: the trap study The Fried Liver Attack. The Traxler's whole personality is refusing to let that fight happen at all -- it counterattacks before White's plan even gets started."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    "Nf3",
+    "Nc6",
+    "Bc4",
+    "Nf6",
+    {
+      "san": "Ng5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White attacks f7 a second time. The normal replies here defend the pawn or the center. Black's next move does neither."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "f7" }, { "type": "arrow", "from": "g5", "to": "f7" }]
+    },
+    {
+      "san": "Bc5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Ignoring the threat entirely",
+          "body": "Rather than defend f7 with 4...d5, Black develops toward the symmetric weak point in White's own camp -- f2 is defended only by the king, exactly like f7. Nothing has been given up yet; this is a fully normal developing move that happens to set a trap of its own.",
+          "concepts": ["counterattack"]
+        }
+      ]
+    },
+    {
+      "san": "Nxf7",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The knight forks the queen on d8 and the rook on h8, and nothing defends it. Is White simply winning material here -- the same way the Fried Liver Attack does against a careless recapture?"
+        }
+      ],
+      "visual": [{ "type": "square", "square": "f7" }],
+      "variations": [
+        [
+          {
+            "san": "Nf3",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "strategy",
+                "title": "Declining the whole fight",
+                "body": "White can simply retreat instead of grabbing anything. Count the tempo: the knight has gone f3-g5-f3, back where it started, while Black has spent every move developing. Declining costs White a real concession -- a comfortable, slightly favorable position for Black with no risk at all, in exchange for never testing whether the complications actually favored White."
+              }
+            ]
+          },
+          "d6"
+        ],
+        [
+          {
+            "san": "Bxf7+",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "White's other critical try",
+                "body": "Trading the bishop for the pawn with check is a genuine independent branch, similar in spirit to 5.Nxf7 but reached through a different piece. Black's thematic reply keeps the king centralized rather than simply recapturing -- its own deep body of theory, outside the scope of this lesson."
+              }
+            ]
+          },
+          "Ke7"
+        ]
+      ]
+    },
+    {
+      "san": "Bxf2+",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The answer: no",
+          "body": "Black doesn't save the queen or the rook at all. The fork becomes irrelevant because a bigger threat lands first -- this check drags the White king into the open before it has castled. This is the cost side of the gambit: Black is about to be down real material, betting everything on the king hunt that follows.",
+          "concepts": ["sacrifice"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "f2" }]
+    },
+    {
+      "san": "Kxf2",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The most natural way to answer check",
+          "body": "Taking the bishop is the most common reply, since it wins back material while dealing with the check. It is not forced, though: Ke2 and Kf1 both escape the check just as legally, sidestepping the capture entirely. Each leads to its own independent branch of theory, not covered here."
+        }
+      ]
+    },
+    {
+      "san": "Ng4+",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The pure version of the sacrifice",
+          "body": "Count the material: Black is down a full bishop for nothing but the initiative and a White king stuck in the open on move 6. No pawns have been won back to soften the deficit -- this is about as unambiguous as a sacrifice for attack gets. Everything now depends on whether the attack is actually strong enough, which is exactly the question theory has argued over for well over a century.",
+          "concepts": ["initiative", "calculation"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nxe4+",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "A more materialistic relative",
+                "body": "Instead of Ng4+, Black can pick up the e4-pawn with check first, trimming the deficit to a bishop for a pawn rather than a bishop for nothing. Slightly less pure as a sacrifice, slightly less demanding on the follow-up -- a real, independently analyzed branch of the Traxler complex."
+              }
+            ]
+          },
+          "Kg1"
+        ]
+      ]
+    },
+    {
+      "san": "Kg1",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The most commonly discussed try. White also has Ke1 and Kf1 available here, and each leads to a genuinely different position -- another sign of how unsettled this whole line remains even at the club level."
+        }
+      ]
+    },
+    {
+      "san": "Qh4",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The point of no return",
+          "body": "The queen joins the attack with real threats around f2, g1, and h2 -- White's king has nowhere safe and no time to finish developing. White's plan from here is to survive: find only-moves, untangle the pieces, and try to consolidate the extra bishop. Black's plan is the opposite: keep finding checks and threats before White gets that chance.",
+          "concepts": ["king safety", "initiative"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed -- and the honest verdict",
+          "body": "This position is one of the most heavily analyzed forcing sequences in club-level opening theory, and honesty matters here: with computer-precise defense, White is generally considered to hold on and keep the extra material, so the Traxler is not a proven forced win for Black. What it is: a ferocious practical weapon, because the accurate defense is narrow, easy to miss over the board, and punishing to get wrong. Play it knowing you are betting on your opponent's ability to find only-moves under pressure, not on a hidden forced mate.",
+          "concepts": ["calculation", "gambit play"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "h4" }, { "type": "square", "square": "g1" }]
+    }
+  ]
+}

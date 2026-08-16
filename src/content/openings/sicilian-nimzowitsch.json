@@ -1,0 +1,289 @@
+{
+  "id": "sicilian-nimzowitsch",
+  "catalogCode": "O045",
+  "focus": "black",
+  "title": "The Nimzowitsch Sicilian",
+  "subtitle": "Answer the wing pawn's challenge with an immediate strike at e4",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "Instead of the family study's patient queenside build-up, this variation pokes at e4 with a knight on move two, daring White to grab space with e5. The whole line turns on one question: when a pawn advances to gain a tempo, does it actually get stronger, or does it just become easier to attack?",
+  "tags": ["Nimzowitsch Variation", "Nimzowitsch-Rubinstein Variation", "Sicilian Defense", "e4 openings", "hypermodern", "outposts"],
+  "concepts": [
+    "immediate central provocation",
+    "hypermodern counterattack",
+    "central tension",
+    "doubled pawns",
+    "open files",
+    "outposts"
+  ],
+  "metadata": {
+    "eco": "B29",
+    "opening": "Sicilian Defense: Nimzowitsch Variation",
+    "historicalContext": "Named for Aron Nimzowitsch, whose hypermodern writings argued that a pawn's advance is not automatically a gain — an advanced pawn can be provoked forward and then attacked as a target. 2...Nf6 is the Sicilian's own test of that idea."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Sicilian Defense family study builds its whole plan slowly: ...d6, ...a6, ...Nc6 or ...g6, and eventually the queenside expansion with ...b5. This variation skips that program entirely and jumps a knight at e4 on move two, before White has even developed a second piece. The central question is Nimzowitsch's own: e5 gains White space and a tempo, but does the resulting pawn actually get stronger by advancing, or does it just become easier to surround and attack? Watch how this lesson answers that question with a concrete plan, not just a slogan."
+    }
+  ],
+  "line": [
+    "e4",
+    "c5",
+    "Nf3",
+    {
+      "san": "Nf6",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Attack first, develop later",
+          "body": "Where the family lesson's main line spends several moves preparing before touching the center, this knight goes straight after e4. White must answer immediately — push the pawn, defend it, or trade it away — and every one of those choices commits White to something before Black has revealed a single further plan.",
+          "concepts": ["immediate central provocation"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f6", "to": "e4" }]
+    },
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White grabs more space and kicks the knight in one move. Is this simply good for White, or does the pawn on e5 become a long-term problem of its own?"
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e5" }]
+    },
+    {
+      "san": "Nd5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The answer: an outpost, and a target",
+          "body": "The knight lands on an active outpost, though not an unchallengeable one — White's real try is a later c2-c4, hitting the knight and gaining more space at the cost of the queenside pawn structure. But e5 pays a price of its own: it is not yet supported by another pawn, and Black's next few moves aim squarely at making it a target rather than an asset. This is the hypermodern trade Nimzowitsch described — provoke the advance, then attack what it left behind.",
+          "concepts": ["hypermodern counterattack", "outposts"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }]
+    },
+    {
+      "san": "Nc3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White challenges the centralized knight directly, forcing a decision: trade it off, or retreat and hand White a free move. The variation on Black's reply shows the calmer alternative — keeping the knight and defending it with a pawn instead.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "Nxc3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Trading into a structure the family study's own students will recognize from the other side of the board: a flank pawn's worth of profit for whoever recaptures well.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "e6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Declining the trade",
+                "body": "Rather than swap knights, Black simply defends d5 with a pawn and keeps the position more solid. White can still force matters with a trade of a different kind."
+              }
+            ]
+          },
+          {
+            "san": "Nxd5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White trades anyway, betting that the resulting structure favors the bishop pair and open lines over Black's extra central pawn."
+              }
+            ]
+          },
+          {
+            "san": "exd5",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "A different bargain",
+                "body": "Black recaptures toward the center, but the original d7-pawn is still sitting right there — this recapture doubles Black's own d-pawns (d5 and d7) rather than accepting doubled c-pawns the way the main line does, and opens the e-file in the bargain. A different flavor of structural damage than the main line's, worth knowing exists even though this lesson does not chase it further.",
+                "concepts": ["central tension"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "dxc3",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "An Open Sicilian, mirrored",
+          "body": "White's own pawns end up doubled on the c-file, exactly the shape Black's structure took after the trade The Sicilian Defense lesson taught — except here White is the one who accepted it, in exchange for the open d-file and the bishop pair this recapture keeps intact. Same bargain the family study made, offered back with the colors switched.",
+          "concepts": ["doubled pawns", "open files"]
+        }
+      ]
+    },
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Develops and attacks the e5 pawn for the first time — Nf3 alone has held it without issue until now.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c6", "to": "e5" }]
+    },
+    "Bf4",
+    {
+      "san": "d6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The undermining move",
+          "body": "This is the motif the whole opening was built to reach: a direct pawn strike at the base of e5. White's overextended pawn, which looked like a gain back on move three, is now the single thing both sides are arguing about.",
+          "concepts": ["hypermodern counterattack"]
+        }
+      ]
+    },
+    {
+      "san": "Bc4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Develops toward f7 while the center is still unresolved — a familiar diagonal from the Italian and Ruy Lopez families, aimed at the same weak point near Black's king.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c4", "to": "f7" }]
+    },
+    "e6",
+    "O-O",
+    {
+      "san": "Be7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Completes development and prepares to castle before the center opens — a small piece of housekeeping that matters more than it looks. The variation here shows exactly what goes wrong for a player who skips it."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "dxe5",
+            "classification": "mistake",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Opening the file too soon",
+                "body": "Resolving the center looks natural — the pawn on e5 has been the target for three moves. But look at the d-file: it has been half-open for White since move five, with only Black's own d6-pawn keeping the queens apart, and Black's king and queen are still sitting on their home squares. This capture is exactly what fully opens the file — trading now hands White a free tactic.",
+                "concepts": ["open files"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "d1", "to": "d8" }]
+          },
+          {
+            "san": "Qxd8+",
+            "classification": "critical",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The cost of an open file with the king still home",
+                "body": "Not a material win — the queens simply trade — but a real punishment all the same. Black has no way to recapture with a rook, since the bishop on c8 still blocks the queenside rook's path. The king must take, which permanently forfeits castling.",
+                "concepts": ["open files"]
+              }
+            ],
+            "visual": [{ "type": "square", "square": "d8" }]
+          },
+          {
+            "san": "Kxd8",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Forced. White is already castled and fully developed; Black's king sits in the center for the rest of the game. This is exactly why the main line spends a move getting the queen off the d-file before ever touching the tension on e5 — the lesson generalizes well beyond this specific opening."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Re1",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Adds a second attacker to the e-file battle and clears f1 for the rook's own future use — quiet preparation before the center resolves."
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "Qe2",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Vacating the file before it opens",
+          "body": "This is the precaution the mistake line above skipped: with the central tension due to resolve any move now, White steps the queen off the contested d-file first. A quiet move, but it is the difference between winning a favorable trade later and losing nothing at all now.",
+          "concepts": ["open files"]
+        }
+      ]
+    },
+    "dxe5",
+    "Bxe5",
+    {
+      "san": "Nxe5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The central tension finally resolves through a full round of trades rather than a single capture."
+        }
+      ]
+    },
+    {
+      "san": "Nxe5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The verdict on e5's advance",
+          "body": "White's knight sits actively on e5, backed by the open d-file and a lead in piece activity — real compensation for the doubled c-pawns move five accepted. Black kept the bishop pair intact and has a solid, weakness-free structure; the long-term plan is to trade down, challenge the knight with a future ...f6, and let the bishop pair tell in an endgame. Neither side is winning; both got exactly what their fifth move paid for.",
+          "concepts": ["outposts", "open files"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: meeting a space-gaining pawn advance with an immediate piece, rather than a slow pawn build-up, is a real hypermodern strategy — e5 gained a tempo on move three but became Black's target by move six; open central files created by an early trade are dangerous for whichever king is still at home, not automatically good for whoever opens them — the mistake line's Qxd8+ punished exactly that oversight; and this variation's currency is structural (bishop pair versus doubled pawns and an active knight), a different bargain from the queenside-counterplay currency the family study builds toward.",
+          "concepts": ["hypermodern counterattack", "doubled pawns", "outposts"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "c2" },
+        { "type": "square", "square": "c3" }
+      ]
+    }
+  ]
+}

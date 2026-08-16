@@ -1,0 +1,182 @@
+{
+  "id": "latvian-gambit",
+  "catalogCode": "GB014",
+  "focus": "black",
+  "title": "Latvian Gambit",
+  "subtitle": "Black's sharpest, riskiest answer to 2.Nf3",
+  "type": "gambit",
+  "difficulty": "advanced",
+  "summary": "The Latvian Gambit meets 2.Nf3 with the immediate 2...f5, leaving Black's own e5 pawn completely undefended in exchange for the open f-file and fast central play -- the sharpest and most heavily analyzed countergambit against 2.Nf3. This lesson shows the calm, principled way White meets it, why modern assessment favors White, and what the Latvian still teaches about the real price of counterattacking before finishing development.",
+  "tags": ["Latvian Gambit", "Greco Countergambit", "countergambit", "e4 openings"],
+  "concepts": ["gambit play", "king safety", "open files", "pins", "central tension", "initiative"],
+  "metadata": {
+    "eco": "C40",
+    "opening": "Latvian Gambit"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Latvian Gambit answers 2.Nf3 with 2...f5, attacking White's e4 pawn before Black has done anything to defend e5 -- which is left completely undefended in the process. The central question is blunt: can the open f-file and the fast, unbalancing play that follows really outweigh handing White a free central pawn and a permanently weaker king? Objectively, no -- White's simplest, calmest replies keep a safe and often comfortable advantage. But the Latvian has real teeth: it punishes an unprepared opponent quickly, and it teaches, in the starkest possible way, what central counterattack costs when it comes at the price of king safety. Structurally, the Latvian is the wilder, reversed cousin of \"The King's Gambit\": there, White throws the f-pawn forward on move two to rip open the f-file while already a tempo ahead (having moved first); here, Black throws forward the very same pawn, but a full tempo further behind, since White's 2.Nf3 has already developed a piece and attacked e5 before Black gets to counterattack at all. The same idea, run one tempo worse, is a large part of why the Latvian carries an even sharper, riskier reputation than its ancestor."
+    },
+    {
+      "type": "historical",
+      "title": "From Greco to Riga",
+      "body": "The earliest recorded analysis of throwing the f-pawn forward against 2.Nf3 goes back to the 17th-century Italian player Gioachino Greco, which is why the opening is also known as the Greco Countergambit. Its modern name and the bulk of its deep theory come from 20th-century analysts based in Riga, Latvia, who studied the gambit intensively and gave it the dedicated following it still has today."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    "Nf3",
+    {
+      "san": "f5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Look carefully at Black's pawn on e5. After this move, what actually defends it?"
+        },
+        {
+          "type": "key-idea",
+          "title": "An honest, undefended offer",
+          "body": "Nothing does. This is the whole gambit in one fact: Black offers the e5 pawn outright, betting that the open f-file, a central pawn Black will grab later with ...fxe4, and the general disruption to White's plans are worth more than a clean extra pawn.",
+          "concepts": ["gambit play", "king safety"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e5" }]
+    },
+    {
+      "san": "Nxe5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Acceptance",
+          "body": "White simply takes what's offered. There is no reason to decline a free, undefended central pawn -- ignoring it would hand Black the initiative for nothing in return. This is the critical test of the whole opening, and it is the line that has generated almost all of Latvian Gambit theory."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f3", "to": "e5" }]
+    },
+    {
+      "san": "Qf6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The most tested reply",
+          "body": "The queen develops actively and attacks the knight on e5 directly -- nothing else defends it, so White cannot simply leave it alone. This double duty (development plus an immediate threat) is why 3...Qf6 is Black's main try, rather than something quieter.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f6", "to": "e5" }],
+      "variations": [
+        [
+          {
+            "san": "Nc6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "A quieter try",
+                "body": "Rather than throw the queen out immediately, Black develops and offers a trade instead. It is a real, occasionally-seen alternative -- but after the simple trade it leaves White cleanly up a pawn with nothing complicated to solve, which is exactly why 3...Qf6 generates almost all of the theory instead: it at least keeps the position sharp."
+              }
+            ]
+          },
+          "Nxc6",
+          {
+            "san": "dxc6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black recaptures toward the center but ends up with doubled c-pawns and, still, one pawn fewer than White -- the calm, low-risk version of what 3.Nxe5 already promised."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "d4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Defend and expand",
+          "body": "White meets the attack and grabs the center in one move: the pawn on d4 now protects e5, and White has both an extra pawn and a growing pawn center to show for it. The simple, principled answer -- meet the threat, don't get fancy."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d4" }]
+    },
+    {
+      "san": "d6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black kicks the knight a second time, since it still cannot be tolerated on e5 -- but notice Black's third and fourth moves have both gone toward evicting a single piece, while White already has a pawn and a developed knight to show for the exchange."
+        }
+      ]
+    },
+    {
+      "san": "Nc4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The most active retreat, keeping an eye on d6 and b6 rather than falling back passively. White is simply up a pawn with a sound position; the only remaining question is whether Black's coming central and kingside play is enough to make up for it."
+        }
+      ]
+    },
+    {
+      "san": "fxe4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Cashing in the point of 2...f5",
+          "body": "Now Black finally collects the reason for playing ...f5 in the first place: this move opens the f-file for the rook and grabs a genuinely useful central pawn. Material swings back to level here -- White's earlier extra pawn is balanced out -- but look at what each side actually has to show for the moves spent: White has active, developed pieces; Black has a pawn on e4 and a file that isn't open for anything yet, since the king still sits on e8 behind an undeveloped bishop.",
+          "concepts": ["central tension", "open files"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f5", "to": "e4" }]
+    },
+    {
+      "san": "Nc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops and attacks the new pawn on e4 at once."
+        }
+      ]
+    },
+    {
+      "san": "Qg6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The queen shifts one square along the sixth rank to defend the e4 pawn while also eyeing the g-file toward White's king. Play has reached the position most Latvian Gambit theory is actually built around."
+        }
+      ]
+    },
+    {
+      "san": "Qe2",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The tabiya, and the honest bargain",
+          "body": "Material is exactly level: White's early extra pawn from 3.Nxe5 and Black's pawn grab on move five have canceled out. What decides the assessment is entirely structural. White has a knight and queen developed, a pawn center on d4, and -- since the queen now sits on e2 with the e-file clear all the way to e8 -- an absolute pin on Black's e4 pawn against Black's own king. Black has the promised extra central pawn and the long-term hope of the open f-file, but the king is still on e8, the bishop on f8 blocks that very file, and there has been no time to castle. This is why modern assessment favors White here: not material, but the fact that White's assets are already working while Black's are still only potential.",
+          "concepts": ["pins", "king safety"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons carry beyond this position: giving up a central pawn immediately (e5 is defended by nothing after 2...f5) is a calculated risk, not an oversight, and White's best replies are simple ones -- defend the knight, retreat it actively -- rather than anything fancy; a resource like an open file is only as good as the moves spent actually using it, and here Black hasn't had the time yet; and the same absolute-pin idea worth watching for whenever a king sits behind its own pawn on an open file can appear from an entirely natural queen move, long before it looks dangerous. From here, Latvian Gambit theory continues into some of the sharpest, most heavily computer-analyzed lines in the whole opening world -- precise, contested among sources, and beyond what a single lesson can responsibly claim as settled 'best play.'"
+        }
+      ]
+    }
+  ]
+}

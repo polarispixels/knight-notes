@@ -1,0 +1,263 @@
+{
+  "id": "philidor",
+  "catalogCode": "O022",
+  "focus": "black",
+  "title": "Philidor Defense",
+  "subtitle": "The oldest reply to 1.e4 e5 that doesn't use the knight",
+  "type": "opening",
+  "difficulty": "beginner",
+  "summary": "Black defends e5 with a pawn instead of a piece, choosing solidity over activity from move two. Learn why this trade — a cramped but hard-to-crack structure for a slower path to counterplay — has kept the Philidor alive for nearly three centuries, and why the same move order has produced two of chess's most famous cautionary tales about neglecting development.",
+  "tags": ["Philidor Defense", "Philidor's Defense", "Hanham Variation", "1.e4 e5 openings", "Petrov's Defense"],
+  "concepts": ["pawn chains", "development", "central tension", "space", "king safety", "prophylaxis"],
+  "metadata": {
+    "eco": "C41",
+    "opening": "Philidor Defense",
+    "historicalContext": "Named for François-André Danican Philidor, the 18th-century French master whose 1749 treatise Analyse du jeu des Échecs argued that 'pawns are the soul of chess.' The defense that bears his name puts that idea into practice from move two: a pawn, not a knight, holds the center."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Almost every reply to 1.e4 e5 2.Nf3 defends the e5 pawn with the knight on c6. The Philidor does something different: it defends with a pawn, ...d6. That single choice defines the whole opening — Black gets a rock-solid center that's hard to attack, but the bishop on c8 is boxed in and Black falls behind in development for several moves. Along with Petrov's Defense, the Philidor is one of the few mainstream answers to 1.e4 e5 that doesn't lean on ...Nc6 at all, and this lesson is about learning to accept that early passivity on purpose — and to unwind it correctly."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    "Nf3",
+    {
+      "san": "d6",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A pawn instead of a knight",
+          "body": "This is the whole idea of the opening in one move. Instead of ...Nc6, Black shores up e5 with ...d6, keeping the pawn chain intact and avoiding an early piece commitment — at the cost of blocking the f8-bishop's best diagonal and doing nothing yet for development.",
+          "concepts": ["pawn chains"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d6", "to": "e5" }]
+    },
+    {
+      "san": "d4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White strikes at the center immediately, and now e5 is attacked a second time (by the pawn on d4, in addition to the knight on f3). Should Black just resolve the tension with ...exd4, or is there a way to hold the center intact?"
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "d4" },
+        { "type": "square", "square": "e5" }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bc4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "A different third move, a famous trap",
+                "body": "Instead of striking the center, White simply develops toward f7 — the weakest point in Black's camp for as long as the king sits on e8."
+              }
+            ]
+          },
+          {
+            "san": "Bg4",
+            "classification": "mistake",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The temptation this exact position creates",
+                "body": "1.e4 e5 2.Nf3 d6 3.Bc4 is the starting position of a study already in this library: Légal's Trap, which shows a forced mate after this pin and a greedy queen capture. The Opera Game reaches a closely related trap through a different move order (3.d4 Bg4, rather than 3.Bc4 Bg4) but punishes the same underlying idea. The lesson is identical either way: with the king still on e8, giving White a free tempo instead of finishing development is dangerous, because White's most natural developing moves hit hardest exactly when Black isn't ready for them.",
+                "concepts": ["development", "king safety"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "g4", "to": "d1" }]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nd7",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The Hanham Variation — hold, don't trade",
+          "body": "This is the modern main answer, named the Hanham Variation. Instead of resolving the tension, Nd7 adds a second defender to e5 (alongside the d6 pawn) and keeps the center intact. The knight looks awkward — it blocks the c8-bishop's most natural square — but it buys time: Black will finish developing (...Be7, ...Ngf6, ...O-O) before deciding what to do with the center.",
+          "concepts": ["pawn chains", "prophylaxis"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d7", "to": "e5" }],
+      "variations": [
+        [
+          {
+            "san": "exd4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The classical alternative — resolve now",
+                "body": "Trading immediately was the traditional main line before the Hanham became fashionable. It gives up the central tension in exchange for faster, simpler development."
+              }
+            ]
+          },
+          {
+            "san": "Nxd4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The correct recapture",
+                "body": "The knight recaptures and centralizes, and Black continues naturally with ...Nf6 and ...Be7. White gets a small, safe development lead from having a knight already posted on an active central square — real, but modest, and one reason many players now prefer the Hanham's slower approach instead."
+              }
+            ],
+            "variations": [
+              [
+                {
+                  "san": "Qxd4",
+                  "classification": "mistake",
+                  "annotations": [
+                    {
+                      "type": "warning",
+                      "title": "The queen recapture that hands back the tempo",
+                      "body": "Material is fine, but the queen is a poor piece to plant in the center this early — it can be attacked by developing moves. Watch what happens next.",
+                      "concepts": ["development"]
+                    }
+                  ]
+                },
+                {
+                  "san": "Nc6",
+                  "classification": "theory",
+                  "annotations": [
+                    {
+                      "type": "tactic",
+                      "title": "A free tempo",
+                      "body": "One developing move attacks the queen and forces it to move again, and Black has erased White's entire advantage from the opening for free. This is a small, general lesson worth remembering everywhere: an early queen sortie into the center is a target, not a threat.",
+                      "concepts": ["development"]
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "Nf6",
+          "Nc3",
+          "Be7"
+        ]
+      ]
+    },
+    {
+      "san": "Bc4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Aiming at the weak point",
+          "body": "White develops toward f7 — the square only the king defends until Black castles. This is why Black cannot afford to dawdle: every tempo White gains here is a tempo closer to exploiting that square.",
+          "concepts": ["king safety"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c4", "to": "f7" }]
+    },
+    {
+      "san": "c6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A quiet but useful move: it covers the d5 and b5 squares, keeping White's pieces (and any future Nc3-d5 or Bc4-b5 ideas) out of Black's position, while doing no damage to the plan of finishing development."
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "Be7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The bishop's only real home",
+          "body": "Unlike the King's Indian, Pirc, or Modern Defense — which meet 1.e4 with an early ...g6 and fianchetto this same bishop on g7 — the Philidor's dark-squared bishop has nowhere more ambitious to go. It sits modestly on e7, and the position stays closed and solid rather than sharp and dynamic. That's the family's whole personality in one square."
+        }
+      ]
+    },
+    "Nc3",
+    {
+      "san": "Ngf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The knight on g8 completes Black's minor-piece development; the disambiguation matters, since the knight on d7 could also reach f6. Four moves after 3...Nd7 looked passive, Black is fully developed and ready to castle."
+        }
+      ]
+    },
+    {
+      "san": "Re1",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "body": "A quiet prophylactic move: the rook supports the e4 pawn and prepares to use the e-file once the central tension resolves. Nothing forcing yet — White is simply making sure every piece has a job before deciding how to break the center."
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "a4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Taking away a square before it's needed",
+          "body": "a4 gains queenside space and makes a future ...b5 costly rather than free (White would simply capture toward an open a-file). It's a small investment that keeps Black's position a little more cramped. Compare this to h3 and c3 in the Ruy Lopez: quiet moves that don't threaten anything today but remove the opponent's best resources in advance.",
+          "concepts": ["space", "prophylaxis"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "a4", "to": "b5" }],
+      "variations": [
+        [
+          {
+            "san": "d5",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Releasing the tension early",
+                "body": "Pushing through the center does gain a foothold on d5, but it also ends the very tension that was tying Black's d7-knight and dark-squared bishop to defensive duty. After the trades that follow, Black simplifies without difficulty and the knight on d7 has a clear route to c5 or b6. Central tension is a lever precisely because it forces the opponent to keep answering it — cashing it in early lets Black stop worrying about it altogether.",
+                "concepts": ["central tension"]
+              }
+            ]
+          },
+          "cxd5",
+          "exd5"
+        ]
+      ]
+    },
+    "a5",
+    "Bb3",
+    {
+      "san": "Re8",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The Philidor's typical middlegame",
+          "body": "Both sides have finished the opening with their whole plan intact. White has more space and a bishop pointed at f7, and will look to expand further or eventually strike with d4-d5 or a well-timed piece maneuver. Black has no weaknesses and a rock-solid pawn chain, and will look to complete the regrouping (often ...Bf8, ...g6, or ...Nb6) before challenging the center with ...d5 or ...c5 when the pieces are ready — not before."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons carry beyond this specific line: a pawn can defend a square just as well as a piece, at the cost of time rather than material (...d6 instead of ...Nc6); a queen or bishop developed too early is a target, not an achievement (Qxd4 and the Bc4/Bg4 trap both punish exactly this); and giving up central tension without a concrete reason (the premature d4-d5 push) usually helps the side who was being pressured, not the side pressuring.",
+          "concepts": ["development", "central tension"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "d5" },
+        { "type": "square", "square": "f7" }
+      ]
+    }
+  ]
+}

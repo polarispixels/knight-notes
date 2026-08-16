@@ -1,0 +1,243 @@
+{
+  "id": "reti-opening",
+  "catalogCode": "O144",
+  "focus": "white",
+  "title": "The Réti Opening",
+  "subtitle": "Controlling the center without occupying it",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "White's flagship hypermodern opening: instead of planting pawns in the center, White presses on it from a distance with a knight, a fianchettoed bishop, and a well-timed c4, daring Black to overextend. Learn why 1.Nf3 followed by c4 and g3 is patient rather than passive, what the long-diagonal bishop is actually doing there, and how the same idea beat a reigning World Champion without White ever playing d4.",
+  "tags": [
+    "Réti Opening",
+    "Réti System",
+    "Zukertort Opening",
+    "hypermodern chess",
+    "flank openings",
+    "double fianchetto",
+    "Réti Gambit Accepted"
+  ],
+  "concepts": [
+    "hypermodern strategy",
+    "central tension",
+    "long diagonal pressure",
+    "flexible pawn structure",
+    "double fianchetto",
+    "delayed development"
+  ],
+  "metadata": {
+    "eco": "A04-A09",
+    "opening": "Réti Opening",
+    "historicalContext": "The Réti Opening's most famous demonstration came at New York 1924, when Richard Réti defeated the reigning World Champion, José Raúl Capablanca, with exactly this hypermodern approach — see the game study Réti vs Capablanca for the full story. A year later, at Baden-Baden 1925, Réti's win over Alekhine (see Réti vs Alekhine) showed the same family of ideas producing sharp tactics rather than only quiet strategy — hypermodern openings are not automatically slow ones."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Where the Zukertort Opening lesson maps every destination reachable from 1.Nf3, this lesson goes deep on the most historically important one: build pressure on Black's center from the flank instead of matching it pawn for pawn. White never plays d4 in this lesson's main line — the entire strategy is c4 and a long-diagonal bishop watching d5, waiting for the moment central tension favors the better-developed side. That waiting is the idea, not a delay before the real plan starts."
+    }
+  ],
+  "line": [
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "principle",
+          "body": "Develops toward the center without committing a single pawn — the same non-committal first move covered in the Zukertort Opening lesson, here followed by one specific, coherent plan."
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black claims the center immediately, the most natural and most-tested reply."
+        }
+      ]
+    },
+    {
+      "san": "c4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White has a full pawn center available with 2.d4, matching Black's claim square for square. Instead, c4 challenges d5 from the side and leaves the center pawns at home. Has White just given up the fight for the center?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Pressure without occupation",
+          "body": "No — this is the entire hypermodern idea. A pawn on c4 and a bishop soon on g2 pressure d5 and the long diagonal without ever needing a pawn on d4 of their own; if Black's center ever overextends, pieces alone can undermine it. Controlling a square doesn't require standing on it.",
+          "concepts": ["central tension", "hypermodern strategy"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c4", "to": "d5" }]
+    },
+    {
+      "san": "c6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The solid reply: Black declares an intent to hold the center with pawns rather than trade or advance it, keeping the option of ...dxc4 open for later if the moment is ever right — see the variation for that alternative."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "dxc4",
+            "classification": "theory",
+            "importance": "notable",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Réti Gambit Accepted",
+                "body": "Grabbing the pawn is the most natural-looking reply, and it is completely sound — but holding onto it for long was never the point. White regains it immediately with e3 and Bxc4, reaching a position that plays much like a reversed Queen's Gambit Accepted: one tempo of material traded for quick, easy development, not a real structural concession. The same lesson runs through nearly every 1.Nf3 gambit-adjacent line — the pawn is never the prize, the tempo is."
+              }
+            ]
+          },
+          "e3",
+          "Nf6",
+          "Bxc4",
+          "e6",
+          "O-O",
+          "c5"
+        ]
+      ]
+    },
+    "g3",
+    "Nf6",
+    {
+      "san": "Bg2",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The long diagonal",
+          "body": "From g2 the bishop adds a second attacker to d5 and, later, an unobstructed view all the way toward Black's queenside. This exact idea — a fianchettoed bishop pressuring the center from the flank — is what the King's Indian Attack borrows and points at the kingside instead."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g2", "to": "a8" }]
+    },
+    {
+      "san": "e6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Solid development, opening a path for ...Be7 and ...O-O."
+        }
+      ]
+    },
+    "O-O",
+    "Be7",
+    {
+      "san": "b3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A second fianchetto",
+          "body": "One long-diagonal bishop wasn't enough — b3 prepares Bb2, adding a second battery bearing down on e5 and the entire a1-h8 diagonal. This double fianchetto, more than any single move, is what a finished Réti Opening looks like.",
+          "concepts": ["double fianchetto"]
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "Bb2",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Two bishops, two long diagonals, and still not a single central pawn move beyond c4. Patience, so far, is the entire strategy."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b2", "to": "g7" }]
+    },
+    {
+      "san": "b6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black mirrors the plan with a fianchetto of their own — a natural response once a strategy this sound is on display."
+        }
+      ]
+    },
+    {
+      "san": "e3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A quiet move with a real point: it opens a retreat square and keeps d4 in reserve as a future option rather than an immediate commitment. Playing d4 right now instead looks tempting but has a real cost — see the variation."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "d4",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "Blocking your own bishop",
+                "body": "This looks like finally staking a central claim, but it plants a White pawn directly on the diagonal the Bb2 bishop spent three moves reaching. The whole point of the double fianchetto is pressure on d4 and e5 from a distance — occupying d4 with a pawn turns a flexible long-range piece into a bystander behind its own pawn."
+              }
+            ]
+          },
+          "Bb7"
+        ]
+      ]
+    },
+    "Bb7",
+    {
+      "san": "Nc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Completing development and adding a third attacker to d5 — after nine moves, Black's central pawn is still the single most-watched square on the board, and White still hasn't needed to touch it."
+        }
+      ]
+    },
+    "Nbd7",
+    {
+      "san": "cxd5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The moment, not the method",
+          "body": "Only now, with every piece ideally placed, does White cash in the tension that's been building since move two. The question was never whether to capture on d5 — it was choosing the exact moment when the resulting open lines favor whoever finished developing first."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }]
+    },
+    {
+      "san": "cxd5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black recaptures toward the center, keeping the structure symmetric — for now. Note that both c-files are now open at once."
+        }
+      ]
+    },
+    {
+      "san": "Rc1",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The payoff of patience",
+          "body": "The c-file opens exactly when White's rook is ready to use it, aimed at a backward point on c7 and a slightly loose feel to Black's queenside. Both sides' plans from here are typical Réti middlegame fare: White probes the c-file and looks for an outpost on e5 or b5; Black finishes development and looks to challenge back with ...c5 or a central break of their own."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry forward: pressure can come entirely from pieces, not pawns — nine moves passed before White's own structure changed at all; the capture on d5 wasn't the plan, it was the reward for a finished plan, taken on White's schedule rather than forced by Black's; and a fianchettoed bishop's diagonal is worth defending, as the d4?! variation showed. This exact idea, deferred central pressure cashed in on your own timetable, is what let Réti defeat Capablanca at New York 1924 with a hypermodern approach nobody had used against a reigning World Champion before.",
+          "concepts": ["hypermodern strategy", "central tension"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "a1", "to": "c1" }]
+    }
+  ]
+}

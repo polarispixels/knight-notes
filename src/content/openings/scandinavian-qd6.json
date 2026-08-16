@@ -1,0 +1,170 @@
+{
+  "id": "scandinavian-qd6",
+  "catalogCode": "O078",
+  "focus": "black",
+  "title": "Scandinavian Defense: 3...Qd6 Main Line",
+  "subtitle": "The modern retreat — flexible, and defending c7 itself",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "Retreating to d6 instead of a5 keeps the queen central, still defending c7, and off the diagonal that Qa5 has to worry about. In exchange Black gives up the immediate pin idea and needs a clear plan for the rest of development — this lesson shows the two modern schemes, a kingside fianchetto or a Caro-like ...c6/...Bf5 setup, and why the currently-preferred top-level choice avoids the tricks the Qa5 lines have to solve.",
+  "tags": ["Scandinavian Defense", "Qd6 Main Line", "Bronstein Variation", "Icelandic-Palme Variation", "Center Counter Defense"],
+  "concepts": ["flexible piece development", "king safety", "space", "central tension", "development"],
+  "metadata": {
+    "eco": "B01",
+    "opening": "Scandinavian Defense: 3...Qd6 Main Line",
+    "historicalContext": "Sometimes called the Bronstein Variation — a different Bronstein reference from the Caro-Kann's Bronstein-Larsen Variation, not the same idea despite the shared name. Currently the more fashionable of the two main queen retreats at the top level, with Magnus Carlsen among the players who have used it as a serious weapon."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Scandinavian Defense family study shows the general 3...Qxd5-and-retreat idea without going deep on either retreat square. The Main Line, 3...Qa5 study covers the classical choice in detail — and the tricks that come with it, since a5 leaves the queen off to the side and on a diagonal White can eventually attack. This lesson shows d6 instead: a square that keeps the queen defending c7 itself and out of that diagonal problem entirely, at the cost of a slightly more modest first few moves. Two structures follow from here — a kingside fianchetto, or a Caro-like setup that looks like the Qa5 plan but is safe for a genuinely different reason."
+    }
+  ],
+  "line": [
+    "e4",
+    "d5",
+    "exd5",
+    "Qxd5",
+    {
+      "san": "Nc3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The same tempo-gaining move Black meets in every branch of this family."
+        }
+      ]
+    },
+    {
+      "san": "Qd6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Staying central, staying safe",
+          "body": "d6 keeps the queen defending c7 directly — the exact square that causes trouble for the queen on a5 — and it sits on the d-file rather than the a5-e1 diagonal, so White has no equivalent to the Bd2 battery the Qa5 lesson has to defuse. The price is that the queen is not doing anything active yet; the plan from here is about efficient development rather than an early pin.",
+          "concepts": ["king safety", "development"]
+        }
+      ]
+    },
+    {
+      "san": "d4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The pawn advances to the center — but notice nothing yet defends it."
+        }
+      ]
+    },
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Straightforward development. Grabbing the d4 pawn instead is tempting and available — see the variation here for exactly why it fails."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Qxd4",
+            "classification": "blunder",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The second pawn temptation — and far worse than it looks",
+                "body": "Legal, and the d4 pawn really is undefended — but this doesn't just repeat the family's tempo-loss lesson, it loses the queen outright. White's own queen sits on d1, and with the d2 and d3 squares empty, the entire d-file is open straight through to d4 — where nothing defends Black's queen."
+              }
+            ]
+          },
+          {
+            "san": "Qxd4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Simply winning the queen",
+                "body": "This is not another tempo-gaining attack for Black to answer — it's a finished tactic. White's queen captures Black's for a single pawn, and the game is effectively over. This is the real reason grabbing the second pawn is out of the question: not a slower version of the same lesson, but a full queen lost for nothing."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Nf3",
+    {
+      "san": "g6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The modern fianchetto scheme",
+          "body": "Rather than committing pawns in the center right away, Black fianchettoes and keeps every option open — a very different structure from either queen-retreat line's classical development. There is also a more Caro-like path from here, shown in the variation, that keeps the c6/...Bf5 shape without the fianchetto.",
+          "concepts": ["flexible piece development"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "c6",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The other modern scheme",
+                "body": "This looks like the Qa5 lesson's plan, and the moves are similar — but the reasoning is different. On d6 the queen already defends c7, so ...c6 here is about central solidity, not survival against an Nb5 fork the way it is with the queen on a5."
+              }
+            ]
+          },
+          "Bc4",
+          {
+            "san": "Bf5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The same bishop-before-...e6 discipline applies here too — it is a general Scandinavian principle, not a trick specific to the a5 queen lines."
+              }
+            ]
+          },
+          "Qe2",
+          "e6"
+        ]
+      ]
+    },
+    "Bc4",
+    "Bg7",
+    "O-O",
+    "O-O",
+    {
+      "san": "Re1",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Supports a future e-file battery and prepares to meet ...c5 or a central break with pressure down the file."
+        }
+      ]
+    },
+    "c6",
+    "Bf4",
+    {
+      "san": "Bf5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Both sides fully developed, no weaknesses yet",
+          "body": "Black's king is tucked safely behind the fianchetto, the light-squared bishop got out before any pawn could trap it, and c6 gives the center support without shutting anything in. White holds a small space edge and may look to expand with c4 or press down the e-file; Black is ready for ...Nbd7 and eventual central breaks with ...c5 or ...e5.",
+          "concepts": ["space", "central tension"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry forward: choosing where the queen retreats to is a strategic decision with real consequences, not just a matter of taste — d6 trades the a5 queen's activity for safety from an entire category of tricks; a single defensive resource (the queen already covering c7) can quietly neutralize a threat that another line has to solve with extra pawn moves; and this family's flexibility runs deep enough that even two lines sharing the same retreat square can reach genuinely different structures depending on what comes next.",
+          "concepts": ["flexible piece development", "king safety"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "id": "caro-kann-advance",
+  "catalogCode": "O055",
+  "focus": "white",
+  "title": "Caro-Kann: Advance Variation",
+  "subtitle": "The bishop is already out — now White claims the space",
+  "type": "variation",
+  "difficulty": "beginner",
+  "summary": "White answers the Caro-Kann head-on: push e5, lock the center, and dare Black to prove the freed light-squared bishop is worth more than the space White now owns. This lesson goes past the family study's brief look at the Advance to show White's actual plan — how to finish development, how to meet Black's sharpest try on the queenside, and what the resulting position is really about once the opening ends.",
+  "tags": ["Caro-Kann", "Advance Variation", "Advance Caro-Kann", "e4 defenses", "Short Variation", "fixed pawn chains"],
+  "concepts": ["space", "pawn chains", "the light-squared bishop", "pawn breaks", "when to exchange"],
+  "metadata": {
+    "eco": "B12",
+    "opening": "Caro-Kann Defense: Advance Variation",
+    "historicalContext": "The quiet Nf3/Be2/Be3/c3 buildup shown here is often called the Short Variation, after Nigel Short, who used this restrained approach to the Advance extensively in the 1990s — proof that 'advance and lock' does not have to mean 'attack and sacrifice.'"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study, The Caro-Kann Defense, showed why 3...Bf5 is Black's key move — and briefly compared the resulting structure to the French Advance, where the same bishop is buried behind ...e6 forever. This lesson takes White's side of that structure in depth: how to complete development behind the e5/d4 chain, how to meet Black's most natural counterplay before it becomes a real problem, and what White's space is actually worth once the position settles."
+    }
+  ],
+  "line": [
+    "e4",
+    "c6",
+    "d4",
+    "d5",
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Locking the center",
+          "body": "White declines to defend or trade on e4 and instead pushes past, gaining space and fixing the pawn structure for the rest of the game. The cost is real: the e5 pawn can never be a target for Black's minor pieces to attack directly the way a piece can, but it also can never retreat. Committing to a fixed chain this early is a strategic bet, not a forced improvement.",
+          "concepts": ["space", "pawn chains"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e5", "to": "d4" }]
+    },
+    {
+      "san": "Bf5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "As the family study showed, Black gets the bishop out before the wall goes up — the position is now a French Advance structure with a healthy light-squared bishop instead of a trapped one. That single difference is Black's whole compensation for less central space. It is White's move to prove the space is worth more.",
+          "concepts": ["the light-squared bishop"]
+        }
+      ]
+    },
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "principle",
+          "body": "Simple development, keeping options open for both a quiet setup (Be2, O-O, c3) and a sharper one. The alternative shown in the variation here — an early g4 — trades that flexibility for a direct attempt to punish the bishop's early trip.",
+          "concepts": ["space"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nc3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "A sharper try",
+                "body": "Instead of quietly developing, White prepares to challenge the bishop directly with g4 — a more aggressive treatment of the same structure."
+              }
+            ]
+          },
+          "e6",
+          {
+            "san": "g4",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "Attacking the bishop on its new diagonal",
+                "body": "This gains a tempo on the bishop and grabs kingside space, but it also loosens White's own king position permanently. It is a real, playable idea — not a trick — but it commits White to a fight rather than a squeeze.",
+                "concepts": ["space"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "g4", "to": "f5" }]
+          },
+          "Bg6",
+          "Nge2",
+          "c5"
+        ]
+      ]
+    },
+    "e6",
+    "Be2",
+    {
+      "san": "c5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The break the c-pawn was saving itself for",
+          "body": "Against a locked chain, Black strikes its base rather than its tip. This is the same idea the family study showed in the brief Advance branch there — the modest 1...c6 pays off here as a ready-made attacker of d4.",
+          "concepts": ["pawn breaks"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c5", "to": "d4" }]
+    },
+    {
+      "san": "Be3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Defending d4 — and setting a trap for the careless",
+          "body": "The bishop adds a second defender to d4 and eyes a future c5–b4 push. But notice what White has not yet done: nothing defends b2. That gap is about to matter.",
+          "concepts": ["pawn breaks"]
+        }
+      ]
+    },
+    "Nc6",
+    {
+      "san": "c3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White solidifies the center and prepares Nbd2. Does this also take care of the queenside — or is something still hanging?"
+        }
+      ]
+    },
+    {
+      "san": "Qb6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "The b2 pawn is undefended",
+          "body": "Nothing guards b2 — not the rook on a1, not the queen on d1. Worse for White, if the black queen ever lands on b2 it also attacks the rook on a1. This is the concrete point behind Black's queenside play, and it is why White's next move is close to forced.",
+          "concepts": ["when to exchange"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b6", "to": "b2" }]
+    },
+    {
+      "san": "Qb3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Meeting the threat by trading it off",
+          "body": "White's queen blocks the b-file and offers a trade on the only square that both defends b2 and removes the danger entirely. This is not a concession — an endgame with doubled queenside pawns but an open a-file and a small space edge is a perfectly good outcome for White. The variation on this move shows what happens if White ignores the threat instead.",
+          "concepts": ["when to exchange"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "O-O",
+            "classification": "blunder",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "Castling into a hanging pawn",
+                "body": "A natural developing move that ignores the actual threat. Black simply takes the pawn — and the queen on b2 also attacks the rook on a1, so White loses more than material in tempo trying to untangle.",
+                "concepts": ["when to exchange"]
+              }
+            ]
+          },
+          {
+            "san": "Qxb2",
+            "annotations": [
+              {
+                "type": "tactic",
+                "body": "A clean extra pawn, with the rook on a1 also under attack. White must spend more moves just to stop the bleeding.",
+                "concepts": ["when to exchange"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "b2", "to": "a1" }]
+          }
+        ]
+      ]
+    },
+    "Qxb3",
+    {
+      "san": "axb3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The recapture leaves White with doubled b-pawns but an open a-file for the rook and a healthy space advantage that survives the queen trade. Small structural cost, real long-term compensation — a fair trade, not a favor to Black.",
+          "concepts": ["when to exchange"]
+        }
+      ]
+    },
+    "Nge7",
+    "Nbd2",
+    {
+      "san": "cxd4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black finally resolves the central tension rather than let White choose the moment. This challenges d4 directly, since after the queen trade there is no more danger lurking behind it.",
+          "concepts": ["pawn breaks"]
+        }
+      ]
+    },
+    {
+      "san": "cxd4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "What the space was for",
+          "body": "White keeps the full e5/d4 chain and a lead in central space; Black has a sound structure and a clear plan of piece pressure against d4 and eventual ...f6. Neither side has anything concretely 'winning' — this is what a well-played Advance Variation looks like once both sides have finished their opening business.",
+          "concepts": ["space", "pawn chains"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: locking the center with e5 is a bet on space over speed, not a forced improvement; an undefended pawn (b2) is a real threat the moment the opponent's pieces can reach it, no matter how solid the position looks otherwise; and trading queens to remove a threat is not a concession when the resulting structure still favors you.",
+          "concepts": ["space", "when to exchange", "pawn breaks"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d4" }]
+    }
+  ]
+}

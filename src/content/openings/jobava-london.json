@@ -1,0 +1,240 @@
+{
+  "id": "jobava-london",
+  "catalogCode": "O131",
+  "focus": "white",
+  "title": "Jobava London System",
+  "subtitle": "The London's bishop, an aggressive knight, and opposite-side castling",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "The Jobava London keeps the ordinary London's bishop-to-f4 idea but replaces the quiet 2.Nf3 with an early 2.Nc3 — a small change that turns a positional setup into a sharper, opposite-side-castling weapon built around a fast kingside pawn storm. The trade-off is real: Nc3 blocks White's own c-pawn and opens the door to structural damage if Black finds the right central trade.",
+  "tags": ["Jobava London System", "Jobava-Prié Attack", "Baadur Jobava London", "London System", "Queen's Pawn Game"],
+  "concepts": ["rapid development", "central space", "kingside attack", "pawn structure", "piece activity"],
+  "metadata": {
+    "eco": "A45",
+    "opening": "London System: Jobava London (2.Nc3)",
+    "historicalContext": "Named for the Georgian grandmaster Baadur Jobava, who popularized this aggressive move order in modern practice; it is also associated with the French grandmaster Éric Prié. Grischuk and other elite players have since taken it up as a practical surprise weapon."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The London System develops the bishop to f4 before the pawn chain closes it in — that idea is shared ground, covered fully in The London System, and this lesson does not re-teach it. What changes here is the move before it: instead of 2.Nf3, White plays 2.Nc3 first. That single substitution has real consequences — White reaches for e4-e5 and a kingside pawn storm sooner, often behind queenside castling, but permanently gives up the option of a quiet c4 or c3 structure, since the knight already sits on c3. This lesson is about the chess that only exists because of that one move-order choice."
+    },
+    {
+      "type": "strategy",
+      "title": "Same bishop, different character",
+      "body": "In The London System, White commits to a slow, almost universal setup and treats the position's small edges patiently. Here, White commits early to a plan and a side of the board — usually queenside castling and a kingside attack — and accepts sharper, more concrete play in exchange. Neither approach is objectively better; they ask for different things from the player behind the pieces."
+    }
+  ],
+  "line": [
+    "d4",
+    "d5",
+    {
+      "san": "Nc3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "This knight could have gone to f3, the quiet London's usual first developing move. What does going to c3 first actually change?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The one move that changes everything",
+          "body": "Nc3 develops a piece, same as Nf3 would — but it also blocks White's own c-pawn, ruling out the calm c3/c4 structures that anchor the ordinary London and Colle systems. In exchange, the e-pawn is now free to advance to e4 without needing e3 as a stepping stone first, which is the entire engine behind this system's aggression. Every plan in this lesson traces back to that trade.",
+          "concepts": ["pawn structure"]
+        }
+      ]
+    },
+    "Nf6",
+    {
+      "san": "Bf4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The shared idea with the ordinary London: the bishop escapes the pawn chain onto an active diagonal before anything walls it in. From here the two systems' move orders diverge for good.",
+          "concepts": ["piece activity"]
+        }
+      ]
+    },
+    {
+      "san": "c6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A flexible, solid reply that supports a later ...d5-...Bf5 setup without committing the kingside yet. Black can also strike at the knight on c3 directly, at the cost of the dark-squared bishop — the variation here shows that structural bargain.",
+          "concepts": ["pawn structure"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "e6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Opening the bishop's diagonal first",
+                "body": "Instead of the flexible ...c6, Black prepares to pin the very knight that makes this system what it is."
+              }
+            ]
+          },
+          "e3",
+          {
+            "san": "Bb4",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "Pinning the piece the whole system depends on",
+                "body": "With White's king still on e1, this is a real, absolute pin — Nc3 cannot legally move at all right now. If White develops without addressing it, Black can simply take the knight and inflict doubled pawns on the queenside.",
+                "concepts": ["pawn structure"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "b4", "to": "e1" }]
+          },
+          "Nf3",
+          {
+            "san": "Bxc3+",
+            "annotations": [
+              {
+                "type": "strategy",
+                "title": "Doubled pawns after the trade",
+                "body": "Black gives up the bishop pair to damage White's structure — the exact trade-off named in this opening's motifs, reached here by a bishop rather than a knight, but the same bargain either way: a permanent structural weakness for White in exchange for the two bishops and a half-open b-file for Black.",
+                "concepts": ["pawn structure"]
+              }
+            ]
+          },
+          "bxc3"
+        ]
+      ]
+    },
+    {
+      "san": "e3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A brief return to modesty — this move supports d4 and opens the f1-bishop's diagonal before the sharper plans begin. Development finishes first; the storm comes later.",
+          "concepts": ["rapid development"]
+        }
+      ]
+    },
+    "Bf5",
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White's last remaining piece before the king reaches safety. Note that both sides now have a light-squared bishop developed outside its own pawn chain — a mirror image, and a direct confrontation is one move away.",
+          "concepts": ["piece activity"]
+        }
+      ]
+    },
+    "e6",
+    {
+      "san": "Bd3",
+      "classification": "interesting",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "In the ordinary London, this diagonal usually stays reserved for later, and a bishop offered a trade is often kept rather than exchanged. Here White offers the trade immediately. Why might accepting the exchange suit White's plan in this version?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Trading toward the attack, not away from it",
+          "body": "White invites Black to trade off the dark-squared... no, the light-squared bishops. Losing a bishop pair sounds like a concession, but the coming recapture puts White's queen on an active central square with a direct path to the kingside, and one fewer minor piece for Black means one fewer defender once the pawn storm begins. This is the Jobava's temperament in miniature: activity and attacking chances traded for small structural or material niceties that matter more in quieter systems.",
+          "concepts": ["piece activity", "kingside attack"]
+        }
+      ]
+    },
+    "Bxd3",
+    {
+      "san": "Qxd3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The queen recaptures toward the center and the kingside in one move — already better placed for the coming attack than it would be on its home square.",
+          "concepts": ["kingside attack"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d3", "to": "h7" }]
+    },
+    "Nbd7",
+    {
+      "san": "O-O-O",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The point of the whole setup",
+          "body": "Queenside castling is the move the ordinary London almost never makes, and it is the real reason this system exists: with the king safely away from the kingside, White is free to throw the g- and h-pawns forward without endangering its own king. This only works because development finished quickly enough — the price of the early Nc3 is paid back here, in tempo.",
+          "concepts": ["kingside attack", "rapid development"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "c1" }]
+    },
+    "Be7",
+    {
+      "san": "g4",
+      "classification": "interesting",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The pawn storm begins — as an honest offer, not a threat",
+          "body": "This is the position the whole line was built for: opposite-wing castling, with White's king tucked away and every kingside pawn free to advance. The pawn itself isn't defended — 9...Nxg4 simply wins it, and a well-prepared Black should take it. What White gets in return is practical rather than proven: the g-file opens for a rook lift (Rdg1), and h2-h3 next kicks the knight back while ripping open lines near Black's king. Treat this as a real pawn sacrifice for attacking chances, not a free storm. Black's most natural plan against the storm as actually played here — castling short — walks directly toward it, as the next move shows. The calmer alternative, shown in the variation, is to delay castling and strike back in the center instead.",
+          "concepts": ["kingside attack", "central space"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "g4", "to": "g7" },
+        { "type": "square", "square": "g7" }
+      ]
+    },
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The natural developing choice — but with White's king already safe on the other wing, this walks the king toward the pawns that are already advancing.",
+          "concepts": ["kingside attack"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "c5",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The calmer answer to a wing storm",
+                "body": "Instead of castling into the advancing pawns, Black strikes back in the center while White's attack is still only forming. This is the standard antidote to any opposite-side pawn storm: counterplay against the enemy king or center is usually faster than trying to outrun the storm with king safety alone.",
+                "concepts": ["central space"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "g5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The storm arrives",
+          "body": "The pawn kicks the f6-knight and the attack rolls forward exactly as planned: next comes h4-h5 and pieces joining behind the pawns, while Black must find a safe post for the knight and real counterplay before the position opens near the king. White's plan is concrete and fast; Black's task is to generate matching speed on the other wing or in the center, not to sit and defend.",
+          "concepts": ["kingside attack", "central space"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry forward: the Jobava London is defined by one move-order choice, 2.Nc3 before Nf3, which trades the ordinary London's flexible c-pawn for a faster path to e4 and opposite-side castling; a shared bishop idea does not mean a shared game plan — this lesson's attacking, concrete character is genuinely different from the patient setup in The London System; and against any early, committed pawn storm, racing to castle into it is rarely the right response — meeting it with central counterplay usually is.",
+          "concepts": ["kingside attack", "rapid development", "central space"]
+        }
+      ]
+    }
+  ]
+}

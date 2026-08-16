@@ -1,0 +1,274 @@
+{
+  "id": "nimzo-indian-leningrad",
+  "catalogCode": "O118",
+  "focus": "black",
+  "title": "Nimzo-Indian Defense: Leningrad Variation",
+  "subtitle": "The other pin - and a much sharper bargain",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "White answers the Nimzo-Indian's pin with a pin of its own: 4.Bg5 attacks the f6-knight instead of simply developing, and if Black tries to break it too aggressively, real tactical fireworks follow. This lesson covers the sharpest, most tactical of White's replies to 3...Bb4, including a forcing sequence that leaves White with damaged pawns on both flanks rather than the single weakness the family study's structural battles produce.",
+  "tags": ["Nimzo-Indian Defense", "Leningrad Variation", "Indian Game", "d4 defenses", "the pin"],
+  "concepts": ["the pin", "tactical complications", "doubled pawns", "central tension", "development"],
+  "metadata": {
+    "eco": "E30-E31",
+    "opening": "Nimzo-Indian Defense: Leningrad Variation"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study, The Nimzo-Indian Defense, showed White meeting the pin on c3 with quiet development (Rubinstein's 4.e3) or a direct confrontation (Sämisch's 4.a3). The Leningrad Variation does neither - 4.Bg5 pins Black's other knight instead, refusing to answer the original threat at all and putting a second pin on the board. Note the name: this is a different opening from the Dutch Defense's own Leningrad Variation, an unrelated fianchetto system - the two openings simply share a name. Here, the fight is tactical rather than structural: whoever mishandles the resulting complications loses material or time immediately, not twenty moves later."
+    }
+  ],
+  "line": [
+    "d4",
+    "Nf6",
+    "c4",
+    "e6",
+    "Nc3",
+    "Bb4",
+    {
+      "san": "Bg5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A pin for a pin",
+          "body": "White ignores the threat on c3 completely and pins the OTHER knight instead - the one on f6, against the queen on d8. Black cannot simply grab time by trading on c3 next move without first reckoning with this new pin: the knight on f6 is not free to move.",
+          "concepts": ["the pin"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g5", "to": "d8" }]
+    },
+    {
+      "san": "h6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Questioning the pin at once",
+          "body": "Black asks the bishop to declare itself before doing anything else - the standard, near-automatic response, and for good reason. Ignoring the pin outright is a serious error, shown in the variation.",
+          "concepts": ["the pin"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Ne4",
+            "classification": "blunder",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "Moving a pinned piece",
+                "body": "The knight on f6 is pinned to the queen on d8 - moving it simply opens the diagonal for White to win the queen outright. This is the most basic pin mechanic in chess, but it's exactly why the very first question in this whole system is whether the pin can be tolerated for a move or must be broken immediately.",
+                "concepts": ["the pin"]
+              }
+            ]
+          },
+          {
+            "san": "Bxd8",
+            "annotations": [
+              {
+                "type": "tactic",
+                "body": "White simply takes the queen - nothing defends d8 once the knight that was blocking the diagonal has moved away."
+              }
+            ]
+          },
+          "Kxd8"
+        ]
+      ]
+    },
+    {
+      "san": "Bh4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Keeping the pin alive",
+          "body": "White retreats rather than trade, maintaining the pressure on f6. The simpler alternative - trading immediately - hands Black the bishop pair for free, as the variation shows; it is fully playable but far less ambitious.",
+          "concepts": ["the pin"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bxf6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The quiet alternative",
+                "body": "White cashes in the pin immediately rather than maintaining it. After Black recaptures with the queen, the position is calm and roughly balanced - White has traded a bishop for a knight and given up any hope of the sharp complications the mainline produces."
+              }
+            ]
+          },
+          "Qxf6"
+        ]
+      ]
+    },
+    {
+      "san": "c5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black strikes at the center immediately, using the tempo the questioning move ...h6 didn't cost - the pin is still on the board, but so is the fight for the center.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Space, since the bishop can't support d4 well",
+          "body": "With the bishop committed to h4 rather than developing normally, White leans on space instead of a fully supported center - a thematic trade-off of this whole system.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "g5",
+      "classification": "interesting",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "This pawn move attacks the bishop on h4 and looks like it simply wins a tempo - but it also weakens Black's own kingside permanently. Is breaking the pin this aggressively actually sound?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Breaking the pin by force",
+          "body": "Black gains a tempo and drives the bishop back, at the cost of real, lasting kingside weaknesses - the g5 pawn can never go home. This is the Leningrad Variation's signature idea, real and established theory rather than a gimmick, but it commits Black to sharp, concrete play instead of a slow structural battle.",
+          "concepts": ["tactical complications"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g5", "to": "h4" }]
+    },
+    {
+      "san": "Bg3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The only retreat",
+          "body": "Grabbing the pawn instead does not work - the h6 pawn guards g5, so Bxg5 simply loses the bishop for nothing, as the variation shows.",
+          "concepts": ["tactical complications"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bxg5",
+            "classification": "blunder",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "The pawn that bites back",
+                "body": "This pawn is defended - the h6 pawn recaptures immediately, and White has simply traded a bishop for a pawn.",
+                "concepts": ["the pin"]
+              }
+            ]
+          },
+          "hxg5"
+        ]
+      ]
+    },
+    {
+      "san": "Ne4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "A knight that attacks two pieces at once",
+          "body": "From e4, the knight forks the bishop on g3 and the knight on c3 - both hanging at once, and only one precise square saves them both. This is the point of the whole ...h6/...g5 plan: force White to find that exact move or lose material.",
+          "concepts": ["tactical complications"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "e4", "to": "g3" },
+        { "type": "arrow", "from": "e4", "to": "c3" }
+      ]
+    },
+    {
+      "san": "Qd3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "One move, two defenses",
+          "body": "The queen develops to a square that happens to defend both forked pieces at once - c3 directly, and g3 along the third rank. The fork is neutralized without White losing any material, but the tempo Black gained by forcing this exact queen move is real.",
+          "concepts": ["tactical complications", "development"]
+        }
+      ]
+    },
+    {
+      "san": "Bxc3+",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Cashing in the original pin at last",
+          "body": "Having forced White's pieces into an awkward defensive setup, Black finally resolves the very first pin from move three - trading the bishop for the knight and forcing a structural concession.",
+          "concepts": ["doubled pawns"]
+        }
+      ]
+    },
+    {
+      "san": "bxc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The doubled c-pawns (c3 and c4) appear - the same structural theme as the family study, reached here through forcing tactics rather than patient maneuvering.",
+          "concepts": ["doubled pawns"]
+        }
+      ]
+    },
+    {
+      "san": "Nxg3",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Trading the second piece",
+          "body": "The knight that started the fork now takes the bishop it was attacking - an even trade in material, but it forces White's kingside pawns out of shape too.",
+          "concepts": ["tactical complications"]
+        }
+      ]
+    },
+    {
+      "san": "hxg3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Damage on both flanks",
+          "body": "White recaptures and ends up with doubled pawns twice over - c3/c4 on the queenside and g2/g3 on the kingside. This is a genuinely different bargain than the family study's single set of doubled pawns: more structural damage, but reached by force in ten moves rather than by choice, and the usual compensating bishop pair is gone too, traded off along the way.",
+          "concepts": ["doubled pawns"]
+        }
+      ]
+    },
+    {
+      "san": "Qa5",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Pressuring the weaker flank first",
+          "body": "The queen steps out to eye c3 directly along the a5-c3 diagonal, the more attackable of White's two sets of doubled pawns since it isn't shielded by other pieces yet. Black's plan from here is straightforward: develop normally and keep the pressure on c3 and c4 for the rest of the game, much as in the family study's structural lines - just arrived at through ten moves of forcing tactics instead of ten moves of quiet maneuvering.",
+          "concepts": ["doubled pawns", "tactical complications"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons specific to this system: a pin only works while the pinned piece can't afford to move - the instructive-mistake line shows what happens the instant that stops being true; forcing sequences can reach the same strategic themes (doubled pawns) as slow maneuvering, but the details of who keeps the bishop pair and how many weaknesses exist can come out completely different; and a piece that attacks two things at once is only as strong as the defender's best single reply - here Qd3 answered the fork perfectly, and the real profit Black kept was the earlier structural concession, not the fork itself.",
+          "concepts": ["the pin", "tactical complications", "doubled pawns"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "a5", "to": "c3" },
+        { "type": "square", "square": "c3" }
+      ]
+    }
+  ]
+}

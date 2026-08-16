@@ -1,0 +1,223 @@
+{
+  "id": "sicilian-alapin",
+  "catalogCode": "O035",
+  "focus": "white",
+  "title": "The Alapin Variation",
+  "subtitle": "Sidestep the whole Sicilian, keep the center",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "White's most popular way to avoid Open Sicilian theory entirely: instead of developing toward d4, White prepares to recapture there with a pawn, keeping a full center of d4 and e4 rather than trading one away. The Sicilian Defense lesson showed the Alapin fail against an immediate central strike; this lesson studies how White actually plays it — the resulting isolated-pawn middlegames, and the alternative where Black attacks e4 directly instead.",
+  "tags": ["Alapin Variation", "c3 Sicilian", "Alapin Sicilian", "Sicilian Defense", "e4 openings", "isolated queen's pawn"],
+  "concepts": [
+    "avoiding Sicilian theory",
+    "central pawn duo",
+    "isolated queen's pawn",
+    "space",
+    "piece activity",
+    "queen safety"
+  ],
+  "metadata": {
+    "eco": "B22",
+    "opening": "Sicilian Defense: Alapin Variation",
+    "historicalContext": "Named for the 19th-century master Semyon Alapin, who championed 2.c3 as a way to meet the Sicilian on classical terms instead of the sharp, trade-heavy theory of 3.d4. It remains White's single most popular try against 1...c5 among players who want a full center without memorizing the Open Sicilian's dozens of named systems."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Sicilian Defense lesson's own line briefly showed 2.c3 fail against an immediate ...d5 — Black regained the tempo and reached an active position. That short line was true but incomplete: it stopped the moment White's idea looked refuted, before showing what actually happens if White simply continues developing. This lesson plays the Alapin out properly, from both of Black's main replies, and reaches the position type that decides most Alapin games — an isolated queen's pawn middlegame, familiar to anyone who has studied the Caro-Kann's own IQP structures, just reached by a different route and a move color-reversed in spirit."
+    }
+  ],
+  "line": [
+    "e4",
+    {
+      "san": "c5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "See The Sicilian Defense for the case for 1...c5 itself. This lesson picks up at White's second move."
+        }
+      ]
+    },
+    {
+      "san": "c3",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Preparing d4 without a trade",
+          "body": "Rather than develop first and accept the c-for-d trade the way the Open Sicilian does, White prepares to meet ...cxd4 with cxd4 — keeping pawns on both d4 and e4 at once, a full classical center. The cost is time: c3 develops no piece, and for one move White's center pawn duo is only a plan, not yet a fact. Black's two main tries attack that plan from opposite directions, shown in the main line and the variation here.",
+          "concepts": ["avoiding Sicilian theory", "central pawn duo"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d4" }]
+    },
+    {
+      "san": "d5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black strikes the center immediately, before c3 has developed anything. Does this simply win the fight for the center outright?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Trading queens' worth of tempo",
+          "body": "No — White is happy to trade in the center here. After the coming exchanges White's d-pawn reaches d4 and the game heads toward a structure where White's center pawn becomes isolated but active, not weak and passive. The other main try, meeting e4 with a knight instead of a pawn, is shown in the variation below.",
+          "concepts": ["central pawn duo"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d5", "to": "e4" }],
+      "variations": [
+        [
+          {
+            "san": "Nf6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The other main try — attack, don't trade",
+                "body": "Rather than strike the center with a pawn, Black attacks e4 with a piece, daring White to defend it or push past it."
+              }
+            ]
+          },
+          {
+            "san": "e5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The only move that keeps the pawn: e4 has nothing else to hide behind. This grabs real space, but it also gives the knight a square to land on where nothing chases it away for a while.",
+                "concepts": ["space"]
+              }
+            ]
+          },
+          {
+            "san": "Nd5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Well placed for now, but a single well-timed c3-c4 pawn push or piece maneuver can evict it later — the knight's comfort on d5 is temporary, not permanent, in the same way White's e5-pawn is a long-term commitment rather than a free gain.",
+                "concepts": ["central pawn duo"]
+              }
+            ]
+          },
+          "d4",
+          {
+            "san": "cxd4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Where this line stops",
+                "body": "Black challenges the center at once rather than letting White consolidate it — a sharper, less settled fight than the ...d5 main line's calm isolated-pawn middlegame. The resulting positions call for their own detailed study; the strategic point worth keeping is simply that meeting e4 with a piece instead of a pawn is a genuine, respected alternative, not a lesser try."
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "san": "Nc6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The flexible third try",
+                "body": "Black simply develops, keeping the choice between ...d5 and ...Nf6 for a move later — real, but rarer, since committing early is usually thought to gain more than the flexibility is worth against a system this quiet."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "exd5",
+    {
+      "san": "Qxd5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Forced, or at least by far the most natural recapture — and it puts the queen in the center a full move before White can profitably attack her there, which is exactly why this whole sequence is fine for Black."
+        }
+      ]
+    },
+    {
+      "san": "d4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White's center pawn duo finally becomes real. The queen on d5 will need to move again soon, but not yet — nothing attacks her this move."
+        }
+      ]
+    },
+    "Nf6",
+    "Nf3",
+    {
+      "san": "e6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A quiet, flexible setup: clears the way for the f8-bishop and keeps ...cxd4 in reserve for the moment it gains the most time."
+        }
+      ]
+    },
+    "Be2",
+    "Nc6",
+    "O-O",
+    {
+      "san": "cxd4",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The isolated pawn appears",
+          "body": "Black finally resolves the central tension. After the recapture, White's d-pawn stands alone with no pawn beside it on c or e — the classic isolated queen's pawn, the same structure the Caro-Kann's own IQP lines reach from the opposite side of the board. It is a real, standard weakness in an endgame, and a real, standard strength in the middlegame: an open c-file and open diagonals for White's pieces, at the cost of one square (d4 itself) that will get weaker as pieces come off.",
+          "concepts": ["isolated queen's pawn"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d4" }]
+    },
+    "cxd4",
+    "Be7",
+    {
+      "san": "Nc3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Develops the last piece that couldn't come out earlier — c3 was occupied by a pawn until this exact moment — and attacks the queen on d5 with real tempo for the first time in the game.",
+          "concepts": ["central pawn duo"]
+        }
+      ]
+    },
+    {
+      "san": "Qd6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Retreats to a square that keeps an eye on d4 and h2 both, rather than tucking away passively. Where the queen goes after being kicked is a real decision in these positions, not a formality — a passive retreat gives White a free tempo for nothing.",
+          "concepts": ["queen safety"]
+        }
+      ]
+    },
+    "Be3",
+    {
+      "san": "O-O",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The IQP middlegame, White's plan and Black's",
+          "body": "This is the position the whole Alapin was built to reach. White's plan: use the extra central space and the pieces' activity to attack before the endgame arrives, since an isolated pawn generally favors the side with more pieces on the board. Black's plan: trade pieces at every fair opportunity, blockade d4 with a knight (typically on d5), and steer toward an endgame where the pawn becomes a genuine long-term target instead of an asset.",
+          "concepts": ["isolated queen's pawn", "space"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: c3 is a real strategic choice, not a wasted tempo — it buys a full center at the cost of one move of development, and that trade pays off exactly in structures like this one; the resulting isolated queen's pawn is a double-edged asset, not simply a weakness, and its value depends on how many pieces remain on the board; and the Alapin succeeds by changing what kind of game gets played, not by winning material or refuting the Sicilian outright — a full center reached calmly beats an open fight reached on Black's preferred terms, for players who want exactly that kind of position.",
+          "concepts": ["central pawn duo", "isolated queen's pawn", "avoiding Sicilian theory"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d4" }]
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "id": "st-george-defense",
+  "catalogCode": "O079",
+  "focus": "black",
+  "title": "The St. George Defense",
+  "subtitle": "1...a6 — a move that commits to nothing",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "1...a6 commits to nothing, waiting to see White's setup before deciding where the center and pieces belong — most famously vindicated when Tony Miles beat World Champion Anatoly Karpov with it in 1980. This lesson treats it honestly: a real psychological weapon and a lesson in flexible structures, not a theoretical refutation of 1.e4.",
+  "tags": ["St. George Defense", "St George Defense", "Miles Defense", "Corn Stalk Defense", "e4 openings", "irregular defenses"],
+  "concepts": ["provocative waiting move", "queenside expansion", "flexible pawn structure", "central tension", "Space", "psychological strategy"],
+  "metadata": {
+    "eco": "B00",
+    "opening": "St. George Defense",
+    "historicalContext": "England's Tony Miles used 1...a6 to defeat World Champion Anatoly Karpov at the 1980 European Team Championship in Skara, Sweden — a result still cited whenever the opening is discussed."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The St. George Defense makes the most minimal possible first move: a6 stops nothing, attacks nothing, and develops nothing. Its entire idea is information — wait to see what White builds before committing the center or the queenside pawns. It carries real historical weight but no serious body of independent theory. This lesson treats it as what it honestly is: a flexible, provocative surprise weapon, not a refutation of 1.e4."
+    },
+    {
+      "type": "historical",
+      "title": "Miles - Karpov, Skara 1980",
+      "body": "The defense's fame rests chiefly on one result: Tony Miles's win over the reigning World Champion at the 1980 European Team Championship. It remains a single celebrated upset rather than a proven system — which is exactly the honest way to weigh it against an opening's actual theoretical standing."
+    }
+  ],
+  "line": [
+    {
+      "san": "e4",
+      "annotations": [
+        {
+          "type": "principle",
+          "body": "Stakes a claim in the center and opens lines for the bishop and queen."
+        }
+      ]
+    },
+    {
+      "san": "a6",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A move that commits to nothing",
+          "body": "a6 takes the b5 square away from White's minor pieces and reserves the option of ...b5 later, but otherwise develops nothing and stakes no central claim. The entire point is to let White show its hand first — a bet that flexibility outweighs the lost tempo.",
+          "concepts": ["provocative waiting move"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "b5" }]
+    },
+    {
+      "san": "d4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White takes the center that's on offer, since nothing contests it yet."
+        }
+      ]
+    },
+    {
+      "san": "e6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A flexible, French-like choice — keeps the central pawn structure undetermined a little longer while preparing ...c5 or ...d5."
+        }
+      ]
+    },
+    {
+      "san": "Nf3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The most natural developing move. White can also grab central space immediately instead — the variation here shows why that isn't automatically an improvement."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "e5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Grabbing space immediately",
+                "body": "White can expand at once instead of developing first. It gains space, but every tempo spent pushing pawns before finishing development is a tempo Black can use to build counterplay against the base of the resulting chain."
+              }
+            ]
+          },
+          "b5",
+          "Nf3",
+          "Bb7",
+          "c3",
+          {
+            "san": "c5",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Hitting the base of the chain",
+                "body": "Same idea as against the French Advance Variation: the pawn on d4 is the base of White's chain, and it's the base — not the spearhead on e5 — that's the real target. This is the standard antidote to any early space grab: attack the foundation, not the point."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "b5",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The delayed expansion",
+          "body": "Only now, after ...e6 has added central flexibility, does Black grab queenside space. Delaying ...b5 by even one move matters: it's played once Black has a sense of White's setup, rather than on faith.",
+          "concepts": ["Space", "queenside expansion"]
+        }
+      ]
+    },
+    {
+      "san": "Bd3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Natural development. Note e4 isn't under any real pressure here — the St. George's ideas are queenside and structural, not a direct fight for the center. White could instead test the new b5 pawn immediately — see the variation."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "a4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Challenging the pawn immediately",
+                "body": "White can question the b5 pawn right away rather than developing first. It's a fully legitimate try, not a refutation — Black has a normal answer."
+              }
+            ]
+          },
+          {
+            "san": "c6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Simply defends b5 a second time, so the pending tension resolves without loss."
+              }
+            ]
+          },
+          "axb5",
+          "cxb5",
+          {
+            "san": "Nc3",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The real cost of early expansion",
+                "body": "White hasn't won material — b5 is still defended by the a6 pawn — but has opened the a-file and developed with pressure on b5, while Black has spent four consecutive pawn moves (a6, e6, b5, c6/cxb5) to White's more efficient development. This is the honest price of provocation: fully playable, but White who meets it accurately keeps a small, real edge in time."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Bb7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Completes the queenside fianchetto Black's first three moves were preparing."
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "c5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Contesting the center at last",
+          "body": "Having waited three moves to see White's setup, Black finally strikes at d4 — the central commitment the whole opening was designed to delay, not avoid.",
+          "concepts": ["flexible pawn structure"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d4" }]
+    },
+    {
+      "san": "c3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Supports d4 against the pressure Black just applied."
+        }
+      ]
+    },
+    "Nf6",
+    {
+      "san": "Re1",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Reinforces the center and prepares a future e5 advance."
+        }
+      ]
+    },
+    "Be7",
+    "Nbd2",
+    "O-O",
+    {
+      "san": "a4",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Testing the queenside pawn",
+          "body": "White finally asks the question ...b5 has been risking since move three: can the pawn be challenged before it's fully supported? Black has a clear, principled answer.",
+          "concepts": ["Space"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "a4", "to": "b5" }]
+    },
+    {
+      "san": "b4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Advancing past rather than trading keeps the extra space and fixes White's a4 pawn as a long-term target, at the cost of a slightly weakened queenside structure — the a6 and b4 pawns can no longer support each other."
+        }
+      ]
+    },
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Both sides have made their bets",
+          "body": "White finally claims central space too, gaining a tempo on the f6 knight. Both sides have now committed: White for kingside and central space behind the e5 pawn, Black for queenside space and an active outpost for the knight."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e5", "to": "f6" }]
+    },
+    {
+      "san": "Nd5",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "A double-edged, unrefuted position",
+          "body": "White has a classical space advantage (d4 and e5) and open lines for a kingside buildup; Black's knight sits actively on d5, and the queenside pawns on a6/b4 give lasting space there along with a target on a4 to press against with ...a5 ideas or an eventual ...c4 break. Both sides are playing for space on opposite wings — a genuinely double-edged position that neither side can claim refutes the other's opening choice."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: waiting moves have a real cost measured in tempo, which is why 1...a6 is catalogued honestly as a surprise weapon rather than mainstream theory; delaying a pawn break until you've seen the opponent's setup (...b5 on move three, not move two) is the actual skill this opening teaches, not the specific move a6 itself; and even a famous upset — Miles over Karpov — proves an opening can produce a great game, not that it's objectively strong. Judge openings by their ideas, not their best result."
+        }
+      ]
+    }
+  ]
+}

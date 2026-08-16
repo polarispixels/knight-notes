@@ -1,0 +1,204 @@
+{
+  "id": "sicilian-grand-prix",
+  "catalogCode": "O040",
+  "focus": "white",
+  "title": "The Grand Prix Attack",
+  "subtitle": "A fast, low-theory kingside assault against the Sicilian",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "White skips the Open Sicilian's central trade entirely and races straight at Black's king: a quick f4-f5 storm, a queen swing to h4, and a fight to trade off the fianchettoed bishop before Black's own queenside play gets moving. It's the most direct, most club-tested way to attack the Sicilian — a real, theory-light weapon that trades long-term structural chances for speed.",
+  "tags": ["Grand Prix Attack", "Sicilian Defense", "Anti-Sicilian", "kingside attack", "f4 systems"],
+  "concepts": [
+    "kingside pawn storm",
+    "piece activity",
+    "same-side attacking plans",
+    "the f4-f5 lever",
+    "tempo",
+    "calculated risk"
+  ],
+  "metadata": {
+    "eco": "B21, B23",
+    "opening": "Sicilian Defense: Grand Prix Attack",
+    "historicalContext": "The name comes from the 1980s English club and weekend-tournament circuit, where 2.Nc3 and 3.f4 (or the more direct 2.f4) proved a fast, low-preparation way for White to generate real attacking chances without studying the Open Sicilian's mountain of theory."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study, The Sicilian Defense, built its whole lesson around the c-for-d pawn trade and the queenside counterplay it hands Black. The Grand Prix Attack skips that trade entirely and races for the other side of the board: f4, kingside development, and a direct assault on Black's king, often before Black has even finished developing. This lesson teaches the plan's engine — Qe1-h4, f4-f5, the trade of dark-squared bishops — and its honest price: real theory but fewer deep positional resources if the attack stalls.",
+      "concepts": ["kingside pawn storm"]
+    }
+  ],
+  "line": [
+    "e4",
+    "c5",
+    {
+      "san": "Nc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White keeps options open before committing the f-pawn. Playing 2.f4 immediately is also possible and reaches similar positions — but it carries a real independent risk, shown in the variation here."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "f4",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The direct move order — and its cost",
+                "body": "Playing f4 before Nc3 lets Black strike the center immediately, since nothing controls d5 yet. This is the practical reason many Grand Prix players insert 2.Nc3 first."
+              }
+            ]
+          },
+          {
+            "san": "d5",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Punishing the move order",
+                "body": "Black strikes the center at once. After the coming exchange, White's queen gets hit with tempo — a small but real lesson in why move order matters even in an aggressive, low-theory system.",
+                "concepts": ["tempo"]
+              }
+            ]
+          },
+          "exd5",
+          "Qxd5",
+          {
+            "san": "Nc3",
+            "annotations": [
+              {
+                "type": "tactic",
+                "body": "Development with a threat: the knight attacks the queen, regaining the tempo Black's central strike had won.",
+                "concepts": ["tempo"]
+              }
+            ]
+          },
+          "Qd6"
+        ]
+      ]
+    },
+    "Nc6",
+    {
+      "san": "f4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Declaring the plan",
+          "body": "No d4, no trade, no half-open c-file for Black to work with. f4 announces a direct kingside pawn storm instead — the f4-f5 lever, a rook lift or piece buildup behind it, and a race to reach Black's king before Black's own queenside play matures.",
+          "concepts": ["kingside pawn storm"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f4", "to": "f5" }]
+    },
+    "g6",
+    "Nf3",
+    "Bg7",
+    {
+      "san": "Bc4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A second target",
+          "body": "The bishop points at f7 the way the Ruy Lopez lesson's bishop pointed at c6 — pressure, not a threat, that becomes real once the position opens. Trading this bishop off for Black's knight instead, aiming to double Black's pawns, is a real alternative plan — see the variation.",
+          "concepts": ["piece activity"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c4", "to": "f7" }],
+      "variations": [
+        [
+          {
+            "san": "Bb5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Doubling Black's pawns instead",
+                "body": "A different bargain: rather than pointing at f7, the bishop offers itself for the c6-knight, wrecking Black's queenside structure the way the Rossolimo Variation does against the other Black move order. Trading the bishop pair for structural damage is a real, respected alternative to the f7-pointing plan."
+              }
+            ]
+          },
+          "e6",
+          {
+            "san": "Bxc6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The point of the whole line: Black's pawns are permanently doubled, a long-term weakness White can press for the rest of the game even if the kingside attack never arrives."
+              }
+            ]
+          },
+          "bxc6",
+          "O-O"
+        ]
+      ]
+    },
+    "e6",
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White tucks the king in before the pawns in front of it start marching — a small but real inconsistency every Grand Prix player learns to live with: the same pawns that shelter this king will soon be thrown forward."
+        }
+      ]
+    },
+    "Nge7",
+    "d3",
+    "O-O",
+    {
+      "san": "Qe1",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The queen joins the attack",
+          "body": "Qe1 clears d1 and prepares to swing the queen to the kingside along the e1-h4 diagonal — a rerouting maneuver, not a developing move, and a sign that White now cares about the attack more than about finishing normal development.",
+          "concepts": ["tempo"]
+        }
+      ]
+    },
+    "d6",
+    {
+      "san": "Qh4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The queen now eyes h7 and supports a future Bh6 trade or a knight jump to g5. What has Black actually done to answer any of this?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Same side of the board, opposite roles",
+          "body": "Both kings are on the kingside — like the Closed Sicilian, this is not the two-front race of the Najdorf or Dragon. White must break through against a defended target, and the classic danger sign is letting White trade off the fianchettoed bishop with Bh6: once that defender is gone, Qh4-h6 and a knight landing on g5 become genuinely threatening, not just active. Black's honest answer is to generate counterplay on the other wing before that happens — which is exactly the reply here.",
+          "concepts": ["same-side attacking plans"]
+        }
+      ]
+    },
+    {
+      "san": "b5",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The race, laid bare",
+          "body": "Black answers a kingside storm with a queenside one — the same asymmetric instinct the family study taught, just running in parallel with White's plan rather than against a defused center. White's next moves aim at g7 and h7 (Bh6, f5, Ng5); Black's aim at c3 and beyond (...b4, ...a5-a4). Whoever's storm arrives first usually wins — which is why the Grand Prix rewards players comfortable calculating quickly rather than those who prefer quiet maneuvering.",
+          "concepts": ["kingside pawn storm", "calculated risk"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: skipping the Open Sicilian's central trade buys speed, not safety — White commits to an attack that must actually arrive, or the missing structural edge leaves nothing behind; Qe1-h4 is a rerouting maneuver, the same idea as the Ruy Lopez bishop's journey to b3, just compressed into two moves instead of four; and trading off a defending fianchetto bishop (Bh6) is dangerous specifically because it removes a defender, not because the trade itself is forced or free.",
+          "concepts": ["kingside pawn storm", "tempo", "same-side attacking plans"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b7", "to": "b5" }]
+    }
+  ]
+}

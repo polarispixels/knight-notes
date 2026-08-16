@@ -1,0 +1,230 @@
+{
+  "id": "queens-gambit-declined-ragozin",
+  "catalogCode": "O089",
+  "focus": "black",
+  "title": "Queen's Gambit Declined: Ragozin Defense",
+  "subtitle": "A Nimzo-Indian pin, reached through the Queen's Gambit",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "The Ragozin Defense borrows the Nimzo-Indian's central idea — pin the c3-knight with ...Bb4 before committing to a pawn structure — and grafts it onto the Queen's Gambit Declined. The result is a modern, flexible defense that keeps several structures in reach from one move order: an isolated queen's pawn, hanging pawns, or doubled White pawns from the bishop trade, depending on how the position is resolved. It rewards a player who is comfortable choosing a structure rather than following one.",
+  "tags": [
+    "Ragozin Defense",
+    "Ragozin System",
+    "Ragozin Variation",
+    "Queen's Gambit Declined",
+    "Queen's Gambit",
+    "QGD",
+    "Nimzo-Indian"
+  ],
+  "concepts": [
+    "the pin",
+    "structural flexibility",
+    "doubled pawns",
+    "the isolated queen's pawn",
+    "piece activity vs. structure"
+  ],
+  "metadata": {
+    "eco": "D38-D39",
+    "opening": "Queen's Gambit Declined: Ragozin Defense",
+    "historicalContext": "Named for Soviet master Viacheslav Ragozin, who developed the idea of combining the Nimzo-Indian pin with a Queen's Gambit Declined pawn structure in the 1930s and 40s. It fell out of fashion for decades before top engines and elite grandmasters — Kramnik and Carlsen among them — revived it as a fully modern main-line defense."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Every other line in this series answers 1.d4 d5 2.c4 with a move that fixes Black's pawn structure early — ...e6, ...c6, ...dxc4. The Ragozin postpones that choice: Black plays ...Nf6 and ...Bb4, pinning the c3-knight the way the Nimzo-Indian does, and only decides on the pawn structure a few moves later, once White's plans are clearer. The central question is which structure to steer toward — isolated pawn, hanging pawns, or a bishop trade that damages White's queenside — and this lesson shows how the position itself points to the answer."
+    },
+    {
+      "type": "historical",
+      "title": "Two openings, one position",
+      "body": "The exact same position can also be reached by 1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 d5 — the Nimzo-Indian move order. Which name the opening gets depends only on which piece you develop first; the resulting chess is identical."
+    }
+  ],
+  "line": [
+    "d4",
+    "d5",
+    "c4",
+    "e6",
+    "Nc3",
+    "Nf6",
+    "Nf3",
+    {
+      "san": "Bb4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The Nimzo-Indian idea, one tempo later",
+          "body": "Instead of the QGD's usual ...e6-then-develop-quietly plan, Black pins the knight that supports the center immediately. This is the exact same idea the Nimzo-Indian is built on — control the center with pieces and structural threats rather than only with pawns — reached here because Black played ...d5 before White had committed to c4 versus the Nimzo's pure ...Nf6/...e6 move order.",
+          "concepts": ["the pin"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b4", "to": "c3" }]
+    },
+    {
+      "san": "Bg5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "White pins back",
+          "body": "White answers pin with pin: the f6-knight is now pressured too. Both sides are threatening to resolve tension with a trade — the question is who benefits more from initiating it.",
+          "concepts": ["the pin"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "cxd5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Resolving the center immediately",
+                "body": "White can also settle the central tension at once. After 5...exd5, the structure is a Carlsbad skeleton like the Exchange Variation's — except here Black's bishop already pins the c3-knight instead of sitting quietly on e7, a genuinely different set of resulting plans even though the pawns look the same. Black can still choose to create an isolated d-pawn later with a well-timed ...c5, but it is a choice for later, not an immediate consequence of this trade.",
+                "concepts": ["structural flexibility"]
+              }
+            ]
+          },
+          "exd5"
+        ]
+      ]
+    },
+    {
+      "san": "h6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black asks the bishop to declare itself, the same question every Bg5 pin eventually faces.",
+          "concepts": ["the pin"]
+        }
+      ]
+    },
+    {
+      "san": "Bxf6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Trading the pinning bishop for the pinned knight",
+          "body": "White gives up the bishop pair to remove Black's most useful minor piece and, just as importantly, to recapture with a piece that keeps options open for what comes next.",
+          "concepts": ["piece activity vs. structure"]
+        }
+      ]
+    },
+    {
+      "san": "Qxf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black recaptures with the queen rather than the pawn — keeping the pawn structure intact and putting the queen on an active diagonal toward d4, at the cost of a slightly exposed queen this early.",
+          "concepts": ["piece activity vs. structure"]
+        }
+      ]
+    },
+    "e3",
+    "O-O",
+    {
+      "san": "Rc1",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops toward the file the coming central tension will open, the same instinct behind Rc1 throughout the QGD complex.",
+          "concepts": ["structural flexibility"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "a3",
+            "annotations": [
+              {
+                "type": "question",
+                "body": "White asks the bishop to decide right now: retreat, or capture and damage White's structure?"
+              }
+            ]
+          },
+          {
+            "san": "Bxc3+",
+            "classification": "theory",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "Trading the bishop for structural damage",
+                "body": "Black takes the offer. Because the c4 pawn is still on the board (this branch never resolved the central tension with cxd5), the coming recapture creates genuinely doubled pawns — a long-term structural target rather than a passing inconvenience.",
+                "concepts": ["doubled pawns"]
+              }
+            ]
+          },
+          {
+            "san": "bxc3",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Doubled, but not simply bad",
+                "body": "White now has pawns on c3 and c4 — a real weakness Black can aim at with ...c5 and pressure down the b-file, but also a wider pawn front, extra central space, and the freshly opened b-file as compensation (both sides already traded off a bishop back on move six, so it isn't a bishop-pair question here). Neither side's position is objectively won here; it's a genuine imbalance, the kind of trade-off the whole Ragozin complex specializes in offering.",
+                "concepts": ["doubled pawns", "structural flexibility"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "c6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black shores up d5 rather than resolving the tension immediately, keeping every structural option — including a later ...dxc4 or ...c5 — available.",
+          "concepts": ["structural flexibility"]
+        }
+      ]
+    },
+    "Bd3",
+    {
+      "san": "Nd7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The queenside knight develops toward the same freeing plan every QGD structure eventually leans on: support a central break and free the remaining minor piece.",
+          "concepts": ["structural flexibility"]
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "dxc4",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Choosing the moment to release the tension",
+          "body": "The same timing idea from the family study's central lesson: capturing now costs White's bishop a second move to recapture, and Black converts that tempo directly into the freeing break that follows.",
+          "concepts": ["structural flexibility"]
+        }
+      ]
+    },
+    "Bxc4",
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The central break, and the position's real character",
+          "body": "Black strikes in the center with the queen already supporting the advance from f6 — a direct benefit of recapturing on f6 with the queen back on move 8 rather than the pawn. From here the game can still go several ways: a trade on e5 opens lines for both sides' remaining pieces, while quiet play can lead toward hanging pawns on c5/d5 if Black later advances ...c5. This structural flexibility, present from the very first pin on move 4, is the Ragozin's defining trait.",
+          "concepts": ["structural flexibility", "piece activity vs. structure"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: an early pin can substitute for an early structural commitment — the Ragozin's whole point is deciding the pawn structure late, with more information; the same Bxc3-type trade that looks purely damaging (doubled pawns) comes with real compensation (a wider pawn front, extra space, an open b-file), and calling it simply 'good' or 'bad' for either side is the wrong question; and recognizing transpositions matters — this exact position is also main-line Nimzo-Indian theory under a different name, so understanding one deepens the other.",
+          "concepts": ["structural flexibility", "doubled pawns", "the pin"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f6", "to": "e5" }]
+    }
+  ]
+}

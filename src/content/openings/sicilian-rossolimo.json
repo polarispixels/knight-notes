@@ -1,0 +1,212 @@
+{
+  "id": "sicilian-rossolimo",
+  "catalogCode": "O047",
+  "focus": "white",
+  "title": "The Rossolimo Variation",
+  "subtitle": "Skip the theory, keep the pressure",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "Instead of racing into the Open Sicilian's deep theory with 3.d4, White pins the c6-knight and threatens to trade it off for structural damage alone. This lesson explains why giving up the bishop pair for doubled pawns is a real bargain, not a consolation prize, and why the Rossolimo has become a top-level weapon precisely because it demands so little memorization.",
+  "tags": ["Rossolimo Variation", "Rossolimo Attack", "Sicilian Defense", "Anti-Sicilian", "doubled pawns", "e4 openings"],
+  "concepts": ["doubled pawns", "bishop pair", "central space", "light-square control", "positional bind"],
+  "metadata": {
+    "eco": "B30-B31",
+    "opening": "Sicilian Defense: Rossolimo Variation",
+    "historicalContext": "Named for Nicolas Rossolimo, a Russian-French-American grandmaster active in the mid-20th century who developed 3.Bb5 against 2...Nc6 as a practical weapon. It has since become a mainstay at every level, from club players avoiding memorization to world champions avoiding their opponents' preparation."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Sicilian Defense family study built its whole structure around one trade: 3.d4 cxd4 4.Nxd4, the flank-pawn-for-center-pawn bargain that defines the Open Sicilian. The Rossolimo denies White that trade entirely — no d4, no cxd4, none of the deep theory attached to the Najdorf or the Dragon. Instead White develops a piece with an immediate structural point: Bb5 threatens to trade itself for the c6-knight, leaving Black with doubled pawns for the rest of the game. This lesson explains why that bargain favors White even though it hands over the bishop pair, and how the resulting positions stay simple enough to play from understanding rather than memory."
+    }
+  ],
+  "line": [
+    "e4",
+    "c5",
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Develops normally — the difference from the Open Sicilian comes next move, not this one."
+        }
+      ]
+    },
+    "Nc6",
+    {
+      "san": "Bb5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "There's no pawn on e5 here for the bishop to indirectly pressure, unlike the Ruy Lopez. So what does Bb5 actually accomplish against the Sicilian?"
+        },
+        {
+          "type": "key-idea",
+          "title": "A structural threat, not a tactical one",
+          "body": "The bishop threatens Bxc6, and unlike in the Ruy Lopez there is no ...Qd4-style fork waiting to punish the capture — the trade genuinely costs Black a healthy pawn structure. White isn't chasing a piece or a pawn; White is offering to give up the bishop pair in exchange for permanently doubling Black's pawns and sidestepping every line of Open Sicilian theory in one move. That's the whole opening in one sentence.",
+          "concepts": ["doubled pawns"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "b5", "to": "c6" }
+      ]
+    },
+    {
+      "san": "g6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The critical test",
+          "body": "Black meets the threat head-on, preparing to fianchetto and daring White to actually follow through with the trade. Waiting a move with ...e6 first is a real alternative — see the variation — but ...g6 asks the sharpest question: is the doubled-pawn compensation really worth the bishop pair?"
+        }
+      ]
+    },
+    {
+      "san": "Bxc6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Cashing in before the fianchetto completes",
+          "body": "White follows through now, before Black's dark-squared bishop reaches g7 and adds pressure to the long diagonal. This is a strategic decision, not a tactical shot — much like the Ruy Lopez Exchange Variation, the point is the pawn structure that results, not any immediate threat.",
+          "concepts": ["doubled pawns", "bishop pair"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "c6" }]
+    },
+    {
+      "san": "bxc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Doubled, but not broken",
+          "body": "Black now has pawns on c5 and c6 — doubled, permanently. In exchange Black keeps the bishop pair and an intact kingside, and the c8-bishop gains influence once it's fianchettoed too, or developed via b7. Recapturing the other way, ...dxc6, is also played and keeps the d-file half-open instead — the variation shows the difference.",
+          "concepts": ["doubled pawns"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "c5" }, { "type": "square", "square": "c6" }],
+      "variations": [
+        [
+          {
+            "san": "dxc6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The other recapture",
+                "body": "Recapturing toward the center keeps the b-pawn at home and opens the d-file for Black's queen and rook instead of the b-file. The doubled c-pawns are identical either way — this choice is about which file and which minor-piece development scheme Black prefers, not about avoiding the structural concession."
+              }
+            ]
+          },
+          "O-O"
+        ]
+      ]
+    },
+    "O-O",
+    {
+      "san": "Bg7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black completes the fianchetto anyway — the long diagonal is still an asset even without the c6-knight to support it, and the bishop pair starts to justify itself."
+        }
+      ]
+    },
+    {
+      "san": "Re1",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Preparing the central lever",
+          "body": "The rook eyes e4 and, further ahead, supports a future e4-e5 advance that would gain space and time on any Black piece that lands on f6. Quiet moves like this — not immediate threats — are how White converts the structural edge.",
+          "concepts": ["central space"]
+        }
+      ]
+    },
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Restraining the lever first",
+          "body": "Black takes e5 away from White before developing the kingside knight — exactly the move the mistake variation shows the cost of skipping. The center is now fixed, and both sides know where their long-term chances lie: White on the light squares and the queenside, Black on activity from the bishop pair.",
+          "concepts": ["central space"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e5" }],
+      "variations": [
+        [
+          {
+            "san": "Nf6",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Development that invites a tempo loss",
+                "body": "This looks like ordinary development, but it walks straight into the point of Re1: White gains a full tempo pushing the knight around before Black has even castled.",
+                "concepts": ["central space"]
+              }
+            ]
+          },
+          {
+            "san": "e5",
+            "importance": "notable",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The pawn does the work",
+                "body": "The knight must move again, and Black has spent two moves (Nf6, then the retreat) to reach a square it could have reached directly. This is why the main line restrains e5 with a pawn move first rather than developing on autopilot.",
+                "concepts": ["central space"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "e4", "to": "f6" }]
+          },
+          "Nd5"
+        ]
+      ]
+    },
+    "c3",
+    {
+      "san": "Ne7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Rerouting around the fianchettoed bishop rather than blocking it — this knight often continues to g6 or f5, adding pressure to the kingside light squares that the missing dark-squared bishop can no longer contest for Black."
+        }
+      ]
+    },
+    {
+      "san": "d3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The quiet, permanent edge",
+          "body": "White declines the sharper d4 break for now and keeps the position flexible: Nbd2-c4 or Na3-c4 pressures the doubled c5-pawn, Be3 and Qd2 prepare central operations, and the bishop pair Black holds needs open lines to matter. Neither side has a forced plan — this is a long game.",
+          "concepts": ["light-square control", "positional bind"]
+        }
+      ]
+    },
+    {
+      "san": "O-O",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: the Rossolimo trades a piece for a permanent structural weakness, the same bargain the Ruy Lopez Exchange Variation makes against 1...e5 — it is a strategy, not a tactic, and it never threatens to win material outright. Restraining a central pawn push (here, ...e5 stopping e4-e5) is worth a tempo, as the mistake line showed concretely. And low theory doesn't mean low stakes — White's edge here is real and durable, built on doubled pawns that never go away, which is exactly why strong players use the Rossolimo to sidestep memorized Open Sicilian preparation without giving up winning chances.",
+          "concepts": ["doubled pawns", "positional bind"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "c5" }, { "type": "square", "square": "c6" }]
+    }
+  ]
+}

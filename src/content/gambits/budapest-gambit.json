@@ -1,0 +1,284 @@
+{
+  "id": "budapest-gambit",
+  "catalogCode": "GB021",
+  "focus": "black",
+  "title": "The Budapest Gambit",
+  "subtitle": "A pawn for a head start against 1.d4",
+  "type": "gambit",
+  "difficulty": "intermediate",
+  "summary": "Black offers a center pawn on move two to drag White's extra pawn out of position and win it back with fast-developing pieces — a genuine surprise weapon with real tactical tricks, one notch below the mainstream Indian defenses in reputation but full of ways for an unprepared White to go wrong.",
+  "tags": [
+    "Budapest Gambit",
+    "Budapest Defense",
+    "Indian Game",
+    "d4 openings",
+    "gambit",
+    "surprise weapon"
+  ],
+  "concepts": [
+    "piece activity",
+    "quick pawn recovery",
+    "tactical tricks",
+    "surprise value",
+    "outposts"
+  ],
+  "metadata": {
+    "eco": "A51-A52",
+    "opening": "Budapest Gambit"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Budapest Gambit's cost is one pawn on move two. Its compensation is not a long-term positional trend, the way a queen's-side gambit's compensation often is — it is immediate: Black's knight and pieces spring forward at e5 and g4 before White has finished developing, and the gambit pawn usually comes straight back within a handful of moves. That makes this a genuinely different kind of opening decision than the Nimzo-Indian or Grünfeld: instead of restraining or attacking a center, Black removes the center from the board entirely and dares White to prove a small, quiet edge is worth more than an early initiative. It is a real, sound surprise weapon — not a trick that loses if White simply plays well — but it does not promise more than a level game against accurate defense."
+    }
+  ],
+  "line": [
+    "d4",
+    "Nf6",
+    "c4",
+    {
+      "san": "e5",
+      "classification": "interesting",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White can simply capture this pawn. Is offering it here actually sound, or is Black just down material for nothing?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The cost and the compensation",
+          "body": "The cost is real: one center pawn, gone if White takes it. The compensation is just as real, if less visible: White's knight is not yet on f3, so the pawn on e5 cannot simply be defended by a developing move the way it can after most other first moves. Black's knight on f6 is about to leap into the resulting hole at g4 or e4, hitting the pawn and the loose White position at the same time. This is acceptance-and-recovery, not a sacrifice for a long-term attack — Black expects the pawn back, not a mating attack.",
+          "concepts": ["quick pawn recovery"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e5", "to": "d4" }]
+    },
+    {
+      "san": "dxe5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Accepting is the main line",
+          "body": "White nearly always accepts — declining with something like 3.Nf3 mostly just returns to ordinary Indian territory a tempo down for Black, so there's little reason to avoid the pawn. The real test of the gambit begins now: can Black actually get the pawn back with something to show for it?"
+        }
+      ]
+    },
+    {
+      "san": "Ng4",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Chasing the pawn, not fleeing the center",
+          "body": "This is the gambit's main recapturing try — the knight goes straight after the pawn on e5 rather than developing quietly elsewhere. A sharper, riskier alternative exists too: the Fajarowicz Variation, 3...Ne4, sends the knight to the center instead of chasing material at all (see the variation on White's next move for how that plan works and what it costs).",
+          "concepts": ["outposts"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g4", "to": "e5" }],
+      "variations": [
+        [
+          {
+            "san": "Ne4",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Fajarowicz Variation",
+                "body": "Rather than recapturing on e5 at all, the knight jumps straight to a strong central outpost, betting on activity and tempo instead of a quick material balance. This is sharper and riskier than 3...Ng4 — Black stays a pawn down for longer, sometimes permanently, in exchange for pieces that develop with real threats from the first few moves.",
+                "concepts": ["outposts", "surprise value"]
+              }
+            ]
+          },
+          {
+            "san": "Nd2",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White challenges the knight directly — a natural, sound way to meet it. Nothing yet stands between b4 and e1, so Black has an immediate pin available instead of simply retreating the attacked knight."
+              }
+            ]
+          },
+          {
+            "san": "Bb4",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "A pin instead of a retreat",
+                "body": "Rather than moving the attacked knight, Black pins its attacker to the king. White cannot simply capture on e4 — the d2-knight is frozen in place by the bishop's pin along the a5–e1 diagonal.",
+                "concepts": ["outposts"]
+              }
+            ]
+          },
+          "Qc2",
+          {
+            "san": "d5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Defending the outpost, staying a pawn down",
+                "body": "The pawn move shores up the knight on e4 rather than reclaiming material — the whole point of the Fajarowicz. Black accepts staying down a pawn a little longer for a genuinely active, well-supported position; this is real theory, but it asks Black to be comfortable with imbalance rather than quick equality, which is why it stays a sharper, more specialized try than the main 3...Ng4 recapture."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Bf4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Holding the pawn the sound way",
+          "body": "White defends the extra pawn with a developing move rather than trying to hang onto it with something clumsy. This is simply correct chess — the coming complications are never about White's setup being wrong, only about the exact order pieces get traded in.",
+          "concepts": ["quick pawn recovery"]
+        }
+      ]
+    },
+    "Nc6",
+    "Nf3",
+    {
+      "san": "Bb4+",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop develops with check, gaining a tempo and adding pressure toward White's king before the recapture on e5 even happens."
+        }
+      ]
+    },
+    {
+      "san": "Nbd2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The Kieninger Trap's tabiya",
+          "body": "This exact position is the starting point of the Kieninger Trap — one of the Budapest's most famous tactical tricks, where a careless capture on b4 a few moves from now walks straight into a forced smothered mate. See that study for the full combination; here the lesson continues with the sound, correct technical treatment instead of the trap itself.",
+          "concepts": ["tactical tricks"]
+        }
+      ]
+    },
+    {
+      "san": "Qe7",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Renewing pressure on e5 — and something else",
+          "body": "The queen adds a second attacker to the e5 pawn, preparing to recapture it. It also lines up on the e-file, which is exactly the detail the Kieninger Trap exploits if White ever captures pieces on b4 and e5 in the wrong order.",
+          "concepts": ["quick pawn recovery"]
+        }
+      ]
+    },
+    {
+      "san": "e3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Sidestepping the trap on purpose",
+          "body": "Rather than playing the provocative 7.a3 that invites the tactics of the Kieninger Trap, White simply solidifies — the bishop pair on f4/c1 stays intact, the king gets a flight square on e2 later if needed, and there is no need to prove anything tactically to hold the extra pawn a little longer.",
+          "concepts": ["tactical tricks"]
+        }
+      ]
+    },
+    {
+      "san": "Ngxe5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The pawn comes home",
+          "body": "Black finally recaptures the gambit pawn, four moves after offering it. Material is level again, right on schedule — this is what 'quick recovery' means in practice: a small handful of moves, not a long-term investment.",
+          "concepts": ["quick pawn recovery"]
+        }
+      ]
+    },
+    {
+      "san": "Nxe5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White trades down rather than let the knight sit on such an active square."
+        }
+      ]
+    },
+    {
+      "san": "Qxe5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The queen recaptures, keeping the position simple and active rather than committing the other knight to the exchange."
+        }
+      ]
+    },
+    {
+      "san": "Be2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops the last minor piece, keeping the remaining knight on d2 for now rather than redeploying it — the king can still castle either way and nothing here is forced."
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "a3",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Now the question is safe to ask",
+          "body": "With the queen off the e-file and no knight left near e5 to spring a discovery, a3 carries none of the danger it did a few moves ago in the Kieninger Trap's version of this position — the king is still on e1, but nothing threatens it. Black simply resolves the bishop's future.",
+          "concepts": ["tactical tricks"]
+        }
+      ]
+    },
+    {
+      "san": "Bxd2+",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black trades rather than retreat — the bishop pair was never going to matter much in a position this simplified, and the check comes because White's king is still on e1, one move from castling."
+        }
+      ]
+    },
+    {
+      "san": "Qxd2",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The queen recaptures rather than the king or the other bishop — simplest and safest, keeping the queen centralized for the coming middlegame."
+        }
+      ]
+    },
+    "d6",
+    {
+      "san": "O-O",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The gambit's honest result",
+          "body": "Material is dead level, both kings are safe, and neither side has a structural weakness worth mentioning. This is the Budapest's realistic ceiling against accurate play: full equality with active pieces, not an advantage. Trace the piece count and White really has come out with something small and real: both bishops (the trades along the way cost White both knights but only one of Black's bishops), the classic long-term bishop-pair asset, against Black's knight-and-bishop pair and slightly freer development. Black's compensation for that, and for the reputation gap with the mainstream Indian defenses, is that most opponents simply do not know this position as well as White does the Nimzo or Grünfeld.",
+          "concepts": ["piece activity"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: the gambit framework applies here in full — a real, small cost (one pawn on move two) for real, short-term compensation (faster development and a knight that reaches active squares before White's pieces are ready), not a long-term bet; the same tabiya that this lesson reaches safely (after 6.Nbd2 Qe7) is exactly where the Kieninger Trap springs its mate if White captures on b4 and e5 in the wrong order, so move order inside a combination matters as much as the moves themselves; and the Fajarowicz sideline shows that even within one gambit, there is a spectrum between quick material equality (3...Ng4) and sustained piece activity at the cost of staying down material longer (3...Ne4).",
+          "concepts": ["quick pawn recovery", "tactical tricks"]
+        }
+      ]
+    }
+  ]
+}

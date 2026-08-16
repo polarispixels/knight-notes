@@ -1,0 +1,180 @@
+{
+  "id": "slav-main-line",
+  "catalogCode": "O094",
+  "focus": "black",
+  "title": "The Slav Main Line",
+  "subtitle": "The Czech Variation's deep tabiya",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "This is the Slav's most heavily analyzed tabiya: Black takes the c4 pawn, develops the light-squared bishop to freedom first, and only then gives the pawn back on White's terms. The Slav Defense study stopped at the position where the plan becomes visible — this lesson pushes past it into the deep middlegame theory that made this exact structure a World Championship battleground.",
+  "tags": ["Slav Defense, Main Line", "Czech Slav", "Czech Variation", "Main Line Slav", "Slav Defense", "d4 openings"],
+  "concepts": ["central tension", "the restricted bishop", "development", "piece activity", "prophylaxis"],
+  "metadata": {
+    "eco": "D17-D19",
+    "opening": "Slav Defense: Main Line (Czech Variation)"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Slav Defense study reaches this exact tabiya — 4...dxc4 5.a4 Bf5 — and carries it through to the position where the bishop lands safely on g6. This lesson goes one level deeper: past that point, into the completed development both sides need for the middlegame, where the fight over the pinned f6-knight and the choice of pawn breaks decide the game. Also called the Czech Variation, after the generations of Czech players who did much of the early analytical work here."
+    }
+  ],
+  "line": [
+    "d4",
+    "d5",
+    "c4",
+    {
+      "san": "c6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The Slav's signature defender of d5 — full background on why this beats ...e6 for keeping the bishop free is in the Slav Defense study.",
+          "concepts": ["the restricted bishop"]
+        }
+      ]
+    },
+    "Nf3",
+    "Nf6",
+    "Nc3",
+    {
+      "san": "dxc4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The main line takes the pawn rather than holding the tension — a deliberate trade of central space for time, as the family study explains in full.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    "a4",
+    {
+      "san": "Bf5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The move that defines the opening",
+          "body": "The bishop escapes before ...e6 can ever seal it in — this single reordering is the entire reason the Slav exists as a separate defense from the Queen's Gambit Declined.",
+          "concepts": ["the restricted bishop"]
+        }
+      ]
+    },
+    "e3",
+    "e6",
+    {
+      "san": "Bxc4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The pawn returns to White right on schedule, the same honest trade the Queen's Gambit Accepted makes — just reached through the Slav's move order.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    "Bb4",
+    "O-O",
+    "O-O",
+    "Qe2",
+    "Nbd7",
+    {
+      "san": "e4",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Claiming the center — and a tempo",
+          "body": "White finally claims the space Black gave up on move four, attacking the f5-bishop in the process. This is exactly where the Slav Defense study's mainline stopped.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "Bg6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Where the family study ends — and this one continues",
+          "body": "Black's proof of concept: the bishop found a fully active square before the pawn chain could ever trap it. From here White still has one more useful developing move in reserve, and the real middlegame fight is about to begin.",
+          "concepts": ["the restricted bishop"]
+        }
+      ]
+    },
+    {
+      "san": "Bg5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The last piece joins, with a point",
+          "body": "White's last undeveloped minor piece finally leaves home — and it does more than develop. It pins the f6-knight against the queen on d8, adding real pressure just as the position opens up.",
+          "concepts": ["development", "piece activity"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g5", "to": "d8" }]
+    },
+    {
+      "san": "h6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The pin is only a nuisance so far, not a real threat — should Black spend a move questioning the bishop, or ignore it and get on with development?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Asking the bishop to declare itself",
+          "body": "Black forces the issue immediately, exactly the way the Tartakower and Orthodox Defenses question a Bg5 pin. White must now choose: retreat and keep the pin alive, or trade and simplify.",
+          "concepts": ["prophylaxis"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nb6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "A different move order",
+                "body": "Black can also delay the question to the bishop and get straight to business: the knight relocates to hit the a4-pawn directly, a central idea of this whole structure regardless of exactly when ...h6 gets played."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Bh4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White keeps the pin alive rather than trading it off — the knight on f6 stays tied to defending against Bxf6, at least for now.",
+          "concepts": ["piece activity"]
+        }
+      ]
+    },
+    {
+      "san": "Nb6",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "A completed tabiya, both plans visible",
+          "body": "Both sides have finished their essential preparation. White's central pawns on d4 and e4 claim real space, and the pin on f6 restricts Black's most active piece — but Black's light-squared bishop, unlike its counterpart in the Queen's Gambit Declined, has been active from the start, and this last move hits a4 directly, questioning White's queenside structure in return. From here the game turns on pawn breaks: ...c5 or ...e5 for Black, d4-d5 or further central expansion for White.",
+          "concepts": ["piece activity", "central tension"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: freeing a piece before the pawn chain closes is worth more than any amount of theory learned after the fact, since the diagonal only stays open for one move; the Slav's move order pays for its freed bishop with a tempo — White gets a useful extra developing move (Bg5) that simply is not available against the Orthodox setup; and a pin on a knight is pressure, not a threat by itself — Black meets it the same principled way as everywhere else in the Queen's Gambit family, by asking the bishop to declare its intentions with ...h6."
+        }
+      ]
+    }
+  ]
+}

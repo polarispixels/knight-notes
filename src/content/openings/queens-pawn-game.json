@@ -1,0 +1,216 @@
+{
+  "id": "queens-pawn-game",
+  "catalogCode": "O125",
+  "focus": "white",
+  "title": "The Queen's Pawn Game",
+  "subtitle": "Choosing a system instead of memorizing theory",
+  "type": "opening",
+  "difficulty": "beginner",
+  "summary": "1.d4 opens two very different roads: the heavily-analyzed main-line complex (Queen's Gambit, Catalan, the Indian defenses) or a family of 'systems' that build the same healthy setup almost regardless of what Black plays. This lesson maps that second road — the London, Colle, Torre, and Trompowsky — and shows how one early choice sends White down each path.",
+  "tags": [
+    "Queen's Pawn Game",
+    "Queen's Pawn Opening",
+    "1.d4 systems",
+    "London System",
+    "Colle System",
+    "Torre Attack",
+    "Trompowsky Attack",
+    "d4 systems"
+  ],
+  "concepts": [
+    "flexible development",
+    "system-based play",
+    "avoiding heavy theory",
+    "piece placement",
+    "pawn structure",
+    "playing plans not moves"
+  ],
+  "metadata": {
+    "eco": "A40, A45-A46, D00",
+    "opening": "Queen's Pawn Game (1.d4, White systems)",
+    "historicalContext": "The label 'Queen's Pawn Game' predates modern opening theory — it originally meant any game starting 1.d4, before the main lines split off into named openings of their own. Today it survives as the umbrella for what's left over: the setup-based systems that deliberately avoid that named theory."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "1.d4 has two personalities. One leads into deeply analyzed theory — the Queen's Gambit, the Catalan, the King's Indian complex — where each side's move order matters enormously and preparation runs thirty moves deep. The other is a family of 'systems': the London, the Colle, the Torre, and the Trompowsky, which each build a specific, sound setup and repeat it against almost any reasonable reply. Systems trade some objective bite for reliability — you spend less time memorizing and more time understanding one structure deeply. This lesson shows how a single early decision by each side sends the game toward one system or another, and what each one is actually for."
+    },
+    {
+      "type": "strategy",
+      "title": "How the four divide the labor",
+      "body": "They aren't four versions of the same idea. The London (see The London System) develops the bishop to f4 and works against nearly anything, including 1...d5. The Colle keeps the bishop home and builds its whole plan around one pawn lever, e3-e4 — also aimed at 1...d5 setups. The Torre and the Trompowsky both pin a knight on f6 with Bg5, but at different moments: the Torre waits for ...e6 first, the Trompowsky pins on move two before Black has committed to anything. Which one you meet depends on what Black plays first."
+    }
+  ],
+  "line": [
+    {
+      "san": "d4",
+      "annotations": [
+        {
+          "type": "principle",
+          "body": "The queen's pawn stakes central space while staying defended by the queen from the start. Compare this to 1.e4: less immediately sharp, more often decided by whose plan is better understood."
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black meets the center with the center — the most natural reply, and the one that invites the London and the Colle. A different first move sends the game toward a different pair of systems, shown in the variation here."
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "d5" }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nf6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Committing the knight instead",
+                "body": "Developing first and delaying the central pawn decision invites a different pair of systems — ones built around pinning this very knight."
+              }
+            ]
+          },
+          {
+            "san": "Bg5",
+            "classification": "theory",
+            "importance": "notable",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The Trompowsky Attack",
+                "body": "White pins the knight before Black has played a single pawn move beyond 1...Nf6 — the most immediate, most committal of the four systems, and the sharpest. It sidesteps essentially all King's Indian, Nimzo-Indian, and Grunfeld theory in one move. See The Trompowsky Attack for the full picture."
+              }
+            ],
+            "visual": [
+              { "type": "arrow", "from": "g5", "to": "f6" }
+            ],
+            "variations": [
+              [
+                {
+                  "san": "Nf3",
+                  "annotations": [
+                    {
+                      "type": "commentary",
+                      "title": "The patient version",
+                      "body": "Instead of pinning immediately, White develops first and waits for Black to commit to ...e6 — one extra tempo of information before the same idea."
+                    }
+                  ]
+                },
+                "e6",
+                {
+                  "san": "Bg5",
+                  "classification": "theory",
+                  "annotations": [
+                    {
+                      "type": "key-idea",
+                      "title": "The Torre Attack",
+                      "body": "The same pin, one move later and with less risk — by now Black has played ...e6, so the sharp ...Ne4 tricks available against the immediate Trompowsky are less dangerous. See The Torre Attack for the full lesson."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "Ne4",
+          "Bf4"
+        ]
+      ]
+    },
+    "Nf3",
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Both sides have developed one piece. White's next move decides which named system this game becomes — what changes between developing the bishop to f4 right now versus playing a quiet pawn move first?"
+        }
+      ]
+    },
+    {
+      "san": "e3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The fork in the road",
+          "body": "This is the moment. Playing e3 keeps the bishop home and commits to the Colle's plan — a scripted central break later, not immediate piece activity. Playing Bf4 instead, before e3, is the London's whole idea: getting the bishop outside the pawn chain while the diagonal is still open (see the variation here, and The London System for the complete lesson). Neither choice is objectively better; they buy different things.",
+          "concepts": ["piece placement", "playing plans not moves"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "e3" },
+        { "type": "square", "square": "d4" }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bf4",
+            "classification": "theory",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The London System",
+                "body": "The bishop escapes the pawn chain before e3 walls it in — the London's signature idea, playable against almost any Black setup. This position transposes toward the lesson The London System, which covers the full plan (the e5 outpost, the kingside advance, and the ...Qb6 raid that punishes playing it on autopilot) in depth."
+              }
+            ]
+          },
+          "c5",
+          "e3",
+          "Nc6",
+          "c3"
+        ]
+      ]
+    },
+    "e6",
+    {
+      "san": "Bd3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Naming the system",
+          "body": "Unlike the London's bishop, this one stays home a move longer and then aims straight up the b1-h7 diagonal — the Colle's attacking bishop. From here the whole plan is a single pawn lever: e3-e4, played once development is complete. See The Colle System for the two named ways of preparing it."
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "d3", "to": "h7" }
+      ]
+    },
+    "c5",
+    "O-O",
+    "Nc6",
+    "Nbd2",
+    "Bd6",
+    "Re1",
+    "O-O",
+    {
+      "san": "c3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "One family, four scripts",
+          "body": "White has now reached the exact Colle formation, one move from choosing between its two named branches (c3, just played, or the fianchetto plan b3) — both covered fully in The Colle System. Step back and see the whole family: four systems, four different problems solved by essentially the same philosophy — develop soundly, deny the opponent easy targets, and let a well-prepared pawn break or outpost do the rest of the work.",
+          "concepts": ["pawn structure", "system-based play"]
+        }
+      ]
+    },
+    {
+      "san": "b6",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry forward: which system you reach is decided early, by Black's first move (1...d5 invites the London or Colle; 1...Nf6 invites the Torre or Trompowsky) and then by White's own choice of bishop square or pawn move; a system is a place to start playing chess, not a substitute for it — each of the four still demands real plans, not memorized moves; and 'less theory' does not mean 'less to learn' — it means the learning is about structures and squares instead of move orders. The four dedicated lessons go deep on each; this one is the map.",
+          "concepts": ["playing plans not moves", "system-based play"]
+        }
+      ]
+    }
+  ]
+}

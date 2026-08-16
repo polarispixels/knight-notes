@@ -1,0 +1,234 @@
+{
+  "id": "sicilian-four-knights",
+  "catalogCode": "O039",
+  "focus": "black",
+  "title": "The Sicilian Four Knights Variation",
+  "subtitle": "All four minor pieces out, and one big question about d5",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "Black develops both knights to their most natural squares before committing anything else, reaching a position where all four knights face off by move five. It has a modest reputation — solid, often drawish, and quick to transpose into Taimanov Variation middlegames — but it tests directly whether a student has really learned the family's most important structural lesson: what an early ...e5 costs, and what it's worth.",
+  "tags": ["Sicilian Four Knights Variation", "Sicilian Defense", "Open Sicilian", "Taimanov Variation", "Sveshnikov Variation", "outposts"],
+  "concepts": ["rapid development", "central tension", "outposts", "tempo", "piece activity"],
+  "metadata": {
+    "eco": "B45",
+    "opening": "Sicilian Defense: Four Knights Variation"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Black develops both knights before touching a bishop, a rook, or the d-pawn — the fastest, most symmetric development scheme in the whole Sicilian family. Honestly stated up front: this variation carries a modest reputation, solid but often drawish, and much of what happens after move six quickly resembles The Taimanov Variation rather than staying independent. What genuinely belongs to this lesson is the immediate test White can pose with 6.Ndb5 — the same jump that punishes a delayed ...d6 in the Taimanov and defines the Sveshnikov's whole opening tabiya, arriving here from yet another move order. Learning to meet it here proves the pattern has really sunk in."
+    }
+  ],
+  "line": [
+    "e4",
+    "c5",
+    "Nf3",
+    "e6",
+    "d4",
+    "cxd4",
+    "Nxd4",
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Develops toward e4, the same pressuring move every e6-Sicilian makes."
+        }
+      ]
+    },
+    "Nc3",
+    {
+      "san": "Nc6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "All four knights are now developed and the position looks almost symmetric. Has Black given White anything to work with by playing this so directly, rather than the Taimanov's patient ...Qc7 first?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Symmetry invites the sharpest test",
+          "body": "Yes — by committing the knight to c6 immediately, without first playing ...a6 or ...d6, Black allows White's most testing try at once. A calmer approach, trading on c6 right away, is covered in the variation and leads to one of the quietest positions in the whole Sicilian.",
+          "concepts": ["rapid development", "central tension"]
+        }
+      ]
+    },
+    {
+      "san": "Ndb5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The same jump, a third time",
+          "body": "This is the identical resource that punishes a premature ...Nf6 in the Taimanov and defines the whole Sveshnikov Variation from move six: the knight heads for d6, threatening to fork the king the instant Black leaves that square unguarded. It isn't a one-off trick — it's a structural vulnerability shared by every e6- or e5-based Sicilian that hasn't yet played ...d6.",
+          "concepts": ["outposts", "tempo"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nxc6",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The calm alternative",
+                "body": "White trades down immediately instead of testing Black's move order — a quieter continuation, and part of why the Sicilian Four Knights has a reputation as solid but drawish. No pawn ends up doubled here (Black's own c-pawn already left the board on move three), so the trade simply opens the b-file and hands over the bishop pair for free."
+              }
+            ]
+          },
+          "bxc6"
+        ]
+      ],
+      "visual": [{ "type": "arrow", "from": "b5", "to": "d6" }]
+    },
+    {
+      "san": "d6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Answering it correctly, immediately",
+          "body": "Black plugs the square at once. White won't sacrifice a knight for a pawn just to plant it on d6, so this single move fully neutralizes the threat — the same mechanism the Taimanov and Sveshnikov both rely on."
+        }
+      ]
+    },
+    {
+      "san": "Bf4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Develops with tempo-in-waiting, eyeing d6 and preparing to meet Black's freeing central break."
+        }
+      ]
+    },
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The Sveshnikov's hole, reached a different way",
+          "body": "Kicking the bishop, Black claims central space at the price of the same d5 weakness the Sveshnikov Variation accepts on purpose. Compare this directly to that lesson: there, ...e5 arrives after ...Nf6 has already been played; here, both knights were already out before the center pawn moved at all — the resulting structure, and the price Black pays for it, is the family's, not this variation's alone.",
+          "concepts": ["outposts", "central tension"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }]
+    },
+    {
+      "san": "Bg5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The genuine pin, again",
+          "body": "With e7 empty and the queen still on d8, this pins the f6-knight along a real diagonal — the identical device the Sveshnikov uses to double Black's kingside pawns and claim the bishop pair a few moves later."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g5", "to": "d8" }]
+    },
+    {
+      "san": "a6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Kicks the b5-knight before it can cause more trouble. Skipping this move has a real, immediate cost — see the variation."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Be7",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Development that skips a necessary tempo",
+                "body": "A perfectly natural developing move, but it ignores the b5-knight's other route into the game.",
+                "concepts": ["tempo"]
+              }
+            ]
+          },
+          {
+            "san": "Nd5",
+            "importance": "important",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "A fork Black has to answer at once",
+                "body": "The c3-knight jumps into the hole Black conceded on move seven, hitting the e7-bishop and the f6-knight simultaneously — and nothing yet controls d5, since neither the missing c-pawn nor an unplayed ...b5 is there to contest it. Black has to spend a move undoing the damage immediately, rather than developing on schedule.",
+                "concepts": ["outposts"]
+              }
+            ],
+            "visual": [{ "type": "square", "square": "d5" }]
+          },
+          {
+            "san": "Nxd5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The forked piece removes the forker",
+                "body": "The f6-knight — the very piece under attack — is the only one that can reach d5, so it captures its attacker directly, saving the bishop on e7 in the same move."
+              }
+            ]
+          },
+          {
+            "san": "exd5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White ends up with a protected pawn planted on d5, cramping Black's position — a small but permanent gain that ...a6 first would have prevented entirely."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Na3",
+    {
+      "san": "b5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Continues gaining queenside space and keeps the a3-knight from ever finding a good square again without further loss of time."
+        }
+      ]
+    },
+    {
+      "san": "Bxf6",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Cashing in the pin",
+          "body": "White captures before Black can unpin, doubling the kingside pawns and banking the bishop pair as compensation — precisely the trade the Sveshnikov Variation makes at this same stage, reached here by a completely different move order.",
+          "concepts": ["outposts"]
+        }
+      ]
+    },
+    {
+      "san": "gxf6",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The family's bargain, one more time",
+          "body": "Black's plan: the bishop pair, the broad d6-e5 pawn center, and the queenside space already gained with ...b5 — real, lasting compensation for the wrecked kingside pawns. White's plan: a healthier structure, two knights looking for outposts of their own (c4 for the a3-knight, d5 if it's ever undefended again), and patient pressure on the weaknesses the doubled f-pawns created.",
+          "concepts": ["piece activity", "outposts"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: the Ndb5-to-d6 resource is not a one-off trick belonging to any single named opening — it is a family-wide vulnerability every e6- or e5-Sicilian must handle, and this lesson is really a test of whether that pattern has been learned. The Bg5-pin-then-Bxf6 doubling trade is the same kind of shared bargain, appearing wherever an early central pawn push leaves e7 or d8 exposed to a bishop. And a 'drawish, low-theory' variation can still teach a lot — its value here was never in original theory, but in recognizing the family's patterns wearing different clothes.",
+          "concepts": ["outposts", "piece activity", "tempo"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "f6" }, { "type": "square", "square": "d5" }]
+    }
+  ]
+}

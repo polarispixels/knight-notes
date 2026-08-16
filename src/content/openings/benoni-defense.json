@@ -1,0 +1,250 @@
+{
+  "id": "benoni-defense",
+  "catalogCode": "O101",
+  "focus": "black",
+  "title": "The Benoni Defense",
+  "subtitle": "Trading a central pawn for permanent piece activity",
+  "type": "opening",
+  "difficulty": "advanced",
+  "summary": "Black lets White's d-pawn push past into enemy territory on purpose, accepting a permanent space concession in exchange for open lines, active piece play, and a queenside pawn majority that can become a long-term asset. It is the most structurally distinct of the Indian defenses — and the one where getting the plans wrong hurts fastest.",
+  "tags": ["Benoni Defense", "Benoni Defence", "Indian Game", "d4 defenses", "Modern Benoni", "Czech Benoni"],
+  "concepts": [
+    "asymmetric pawn structures",
+    "queenside expansion",
+    "piece activity vs. space",
+    "the fianchetto",
+    "prepared pawn breaks",
+    "dynamic compensation"
+  ],
+  "metadata": {
+    "eco": "A56, A60-A79",
+    "opening": "Benoni Defense",
+    "historicalContext": "'Benoni' comes from a 19th-century analysis of 1.d4 c5 by Aaron Reinganum, from the Hebrew for 'son of my sorrow' — a fittingly dramatic name for an opening where Black deliberately accepts a cramped, scarred pawn structure. The modern version, reached through 1.d4 Nf6 2.c4 c5, became a top-level weapon in the hands of Tal, Fischer, and Kasparov, who all trusted its dynamism over its structural cost."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Every other Indian defense keeps Black's pawn structure roughly intact while pieces do the fighting. The Benoni breaks that pattern on purpose: Black provokes White's d-pawn into advancing past the center, accepting a permanent wedge on d5 and a backward pawn of its own in exchange for open lines, a monster fianchettoed bishop, and a queenside pawn majority that can outrun White's kingside one. This lesson covers the umbrella — the shared bargain behind every ...c5 structure against 1.d4 Nf6 2.c4 — and shows how Black's choice on move 3 splits that bargain into two very different shapes: open and dynamic, or closed and solid."
+    }
+  ],
+  "line": [
+    "d4",
+    "Nf6",
+    "c4",
+    {
+      "san": "c5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black attacks d4 with a flank pawn instead of developing or fighting for e4 the way every other Indian defense does. White can simply push past with d5, gaining space and time. Why would Black invite that?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Inviting the wedge on purpose",
+          "body": "Because the push isn't free. When White advances to d5, that pawn becomes a fixed, unsupported salient deep in Black's half of the board — and Black's structure, once it fully forms, points a bishop straight at the long diagonal and opens lines for both rooks. The trade is explicit and honest: White gets more space and, usually, a small lasting structural edge; Black gets faster piece activity and open lines that last well past the opening. This is a dynamic opening, not a sound-and-safe one — the difficulty rating on this study is not an accident.",
+          "concepts": ["dynamic compensation", "asymmetric pawn structures"]
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The wedge",
+          "body": "White accepts the invitation and drives a pawn into Black's camp. From here Black's third move decides everything: trade the e-pawn and open the center for pieces (the Modern Benoni), lock the center closed with ...e5 (the Czech Benoni), or decline the whole bargain and offer a second pawn instead for even faster activity (the Benko Gambit). All three keep the same d5 wedge as their shared starting point.",
+          "concepts": ["asymmetric pawn structures"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }]
+    },
+    {
+      "san": "e6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The Modern Benoni begins",
+          "body": "Black immediately challenges the wedge pawn rather than living around it. This is the main line's choice — sharp, open, and the one that produces the opening's most famous games.",
+          "concepts": ["central undermining"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "e5",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The Czech Benoni",
+                "body": "Instead of trading in the center, Black locks it shut immediately, supporting e5 with the coming ...d6 and giving up any hope of opening the long diagonal for real. What Black buys is enormous solidity: no backward pawn, no weak d6 square, and a structure that is genuinely difficult to crack by force. What Black gives up is space and dynamism — this is the calm, closed cousin of the Modern Benoni, sharing its d5 wedge but almost none of its open-line tactics. It shares its patient, piece-maneuvering character with The King's Indian Defense more than with its own sharper sibling.",
+                "concepts": ["asymmetric pawn structures", "piece activity vs. space"]
+              }
+            ]
+          },
+          "Nc3",
+          "d6",
+          "e4"
+        ],
+        [
+          {
+            "san": "b5",
+            "classification": "sacrifice",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Declining the wedge — the Benko Gambit",
+                "body": "Rather than accept either Benoni structure, Black offers a second pawn immediately to blow open the queenside files before White can consolidate. This is a full gambit with its own cost/compensation logic, distinct enough to have earned its own dedicated study: The Benko Gambit.",
+                "concepts": ["dynamic compensation"]
+              }
+            ]
+          },
+          "cxb5"
+        ]
+      ]
+    },
+    "Nc3",
+    {
+      "san": "exd5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Trading now, rather than later, keeps the position from locking prematurely and gets the recapture over with while Black still has every piece at home.",
+          "concepts": ["central undermining"]
+        }
+      ]
+    },
+    {
+      "san": "cxd5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The Benoni structure appears",
+          "body": "This is the structure the entire opening is named for: White's pawn re-forms on d5, deep in Black's territory and defended by nothing but pieces, while Black keeps a pawn on c5 and, in a move, one on d6 backing it up. White has more space and, for now, freer development. Black's compensation is not yet visible on the board — it has to be built, move by move, starting now.",
+          "concepts": ["asymmetric pawn structures"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }]
+    },
+    "d6",
+    {
+      "san": "e4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White claims the full classical center behind the wedge — familiar hypermodern territory, and familiar hypermodern medicine coming for it.",
+          "concepts": ["asymmetric pawn structures"]
+        }
+      ]
+    },
+    {
+      "san": "g6",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The bishop's whole reason for existing",
+          "body": "The fianchetto here is not decoration — it aims straight down the a8-h1 diagonal at White's queenside, through the very squares Black's coming ...b5 break needs to be strong on. Compare this bishop's job to its counterpart in the King's Indian Defense: there it presses a fixed structure from outside the action; here it directly supports the pawn break Black's whole plan depends on.",
+          "concepts": ["the fianchetto"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g6", "to": "a1" }]
+    },
+    "Nf3",
+    "Bg7",
+    "Be2",
+    "O-O",
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Both sides complete development before the real fight starts. Notice what has NOT happened yet: neither side has played a single move on the queenside beyond the opening moves. That changes now.",
+          "concepts": ["prepared pawn breaks"]
+        }
+      ]
+    },
+    {
+      "san": "a6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black spends a tempo on a pawn move that develops nothing. What is it actually preparing, and why can't Black just play the break it's preparing immediately?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Preparing the break, not wasting time",
+          "body": "This sets up ...b5 without allowing White's knight on c3 to simply grab the pawn for free. Skip this preparation and the break can be refuted on the spot — see the mistake below. The whole Modern Benoni runs on this pattern: a prepared, well-timed pawn break beats an unprepared one every time — the same lesson quiet preparatory moves like c3 and h3 teach in the Ruy Lopez, where laying groundwork before committing is what makes the later plan actually work.",
+          "concepts": ["prepared pawn breaks"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "b5",
+            "classification": "blunder",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "The break played a move too soon",
+                "body": "This looks like the same idea one tempo faster, but without ...a6 first, nothing at all defends b5. White simply takes the free pawn, and Black's entire compensation — the whole point of accepting the Benoni's structural concessions — evaporates for nothing.",
+                "concepts": ["prepared pawn breaks"]
+              }
+            ]
+          },
+          {
+            "san": "Nxb5",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "A clean, undeserved pawn",
+                "body": "The c3-knight simply captures. There is no trick, no compensation, no follow-up — just a lost pawn for a Black structure that depends entirely on getting something concrete for its concessions. This is the clearest possible illustration of why the Benoni's dynamism has to be earned with preparation, not assumed.",
+                "concepts": ["dynamic compensation"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "a4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "White's restraint",
+          "body": "White's most natural response to the coming ...b5: fix the a-pawn in place and make the break harder to land cleanly. This is White's half of the queenside argument — Black wants the break, White wants to slow it down or make it cost more than it's worth.",
+          "concepts": ["prepared pawn breaks"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "b5" }]
+    },
+    {
+      "san": "Nbd7",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Both plans, laid out",
+          "body": "White's plans: restrain or meet ...b5, expand with e5 or f4 in the center, and lean on the permanent extra space. Black's plans: complete development, land ...b5 or ...Re8/...Ne5 outposts, and use the queenside pawn majority and open lines as a long game — a majority that, unlike White's kingside pawns, is not opposed by anything and can eventually create a passed pawn. Every Benoni middlegame is this same argument: space and structure on one side, activity and a long-term majority on the other.",
+          "concepts": ["asymmetric pawn structures", "dynamic compensation"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: the Benoni is an honest trade, not a trick — Black concedes real space and a real structural weakness (the backward d6 pawn) for real activity, and the compensation must be built with concrete moves, not hoped for; the same pawn break can be sound or a blunder depending entirely on whether it was prepared (compare ...a6 then ...b5 with the unprepared ...b5 above); and this umbrella covers two genuinely different games — the open, piece-active Modern Benoni and the closed, solid Czech Benoni — united only by the d5 wedge they both accept on move three.",
+          "concepts": ["dynamic compensation", "prepared pawn breaks", "asymmetric pawn structures"]
+        }
+      ]
+    }
+  ]
+}

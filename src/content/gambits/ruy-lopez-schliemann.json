@@ -1,0 +1,243 @@
+{
+  "id": "ruy-lopez-schliemann",
+  "catalogCode": "GB016",
+  "focus": "black",
+  "title": "The Schliemann Defense",
+  "subtitle": "Ruy Lopez, Jaenisch Gambit — counterattack before development",
+  "type": "gambit",
+  "difficulty": "advanced",
+  "summary": "Instead of asking the b5-bishop a quiet question with ...a6, Black strikes at e4 immediately with ...f5, offering structural damage and a stuck king in exchange for open lines and the first move in a fight neither side can avoid. It rewards precise calculation and punishes both sides for the smallest inaccuracy.",
+  "tags": ["Schliemann Defense", "Jaenisch Gambit", "Schliemann-Jaenisch Gambit", "Schliemann Variation", "Ruy Lopez", "Spanish Game"],
+  "concepts": ["counterattack", "open f-file", "piece activity", "king safety", "tactical calculation", "gambit play"],
+  "metadata": {
+    "eco": "C63",
+    "opening": "Ruy Lopez: Schliemann Defense (Jaenisch Gambit)"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Every other reply to 3.Bb5 in the family study — ...a6, the Berlin's ...Nf6 — accepts that Black will finish developing before the fighting really starts. The Schliemann refuses that bargain: 3...f5 attacks e4 on move three, before the king's knight, the bishop, or castling has happened at all. The cost is real (a loosened kingside, a king that may sit in the center a while, and a pawn that can simply be lost in some lines); the compensation is real too (open lines, active pieces, and a fight on Black's terms rather than White's). White can test this immediately, as the main line here shows, or decline the sharpest test with a calmer setup — both are legitimate, and this lesson shows why."
+    },
+    {
+      "type": "historical",
+      "title": "Named for two analysts, a century apart",
+      "body": "The idea is credited to the 19th-century Russian analyst Carl Jaenisch and later associated with the German player Adolf Schliemann, who popularized it in practice. It remains sound enough for occasional grandmaster use, but demands genuine tactical preparation from both sides — this is not a line to play from general principles alone."
+    }
+  ],
+  "line": [
+    "e4", "e5", "Nf3", "Nc6", "Bb5",
+    {
+      "san": "f5",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Attacking before developing",
+          "body": "Black strikes at e4 immediately instead of first asking the bishop a question with ...a6. The trade is explicit: the f8-bishop and the kingside knight are still at home, and the e-file may open toward Black's own king, but White cannot simply castle and build up quietly anymore — the position is already sharp on move three.",
+          "concepts": ["counterattack"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f5", "to": "e4" }]
+    },
+    {
+      "san": "Bxc6",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Testing the structure at once",
+          "body": "Trading the bishop for the knight right away damages Black's pawns before Black gets to choose how to meet the center. It gives up the piece most Ruy Lopez lines fight to keep, in exchange for the immediate structural question this variation is built to answer. The sharper 4.Nc3, shown in the variation here, tests Black's nerve instead of Black's structure.",
+          "concepts": ["doubled pawns"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nc3",
+            "classification": "theory",
+            "importance": "notable",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The sharper main try",
+                "body": "Instead of settling the structure, White develops and lets Black decide whether to keep the tension on e4. This is considered the most critical test of the Schliemann in serious theory, and it leads to heavily analyzed forcing lines well beyond what a first look can safely calculate over the board.",
+                "concepts": ["sharp forcing tactics"]
+              }
+            ]
+          },
+          {
+            "san": "fxe4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black cashes in the tension rather than let White choose the moment — consistent with the whole opening's philosophy of striking first."
+              }
+            ]
+          },
+          "Nxe4",
+          {
+            "san": "d5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The point of recapturing with the knight rather than the pawn: this central push now attacks it directly, gaining a tempo Black can use to build a strong pawn center."
+              }
+            ]
+          },
+          {
+            "san": "Ng3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Where the real theory begins",
+                "body": "The safe retreat, watching f5 and h5. From here Black can grab even more central space with ...e4, and the position turns into one of the most heavily memorized forcing lines in the whole Ruy Lopez complex — precise, narrow, and not a place to improvise. This lesson stops here rather than presenting invented depth; treat this position as the doorway into dedicated Schliemann theory, not the end of it."
+              }
+            ]
+          },
+          "e4"
+        ]
+      ]
+    },
+    {
+      "san": "dxc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Recapturing toward the center opens the c8-bishop's diagonal and keeps the extra central pawn mass, at the cost of doubled c-pawns — the same trade-off the family study's Exchange Variation makes, reached here by a completely different move order.",
+          "concepts": ["doubled pawns"]
+        }
+      ]
+    },
+    {
+      "san": "Nxe5",
+      "classification": "mistake",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "warning",
+          "title": "The pawn grab that isn't — again",
+          "body": "This looks like a free pawn: nothing currently defends e5, since the knight that once did is gone. But grabbing it walks straight into a tactic, in the same spirit as the family study's own ...Qd4 lesson — the position underneath the capture matters more than the pawn sitting on top of it."
+        }
+      ]
+    },
+    {
+      "san": "Qd4",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "One move attacks both the knight on e5 and the pawn on e4. Where should the knight go, and does it matter?"
+        },
+        {
+          "type": "tactic",
+          "title": "The double attack",
+          "body": "White cannot save both the knight and the pawn with a single move. Every square the knight retreats to still leaves e4 undefended, so Black recovers at least the pawn no matter what happens next — the exact fork motif the family study introduced on move four, resurfacing here in a completely different structure.",
+          "concepts": ["pressure on e5"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "d4", "to": "e5" },
+        { "type": "arrow", "from": "d4", "to": "e4" }
+      ]
+    },
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The best practical try: the knight escapes to safety while attacking the queen, forcing Black to spend a tempo before collecting the pawn.",
+          "concepts": ["calculation"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "O-O",
+            "classification": "blunder",
+            "importance": "important",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "Castling into a hanging piece",
+                "body": "This ignores both problems at once. The knight on e5 is undefended and the queen still attacks it — castling does nothing to save it.",
+                "concepts": ["unsafe pawn grabbing"]
+              }
+            ]
+          },
+          {
+            "san": "Qxe5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black simply takes the free knight. No trick rescues it — the position needed a move that actually addressed the attack, and O-O was not that move."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Qxe4+",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Collecting on schedule",
+          "body": "The queen escapes the attack on itself and grabs the pawn with check in the same move — the fork from two moves ago is now cashed in completely.",
+          "concepts": ["pressure on e5"]
+        }
+      ]
+    },
+    "Qe2",
+    {
+      "san": "Qxe2+",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Trading into a permanent concession",
+          "body": "Black offers the queen trade rather than retreat. Removing White's most active piece is worth more here than keeping queens on, since what follows costs White something that can never be undone.",
+          "concepts": ["defense"]
+        }
+      ]
+    },
+    {
+      "san": "Kxe2",
+      "classification": "critical",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The verdict on move eight",
+          "body": "Nothing else can recapture on e2, so the king is forced to do it — White has permanently lost the right to castle, four moves after Black gambled on the exact same kind of long-term concession with the doubled c-pawns. Material is even. White's compensation is a healthier kingside pawn structure and a king that, for now, is not really in danger with the queens gone; Black's is the bishop pair, an open d-file for a coming rook, and a White king that will need real care for the rest of the game.",
+          "concepts": ["king safety"]
+        }
+      ]
+    },
+    {
+      "san": "Be6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black develops toward the open d-file rather than rushing anywhere, keeping the long-term structural argument (the bishop pair against a king stuck in the center) simple to execute."
+        }
+      ]
+    },
+    "Nc3",
+    {
+      "san": "O-O-O",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry out of this gambit: the same tactical justification that protects 3.Bb5 in every quiet Ruy Lopez line — a hanging-looking pawn on e5 defended by a fork — reappears even in the sharpest, most provocative branches, so it is always worth checking for; trading queens does not neutralize a structural concession like lost castling rights, it just changes what compensates for it; and a gambit's true cost often isn't material at all — here it is a permanently centralized king, weighed for the rest of the game against doubled pawns on the other side.",
+          "concepts": ["king safety", "piece activity"]
+        }
+      ]
+    }
+  ]
+}

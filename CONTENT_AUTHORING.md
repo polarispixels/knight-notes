@@ -311,8 +311,49 @@ content should follow them.
   the content directory is the source of truth): G### famous games,
   O### openings, GB### gambits, TR### traps, TA### tactics/patterns,
   E### endgames, C### concepts.
+- **Openings** are governed by the Opening Catalog
+  (`src/data/openings-catalog.json` — see below). Every opening/variation/
+  gambit lesson: root key-idea framing why the opening exists and its
+  central question (variation lessons locate themselves in their family in
+  one sentence); mainline continued to a position where both sides'
+  middlegame plans are visible, with a closing plans + "what you should
+  have noticed" recap; variations prioritize the catalog's branch-only
+  names assigned to the lesson, each introduced by a titled annotation;
+  tradeoffs stated honestly (what the opening gains AND concedes; dubious
+  lines say so and show the calm antidote); `metadata.eco` and
+  `metadata.opening` from the catalog entry; aliases from the catalog in
+  `tags`. Variation lessons go deeper than their family lesson — they never
+  re-teach it.
 - **Question annotations** go on the move *before* a critical moment;
   openings pair "question of the position" cards with key-idea answers.
 - **Endgame and tactics claims** (win/draw/mate/stalemate) must be
   mechanically verified (chess.js replay incl. isStalemate/isCheckmate),
   not asserted; state side-to-move assumptions explicitly.
+
+## The Opening Catalog
+
+Opening lessons don't stand alone: `src/data/openings-catalog.json` is the
+curated map of opening theory (ontology in `src/domain/openings/types.ts`,
+design in DESIGN_SPEC.md "Opening Catalog") that powers the `/openings`
+browser, alias search, and hierarchy. The catalog gate runs in
+`npm run validate:content`.
+
+**To add a new opening later:**
+
+1. Add (or edit) the catalog entry first. Pick the one canonical name; put
+   every other recognized name in `aliases`. Choose the editorial tier by
+   the standalone test: does it see real play, carry history, or teach
+   substantially different chess from its parent? If not, make it
+   `branch-only` (set `branchOfLessonId` to the lesson that will cover it)
+   and stop — no new study.
+2. For a standalone tier, set `lessonId` equal to the entry id, wire
+   `parentId`/`familyId` (families carry `group`), give `moves` as the
+   canonical SAN order (the gate replays it — never write FENs), ECO,
+   themes/motifs/structures, and `related`/`transposesTo` where genuinely
+   informative.
+3. Write the StudySeed at `src/content/openings/<lessonId>.json` (or
+   `gambits/` with type `gambit` for gambit-charactered openings), next
+   free `O###`/`GB###` code, following the Openings bullet above.
+4. `npm run validate:content` — the catalog gate confirms wiring and move
+   legality; the content gate validates the study. The browser picks the
+   lesson up automatically via `lessonId`.

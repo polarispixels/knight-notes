@@ -1,0 +1,166 @@
+{
+  "id": "queens-gambit-declined-cambridge-springs",
+  "catalogCode": "O086",
+  "focus": "black",
+  "title": "Queen's Gambit Declined: Cambridge Springs Defense",
+  "subtitle": "A move-order trick that turns development into a trap",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "The Cambridge Springs Defense reaches a Queen's Gambit Declined middlegame through a sharper move order: Black keeps the dark-squared bishop at home so the queen can jump to a5 and pin White's c3-knight to the king directly, not just to a bishop. It rewards a defender who can tell real pressure from a bluff — and it carries one of the best-known traps in classical opening theory for the side that answers on autopilot.",
+  "tags": [
+    "Cambridge Springs Defense",
+    "Cambridge Springs Variation",
+    "Cambridge Springs Defence",
+    "Queen's Gambit Declined",
+    "Queen's Gambit",
+    "QGD",
+    "d4 defenses"
+  ],
+  "concepts": [
+    "the pin",
+    "queen activity",
+    "king safety",
+    "development",
+    "tactical vigilance"
+  ],
+  "metadata": {
+    "eco": "D52",
+    "opening": "Queen's Gambit Declined: Cambridge Springs Defense",
+    "historicalContext": "Named for the 1904 Cambridge Springs tournament in Pennsylvania, where several leading players adopted this queen sortie against the Queen's Gambit. It remains one of the few QGD lines named for a place rather than a person."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Queen's Gambit Declined showed how Black holds d5 and frees the position with patient development. The Cambridge Springs Defense asks a sharper question: what if Black delays the dark-squared bishop on purpose, so the queen can jump to a5 while c3 is still pinned directly to the king? The central question of this line is timing — the pin is real and dangerous for White for exactly as long as it takes to neutralize it, and several natural-looking White replies fail outright during that window."
+    },
+    {
+      "type": "historical",
+      "title": "A tournament, not a person",
+      "body": "Most named QGD lines carry a player's name — Lasker, Tartakower, Rubinstein. This one is named for the town where it saw its earliest important tests, a reminder that opening theory is built collectively, over the board, not only in analysis rooms."
+    }
+  ],
+  "line": [
+    "d4",
+    "d5",
+    "c4",
+    "e6",
+    "Nc3",
+    "Nf6",
+    "Bg5",
+    {
+      "san": "Nbd7",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Development out of order, on purpose",
+          "body": "In the Orthodox tree, Black plays ...Be7 before ...Nbd7 — the bishop sits on the g5-bishop's own diagonal, so the Bg5 pin on the f6-knight lands softly, against a bishop, rather than against anything more valuable. That pin is a separate piece of geometry from the one this defense is built around. Here Black leaves e7 empty and the dark-squared bishop's development stays postponed, keeping the queen free to jump to a5 later and open up a completely different diagonal, the one running through c3 to the king.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    "e3",
+    "c6",
+    "Nf3",
+    {
+      "san": "Qa5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The queen leaves the back rank early — usually a small strategic sin in the opening. Look at the diagonal from a5 to White's king on e1. Is anything actually wrong with White's position right now?"
+        },
+        {
+          "type": "key-idea",
+          "title": "An absolute pin, not a soft one",
+          "body": "Because e7 is still empty, the diagonal a5–b4–c3–d2–e1 is completely open: the knight on c3 is pinned directly against White's own king and cannot legally move at all. That is a genuine, immediate problem, not the standing pressure of a normal Bg5 pin. At the same time, the queen sortie unpinned Black's own f6-knight (it was never pinned to a queen that has left d8), so ...Ne4 ideas hitting both c3 and g5 are suddenly in the air too. Nothing is winning yet, but White must spend the next move addressing this — natural development is not automatically safe here.",
+          "concepts": ["the pin", "tactical vigilance"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "a5", "to": "e1" },
+        { "type": "square", "square": "c3" }
+      ]
+    },
+    {
+      "san": "Nd2",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The knight that can move retreats",
+          "body": "White doesn't touch the pinned c3-knight — it can't move anyway. Instead the OTHER knight retreats from f3, and this single move does two jobs at once: it guards e4 with a piece that creates no follow-up double attack if captured, and it lands squarely on the a5–e1 diagonal itself, between the pinned knight and the king. That's not preparation for a future block — the knight on d2 is the interposition, breaking the pin the instant it arrives. The natural-looking alternative, 7.Bd3, ignores the diagonal entirely and loses material outright — see The Cambridge Springs Trap for exactly how.",
+          "concepts": ["king safety", "tactical vigilance"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "cxd5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Simplifying instead of untangling",
+                "body": "White can also just remove the tension altogether. After the recapture the position resembles a normal Exchange-style structure, except Black's queen is already developed to a5 with an eye on the queenside — a small, real asset if White ever tries a minority attack of their own."
+              }
+            ]
+          },
+          "exd5"
+        ]
+      ]
+    },
+    {
+      "san": "Bb4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A second attacker on the same square",
+          "body": "The bishop finally develops, landing on the same diagonal and adding direct pressure on c3. The point isn't to double up on an already-troubled square for its own sake — it's to keep ...Bxc3 available, which would wreck White's queenside pawn structure the moment it's the right moment to trade.",
+          "concepts": ["the pin", "development"]
+        }
+      ]
+    },
+    {
+      "san": "Qc2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops the queen off the back rank, connects the rooks' future coordination, and adds a defender toward the center and the e4 square. Quiet, useful, and it sidesteps any further diagonal tricks.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "With the immediate tactics defused, Black castles and the position settles into a genuine QGD middlegame — except Black's pieces are already more actively placed than in the quiet Orthodox lines, at the cost of a bishop and queen that will need to find good long-term posts.",
+          "concepts": ["king safety"]
+        }
+      ]
+    },
+    {
+      "san": "Be2",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The trap window has closed, the middlegame begins",
+          "body": "White finishes developing safely and is ready to castle. From here the game splits along the familiar QGD lines: White can look for the moment to trade on d5 and try a queenside minority attack, or hold the tension and play in the center; Black will look to resolve with ...dxc4 and ...e5, or trade the bishop on c3 to damage White's structure when the timing is right. The bishop and knight that took the unusual route (b4 and d7) still need good final squares — that is the price Black paid for five moves of real pressure early on.",
+          "concepts": ["queen activity", "development"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: move order changes tactics even when the target square is the same — the same Bg5 pin is soft against a bishop and absolute against a king, depending only on whether e7 is occupied; a queen sortie that looks premature can be objectively correct if it creates a real problem the opponent must answer specifically; and 'natural' moves are only safe when they answer the actual demands of the position — 7.Nd2 looks passive but was the only move that did.",
+          "concepts": ["the pin", "tactical vigilance", "development"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e2", "to": "b5" }]
+    }
+  ]
+}

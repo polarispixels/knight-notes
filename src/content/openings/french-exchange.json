@@ -1,0 +1,210 @@
+{
+  "id": "french-exchange",
+  "catalogCode": "O063",
+  "focus": "white",
+  "title": "The French Exchange Variation",
+  "subtitle": "A mirror with one extra move in it",
+  "type": "variation",
+  "difficulty": "beginner",
+  "summary": "The Exchange Variation has a reputation as the French player's escape hatch — trade the center, reach a symmetrical structure, split the point. That reputation is only half true: the same tempo that makes the position look drawn lets White aim a real battery at h7 and a real minority attack at c6. Learn where the Exchange's imbalances actually come from, because 'symmetrical' does not mean 'safe' for either side.",
+  "tags": ["French Defense", "Exchange Variation", "French Exchange", "e4 openings", "symmetrical pawn structure", "minority attack"],
+  "concepts": [
+    "symmetrical structure",
+    "reputation vs. reality",
+    "minority attack",
+    "kingside battery",
+    "isolated queen's pawn",
+    "the extra tempo"
+  ],
+  "metadata": {
+    "eco": "C01",
+    "opening": "French Defense: Exchange Variation",
+    "historicalContext": "Club players often reach for 3.exd5 specifically hoping for a quick, low-effort draw against the French — the position's nickname in some circles is essentially 'the handshake variation.' That reputation says more about how it is usually played than about what the position actually contains."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study, The French Defense, met this position as a short branch off the main Advance-Variation road. Here we ask the question that branch left open: is the Exchange actually a draw, or does someone win here — and if so, why? Both sides get the identical structure with identical pawns, but White moves first, which means White's plans (a kingside battery, a minority attack) tend to arrive one tempo sooner than Black's mirror-image versions of the same plans. A 'symmetrical' position is not a peaceful one — it is a race, and this lesson is about learning to run it."
+    }
+  ],
+  "line": [
+    "e4",
+    "e6",
+    "d4",
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White is about to remove all central tension with exd5. Doesn't trading down to a perfectly mirrored pawn structure just invite a draw?"
+        }
+      ]
+    },
+    {
+      "san": "exd5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The defining move of the variation: White dissolves the center immediately rather than pushing past it (the Advance) or defending it with a piece (the Classical)."
+        }
+      ]
+    },
+    {
+      "san": "exd5",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The reputation, examined",
+          "body": "No — not automatically. The structure is symmetrical, but chess is not checkers: identical pawns do not force an identical result, because White still has the move. Every plan available to Black here is also available to White, one tempo earlier. Whoever executes their plan with more purpose — kingside buildup, queenside minority attack, or simply better piece activity — gets the better game. The draw only happens when both sides play passively at the same time, which is a choice, not a law of the position.",
+          "concepts": ["reputation vs. reality", "the extra tempo"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "c8" }]
+    },
+    "Nf3",
+    "Nf6",
+    "Bd3",
+    "Bd6",
+    "O-O",
+    "O-O",
+    {
+      "san": "Re1",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A flexible waiting move",
+          "body": "The rook steps off f1 to a more useful file without committing to a plan yet. White can still choose between the kingside buildup shown in the main line and the immediate queenside expansion shown in the minority-attack variation below."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "c4",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Challenging the symmetry directly",
+                "body": "Instead of waiting, White breaks the mirror at once. This is where the Exchange's real imbalances are manufactured on purpose rather than found by accident.",
+                "concepts": ["isolated queen's pawn"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "c4", "to": "d5" }]
+          },
+          "dxc4",
+          {
+            "san": "Bxc4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "An honest trade: activity for a target",
+                "body": "White now carries an isolated d-pawn — a long-term weakness that a good blockader can needle for the rest of the game. In exchange, the bishop is active on c4, development is fast, and the c-file is half-open. Black takes aim at d4 immediately; if the piece activity doesn't turn into something concrete, the isolani becomes exactly the target Black hoped for. This is the honest tradeoff of the c4 break, not a free improvement.",
+                "concepts": ["isolated queen's pawn", "reputation vs. reality"]
+              }
+            ],
+            "visual": [{ "type": "square", "square": "d4" }]
+          },
+          "Nc6"
+        ],
+        [
+          {
+            "san": "b4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The minority attack — even in a mirror",
+                "body": "White's queenside pawns are a mirror of Black's, so this is not the classic Carlsbad minority attack against a numerical deficit — it's a race to be first. The target is whichever pawn ends up supporting Black's center; c6, once played, is the usual one.",
+                "concepts": ["minority attack", "the extra tempo"]
+              }
+            ]
+          },
+          "c6",
+          {
+            "san": "b5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The point arrives quickly: White challenges the pawn that was defending d5 before Black has had time to consolidate. Most games reach this idea later, after more development — it is shown here early to make the mechanism as clear as possible."
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "b5", "to": "c6" }]
+          },
+          "cxb5",
+          {
+            "san": "Bxb5",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "body": "The trade leaves Black's d5-pawn without its natural defender and opens the b-file for White's rook — real, concrete progress out of a position that looked perfectly even five moves ago.",
+                "concepts": ["minority attack"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Bg4",
+    "c3",
+    {
+      "san": "Nbd7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Routine development — but notice the knight can no longer reach e5, the square that would have blocked White's coming plan. Small piece-placement decisions like this one are where symmetrical positions quietly stop being symmetrical."
+        }
+      ]
+    },
+    "Nbd2",
+    "Re8",
+    "h3",
+    {
+      "san": "Bh5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop keeps its pin on the same diagonal rather than surrender it — trading on f3 or retreating fully would each hand White a small, free improvement."
+        }
+      ]
+    },
+    {
+      "san": "Qc2",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The kingside battery — where the reputation breaks down",
+          "body": "Bishop on d3 and queen on c2 now share the same diagonal aimed at h7. This is not yet a threat — h7 is defended by the king and the f6-knight, so nothing is hanging this move. But it is the concrete plan the 'boring' reputation ignores: Ne5, a rook lift, or a timely piece sacrifice on h7 can turn this quiet battery into a real kingside attack. This is the single most important idea in the variation: the symmetrical structure does not prevent an attack, it just delays the moment White needs a second attacker to make the battery bite.",
+          "concepts": ["kingside battery", "reputation vs. reality"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "d3", "to": "h7" },
+        { "type": "arrow", "from": "c2", "to": "h7" },
+        { "type": "square", "square": "h7" }
+      ]
+    },
+    {
+      "san": "c6",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "What you should have noticed",
+          "body": "Black shores up d5 and keeps options open — but this is also the very pawn a minority attack with b4-b5 would target, as the variation above shows. From here, White's plans are the battery (building toward Ne5 and a kingside attack) or the minority attack (b4-b5 against c6); Black's mirror-image plans are the same ideas one tempo later, plus the simple ...c5 break to challenge d4 directly.",
+          "concepts": ["kingside battery", "minority attack"]
+        },
+        {
+          "type": "key-idea",
+          "title": "Where the imbalances actually come from",
+          "body": "Three lessons: identical pawn structures do not force identical results — the side that finishes a real plan first wins the point; a threat and a reputation are different things — a battery pointed at h7 is not dangerous until a second piece joins it, no matter how ominous it looks; and every attacking idea available to White here (kingside buildup, queenside minority attack) has a mirror version available to Black, which is exactly why passive play from both sides — not the structure itself — is what actually produces the 'boring draw.'",
+          "concepts": ["reputation vs. reality", "the extra tempo", "symmetrical structure"]
+        }
+      ]
+    }
+  ]
+}

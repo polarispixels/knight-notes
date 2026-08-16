@@ -1,0 +1,164 @@
+{
+  "id": "alapins-opening",
+  "catalogCode": "O013",
+  "focus": "white",
+  "title": "Alapin's Opening",
+  "subtitle": "1.e4 e5 2.Ne2 — flexibility instead of a threat",
+  "type": "opening",
+  "difficulty": "beginner",
+  "summary": "White's mildest possible reply to 1...e5: instead of fighting for the center or attacking anything, the knight develops to a square that keeps every plan -- d4, g3, even a later f4 -- available a move longer. It is genuinely rare enough that almost no opponent will have prepared for it, and this lesson tests that flexibility honestly: what it buys, and what a whole tempo of pressure on e5 costs to give up.",
+  "tags": ["Alapin's Opening", "Alapin Opening", "e4 openings", "flexible systems", "fianchetto"],
+  "concepts": [
+    "flexible development",
+    "fianchetto",
+    "central tension",
+    "pawn breaks",
+    "prophylaxis",
+    "piece coordination"
+  ],
+  "metadata": {
+    "eco": "C20",
+    "opening": "Alapin's Opening (1.e4 e5 2.Ne2)",
+    "historicalContext": "Named for Semyon Alapin, a 19th-century Russian master who explored several unusual systems. Not to be confused with the Alapin Variation of the Sicilian Defense (2.c3, ECO B22) -- a completely different opening that happens to carry the same name, since Alapin also analyzed that idea against 1...c5. Same man, two unrelated openings."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Alapin's Opening asks a simple question: does a developing move have to create a threat to be good? 2.Ne2 attacks nothing -- unlike 2.Nf3, it doesn't even pressure e5 -- and it temporarily blocks White's own bishop. What it buys instead is flexibility: White hasn't committed to fighting for the center with d4, to fianchettoing with g3, or to anything else. Watch how long White can delay that decision, and judge for yourself whether the delay was worth the lost tempo."
+    },
+    {
+      "type": "historical",
+      "title": "Two openings, one name",
+      "body": "If you search for 'the Alapin' online, most results will be about the Sicilian Alapin Variation (1.e4 c5 2.c3), a completely different and far more common opening. This lesson covers a different, much rarer line: Alapin's own idea against 1...e5. Keep the names straight -- a curious student who searches 'Alapin' deserves to find both, correctly labeled."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    {
+      "san": "Ne2",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Development with no threat at all",
+          "body": "Compare this to 2.Nf3, which develops and attacks e5 in one move. Ne2 does neither job as well: it doesn't touch e5, and it sits on the square White's own king's bishop normally passes through on its way to c4 or b5. The point isn't offense -- it's patience. Every central plan (d4, a kingside fianchetto, even a later f4) is still on the table, and Black has to guess which one is coming."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f1", "to": "c4" }]
+    },
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black has nothing to answer -- no threat exists yet -- so simple, natural development is enough. This is the practical cost of White's move: Black gets a completely free hand for now."
+        }
+      ]
+    },
+    {
+      "san": "g3",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Solving the bishop's problem",
+          "body": "Since the knight blocks the bishop's usual diagonal, White finds it a different, equally strong home instead: the long a1-h8 diagonal via g2. This is the most common way to make Alapin's Opening coherent rather than merely quiet.",
+          "concepts": ["fianchetto"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g2", "to": "b7" }]
+    },
+    "g6",
+    "Bg2",
+    "Bg7",
+    "O-O",
+    {
+      "san": "Nge7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Why not the natural Nf6",
+          "body": "The knight sidesteps f6 on purpose -- that square sits on the same long diagonal as White's own fianchettoed bishop, so a knight there would block Black's bishop the same way White's own knight blocked its bishop back on move 2. Small detail, same lesson twice in one game.",
+          "concepts": ["piece coordination"]
+        }
+      ]
+    },
+    {
+      "san": "c3",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Preparing the break, not rushing it",
+          "body": "c3 supports a future d4 the same way it does in many Ruy Lopez lines -- a pawn move that looks slow but arms the central break instead of playing it a move too early.",
+          "concepts": ["pawn breaks", "prophylaxis"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d4" }]
+    },
+    "O-O",
+    {
+      "san": "d4",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Two pieces support the break",
+          "body": "Both the c3 pawn and the e2 knight cover d4, so White can recapture on d4 with either the pawn or the knight after the coming exchange -- a choice, not a forced structure. This is what six quiet moves of flexibility were actually for.",
+          "concepts": ["pawn breaks"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "e2", "to": "d4" },
+        { "type": "square", "square": "d4" }
+      ]
+    },
+    "exd4",
+    {
+      "san": "cxd4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White recaptures with the pawn rather than the knight, keeping a full pawn duo (d4 and e4) and leaving the knight free to reroute later. The position now has an open, symmetrical-looking center -- but not for long."
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black stakes out central space of their own. The two center pawns (White's d4/e4, Black's d5) are about to bump into each other -- what should White do about it?"
+        }
+      ]
+    },
+    {
+      "san": "e5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Space, not a threat",
+          "body": "White pushes past rather than trading, gaining a spearhead pawn on e5 supported by d4. Notice this doesn't attack anything -- Black's knight went to e7 rather than f6 precisely so this advance wouldn't hit a piece. The point is purely structural: more space, and a head start on any kingside plans.",
+          "concepts": ["central tension", "pawn breaks"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e5" }]
+    },
+    {
+      "san": "f6",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The standard answer to an advanced pawn",
+          "body": "Black immediately challenges the e5 pawn with the classic structural break -- the same idea that appears against an advanced e5 pawn in many French Defense lines, regardless of how the position was reached. White must now decide whether to hold the tension, trade, or push again; the middlegame plans on both sides (a timely f-file opening for Black, kingside expansion or piece activity for White) grow directly out of this pawn chain."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry out of this opening: a developing move doesn't need to threaten anything to be sound, but the cost is real tempo Black gets to spend freely; a piece's best square often depends on what it does NOT block (Nge7 avoided crowding both the fianchettoed bishop and, later, the e5 pawn's target); and even the quietest, rarest system eventually produces a completely ordinary, recognizable structure -- flexibility only delays the decision, it doesn't avoid one."
+        }
+      ]
+    }
+  ]
+}

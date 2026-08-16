@@ -1,0 +1,250 @@
+{
+  "id": "modern-benoni",
+  "catalogCode": "O115",
+  "focus": "black",
+  "title": "The Modern Benoni",
+  "subtitle": "Trading queenside space for piece activity — on purpose",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "Black lets White build an imposing pawn wedge on d5 and then plays around it rather than against it: an active fianchettoed bishop, a knight eyeing c7 and b5, and a coming ...b5 break turn a cramped-looking position into a dynamic fight. This is the sharpest, most committal branch of the Benoni Defense family — a real weapon at every level, from club players to Kasparov's own repertoire.",
+  "tags": ["Modern Benoni", "Modern Benoni Defense", "Benoni Defense", "Indian Game", "d4 openings", "Taimanov Variation", "Flick-Knife Attack"],
+  "concepts": ["space vs. piece activity", "the backward pawn", "dynamic imbalance", "pawn breaks", "outposts", "piece activity"],
+  "metadata": {
+    "eco": "A60-A79",
+    "opening": "Modern Benoni Defense",
+    "historicalContext": "The Modern Benoni became a fixture of Kasparov's early repertoire and later a favorite of sharp attacking players like Topalov — a defense chosen precisely because it refuses to play it safe."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Benoni Defense family is built around a single structural idea: Black meets 1.d4 with ...c5, inviting White to push d5 and claim queenside space rather than contest the center pawn-for-pawn. The Modern Benoni is the family's most direct, most-played branch — Black immediately opens the position with ...e6 and ...exd5, accepting a spatial disadvantage in exchange for active pieces and a clear plan. The question this lesson answers: how does Black make a cramped position dangerous instead of merely uncomfortable?"
+    }
+  ],
+  "line": [
+    "d4",
+    "Nf6",
+    "c4",
+    {
+      "san": "c5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The Benoni family's defining move",
+          "body": "Rather than matching White's center pawn for pawn, Black strikes at d4 from the side. This is the move that puts every Benoni structure — Modern, Czech, Benko Gambit — on the table."
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White advances rather than exchange, claiming central space that will last the whole game — a genuine long-term asset that Black's entire plan is built to compete with."
+        }
+      ]
+    },
+    {
+      "san": "e6",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black immediately challenges the d5 pawn rather than developing quietly. If the position simply opens up, hasn't Black just handed White a protected, space-gaining pawn wedge for free?"
+        }
+      ]
+    },
+    "Nc3",
+    {
+      "san": "exd5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black trades the e-pawn for the chance to fix White's structure — the point becomes clear on the next move."
+        }
+      ]
+    },
+    {
+      "san": "cxd5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The Modern Benoni structure, in one move",
+          "body": "White recaptures with the c-pawn rather than lose the outpost on d5, and this is the answer to the question two moves ago. Black doesn't want to prevent White's space — Black wants exactly this: a fixed pawn on d5 that Black's pieces, not pawns, will spend the game working against. It costs Black nothing to reach this on purpose.",
+          "concepts": ["space vs. piece activity"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }]
+    },
+    {
+      "san": "d6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The famous backward pawn",
+          "body": "This pawn on d6 is permanently behind Black's own c5 pawn and can never safely advance — a genuine structural weakness. But it's also easy to defend for now, and the compensation is everything Black's pieces gain in return: an open e-file, a clear diagonal for the coming fianchetto, and a target-free position for White to attack.",
+          "concepts": ["the backward pawn"]
+        }
+      ]
+    },
+    {
+      "san": "e4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White claims the full classical center before deciding on a plan — the most common, most direct approach."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "g3",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The Fianchetto Variation — a quieter test",
+                "body": "Rather than grab the full center with e4, White develops the king's bishop toward the same long diagonal Black's own bishop wants. This avoids the sharp races of the Classical and Taimanov approaches entirely, aiming instead for a long positional squeeze based on piece pressure down the a1-h8 diagonal and slow queenside expansion. It's a completely different kind of test — patience instead of a race."
+              }
+            ]
+          },
+          "g6",
+          "Bg2",
+          "Bg7",
+          "Nf3",
+          "O-O"
+        ]
+      ]
+    },
+    "g6",
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White's most common developing choice — the Classical Main Line, building the center to its fullest before deciding on a plan."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "f4",
+            "classification": "theory",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Taimanov Variation (the Flick-Knife Attack)",
+                "body": "Instead of quiet development, White prepares an immediate kingside pawn storm — f4 followed by f5 as soon as possible, trying to blow the position open before Black's pieces finish coordinating. It's nicknamed the Flick-Knife Attack for exactly this suddenness, and it's the sharpest, most theoretically demanding test any Benoni player will face.",
+                "concepts": ["dynamic imbalance"]
+              }
+            ]
+          },
+          "Bg7",
+          {
+            "san": "Bb5+",
+            "classification": "critical",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "A check before the storm",
+                "body": "This in-between check disrupts Black's development before the coming f5 break — Black must spend a move blocking or interposing (commonly ...Nfd7 or ...Bd7) instead of simply castling into safety. Every tempo White gains here shortens the race to f5.",
+                "concepts": ["dynamic imbalance"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "b5", "to": "e8" }]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Bg7",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The long diagonal, aimed at the whole board",
+          "body": "This bishop is one of the Modern Benoni's biggest assets: from g7 it eyes the entire a1-h8 diagonal, pressuring d4 and c3 for the rest of the game and giving Black's otherwise-cramped position real long-range punch.",
+          "concepts": ["piece activity"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g7", "to": "b2" }]
+    },
+    "Be2",
+    "O-O",
+    "O-O",
+    {
+      "san": "Re8",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A useful, flexible move: the rook adds pressure to the e-file and keeps an eye on White's e4 pawn, discouraging any careless advance while Black finishes regrouping."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "b5",
+            "classification": "blunder",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The break played before it's prepared",
+                "body": "The queenside break ...b5 is Black's key long-term plan in this structure — but it only works once it's supported, usually by ...a6 first. Played here, nothing recaptures: the a-pawn is still on a7 and can only ever capture on b6, never b5. This simply loses a pawn outright to a knight still sitting on c3.",
+                "concepts": ["pawn breaks"]
+              }
+            ]
+          },
+          {
+            "san": "Nxb5",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "A pawn for nothing",
+                "body": "White simply collects the pawn. Worse for Black long-term: this knight is now perfectly placed to jump into d6 the moment that pawn is ever traded off — exactly the outpost the backward d6 pawn was always vulnerable to.",
+                "concepts": ["outposts"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nd2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White repositions the knight to support the e4 pawn and free the f-pawn for a future f3 or f4, a common regrouping move in this structure."
+        }
+      ]
+    },
+    {
+      "san": "Na6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Heading toward the break Black has been preparing all along",
+          "body": "The knight aims for c7, where it will support the freeing advance ...b5 without walking into the kind of accident shown above. White's plans from here: hold the center, look for e5 or a timely f4 to convert space into an attack, or restrain Black's queenside with a4. Black's plans: complete the c7-knight maneuver, prepare and play ...b5 properly, and use the open lines this eventually creates for active piece play against a White king that has to defend a wide front.",
+          "concepts": ["dynamic imbalance", "pawn breaks"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a structural weakness (the backward d6 pawn) can be an acceptable price when what it buys — open lines and active pieces — is worth more than what it costs; a thematic pawn break is only good once it's actually supported, not just because it's the 'point' of the opening; and White has more than one plan against this structure, from the calm Classical build-up to the immediate violence of the Flick-Knife Attack, so Black's preparation has to cover both.",
+          "concepts": ["space vs. piece activity", "the backward pawn", "dynamic imbalance"]
+        }
+      ]
+    }
+  ]
+}

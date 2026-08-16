@@ -1,0 +1,208 @@
+{
+  "id": "kings-indian-fianchetto",
+  "catalogCode": "O112",
+  "focus": "black",
+  "title": "King's Indian Defense: Fianchetto Variation",
+  "subtitle": "Two long-diagonal bishops, one quiet argument",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "White sidesteps the King's Indian Defense family study's headlong e4 race and fianchettoes the king's bishop instead — trading the sharp, opposite-wing pawn storm for a slower, more positional fight where both sides' dark-squared bishops share the same long diagonal. It is the calm, common practical choice against players who show up ready for the kingside fireworks.",
+  "tags": ["King's Indian Defense", "Fianchetto Variation", "d4 defenses", "hypermodern", "the fianchetto", "the long diagonal"],
+  "concepts": [
+    "hypermodern center control",
+    "the long diagonal",
+    "delayed central commitment",
+    "attacking a pawn center",
+    "central breaks",
+    "closed centers"
+  ],
+  "metadata": {
+    "eco": "E60-E69",
+    "opening": "King's Indian Defense: Fianchetto Variation",
+    "historicalContext": "A common practical weapon against dedicated King's Indian players precisely because it avoids the sharpest, most heavily analyzed Classical and Sämisch theory. Some of the opening's most instructive long-diagonal battles come from this quieter approach — Botvinnik vs Tal 1960 and Petrosian vs Spassky 1966 both show what happens when the two fianchettoed bishops finally get to fight over the same squares."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The King's Indian Defense family study built its whole plan around White racing to grab the classical center with e4, locking it, and letting both sides storm opposite wings. This variation removes that race entirely: White fianchettoes the king's bishop to g2 instead, keeping the center flexible and refusing to hand Black an obvious, fixed target early. The consequence is structural, not cosmetic — White's own bishop now shares Black's long diagonal, and when the center finally resolves, it more often opens through trades than locks shut. Same opening, same hypermodern bargain, a genuinely different kind of middlegame."
+    }
+  ],
+  "line": [
+    "d4",
+    "Nf6",
+    "c4",
+    "g6",
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "No early commitment",
+          "body": "The family study's White played Nc3 here, heading straight for e4. This move develops instead and says nothing yet about the center — White is keeping every option open, including the fianchetto the next move reveals.",
+          "concepts": ["delayed central commitment"]
+        }
+      ]
+    },
+    "Bg7",
+    {
+      "san": "g3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Every previous lesson in this family showed White building the big classical center and Black attacking it. Here White fianchettoes instead of grabbing space at all. Has White simply declined to fight for the center — and if so, why would that trouble Black's plan?"
+        },
+        {
+          "type": "key-idea",
+          "title": "A different fight over the same diagonal",
+          "body": "White hasn't declined the fight — White has moved it. Instead of building a target for Black's pieces to attack later, White's own bishop is about to contest the exact same a1–h8 diagonal Black's g7-bishop already controls. This produces a slower, more maneuvering game: no early e4 to strike with ...e5, no locked pawn chains pointing each side toward an opposite wing, just a long positional argument over central squares that both sides' fianchettoed bishops care about equally.",
+          "concepts": ["the long diagonal", "delayed central commitment"]
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "Bg2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White's bishop takes up the mirror image of Black's — both pieces now aim down the same long diagonal from opposite ends, each restraining the other's central ambitions.",
+          "concepts": ["the long diagonal"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g2", "to": "a8" }]
+    },
+    "d6",
+    "O-O",
+    {
+      "san": "Nbd7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Supports the coming ...e5 strike, keeping to the family study's central plan even though White's setup looks completely different.",
+          "concepts": ["central breaks"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nc6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Panno Variation",
+                "body": "A different philosophy entirely: instead of preparing a central strike, this knight eyes d4 directly and prepares queenside expansion with ...a6, ...Rb8, and eventually ...b5 — playing for space on the wing rather than a break in the center. It shares this variation's patient character but points Black's whole plan somewhere else."
+              }
+            ]
+          },
+          "Nc3",
+          "a6"
+        ]
+      ]
+    },
+    {
+      "san": "Nc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White finally commits a piece toward the center's defense, though still without an early pawn push to match it.",
+          "concepts": ["delayed central commitment"]
+        }
+      ]
+    },
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The same strike, a quieter target",
+          "body": "The prepared central break arrives exactly as it does in the Classical lines — but here it lands on a center that hasn't fully formed yet, rather than a fixed classical trio. The g7-bishop's diagonal is blocked by its own pawn for now, same trade-off as always; the difference is that White's own bishop shares that blockage, so neither side gets to simply ignore the long diagonal.",
+          "concepts": ["attacking a pawn center", "central breaks"]
+        }
+      ]
+    },
+    {
+      "san": "e4",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White claims the center after all, just later and from behind a completed fianchetto rather than before one. Watch what happens differently from here: this center is far more likely to resolve through trades than to lock into the opposite-wing race the Classical Variation produces.",
+          "concepts": ["attacking a pawn center"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "d4" },
+        { "type": "square", "square": "e4" }
+      ]
+    },
+    {
+      "san": "c6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A flexible support move, reinforcing d5 and keeping options open rather than committing to a single kingside plan the way ...f5 eventually does in the Classical structure.",
+          "concepts": ["delayed central commitment"]
+        }
+      ]
+    },
+    {
+      "san": "h3",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Prophylaxis instead of a pawn storm",
+          "body": "White spends a move preventing ...Bg4 and ...Ng4 rather than launching a kingside attack — there is no opposite-wing race to win here, so small restraining moves like this matter more than they would in the Classical Variation's sharper positions.",
+          "concepts": ["delayed central commitment"]
+        }
+      ]
+    },
+    "exd4",
+    {
+      "san": "Nxd4",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Open, not locked",
+          "body": "This is the structural heart of the whole variation. In the Classical lines, the center locks with d5 and both sides storm opposite wings behind their own pawn chains — one side's dark-squared bishop effectively shut out of the game until the position cracks open. Here the tension resolves through a trade instead, and both fianchettoed bishops stay relevant on the diagonal they've been sharing since move four.",
+          "concepts": ["closed centers", "the long diagonal"]
+        }
+      ]
+    },
+    {
+      "san": "Re8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The rook claims the newly opened central file — a resource the locked Classical structure never offers this cleanly.",
+          "concepts": ["central breaks"]
+        }
+      ]
+    },
+    "Re1",
+    {
+      "san": "a5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "A calmer battlefield, still contested",
+          "body": "White's plans from here: use the extra central knight activity, look for chances to expand on the queenside, and keep the long-diagonal balance from tipping toward Black. Black's plans: keep pressure on the long diagonal and the e-file, look for ...c5 or ...Nc5 ideas hitting the center's remaining points, and use this restraining move to slow any White queenside expansion before it starts. There is no opposite-wing race here — both sides are fighting over the same central and diagonal resources at once, a genuinely quieter kind of King's Indian middlegame.",
+          "concepts": ["the long diagonal", "delayed central commitment"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: delaying the center doesn't mean avoiding the fight over it — White's fianchetto simply moves that fight onto the long diagonal instead of the pawn front; when both sides' dark-squared bishops share one diagonal, the resulting middlegame tends to open through trades rather than lock into a race, unlike the Classical Variation; and a system defense holds up against more than one White setup — Black's core plan (fianchetto, ...d6, ...e5) barely changed here even though White's whole approach did.",
+          "concepts": ["the long diagonal", "closed centers", "delayed central commitment"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "a5", "to": "b4" }]
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "id": "bishops-opening",
+  "catalogCode": "O014",
+  "focus": "white",
+  "title": "The Bishop's Opening",
+  "subtitle": "Bishop first, knight later — and Petrov's Defense never gets the chance",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "One of the oldest named openings in chess, the Bishop's Opening earns its modern relevance from move order rather than sharp theory: by developing the bishop before the knight, White keeps several structural families on the table for an extra move and quietly removes an entire well-prepared Black defense from consideration. Learn why 'save the knight move for later' is a real weapon, not a quirk.",
+  "tags": [
+    "Bishop's Opening",
+    "e4 openings",
+    "Italian Game",
+    "Urusov Gambit",
+    "move-order flexibility"
+  ],
+  "concepts": [
+    "move-order flexibility",
+    "transposition",
+    "development",
+    "central tension",
+    "piece activity",
+    "king safety"
+  ],
+  "metadata": {
+    "eco": "C23-C24",
+    "opening": "Bishop's Opening",
+    "historicalContext": "The Bishop's Opening is among the oldest named openings in chess, analyzed even before systematic knight-first development became standard practice. It never disappeared -- it simply became a specialist's move-order tool rather than a mainstream try."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Every other common answer to 1.e4 e5 -- the Italian Game, the Scotch, the Ruy Lopez -- starts with 2.Nf3, attacking e5 and forcing Black's hand. The Bishop's Opening asks a quieter question: what if White develops the OTHER minor piece first and keeps the knight's move in reserve? The central idea of this lesson is that delaying Nf3 is not indecision -- it is a real move-order weapon. It keeps several different structural families available at once, and it quietly makes an entire well-studied Black defense impossible to reach."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    {
+      "san": "Bc4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Bishop before knight",
+          "body": "White develops toward f7 immediately but leaves the king's knight at home. Because Bc4 doesn't attack e5 the way 2.Nf3 does, Black is not forced into any particular reply -- the position stays genuinely open for several moves, which is the whole appeal of this opening.",
+          "concepts": ["move-order flexibility"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c4", "to": "f7" }]
+    },
+    {
+      "san": "Nf6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "This looks a lot like the start of Petrov's Defense -- Black meets White's development with an immediate counterattack on e4. Is White in the same kind of trouble here that 1.e4 e5 2.Nf3 Nf6 creates?"
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f6", "to": "e4" }],
+      "variations": [
+        [
+          {
+            "san": "Bc5",
+            "classification": "theory",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The classical, symmetric answer",
+                "body": "Black mirrors White's development instead of counterattacking. Watch where this leads once White finally develops the king's knight.",
+                "concepts": ["transposition"]
+              }
+            ]
+          },
+          "Nf3",
+          {
+            "san": "Nc6",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "A direct transposition to The Italian Game",
+                "body": "This is the exact position reached by 1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 in The Italian Game -- identical pieces, identical squares, just a different order of arrival. This is the single most important practical fact about the Bishop's Opening: playing 2.Bc4 first doesn't commit White away from the Italian Game's plans at all. It just keeps a second option open for one extra move.",
+                "concepts": ["transposition"]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "san": "Nc6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Natural development. But unlike 2...Nf6, this move does nothing to White's center, leaving the early attacking tries that this move order allows fully on the table."
+              }
+            ]
+          },
+          {
+            "san": "Qh5",
+            "classification": "interesting",
+            "importance": "notable",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The quick attacking try",
+                "body": "The queen and bishop both now aim at f7, which is defended only by the king. Against correct play this changes nothing -- see the reply below -- but it punishes a careless developing move harshly, which is exactly the kind of sharp option the catalog motif 'Qh5/Qf3 quick attacking tries' describes.",
+                "concepts": ["king safety"]
+              }
+            ],
+            "visual": [{ "type": "square", "square": "f7" }],
+            "variations": [
+              [
+                {
+                  "san": "f4",
+                  "classification": "interesting",
+                  "annotations": [
+                    {
+                      "type": "key-idea",
+                      "title": "A King's-Gambit-style option instead",
+                      "body": "Rather than the quick queen trick, White can offer a King's-Gambit-style pawn immediately, aiming for the same kind of open f-file and rapid development that opening is known for -- just reached through the Bishop's Opening's move order. This is the catalog's other named motif for this opening: f4 stays available specifically because Nf3 hasn't been played yet.",
+                      "concepts": ["central tension"]
+                    }
+                  ]
+                },
+                {
+                  "san": "exf4",
+                  "annotations": [
+                    {
+                      "type": "commentary",
+                      "body": "Accepting is natural. The resulting position shares its whole character with a real king's-pawn gambit -- open lines, a lead in development, a king on each side that needs care -- even though neither side ever played a literal king's-gambit move order."
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          {
+            "san": "Nf6",
+            "classification": "blunder",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "The natural move that loses",
+                "body": "This develops and attacks the queen, which looks like it solves everything at once. But it does nothing to defend f7, and White's queen simply takes the pawn with the bishop's support behind it.",
+                "concepts": ["king safety"]
+              }
+            ],
+            "variations": [
+              [
+                {
+                  "san": "g6",
+                  "annotations": [
+                    {
+                      "type": "key-idea",
+                      "title": "The correct defense",
+                      "body": "One move does two jobs: it attacks the queen and blocks the h5-f7 diagonal at the same time. White's attacking try is over.",
+                      "concepts": ["king safety"]
+                    }
+                  ]
+                },
+                "Qf3",
+                "Nf6"
+              ]
+            ]
+          },
+          {
+            "san": "Qxf7#",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "Scholar's Mate",
+                "body": "Checkmate. The bishop on c4 protects the queen on f7, so nothing recaptures. Every escape square is covered -- d8 is blocked by Black's own queen, e7 and f8 are attacked by the queen directly -- and there is no piece left that can interpose. This is the real, sharp cost of one careless developing move, and it is why beginners are taught to check for threats before playing the obvious-looking reply.",
+                "concepts": ["king safety"]
+              }
+            ],
+            "visual": [
+              { "type": "square", "square": "d8" },
+              { "type": "arrow", "from": "c4", "to": "f7" }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nc3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The answer to the question",
+          "body": "Not remotely, and the difference is the entire point of this move order. Petrov's Defense works the way it does because White's knight is already committed to f3 when e4 comes under attack -- White must react at once, with the knight's own move already spent, and that forces the precise sequence Petrov theory is built on. Here White's knight hasn't moved at all -- e4 is simply undefended for a moment, and one ordinary developing move fixes that completely. Black never reaches the sharp, well-studied tactics of Petrov's Defense, because the specific position that makes them possible never arrives on the board. Delaying Nf3 isn't just flexible; it actively removes a whole prepared defense from play.",
+          "concepts": ["move-order flexibility"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "d4",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "The Urusov Gambit",
+                "body": "White's sharpest try after 2...Nf6: rather than quietly defend e4, White strikes the center at once, offering a pawn for rapid development -- the same trade every sharp central gambit makes, just reached through the Bishop's Opening's move order.",
+                "concepts": ["central tension"]
+              }
+            ]
+          },
+          {
+            "san": "exd4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Accepting is natural and the critical test. The point isn't material at all -- it's speed."
+              }
+            ]
+          },
+          {
+            "san": "Nf3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White develops toward the pawn on d4 and races to finish development before Black can consolidate the extra pawn. From here the Urusov Gambit runs into genuinely deep, sharp theory well beyond what this family-level lesson covers -- treat this as the doorway, not the map."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "c6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black prepares ...d5, claiming central space before White finishes developing.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "Nf3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The delayed knight, finally developed",
+          "body": "Only now does White play the move every other 1.e4 e5 opening starts with. Nothing was lost by waiting -- the knight goes to exactly the same square it always would have -- but the delay bought several extra moves of flexibility while Black had to commit first.",
+          "concepts": ["move-order flexibility", "development"]
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black strikes back in the center, attacking the c4-bishop directly.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d5", "to": "c4" }]
+    },
+    {
+      "san": "Bb3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Essentially forced -- Bxd5 cxd5 simply loses the bishop for a pawn. The retreat keeps the same diagonal toward f7 for later."
+        }
+      ]
+    },
+    {
+      "san": "Bd6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black keeps the central tension rather than resolving it, developing solidly and preparing to castle. Neither side has anything concrete yet -- both are simply completing normal development."
+        }
+      ]
+    },
+    "O-O",
+    "O-O",
+    {
+      "san": "Re1",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A useful, quiet developing move -- the rook adds a second defender to e4 and eyes the e-file for whenever it opens."
+        }
+      ]
+    },
+    "Re8",
+    {
+      "san": "h3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A small preventive move",
+          "body": "A common preventive idea in many king's-pawn openings: h3 rules out ...Bg4 or ...Ng4 ideas before they exist, at the cost of a single tempo. Strong players spend moves like this constantly -- not to create a threat, but to remove the opponent's best future option.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    "Nbd7",
+    {
+      "san": "d3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "A normal middlegame, arrived at unusually",
+          "body": "Both sides are now fully developed and the position has settled into a calm, roughly balanced structure with no immediate central break for either side. That is honest and typical of the Bishop's Opening: it was never trying to win the opening battle outright, only to control which structural family the game would enter.",
+          "concepts": ["piece activity"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: move order is itself a weapon, not just a preference -- delaying Nf3 removed Petrov's Defense from the board entirely, without White spending a single extra move to do it; the same starting moves can lead to completely different games depending on Black's second move -- a direct transposition to The Italian Game, a King's-Gambit-flavored fight, a real central gambit, or a quick mating try against carelessness; and flexibility is not automatically an advantage -- White gained options, not a better position, and still had to play accurately (Qh5 only wins against a genuine mistake).",
+          "concepts": ["move-order flexibility", "transposition"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d3" }]
+    }
+  ]
+}

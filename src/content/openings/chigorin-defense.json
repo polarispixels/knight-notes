@@ -1,0 +1,249 @@
+{
+  "id": "chigorin-defense",
+  "catalogCode": "O081",
+  "focus": "black",
+  "title": "The Chigorin Defense",
+  "subtitle": "Queen's Gambit — a piece instead of a pawn",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "The Chigorin Defense answers 1.d4 d5 2.c4 not with a supporting pawn but with a developing piece, Nc6, accepting an unbalanced fight over textbook structure. Black willingly trades away both bishops to wreck White's pawns and seize active piece play, a strategy that rewards tactical alertness over principle-following. It's a real, respected surprise weapon, and this lesson shows exactly what Black gets and gives up for it.",
+  "tags": ["Chigorin Defense", "Chigorin's Defense", "Tschigorin Defense", "Queen's Gambit family", "Queen's Gambit Declined", "d4 openings"],
+  "concepts": ["piece activity", "the bishop pair", "central tension", "doubled pawns", "The Pin", "development"],
+  "metadata": {
+    "eco": "D07",
+    "opening": "Queen's Gambit: Chigorin Defense"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Where the Queen's Gambit Declined and the Slav both answer c4 by reinforcing d5 with a second pawn, the Chigorin Defense answers with a piece instead: Nc6 defends d5 immediately, before Black has committed to any particular pawn structure at all. The cost shows up fast — Black ends up trading away both bishops for White's knights, taking on doubled or awkward pawns as compensation for active pieces. The question this lesson answers: is giving up the bishop pair and some structural soundness actually worth the activity and the damage it inflicts on White's position?"
+    },
+    {
+      "type": "historical",
+      "title": "Chigorin's own weapon",
+      "body": "Named for Mikhail Chigorin, the strongest Russian player of the late 19th century, who twice challenged Wilhelm Steinitz for the World Championship: a decisive loss in 1889, then a far narrower one in 1892, decided only in the final games. Chigorin was one of the loudest critics of Steinitz's emerging 'classical' principles, preferring piece activity and concrete calculation over rigid rules about pawn structure — this opening is a direct expression of that philosophy, and it has been revived at the top level in modern times by players such as Alexander Morozevich."
+    }
+  ],
+  "line": [
+    "d4",
+    "d5",
+    "c4",
+    {
+      "san": "Nc6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Defending d5 with a piece",
+          "body": "This is the entire idea of the opening in one move. Instead of ...e6 or ...c6, Black develops a piece that defends d5 directly. The gain is speed and flexibility about the pawn structure; the cost is that this knight, unlike a pawn, can be harassed, traded, or driven away later — nothing about d5's defense is permanent yet.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops normally, adding a second defender to d4 and preparing to meet Black's next idea.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    {
+      "san": "Bg4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The point behind the piece development",
+          "body": "The bishop pins the f3 knight to the queen. This isn't decoration — Black is preparing to trade this bishop for the knight and inflict real structural damage on White's kingside pawns, the central strategic bet of the whole opening.",
+          "concepts": ["The Pin"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g4", "to": "d1" }]
+    },
+    {
+      "san": "cxd5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White resolves the central tension immediately rather than letting it sit. Compare this to the alternative in the variation here, where White declines the coming complications entirely.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "e3",
+            "annotations": [
+              {
+                "type": "strategy",
+                "title": "The solid alternative",
+                "body": "White can simply decline the whole complex — no bishop trade, no doubled pawns, no drama. After normal development White keeps a small, safe position instead of the sharper structural fight the main line invites. Declining a fight is always a legitimate choice; the Chigorin's practical value rests partly on opponents being less prepared for the sharper option than for this one."
+              }
+            ]
+          },
+          "e6"
+        ]
+      ]
+    },
+    {
+      "san": "Bxf3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Trading the bishop for structure",
+          "body": "Black gives up the bishop pair on purpose, in exchange for real, permanent damage to White's pawns. This is the opening's central trade: activity and structural damage bought with the two bishops, the same currency exchanged again later in this line.",
+          "concepts": ["the bishop pair", "doubled pawns"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "f3" }]
+    },
+    {
+      "san": "gxf3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The first structural scar",
+          "body": "White's kingside pawns are now doubled and broken (f2 and f3), and the g-file is half-open. In exchange, White has gained the bishop pair and a pawn on d5 that Black hasn't recaptured yet — the ledger isn't settled until the next move.",
+          "concepts": ["doubled pawns"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "f3" }]
+    },
+    {
+      "san": "Qxd5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black recaptures the pawn, centralizing the queen early. It looks exposed, but nothing currently attacks it — watch what happens the moment something does.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    "e3",
+    {
+      "san": "e5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black claims central space with tempo — the pawn is defended by the queen already on d5, so this costs nothing extra. Black's center is now more advanced than White's, a real asset bought with the earlier structural concession.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "Nc3",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White's knight attacks the queen on d5 directly. A queen retreat looks completely natural here — is there anything sharper available?"
+        }
+      ]
+    },
+    {
+      "san": "Bb4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A pin instead of a retreat",
+          "body": "Rather than simply move the attacked queen, Black pins the attacking knight to White's own king. Because nothing stands between c3 and e1, the knight is not actually free to capture on d5 — moving it would expose White's king to check. One developing move answers the attack on the queen without spending a tempo on the queen at all.",
+          "concepts": ["The Pin"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b4", "to": "e1" }]
+    },
+    {
+      "san": "Bd2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops a piece directly onto the pin's line, adding a second defender to the knight and preparing to meet a trade on c3 without losing material.",
+          "concepts": ["The Pin"]
+        }
+      ]
+    },
+    {
+      "san": "Bxc3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The second bishop, the same bargain",
+          "body": "Black gives up the dark-squared bishop for the second knight, completing the trade the opening is built around: both of Black's bishops for both of White's knights. Black now has zero bishops on the board, betting entirely on piece activity and White's damaged structure to compensate.",
+          "concepts": ["the bishop pair"]
+        }
+      ]
+    },
+    {
+      "san": "bxc3",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White recaptures toward the center, adding a pawn defender to d4. The tempting alternative — recapturing with the bishop instead — is shown in the variation here, and it misses the point.",
+          "concepts": ["development"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bxc3",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The tempting recapture that misses the point",
+                "body": "Recapturing toward the center with the bishop avoids doubling White's pawns a second time, which looks appealing on instinct — but it leaves d4 without a pawn defender and simply relocates a piece that was already developed, gaining nothing extra. The pawn recapture bxc3 supports d4 directly and is the more accurate choice, even though 'recapture toward the center' sounds like the safer rule of thumb."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nge7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black finishes development. Take stock of the position: White has the bishop pair and doubled f-pawns; Black has no bishops at all but an actively placed queen, a strong e5 pawn, and pieces that don't get in each other's way.",
+          "concepts": ["piece activity"]
+        }
+      ]
+    },
+    "Bg2",
+    "O-O",
+    {
+      "san": "O-O",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Activity against the bishop pair",
+          "body": "Both sides have castled into the position their opening choices created. White's plan is long-term: the bishop pair and the half-open g-file are real assets that matter more as pieces come off. Black's plan is immediate: use the extra central space and free piece play before White's structural edge has time to tell.",
+          "concepts": ["piece activity", "the bishop pair"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: developing a piece to defend a pawn (Nc6) is a real alternative to reinforcing with a pawn, but the piece can be harassed in ways a pawn cannot; giving up the bishop pair is a genuine, deliberate trade for structural damage and activity, not a blunder — Black made this trade twice, on purpose, for the same reason each time; and a pin can answer an attack just as well as a retreat, sometimes better, because it develops a piece instead of spending a tempo on the piece already under attack."
+          }
+      ],
+      "visual": [{ "type": "square", "square": "f3" }]
+    }
+  ]
+}

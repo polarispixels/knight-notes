@@ -1,0 +1,179 @@
+{
+  "id": "queens-gambit-declined-tartakower",
+  "catalogCode": "O096",
+  "focus": "black",
+  "title": "The Tartakower Defense",
+  "subtitle": "A third way to free the bishop — after castling, not before",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "The Slav frees the light-squared bishop by developing it before ...e6 seals it in. The Tartakower solves the same old problem a different way: play the Orthodox setup, castle for safety first, then question White's pinning bishop and fianchetto instead of trying to escape the pawn chain entirely. It is modern, top-level main-line theory — and the exact opening of one of the most famous games ever played.",
+  "tags": ["Tartakower Defense", "Tartakower Variation", "Makogonov-Bondarevsky-Tartakower System", "Queen's Gambit Declined", "Orthodox Defense", "d4 defenses"],
+  "concepts": ["the restricted bishop", "queenside fianchetto", "pawn structure", "central tension", "development"],
+  "metadata": {
+    "eco": "D58-D59",
+    "opening": "Queen's Gambit Declined: Orthodox Defense, Tartakower Variation"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Queen's Gambit Declined study showed the Orthodox Defense's honest bargain: ...Nbd7 keeps everything solid but leaves the c8-bishop locked behind its own pawns for the whole game. The Tartakower asks whether that bargain is really final. Instead of ...Nbd7, Black plays ...h6 to question the pinning bishop, then ...b6 to fianchetto the trapped bishop onto b7 instead of trying to develop it outside the pawn chain at all. It is a genuinely different solution to the same structural problem the Slav solves with early piece play — here the fix comes after castling, not before."
+    }
+  ],
+  "line": [
+    "d4",
+    "d5",
+    "c4",
+    {
+      "san": "e6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The same declining move as the family study: keep the center, accept the blocked bishop for now.",
+          "concepts": ["the restricted bishop"]
+        }
+      ]
+    },
+    "Nc3",
+    "Nf6",
+    "Bg5",
+    "Be7",
+    "e3",
+    "O-O",
+    "Nf3",
+    {
+      "san": "h6",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The Queen's Gambit Declined study's main line develops with ...Nbd7 here instead. What does Black gain by asking the bishop a question first?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Asking before developing",
+          "body": "This forces White's bishop to declare itself before Black commits to a plan for the c8-bishop. If White trades on f6 immediately, Black's structure and piece activity actually improve; if the bishop retreats, Black gets a free tempo to use exactly as needed. Either way, Black learns something concrete before deciding what to do next.",
+          "concepts": ["pawn structure"]
+        }
+      ]
+    },
+    {
+      "san": "Bh4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White keeps the pin rather than trade it away — the natural, most ambitious answer.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    {
+      "san": "b6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The Tartakower's real idea",
+          "body": "Here is the move that names the whole variation. Instead of the family study's ...Nbd7, which leaves the c8-bishop stuck behind the pawn chain for the rest of the game, Black prepares ...Bb7 — a completely different solution to the exact same problem the Slav solves by developing the bishop before ...e6 is ever played. The Tartakower's answer arrives later, and looks different, but it is chasing the identical goal: give that bishop somewhere useful to stand.",
+          "concepts": ["the restricted bishop", "queenside fianchetto"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "b7" }],
+      "variations": [
+        [
+          {
+            "san": "Nbd7",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The road not taken",
+                "body": "Playing this instead simply transposes into the Orthodox Defense main line covered in the Queen's Gambit Declined study, bishop and all. The Tartakower's whole reason to exist is choosing differently here."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "cxd5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White finally resolves the central tension — waiting longer would just let Black finish the fianchetto and equalize comfortably.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "Nxd5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The natural recapture, keeping the knight active and the pawn structure clean for now.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "exd5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The other recapture",
+                "body": "Taking with the pawn is also playable, but it commits Black to an isolated d-pawn right away — a structural weakness the knight recapture only postpones rather than avoids for good, since (as the main line shows) the same isolated pawn still arrives a few moves later once the remaining minor pieces come off. Most Tartakower players prefer keeping the position clean and pushing that reckoning down the road."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Bxe7",
+    "Qxe7",
+    "Nxd5",
+    {
+      "san": "exd5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Only now does Black recapture with the e-pawn — and this is exactly the point. The trades were forced in this order, so what looked avoidable earlier turns out to be unavoidable eventually. What matters is the structure it leaves behind.",
+          "concepts": ["pawn structure"]
+        }
+      ]
+    },
+    "Rc1",
+    {
+      "san": "Be6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop that ...b6 was preparing all along finally develops — not to b7 in this particular game, but to a square just as active, defending d5 and eyeing the queenside.",
+          "concepts": ["the restricted bishop"]
+        }
+      ]
+    },
+    "Qa4",
+    {
+      "san": "c5",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Hanging pawns, and one of the most famous games in chess",
+          "body": "Black challenges the center a second time, reaching the classic 'hanging pawns' structure on c5 and d5 — mobile, mutually supporting, but permanently a target down the open b- and c-files. This exact sequence is the opening of Fischer vs Spassky 1972, Game 6 of the World Championship — one of the most celebrated games ever played, and a Tartakower from the first move to the last. From here Black's plan is piece activity around the hanging pawns; White's is pressure against them before they can safely advance.",
+          "concepts": ["pawn structure", "central tension"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: the same structural problem — the Queen's Gambit family's blocked light-squared bishop — has more than one real solution, and the Tartakower's ...h6 and ...b6 prove the fix does not have to come before ...e6 the way the Slav's does; a well-timed question (...h6) can win a genuinely free tempo, since either answer helps the side asking it; and hanging pawns are neither weak nor strong in themselves — they are a promise of activity that must be cashed in before the endgame arrives, which is exactly what the rest of the game this position is drawn from goes on to show."
+        }
+      ]
+    }
+  ]
+}

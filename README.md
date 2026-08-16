@@ -23,6 +23,10 @@ npm run build    # production build to dist/
 ## Using it
 
 - **Library** (`/`) — browse studies, filter by category.
+- **Openings** (`/openings`) — the map of opening theory: every family and
+  how its variations relate, with alias-aware search ("Larsen" finds the
+  Nimzo-Larsen Attack) and White/Black filtering. Backed by the curated
+  Opening Catalog (`src/data/openings-catalog.json`).
 - **Study reader** (`/study/:id`) — the board, the current move, and its
   commentary. Navigate with the buttons, the move list, or the keyboard:
   `→`/`Space` next · `←` previous · `Home`/`End` jump · `F` flip board.
@@ -40,14 +44,17 @@ agent orientation: [`AGENT_GUIDE.md`](AGENT_GUIDE.md); all docs are published at
 ```
 src/
   domain/study/          canonical Study model + pure traversal (zero dependencies)
-  application/           Pinia stores: session (navigation), library, import, keyboard
+  domain/openings/       Opening Catalog ontology (entries, tiers, hierarchy)
+  application/           Pinia stores: session (navigation), library, openings, import
   infrastructure/
     chess/               chess.js behind an app-owned ChessEngine boundary
     chess/pgn/           variation-aware PGN parser + PGN→Study conversion
-    content/             StudySeed authoring format + bundled repository
+    content/             StudySeed authoring format + bundled repositories
     storage/             IndexedDB repository (idb) + localStorage preferences
   components/ views/     presentation only — no parsing or persistence logic
   content/               bundled studies (StudySeed JSON, engine-validated)
+  data/                  openings-catalog.json — the curated opening taxonomy
+build/                   Vite plugin generating the study-summary projection
 ```
 
 Key design decisions:
@@ -59,10 +66,16 @@ Key design decisions:
   Both are replayed through the rules engine, so every FEN in the app is
   engine-generated and every bundled study is machine-validated by the test
   suite (`src/infrastructure/content/__tests__/bundledContent.spec.ts`).
-- **Repositories abstract storage.** `BundledStudyRepository` (shipped JSON),
+- **Repositories abstract storage.** The lazy bundled repository (summary
+  projection at build time + per-study chunks on demand),
   `LocalStudyRepository` (IndexedDB), and `CompositeStudyRepository` sit
   behind one interface; a future API-backed repository slots in without
   touching the reader.
+- **The Opening Catalog is data, not prose.** A curated taxonomy of ~225
+  openings (canonical names, aliases, ECO, editorial tiers, hierarchy plus
+  transposition edges) drives the openings browser and links every entry to
+  its lesson; a dedicated test gate replays every catalog move order through
+  the engine.
 
 ## Authoring content
 

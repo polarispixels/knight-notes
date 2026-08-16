@@ -1,0 +1,229 @@
+{
+  "id": "french-tarrasch",
+  "catalogCode": "O066",
+  "focus": "white",
+  "title": "French Defense: Tarrasch Variation",
+  "subtitle": "The knight move that dodges an entire variation",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "White's most popular modern try against the French exists for one reason: 3.Nc3 allows 3...Bb4, the razor-sharp Winawer Variation, and 3.Nd2 simply removes that option from the board. The cost is a knight that briefly blocks its own bishop; the reward is a choice of two very different middlegames — a closed chain fight much like the Advance, or an open Isolated Queen's Pawn battle where piece activity is everything.",
+  "tags": ["French Defense", "Tarrasch Variation", "e4 defenses", "Open Tarrasch", "pawn chains", "isolated queen's pawn"],
+  "concepts": ["pawn chains", "prophylaxis", "The Isolated Queen's Pawn", "piece activity", "development"],
+  "metadata": {
+    "eco": "C03-C09",
+    "opening": "French Defense: Tarrasch Variation"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study, The French Defense, and this lesson's sibling, French Defense: Winawer Variation, both grow from 3.Nc3 Bb4 — a bishop check White must answer with a3, accepting doubled pawns and a long theoretical fight to get anything from the opening. 3.Nd2 sidesteps all of it: the knight simply doesn't stand on c3, so ...Bb4 achieves nothing. The price is real too — the queen's knight temporarily blocks its own bishop on c1, and it takes an extra move or two to untangle. This lesson is about that trade: a calmer, more flexible middlegame purchased with one slightly awkward developing move."
+    }
+  ],
+  "line": [
+    "e4",
+    "e6",
+    "d4",
+    "d5",
+    {
+      "san": "Nd2",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A modest move with one clear job",
+          "body": "The knight develops toward c4 and e4 instead of the more natural-looking c3 — and it does this specifically so that a later ...Bb4 has no piece to check or pin. The visible cost is that the c1-bishop is now boxed in until the knight moves again or the c-pawn opens a diagonal for it. White accepts that inconvenience to control what kind of game gets played.",
+          "concepts": ["prophylaxis"]
+        }
+      ]
+    },
+    {
+      "san": "Nf6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black develops and attacks e4. Two very different replies split the whole variation: push past with e5 (the Closed Tarrasch, this lesson's main road) or trade on d5 for an open game with an isolated pawn (the Open Tarrasch, shown in the variation here).",
+          "concepts": ["pawn chains"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "c5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Open Tarrasch",
+                "body": "Black strikes the center immediately, before even developing the kingside knight. This invites White to trade rather than advance, heading for a completely different kind of position."
+              }
+            ]
+          },
+          {
+            "san": "exd5",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Trade instead of lock",
+                "body": "Where the Closed Tarrasch fixes the center, the Open Tarrasch dissolves it. Both sides will soon own an isolated pawn's worth of trouble or reward — the question becomes whether active pieces are worth more than a long-term structural target.",
+                "concepts": ["The Isolated Queen's Pawn"]
+              }
+            ]
+          },
+          "exd5",
+          {
+            "san": "Ngf3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The knight that stayed on d2 finally gets a partner — note the disambiguation: the g1-knight goes to f3, since the d2-knight could reach the same square. Two knights developed, and only now does White decide where each one belongs."
+              }
+            ]
+          },
+          "Nc6",
+          {
+            "san": "Bb5",
+            "classification": "theory",
+            "importance": "important",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "Pinning the isolated pawn's best defender",
+                "body": "The bishop pins the c6-knight to the king on e8, the classic irritant against an IQP structure — Black cannot easily support ...d4 or reroute this knight while it's tied down. Compare this pressure to the family study's siege on d4 in the Advance: different structure, same principle, tie down the piece that would otherwise organize the opponent's plan.",
+                "concepts": ["piece activity"]
+              }
+            ]
+          },
+          "Bd6",
+          "dxc5",
+          "Bxc5",
+          {
+            "san": "O-O",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "critical-position",
+                "title": "The Open Tarrasch bargain",
+                "body": "Black's isolated d5-pawn cannot be won quickly and grants the bishop pair and open lines for every piece; White's plan is patient blockade — a piece parked in front of the pawn, pressure that never lets it advance safely, and a long game where the structural weakness is expected to matter only once most pieces are traded off. Neither side is better by force here — it's a genuine style choice.",
+                "concepts": ["The Isolated Queen's Pawn", "piece activity"]
+              }
+            ]
+          },
+          "Nge7"
+        ]
+      ]
+    },
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The Closed Tarrasch: the same e5/d4 chain the family study built via 3.Nc3, reached instead through 3.Nd2. The structure and the plans on both wings are identical to the Advance Variation — only the move order, and the knight's home square, differ.",
+          "concepts": ["pawn chains"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e5", "to": "f6" }]
+    },
+    "Nfd7",
+    {
+      "san": "Bd3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "principle",
+          "body": "The bishop takes the diagonal toward h7 while it's still open — a standing asset for the rest of the middlegame, since Black's own e6 pawn will never let a bishop contest that diagonal from the other side.",
+          "concepts": ["development"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d3", "to": "h7" }]
+    },
+    "c5",
+    "c3",
+    "Nc6",
+    {
+      "san": "Ne2",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Why not Ngf3?",
+          "body": "Developing the king's knight to e2 instead of f3 keeps the f-pawn free to advance to f4 later, adding a second defender to e5 and preparing kingside space — the same job c3 did for the base of the chain, done here for the head. It's slower than Nf3 but keeps a plan in reserve that Nf3 would give up.",
+          "concepts": ["pawn chains"]
+        }
+      ]
+    },
+    "cxd4",
+    "cxd4",
+    {
+      "san": "f6",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black strikes the head of the chain rather than continuing to press its base. This is the lever the family study named but never played out — what happens to the chain once it's actually pulled?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The head break, in practice",
+          "body": "If White trades on f6, Black's knight — the same one that retreated from f6 to d7 back on move 3 — simply returns home and recaptures, and the position opens up with roughly even chances. The base strike (...c5) and the head strike (...f6) are the French's two levers; here Black tries the second one directly instead of relying only on the first.",
+          "concepts": ["pawn chains"]
+        }
+      ]
+    },
+    "exf6",
+    {
+      "san": "Nxf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The knight completes a round trip — f6 to d7 and back to f6 — and the chain that defined the whole opening is gone, replaced by a freer position with chances for both sides."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "gxf6",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "A playable alternative, with a cost",
+                "body": "Recapturing with the pawn opens the g-file for Black's own attacking chances, and some players choose it on purpose. But it also wrecks the pawn shelter in front of wherever Black's king plans to castle — a real tradeoff, not a mistake by itself, but one that needs a plan to justify it."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White finishes development. With the chain gone, this looks like almost any open e4 position — proof that the Tarrasch's whole point was reached, not avoided: White got the calmer game it was designed to produce."
+        }
+      ]
+    },
+    {
+      "san": "Bd6",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "What the knight move on move 3 bought",
+          "body": "Compare this position to the family study's Advance main line: no queen ever left home, no forcing tactics decided anything, and neither side has weaknesses the other can target immediately. That flatness is the entire product of 3.Nd2 — a position where preparation matters less and understanding pawn chains matters more, exactly the kind of game a Winawer-avoiding White player is looking for.",
+          "concepts": ["pawn chains", "piece activity"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a single knight's home square (c3 versus d2) can eliminate an entire opponent's variation before it starts; the same e5/d4 chain supports the same two levers — ...c5 at the base, ...f6 at the head — no matter which move order produces it; and Black's central break (3...c5, the Open Tarrasch) trades that whole chain fight for a completely different one built around an isolated pawn.",
+          "concepts": ["pawn chains", "prophylaxis", "The Isolated Queen's Pawn"]
+        }
+      ]
+    }
+  ]
+}

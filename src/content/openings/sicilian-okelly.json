@@ -1,0 +1,192 @@
+{
+  "id": "sicilian-okelly",
+  "catalogCode": "O046",
+  "focus": "black",
+  "title": "The O'Kelly Variation",
+  "subtitle": "A quiet pawn move that closes White's best door",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "2...a6 looks like a wasted tempo — it develops nothing and threatens nothing. Its real job is to remove a single square, b5, from White's options before White has decided what to do with it. This lesson is entirely about that one square: why White's most natural continuation walks into trouble, and what White should play instead.",
+  "tags": ["O'Kelly Variation", "Sicilian O'Kelly", "Sicilian Defense", "Najdorf Variation", "e4 openings", "move-order tricks"],
+  "concepts": [
+    "move-order finesse",
+    "delayed commitment",
+    "tempo",
+    "central tension",
+    "queenside expansion"
+  ],
+  "metadata": {
+    "eco": "B28",
+    "opening": "Sicilian Defense: O'Kelly Variation",
+    "historicalContext": "Named for the Belgian grandmaster Alberic O'Kelly de Galway, an early and persistent advocate of meeting 2.Nf3 with the seemingly modest 2...a6."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study, The Sicilian Defense, and The Najdorf Variation both show ...a6 played on move five, after White has already committed to 3.d4 and 4.Nxd4. The O'Kelly Variation plays the same useful move two moves earlier, before White has chosen a plan at all. That timing has a genuine cost — it develops nothing — but it also has a genuine point: it rules out White's most testing anti-Sicilian tries before they can even be considered, since the Rossolimo needs a knight on c6 to pin and the Moscow needs a pawn on d6 to check, and Black has committed to neither. More importantly, it sets a trap for White's most natural continuation, which this lesson exists to show."
+    }
+  ],
+  "line": [
+    "e4",
+    "c5",
+    "Nf3",
+    {
+      "san": "a6",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "One square, claimed early",
+          "body": "Not a developing move and not yet a threat — a6 simply removes b5 from White's list of options for the rest of the game. That single square turns out to matter more than it looks, as the next few moves demonstrate. A calmer way to sidestep the whole question is shown in the variation here.",
+          "concepts": ["move-order finesse", "delayed commitment"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "b5" }]
+    },
+    {
+      "san": "d4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The natural continuation — the same move White plays against almost every Sicilian move order. Is there any reason it should work differently here?"
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "c3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Sidestepping the question entirely",
+                "body": "Rather than walk into the trap the main line reveals, White can simply avoid committing the center yet — a slower, Alapin-flavored setup that keeps d4 in reserve until Black's own plans are clearer. This is the practical, modern answer to 2...a6: not refuting it tactically, just declining the specific continuation that goes wrong."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "cxd4",
+    "Nxd4",
+    {
+      "san": "e5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The trap in the move order",
+          "body": "In almost every other Open Sicilian reached through 2...Nc6 — the Sveshnikov, and the Kalashnikov (also known by the older name Lowenthal) — White meets this exact same central strike with 6.Ndb5, jumping the attacked knight forward instead of retreating it, aiming back at d6 and c7. That jump is White's critical resource in both of those openings. Here it simply does not exist: a6 already covers b5, so the knight cannot land there at all. The variation on White's reply shows what happens to a player who forgets that.",
+          "concepts": ["move-order finesse", "central tension"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e5", "to": "d4" }]
+    },
+    {
+      "san": "Nb3",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The honest retreat",
+          "body": "With the aggressive jump unavailable, White falls back on the calm, standard retreat instead — objectively fine, but noticeably less testing than Ndb5 would have been. Black reaches a comfortable version of an ...e5 Sicilian, and the tempo a6 seemed to waste on move two is not wasted at all: it was going to be needed eventually, and now it has already been played.",
+          "concepts": ["tempo"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nb5",
+            "classification": "blunder",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The move that works everywhere else",
+                "body": "This is the natural, thematic jump — the exact move that makes the analogous Kalashnikov and Sveshnikov positions sharp and dangerous for Black. Here it simply hangs the knight, because a6 has already claimed the square it lands on."
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "a6", "to": "b5" }]
+          },
+          {
+            "san": "axb5",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "Collecting the piece",
+                "body": "The pawn simply takes the knight. White's only follow-up is to recapture the pawn back with check."
+              }
+            ]
+          },
+          {
+            "san": "Bxb5+",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White's light-squared bishop was watching b5 along the whole f1–b5 diagonal, so this recaptures a pawn and gives check — but it does not come close to recovering the piece. White ends this sequence a full knight down for a single pawn."
+              }
+            ]
+          },
+          {
+            "san": "Nc6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Blocks the check while developing — and leaves White simply lost on material. The whole point of a6: this exact tactic, over before it started."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Nf6",
+    "Nc3",
+    {
+      "san": "d6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A structure familiar from the Najdorf and Kalashnikov alike, just reached a move quicker than usual — one more sign that a6 was never really a wasted tempo, just an early one."
+        }
+      ]
+    },
+    "Be2",
+    "Be7",
+    "O-O",
+    "O-O",
+    {
+      "san": "Be3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Standard development, defending against ...Ng4 ideas and eyeing the queenside dark squares."
+        }
+      ]
+    },
+    {
+      "san": "b5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The payoff move",
+          "body": "This is the entire reason a6 was played seven moves ago — the queenside expansion the whole family of Sicilians eventually plays arrives here in one move, tempo-free, because the square in front of it was secured before White had even chosen a plan. White's position is sound and normal; Black's is comfortable and a shade more comfortable than it would have been through any move order that allowed 6.Ndb5.",
+          "concepts": ["queenside expansion", "tempo"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a quiet, undeveloping move can still be the most important move of an opening if it removes exactly the right square from the opponent's options; White's sharpest resource against an early ...e5 in this whole family of Sicilians is a knight jump to b5, and that resource depends entirely on the square being available — deny it early, and the whole line loses its teeth; and this variation mostly transposes back into structures The Sicilian Defense and The Najdorf Variation already teach, which is the real case for the O'Kelly — it is less a separate opening than a safer door into the same room.",
+          "concepts": ["move-order finesse", "queenside expansion", "delayed commitment"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b7", "to": "b5" }]
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "id": "kings-indian-samisch",
+  "catalogCode": "O114",
+  "focus": "black",
+  "title": "King's Indian Defense: Sämisch Variation",
+  "subtitle": "A big center, delayed development, and a race to attack first",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "White meets the King's Indian with 5.f3 - a modest-looking pawn move that supports a big e4/f3 center, prepares Be3 and Qd2, and points straight at queenside castling. What follows is one of chess's purest races: White storms the kingside with g4 and h4 while Black counters on the queenside with ...a6 and ...b5, and the real question is whose attack lands first.",
+  "tags": ["King's Indian Defense", "Sämisch Variation", "Samisch Variation", "Samisch System", "d4 defenses", "opposite-side castling"],
+  "concepts": ["opposite-wing play", "pawn storms", "space", "prophylaxis", "development"],
+  "metadata": {
+    "eco": "E80-E89",
+    "opening": "King's Indian Defense: Sämisch Variation"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study, The King's Indian Defense, showed White building a broad center and castling short before deciding how to use the space. The Sämisch Variation refuses that patience: 5.f3 adds a second defender to e4, prepares Be3 and Qd2 without needing to develop the kingside knight through f3 at all, and points toward castling queenside - all in service of one plan, a same-side pawn storm with g4 and h4. Note the name: this is not the Nimzo-Indian's Sämisch Variation (4.a3, forcing doubled pawns through a bishop trade) - both are named for the same player, Friedrich Sämisch, but here the idea has nothing to do with structural damage. This Sämisch is about building a fortress and racing to attack from behind it, and the central question is whether White's kingside pawns or Black's queenside pawns cross the finish line first."
+    }
+  ],
+  "line": [
+    "d4",
+    "Nf6",
+    "c4",
+    "g6",
+    "Nc3",
+    "Bg7",
+    "e4",
+    "d6",
+    {
+      "san": "f3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A center built to last, not to move fast",
+          "body": "f3 looks modest, but it does real work: it adds a second defender to e4 (alongside the knight on c3) without needing to develop the kingside knight through f3 at all, and it keeps f2 clear as a retreat square for the dark bishop if it's ever chased. In exchange, the kingside knight will take longer to develop than in the main lines, and castling queenside becomes the natural plan - Be3 and Qd2 come next, aimed squarely at O-O-O.",
+          "concepts": ["opposite-wing play", "development"]
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "Be3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Preparing the queenside castle",
+          "body": "The bishop develops to a square f3 deliberately made available, clearing c1 for the coming O-O-O. Every White move so far has pointed at the same plan.",
+          "concepts": ["opposite-wing play"]
+        }
+      ]
+    },
+    {
+      "san": "e5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Striking the center while it's still small",
+          "body": "Black challenges d4 immediately, before White's extra central support is fully in place. The alternative Benoni-style ...c5, and a more flexible ...Nc6, are both shown in the variations here.",
+          "concepts": ["space"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "c5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Benoni-style approach",
+                "body": "Black can also strike at d4 from the side rather than head-on. After a further d4-d5 the game typically settles into Benoni-like territory, sharing the queenside-versus-kingside race but with a different pawn skeleton than the ...e5 lines."
+              }
+            ]
+          },
+          "d5",
+          "e6"
+        ],
+        [
+          {
+            "san": "Nc6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Keeping the center flexible",
+                "body": "A third option: develop first and decide about ...e5 or ...c5 only after seeing White's next move. This costs nothing concrete but gives up none of the tension either."
+              }
+            ]
+          },
+          "Nge2"
+        ]
+      ]
+    },
+    {
+      "san": "Nge2",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The knight's only road",
+          "body": "With f3 already played, the kingside knight cannot develop to f3 the normal way - it comes to e2 instead, headed for g3 or c1-b3 later. This is the direct cost of 5.f3: a full tempo the main lines don't pay.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    {
+      "san": "c6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A flexible support move - it keeps ...d5 available later, but its main job here is preparing the queenside pawn storm that starts with the next two moves.",
+          "concepts": ["opposite-wing play"]
+        }
+      ]
+    },
+    {
+      "san": "Qd2",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The last piece of the puzzle",
+          "body": "The queen connects to the coming O-O-O and eyes h6, a useful detail if Black's kingside dark squares ever loosen. With Be3 and Qd2 both played, White is one move from castling straight into the attack.",
+          "concepts": ["opposite-wing play"]
+        }
+      ]
+    },
+    {
+      "san": "a6",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black wants ...b5 as fast as possible - so why spend a move on ...a6 first instead of playing it immediately?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Securing the pawn before it moves",
+          "body": "a6 gives the coming b5 pawn a defender in advance. Skip this move and the whole plan can be refuted on the spot - see the variation for exactly how.",
+          "concepts": ["development"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "b5",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "The race started one move too early",
+                "body": "This looks like the same plan a move faster, but nothing defends b5 yet. White simply wins a pawn.",
+                "concepts": ["development"]
+              }
+            ]
+          },
+          "cxb5",
+          "cxb5",
+          {
+            "san": "Nxb5",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "Why ...a6 comes first",
+                "body": "With no a6 pawn to guard it, b5 simply falls to the knight, which also eyes d6 and a7. This single move is the entire justification for spending a tempo on ...a6 before advancing further.",
+                "concepts": ["development"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "O-O-O",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Committing to the race",
+          "body": "White's king steps toward the very side Black is about to attack - and that is entirely the point. Once both kings castle to opposite wings, every pawn move becomes an attacking move for one side and a weakening move for the other; there is no neutral tempo from here.",
+          "concepts": ["opposite-wing play", "king safety"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "c1" }]
+    },
+    {
+      "san": "b5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The queenside storm begins",
+          "body": "Now properly supported, the pawn advances and the race is fully on. Black will follow up with ...b4, ...a5, or a well-timed ...bxc4 depending on how White responds.",
+          "concepts": ["opposite-wing play"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b5", "to": "b4" }]
+    },
+    {
+      "san": "Kb1",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Getting off the open file first",
+          "body": "A standard prophylactic move in opposite-side-castling races: before either attack lands, get the king off the file the opponent's pieces might use. It costs a tempo, but a king caught on a half-open c-file is a bigger cost.",
+          "concepts": ["prophylaxis", "king safety"]
+        }
+      ]
+    },
+    {
+      "san": "Nbd7",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Both plans now visible",
+          "body": "White's kingside storm - g4, h4, h5, and eventually cracking g6 open - and Black's queenside storm - ...b4, ...a5, ...bxc4, and pressure down the b- and c-files - are both fully loaded. From here, whoever spends fewer tempi on prophylaxis and more on advancing pawns tends to win the race; this is one of the purest opposite-side-castling battles in all of opening theory.",
+          "concepts": ["opposite-wing play", "pawn storms"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons specific to this system: f3 buys a stronger center at the direct cost of a tempo in development, and that tempo has to be repaid with speed elsewhere - the queenside race; pawn moves that look purely developmental (...a6) can be the entire difference between a sound plan and a refuted one, once you check what they actually defend; and once both kings commit to opposite wings, the game becomes a pure race where every non-attacking move is a move the opponent gets for free.",
+          "concepts": ["opposite-wing play", "pawn storms", "development"]
+        }
+      ]
+    }
+  ]
+}

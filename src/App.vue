@@ -14,6 +14,7 @@
       </RouterLink>
       <nav class="app-nav">
         <RouterLink to="/">Library</RouterLink>
+        <RouterLink to="/openings">Openings</RouterLink>
         <RouterLink to="/import">Import</RouterLink>
       </nav>
     </header>

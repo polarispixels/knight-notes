@@ -1,0 +1,247 @@
+{
+  "id": "richter-veresov",
+  "catalogCode": "O127",
+  "focus": "white",
+  "title": "Richter-Veresov Attack",
+  "subtitle": "Pinning the knight before Black has chosen a plan",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "The Veresov pins Black's kingside knight on move three, before Black has committed to a pawn structure — a sharper, more tactically alert cousin of the London and Colle systems covered in The Queen's Pawn Game. Committing the queen's knight to c3 this early costs White a little flexibility, but buys quick development and a direct question Black must answer immediately.",
+  "tags": ["Richter-Veresov Attack", "Veresov Opening", "Veresov Attack", "Richter Attack", "Queen's Pawn Game", "d4 systems"],
+  "concepts": ["central tension", "quick development", "kingside attack", "pawn structure", "pin"],
+  "metadata": {
+    "eco": "D01",
+    "opening": "Queen's Pawn Game: Richter-Veresov Attack",
+    "historicalContext": "Named for the German master Kurt Richter and the Soviet master Gavriil Veresov, both of whom used 2.Nc3 followed by 3.Bg5 in the mid-20th century as a way to sidestep heavy Queen's Gambit and Indian theory while still playing for a real attack."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Queen's Pawn Game family study grouped White's 1.d4 systems by how they answer the same question — where does the queen's bishop go, and when. The Veresov answers differently from all four systems covered there: instead of routing through Nf3 first, White develops the queen's knight to c3 immediately, then pins Black's f6-knight with Bg5 on move three, before Black has chosen between a Queen's Gambit structure, a King's Indian setup, or anything else. This lesson is about what that early pin actually threatens, when it becomes a real tactic instead of a bluff, and the one lasting drawback of playing Nc3 this soon: it blocks White's own c-pawn."
+    }
+  ],
+  "line": [
+    "d4",
+    "d5",
+    {
+      "san": "Nc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A knight where the c-pawn wants to go",
+          "body": "Development first, structure later. The cost is immediate: this knight now sits on the square White's own c-pawn would love to occupy in most Queen's Gambit structures, so the Veresov gives up some of the flexibility the London and Colle keep. In exchange, White develops a full tempo faster than a setup that plays c3 or c4 first.",
+          "concepts": ["quick development"]
+        }
+      ]
+    },
+    "Nf6",
+    {
+      "san": "Bg5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The bishop pins the knight that defends d5 — to the queen, not the king, since Black's king is still on e8. Is this actually dangerous yet, or is it too early to matter?"
+        },
+        {
+          "type": "key-idea",
+          "title": "A real pin with no king behind it",
+          "body": "This is only a relative pin: nothing forces the knight to stay put if Black has something better to do. But it does mean that if the knight ever moves, White's bishop attacks straight down the g5-d8 diagonal at Black's queen — as long as nothing has filled in e7 or f6 in between. That single fact governs the next several moves for both sides, and it is exactly what goes wrong for Black in the punishing line shown here.",
+          "concepts": ["pin"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g5", "to": "d8" }]
+    },
+    {
+      "san": "Nbd7",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The safe, flexible reply",
+          "body": "Black adds a second defender to d5 without committing the e- or g-pawn yet, keeping options open for either a ...e6 or ...g6 setup. This is the steadiest answer to the pin — the two sharper tries, one tactical and one careless, are worth knowing and appear in the variations here."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Ne4",
+            "classification": "interesting",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "Striking back at both pieces at once",
+                "body": "Instead of quietly defending, Black counterattacks: this knight forks the bishop on g5 and the knight on c3 in one move, daring White to prove the pin was worth anything.",
+                "concepts": ["pin"]
+              }
+            ],
+            "visual": [
+              { "type": "arrow", "from": "e4", "to": "g5" },
+              { "type": "arrow", "from": "e4", "to": "c3" }
+            ]
+          },
+          {
+            "san": "Bf4",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Saving the bishop, accepting the trade",
+                "body": "White sidesteps rather than losing a piece outright. Black now takes the knight on c3, and White recaptures toward the kingside — the resulting doubled pawns are a real, permanent structural concession, but they come with the bishop pair and a half-open b-file in return. Neither side wins this exchange outright; it is a trade of one kind of asset for another.",
+                "concepts": ["pawn structure"]
+              }
+            ]
+          },
+          "Nxc3",
+          "bxc3"
+        ],
+        [
+          {
+            "san": "e6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "A natural move that leaves the pin unresolved",
+                "body": "This looks like ordinary development, but it does nothing to break the pin on f6 — and the position is about to show exactly why that matters."
+              }
+            ]
+          },
+          "e4",
+          "dxe4",
+          {
+            "san": "Nxe4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "White recaptures in the center. The knight on f6 is still pinned, and Black is about to find out the hard way what that means the moment it moves."
+              }
+            ]
+          },
+          {
+            "san": "Nxe4",
+            "classification": "blunder",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "Moving the pinned piece",
+                "body": "A natural-looking recapture that loses the queen outright. Because Black never played ...Be7, the diagonal from g5 to d8 is completely open — the moment the f6-knight steps aside, White simply takes the queen.",
+                "concepts": ["pin"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "g5", "to": "d8" }]
+          },
+          {
+            "san": "Bxd8",
+            "annotations": [
+              {
+                "type": "tactic",
+                "body": "The pin was real all along — Black simply needed to break it with ...Be7 before trading on e4, as the main line does. Instead, the queen falls for a bishop, a decisive material swing.",
+                "concepts": ["pin"]
+              }
+            ]
+          },
+          "Kxd8"
+        ]
+      ]
+    },
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White completes kingside development, keeping the bishop on g5 and the pin in place for now.",
+          "concepts": ["quick development"]
+        }
+      ]
+    },
+    "e6",
+    {
+      "san": "e3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A modest but necessary move: it opens the f1-bishop's diagonal and prepares kingside castling, keeping the center flexible rather than resolving the tension on d4 and c5 immediately.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    "Be7",
+    {
+      "san": "Bd3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The second bishop takes aim at h7 — the classic attacking diagonal behind a kingside pawn storm, the same idea the London System's bishop uses from the same square.",
+          "concepts": ["kingside attack"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d3", "to": "h7" }]
+    },
+    "O-O",
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Both kings are safe and both sides have finished the opening's easy decisions. From here White chooses between keeping the bishop on g5 for as long as it's useful, or trading it off on f6 to damage Black's structure — the variation two moves back showed the tactical side of the pin, and the choice below shows its structural side.",
+          "concepts": ["quick development"]
+        }
+      ]
+    },
+    "b6",
+    {
+      "san": "Bxf6",
+      "classification": "interesting",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White offers to trade the bishop that has done its job. Black has three legal recaptures — a knight, a bishop, or a pawn. Which one changes the character of the position the most?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Trading the pinning piece for structure",
+          "body": "Recapturing with either minor piece keeps Black's pawns intact. But if Black instead accepts doubled f-pawns by recapturing with the pawn — the choice shown in the variation here — the position transforms: a half-open g-file for a rook, extra central control on e5 and g5, and the bishop pair, all paid for with a permanent structural weakness. Whether that trade is worth it is a judgment call, not a rule.",
+          "concepts": ["pawn structure"]
+        }
+      ]
+    },
+    {
+      "san": "Nxf6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "What the Veresov actually offers",
+          "body": "White has finished development a tempo or two ahead of the equivalent London or Colle position, at the cost of the c-pawn's usual flexibility. Black's structure is intact and solid; the game now turns on whether White's small development edge and kingside chances outweigh the long-term restriction of that early Nc3.",
+          "concepts": ["quick development", "pawn structure"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry forward: a pin on the queen, not the king, is only a threat once the diagonal behind it is truly open — the ...Nxe4?? line shows what happens when a player forgets to check that first; committing the c-knight early is a real trade of flexibility for speed, not a free improvement on the other Queen's Pawn systems; and Bxf6 in this opening is a strategic offer about pawn structure, never a forced sequence — Black can always recapture with a piece instead.",
+          "concepts": ["pin", "pawn structure", "quick development"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "gxf6",
+            "annotations": [
+              {
+                "type": "strategy",
+                "title": "Doubled pawns, chosen on purpose",
+                "body": "Black accepts the structural damage deliberately instead of recapturing with a piece. The doubled f-pawns are a long-term concession, but the open g-file gives Black's rook a genuine asset, and the bishop pair compensates further. This is the real trade-off behind the Veresov's Bxf6 idea — a strategic bargain, never a tactic that simply wins material.",
+                "concepts": ["pawn structure"]
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "id": "blackmar-diemer",
+  "catalogCode": "GB023",
+  "focus": "white",
+  "title": "Blackmar-Diemer Gambit",
+  "subtitle": "A pawn for a permanent lead in development",
+  "type": "gambit",
+  "difficulty": "intermediate",
+  "summary": "The Blackmar-Diemer offers a second pawn on move four, on top of the one Black already grabbed on move two, in exchange for a lead in development so large that White is often fully mobilized before Black has finished a single plan. Modern defense holds the extra pawn without much danger, so this lesson teaches the gambit honestly: what the pawn actually buys, what happens if Black declines it, and the concrete tactics that punish careless handling.",
+  "tags": ["Blackmar-Diemer Gambit", "BDG", "Blackmar Gambit", "Diemer Gambit", "Queen's Pawn Game", "d4 gambits"],
+  "concepts": ["gambit play", "rapid development", "attacking initiative", "open f-file", "compensation for a pawn"],
+  "metadata": {
+    "eco": "D00",
+    "opening": "Queen's Pawn Game: Blackmar-Diemer Gambit",
+    "historicalContext": "Named for Armand Blackmar, who tried an early version of the idea in the 1880s, and Emil Josef Diemer, the German master who developed and popularized the modern move order — 3.Nc3 and 4.f3 — in the 20th century and analyzed it obsessively for decades. It remains a fixture of attacking club, blitz, and correspondence play."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Blackmar-Diemer belongs to the Queen's Pawn Game family covered in The Queen's Pawn Game, but it takes the opposite temperament from the London, Colle, Torre, and Trompowsky systems in that survey: instead of a safe setup, White sacrifices a pawn on move four for open lines and a head start in development. Judge every gambit by the same five questions: what does it cost, what does it buy, is the sacrifice sound if Black defends perfectly, can Black give the pawn back to simplify, and how much of the danger is objective versus purely practical. This lesson answers all five honestly rather than promising a forced win."
+    },
+    {
+      "type": "warning",
+      "title": "The honest verdict",
+      "body": "Modern analysis holds that precise defense — most reliably the Euwe setup with an early ...e6 — gives Black a real, durable extra pawn with no full compensation for White. That verdict does not make the gambit unplayable: at practical time controls, against a defender who does not know the exact antidote, White's initiative wins a great many games. Treat this as a genuine attacking weapon with a known theoretical price, not a trick that 'should' work."
+    }
+  ],
+  "line": [
+    "d4",
+    "d5",
+    {
+      "san": "e4",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The first pawn goes on the table",
+          "body": "White offers a pawn immediately, betting that the time Black spends holding onto it is worth more than the pawn itself. Accepting is natural and nearly universal — declining here just hands White a comfortable center for free."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e4" }]
+    },
+    "dxe4",
+    {
+      "san": "Nc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Development with a purpose: this knight will recapture on e4 eventually, but first it clears the way for the more committal idea on the next move.",
+          "concepts": ["rapid development"]
+        }
+      ]
+    },
+    "Nf6",
+    {
+      "san": "f3",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White is offering a second pawn on top of the first. What does f3 actually threaten, and why would White give up even more material to make the threat?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The gambit's real point",
+          "body": "f3 attacks the e4 pawn again and prepares to recapture with a piece, not a pawn — so after the coming exf3 Nxf3, every White minor piece is either developed or one move from it, while Black has spent three moves (dxe4, Nf6, and the coming exf3) moving the same pawn around instead of developing. Black can also decline and return the pawn immediately; the variation here shows that quieter option.",
+          "concepts": ["gambit play"]
+        }
+      ]
+    },
+    {
+      "san": "exf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Accepting the second pawn is the main line and the sterner test — Black now holds two extra pawns, at least for a few moves.",
+          "concepts": ["gambit play"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "e3",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Declining — the calm antidote",
+                "body": "Instead of capturing, Black pushes the pawn forward and simply gives it back. After the coming recapture, material is level and White has spent an extra tempo on f3 for very little; Black gets an easy, comfortable game with no need to learn a single line of BDG theory. This is the honest 'decline or return' option every gambit lesson should offer."
+              }
+            ]
+          },
+          "Bxe3"
+        ]
+      ]
+    },
+    {
+      "san": "Nxf3",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "What the pawn actually bought",
+          "body": "Count the development: every White minor piece bar one bishop is already in play or a single move away, White's king can castle immediately, and the f-file stands open for a rook the moment the last pawn in front of it moves. That is the whole gambit in one position — real, tangible compensation, but compensation, not a forced win. Whether it is enough depends entirely on how precisely Black defends from here.",
+          "concepts": ["compensation for a pawn", "open f-file"]
+        }
+      ]
+    },
+    {
+      "san": "e6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The Euwe Defense",
+          "body": "The most reliable Black setup: a modest pawn move that opens the light-squared bishop's diagonal, prepares quick kingside castling, and refuses to weaken the position chasing more material. This is the line engine analysis rates as holding the extra pawn — solid, a little passive, and hard to punish by force."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Qxd4",
+            "classification": "blunder",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The pawn that isn't free",
+                "body": "Grabbing a third pawn looks tempting, but the knight that just landed on f3 defends d4. This is the gambit's most common practical trap: a greedy recapture that simply loses the queen."
+              }
+            ],
+            "visual": [{ "type": "square", "square": "d4" }]
+          },
+          {
+            "san": "Nxd4",
+            "annotations": [
+              {
+                "type": "tactic",
+                "body": "The knight was defending d4 the whole time. White wins the queen for a knight — a decisive material swing that ends the game in all but name."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Bg5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Development with a pin, aimed at the knight defending the position. This is standard BDG technique: every developing move tries to create a small problem, since White cannot afford purely quiet moves while down material.",
+          "concepts": ["rapid development"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g5", "to": "f6" }]
+    },
+    "Be7",
+    {
+      "san": "Bd3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The other bishop takes the diagonal toward Black's king. Between this bishop, the knight on f3, and the coming open f-file, every White piece is pointed at the same side of the board.",
+          "concepts": ["attacking initiative"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d3", "to": "h7" }]
+    },
+    "O-O",
+    "O-O",
+    "Nbd7",
+    {
+      "san": "Qe1",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The initiative takes shape",
+          "body": "The queen heads for the kingside — often Qh4 or Qg3 next — joining a rook that will soon own the open f-file. Every White piece already faces Black's king; Black's task is to finish development, trade off attackers where possible, and survive long enough for the extra pawn to matter in an endgame.",
+          "concepts": ["attacking initiative", "open f-file"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons from this gambit: development speed is a real, countable resource, not a vague slogan — this position proves it move by move; a gambit's soundness and its practical danger are two different questions, and honest study keeps them separate; and 'accepting' a gambit pawn is itself a decision with consequences — the greedy Qxd4 line shows that grabbing further material without checking what defends it can lose outright.",
+          "concepts": ["compensation for a pawn", "gambit play"]
+        }
+      ]
+    }
+  ]
+}

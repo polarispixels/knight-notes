@@ -1,0 +1,223 @@
+{
+  "id": "catalan-open",
+  "catalogCode": "O085",
+  "focus": "black",
+  "title": "Open Catalan",
+  "subtitle": "Catalan Opening — a pawn for the long diagonal",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "The Open Catalan is Black's most direct answer to White's fianchetto: grab the pawn on c4 immediately and worry about giving it back later. This lesson shows why that pawn is rent, not property — and what Black banks in exchange for handing it back on White's terms.",
+  "tags": ["Open Catalan", "Catalan, Open Variation", "Catalan Opening", "d4 openings", "fianchetto", "gambit pawn"],
+  "concepts": ["temporary pawn sacrifice", "the long diagonal", "queenside majority", "pawn-recovery technique", "tempo over material", "open files"],
+  "metadata": {
+    "eco": "E02-E05",
+    "opening": "Catalan Opening: Open Variation"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Catalan Opening's whole plan revolves around the g2-bishop's pressure down the long diagonal and, eventually, recovering the pawn Black is offered on c4. The Open Catalan is Black's most direct answer: take the pawn immediately and worry about giving it back later, rather than declining as the Closed Catalan does. The question this lesson answers: once the pawn goes back, what does Black actually get to keep?"
+    },
+    {
+      "type": "key-idea",
+      "title": "Same first moves, opposite personality",
+      "body": "Compare this to the Closed Catalan: identical first four moves, completely different character from move four onward — patience versus a race for tempo."
+    }
+  ],
+  "line": [
+    "d4",
+    "Nf6",
+    "c4",
+    {
+      "san": "e6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The classical declining setup — watch what happens differently once White's next move reveals a fianchetto instead of a normal developing bishop move."
+        }
+      ]
+    },
+    {
+      "san": "g3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The Catalan choice: the bishop heads to g2 instead of a normal square, aiming down the long diagonal at the queenside — and, eventually, at the very pawn Black is about to grab."
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black claims the center exactly as in the Queen's Gambit Declined."
+        }
+      ]
+    },
+    "Bg2",
+    {
+      "san": "dxc4",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Taking the bait immediately",
+          "body": "Rather than wait, Black grabs the pawn right away — the defining choice of the Open Catalan. The bet: the tempo White spends recapturing, plus the long-term structural trumps Black banks in exchange, are worth more than one extra center pawn ever was.",
+          "concepts": ["temporary pawn sacrifice"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d5", "to": "c4" }]
+    },
+    "Nf3",
+    {
+      "san": "Be7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Straightforward development. The other main try, ...a6, prepares to actually hold the pawn instead of returning it (see the variation)."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "a6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Holding the pawn correctly",
+                "body": "Black can also try to genuinely keep the extra pawn, provided the support arrives in the right order: a6 before ...b5, so the defensive chain is complete before White can strike it. This is a real, respected alternative to simply returning the pawn — slower to develop, but if Black successfully holds c4, it becomes a genuine long-term asset."
+              }
+            ]
+          },
+          "O-O",
+          "b5",
+          "a4",
+          "c6"
+        ]
+      ]
+    },
+    "O-O",
+    "O-O",
+    {
+      "san": "Qc2",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The queen lines up on the pawn Black grabbed on move four. Should Black scramble to defend it with an immediate ...b5, the way a Slav or QGA player might instinctively try?"
+        }
+      ]
+    },
+    {
+      "san": "a6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Prophylaxis, not defense",
+          "body": "No — and this is the Open Catalan's central lesson. a6 doesn't defend c4 at all; it just rules out Nb5/Bb5 ideas and prepares queenside expansion. Black simply lets White take the pawn back next move. What Black keeps instead: the tempo spent recapturing, a head start on queenside space, and a long-term structural plan built around extra flank pawns rather than one extra center pawn. (The variation here shows the greedy alternative — and why it's dangerous.)"
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "b5",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Defending the pawn instead of returning it",
+                "body": "This looks like the obvious way to hold the extra pawn — b5 defends c4 directly. But Black's queenside isn't ready to support an advanced pawn yet: the bishop is still on c8, the knight still on b8, and the a8-rook has no real protection along the back rank."
+              }
+            ]
+          },
+          "a4",
+          {
+            "san": "a6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black tries to hold the chain together, but this just adds fuel to White's break."
+              }
+            ]
+          },
+          "axb5",
+          {
+            "san": "axb5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The a-file is now completely open, with both rooks facing each other and nothing in between."
+              }
+            ]
+          },
+          {
+            "san": "Rxa8",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The point: an undefended rook on an open file",
+                "body": "Because Black's queen, bishop, and knight are all still on their starting squares, nothing along the eighth rank defends a8. White simply wins a full rook for nothing. The concrete lesson: piling up pawn moves to defend one pawn, with no piece development behind it, is often not actually holding anything at all.",
+                "concepts": ["open files"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "a1", "to": "a8" }]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Qxc4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White simply recaptures. Material is level again, four moves after the original capture — exactly on schedule."
+        }
+      ]
+    },
+    {
+      "san": "b5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Tempo, not defense",
+          "body": "Only now does Black push the pawn — not to defend anything (there's nothing left to defend), but to attack the queen and seize a tempo immediately. That is the real difference between defending a pawn and using its return as a springboard for activity."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b5", "to": "c4" }]
+    },
+    "Qc2",
+    {
+      "san": "Bb7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Development completes the point: Black's queenside pawn majority (a6 and b5 against White's more compact structure) is banked for the long term, and the bishop joins the fight for the very diagonal White's own fianchetto controls."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b7", "to": "g2" }]
+    },
+    {
+      "san": "Rd1",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "What each side actually kept",
+          "body": "Materially the position is level, exactly as it was on move one — but the resulting structures are entirely different. White hasn't even finished developing — the queenside knight and bishop are still home — yet already presses down the long diagonal and the central files; Black holds a genuine structural trump, the queenside pawn majority, plus real piece activity from ...Bb7. The whole battle from here is whether White's piece pressure outweighs Black's long-term structural promise before that majority can ever become a passed pawn."
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a gambit pawn is rent, not property — trying to keep it without the right support (see the variation) usually costs more than it's worth; the tempo gained by attacking the queen with ...b5 matters more than the pawn itself, since tempo buys development while a static pawn just sits there; and 'accepting' the Catalan doesn't mean losing the center fight — it trades one long-term asset, the extra center pawn, for another, the queenside majority."
+        }
+      ]
+    }
+  ]
+}

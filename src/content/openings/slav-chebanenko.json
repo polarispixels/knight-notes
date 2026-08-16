@@ -1,0 +1,217 @@
+{
+  "id": "slav-chebanenko",
+  "catalogCode": "O092",
+  "focus": "black",
+  "title": "The Chebanenko Variation",
+  "subtitle": "Slav Defense — the flexible ...a6",
+  "type": "variation",
+  "difficulty": "intermediate",
+  "summary": "The Chebanenko Variation adds a single quiet pawn move, 4...a6, to the Slav Defense, and in doing so keeps every central and queenside option open at once. Rather than commit early to ...dxc4, ...b5, or ...Bf5, Black waits for White to show a hand first, denying easy targets. This lesson shows why patience itself can be a weapon, and what goes wrong when the move order gets reversed.",
+  "tags": ["Chebanenko Variation", "Chebanenko Slav", "a6-Slav", "a6 Slav", "Slav Defense", "Queen's Gambit family", "d4 openings"],
+  "concepts": ["prophylaxis", "flexible plans", "central tension", "development", "queenside expansion", "timing"],
+  "metadata": {
+    "eco": "D15-D16",
+    "opening": "Slav Defense: Chebanenko Variation (4...a6)"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Slav Defense study showed ...c6 freeing the light-squared bishop before ...e6 seals it in. The Chebanenko Variation adds one more layer of patience on top of that: before committing to ...dxc4, ...b5, or ...Bf5, Black inserts the quiet ...a6, keeping every central and queenside option alive and denying White easy targets to aim at. The central question: is a move that develops nothing actually a powerful prophylactic tool, or just a wasted tempo dressed up as a plan?"
+    },
+    {
+      "type": "historical",
+      "title": "A modern, deliberately patient idea",
+      "body": "Named for Viacheslav Chebanenko, a Moldovan trainer and theoretician whose analysis of this delayed-commitment approach spread through his students; it was later carried into elite practice by players such as Viktor Bologan. Unlike most named variations, its point isn't a concrete tactical idea — it's a philosophy about when to reveal information."
+    }
+  ],
+  "line": [
+    "d4",
+    "d5",
+    "c4",
+    {
+      "san": "c6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The Slav's usual first step — defend d5 with a pawn while keeping the light-squared bishop's diagonal open.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops naturally rather than committing to a particular plan against the Slav yet.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    "Nf6",
+    "Nc3",
+    {
+      "san": "a6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A move that develops nothing, on purpose",
+          "body": "a6 doesn't develop a piece or fight for the center directly. Its entire value is prophylactic: it prepares ...b5 with real support behind it, and it does so before Black has revealed whether the plan is ...dxc4 and ...b5, a fianchetto, or a normal ...e6 setup. White cannot easily prepare a refutation of a plan Black hasn't shown yet.",
+          "concepts": ["prophylaxis", "flexible plans"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "b5",
+            "classification": "mistake",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "The same move, the wrong order",
+                "body": "Playing ...b5 immediately, without ...a6 first, looks like the same idea a tempo faster. It isn't. Once White captures on b5 and Black recaptures with the c-pawn, nothing defends the pawn that lands on b5 — a7 only covers b6, not b5. White simply wins it back with a well-timed knight move, and Black has nothing to show for the tempo spent.",
+                "concepts": ["timing", "prophylaxis"]
+              }
+            ]
+          },
+          "cxb5",
+          "cxb5",
+          {
+            "san": "Nxb5",
+            "classification": "theory",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The pawn that was never defended",
+                "body": "b5 has no defender: a7 guards b6, not b5, and the c-pawn that would have guarded it is gone. White simply collects the pawn. Black can chase the knight back with ...a6 next, but that only proves the point — the same tempo spent recovering the piece could have been spent on development if ...a6 had come first.",
+                "concepts": ["timing"]
+              }
+            ],
+            "visual": [{ "type": "square", "square": "b5" }]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "e3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A solid, flexible reply — White simply completes development rather than committing to stop ...b5. The variation here shows the alternative that takes that option away directly.",
+          "concepts": ["development"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "a4",
+            "annotations": [
+              {
+                "type": "strategy",
+                "title": "Stopping ...b5 outright",
+                "body": "White spends a tempo denying the queenside expansion Black was preparing. This concedes the b4 square and slightly weakens White's own queenside light squares in exchange for permanently removing one of Black's options — a real, principled try, and a reminder that ...a6 doesn't guarantee ...b5 will actually be played."
+              }
+            ]
+          },
+          "Bf5"
+        ],
+        [
+          {
+            "san": "c5",
+            "annotations": [
+              {
+                "type": "strategy",
+                "title": "The space-grabbing try",
+                "body": "Instead of allowing the position to stay fluid, White locks the queenside pawn structure immediately, gaining space at the cost of surrendering the central tension entirely. Black typically responds with normal development and looks to undermine the c5 pawn later with ...b6 or ...e5 — a fundamentally different kind of game from the main line here."
+              }
+            ]
+          },
+          "Nbd7"
+        ]
+      ]
+    },
+    {
+      "san": "b5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Cashing in the prophylaxis",
+          "body": "Now that a6 already defends b5, this space grab arrives without the tactical problems it would carry without that preparation — see the variation on Black's previous move for exactly what goes wrong if the order is reversed.",
+          "concepts": ["queenside expansion", "timing"]
+        }
+      ]
+    },
+    {
+      "san": "b3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White fights for the c4 and d5 light squares rather than letting Black's queenside expansion go unanswered.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "Bg4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The bishop the Slav family exists to free",
+          "body": "The same idea the Slav Defense study built its whole lesson around: get this bishop active before ...e6 locks it in for good. Here it comes with the queenside already expanded, which the plain Slav main line never gets to do.",
+          "concepts": ["flexible plans"]
+        }
+      ]
+    },
+    "Be2",
+    {
+      "san": "e6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Committing last, not first",
+          "body": "Only now, after the bishop is safely developed and the queenside pawns are already advanced, does Black complete the central pawn chain. Every other Slav approach makes some version of this decision earlier and with less information — that gap is the entire value of the Chebanenko move order.",
+          "concepts": ["timing", "flexible plans"]
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "Nbd7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black completes development, keeping options open between ...dxc4, ...Bd6, and central breaks with ...c5 or ...e5 later.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    "Qc2",
+    {
+      "san": "Bd6",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "A fully flexible position, fully developed",
+          "body": "Black has completed development without ever having to guess White's plan before committing to one. The bishop is active, the queenside pawns are advanced and defended, and the center can still be resolved several different ways depending on what White tries next.",
+          "concepts": ["flexible plans"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a move that develops nothing can still be the most useful move on the board, if its job is denying the opponent a target; committing to a pawn structure last, after gathering the most information, is a real strategic advantage, not procrastination; and prophylaxis only works in the right order — a6 makes ...b5 sound precisely because it comes first, which the mistake line at Black's fourth move shows going wrong when reversed."
+        }
+      ]
+    }
+  ]
+}

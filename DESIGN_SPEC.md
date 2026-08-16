@@ -56,6 +56,36 @@ VisualAnnotation = { type:"square", square, style? } | { type:"arrow", from, to,
 
 Classifications are educational metadata supplied by content, never inferred. UI distinguishes important/critical moves without making normal moves noisy.
 
+## Opening Catalog (added 2026-08-16)
+
+The openings library is organized by an application-owned **Opening
+Catalog** (`src/data/openings-catalog.json`, types in
+`src/domain/openings/types.ts`): the curated editorial map of opening
+theory. Catalog entries carry identity (canonical name, aliases), taxonomy
+(`level`: family/opening/variation/subvariation; `openingType`; `side`;
+navigation `group` on families), classification (ECO, editorial `tier`),
+relationships (tree `parentId` plus graph `transposesTo`/`related` — chess
+openings transpose, so the tree is for navigation and the graph edges keep
+what the tree cannot express), and lesson wiring (`lessonId` /
+`branchOfLessonId`). Instructional content stays in studies; the catalog
+only points at them.
+
+Rules: one canonical name per opening, alternates are searchable aliases;
+`children`/`transposesFrom`/`lessonStatus` are derived at load, never
+stored; positions are derived by replaying each entry's canonical `moves`
+(hand-written FENs remain a bug); editorial tiers are
+core / major / specialized / historical (standalone lessons) plus
+branch-only (taught inside a parent lesson) and excluded (kept only so
+search can answer honestly — e.g. searching "Bongcloud" explains why there
+is no lesson). The catalog gate
+(`src/application/openings/__tests__/openingsCatalog.spec.ts`) validates
+identity, hierarchy acyclicity, ECO formats, move legality, and lesson
+wiring; it runs in `npm run validate:content`.
+
+UI: `/openings` (lazy route) renders group → family → variation trees with
+alias-aware search and White/Black filtering, joining catalog entries to
+shipped lessons via the repository. The flat library at `/` is unchanged.
+
 ## PGN / FEN
 PGN is an **interchange format**, never the internal model. Pipeline: PGN → parser → parsed game → conversion → Study → reader. Import must preserve headers, players, date, result, comments (→ annotations), main line, and variations. Unannotated imports are still valid studies. FEN supported internally; basic FEN import only if trivial. Import flow: validate → parse → build tree with FENs → comments become annotations → create Study with unique id → save locally → open. Title fallback: "White vs Black", else "Imported Study".
 
@@ -119,3 +149,5 @@ Library shows catalog → open study → correct position renders → Next advan
 - `idb` for IndexedDB; localStorage for prefs.
 - Vitest + @vue/test-utils (happy-dom); bundled-content validator in the test suite.
 - (2026-08-15, later) Bundled content authored as StudySeed (`src/infrastructure/content/seed.ts` + `validateSeed.ts`), never hand-written canonical Study JSON — FENs, node ids, and relationships are always generated. Format documented in CONTENT_AUTHORING.md; published with the app at `/docs/`.
+- (2026-08-16) Bundled studies lazy-load: `virtual:study-summaries` (Vite plugin, `build/studySummariesPlugin.ts`) serves the library-card projection at build time; full studies convert on demand from per-study chunks (`lazyBundledRepository`). A content test pins the projection to `toSummary`.
+- (2026-08-16) Opening Catalog shipped (see section above): 224 curated entries spanning ~170 standalone lessons; `/openings` browser; catalog gate in the test suite.

@@ -1,0 +1,246 @@
+{
+  "id": "falkbeer-countergambit",
+  "catalogCode": "GB011",
+  "focus": "black",
+  "title": "Falkbeer Countergambit",
+  "subtitle": "Answering a gambit with a gambit — the center over the pawn",
+  "type": "gambit",
+  "difficulty": "intermediate",
+  "summary": "Instead of grabbing White's f-pawn, Black strikes back in the center at once with 2...d5, offering material of Black's own in exchange for time and space. It is the sharpest philosophical answer to the King's Gambit: rather than defend a pawn for the rest of the game, meet aggression with aggression.",
+  "tags": [
+    "Falkbeer Countergambit",
+    "Falkbeer Counter-Gambit",
+    "King's Gambit",
+    "countergambit",
+    "e4 openings"
+  ],
+  "concepts": [
+    "gambit play",
+    "counterattack",
+    "central tension",
+    "development",
+    "pins",
+    "initiative"
+  ],
+  "metadata": {
+    "eco": "C31-C32",
+    "opening": "King's Gambit: Falkbeer Countergambit"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study covered White's two main paths after 2.f4 -- the Accepted lines and the calm Declined. The Falkbeer is Black's third answer, and the most combative: instead of taking the f-pawn or simply developing, Black hits back in the center immediately with 2...d5. The central question changes completely -- it is no longer 'can White prove enough for the pawn?' but 'who gets to be the attacker?'"
+    },
+    {
+      "type": "historical",
+      "title": "Named for Ernst Falkbeer",
+      "body": "The Austrian master Ernst Falkbeer introduced 2...d5 in the 1850s as a direct challenge to the King's Gambit's own logic -- if White can offer a pawn for time and initiative, so can Black."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    "f4",
+    {
+      "san": "d5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The countergambit",
+          "body": "Black ignores f4 entirely and strikes at e4 instead. This is the whole idea of a countergambit: rather than accept White's offer and spend the game defending an extra pawn, Black makes an offer of Black's own and races for central control and quick development."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d5", "to": "e4" }]
+    },
+    "exd5",
+    {
+      "san": "e4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The point of the whole line",
+          "body": "This pawn thrust, not a recapture on d5, is why the opening is called a COUNTERgambit. The pawn on e4 gains a tempo by cramping the natural developing square f3, and it will support a knight landing on e4 with real central authority. Black is temporarily down a pawn in exchange for exactly the kind of initiative White usually gets to enjoy in this opening."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Qxd5",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The natural move that misses the point",
+                "body": "Recapturing at once looks like the simplest way to stay level, but it moves the queen early into the center where White develops with tempo against it. This is the whole reason to prefer 3...e4 over 3...Qxd5 -- a countergambit is about time, not about the shortest path back to material equality."
+              }
+            ]
+          },
+          {
+            "san": "Nc3",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "A free developing move",
+                "body": "The knight develops and attacks the queen in one move. Black must spend another move retreating it while White has developed for free -- precisely the kind of tempo Black was trying to seize with 3...e4 instead.",
+                "concepts": ["development"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "c3", "to": "d5" }]
+          },
+          "Qd8"
+        ]
+      ]
+    },
+    {
+      "san": "d3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Challenging the pawn directly",
+          "body": "White attacks e4 head-on rather than letting Black keep it as a cramping thorn. This forces the position open quickly -- exactly what Black wants, since Black's pieces are about to come out with more purpose than White's."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nc3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Developing instead of challenging",
+                "body": "White can also simply develop and deal with e4 later. The resulting positions carry the same central themes -- Black's advanced e-pawn versus White's extra pawn on d5 -- just reached by a different move order."
+              }
+            ]
+          },
+          "Nf6",
+          "Qe2",
+          {
+            "san": "Bf5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black defends the e4 pawn and develops at the same time, keeping the same central bargain: an advanced, supported pawn for active pieces."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black develops toward e4 rather than defending the pawn with a pawn move -- if White takes it, a piece recaptures and lands already developed, centralized on e4 instead of needing a second move to get there."
+        }
+      ]
+    },
+    "dxe4",
+    {
+      "san": "Nxe4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The point, realized",
+          "body": "The knight lands on e4 exactly as planned -- centralized, active, and hard to dislodge. Material is not yet equal (White still holds the d5 pawn), but Black's pieces already look like they belong to the side that is ahead in development.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e4" }]
+    },
+    "Nf3",
+    {
+      "san": "Bc5",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White's queen can now reach e2, lining up on the same file as the knight on e4 and the black king on e8, which hasn't moved. What does that actually do to the knight?"
+        }
+      ]
+    },
+    {
+      "san": "Qe2",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A frozen knight",
+          "body": "With e5, e6, and e7 all empty, Qe2 pins the knight on e4 to Black's own king along the e-file. This is more absolute than pins usually are for a knight: a knight can never move and stay on the same file, so a knight pinned like this has no legal move at all until the pin is broken. It is not yet lost, though -- it only needs to stay adequately defended.",
+          "concepts": ["pins"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "e2", "to": "e8" },
+        { "type": "square", "square": "e4" }
+      ]
+    },
+    {
+      "san": "Bf5",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The only move that matters",
+          "body": "The knight cannot move itself out of the pin, so Black must defend it with something else. Bf5 does exactly that while also completing development -- a single move solving the tactical problem and the strategic one together."
+        }
+      ]
+    },
+    {
+      "san": "Nc3",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "The frozen knight on e4 is now attacked twice (the queen and this new knight) and defended only once (the bishop). Is it about to fall?"
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c3", "to": "e4" }]
+    },
+    {
+      "san": "Qe7",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Matching attackers with defenders",
+          "body": "No -- Black simply adds a second defender along the same e-file. Two attackers, two defenders: the knight holds its post. This is the running theme of the whole opening -- Black doesn't need to win any single tactical exchange, only to keep the ledger balanced while development finishes."
+        }
+      ]
+    },
+    "Be3",
+    {
+      "san": "Bxe3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black trades off the dark-squared bishop rather than retreat it -- simplifying is fine here, since it doesn't touch the balance on e4."
+        }
+      ]
+    },
+    {
+      "san": "Qxe3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The countergambit's bargain, on the board",
+          "body": "White still holds the extra pawn from move three, sitting far advanced on d5. In return, Black has a firmly centralized and fully defended knight on e4, a developed light-squared bishop, and a lead in piece activity -- for a king that hasn't even castled yet. Neither side has won anything outright; this is the honest, roughly balanced position the whole opening was built to reach.",
+          "concepts": ["central tension"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons carry beyond this line: a countergambit trades material for time, not for a quick equalizing recapture (compare 3...e4 with the tempting but weaker 3...Qxd5); a pinned knight is not automatically a lost knight, only one that needs its defenders counted carefully; and structural imbalances like White's advanced pawn versus Black's active pieces are the real subject of this opening, not a single trick."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }]
+    }
+  ]
+}

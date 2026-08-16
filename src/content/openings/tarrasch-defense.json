@@ -1,0 +1,234 @@
+{
+  "id": "tarrasch-defense",
+  "catalogCode": "O095",
+  "focus": "black",
+  "title": "The Tarrasch Defense",
+  "subtitle": "Queen's Gambit Declined — an isolated pawn on purpose",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "The Tarrasch Defense answers the Queen's Gambit by striking back in the center immediately, accepting an isolated queen pawn on purpose rather than avoiding one at all costs. This lesson shows why Siegbert Tarrasch believed piece activity was worth more than a structural flaw — and where the classical school pushed back.",
+  "tags": ["Tarrasch Defense", "Tarrasch QGD", "Tarrasch Variation", "Queen's Gambit Declined", "d4 openings", "isolated queen pawn"],
+  "concepts": ["isolated queen pawn", "piece activity", "central pawn breaks", "the Bg5 pin", "hanging pawns", "classical vs hypermodern debate"],
+  "metadata": {
+    "eco": "D32-D34",
+    "opening": "Queen's Gambit Declined: Tarrasch Defense",
+    "historicalContext": "Siegbert Tarrasch, one of the leading theoreticians of the classical era, championed 3...c5 and the belief that piece activity justifies a structural concession. The hypermodern generation that followed, Nimzowitsch chief among them, argued the opposite — that the isolated pawn becomes a long-term liability once the pieces defending it are traded away. The related hanging-pawns structure produced one of the most famous attacking games ever played, still studied today as Rotlewi vs Rubinstein."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Queen's Gambit Declined study showed patience as a plan: hold the center, trade carefully, free the position on a schedule. The Tarrasch Defense throws that patience out and strikes back immediately with ...c5, willingly accepting an isolated queen pawn in exchange for open lines and active pieces. The question this lesson answers: when is a structural weakness actually a source of strength?"
+    }
+  ],
+  "line": [
+    "d4",
+    "d5",
+    "c4",
+    {
+      "san": "e6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black meets the Queen's Gambit with the classical declining move, just as the QGD family study did — but the plan from here diverges sharply. Rather than settling in for patient defense, Black is about to strike back in the center immediately."
+        }
+      ]
+    },
+    "Nc3",
+    {
+      "san": "c5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The Tarrasch's defining strike",
+          "body": "Instead of developing quietly, Black challenges d4 head-on. This is the whole personality of the Tarrasch Defense: rather than avoiding structural weaknesses, Black courts one on purpose, betting that open lines and quick piece activity outweigh a hole in the pawn structure. Where the QGD chose patience, the Tarrasch chooses to force the position open and trust the pieces."
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c5", "to": "d4" }]
+    },
+    {
+      "san": "cxd5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White accepts the invitation to resolve the tension. For a moment there are two white pawns near d5 — the point is what happens on the very next move."
+        }
+      ]
+    },
+    {
+      "san": "exd5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The symmetric center",
+          "body": "Black recaptures with the pawn that keeps development flowing. Both sides now have a single central pawn, d4 against d5, perfectly symmetric — for now. The whole story of this opening is what happens when that symmetry breaks."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }],
+      "variations": [
+        [
+          {
+            "san": "cxd4",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The wrong recapture",
+                "body": "This looks just as natural — Black has two pawns that could recapture in this area. But White's pawn is still sitting on d5, undisturbed. Watch what happens to it."
+              }
+            ]
+          },
+          "Qxd4",
+          "exd5",
+          {
+            "san": "Qxd5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "A pawn lost to move order",
+                "body": "Add it up: White's queen captured on d4 and then d5, ending centralized and a full pawn ahead, while every one of Black's moves was a forced recapture. The correct 4...exd5 keeps material level immediately; this move order simply gives a pawn away for nothing."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Nf3",
+    "Nc6",
+    {
+      "san": "g3",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The Rubinstein System",
+          "body": "Rather than developing the bishop actively to d3 or e2, White fianchettoes it — aiming down the long diagonal at the queenside and, eventually, at the isolated pawn Black is about to accept. This fianchetto approach against the Tarrasch's IQP is known as the Rubinstein System, named for Akiba Rubinstein, one of the structure's earliest and best interpreters."
+        }
+      ]
+    },
+    "Nf6",
+    "Bg2",
+    "Be7",
+    "O-O",
+    "O-O",
+    {
+      "san": "Bg5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black must now decide how to handle the tension on c5/d4: capture immediately and accept an isolated pawn, or push past with ...c4 and keep the pawns intact. Which choice actually fits everything Black has played so far?"
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "g5", "to": "f6" },
+        { "type": "square", "square": "d4" }
+      ]
+    },
+    {
+      "san": "cxd4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The IQP, by choice",
+          "body": "Resolve it. This is the answer the whole opening has been building toward: an isolated pawn on d5 in exchange for open lines and a free game for every piece, instead of the cramped waiting the classical QGD sometimes requires. The alternative — locking the structure with ...c4 — trades this activity for safety (see the variation)."
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }],
+      "variations": [
+        [
+          {
+            "san": "c4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Locking the structure instead",
+                "body": "Rather than accepting an isolated pawn, Black can grab space and fix the structure in place. The tension disappears, and so does any chance of ever winning the d4 outpost back — this pawn can itself become a long-term target once White plays b3. A real, playable alternative, just a different bet: safety over activity."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nxd4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White's knight lands on the outpost the IQP can never challenge again — d4 is permanently out of reach of any black pawn now."
+        }
+      ]
+    },
+    {
+      "san": "h6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Challenging the pin",
+          "body": "Rather than let White keep the bishop pinning the f6-knight for free, Black asks it a question immediately.",
+          "concepts": ["the Bg5 pin"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nxd4",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Trading the wrong piece",
+                "body": "This also removes the pinning bishop's target, but at a cost: it hands White's queen the ideal central square for free and removes one of Black's own most active minor pieces. Compensation for an IQP comes from piece activity — trading it away without need gives up the very thing that justified the pawn in the first place."
+              }
+            ]
+          },
+          "Qxd4"
+        ]
+      ]
+    },
+    {
+      "san": "Be3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The bishop retreats to a safe square rather than trade — from e3 it still eyes the queenside and supports the center."
+        }
+      ]
+    },
+    {
+      "san": "Re8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A useful, flexible move: the rook supports a future ...e5 or ...d4 break and keeps an eye on White's own ambitions along the e-file."
+        }
+      ]
+    },
+    {
+      "san": "Qb3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The IQP battle lines are drawn",
+          "body": "The queen adds pressure toward d5 and eyes the loose b7 pawn — a small, typical prod. From here the whole middlegame is the classic IQP argument in miniature: White wants to trade pieces, blockade d5 with a knight, and reach an endgame where the pawn is simply weak; Black wants to keep pieces on the board, generate threats before any endgame arrives, and consider the freeing ...d4 push at the right moment. Black's most common replies are ...Na5, chasing the queen, or continuing development with ...Bg4 or ...Be6.",
+          "concepts": ["isolated queen pawn"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: recapturing with the right pawn matters even in the opening's earliest moves — the wrong choice on move four simply loses material; an isolated pawn is not automatically a weakness, it bought Black open lines and easy development for the whole game; and activity has a shelf life — every trade favors the side without the IQP, which is why Black should avoid unnecessary simplification while White welcomes it.",
+          "concepts": ["isolated queen pawn", "piece activity", "hanging pawns"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "b3", "to": "b7" },
+        { "type": "arrow", "from": "b3", "to": "d5" }
+      ]
+    }
+  ]
+}

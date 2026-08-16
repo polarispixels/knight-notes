@@ -1,0 +1,248 @@
+{
+  "id": "queens-gambit-declined-semi-tarrasch",
+  "catalogCode": "O090",
+  "focus": "black",
+  "title": "The Semi-Tarrasch Defense",
+  "subtitle": "Trading the center for tempo, not for a pawn",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "Where the Queen's Gambit Declined holds the center patiently, the Semi-Tarrasch strikes at it immediately with ...c5, inviting mass simplification. Black gives up any central pawn presence entirely — a real concession — in exchange for fast development, active pieces, and a clean target to attack in White's resulting pawn center.",
+  "tags": ["Semi-Tarrasch Defense", "Semi-Tarrasch Variation", "Queen's Gambit Declined", "Tarrasch structures", "d4 defenses"],
+  "concepts": ["central tension", "piece activity", "development", "central challenge", "structural trades"],
+  "metadata": {
+    "eco": "D40-D42",
+    "opening": "Queen's Gambit Declined: Semi-Tarrasch Defense"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The Queen's Gambit Declined study showed a defense built on patience: hold d5, develop behind it, release the tension only when the timing favors you. The Semi-Tarrasch answers the same gambit with the opposite temperament — Black challenges the center at once with ...c5, trades down hard, and accepts having no central pawns at all in return for quick, active pieces. It sits between two relatives: it avoids the Slav's committal ...c6 and the full Tarrasch's self-inflicted isolated pawn, recapturing on d5 with a knight instead of a pawn so Black's structure stays clean even as the position simplifies fast."
+    }
+  ],
+  "line": [
+    "d4",
+    "d5",
+    "c4",
+    {
+      "san": "e6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Like the Queen's Gambit Declined, Black keeps the center intact rather than grabbing c4. What comes next is different: instead of settling into the Orthodox setup, Black keeps the position flexible and aims to strike back at d4 immediately.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    "Nc3",
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Development first, with a specific follow-up in mind — this knight does not settle for defending e6 forever.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black's last two moves developed pieces without touching the center. What is the plan — quiet development, or something sharper?"
+        }
+      ]
+    },
+    {
+      "san": "c5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The immediate central challenge",
+          "body": "Rather than wait behind d5 the way the Orthodox Defense does, Black strikes at d4 right away, before White can build the Bg5 pressure that makes patience costly. This is the Semi-Tarrasch's whole identity: fight for the center by attacking it, not by holding it.",
+          "concepts": ["central challenge"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c5", "to": "d4" }]
+    },
+    {
+      "san": "cxd5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White resolves the tension immediately rather than developing further first — delaying gives Black extra options for meeting the center, so White clarifies the structure while it still favors White.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "Nxd5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black recaptures with the knight instead of the e-pawn. Why does the choice of recapture matter so much that the whole opening is named for it?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The knight recapture — the whole point",
+          "body": "Recapturing with the e-pawn (...exd5) would give Black a permanent isolated queen's pawn — the full Tarrasch Defense's defining structural concession. Taking with the knight avoids that entirely: Black has no central pawn at all right now, which sounds like a bigger admission but is actually lighter, since there is no weak pawn left to defend. The knight also centralizes at once, eyeing c3, b4, and f4.",
+          "concepts": ["structural trades"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }]
+    },
+    {
+      "san": "e4",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "Claiming the space Black gave up",
+          "body": "White's most ambitious try: push the knight away and grab a big pawn center in one move. This is the price of the Semi-Tarrasch's speed — White gets real central space, and Black must prove the piece activity is worth it.",
+          "concepts": ["central challenge"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e4", "to": "d5" }]
+    },
+    {
+      "san": "Nxc3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Trading, not retreating",
+          "body": "Retreating the knight would simply hand White a free tempo and an even bigger center for nothing. Trading it off instead keeps the position sharp and forces White to recapture toward a structure Black can immediately target — the whole exchange is about not wasting time.",
+          "concepts": ["structural trades", "development"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Be7",
+            "classification": "blunder",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "Ignoring the attacked knight",
+                "body": "A natural developing move that overlooks the point: the knight on d5 is attacked and, other than a pawn, nothing defends it. Grabbing it costs Black a full piece for a pawn.",
+                "concepts": ["central challenge"]
+              }
+            ]
+          },
+          "exd5",
+          {
+            "san": "Qxd5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black regains the pawn, but the accounting is brutal: a whole knight was traded for a single pawn. The lesson from the main line stands — when a piece is attacked in the middle of the board, deal with it before doing anything else.",
+                "concepts": ["development"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "bxc3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White recaptures with the pawn, completing the knight trade and accepting a half-open b-file as the real cost — not doubled pawns, just a single, well-supported c-pawn joining a genuinely large mass in the middle of the board.",
+          "concepts": ["structural trades"]
+        }
+      ]
+    },
+    {
+      "san": "cxd4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Striking before it consolidates",
+          "body": "Black challenges again immediately — waiting would let White simply finish developing behind an intimidating center. The pressure has to be applied now, while the structure is still unsettled.",
+          "concepts": ["central challenge"]
+        }
+      ]
+    },
+    {
+      "san": "cxd4",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The structure that results",
+          "body": "White ends up with pawns on d4 and e4 side by side — a real central duo, not a true isolated pawn, since the two support each other's advance. Black, in turn, has no central pawns at all. This is the honest trade the Semi-Tarrasch makes: White gets space and a mobile center; Black gets a full tempo lead in development to attack it with pieces instead of pawns.",
+          "concepts": ["piece activity", "structural trades"]
+        }
+      ]
+    },
+    {
+      "san": "Bb4+",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "tactic",
+          "title": "A check while the center is still loose",
+          "body": "With the c3-pawn gone, this diagonal is wide open. The check forces White to spend another move on defense rather than consolidation, keeping Black's development lead alive.",
+          "concepts": ["development"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b4", "to": "e1" }]
+    },
+    "Bd2",
+    "Bxd2+",
+    "Qxd2",
+    "O-O",
+    {
+      "san": "Bc4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White's last minor piece develops toward f7, and both sides are essentially out — a remarkably quick mobilization for such a heavily-traded position.",
+          "concepts": ["development"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c4", "to": "f7" }]
+    },
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black's last minor piece develops too, and it does more than fill a square — it eyes d4 directly, the first piece to take aim at White's central pawn duo.",
+          "concepts": ["piece activity"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c6", "to": "d4" }]
+    },
+    "O-O",
+    {
+      "san": "b6",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Activity against a center",
+          "body": "Both sides have completed development in about a dozen moves, an unusually fast mobilization for a d4 opening. Black's plan from here is clear: ...Bb7 adds a second attacker to d4, and pieces keep pressuring the center rather than trying to blockade it with pawns Black doesn't have. White's center is strong right now, but every pawn that advances creates new weak squares behind it — the center must eventually move, and Black's whole army is aimed at punishing exactly that moment.",
+          "concepts": ["piece activity", "central challenge"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: giving up the center entirely is a real, calculated trade, not a concession made by accident — Black's compensation is concrete piece activity, not vague 'dynamism'; the choice of recapture (knight versus pawn on d5) decides whether a defense inherits a genuine structural weakness or none at all; and a piece left attacked in the center must be dealt with immediately — the punishment line shows exactly what one tempo of carelessness costs.",
+          "concepts": ["structural trades", "development", "piece activity"]
+        }
+      ]
+    }
+  ]
+}

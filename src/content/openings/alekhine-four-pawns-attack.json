@@ -1,0 +1,190 @@
+{
+  "id": "alekhine-four-pawns-attack",
+  "catalogCode": "O053",
+  "focus": "white",
+  "title": "Alekhine Defense: Four Pawns Attack",
+  "subtitle": "How far can a center expand before it breaks?",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "White accepts every invitation Black offers and builds the most ambitious possible center — four connected pawns on c4, d4, e5, and f4. It is the most direct answer to the whole premise of Alekhine's Defense: rather than trading down or developing modestly, White simply keeps advancing and asks Black to prove the center really is overextended. Sharp, double-edged, and one of the deepest independent bodies of theory the opening produces.",
+  "tags": ["Alekhine Defense", "Four Pawns Attack", "big center", "e4 openings", "sharp tactics"],
+  "concepts": ["maximum central space", "overextension", "opposite-side castling", "central pawn breaks", "piece activity", "king safety"],
+  "metadata": {
+    "eco": "B03",
+    "opening": "Alekhine Defense: Four Pawns Attack",
+    "historicalContext": "White's most theoretically ambitious reply to Alekhine's Defense — a large, sharply analyzed body of independent theory distinct from the calmer 4.Nf3 main lines."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study asked whether a big White center is a strength or a target; the Exchange Variation answered by trading it down early. The Four Pawns Attack answers the opposite way — build the biggest center legally possible and defend it with pieces. Four connected pawns control an enormous amount of space, but every pawn move is also a move that isn't developing a piece, and the pawns themselves can become targets the moment Black finds the right lever against them. Watch for the recurring question: is this center a wall, or a house of cards?"
+    }
+  ],
+  "line": [
+    "e4",
+    "Nf6",
+    "e5",
+    "Nd5",
+    "d4",
+    "d6",
+    "c4",
+    "Nb6",
+    {
+      "san": "f4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The maximal try",
+          "body": "White now controls c4, d4, e5, and f4 — a genuine four-pawn wall stretching across the board. It's an enormous space advantage, but notice what's missing: no White piece besides the knight on f3-to-be has developed yet, and the king is still on e1. This is the tradeoff in miniature — maximum space today, for development and structural commitments that Black gets to target for the rest of the game.",
+          "concepts": ["maximum central space", "overextension"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "d4" },
+        { "type": "square", "square": "e5" }
+      ]
+    },
+    {
+      "san": "dxe5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black challenges the front pawn immediately, matching the family study's recurring theme: don't let the tension sit unresolved. Two White pawns could recapture here — which one, and why does it matter?"
+        }
+      ]
+    },
+    {
+      "san": "fxe5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The recapture that keeps the center intact",
+          "body": "Recapturing with the f-pawn keeps d4 covered by a pawn and opens the f-file for White's rook, useful for the kingside play this variation is built around. Recapturing with the d-pawn instead is playable, but it leaves d4 without a pawn defender for the rest of the game — a square Black's pieces would be glad to use later. Either way, d5 itself stays controlled by the c4 pawn — see the variation here for the idea.",
+          "concepts": ["central pawn breaks"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "dxe5",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The other recapture",
+                "body": "Keeping a pawn on f4 instead of d4 aims the structure differently, but it leaves d4 without a pawn defender for the rest of the game — one reason fxe5 remains the far more common choice."
+              }
+            ]
+          },
+          "Nc6"
+        ]
+      ]
+    },
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "A second piece joins the pressure against d4 and e5 — the same piece-pressure idea from the family study, now aimed at a bigger, more extended target."
+        }
+      ]
+    },
+    {
+      "san": "Be3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White adds a defender to d4 and prepares further development. Simple and necessary — the center needs support, not just pawns."
+        }
+      ]
+    },
+    {
+      "san": "Bf5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Solving the problem bishop early",
+          "body": "In cramped structures like this one, Black's light-squared bishop is normally the piece that suffers — it can easily get shut in behind its own pawns once ...e6 is played. Getting it out to f5 before closing the center with ...e6 is a small but genuinely transferable idea: whenever your position is about to become cramped, ask which piece will be trapped by your own pawns, and move it first.",
+          "concepts": ["piece activity"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "f5" }]
+    },
+    "Nc3",
+    "e6",
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White's last minor piece develops. Note the diagonal this opens for Black — a pin on this knight is now available if Black wants it, as the variation on Black's next move shows."
+        }
+      ]
+    },
+    {
+      "san": "Qd7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Preparing to castle long",
+          "body": "The queen steps aside for queenside castling and connects the rooks. Black could instead pin the newly developed knight immediately — a genuine independent try shown in the variation here."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bg4",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The pin instead of the plan",
+                "body": "Rather than preparing to castle, Black pins the f3 knight to the queen on d1, adding indirect pressure to the center before committing the king anywhere."
+              }
+            ]
+          },
+          "h3"
+        ]
+      ]
+    },
+    "Be2",
+    {
+      "san": "O-O-O",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The race begins",
+          "body": "Black castles queenside, away from White's slightly overextended kingside pawns. When White castles short next move, the position becomes an opposite-side-castling race — an inversion of the usual roles, since it's White's own extended center that will need to be turned into a kingside attack while Black's pieces aim back at it.",
+          "concepts": ["opposite-side castling"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "c8" }]
+    },
+    {
+      "san": "O-O",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The four-pawn center, fully committed",
+          "body": "Both kings have chosen sides, and the whole game now hinges on whose attack arrives first. White's plans run through the extra central space — a further d5 break, or simply more pieces joining the kingside; Black's plans run through undermining the pawn chain directly, classically with a timely ...f6 or ...c5, or a straightforward kingside pawn storm now that the target is White's own king rather than Black's.",
+          "concepts": ["opposite-side castling", "overextension"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry forward: a maximal center is a real strength, not a bluff — White genuinely controls more space here than in any other Alekhine's Defense line — but every pawn spent building it is a piece not yet developed, which is exactly why Black's pressure (Nc6, Bf5, the ...Bg4 pin) all arrived so quickly; solving your worst-placed piece before the position closes (Bf5 before e6) is a transferable habit, not a one-off trick; and opposite-side castling races reward whoever converts space into a direct attack first — space alone is not enough. Compare this maximal approach with the Exchange Variation's calmer answer to the same central question.",
+          "concepts": ["maximum central space", "overextension", "opposite-side castling"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "g7", "to": "g5" }]
+    }
+  ]
+}

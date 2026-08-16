@@ -1,0 +1,298 @@
+{
+  "id": "petrov",
+  "catalogCode": "O021",
+  "focus": "black",
+  "title": "Petrov's Defense",
+  "subtitle": "The Russian Game — meeting a threat with a threat",
+  "type": "opening",
+  "difficulty": "advanced",
+  "summary": "Instead of defending e5 the way the Italian or Ruy Lopez does, Black answers White's central threat with an equal and opposite one: 2...Nf6 counterattacks e4 rather than propping up e5. It has earned a reputation — much like the Berlin Defense — as an ultra-solid equalizer trusted by elite players who need a draw, but it punishes imprecision harshly: recapturing on e4 a move too soon simply loses material.",
+  "tags": ["Petrov's Defense", "Petroff Defense", "Petroff's Defense", "Russian Game", "Russian Defense", "e4 openings", "symmetrical defense"],
+  "concepts": [
+    "symmetrical counterattack",
+    "central tension",
+    "move-order precision",
+    "piece trades",
+    "pawn structure",
+    "prophylaxis"
+  ],
+  "metadata": {
+    "eco": "C42-C43",
+    "opening": "Petrov's Defense (Russian Game)",
+    "historicalContext": "Named for Alexander Petrov, a 19th-century Russian player and author of one of the first Russian-language chess manuals. The opening is sometimes called the Russian Game for the same reason. It has never been fashionable in the sense of promising White-style winning chances — its entire appeal is that it doesn't lose, which is exactly why elite players reach for it under pressure."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "Every other common reply to 1.e4 e5 2.Nf3 defends the e5 pawn (2...Nc6 in the Italian and Ruy Lopez, 2...d6 in the Philidor). Petrov's Defense does something different: it ignores e5 entirely and counterattacks e4 instead. The central question of this whole opening is when that counter-capture is actually safe — grab it a move too early and a well-known tactic wins material outright. Once you see the family study through, the Cochrane Gambit shows White's most aggressive answer: refusing to let Black ever reach the safe version at all."
+    },
+    {
+      "type": "historical",
+      "title": "A defense built on not losing",
+      "body": "Petrov's Defense has been a fixture of World Championship play for exactly the reason it looks boring: it is extremely hard for White to prove any advantage against it. Players have turned to it for centuries specifically in must-not-lose situations, the same role the Berlin Defense plays in the modern Ruy Lopez."
+    }
+  ],
+  "line": [
+    "e4",
+    "e5",
+    "Nf3",
+    {
+      "san": "Nf6",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "A threat answered with a threat",
+          "body": "Black doesn't defend e5 at all. Instead, the knight attacks e4 right back — the position is symmetrical, and so is the logic. Whoever moves carelessly first loses the race.",
+          "concepts": ["symmetrical counterattack"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "f6", "to": "e4" }]
+    },
+    {
+      "san": "Nxe5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White simply grabs the pawn. Doesn't the same trick work for Black — snap back on e4 immediately and the position stays even?"
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "d4",
+            "classification": "interesting",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The Steinitz/Classical approach",
+                "body": "Instead of grabbing the pawn, White strikes the center immediately. After the natural exd4, White pushes e5, gaining a tempo on the f6-knight before recapturing the d4 pawn with the queen — a sharper, less symmetrical fight than the main line, and White's queen becomes an early target while Black looks to complete development around a strong knight on e4.",
+                "concepts": ["central tension"]
+              }
+            ]
+          },
+          "exd4",
+          "e5",
+          "Ne4",
+          {
+            "san": "Qxd4",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The queen recaptures the pawn while also attacking the knight on e4 directly — Black must spend a move securing it, typically with d5, before either side can claim the position favors them.",
+                "concepts": ["central tension"]
+              }
+            ]
+          },
+          "d5"
+        ]
+      ]
+    },
+    {
+      "san": "d6",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Chase first, then recapture",
+          "body": "This is the answer to the question White just posed. Grabbing back with 3...Nxe4?? right away is a real mistake — it hands White a free tactic (see the variation here). The knight on e5 must be kicked back to f3 first; only once it's no longer sitting on e5 does the trade on e4 become completely safe. That single move-order detail is the most important thing to know about this opening.",
+          "concepts": ["move-order precision"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e5" }],
+      "variations": [
+        [
+          {
+            "san": "Nxe4",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "A pawn recaptured too soon",
+                "body": "This looks identical to the safe recapture Black will make one move later in the main line — but White's knight is still sitting on e5, and that changes everything. White plays Qe2! and Black is in real trouble.",
+                "concepts": ["move-order precision"]
+              }
+            ]
+          },
+          {
+            "san": "Qe2",
+            "classification": "critical",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "Why d6 had to come first",
+                "body": "The queen attacks the knight on e4 along a completely open file. The natural-looking defense, 4...Qe7, doesn't actually save it — White's own knight on e5 blocks the queen's view past e5, so Qe7 defends nothing on e4. Watch what happens.",
+                "concepts": ["move-order precision"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "e2", "to": "e4" }]
+          },
+          {
+            "san": "Qe7",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "The tempting move that doesn't work",
+                "body": "This looks like it solves everything — the queen develops and eyes the e-file. But White's own knight on e5 sits between Black's queen and the knight on e4, so this move defends nothing. It attacks White's knight on e5, but that isn't what's hanging: White simply takes the undefended knight on e4 first.",
+                "concepts": ["move-order precision"]
+              }
+            ]
+          },
+          "Qxe4",
+          {
+            "san": "Qxe5",
+            "classification": "blunder",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "Compounding the problem",
+                "body": "Black grabs the knight back, but this walks the queen onto a square right next to White's queen — with nothing behind it to recapture. This is the final link in the chain that started with 3...Nxe4??.",
+                "concepts": ["move-order precision"]
+              }
+            ]
+          },
+          {
+            "san": "Qxe5+",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "The point of the whole sequence",
+                "body": "White's queen simply takes Black's queen with check. Nothing on the board can block or capture on e5. Add it up: White has won a pawn, a knight, and a queen while giving up only a knight and a pawn in return — a decisive material win, all because the knight recaptured on e4 one move too early.",
+                "concepts": ["move-order precision"]
+              }
+            ]
+          },
+          {
+            "san": "Kd8",
+            "classification": "theory",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Not forced -- Be7 also blocks the check -- but either way it's a grim final picture: Black is down a full queen for nothing. Compare this to the main line one move later, where the identical-looking capture on e4 is completely safe."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nf3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Chased off e5, the knight retreats to a normal developing square. White has now moved this knight three times (Nf3–e5–f3) to Black's two knight moves (Nf6, and the recapture still to come) — a wash in development, which is exactly the point of a symmetrical counterattack done correctly."
+        }
+      ]
+    },
+    {
+      "san": "Nxe4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The same capture, now completely safe",
+          "body": "Identical destination square to the mistake above, but a world of difference: White's knight is no longer on e5, so there is no Qe2 trick and nothing blocking Black's queen. Material is level, both sides have spent a knight move recapturing, and the game is fully symmetrical again — the entire justification for playing 3...d6 first.",
+          "concepts": ["move-order precision"]
+        }
+      ]
+    },
+    {
+      "san": "d4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White claims extra central space and opens the c1-bishop's diagonal, preparing to challenge Black's centralized knight."
+        }
+      ]
+    },
+    {
+      "san": "d5",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black plants a pawn behind the knight on e4, giving it a solid defender and opening the c8-bishop. The characteristic Petrov structure appears: a strong, well-supported knight on e4 that nonetheless cannot stay there forever.",
+          "concepts": ["pawn structure"]
+        }
+      ]
+    },
+    {
+      "san": "Bd3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The first attacker arrives",
+          "body": "The bishop develops onto the same diagonal as the e4 knight. It's balanced for now — one attacker (the bishop) against one defender (the d5 pawn) — but this is the beginning of a build-up that will force Black to make a decision later in the game.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d3", "to": "e4" }]
+    },
+    "Nc6",
+    "O-O",
+    "Be7",
+    {
+      "san": "Re1",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A second, then a third attacker",
+          "body": "The rook joins the file, adding a second piece bearing down on e4 alongside the bishop. The knight is still safe — one defender, the d5 pawn, is still enough against one real attacker at a time — but the pressure is mounting toward a genuine confrontation.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e1", "to": "e4" }]
+    },
+    "O-O",
+    {
+      "san": "Nc3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Three attackers, one defender",
+          "body": "Now the knight on e4 is attacked three times — by the bishop on d3, the rook on e1, and this knight — while the d5 pawn can only defend it once. Black cannot simply leave it there any longer; the tension that has been building since move 6 has finally become a concrete problem that must be resolved this move.",
+          "concepts": ["central tension"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e4" }]
+    },
+    {
+      "san": "Nxc3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Rather than lose the knight for nothing, Black trades it off. This is the practical answer to overwhelming pressure on a single square: remove one of the attackers by force."
+        }
+      ]
+    },
+    {
+      "san": "bxc3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The structure both sides were playing for",
+          "body": "White recaptures toward the center, accepting doubled c-pawns in exchange for an open b-file, a healthy central pawn duo, and a small, lasting space advantage — the same kind of trade-off seen in the Ruy Lopez Exchange. Black has traded off the tension entirely and reaches a solid, simplified position with no weaknesses of its own. This is the Petrov's real character in one structure: not a fight for the advantage, but a fight to neutralize one.",
+          "concepts": ["pawn structure"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons from this opening: a counterattack is only as good as its move order (3...Nxe4?? and 4...Nxe4 land on the identical square with opposite results); a piece under repeated pressure doesn't have to be lost — trading it off at the right moment is a full answer to a building attack; and 'equal' is a real, achievable goal in chess, not just a consolation prize — that is precisely why this opening has such a long, successful history at the very top.",
+          "concepts": ["move-order precision", "pawn structure", "central tension"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "c3" }]
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "id": "sicilian-moscow",
+  "catalogCode": "O043",
+  "focus": "white",
+  "title": "The Moscow Variation",
+  "subtitle": "A check, a trade, and a small edge — no Open Sicilian required",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "Instead of racing toward d4 the way the family study's Open Sicilian does, White interrupts Black's development with an early check, offering to trade off light-squared bishops before Black has decided much of anything. The resulting position is quieter than any Open Sicilian line — often just a normal center with one pair of minor pieces already off the board — but the small, lasting edge it hands White is real. This lesson is honest about what that edge is worth, and what White gives up to get it.",
+  "tags": ["Moscow Variation", "Canal Attack", "Sicilian Defense", "Anti-Sicilian", "Bb5+ systems"],
+  "concepts": [
+    "simplification",
+    "bishop pair",
+    "avoiding theory",
+    "structural edge",
+    "Maroczy Bind"
+  ],
+  "metadata": {
+    "eco": "B51-B52",
+    "opening": "Sicilian Defense: Moscow Variation",
+    "historicalContext": "Popularized in Soviet-era Moscow tournament practice, hence the common name; it is also called the Canal Attack after the early-20th-century Peruvian-Cuban master Esteban Canal, who played it decades before it became fashionable."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study's Sicilian earns Black a half-open c-file and a central pawn majority in exchange for letting White develop with tempo. The Moscow Variation asks a different question entirely: what if White interrupts Black's setup before any of that machinery gets built? 3.Bb5+ forces an immediate decision from Black — block with a piece, and which one — while White's own plan stays simple: trade the light-squared bishops, then either transpose into a normal Open Sicilian center missing a pair of minor pieces, or clamp down with an early c4. Against Rossolimo (the same idea against 2...Nc6), this is the counterpart against 2...d6."
+    }
+  ],
+  "line": [
+    "e4",
+    "c5",
+    "Nf3",
+    {
+      "san": "d6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The same first move the family study's mainline chose — restraining e4-e5 and preparing ...Nf6. Here it invites a very different second idea from White."
+        }
+      ]
+    },
+    {
+      "san": "Bb5+",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "White has no piece on c6 to attack and no obvious threat behind this check. What is it actually accomplishing?"
+        },
+        {
+          "type": "key-idea",
+          "title": "A check with a structural purpose",
+          "body": "The point isn't a threat — it's a forced decision. Black must block the check with a piece (a pawn can't reach b5), and every legal block commits something before Black is ready. Blocking with the bishop invites a trade of light-squared pieces on White's terms; blocking with the knight avoids the trade but tangles Black's own development. Either way, White has taken the first concrete decision of the game away from Black.",
+          "concepts": ["avoiding theory"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b5", "to": "e8" }]
+    },
+    {
+      "san": "Bd7",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Accepting the trade",
+          "body": "The simplest, most common reply: Black offers the light-squared bishop back rather than tangle a knight in front of its own pieces. Keeping both bishops with 3...Nd7 instead is a real alternative — see the variation for how that game differs.",
+          "concepts": ["bishop pair"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nd7",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Keeping both bishops",
+                "body": "The other major reply: Black blocks with the knight instead, refusing the trade and preserving the bishop pair. The cost is temporary congestion — the c8-bishop is completely boxed in behind this knight, unable to move at all, until the knight relocates."
+              }
+            ]
+          },
+          "O-O",
+          {
+            "san": "Ngf6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Disambiguation matters here: both the d7-knight and the g8-knight can reach f6, so only naming the g-knight is legal notation."
+              }
+            ]
+          },
+          "Re1",
+          {
+            "san": "a6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Now the bishop on b5 is finally challenged and must decide: trade, or retreat and keep the tension."
+              }
+            ]
+          },
+          {
+            "san": "Be2",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Preserving the bishop, and a later Qb3",
+                "body": "White keeps both bishops rather than trade, planning normal development. In some lines from this defense, White later reroutes the queen to b3 — a square that eyes b7 down the file and f7 along the a2-g8 diagonal at once, the same dual-purpose idea the Italian Game and Scotch Game both use, and a real problem while Black's own light-squared bishop stays stuck behind the d7-knight."
+              }
+            ]
+          },
+          "g6",
+          "c3",
+          "Bg7"
+        ]
+      ]
+    },
+    {
+      "san": "Bxd7+",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White banks the trade. One pair of minor pieces is off the board before either side has finished developing — a small but real simplification, and Black must choose how to recapture."
+        }
+      ]
+    },
+    {
+      "san": "Qxd7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The standard recapture: the queen develops off the back rank and keeps the knight free to choose c6 or d7 later — the same deferred-development idea the Kan Variation builds an entire opening around."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Kxd7",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "The recapture that costs the most",
+                "body": "Legal, and it wins nothing extra over the queen or knight recapture — but it permanently forfeits castling and leaves the king stuck in the center for the rest of the game. A good habit against every 'automatic' recapture: check whether a quieter option exists before reaching for the king."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "c4",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Denying the freeing break forever",
+          "body": "c4 is the Moscow's most testing follow-up: a Maroczy Bind, planting a second pawn beside e4 to permanently rule out ...d5, the pawn break that would otherwise free Black's position. White accepts a slower game in exchange for a lasting space advantage that doesn't depend on winning the opening's opening skirmish — it depends on Black never being able to strike back in the center at all.",
+          "concepts": ["Maroczy Bind", "structural edge"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "d5" }]
+    },
+    "Nc6",
+    "Nc3",
+    "Nf6",
+    "O-O",
+    {
+      "san": "g6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black fianchettoes rather than fight the bind head-on, aiming the bishop at the long diagonal and preparing to castle into safety while looking for ...Nd4 or ...a5-a4 counterplay later."
+        }
+      ]
+    },
+    "d4",
+    "cxd4",
+    "Nxd4",
+    {
+      "san": "Bg7",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The Open Sicilian center — a piece short",
+          "body": "This is the structure the catalog note promises: after d4 and the trade, the position transposes into a completely normal Open Sicilian pawn skeleton. The only difference from the family study's version is that one pair of light-squared bishops left the board back on move four — a small, permanent asymmetry rather than a dramatic one.",
+          "concepts": ["structural edge"]
+        }
+      ]
+    },
+    {
+      "san": "Be3",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Normal development resumes, but the Maroczy pawns on c4 and e4 still deny Black the central break every other Sicilian defender relies on."
+        }
+      ]
+    },
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "A quiet position with a real point",
+          "body": "White's plan from here: hold the bind, expand slowly with Qd2 and Rfd1 or Rac1, and probe for weaknesses in a Black structure that can never freely play ...d5. Black's plan: chip away with ...a5-a4, look for a knight jump to d4, and wait for any small overextension. Compare this to the family study's tabiya — Black does have a half-open c-file here too, but it isn't the weapon it was there: White's own c4 pawn and pieces already occupy and control it, so there's no attacking chances for either side, just a long grind for a structural edge banked all the way back on move three.",
+          "concepts": ["Maroczy Bind", "structural edge"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: an early check can be a structural weapon, not a tactical one — Bb5+ never threatened anything, it simply forced Black's hand on a trade before Black was ready; simplification is a legitimate way to fight for an edge — one pair of minor pieces leaving the board changed the character of the whole game; and the Maroczy Bind's value has nothing to do with speed — unlike the Grand Prix Attack's race for the king, this is a strategy that wins, if it wins at all, over forty moves, not fifteen.",
+          "concepts": ["simplification", "structural edge", "Maroczy Bind"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "id": "sicilian-scheveningen",
+  "catalogCode": "O048",
+  "focus": "black",
+  "title": "The Scheveningen Variation",
+  "subtitle": "The small center that becomes a big one",
+  "type": "variation",
+  "difficulty": "advanced",
+  "summary": "Instead of the Dragon's fianchetto or the Najdorf's a6-and-wait, the Scheveningen commits to a modest two-pawn center on d6 and e6 — flexible, solid, and quietly ambitious, since ...d5 in one shot is always the dream. This lesson covers the move-order test White's sharpest players reserve for exactly this structure, the Keres Attack, and the same English Attack machinery the Dragon and Najdorf lessons showed in different clothing.",
+  "tags": ["Scheveningen Variation", "Sicilian Defense", "Keres Attack", "English Attack", "small center"],
+  "concepts": [
+    "small center",
+    "flexibility",
+    "central breaks",
+    "king safety",
+    "prophylaxis",
+    "space"
+  ],
+  "metadata": {
+    "eco": "B80-B89",
+    "opening": "Sicilian Defense: Scheveningen Variation",
+    "historicalContext": "Named for a 1923 tournament held in the Dutch seaside town of Scheveningen, where the d6-and-e6 pawn duo first drew serious attention. Decades later it became one of Garry Kasparov's core defenses, and the same 'small center' idea underlies the setups modern engines still favor against 1.e4 c5."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study, The Sicilian Defense, and this series' Najdorf lesson both eventually chose the Boleslavsky structure — a pawn thrust to e5, buying space and a hole on d5 in the same move. The Scheveningen refuses that trade entirely: Black plays both d6 and e6, a compact 'small center' that concedes no permanent hole and keeps ...d5, the single freeing break every Sicilian dreams of, on the table for the whole game. The price is time and space — White gets to expand first. This lesson teaches how Black holds that small center under the two sharpest tests it faces: the immediate kingside lunge of the Keres Attack, and the patient queenside storm of the English Attack."
+    }
+  ],
+  "line": [
+    "e4",
+    "c5",
+    "Nf3",
+    "d6",
+    "d4",
+    "cxd4",
+    "Nxd4",
+    "Nf6",
+    "Nc3",
+    {
+      "san": "e6",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The small center",
+          "body": "Where the Najdorf lesson's main choice was 5...e5, claiming space at the cost of the d5 square forever, Scheveningen keeps both center pawns modest and mutually supporting. No hole is created — but no space is claimed either, and White's next moves will try to expand before Black ever gets to play the freeing ...d5.",
+          "concepts": ["small center", "flexibility"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "d6" },
+        { "type": "square", "square": "e6" }
+      ]
+    },
+    {
+      "san": "Be2",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "The calm approach",
+          "body": "White develops toward kingside castling — a quieter plan than the queenside storms the Dragon and Najdorf lessons both featured. Against the small center, White has time to simply build up rather than race; see the Keres Attack variation below for the sharper alternative that specifically punishes this structure."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "g4",
+            "classification": "interesting",
+            "importance": "critical",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "The Keres Attack",
+                "body": "White abandons king safety for a head start: this pawn lunges forward before castling at all, aiming to blow open the kingside while Black's king is still uncommitted. It concedes real structural weaknesses around White's own uncastled king in exchange for pure speed — a genuine cost, not a free attacking move, and Black's whole reply is built around calling that bluff precisely rather than panicking.",
+                "concepts": ["space"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "g4", "to": "g5" }]
+          },
+          {
+            "san": "h6",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The standard answer: rules out g4-g5 in one move and forces White to prepare it with h4 first, buying Black time to develop and decide where the king actually belongs."
+              }
+            ]
+          },
+          "h4",
+          "Nc6",
+          {
+            "san": "Rg1",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Committing to the plan",
+                "body": "White lines the rook up behind the pawns before they even advance, showing the attack is not a bluff — but the king is still in the center, and every one of these moves is a tempo Black's own counterplay gets to use.",
+                "concepts": ["king safety"]
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "san": "Be3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "The English Attack, again",
+                "body": "The same Be3-f3-Qd2-O-O-O machinery the Dragon and Najdorf lessons both showed also exists against the Scheveningen structure. The plan is identical; only the pawn skeleton it attacks is different, since here Black has committed to e6 rather than e5 and so has no e5 outpost fight to win or lose."
+              }
+            ]
+          },
+          "Nc6",
+          "f3"
+        ]
+      ]
+    },
+    "Be7",
+    "O-O",
+    "O-O",
+    {
+      "san": "Be3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Develops and eyes a5, useful against Black's coming queenside expansion, while keeping f4 available."
+        }
+      ]
+    },
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Adds pressure to d4 and prepares to meet f4-f5 ideas or trade pieces if the center stays closed."
+        }
+      ]
+    },
+    {
+      "san": "f4",
+      "classification": "theory",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Claiming the space Black declined",
+          "body": "This is the whole point of the small center's cost: White grabs the space Black chose not to fight for on move five, controlling e5 and preparing an eventual f5 break of White's own. Black's structure hasn't weakened, but the board has gotten bigger for White and smaller for Black.",
+          "concepts": ["space"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e5" }]
+    },
+    "a6",
+    {
+      "san": "Kh1",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A useful waiting move",
+          "body": "Steps off the long diagonal and out of any future discovered or opened lines before either side commits further — the kind of small prophylactic move that, as the family study's h3 and c3 showed, strong players insert constantly without creating any concrete threat at all.",
+          "concepts": ["prophylaxis"]
+        }
+      ]
+    },
+    {
+      "san": "b5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black has castled, developed, and now expands on the queenside instead of playing the freeing ...d5 immediately. Why not strike in the center right away, since that break is the whole reason for the small-center structure?"
+        },
+        {
+          "type": "critical-position",
+          "title": "Preparing the break, not rushing it",
+          "body": "The family study's Ruy Lopez lesson made this exact point about d4: breaks are prepared, not played on impulse. An immediate ...d5 here would open the position while several Black pieces are still short of their best squares (the c8-bishop, the queen); ...b5 instead gains space, prepares ...Bb7 aiming at e4, and keeps ...d5 in reserve for a moment when it wins something concrete rather than just trading down. Both sides now maneuver around the same tension: White wants a favorable e5 or f5 break; Black wants a favorable d5. Whoever's break lands with more support wins the middlegame.",
+          "concepts": ["central breaks", "space"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons: a small center is not a weak center — d6 and e6 support each other and create no permanent hole, unlike the Boleslavsky structure the Najdorf lesson examined; conceding space early is a real cost, and White's f4 collected exactly the space Black's move five declined to fight for; and the freeing break ...d5 is a resource to be prepared, not rushed — exactly the same principle the Ruy Lopez lesson taught about d4, now seen from the defending side.",
+          "concepts": ["small center", "central breaks", "flexibility"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b7", "to": "b5" }]
+    }
+  ]
+}

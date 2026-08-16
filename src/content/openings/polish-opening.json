@@ -1,0 +1,250 @@
+{
+  "id": "polish-opening",
+  "catalogCode": "O140",
+  "focus": "white",
+  "title": "Polish Opening",
+  "subtitle": "1.b4 — queenside space and a long diagonal",
+  "type": "opening",
+  "difficulty": "intermediate",
+  "summary": "1.b4 grabs queenside space and prepares Bb2 aimed at the long diagonal, before White has even decided what to do with the center. It's a system built on piece activity rather than material symmetry — this lesson shows the honest cost of that trade, including the direct test 1...e5 puts to it immediately.",
+  "tags": ["Polish Opening", "Sokolsky Opening", "Orangutan Opening", "Orangutan", "flank opening", "1.b4"],
+  "concepts": ["long diagonal", "queenside space", "piece activity", "central tension", "development"],
+  "metadata": {
+    "eco": "A00",
+    "opening": "Polish Opening (1.b4)",
+    "historicalContext": "Known as the Sokolsky Opening after Alexei Sokolsky's monograph on the line, and nicknamed the Orangutan after Savielly Tartakower reportedly consulted an orangutan at the Bronx Zoo before playing it at New York 1924. Despite the playful name, it is a legitimate system with real practitioners, not a joke opening."
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "1.b4 spends White's first move on space and a diagonal instead of the center — a trade every flank opening makes in some form. The central question here is unusually concrete: Black can simply take the pawn with 1...e5, so White needs an idea beyond 'grab space' to justify the move. That idea is the bishop on b2 and the long diagonal it commands. Watch how White turns a loose-looking pawn offer into lasting piece activity."
+    },
+    {
+      "type": "historical",
+      "title": "One name, two stories",
+      "body": "The opening carries both a scholar's name and a joke: Sokolsky wrote the serious analysis, while the 'Orangutan' nickname comes from Tartakower's playful visit to the Bronx Zoo before using it at a major New York tournament. Both names are still in circulation, so recognize all three — Polish, Sokolsky, Orangutan — as the same opening."
+    }
+  ],
+  "line": [
+    {
+      "san": "b4",
+      "annotations": [
+        {
+          "type": "principle",
+          "body": "A pawn move that claims queenside space and opens the c1-bishop's diagonal in one stroke — but it does nothing for the center and, for now, simply hangs on b4. Whether that's a real problem is the entire subject of this opening.",
+          "concepts": ["queenside space"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b4", "to": "e5" }]
+    },
+    {
+      "san": "e5",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black claims the center and, in passing, attacks the pawn on b4 with the bishop on f8. Is 1.b4 simply refuted on the spot?"
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "d5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "title": "Declining the pawn — a calmer test",
+                "body": "Black can also ignore the hanging b4 pawn entirely and just claim the center, treating 1.b4 the way a solid player treats any flank opening. Compare this to the queenside fianchetto system in The Nimzo-Larsen Attack — both openings ask Black to prove that ignoring the center for a diagonal is wrong, and both accept a slower game if Black simply plays well in the middle of the board.",
+                "concepts": ["central tension"]
+              }
+            ]
+          },
+          "Bb2",
+          "Nf6",
+          "Nf3",
+          "e6",
+          "e3",
+          "Be7",
+          "c4"
+        ]
+      ]
+    },
+    {
+      "san": "Bb2",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Answering the question — the whole point of the opening",
+          "body": "Not refuted: White lets the b4 pawn go and develops instead, aiming the bishop straight down the long diagonal at e5 and eventually g7. The pawn was never the point — the diagonal is. This is the trade every 1.b4 line makes: material symmetry for piece activity.",
+          "concepts": ["long diagonal", "piece activity"]
+        }
+      ]
+    },
+    {
+      "san": "Bxb4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black takes the pawn and, incidentally, gets a bishop out to an active square too — for the moment, material is level and both sides have developed one minor piece.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    {
+      "san": "Bxe5",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Material restored, plan intact",
+          "body": "White recaptures the pawn Black just grabbed the diagonal's toll for. The material count is back to even, but White's bishop now sits on the long diagonal itself rather than merely aiming down it — a small, real gain in activity for the tempo spent.",
+          "concepts": ["long diagonal"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "e5", "to": "a1" }]
+    },
+    {
+      "san": "Nf6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black develops and, for now, simply blocks the long diagonal short of the king rather than trying to punish the bishop directly.",
+          "concepts": ["piece activity"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Qe7",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "Attacking the bishop directly",
+                "body": "Instead of developing a piece, Black challenges the bishop on e5 head-on along the e-file. It isn't a pin — White's own e-pawn still sits on e2, blocking any line to the king — just a direct attack that costs White a tempo to answer.",
+                "concepts": ["long diagonal"]
+              }
+            ]
+          },
+          {
+            "san": "Bb2",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "The bishop simply goes home. Nothing is lost: material stays level, White keeps the long diagonal from its original, and in some ways more secure, post, and Black has spent an early move with the queen that will need looking after."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Nf3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White develops naturally rather than clinging to the bishop on e5 — a reminder that the point of this opening was always the diagonal, not any one square on it."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Bxf6",
+            "classification": "mistake",
+            "annotations": [
+              {
+                "type": "mistake",
+                "title": "The trade that gives away the point of 1.b4",
+                "body": "Capturing again looks like it wins a second piece for free, but it's an even trade of bishop for knight — no material is actually won. What White does lose is the exact piece the whole opening was built around.",
+                "concepts": ["long diagonal"]
+              }
+            ]
+          },
+          {
+            "san": "Qxf6",
+            "annotations": [
+              {
+                "type": "tactic",
+                "title": "Black inherits the diagonal",
+                "body": "With White's dark-squared bishop gone, Black's queen recaptures directly onto the long diagonal it just vacated — and looks all the way down it to White's own rook on a1. The diagonal that justified 1.b4 now belongs to Black instead, for nothing more than a routine trade of minor pieces. Strategically self-defeating, even though no material changed hands.",
+                "concepts": ["long diagonal", "piece activity"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "f6", "to": "a1" }]
+          }
+        ]
+      ]
+    },
+    "O-O",
+    "e3",
+    {
+      "san": "d6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black challenges the bishop's post directly, forcing it to choose between an exchange it doesn't want and a retreat.",
+          "concepts": ["central tension"]
+        }
+      ]
+    },
+    {
+      "san": "Bb2",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Home again, and better off for the trip",
+          "body": "The bishop returns to its original square, but the diagonal is now more secure than it was on move 2: no pawn on b4 left to defend, no piece sitting on e5 to be challenged, just a clean line toward g7 if Black ever weakens that side. Retreating here costs a tempo but loses nothing structural.",
+          "concepts": ["long diagonal"]
+        }
+      ]
+    },
+    {
+      "san": "Re8",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black centralizes the rook behind the pawn that will eventually contest the center again with ...e5 or ...d5.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    "Be2",
+    {
+      "san": "Nc6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black finishes development, eyeing d4 as a future outpost and preparing a central break of Black's own.",
+          "concepts": ["development"]
+        }
+      ]
+    },
+    "O-O",
+    {
+      "san": "d5",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Two kinds of space, face to face",
+          "body": "Black claims the center that White never contested in the opening, while White's compensation is the queenside space from move 1 and the long diagonal that survived every exchange along the way. Neither side has a structural weakness yet — the middlegame will be decided by whose plan (White's b5 and long-diagonal pressure, Black's central pawns and piece activity) gets there first.",
+          "concepts": ["queenside space", "central tension"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons from this opening: a pawn that looks like it hangs on move 1 isn't automatically a mistake if the compensation (here, the long diagonal) is concrete rather than vague; trading a piece back to its original square can be a genuine improvement, not just a loss of time; and giving up the exact piece a system was built around (as in the Bxf6 line) is a real error even when the material count stays even.",
+          "concepts": ["long diagonal", "piece activity", "queenside space"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "b2", "to": "g7" },
+        { "type": "square", "square": "d5" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "id": "ruy-lopez-marshall",
+  "catalogCode": "GB017",
+  "focus": "black",
+  "title": "The Marshall Attack",
+  "subtitle": "Ruy Lopez, Closed Defense — a pawn offered on principle, not on a calculation",
+  "type": "gambit",
+  "difficulty": "advanced",
+  "summary": "Instead of the slow nine-move buildup the Closed Ruy Lopez is famous for, Black detonates the center on move eight and hands White a pawn in exchange for an initiative that has survived over a century of grandmaster preparation. Learn the cost, the compensation, and the alternative White has: sidestep the whole fight before it starts.",
+  "tags": ["Marshall Attack", "Marshall Gambit", "Marshall Variation", "Ruy Lopez", "Closed Ruy Lopez", "Anti-Marshall"],
+  "concepts": ["sacrifice", "piece activity", "king safety", "attacking initiative", "long-term compensation", "calculation"],
+  "metadata": {
+    "eco": "C89",
+    "opening": "Ruy Lopez: Closed Defense, Marshall Attack"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "The family study and the Closed Ruy Lopez lesson both spend eight moves reaching the same tabiya: White has prepared d4 with c3, Black has castled, and a slow strategic game seems to be starting. The Marshall Attack answers that tabiya not with more preparation but with an immediate pawn sacrifice, 8...d5, trading material for time and open lines toward White's king. Every gambit asks the same five questions, and this lesson answers them for the Marshall: what does Black give up (a pawn, cleanly, with no tactical trick recovering it); what does Black get (a long-term initiative that persists even after heavy trades); can White simply accept it (yes — Capablanca did, on the very day it was unveiled); can White decline it instead (yes, via the Anti-Marshall move orders below); and how risky is it really (real, but earned: this is one of the most exhaustively analyzed lines in chess, and both sides need to know it cold)."
+    },
+    {
+      "type": "historical",
+      "title": "Built for one opponent, refuted by calculation",
+      "body": "Frank Marshall unveiled 8...d5 against José Raúl Capablanca in New York, 1918 — the first time the idea had ever been played. Capablanca had never seen it before and still defended accurately over the board, without any preparation of his own. The full story of that game, including the exact moment Capablanca handed material back to survive, is its own study: see Capablanca vs Marshall."
+    }
+  ],
+  "line": [
+    "e4", "e5", "Nf3", "Nc6", "Bb5", "a6", "Ba4", "Nf6", "O-O", "Be7", "Re1", "b5", "Bb3", "O-O",
+    {
+      "san": "c3",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "This is the exact fork in the road. c3 prepares d4 the normal way, following the same plan as the Closed Ruy Lopez lesson — but it also permits Black's most famous reply. Does White have to allow it?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Accept the challenge, or avoid it entirely",
+          "body": "No. c3 is White's choice to test the Marshall head-on and rely on over a century of accumulated theory to hold the position. The alternative — an Anti-Marshall move order that never plays c3 on move 8 at all — is shown in the variation here, and it is a completely legitimate way to sidestep the whole fight before it starts.",
+          "concepts": ["long-term pressure"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "a4",
+            "classification": "theory",
+            "importance": "notable",
+            "annotations": [
+              {
+                "type": "key-idea",
+                "title": "Anti-Marshall Systems",
+                "body": "a4 is the most common of a whole family of White 8th-move tries — 8.h3 is the other major one, along with quieter move-order shifts — whose entire point is skipping 8.c3 d5 without inviting anything worse. Here White strikes at the b5 pawn immediately, before it can support a central break, and accepts a slightly less ambitious position in exchange for staying off the Marshall's twenty years of forced-line preparation entirely.",
+                "concepts": ["prophylaxis"]
+              }
+            ],
+            "visual": [{ "type": "arrow", "from": "a4", "to": "b5" }]
+          },
+          "Rb8",
+          "axb5",
+          "axb5",
+          {
+            "san": "c3",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "With ...b5 already answered, c3 no longer hands Black the same free shot at ...d5 — the pawn that would have run to d5 is gone. The game transposes toward normal Closed Ruy Lopez territory, just without the Marshall ever becoming possible.",
+                "concepts": ["long-term pressure"]
+              }
+            ]
+          },
+          "d6"
+        ]
+      ]
+    },
+    {
+      "san": "d5",
+      "classification": "sacrifice",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The gambit pawn",
+          "body": "Black offers a pawn outright and rips the center open before a single White piece has moved off its back rank since castling. There is no tactical justification recovering the pawn automatically, the way ...Qd4 did earlier in the Ruy Lopez — this is a real, permanent sacrifice. The bet is that open lines toward White's king are worth more than the pawn for a long time to come.",
+          "concepts": ["sacrifice"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d5", "to": "e4" }]
+    },
+    "exd5",
+    "Nxd5",
+    {
+      "san": "Nxe5",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black has offered a pawn for an attack that hasn't produced one concrete threat yet. This is exactly the decision Capablanca faced for the first time in 1918 — take the free pawn, or refuse it out of caution?"
+        },
+        {
+          "type": "key-idea",
+          "title": "Accepting the pawn",
+          "body": "Taking it is correct and remains the main line. Declining an unclear sacrifice out of nerves isn't defense, it's just fear with extra steps — real defense means calculating exactly what the compensation is and taking the material when it checks out. See Capablanca vs Marshall for the full account of how that calculation actually held up under real pressure.",
+          "concepts": ["calculation"]
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Rxe5",
+            "classification": "blunder",
+            "importance": "important",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Capturing with the wrong piece",
+                "body": "The pawn on e5 is still defended by the knight on c6 — grabbing it with the rook instead of the knight ignores that completely and simply drops the exchange for nothing.",
+                "concepts": ["unsafe pawn grabbing"]
+              }
+            ]
+          },
+          {
+            "san": "Nxe5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Capturing with the knight first removes the defender before anything is recaptured; only then does the pawn actually belong to White. Move order in these forcing sequences is not a formality.",
+                "concepts": ["calculation"]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    "Nxe5",
+    {
+      "san": "Rxe5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A rook that looks exposed",
+          "body": "The rook sits in the middle of the board, four ranks from home — the kind of move that looks reckless in a diagram, and is exactly the position where a defender needs to have calculated the retreat squares in advance rather than trust that it will simply work out.",
+          "concepts": ["calculation"]
+        }
+      ],
+      "visual": [{ "type": "square", "square": "e5" }]
+    },
+    {
+      "san": "c6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black doesn't rush to win the pawn back — c6 first denies White's pieces the d5 square and keeps the position closed on the queenside while the real business happens on the other wing.",
+          "concepts": ["long-term compensation"]
+        }
+      ]
+    },
+    {
+      "san": "d4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White claims central space while the extra pawn is still fresh — the rook on e5 will need to retreat eventually, and the center is safer to secure before that happens."
+        }
+      ]
+    },
+    {
+      "san": "Bd6",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The real point of the pawn sacrifice",
+          "body": "The bishop develops straight onto the b8-h2 diagonal, attacking the rook on e5 and, further down the same line, aiming at White's king. This is what the pawn actually bought: not a fast mate, but every piece Black owns converging on one target while White's queenside pieces are still on their starting squares.",
+          "concepts": ["piece activity", "attacking initiative"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "d6", "to": "h2" }]
+    },
+    "Re1",
+    {
+      "san": "Qh4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The queen joins the bishop on the same diagonal complex, doubling up the pressure on h2 and g3-adjacent squares near White's castled king.",
+          "concepts": ["attacking initiative"]
+        }
+      ]
+    },
+    {
+      "san": "g3",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "A weakening move that isn't optional",
+          "body": "g3 kicks the queen and stops any immediate mating idea on h2, but it also loosens the dark squares right in front of White's own king — precisely the kind of long-term concession that keeps this gambit dangerous long after the initial pawn is forgotten.",
+          "concepts": ["king safety"]
+        }
+      ]
+    },
+    {
+      "san": "Qh3",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "Compensation, measured honestly",
+          "body": "Count the material: Black is down exactly the pawn offered back on move 8, nothing more and nothing less. In exchange, the queen sits one square from White's king, the bishop still aims through g3 toward h2, and both rooks can join the attack on a single move. White's task from here is unglamorous but real — untangle the pieces, trade off the attackers, and the extra pawn eventually decides the game, exactly as it did for Capablanca. Black's task is to keep finding ways to make the attack cost more than one pawn's worth of trouble.",
+          "concepts": ["attacking initiative", "long-term compensation"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry out of this gambit: compensation is judged by activity and king safety, never by material count alone — Black is a full pawn down at this position and grandmasters still fear it; accepting a sound-looking sacrifice is not automatically wrong, because refusing out of caution only helps the attacker, as Capablanca vs Marshall shows in full; and White always has a second option besides defending well — avoiding the confrontation altogether with an Anti-Marshall move order, which is a legitimate strategic choice, not a cop-out.",
+          "concepts": ["calculation", "long-term compensation"]
+        }
+      ],
+      "visual": [
+        { "type": "square", "square": "h2" },
+        { "type": "arrow", "from": "h3", "to": "h2" }
+      ]
+    }
+  ]
+}

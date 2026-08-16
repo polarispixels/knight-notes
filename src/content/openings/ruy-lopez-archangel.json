@@ -1,0 +1,208 @@
+{
+  "id": "ruy-lopez-archangel",
+  "catalogCode": "O027",
+  "focus": "black",
+  "title": "Archangel Defense",
+  "subtitle": "Ruy Lopez, Morphy Defense — the fianchetto that skips a step",
+  "type": "opening",
+  "difficulty": "advanced",
+  "summary": "Black plays ...b5 and fianchettoes the bishop the instant White castles, before ever developing the king's bishop to e7. The result is a bishop bearing down on White's kingside from move six, traded for a looser, less patient structure than the Closed Ruy Lopez is built on — a system for players who want activity now, not a slow squeeze twenty moves from now.",
+  "tags": ["Archangel Defense", "Archangelsk Variation", "Modern Archangel", "Neo-Archangelsk", "Ruy Lopez", "Spanish Game", "Morphy Defense"],
+  "concepts": ["queenside expansion", "fianchetto", "piece activity", "central tension", "tactical middlegames"],
+  "metadata": {
+    "eco": "C78",
+    "opening": "Ruy Lopez: Morphy Defense, Archangelsk Variation"
+  },
+  "rootAnnotations": [
+    {
+      "type": "key-idea",
+      "title": "What this lesson teaches",
+      "body": "In the family study and the Closed Ruy Lopez lesson, ...b5 arrives on move six, only after Black has already played ...Be7 — the bishop's diagonal home is settled before the queenside pawn moves. The Archangel reorders that: 5...b5 comes first, immediately followed by 6...Bb7, so the bishop is already aimed at e4 and beyond while the king's bishop is still undeveloped. The central question this lesson answers: is it worth delaying normal development for a piece that's active four moves sooner?"
+    }
+  ],
+  "line": [
+    "e4", "e5", "Nf3", "Nc6", "Bb5", "a6", "Ba4", "Nf6",
+    {
+      "san": "O-O",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "As in every Morphy Defense line, castling first temporarily leaves e4 unguarded — the family study covers why that pawn is not simply hanging. The Archangel doesn't touch it either; Black has other plans for this tempo."
+        }
+      ]
+    },
+    {
+      "san": "b5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "The defining move, one tempo early",
+          "body": "Compare this to the Closed Ruy Lopez: there, ...b5 is Black's sixth move, played only after ...Be7 has already been committed. Here it comes immediately, before the king's bishop has moved at all. The bishop kicks off the b3-diagonal and prepares the fianchetto that gives this whole system its character and its name.",
+          "concepts": ["queenside expansion"]
+        }
+      ]
+    },
+    "Bb3",
+    {
+      "san": "Bb7",
+      "classification": "theory",
+      "importance": "important",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Active four moves early",
+          "body": "The bishop develops onto the long diagonal, eyeing e4 immediately and, once the center opens, all the way to White's king. In the Closed Ruy Lopez this same bishop arrives on b7 only after nine or more moves of preparation; here it is ready on move six. The trade is direct: speed and activity now, against the slower structural squeeze the Closed systems are built around.",
+          "concepts": ["fianchetto", "piece activity"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "b7", "to": "e4" }]
+    },
+    {
+      "san": "Re1",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White defends e4 for good, exactly as in the Closed systems — the rook lift that finally turns nine moves of pressure into a real threat there does the same job here, just arriving sooner because Black spent those moves elsewhere."
+        }
+      ],
+      "variations": [
+        [
+          {
+            "san": "Nxe5",
+            "classification": "mistake",
+            "importance": "notable",
+            "annotations": [
+              {
+                "type": "warning",
+                "title": "Same tactic, new position",
+                "body": "The knight on c6 hasn't moved once in this whole sequence — it still defends e5 exactly the way it did on move three of the family study. No matter how sharp or unfamiliar a Ruy Lopez branch looks, that single fact never expires until the knight actually moves or trades."
+              }
+            ]
+          },
+          {
+            "san": "Nxe5",
+            "annotations": [
+              {
+                "type": "commentary",
+                "body": "Black simply recaptures. White has traded a knight for a pawn with nothing to show for it — the same verdict the family study reached the first time this idea came up, four moves earlier in a completely different line."
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "san": "Bc5",
+      "classification": "theory",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "question",
+          "body": "Black has a choice most Ruy Lopez lines don't offer this early: develop the king's bishop to the quiet e7 square as usual, or send it somewhere far more aggressive. What does putting it on c5 instead actually threaten?"
+        },
+        {
+          "type": "key-idea",
+          "title": "The Modern Archangel's real point",
+          "body": "Bc5 skips ...Be7 entirely and aims straight at f2, the classic soft spot next to a castled king — the same diagonal that makes the Italian Game dangerous, reached here through a Ruy Lopez move order. This is what separates the Modern (or Neo-Archangelsk) treatment from the Classical Archangelsk, which still plays the calmer ...Be7 after the same 6...Bb7 fianchetto. Both are sound; this lesson follows the sharper of the two.",
+          "concepts": ["piece activity"]
+        }
+      ],
+      "visual": [{ "type": "arrow", "from": "c5", "to": "f2" }]
+    },
+    {
+      "san": "c3",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "White prepares d4, the same preparatory idea the family study and the Closed Ruy Lopez lesson both rely on before ever pushing the center."
+        }
+      ]
+    },
+    {
+      "san": "d6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Black gives e5 a second defender and keeps the center flexible before White's break arrives."
+        }
+      ]
+    },
+    {
+      "san": "d4",
+      "classification": "theory",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The central break attacks the bishop on c5 directly — a d4 pawn strikes c5 and e5 both. e5 is safely held by the d6 pawn, but the bishop has nowhere useful to stand its ground."
+        }
+      ]
+    },
+    {
+      "san": "Bb6",
+      "annotations": [
+        {
+          "type": "commentary",
+          "title": "Stepping aside, staying on the diagonal",
+          "body": "The bishop retreats one square rather than trade or abandon its diagonal — it still aims at f2 through g1, just from further back.",
+          "concepts": ["piece activity"]
+        }
+      ]
+    },
+    {
+      "san": "a4",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "key-idea",
+          "title": "Attacking the base of the queenside chain",
+          "body": "White strikes at the pawn that started the whole system four moves ago. Black must decide whether to let the tension resolve with axb5 or push forward and keep the structure intact.",
+          "concepts": ["queenside expansion"]
+        }
+      ]
+    },
+    {
+      "san": "b4",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "Rather than allow the trade, Black advances — gaining more space but committing the queenside pawns permanently. The b4 pawn also presses c3, part of the ongoing tension neither side has resolved yet."
+        }
+      ]
+    },
+    {
+      "san": "a5",
+      "importance": "notable",
+      "annotations": [
+        {
+          "type": "commentary",
+          "body": "The pawn keeps coming and now attacks the bishop on b6 directly — nothing on b6 can survive an a5 pawn advance for free."
+        }
+      ]
+    },
+    {
+      "san": "Ba7",
+      "classification": "critical",
+      "importance": "critical",
+      "annotations": [
+        {
+          "type": "critical-position",
+          "title": "The signature retreat",
+          "body": "The bishop tucks into the corner rather than trade itself off — the third stop on a f8-c5-b6-a7 journey that never leaves the long diagonal. This retreat is the single most recognizable idea in the Archangelsk complex, championed at various points by Shirov, Svidler, and Nepomniachtchi: the bishop looks passive parked in the corner, but the moment the center opens with ...exd4 or a further break, it reactivates instantly toward g1 and White's king. White, meanwhile, has real central space and a queenside pawn (a5) that cramps Black's own structure — this is a genuine fight, not a favor to either side.",
+          "concepts": ["piece activity", "central tension"]
+        },
+        {
+          "type": "key-idea",
+          "title": "What you should have noticed",
+          "body": "Three lessons to carry out of this study: developing a piece early is only worth the tempo spent if the piece stays useful under pressure, which is exactly what the b6-a7 retreats prove rather than assume; a bishop in the corner is not automatically a bad bishop, if its diagonal is still open behind it; and the tactical justification for 3.Bb5 — e5 defended by the c6-knight — holds true across every branch of this opening, no matter how far the position has drifted from the family study's starting point.",
+          "concepts": ["piece activity", "queenside expansion", "central tension"]
+        }
+      ],
+      "visual": [
+        { "type": "arrow", "from": "a7", "to": "g1" },
+        { "type": "square", "square": "b6" }
+      ]
+    }
+  ]
+}
