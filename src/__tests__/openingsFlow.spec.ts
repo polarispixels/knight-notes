@@ -32,14 +32,27 @@ describe('openings browser flow', () => {
     return { wrapper, router }
   }
 
-  it('renders grouped families with availability states', async () => {
+  it('renders grouped families collapsed, expanding on tap', async () => {
     const { wrapper } = await openBrowser()
     expect(wrapper.find('[data-test="group-kings-pawn"]').exists()).toBe(true)
     expect(wrapper.find('[data-test="group-sicilian"]').exists()).toBe(true)
     const ruy = wrapper.find('[data-test="opening-ruy-lopez"]')
     expect(ruy.exists()).toBe(true)
     expect(ruy.text()).toContain('Lesson')
-    expect(wrapper.find('[data-test="opening-sicilian-najdorf"]').text()).toContain('Coming soon')
+    // Families start collapsed: variations appear only after expanding.
+    expect(wrapper.find('[data-test="opening-sicilian-najdorf"]').exists()).toBe(false)
+    await wrapper.find('[data-test="opening-sicilian-defense"] .row-line').trigger('click')
+    await settle()
+    const najdorf = wrapper.find('[data-test="opening-sicilian-najdorf"]')
+    expect(najdorf.exists()).toBe(true)
+    expect(najdorf.text()).toContain('Coming soon')
+  })
+
+  it('family lesson chip navigates without toggling the tree', async () => {
+    const { wrapper, router } = await openBrowser()
+    await wrapper.find('[data-test="family-lesson-ruy-lopez"]').trigger('click')
+    await settle()
+    expect(router.currentRoute.value.path).toBe('/study/ruy-lopez')
   })
 
   it('search finds the Nimzo-Larsen by alias and navigates to available lessons', async () => {

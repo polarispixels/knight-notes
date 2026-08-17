@@ -144,6 +144,25 @@ function openHit(node: OpeningNode) {
   align-items: center;
   flex-wrap: wrap;
 }
+/* Phones: search and filters stay pinned while the trees scroll. */
+@media (max-width: 640px) {
+  .openings-head {
+    margin-bottom: 0.9rem;
+  }
+  .controls {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    background: var(--paper);
+    padding: 0.5rem 0;
+    gap: 0.5rem;
+  }
+  .search {
+    flex: 1 1 100%;
+    min-width: 0;
+  }
+}
 .search {
   border: 1px solid var(--line);
   border-radius: 999px;

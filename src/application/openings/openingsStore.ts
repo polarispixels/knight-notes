@@ -31,6 +31,15 @@ export const useOpeningsStore = defineStore('openings', () => {
   const side = ref<SideFilter>('all')
   const loading = ref(false)
   const error = ref<string | null>(null)
+  /** Families the user has opened; survives in-session navigation. */
+  const expanded = ref<Set<string>>(new Set())
+
+  function toggleExpanded(id: string) {
+    const next = new Set(expanded.value)
+    if (next.has(id)) next.delete(id)
+    else next.add(id)
+    expanded.value = next
+  }
 
   async function load() {
     if (nodes.value.size > 0 || loading.value) return
@@ -78,13 +87,25 @@ export const useOpeningsStore = defineStore('openings', () => {
     return visible
   })
 
-  /** Families per navigation group, in display order. */
+  /** Families per navigation group: most important first, then by name. */
+  const TIER_RANK: Record<string, number> = {
+    core: 0,
+    major: 1,
+    specialized: 2,
+    historical: 3,
+    'branch-only': 4,
+    excluded: 5,
+  }
   const grouped = computed(() =>
     GROUP_ORDER.map((group) => ({
       ...group,
-      families: families.value.filter(
-        (f) => f.group === group.id && visibleIds.value.has(f.id),
-      ),
+      families: families.value
+        .filter((f) => f.group === group.id && visibleIds.value.has(f.id))
+        .sort(
+          (a, b) =>
+            TIER_RANK[a.tier] - TIER_RANK[b.tier] ||
+            a.canonicalName.localeCompare(b.canonicalName),
+        ),
     })).filter((g) => g.families.length > 0),
   )
 
@@ -121,16 +142,35 @@ export const useOpeningsStore = defineStore('openings', () => {
     return nodes.value.get(id)
   }
 
+  /** Standalone-lesson descendants per family (what a collapsed row promises). */
+  const lessonCounts = computed(() => {
+    const counts = new Map<string, number>()
+    const count = (node: OpeningNode): number => {
+      let n = node.standalone && node.lessonStatus === 'available' ? 1 : 0
+      for (const childId of node.children) {
+        const child = nodes.value.get(childId)
+        if (child) n += count(child)
+      }
+      counts.set(node.id, n)
+      return n
+    }
+    for (const node of nodes.value.values()) if (node.level === 'family') count(node)
+    return counts
+  })
+
   return {
     nodes,
     query,
     side,
     loading,
     error,
+    expanded,
+    toggleExpanded,
     load,
     grouped,
     visibleIds,
     searchResults,
+    lessonCounts,
     nodeById,
   }
 })
