@@ -15,12 +15,18 @@ Living document: current state, deliberate deferrals, and next candidates.
   (virtual:study-summaries) + per-study chunks; main bundle ~262KB.
 - Live at https://polarispixels.github.io/knight-notes/ (GitHub Pages,
   deploy gated by the full test suite on push to main). Docs at /docs/.
-- 600+ automated tests; content gate replays every move of every study.
+- 608 automated tests; content gate replays every move of every study.
+- Mobile pass (2026-08-17): study reader stacks board→commentary with the
+  move navigator fixed to the bottom of the viewport (safe-area aware) and
+  the board capped at min(92%, 52dvh); openings browser renders families
+  collapsed (expansion state in the store), tier-sorted within groups, with
+  sticky search/filters and tier chips on variation rows at phone widths.
 
 ## Engineering backlog (deliberate, not forgotten)
 - **PWA/offline**: natural V1.1 (app is already local-first); ~small task.
-- Openings browser refinements: collapse/expand for large families,
-  tier badges, and linking branch-only rows to the exact in-lesson branch.
+- Openings browser: link branch-only rows to the exact in-lesson branch
+  (needs a node/branch anchor in the study route — reader work, not
+  browser work).
 - Code-review deferrals (2026-08-15): seed.ts/toStudy.ts builder
   duplication (~40 lines, both tested — unify only with a reason);
   sessionStore recompute/localStorage micro-perf; ChessBoard unguarded-FEN
